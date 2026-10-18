@@ -1,4 +1,4 @@
-import { html, raw, compareText, setTitle } from '../util.js';
+import { html, raw, compareText, setTitle, enhanceStatblocks } from '../util.js';
 import { t } from '../i18n.js';
 import { replaceQuery } from '../router.js';
 import { createFilterPanel } from '../components/filters.js';
@@ -79,6 +79,7 @@ export function render(container, { R, query }) {
       ${raw(pager)}
       <div class="cards">${slice.map((s) => raw(spellCardHtml(R, s)))}</div>
       ${raw(pager)}`;
+    enhanceStatblocks(list);
   }
 
   draw();

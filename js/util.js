@@ -154,6 +154,50 @@ export function wrapDoc(container) {
   doc.append(...container.childNodes);
   container.append(doc);
   titleStrongs(doc);
+  enhanceStatblocks(doc);
+}
+
+const SB_SECTION =
+  /^(ações( bônus| lendárias)?|reaç(ão|ões)|traços|actions|bonus actions|legendary actions|reactions?|traits)$/i;
+
+// fichas de criatura em blocos, como no D&D Beyond e no 5etools: cabeçalho, atributos, valores de atributo,
+// e seções (Traços, Ações, Ações Bônus, Reações) com título próprio
+export function enhanceStatblocks(root) {
+  root.querySelectorAll('.statblock:not(.sb-ready)').forEach((sb) => {
+    sb.classList.add('sb-ready');
+    const [head, ...rest] = sb.children;
+    head?.classList.add('sb-head');
+    let inSection = false;
+    let traitsTitle = false;
+    for (const el of rest) {
+      const first = el.firstElementChild;
+      if (el.tagName === 'TABLE') {
+        el.classList.add('sb-abilities');
+      } else if (
+        el.tagName === 'P' &&
+        el.children.length === 1 &&
+        first?.tagName === 'STRONG' &&
+        SB_SECTION.test(el.textContent.trim())
+      ) {
+        el.classList.add('sb-section');
+        inSection = true;
+      } else if (
+        el.tagName === 'P' &&
+        (first?.tagName === 'EM' || (first?.tagName === 'STRONG' && first.firstElementChild?.tagName === 'EM'))
+      ) {
+        if (!inSection && !traitsTitle) {
+          const title = document.createElement('p');
+          title.className = 'sb-section';
+          title.innerHTML = `<strong>${escapeHtml(t('statblock.traits'))}</strong>`;
+          el.before(title);
+          traitsTitle = true;
+        }
+        el.classList.add('sb-entry');
+      } else if (el.tagName === 'P' && first?.tagName === 'STRONG') {
+        el.classList.add('sb-attrs');
+      }
+    }
+  });
 }
 
 // subtítulos em negrito no texto dos livros ("truques.", "pacto da corrente.") ganham a mesma capitalização dos títulos

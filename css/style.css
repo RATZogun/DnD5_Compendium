@@ -15,8 +15,10 @@
   --warn-text: #8a6d3b;
   --warn-border: #faebcc;
   --accent: #c9a24a;
+  --accent-text: #85641c;
   --row-alt: rgba(63, 81, 181, 0.07);
   --box-bg: rgba(63, 81, 181, 0.05);
+  --box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
   --popup-head: linear-gradient(100deg, #1c1f2e 0%, #2b3150 100%);
   --popup-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
   color-scheme: light;
@@ -36,8 +38,10 @@
   --warn-text: #f0d48a;
   --warn-border: #5c4d1f;
   --accent: #b8913f;
+  --accent-text: #d4ad5a;
   --row-alt: #0c0d16;
   --box-bg: #08090f;
+  --box-shadow: none;
   --popup-head: linear-gradient(100deg, #0b0b10 0%, #1d2240 100%);
   --popup-shadow: 0 8px 28px rgba(0, 0, 0, 0.8);
   color-scheme: dark;

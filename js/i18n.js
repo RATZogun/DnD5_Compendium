@@ -75,6 +75,7 @@ const STRINGS = {
     'spellFilter.material': 'material',
     'spellFilter.consumed': 'é consumido?',
 
+    'statblock.traits': 'Traços',
     'popup.badge': 'Magia',
     'popup.level': 'Nível',
     'popup.castingTime': 'Tempo de Conjuração',
@@ -245,6 +246,7 @@ const STRINGS = {
     'spellFilter.material': 'material',
     'spellFilter.consumed': 'consumed?',
 
+    'statblock.traits': 'Traits',
     'popup.badge': 'Spell',
     'popup.level': 'Level',
     'popup.castingTime': 'Casting Time',

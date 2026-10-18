@@ -1,4 +1,4 @@
-import { html, raw, titleCase } from '../util.js';
+import { html, raw, titleCase, enhanceStatblocks } from '../util.js';
 import { t, ordinal } from '../i18n.js';
 import { sourcesHtml, castingTimeText, rangeText, durationText } from './spellCard.js';
 
@@ -104,6 +104,7 @@ export function initSpellPopup(getR) {
     clearTimeout(hideTimer);
     if (current !== link) {
       box.innerHTML = popupHtml(R, spell);
+      enhanceStatblocks(box);
       box.scrollTop = 0;
       current = link;
     }

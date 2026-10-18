@@ -1,4 +1,4 @@
-import { html, setTitle } from '../util.js';
+import { html, setTitle, enhanceStatblocks } from '../util.js';
 import { t } from '../i18n.js';
 import { createFilterPanel } from '../components/filters.js';
 import { spellCardHtml } from '../components/spellCard.js';
@@ -49,6 +49,7 @@ export function render(container, { R }) {
     alert.hidden = Boolean(spell);
     btn.hidden = !spell;
     card.innerHTML = spell ? spellCardHtml(R, spell) : '';
+    enhanceStatblocks(card);
   }
 
   filtered = filterSpells(R, { ...SPELL_DEFAULTS, ...INITIAL });

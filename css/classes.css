@@ -314,31 +314,78 @@ details.intro summary {
 }
 .statblock {
   margin: 16px 0 20px;
-  padding: 14px 20px 6px;
+  padding: 14px 20px 8px;
   background: var(--box-bg);
   border-top: 3px solid var(--accent);
   border-bottom: 3px solid var(--accent);
+  box-shadow: var(--box-shadow);
   font-size: 15px;
   line-height: 1.6;
-}
-.statblock > p:first-child strong {
-  font-size: 20px;
-  font-weight: 400;
 }
 .statblock p {
   margin: 0 0 8px;
 }
-.statblock table {
+/* cabeçalho: nome em maiúsculas, tipo em itálico, separado do resto por um traço */
+.statblock .sb-head {
+  margin: 0 0 10px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--accent);
+  line-height: 1.35;
+}
+.statblock .sb-head strong {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.statblock .sb-attrs {
+  margin: 0 0 10px;
+}
+/* valores de atributo entre dois traços */
+.statblock table.sb-abilities {
   width: 100%;
   border-collapse: collapse;
-  margin: 4px 0 10px;
+  margin: 0 0 10px;
+  border-top: 2px solid var(--accent);
+  border-bottom: 2px solid var(--accent);
   font-size: 14px;
 }
-.statblock table th,
-.statblock table td {
-  padding: 4px 6px;
+.statblock table.sb-abilities th,
+.statblock table.sb-abilities td {
+  padding: 4px 6px 2px;
   border: 0;
   text-align: center;
+  background: transparent;
+}
+.statblock table.sb-abilities th {
+  padding-top: 8px;
+}
+.statblock table.sb-abilities td {
+  padding-bottom: 8px;
+}
+.statblock table.sb-abilities tbody tr {
+  background: transparent;
+}
+/* seções (Traços, Ações, Ações Bônus, Reações) com título próprio */
+.statblock .sb-section {
+  margin: 16px 0 8px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid var(--accent);
+  color: var(--accent-text);
+  font-size: 19px;
+  font-variant: small-caps;
+  letter-spacing: 0.02em;
+  line-height: 1.3;
+}
+.statblock .sb-section strong {
+  font-weight: 400;
+}
+.statblock .sb-entry {
+  margin: 0 0 8px;
+}
+.statblock .sb-entry > em:first-child strong,
+.statblock .sb-entry > strong:first-child {
+  font-weight: 700;
 }
 
 @media (max-width: 600px) {
