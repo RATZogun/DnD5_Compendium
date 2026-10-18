@@ -8,7 +8,7 @@ function versionHtml(R, v) {
   const intro = linkSpellTables(R, { html: v.intro_html }, pick(v.intro_html), v.spells);
   return html` <p class="text-muted">${raw(sourceLine(R, v.source, v.additional_sources))}</p>
     ${intro ? raw(html`<div class="subclass-intro">${raw(intro)}</div>`) : ''}
-    <div class="features">${v.features.map((f) => raw(featureHtml(R, f, null, v.spells)))}</div>`;
+    <div class="features">${v.features.map((f) => raw(featureHtml(R, f, v.spells)))}</div>`;
 }
 
 export async function render(container, { R, params }) {

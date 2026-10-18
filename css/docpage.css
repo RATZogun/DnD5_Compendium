@@ -1,4 +1,4 @@
-/* página de uma espécie: sumário à esquerda, texto no meio e ficha com a ilustração à direita */
+/* páginas de leitura (espécie e classe): sumário à esquerda, texto no meio e ficha com a ilustração à direita */
 
 .sx-layout {
   display: grid;
@@ -375,6 +375,207 @@
   margin: 0;
 }
 
+/* classe: ficha nas cores da categoria */
+.kx-art {
+  background: var(--cat-class-bg);
+  color: var(--cat-class);
+}
+
+/* tabela de progressão: 5 níveis e o resto ao expandir */
+.kx-table-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 16px;
+  margin: 0 0 12px;
+  color: var(--muted);
+  font-family: var(--font-ui);
+  font-size: 14px;
+}
+.kx-mine {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 0 auto;
+  padding: 2px 4px 2px 12px;
+  background: var(--row-alt);
+  color: var(--link);
+  font-weight: 600;
+}
+.kx-mine select {
+  width: auto;
+  height: 30px;
+  padding: 0 6px;
+  font-size: 13px;
+}
+.kx-table {
+  border: 1px solid var(--border);
+  background: var(--panel);
+}
+.sx-doc .kx-table table {
+  margin: 0;
+  font-family: var(--font-ui);
+}
+.sx-doc .kx-table thead th {
+  background: var(--box-bg);
+  border-bottom: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.sx-doc .kx-table tbody tr:nth-child(odd) {
+  background: transparent;
+}
+.kx-table:not(.is-open) tbody tr:nth-child(n + 6) {
+  display: none;
+}
+.sx-doc .kx-table tr.is-mine {
+  background: var(--row-alt);
+  box-shadow: inset 3px 0 0 var(--link);
+}
+.sx-doc .kx-table tr.is-mine > * {
+  color: var(--link);
+  font-weight: 600;
+}
+.kx-more {
+  margin: 10px 0 0;
+  font-family: var(--font-ui);
+  font-weight: 700;
+}
+.kx-more::before {
+  content: '▾ ';
+}
+.kx-more[aria-expanded='true']::before {
+  content: '▴ ';
+}
+
+/* características em linha do tempo por nível */
+.kx-core {
+  margin-bottom: 8px;
+}
+.kx-timeline {
+  margin: 24px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.kx-level {
+  position: relative;
+  padding: 0 0 28px 60px;
+  scroll-margin-top: 16px;
+}
+.kx-level::before {
+  content: '';
+  position: absolute;
+  top: 44px;
+  bottom: 8px;
+  left: 19px;
+  width: 2px;
+  background: var(--border);
+}
+.kx-dot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--input-border);
+  background: var(--panel);
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-weight: 700;
+}
+.kx-level.is-mine .kx-dot {
+  border-color: var(--link);
+  background: var(--link);
+  color: #fff;
+}
+.sx-doc .kx-level-name {
+  margin: 0 0 -14px;
+  padding-top: 2px;
+  color: var(--muted);
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.kx-level.is-mine .kx-level-name {
+  color: var(--link);
+}
+
+/* subclasses em cartões */
+.kx-subs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  font-family: var(--font-ui);
+}
+.kx-sub {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 36px 14px 14px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--text);
+  line-height: 1.35;
+}
+.kx-sub:hover {
+  border-color: var(--cat-class);
+  text-decoration: none;
+}
+.kx-sub strong {
+  font-size: 15px;
+}
+.kx-sub span {
+  color: var(--muted);
+  font-size: 12px;
+}
+.kx-sub svg {
+  position: absolute;
+  right: 12px;
+  bottom: 14px;
+  color: var(--link);
+}
+
+/* atalho para as magias da classe */
+.kx-spells {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 20px;
+  background: var(--cat-spell-bg);
+  font-family: var(--font-ui);
+}
+.kx-spells-icon {
+  display: inline-flex;
+  color: var(--cat-spell);
+}
+.kx-spells-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.35;
+}
+.kx-spells-text strong {
+  font-family: var(--font-heading);
+  font-size: 20px;
+}
+.kx-spells-text small {
+  color: var(--muted);
+  font-size: 13px;
+}
+.kx-spells .btn {
+  flex: none;
+  font-weight: 700;
+}
+
 @media (max-width: 1100px) {
   .sx-layout {
     grid-template-columns: minmax(0, 1fr) 250px;
@@ -397,6 +598,7 @@
   .sx-layout {
     display: flex;
     flex-direction: column;
+    align-items: stretch;
     gap: 0;
   }
   .sx-doc {
@@ -415,6 +617,7 @@
   }
   .sx-doc > :not(.sx-head) {
     order: 3;
+    min-width: 0;
   }
   .sx-crumb-home,
   .sx-chip-k,
@@ -697,6 +900,27 @@
   }
   .sx-fab[hidden] {
     display: none;
+  }
+}
+
+@media (max-width: 820px) {
+  .kx-level {
+    padding-left: 52px;
+    scroll-margin-top: 72px;
+  }
+  .kx-subs {
+    grid-template-columns: 1fr 1fr;
+  }
+  .kx-spells {
+    flex-wrap: wrap;
+  }
+  .kx-mine {
+    margin-left: 0;
+  }
+}
+@media (max-width: 480px) {
+  .kx-subs {
+    grid-template-columns: 1fr;
   }
 }
 
