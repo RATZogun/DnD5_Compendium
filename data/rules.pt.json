@@ -981,7 +981,7 @@
     { "abbreviation": "GVRR", "name": "Guia de Van Richten para Ravenloft" },
     { "abbreviation": "BGG", "name": "Bigby Apresenta: A Glória dos Gigantes" },
     { "abbreviation": "MPMM", "name": "Mordenkainen Apresenta: Monstros do Multiverso" },
-    { "abbreviation": "LDJ", "name": "Livro do Jogador (Galápagos)" }
+    { "abbreviation": "LDJ", "name": "Livro do Jogador" }
   ],
   "specializations": [
     {

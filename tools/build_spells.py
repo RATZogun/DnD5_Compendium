@@ -27,7 +27,7 @@ SOURCES_PT = [
     ('GVRR', 'Guia de Van Richten para Ravenloft'),
     ('BGG', 'Bigby Apresenta: A Glória dos Gigantes'),
     ('MPMM', 'Mordenkainen Apresenta: Monstros do Multiverso'),
-    ('LDJ', 'Livro do Jogador (Galápagos)'),
+    ('LDJ', 'Livro do Jogador'),
 ]
 SOURCES_EN = [
     ('PHB', "Player's Handbook"),

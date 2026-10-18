@@ -32,6 +32,7 @@ const NONE = ['nenhum', 'none'];
 export function spellFilterFields(R) {
   const S = R.spells;
   const levels = S.map((s) => s.level);
+  const books = new Set(S.flatMap((s) => (s.sources_rels ?? []).map((r) => r.source_abbreviation)));
   const components = t('spellFilter.components');
   return [
     { key: 'name', label: t('common.name'), type: 'text' },
@@ -108,7 +109,10 @@ export function spellFilterFields(R) {
       key: 'sourceAbbreviation',
       label: t('common.source'),
       type: 'select',
-      options: () => R.sources.map((s) => ({ value: s.abbreviation, label: titleCase(s.name) })),
+      options: () =>
+        R.sources
+          .filter((s) => books.has(s.abbreviation))
+          .map((s) => ({ value: s.abbreviation, label: titleCase(s.name) })),
     },
     { key: 'hasVerbalComponent', label: t('spellFilter.verbal'), type: 'boolean', fieldset: components },
     { key: 'hasSomaticComponent', label: t('spellFilter.somatic'), type: 'boolean', fieldset: components },
