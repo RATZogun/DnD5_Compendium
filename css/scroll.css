@@ -1,0 +1,9 @@
+.randomize-btn {
+  display: block;
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 20px;
+}
+.randomize-btn[hidden] {
+  display: none;
+}

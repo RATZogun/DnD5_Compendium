@@ -1,0 +1,69 @@
+{
+  "slug": "merfolk",
+  "name": {
+    "pt": "povo do mar",
+    "en": "Merfolk"
+  },
+  "source": {
+    "pt": {
+      "book": "LDM",
+      "page": 282
+    },
+    "en": {
+      "book": "DMG",
+      "page": 282
+    }
+  },
+  "intro_html": {
+    "pt": "",
+    "en": null
+  },
+  "traits": [
+    {
+      "key": "ability-score-increase",
+      "name": {
+        "pt": "aumento no valor de atributo",
+        "en": "Ability Score Increase"
+      },
+      "html": {
+        "pt": "<p>Nenhum</p>",
+        "en": null
+      }
+    },
+    {
+      "key": "speed",
+      "name": {
+        "pt": "deslocamento",
+        "en": "Speed"
+      },
+      "html": {
+        "pt": "<p>3 m, natação 12 m</p>",
+        "en": null
+      }
+    },
+    {
+      "key": "other-traits",
+      "name": {
+        "pt": "outros traços",
+        "en": "Other Traits"
+      },
+      "html": {
+        "pt": "<p>Anfíbio</p>",
+        "en": "<p><strong><em>Amphibious.</em></strong> You can breathe air and water.</p>"
+      }
+    },
+    {
+      "key": "languages",
+      "name": {
+        "pt": "idiomas",
+        "en": "Languages"
+      },
+      "html": {
+        "pt": "<p>fala Aquan e Comum</p>",
+        "en": "<p>You can speak, read, and write Common and Aquan.</p>"
+      }
+    }
+  ],
+  "subraces": [],
+  "spells": []
+}

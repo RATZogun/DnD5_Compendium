@@ -1,0 +1,102 @@
+{
+ "slug": "tabaxi",
+ "name": {
+  "pt": "tabaxi",
+  "en": "Tabaxi"
+ },
+ "source": {
+  "pt": {
+   "book": "MPMM",
+   "page": 33
+  },
+  "en": {
+   "book": "MPMM",
+   "page": 33
+  }
+ },
+ "intro_html": {
+  "pt": "<p>Criados pelo Lorde Felino — um ser divino dos Planos Superiores — para misturar as qualidades de humanoides e felinos, tabaxis são um povo variado, tanto em atitude quanto em aparência. Em algumas regiões, os tabaxi vivem como os felinos que sua aparência reflete, curiosos por natureza e à vontade em ambientes lúdicos. Em outros lugares, os tabaxi vivem como as demais pessoas, não exibindo o comportamento felino que o Lorde Felino pretendia.</p><p>A aparência dos tabaxi é tão variada quanto suas atitudes. Alguns tabaxis têm características ou padrões em sua pele como tigres, onças ou outros felinos grandes, enquanto outros se assemelham mais aos gatos domésticos. Outros ainda têm padrões únicos ou podem estilizar seu pelo de acordo com suas preferências — ou podem até mesmo não ter pelos!</p>",
+  "en": "<p>Created by the Cat Lord—a divine being of the Upper Planes—to blend the qualities of humanoids and cats, tabaxi are a varied people in both attitude and appearance. In some lands, tabaxi live like the cats they resemble, naturally curious and at home in playful environments. In other places, tabaxi live as other folk do, not exhibiting the feline behavior the Cat Lord intended.</p><p>Tabaxi’s appearance is as varied as their attitudes. Some tabaxi have features or patterning in their fur like tigers, jaguars, or other big cats, while others have appearances more like a house cat. Still others have unique patterns or might style their fur to their preferences—or might even be hairless!</p>"
+ },
+ "traits": [
+  {
+   "key": "creature-type",
+   "name": {
+    "pt": "tipo de Criatura",
+    "en": "Creature Type"
+   },
+   "html": {
+    "pt": "<p>Você é um humanoide.</p>",
+    "en": "<p>You are a Humanoid.</p>"
+   }
+  },
+  {
+   "key": "size",
+   "name": {
+    "pt": "tamanho",
+    "en": "Size"
+   },
+   "html": {
+    "pt": "<p>Você é Médio ou Pequeno. Você escolhe o tamanho ao selecionar esta raça.</p>",
+    "en": "<p>You are Medium or Small. You choose the size when you select this race.</p>"
+   }
+  },
+  {
+   "key": "speed",
+   "name": {
+    "pt": "deslocamento",
+    "en": "Speed"
+   },
+   "html": {
+    "pt": "<p>Seu deslocamento de caminhada é 9 metros, e você tem um deslocamento de escalada equivalente ao seu deslocamento de caminhada.</p>",
+    "en": "<p>Your walking speed is 30 feet, and you have a climbing speed equal to your walking speed.</p>"
+   }
+  },
+  {
+   "key": "feline-agility",
+   "name": {
+    "pt": "agilidade Felina",
+    "en": "Feline Agility"
+   },
+   "html": {
+    "pt": "<p>Seus reflexos e agilidade permitem que você se mova com uma explosão de velocidade. Quando você se move em seu turno de combate, você pode dobrar seu deslocamento até o fim do turno. Uma vez que você usar este traço, não poderá usá-lo novamente até tenha se movido 0 metro em um de seus turnos.</p>",
+    "en": "<p>Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can’t use it again until you move 0 feet on one of your turns.</p>"
+   }
+  },
+  {
+   "key": "cats-claws",
+   "name": {
+    "pt": "garras Felinas",
+    "en": "Cat’s Claws"
+   },
+   "html": {
+    "pt": "<p>Você pode usar suas garras para desferir golpes desarmados. Quando você acerta com elas, o golpe causa dano cortante igual a 1d6 + seu modificador de Força, ao invés do dano contundente normal para um golpe desarmado.</p>",
+    "en": "<p>You can use your claws to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.</p>"
+   }
+  },
+  {
+   "key": "cats-talent",
+   "name": {
+    "pt": "talento Felino",
+    "en": "Cat’s Talent"
+   },
+   "html": {
+    "pt": "<p>Você tem proficiência nas perícias Furtividade e Percepção.</p>",
+    "en": "<p>You have proficiency in the Perception and Stealth skills.</p>"
+   }
+  },
+  {
+   "key": "darkvision",
+   "name": {
+    "pt": "visão no Escuro",
+    "en": "Darkvision"
+   },
+   "html": {
+    "pt": "<p>Você consegue enxergar até 18 metros na meia-luz como se fosse luz plena e, na escuridão, como se fosse meia-luz. Na escuridão você só consegue discernir tons de cinza.</p>",
+    "en": "<p>You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>"
+   }
+  }
+ ],
+ "subraces": [],
+ "spells": []
+}

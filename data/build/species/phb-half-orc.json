@@ -1,0 +1,135 @@
+{
+ "slug": "half-orc",
+ "name": {
+  "pt": "meio-orc",
+  "en": "Half-Orc"
+ },
+ "source": {
+  "pt": {
+   "book": "LDJ",
+   "page": 40
+  },
+  "en": {
+   "book": "PHB",
+   "page": 40
+  }
+ },
+ "intro_html": {
+  "pt": "<p>O chefe guerreiro Mhurren despertou em meio a suas peles-de-sono, acordou sua mulher, e lançou uma malha de pesados anéis de aço sobre seu tronco largo e musculoso. Ele costumava acordar antes da maioria dos seus guerreiros, já que possuía uma forte veia de sangue humano e, por isso, achava a luz do dia menos irritante que o restante da tribo. Entre os Caveiras Sangrentas, um guerreiro é julgado por sua força, ferocidade e tenacidade. A ancestralidade humana não era motivo de vergonha — desde que o meio-orc fosse tão forte, resistente e sanguinolento quanto os orcs de sangue puro. Meio-orcs mais fracos que seus companheiros orcs não duravam muito tempo entre os Caveiras Sangrentas, ou em qualquer outra tribo. Mas era verdade que uma pitada de sangue humano concedia a um guerreiro a mistura exata de astúcia, ambição e autodisciplina para se superar, como Mhurren fazia. Ele era o chefe guerreiro mais forte em Thar, e o senhor de uma tribo capaz de reunir duas mil lanças.</p><p><em>— Richard Baker, Swordmage [Mago da Espada]</em></p><p>Seja unidos sob a liderança de um poderoso bruxo, ou tendo lutado por anos até chegarem a um impasse, tribos orcs e humanas podem formar alianças ao unirem forças em uma horda ainda mais poderosa, para o terror das terras civilizadas ao redor. Quando essas alianças são seladas por casamentos, nascem os meio-orcs. Alguns tornam-se orgulhosos chefes de tribos orcs, seu sangue humano dando-lhes vantagem sobre seus rivais de sangue puro. Outros aventuram-se no mundo, para provar seu valor entre os humanos e outras raças mais civilizadas. Muitos desses tornam-se aventureiros, alcançando grandeza e notoriedade por meio das suas proezas, costumes bárbaros e fúria selvagem.</p><p><strong>Marcados e Fortes</strong></p><p>A pigmentação cinzenta dos meio-orcs, suas testas avantajadas, mandíbulas e dentes salientes e corpos maciços tornam flagrante a sua herança orc. Meio-orcs têm entre 1,5 e 1,9 metro de altura e pesam entre 90 e 125 quilos.</p><p>Os orcs consideram as cicatrizes de batalha sinais de orgulho e as escarificações ornamentais obras de arte. Mas há cicatrizes que marcam um orc ou meio-orc como um ex-escravo ou exilado sem honra. Qualquer meio-orc que tenha vivido entre os orcs possui cicatrizes — sejam estas marcas de humilhação ou de orgulho — que contam suas feridas e proezas. Um meio-orc repleto de cicatrizes que viva entre os humanos poderia mostrá-las com orgulho ou escondê-las com vergonha.</p><p><strong>A Marca de Gruumsh</strong></p><p>Gruumsh, o deus caolho, criou os orcs, e mesmo aqueles que se afastam da sua adoração não podem escapar totalmente da sua influência. O mesmo se aplica aos meio-orcs, embora seu sangue humano abrande o impacto da sua herança orc. Alguns meio-orcs ouvem os sussurros de Gruumsh em seus sonhos, chamando-os para que liberem a raiva que ferve em seu interior. Outros sentem a exultação de Gruumsh quando se engajam em combate corpo a corpo — e, nesse caso, enchem-se de júbilo ou tremem de ódio e medo. Os meio-orcs não são maus por natureza, mas o mal espreita em seu interior, quer o abracem ou rejeitem.</p><p>Além da fúria do Gruumsh, os meio-orcs possuem emoções extremamente intensas. A fúria não só lhes acelera o pulso, mas faz com que seus corpos queimem. Um insulto arde como ácido, e a tristeza exaure suas forças. Em contrapartida, além de rirem cordialmente e muito alto, prazeres simples como comer, beber, lutar, tocar tambor e dançar de modo selvagem enchem seus corações de alegria. Eles possuem um temperamento explosivo e, às vezes, ficam rabugentos e mais inclinados à ação e à luta do que à contemplação e à discussão. Os meio-orcs mais íntegros são aqueles que desenvolveram autocontrole suficiente para sobreviverem em terras civilizadas.</p><p><strong>Tribos e Periferias</strong></p><p>Os meio-orcs vivem entre os orcs. Das demais raças, os humanos são os mais propensos a aceitar meio-orcs, por isso, quando estes não estão em meio às tribos orcs, quase sempre vivem em terras humanas. Seja provando seu valor entre as tribos bárbaras, seja lutando para sobreviver nas favelas das grandes cidades, os meio-orcs sobrevivem por meio da sua força física, resistência, e pura determinação herdada da sua descendência humana.</p><p><strong>Aceitação Relutante</strong></p><p>Cada meio-orc encontra uma maneira de ganhar a aceitação daqueles que odeiam orcs. Alguns são reservados, tentando não chamar a atenção para si mesmos. Uns poucos demonstram piedade e bom-coração publicamente (tais demonstrações sendo ou não genuínas). Outros simplesmente tentam ser durões a ponto de os outros simplesmente os evitarem.</p><p><strong>Nomes de Meio-Orcs</strong></p><p>Meio-orcs costumam ter nomes originários da cultura em que foram criados. Um meio-orc que deseja se encaixar entre humanos pode trocar um nome orc por um nome humano. Alguns meio-orcs com nomes humanos decidem adotar um nome orc gutural por acharem que isso os torna mais intimidadores.</p><p><strong>Nomes Orcs Masculinos:</strong> Dench, Feng, Gell, Henk, Holg, Imsh, Keth, Krusk, Mhurren, Ront, Shump, Thokk</p><p><strong>Nomes Orcs Femininos:</strong> Baggi, Emen, Engong, Kansif, Myev, Neega, Ovak, Ownka, Shautha, Sutha, Vola, Volen, Yevelda</p>",
+  "en": "<p>The warchief Mhurren roused himself from his sleeping-furs and his women and pulled a short hauberk of heavy steel rings over his thick, well-muscled torso. He usually rose before most of his warriors, since he had a strong streak of human blood in him, and he found the daylight less bothersome than most of his tribe did. Among the Bloody Skulls, a warrior was judged by his strength, his fierceness, and his wits. Human ancestry was no blemish against a warrior—provided he was every bit as strong, enduring, and bloodthirsty as his full-blooded kin. Half-orcs who were weaker than their orc comrades didn’t last long among the Bloody Skulls or any other orc tribe for that matter. But it was often true that a bit of human blood gave a warrior just the right mix of cunning, ambition, and self-discipline to go far indeed, as Mhurren had. He was master of a tribe that could muster two thousand spears, and the strongest chief in Thar.</p><p><em>— Richard Baker, Swordmage</em></p><p>Whether united under the leadership of a mighty warlock or having fought to a standstill after years of conflict, orc and human communities, sometimes form alliances. When these alliances are sealed by marriages, half-orcs are born. Some half-orcs rise to become proud leaders of orc communities. Some venture into the world to prove their worth. Many of these become adventurers, achieving greatness for their mighty deeds.</p><p><strong>Scarred and Strong</strong></p><p>Half-orcs exhibit a blend of orcish and human characteristics, and their appearance varies widely. Grayish skin tones and prominent teeth are the most common shared elements among these folk.</p><p>Orcs regard battle scars as tokens of pride and ornamental scars as things of beauty. Other scars, though, mark an orc or half-orc as a former prisoner or a disgraced exile. Any half-orc who has lived among or near orcs has scars, whether they are marks of humiliation or of pride, recounting their past exploits and injuries.</p><p><strong>The Mark of Gruumsh</strong></p><p>The one-eyed god Gruumsh—lord of war and fury—created the first orcs, and even those orcs who turn away from his worship carry his blessings of might and endurance. The same is true of half-orcs. Some half-orcs hear the whispers of Gruumsh in their dreams, calling them to unleash the rage that simmers within them. Others feel Gruumsh’s exultation when they join in melee combat — and either exult along with him or shiver with fear and loathing.</p><p>Beyond the rage of Gruumsh, half-orcs feel emotion powerfully. Rage doesn’t just quicken their pulse, it makes their bodies burn. An insult stings like acid, and sadness saps their strength. But they laugh loudly and heartily, and simple pleasures — feasting, drinking, wrestling, drumming, and wild dancing — fill their hearts with joy. They tend to be short-tempered and sometimes sullen, more inclined to action than contemplation and to fighting than arguing. And when their hearts swell with love, they leap to perform acts of great kindness and compassion.</p><p><strong>Half-Orc Names</strong></p><p>Half-orcs usually have names appropriate to the culture in which they were raised. A half-orc who wants to fit in among humans might trade an orc name for a human name. Some half-orcs with human names decide to adopt a guttural orc name because they think it makes them more intimidating.</p><p><strong>Male Orc Names: </strong>Dench, Feng, Gell, Henk, Holg, Imsh, Keth, Krusk, Mhurren, Ront, Shump, Thokk</p><p><strong>Female Orc Names: </strong>Baggi, Emen, Engong, Kansif, Myev, Neega, Ovak, Ownka, Shautha, Sutha, Vola, Volen, Yevelda</p>"
+ },
+ "traits": [
+  {
+   "key": "ability-score-increase",
+   "name": {
+    "pt": "aumento no valor de atributo",
+    "en": "Ability Score Increase"
+   },
+   "html": {
+    "pt": "<p>Seu valor de Força aumenta em 2 e seu valor de Constituição em 1.</p>",
+    "en": "<p>Your Strength score increases by 2, and your Constitution score increases by 1.</p>"
+   }
+  },
+  {
+   "key": "age",
+   "name": {
+    "pt": "idade",
+    "en": "Age"
+   },
+   "html": {
+    "pt": "<p>Meio-orcs amadurecem um pouco mais rápido que os humanos, alcançando a maioridade em torno dos 14 anos. Eles também envelhecem mais rápido, raramente vivendo mais do que 75 anos.</p>",
+    "en": "<p>Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.</p>"
+   }
+  },
+  {
+   "key": "alignment",
+   "name": {
+    "pt": "alinhamento",
+    "en": null
+   },
+   "html": {
+    "pt": "<p>Meio-orcs herdam a tendência para o caos de seus pais orcs e não são inclinados para o bem. Aqueles criados entre orcs e que desejam viver entre eles costumam ser maus.</p>",
+    "en": null
+   }
+  },
+  {
+   "key": "size",
+   "name": {
+    "pt": "tamanho",
+    "en": "Size"
+   },
+   "html": {
+    "pt": "<p>Seu tamanho é Médio. Meio-orcs de um modo geral são maiores e mais encorpados que os humanos, variando entre 1,5 e 1,9 metro de altura.</p>",
+    "en": "<p>Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium.</p>"
+   }
+  },
+  {
+   "key": "speed",
+   "name": {
+    "pt": "deslocamento",
+    "en": "Speed"
+   },
+   "html": {
+    "pt": "<p>Seu deslocamento básico é de 9 metros.</p>",
+    "en": "<p>Your base walking speed is 30 feet.</p>"
+   }
+  },
+  {
+   "key": "darkvision",
+   "name": {
+    "pt": "visão no escuro",
+    "en": "Darkvision"
+   },
+   "html": {
+    "pt": "<p>Graças ao seu sangue orc, você possui uma visão superior no escuro. Você consegue enxergar até 18 metros na meia-luz como se fosse dia e, na escuridão, como se fosse meia-luz. Na escuridão você só consegue discernir tons de cinza.</p>",
+    "en": "<p>Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>"
+   }
+  },
+  {
+   "key": "menacing",
+   "name": {
+    "pt": "ameaçador",
+    "en": "Menacing"
+   },
+   "html": {
+    "pt": "<p>Você é proficiente na perícia Intimidação.</p>",
+    "en": "<p>You gain proficiency in the Intimidation skill.</p>"
+   }
+  },
+  {
+   "key": "relentless-endurance",
+   "name": {
+    "pt": "vigor implacável",
+    "en": "Relentless Endurance"
+   },
+   "html": {
+    "pt": "<p>Quando seus pontos de vida forem reduzidos a 0, mas você ainda não estiver morto, aumente-os para 1. Você não pode usar este recurso novamente até completar um descanso longo.</p>",
+    "en": "<p>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest.</p>"
+   }
+  },
+  {
+   "key": "savage-attacks",
+   "name": {
+    "pt": "ataques selvagens",
+    "en": "Savage Attacks"
+   },
+   "html": {
+    "pt": "<p>Ao obter um acerto crítico em um ataque com uma arma de combate corpo a corpo, você pode jogar novamente um dos dados de dano e adicionar o resultado ao dano extra do acerto crítico.</p>",
+    "en": "<p>When you score a critical hit with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.</p>"
+   }
+  },
+  {
+   "key": "languages",
+   "name": {
+    "pt": "idiomas",
+    "en": "Languages"
+   },
+   "html": {
+    "pt": "<p>Você fala, lê e escreve Comum e Orc. Este último é um idioma rude, com chiados e consoantes fortes. Ele não possui alfabeto próprio, mas é escrito no alfabeto Anão.</p>",
+    "en": "<p>You can speak, read, and write Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script.</p>"
+   }
+  }
+ ],
+ "subraces": [],
+ "spells": []
+}

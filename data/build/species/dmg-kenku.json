@@ -1,0 +1,58 @@
+{
+  "slug": "kenku",
+  "name": {
+    "pt": "kenku",
+    "en": "Kenku"
+  },
+  "source": {
+    "pt": {
+      "book": "LDM",
+      "page": 282
+    },
+    "en": {
+      "book": "DMG",
+      "page": 282
+    }
+  },
+  "intro_html": {
+    "pt": "",
+    "en": null
+  },
+  "traits": [
+    {
+      "key": "ability-score-increase",
+      "name": {
+        "pt": "aumento no valor de atributo",
+        "en": "Ability Score Increase"
+      },
+      "html": {
+        "pt": "<p>+2 Des</p>",
+        "en": null
+      }
+    },
+    {
+      "key": "other-traits",
+      "name": {
+        "pt": "outros traços",
+        "en": "Other Traits"
+      },
+      "html": {
+        "pt": "<p>Emboscador, Mimetismo</p>",
+        "en": "<p><strong><em>Ambusher.</em></strong> In the first round of a combat, you have advantage on attack rolls against any creature who is surprised.</p><p><strong><em>Mimicry.</em></strong> You can mimic any sounds you have heard, including voices. A creature that hears the sounds can tell they are imitations with a successful 14 Wisdom (Insight) check.</p>"
+      }
+    },
+    {
+      "key": "languages",
+      "name": {
+        "pt": "idiomas",
+        "en": "Languages"
+      },
+      "html": {
+        "pt": "<p>entende Auran e Comum, mas fala somente através do uso de sua característica Mimetismo</p>",
+        "en": "<p>You can read and write Common and Auran, but you can only speak using your Mimicry trait.</p>"
+      }
+    }
+  ],
+  "subraces": [],
+  "spells": []
+}

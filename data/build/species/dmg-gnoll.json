@@ -1,0 +1,47 @@
+{
+  "slug": "gnoll",
+  "name": {
+    "pt": "gnoll",
+    "en": "Gnoll"
+  },
+  "source": {
+    "pt": {
+      "book": "LDM",
+      "page": 282
+    },
+    "en": {
+      "book": "DMG",
+      "page": 282
+    }
+  },
+  "intro_html": {
+    "pt": "",
+    "en": null
+  },
+  "traits": [
+    {
+      "key": "ability-score-increase",
+      "name": {
+        "pt": "aumento no valor de atributo",
+        "en": "Ability Score Increase"
+      },
+      "html": {
+        "pt": "<p>+2 For, -2 Int</p>",
+        "en": null
+      }
+    },
+    {
+      "key": "other-traits",
+      "name": {
+        "pt": "outros traços",
+        "en": "Other Traits"
+      },
+      "html": {
+        "pt": "<p>Frenesi; visão no escuro 18 m</p>",
+        "en": "<p><strong><em>Bite.</em></strong> Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p><p><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can&#x27;t discern color in darkness, only shades of gray.</p><p><strong><em>Rampage.</em></strong> When you reduce a creature to 0 hit points with a melee attack on your turn, you can take a bonus action to move up to half your speed and make a bite attack.</p>"
+      }
+    }
+  ],
+  "subraces": [],
+  "spells": []
+}

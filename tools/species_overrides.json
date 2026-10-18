@@ -1,0 +1,15 @@
+{
+  "duplicates": {
+    "aarakocra": "MPMM",
+    "aasimar": "MPMM",
+    "deep-gnome": "MPMM",
+    "goblin": "MPMM",
+    "hobgoblin": "MPMM",
+    "kenku": "MPMM",
+    "kobold": "MPMM",
+    "lizardfolk": "MPMM",
+    "orc": "MPMM"
+  },
+  "exclude_books": ["LDM", "GACE"],
+  "remove_subraces": ["duergar"]
+}

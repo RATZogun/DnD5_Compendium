@@ -1,0 +1,384 @@
+{
+ "slug": "tiefling",
+ "name": {
+  "pt": "tiferino",
+  "en": "Tiefling"
+ },
+ "source": {
+  "pt": {
+   "book": "LDJ",
+   "page": 42
+  },
+  "en": {
+   "book": "PHB",
+   "page": 42
+  }
+ },
+ "intro_html": {
+  "pt": "<p>\"Mas estou certo de que nota o modo como as pessoas olham pra você, filha do diabo.\"</p><p>Aqueles olhos negros, frios como uma tempestade de inverno, fitavam direto em seu coração, e a seriedade repentina na voz do outro a abalou.</p><p>\"Sobre o que estão falando?\", ele perguntou. \"Um, uma curiosidade; dois, uma conspiração...\"</p><p>\"Três, uma maldição\", ela concluiu. \"Você acha que eu nunca ouvi essa bobagem antes?\"</p><p>\"Estou certa de que ouviu\". Ela o fitava enquanto ele concluía: \"Não é como se eu estivesse penetrando nas profundezas da sua mente, querida menina. Esse é o fardo de todo tiferino. Alguns conseguem escapar dele, outros transformam-no na corda em volta dos seus pescoços; e outros apenas se deleitam.\" Ele inclinou a cabeça novamente, analisando-a, um brilho depravado em seus olhos. \"Você resiste, não é mesmo? Como uma pequena gata selvagem, aposto. Cada alfinetada ou comentário apenas afia suas garras.\"</p><p><em>— Erin M. Evans, Brimstone Angels [Anjos de Enxofre]</em></p><p>Ser recebido com olhares e sussurros, sofrer violência e insultos na rua, ver desconfiança e medo em todos os olhares: esse é o destino de todo tiferino. E, o que só faz piorar, todo tiferino sabe que isso se deve a um pacto, selado há gerações, que infundiu a essência de Asmodeus — Senhor dos Nove Infernos — no sangue da sua linhagem. Eles não têm culpa por sua aparência e natureza, frutos de um antigo pecado pelo qual eles, seus filhos e os filhos dos seus filhos terão que pagar para sempre.</p><p><strong>Linhagem Infernal</strong></p><p>Os tiferinos descendem de linhagens humanas e, com as devidas ressalvas, ainda parecem humanos. No entanto, sua herança infernal deixou uma marca física evidente. Todo tiferino possui chifres grandes que podem assumir uma grande variedade de formas: uns são enrolados como os de um carneiro, outros são retos e altos como os das gazelas, e alguns são espiralados como os dos antílopes. Eles possuem caudas grossas, com 1,2 a 1,5 metro de comprimento, que se enroscam em torno das pernas quando eles ficam frustrados ou nervosos. Seus caninos são pontiagudos e seus olhos são de cores sólidas — preto, vermelho, branco, prata ou ouro —, sem esclera ou pupila. Seus tons de pele cobrem toda a gama da coloração humana, mas também incluem tons de vermelho. Seus cabelos, caindo por trás dos chifres, costumam ser escuros, variando entre preto, castanho, vermelho, azul ou roxo.</p><p><strong>Independentes e Desconfiados</strong></p><p>Os tiferinos são quase sempre marginalizados nas cidades ou aldeias humanas, geralmente habitando os bairros mais perigosos, onde crescem até se tornarem trapaceiros, ladrões ou senhores do crime. Ocasionalmente, podem viver junto a outras populações minoritárias, em enclaves nos quais são tratados com mais respeito.</p><p>Sem pátria definida, sabem que é necessário trilhar seu próprio caminho num mundo em que precisam ser fortes para sobreviver. Eles demoram a confiar em qualquer um que afirme ser um amigo, mas quando recebem confiança, a reciprocidade é certa. Uma vez que um tiferino tenha dedicado sua lealdade a alguém, ele será um amigo ou aliado para toda a vida.</p><p><strong>Desconfiança Mútua</strong></p><p>As pessoas tendem a suspeitar dos tiferinos por assumirem que a herança infernal deles marcou não apenas sua aparência, mas também sua personalidade e moralidade. Comerciantes ficam de olho em seus bens quando tiferinos entram em suas lojas, a guarda da cidade os segue apenas \"por precaução\", e demagogos os culpam por acontecimentos estranhos. A realidade, porém, é que a linhagem de um tiferino não afeta sua personalidade de forma relevante. Por outro lado, anos e anos de desconfiança deixam sua marca, fato ao qual os tiferinos reagem de diferentes maneiras. Alguns escolhem viver de acordo com o estereótipo perverso, enquanto outros seguem pelo caminho oposto. A maioria, contudo, não consegue ignorar o modo como as pessoas reagem à sua presença. Depois de lidar com essa desconfiança por toda a juventude, um tiferino muitas vezes desenvolve a capacidade de vencer o preconceito por meio do charme ou da intimidação.</p><p><strong>Nomes de Tiferinos</strong></p><p>Os nomes tiferinos dividem-se em três grandes categorias. Tiferinos nascidos em outras culturas costumam adotar nomes naturais dessas culturas. Alguns têm nomes derivados do idioma infernal, ecos da sua descendência diabólica passados através das gerações. Os mais jovens, esforçando-se por encontrar um lugar no mundo, adotam nomes que significam uma virtude ou um conceito que tentam seguir e encarnar. Para outros, o nome escolhido representa uma busca nobre ou um destino sombrio.</p><p><strong>Nomes Infernais Masculinos:</strong> Akmenos, Amnon, Barakas, Damakos, Ekemon, Iados, Kairon, Leucis, Melech, Mordai, Morthos, Pelaios, Skamos, Therai</p><p><strong>Nomes Infernais Femininos:</strong> Akta, Anakis, Bryseis, Criella, Damaia, Ea, Kallista, Lerissa, Makaria, Nemeia, Orianna, Phelaia, Rieta</p><p><strong>Nomes \"Conceituais ou de Virtudes\":</strong> Acaso, Amplo, Arte, Canto, Credo, Carniça, Desespero, Esperança, Exaurido, Excelência, Glória, Ideal, Jornada, Lugar Nenhum, Medo, Música, Pesar, Poesia, Reverência, Temeridade, Tormento</p>",
+  "en": "<p>“But you do see the way people look at you, devil’s child.”</p><p>Those black eyes, cold as a winter storm, were staring right into her heart and the sudden seriousness in his voice jolted her.</p><p>“What is it they say?” he asked. “One’s a curiosity, two’s a conspiracy—”</p><p>“Three’s a curse,” she finished. “You think I haven’t heard that rubbish before?”</p><p>“I know you have.” When she glared at him, he added, “It’s not as if I’m plumbing the depths of your mind, dear girl. That is the burden of every tiefling. Some break under it, some make it the millstone around their neck, some revel in it.” He tilted his head again, scrutinizing her, with that wicked glint in his eyes. “You fight it, don’t you? Like a little wildcat, I wager. Every little jab and comment just sharpens your claws.”</p><p><em>— Erin M. Evans,</em> <em>Brimstone Angels</em></p><p>To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling. And to twist the knife, tieflings know that this is because a pact struck generations ago infused the essence of Asmodeus—overlord of the Nine Hells—into their bloodline. Their appearance and their nature are not their fault but the result of an ancient sin, for which they and their children and their children’s children will always be held accountable.</p><p><strong>Infernal Bloodline</strong></p><p>Tieflings are derived from human bloodlines, and in the broadest possible sense, they still look human. However, their infernal heritage has left a clear imprint on their appearance. Tieflings have large horns that take any of a variety of shapes: some have curling horns like a ram, others have straight and tall horns like a gazelle’s, and some spiral upward like an antelopes’ horns. They have thick tails, four to five feet long, which lash or coil around their legs when they get upset or nervous. Their canine teeth are sharply pointed, and their eyes are solid colors—black, red, white, silver, or gold—with no visible sclera or pupil. Their skin tones cover the full range of human coloration, but also include various shades of red. Their hair, cascading down from behind their horns, is usually dark, from black or brown to dark red, blue, or purple.</p><p><strong>Self-Reliant and Suspicious</strong></p><p>Tieflings subsist in small minorities found mostly in human cities or towns, often in the roughest quarters of those places, where they grow up to be swindlers, thieves, or crime lords. Sometimes they live among other minority populations in enclaves where they are treated with more respect.</p><p>Lacking a homeland, tieflings know that they have to make their own way in the world and that they have to be strong to survive. They are not quick to trust anyone who claims to be a friend, but when a tiefling’s companions demonstrate that they trust him or her, the tiefling learns to extend the same trust to them. And once a tiefling gives someone loyalty, the tiefling is a firm friend or ally for life.</p><p><strong>Tiefling Names</strong></p><p>Tiefling names fall into three broad categories. Tieflings born into another culture typically have names reflective of that culture. Some have names derived from the Infernal language, passed down through generations, that reflect their fiendish heritage. And some younger tieflings, striving to find a place in the world, adopt a name that signifies a virtue or other concept and then try to embody that concept. For some, the chosen name is a noble quest. For others, it’s a grim destiny.</p><p><strong>Male Infernal Names:</strong> Akmenos, Amnon, Barakas, Damakos, Ekemon, Iados, Kairon, Leucis, Melech, Mordai, Morthos, Pelaios, Skamos, Therai</p><p><strong>Female Infernal Names:</strong> Akta, Anakis, Bryseis, Criella, Damaia, Ea, Kallista, Lerissa, Makaria, Nemeia, Orianna, Phelaia, Rieta</p><p><strong>“Virtue” Names:</strong> Art, Carrion, Chant, Creed, Despair, Excellence, Fear, Glory, Hope, Ideal, Music, Nowhere, Open, Poetry, Quest, Random, Reverence, Sorrow, Temerity, Torment, Weary</p><p><strong>MET WITH MISTRUST</strong></p><p>Ignorant people tend to be suspicious of tieflings, assuming that their infernal heritage has left its mark on their personality and morality, not just their appearance. The reality is that a tiefling’s bloodline doesn’t affect their personality. They are gifted with magic from the infernal realms but chart their own course in life.</p>"
+ },
+ "traits": [
+  {
+   "key": "ability-score-increase",
+   "name": {
+    "pt": "aumento no valor de atributo",
+    "en": "Ability Score Increase"
+   },
+   "html": {
+    "pt": "<p>Seu valor de Inteligência aumenta em 1 e seu valor de Carisma em 2.</p>",
+    "en": "<p>Your Intelligence score increases by 1, and your Charisma score increases by 2.</p>"
+   }
+  },
+  {
+   "key": "age",
+   "name": {
+    "pt": "idade",
+    "en": "Age"
+   },
+   "html": {
+    "pt": "<p>Tiferinos amadurecem no mesmo ritmo que os humanos, mas vivem alguns anos a mais.</p>",
+    "en": "<p>Tieflings mature at the same rate as humans but live a few years longer.</p>"
+   }
+  },
+  {
+   "key": "alignment",
+   "name": {
+    "pt": "alinhamento",
+    "en": null
+   },
+   "html": {
+    "pt": "<p>Tiferinos podem não ter uma tendência inata para o mal, mas muitos acabam seguindo esse caminho. Maus ou não, uma natureza independente os inclina na direção do alinhamento caótico.</p>",
+    "en": null
+   }
+  },
+  {
+   "key": "size",
+   "name": {
+    "pt": "tamanho",
+    "en": "Size"
+   },
+   "html": {
+    "pt": "<p>Seu tamanho é Médio. Tiferinos têm aproximadamente o mesmo tamanho e porte físico dos humanos.</p>",
+    "en": "<p>Tieflings are about the same size and build as humans. Your size is Medium.</p>"
+   }
+  },
+  {
+   "key": "speed",
+   "name": {
+    "pt": "deslocamento",
+    "en": "Speed"
+   },
+   "html": {
+    "pt": "<p>Seu deslocamento básico é de 9 metros.</p>",
+    "en": "<p>Your base walking speed is 30 feet.</p>"
+   }
+  },
+  {
+   "key": "darkvision",
+   "name": {
+    "pt": "visão no escuro",
+    "en": "Darkvision"
+   },
+   "html": {
+    "pt": "<p>Graças à sua herança infernal, você possui uma visão superior no escuro. Você consegue enxergar até 18 metros na meia-luz como se fosse dia e, na escuridão, como se fosse meia-luz. Na escuridão você só consegue discernir tons de cinza.</p>",
+    "en": "<p>Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>"
+   }
+  },
+  {
+   "key": "hellish-resistance",
+   "name": {
+    "pt": "resistência infernal",
+    "en": "Hellish Resistance"
+   },
+   "html": {
+    "pt": "<p>Você tem resistência a dano ígneo.</p>",
+    "en": "<p>You have resistance to fire damage.</p>"
+   }
+  },
+  {
+   "key": "infernal-legacy",
+   "name": {
+    "pt": "legado infernal",
+    "en": "Infernal Legacy"
+   },
+   "html": {
+    "pt": "<p>Você conhece o truque <em>taumaturgia</em>. Ao alcançar o 3º nível, pode conjurar a magia <em>repreensão diabólica</em> uma vez como se fosse uma magia de 2º círculo. Ao alcançar o 5º nível, pode conjurar <em>escuridão</em>. Você precisa terminar um descanso longo para conjurar as magias deste traço outra vez. Carisma é o atributo usado para a conjuração dessas magias.</p>",
+    "en": "<p>You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>"
+   }
+  },
+  {
+   "key": "languages",
+   "name": {
+    "pt": "idiomas",
+    "en": "Languages"
+   },
+   "html": {
+    "pt": "<p>Você fala, lê e escreve Comum e Infernal.</p>",
+    "en": "<p>You can speak, read, and write Common and Infernal.</p>"
+   }
+  }
+ ],
+ "subraces": [
+  {
+   "slug": "variant-appearance",
+   "name": {
+    "pt": "tiferino alternativo: aparência",
+    "en": "Variant; Infernal Legacy"
+   },
+   "source": {
+    "pt": {
+     "book": "GACE",
+     "page": 118
+    },
+    "en": {
+     "book": "SCAG",
+     "page": 118
+    }
+   },
+   "intro_html": {
+    "pt": "<p>Como nem todos os tiferinos carregam o sangue de Asmodeus, alguns têm traços raciais diferentes daqueles do Player's Handbook: Livro do Jogador. O seu Dungeon Master pode permitir as seguintes variantes para seu personagem tiferino, embora Língua do Diabo, Fogo Infernal e Alado sejam mutuamente exclusivos.</p>",
+    "en": null
+   },
+   "traits": [
+    {
+     "key": "appearance",
+     "name": {
+      "pt": "aparência",
+      "en": "Appearance"
+     },
+     "html": {
+      "pt": "<p>Seu tiferino pode não parecer como outros tiferinos. Em vez de ter as características físicas descritas no Player's Handbook: Livro do Jogador, escolha 1d4 + 1 das características a seguir: chifres pequenos; presas ou dentes afiados; uma língua bifurcada; olhos felinos; seis dedos em cada mão; pernas de bode; cascos fendidos; uma cauda bifurcada; pele coriácea ou escamosa; pele vermelha ou azul escura; não projeta sombra ou reflexo; exala cheiro de enxofre.</p>",
+      "en": "<p>Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player&#x27;s Handbook, choose 1d4+1 of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone.</p>"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "feral",
+   "name": {
+    "pt": "tiferino ferino",
+    "en": "Variant; Feral"
+   },
+   "source": {
+    "pt": {
+     "book": "GACE",
+     "page": 118
+    },
+    "en": null
+   },
+   "intro_html": {
+    "pt": "<p>O seu Dungeon Master pode permitir as seguintes variantes para seu personagem tiferino, embora Língua do Diabo, Fogo Infernal e Alado sejam mutuamente exclusivos.</p>",
+    "en": null
+   },
+   "traits": [
+    {
+     "key": "feral",
+     "name": {
+      "pt": "ferino",
+      "en": null
+     },
+     "html": {
+      "pt": "<p>Seu valor de Inteligência aumenta em 1 e seu valor de Destreza aumenta em 2. Este traço racial substitui o traço Aumento no Valor de Atributo.</p>",
+      "en": null
+     }
+    }
+   ]
+  },
+  {
+   "slug": "devils-tongue",
+   "name": {
+    "pt": "tiferino língua do diabo",
+    "en": "Variant; Devil's Tongue"
+   },
+   "source": {
+    "pt": {
+     "book": "GACE",
+     "page": 118
+    },
+    "en": {
+     "book": "SCAG",
+     "page": 118
+    }
+   },
+   "intro_html": {
+    "pt": "<p>O seu Dungeon Master pode permitir as seguintes variantes para seu personagem tiferino, embora Língua do Diabo, Fogo Infernal e Alado sejam mutuamente exclusivos.</p>",
+    "en": null
+   },
+   "traits": [
+    {
+     "key": "devil-s-tongue",
+     "name": {
+      "pt": "língua do diabo",
+      "en": "Devil&#x27;s Tongue"
+     },
+     "html": {
+      "pt": "<p>Você conhece o truque <em>zombaria perversa</em>. Com este traço racial, quando alcança o 3º nível, você pode conjurar a magia <em>enfeitiçar pessoa</em> uma vez como uma magia do 2º círculo. Com este traço racial, quando alcança o 5º nível, você pode conjurar a magia <em>cativar</em> uma vez. Você deve terminar um descanso longo para conjurar estas magias novamente com este traço racial. Carisma é o seu atributo de conjuração usado para estas magias. Este traço racial substitui o traço Legado Infernal.</p>",
+      "en": "<p>You know the vicious mockery cantrip. When you reach 3rd level, you can cast the charm person spell as a 2nd-level spell once with this trait. When you reach 5th level, you can cast the enthrall spell once with this trait. You must finish a long rest to cast these spells once again with this trait. Charisma is your spellcasting ability for them. This trait replaces the Infernal Legacy trait.</p>"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "hellfire",
+   "name": {
+    "pt": "tiferino fogo infernal",
+    "en": "Variant; Hellfire"
+   },
+   "source": {
+    "pt": {
+     "book": "GACE",
+     "page": 118
+    },
+    "en": {
+     "book": "SCAG",
+     "page": 118
+    }
+   },
+   "intro_html": {
+    "pt": "<p>O seu Dungeon Master pode permitir as seguintes variantes para seu personagem tiferino, embora Língua do Diabo, Fogo Infernal e Alado sejam mutuamente exclusivos.</p>",
+    "en": null
+   },
+   "traits": [
+    {
+     "key": "hellfire",
+     "name": {
+      "pt": "fogo infernal",
+      "en": "Hellfire"
+     },
+     "html": {
+      "pt": "<p>Uma vez que alcance o 3º nível, você pode conjurar <em>mãos flamejantes</em> uma vez por dia como uma magia do 2º círculo. Este traço racial substitui a magia <em>repreensão diabólica</em> do traço Legado Infernal.</p>",
+      "en": "<p>You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the burning hands spell once per day as a 2nd-level spell; you must finish a long rest in order to cast the spell again using this trait. Once you reach 5th level, you can also cast the darkness spell; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells.</p>"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "winged",
+   "name": {
+    "pt": "tiferino alado",
+    "en": "Variant; Winged"
+   },
+   "source": {
+    "pt": {
+     "book": "GACE",
+     "page": 118
+    },
+    "en": {
+     "book": "SCAG",
+     "page": 118
+    }
+   },
+   "intro_html": {
+    "pt": "<p>O seu Dungeon Master pode permitir as seguintes variantes para seu personagem tiferino, embora Língua do Diabo, Fogo Infernal e Alado sejam mutuamente exclusivos.</p>",
+    "en": null
+   },
+   "traits": [
+    {
+     "key": "winged",
+     "name": {
+      "pt": "alado",
+      "en": "Winged"
+     },
+     "html": {
+      "pt": "<p>Você possui asas como as de um morcego saindo de suas omoplatas. Você tem deslocamento de voo de 9 metros enquanto não estiver usando armadura pesada. Este traço racial substitui o traço Legado Infernal.</p>",
+      "en": "<p>You have bat-like wings sprouting from your shoulder blades. You have a flying speed of 30 feet while you aren&#x27;t wearing heavy armor.</p>"
+     }
+    }
+   ]
+  }
+ ],
+ "spells": [
+  {
+   "level": 1,
+   "names_pt": [
+    "taumaturgia"
+   ],
+   "names_en": [
+    "thaumaturgy"
+   ],
+   "regularity": {
+    "pt": "truque (Legado Infernal; Carisma)",
+    "en": "cantrip (Infernal Legacy; Charisma)"
+   }
+  },
+  {
+   "level": 3,
+   "names_pt": [
+    "repreensão diabólica"
+   ],
+   "names_en": [
+    "hellish rebuke"
+   ],
+   "regularity": {
+    "pt": "1 vez por descanso longo, como magia de 2º círculo (Legado Infernal)",
+    "en": null
+   }
+  },
+  {
+   "level": 5,
+   "names_pt": [
+    "escuridão"
+   ],
+   "names_en": [
+    "darkness"
+   ],
+   "regularity": {
+    "pt": "1 vez por descanso longo (Legado Infernal)",
+    "en": null
+   }
+  },
+  {
+   "level": 1,
+   "names_pt": [
+    "zombaria perversa"
+   ],
+   "names_en": [
+    "vicious mockery"
+   ],
+   "regularity": {
+    "pt": "truque (variante Língua do Diabo; Carisma)",
+    "en": "cantrip (variant Devil's Tongue; Charisma)"
+   }
+  },
+  {
+   "level": 3,
+   "names_pt": [
+    "enfeitiçar pessoa"
+   ],
+   "names_en": [
+    "charm person"
+   ],
+   "regularity": {
+    "pt": "1 vez por descanso longo, como magia de 2º círculo (variante Língua do Diabo)",
+    "en": null
+   }
+  },
+  {
+   "level": 5,
+   "names_pt": [
+    "cativar"
+   ],
+   "names_en": [
+    "enthrall"
+   ],
+   "regularity": {
+    "pt": "1 vez por descanso longo (variante Língua do Diabo)",
+    "en": null
+   }
+  },
+  {
+   "level": 3,
+   "names_pt": [
+    "mãos flamejantes"
+   ],
+   "names_en": [
+    "burning hands"
+   ],
+   "regularity": {
+    "pt": "1 vez por dia, como magia de 2º círculo (variante Fogo Infernal; substitui repreensão diabólica)",
+    "en": null
+   }
+  }
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "slug": "aasimar",
+ "name": {
+  "pt": "aasimar",
+  "en": "Aasimar"
+ },
+ "source": {
+  "pt": {
+   "book": "MPMM",
+   "page": 7
+  },
+  "en": {
+   "book": "MPMM",
+   "page": 7
+  }
+ },
+ "intro_html": {
+  "pt": "<p>Seja descendendo de criaturas celestiais ou imbuídos com poderes dos céus, os aasimar são mortais que carregam uma centelha dos Planos Superiores em suas almas. Eles podem atiçar essa centelha para trazer luz, aliviar ferimentos e liberar a fúria dos céus.</p><p>Aasimar podem surgir entre qualquer população de mortais. Eles se parecem com seus pais, mas vivem por até 160 anos e geralmente têm características que indicam sua herança celestial. Esta herança começa geralmente de forma sutil, se tornando mais óbvia quando o aasimar ganha a habilidade de revelar sua natureza celestial completa. A tabela Características Celestiais de Aasimar contém exemplos que você pode escolher ou usar como inspiração para criar suas próprias.</p><p><strong>Características Celestiais de Aasimar</strong></p>\n<table><thead><tr><th>d6</th><th>características celestiais</th></tr></thead><tbody><tr><td>1</td><td>Uma cobertura de sardas metálicas, brancas ou cor de carvão.</td></tr><tr><td>2</td><td>Olhos metálicos, luminosos ou escuros.</td></tr><tr><td>3</td><td>Cabelo totalmente colorido.</td></tr><tr><td>4</td><td>Uma sombra de tonalidade incomum.</td></tr><tr><td>5</td><td>Uma auréola fantasmagórica coroando sua cabeça.</td></tr><tr><td>6</td><td>Arco-íris cintilando em sua pele.</td></tr></tbody></table>",
+  "en": "<p>Whether descended from a celestial being or infused with heavenly power, aasimar are mortals who carry a spark of the Upper Planes within their souls. They can fan that spark to bring light, ease wounds, and unleash the fury of the heavens. Aasimar can arise among any population of mortals.</p> <p>They resemble their parents, but they live for up to 160 years and often have features that hint at their celestial heritage. These often begin subtle and become more obvious when the aasimar gains the ability to reveal their full celestial nature. The Aasimar Celestial Features table has examples you can choose or use as inspiration to create your own.</p><p><strong>Aasimar Celestial Features</strong></p><table> <thead> <tr> <th>d6</th> <th>Celestial Feature</th> </tr> </thead> <tbody> <tr> <td>1</td> <td>A dusting of metallic, white, or charcoal freckles</td> </tr> <tr> <td>2</td> <td>Metallic, luminous, or dark eyes</td> </tr> <tr> <td>3</td> <td>Starkly colored hair</td> </tr> <tr> <td>4</td> <td>An unusual hue tinting your shadow</td> </tr> <tr> <td>5</td> <td>A ghostly halo crowning your head</td> </tr> <tr> <td>6</td> <td>Rainbows gleaming on your skin</td> </tr> </tbody> </table>"
+ },
+ "traits": [
+  {
+   "key": "creature-type",
+   "name": {
+    "pt": "tipo de criatura",
+    "en": "Creature Type"
+   },
+   "html": {
+    "pt": "<p>Você é um humanoide.</p>",
+    "en": "<p>You are a Humanoid.</p>"
+   }
+  },
+  {
+   "key": "size",
+   "name": {
+    "pt": "tamanho",
+    "en": "Size"
+   },
+   "html": {
+    "pt": "<p>Você é Médio ou Pequeno. Você escolhe o tamanho ao selecionar esta raça.</p>",
+    "en": "<p>You are Medium or Small. You choose the size when you select this race.</p>"
+   }
+  },
+  {
+   "key": "speed",
+   "name": {
+    "pt": "deslocamento",
+    "en": "Speed"
+   },
+   "html": {
+    "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
+    "en": "<p>Your walking speed is 30 feet.</p>"
+   }
+  },
+  {
+   "key": "healing-hands",
+   "name": {
+    "pt": "mãos curativas",
+    "en": "Healing Hands"
+   },
+   "html": {
+    "pt": "<p>Como uma ação, você pode tocar uma criatura e rolar um número de d4s equivalente ao seu bônus de proficiência. A criatura recupera pontos de vida iguais ao total obtido. Uma vez que você usar este traço, não poderá usá-lo novamente até terminar um descanso longo.</p>",
+    "en": "<p>As an action, you can touch a creature and roll a number of d4s equal to your proficiency bonus. The creature regains a number of hit points equal to the total rolled. Once you use this trait, you can’t use it again until you finish a long rest.</p>"
+   }
+  },
+  {
+   "key": "light-bearer",
+   "name": {
+    "pt": "portador da luz",
+    "en": "Light Bearer"
+   },
+   "html": {
+    "pt": "<p>Você conhece o truque luz. Carisma é o atributo usado na conjuração dele.</p>",
+    "en": "<p>You know the light cantrip. Charisma is your spellcasting ability for it.</p>"
+   }
+  },
+  {
+   "key": "celestial-resistance",
+   "name": {
+    "pt": "resistência celestial",
+    "en": "Celestial Resistance"
+   },
+   "html": {
+    "pt": "<p>Você tem resistência a dano necrótico e dano radiante.</p>",
+    "en": "<p>You have resistance to necrotic damage and radiant damage.</p>"
+   }
+  },
+  {
+   "key": "celestial-revelation",
+   "name": {
+    "pt": "revelação celestial",
+    "en": "Celestial Revelation"
+   },
+   "html": {
+    "pt": "<p>Quando você alcançar o 3º nível, escolha uma das opções de revelação abaixo. Dali em diante, você pode usar uma ação bônus para liberar a energia celestial dentro de você, obtendo os benefícios dessa revelação. Sua transformação dura 1 minuto, ou até que você use uma ação bônus para encerrá-la. Uma vez que você se transformar utilizando a revelação abaixo, não poderá usá-la novamente até terminar um descanso longo:</p><p><strong>Consumação Radiante.</strong> Luz abrasadora irradia temporariamente de seus olhos e boca. Pela duração, você emite luz plena em um raio de 3 metros e meia-luz por 3 metros adicionais, e ao final de cada um de seus turnos, cada criatura a até 3 metros de você sofre dano radiante igual ao seu bônus de proficiência. Até que a transformação se encerre, uma vez por turno você pode causar dano radiante extra ao causar dano a um alvo utilizando um ataque ou uma magia. O dano extra é igual ao seu bônus de proficiência.</p><p><strong>Espírito Radiante.</strong> Duas asas espectrais luminosas surgem temporariamente de suas costas. Até que a transformação se encerre, você tem deslocamento de voo equivalente ao seu deslocamento de caminhada, e uma vez por turno você pode causar dano radiante extra ao causar dano a um alvo utilizando um ataque ou uma magia. O dano extra é igual ao seu bônus de proficiência.</p><p><strong>Manto Necrótico.</strong> Seus olhos se transformam brevemente em poços de escuridão, e asas fantasmagóricas, porém incapazes de voar, brotam temporariamente de suas costas. Criaturas que não sejam seus aliados a até 3 metros de você e que possam vê-lo devem ser bem-sucedidos em uma salvaguarda de Carisma (CD 8 + seu bônus de proficiência + seu modificador de Carisma) ou ficar amedrontadas por você até o fim do seu próximo turno. Até que a transformação se encerre, uma vez por turno você pode causar dano necrótico extra ao causar dano a um alvo utilizando um ataque ou uma magia. O dano extra é igual ao seu bônus de proficiência.</p>",
+    "en": "<p>When you reach 3rd level, choose one of the revelation options below. Thereafter, you can use a bonus action to unleash the celestial energy within yourself, gaining the benefits of that revelation. Your transformation lasts for 1 minute or until you end it as a bonus action. Once you transform using your revelation below, you can’t use it again until you finish a long rest:</p> <p><strong>Necrotic Shroud.</strong> Your eyes briefly become pools of darkness, and ghostly, flightless wings sprout from your back temporarily. Creatures other than your allies within 10 feet of you that can see you must succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become frightened of you until the end of your next turn. Until the transformation ends, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.</p> <p><strong>Radiant Consumption.</strong> Searing light temporarily radiates from your eyes and mouth. For the duration, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes radiant damage equal to your proficiency bonus. Until the transformation ends, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.</p> <p><strong>Radiant Soul.</strong> Two luminous, spectral wings sprout from your back temporarily. Until the transformation ends, you have a flying speed equal to your walking speed, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.</p>"
+   }
+  },
+  {
+   "key": "darkvision",
+   "name": {
+    "pt": "visão no escuro",
+    "en": "Darkvision"
+   },
+   "html": {
+    "pt": "<p>Você consegue enxergar até 18 metros na meia-luz como se fosse luz plena e, na escuridão, como se fosse meia-luz. Na escuridão você só consegue discernir tons de cinza.</p>",
+    "en": "<p>You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>"
+   }
+  }
+ ],
+ "subraces": [],
+ "spells": [
+  {
+   "level": 1,
+   "names_pt": [
+    "luz"
+   ],
+   "names_en": [
+    "light"
+   ],
+   "regularity": {
+    "pt": "truque",
+    "en": "cantrip"
+   }
+  }
+ ]
+}

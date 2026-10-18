@@ -1,0 +1,58 @@
+{
+  "slug": "grimlock",
+  "name": {
+    "pt": "grimlock",
+    "en": "Grimlock"
+  },
+  "source": {
+    "pt": {
+      "book": "LDM",
+      "page": 282
+    },
+    "en": {
+      "book": "DMG",
+      "page": 282
+    }
+  },
+  "intro_html": {
+    "pt": "",
+    "en": null
+  },
+  "traits": [
+    {
+      "key": "ability-score-increase",
+      "name": {
+        "pt": "aumento no valor de atributo",
+        "en": "Ability Score Increase"
+      },
+      "html": {
+        "pt": "<p>+2 For, -2 Car</p>",
+        "en": null
+      }
+    },
+    {
+      "key": "other-traits",
+      "name": {
+        "pt": "outros traços",
+        "en": "Other Traits"
+      },
+      "html": {
+        "pt": "<p>Audição e Olfato Aguçados, Camuflagem de Pedra, Sentidos às Cegas; não fica cego; percepção às cegas 9 m, ou 3 m enquanto surdo (cego além desse raio)</p>",
+        "en": "<p><strong><em>Blindsight.</em></strong> You have no eyes, and cannot be blinded. You can perceive your surroundings within 30 ft., or 10 ft. while deafened. You are considered blind beyond this radius.</p><p><strong><em>Keen Hearing and Smell.</em></strong> You have advantage on Wisdom (Perception) checks that rely on hearing or smell.</p><p><strong><em>Stone Camouflage.</em></strong> You have advantage on Dexterity (Stealth) checks made to hide in rocky terrain.</p>"
+      }
+    },
+    {
+      "key": "languages",
+      "name": {
+        "pt": "idiomas",
+        "en": "Languages"
+      },
+      "html": {
+        "pt": "<p>fala Subcomum</p>",
+        "en": "<p>You can speak, read, and write Undercommon.</p>"
+      }
+    }
+  ],
+  "subraces": [],
+  "spells": []
+}

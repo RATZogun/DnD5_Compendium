@@ -1,0 +1,2045 @@
+{
+ "slug": "fighter",
+ "name": {
+  "pt": "guerreiro",
+  "en": "Fighter"
+ },
+ "source": {
+  "pt": {
+   "book": "LDJ",
+   "page": 88
+  },
+  "en": {
+   "book": "PHB",
+   "page": 70
+  }
+ },
+ "intro_html": {
+  "pt": "<p>Uma humana ergue o escudo e avança com sua pesada armadura de placas na direção do ajuntamento de goblins. Atrás dela, um elfo vestindo uma armadura de couro batido lança uma rajada de flechas sobre os inimigos, usando um arco de rara qualidade. Próximo deles, um meio-orc dá ordens, ajudando-os a coordenarem suas investidas para, desse modo, obterem o máximo de vantagem.</p><p>Um anão em cota de malha posiciona seu escudo entre seu companheiro e a clava do ogro, desviando o ataque mortal. Seu aliado, um meio-elfo trajando uma lórica de escamas, brande suas duas cimitarras em um turbilhão de golpes, enquanto contorna o ogro à procura de uma abertura em suas defesas.</p><p>Um gladiador, mestre da rede e do tridente, se exibe na arena, perito em capturar e arrastar seus oponentes, levar a plateia ao delírio e obter, ele mesmo, uma vantagem tática. A espada da sua oponente lampeja com uma tênue luz azul, antes de lançar sobre ele um relâmpago devastador.</p><p>Todos esses heróis são guerreiros, provavelmente a mais diversificada classe de personagens nos mundos de DUNGEONS & DRAGONS. Cavaleiros andantes, nobres conquistadores, campeões reais, soldados de elite, mercenários experientes e reis bandidos - como guerreiros, todos compartilham um domínio incomparável sobre armas e armaduras, além de um vasto conhecimento das perícias de combate. E todos conhecem a morte de perto, seja encarando-a ou dela escapando um sem número de vezes.</p><p><strong>especialistas equilibrados</strong></p><p>Os guerreiros aprendem o básico de todos os estilos de combate. Todo guerreiro sabe brandir um machado, esgrimir uma rapieira, empunhar uma espada longa ou uma espada grande, usar um arco, ou prender seus inimigos em uma rede, com algum grau de habilidade. Da mesma forma, todos são capazes de usar todos os tipos de escudos e armaduras. Além desse conhecimento fundamental, cada guerreiro se especializa em um determinado estilo de combate. Alguns se concentram na arqueria, outros no combate usando duas armas simultaneamente, e ainda existem aqueles que aprimoram suas habilidades marciais com o uso da magia. Essa combinação de uma ampla capacidade geral com uma especialização é a responsável por transformar os guerreiros em combatentes superiores tanto no campo de batalha quanto no interior das masmorras.</p><p><strong>treinados para o perigo</strong></p><p>Nem todo membro da patrulha da cidade, da milícia da vila ou do exército da rainha é um guerreiro. Muitos são apenas soldados treinados nas habilidades mais básicas de combate. Já os soldados veteranos, os oficiais militares, os guarda-costas treinados, os cavaleiros consagrados e outros tipos semelhantes são considerados verdadeiros guerreiros.</p><p>Alguns sentem-se compelidos a empregar seu treinamento em uma vida de aventuras. Explorar masmorras, derrotar monstros e outras atividades perigosas, tão comuns aos aventureiros, fazem parte do dia a dia dos guerreiros, sendo muito semelhantes à vida que eles deixaram para trás. Os riscos podem ser maiores, assim como as recompensas - e poucos integrantes da patrulha da cidade têm a oportunidade de encontrar uma espada mágica <em>Linguaflamejante</em>, por exemplo.</p><p><strong>criando um guerreiro</strong></p><p>Na hora de criar seu guerreiro, pense sobre dois elementos relacionados da história dele: onde ele obteve seu treinamento de combate, e o que o diferencia dos guerreiros comuns à sua volta? Ele foi alguém particularmente impiedoso? Foi ajudado por algum mentor, talvez por conta da sua dedicação excepcional? O que o levou a buscar esse treinamento? Uma ameaça à sua terra natal, sua sede de vingança ou uma necessidade de provar o seu valor?</p><p>Você pode ter desfrutado do treinamento formal no exército de um nobre ou em alguma milícia local. Talvez você tenha sido treinado numa academia de guerra, aprendendo estratégia, táticas e história militar. Ou talvez você seja um autodidata - rude, mas experimentado. Você escolheu o caminho da espada como forma de escapar às limitações da vida na lavoura, ou está seguindo uma orgulhosa tradição familiar? Onde adquiriu suas armas e armadura? Elas podem ser equipamentos militares ou heranças de família, ou quem sabe você economizou durante anos, até conseguir comprá-las. De todo modo, os seus armamentos estão entre as suas posses mais valiosas, pois são as únicas coisas que o separam do abraço da morte.</p><p><strong>criação rápida</strong></p><p>Você pode criar um guerreiro rapidamente seguindo estas sugestões. Primeiro, se quiser se especializar em armas de combate corpo a corpo, coloque seu valor de atributo mais alto em Força, ou, se preferir ser um arqueiro (ou lutar com armas de acuidade), em Destreza. Seu segundo valor mais alto deve ser atribuído a Constituição ou Inteligência, caso pretenda adotar o arquétipo marcial do Cavaleiro Místico. Em seguida, escolha o antecedente soldado.</p>",
+  "en": null
+ },
+ "subclass_title": {
+  "pt": "arquétipo marcial",
+  "en": "Martial Archetype"
+ },
+ "table_labels": {
+  "pt": {
+   "Level": "Nível",
+   "Proficiency Bonus": "Bônus de Proficiência",
+   "Features": "Características"
+  }
+ },
+ "features": [
+  {
+   "key": "hit-points",
+   "level": 1,
+   "optional": false,
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 89
+    },
+    "en": {
+     "book": "PHB",
+     "page": 70
+    }
+   },
+   "name": {
+    "pt": "pontos de vida",
+    "en": "Hit Points"
+   },
+   "html": {
+    "pt": "<p><strong>Dado de Vida:</strong> 1d10 por nível de guerreiro</p><p><strong>Pontos de Vida no 1º Nível:</strong> 10 + seu modificador de Constituição</p><p><strong>Pontos de Vida a partir do 2º Nível:</strong> 1d10 (ou 6) + seu modificador de Constituição por nível de guerreiro</p>",
+    "en": "<p><strong>Hit Dice: </strong>1d10 per fighter level<br><strong>Hit Points at 1st Level: </strong>10 + your Constitution modifier<br><strong>Hit Points at Higher Levels: </strong>1d10 (or 6) + your Constitution modifier per fighter level after 1st</p>"
+   }
+  },
+  {
+   "key": "proficiencies",
+   "level": 1,
+   "optional": false,
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 89
+    },
+    "en": {
+     "book": "PHB",
+     "page": 70
+    }
+   },
+   "name": {
+    "pt": "proficiências",
+    "en": "Proficiencies"
+   },
+   "html": {
+    "pt": "<p><strong>Armadura:</strong> Todas as armaduras e escudos</p><p><strong>Armas:</strong> Armas simples e marciais</p><p><strong>Ferramentas:</strong> Nenhuma</p><p><strong>Salvaguardas:</strong> Força e Constituição</p><p><strong>Perícias:</strong> Escolha duas entre Acrobacia, Atletismo, História, Intimidação, Intuição, Lidar com Animais, Percepção e Sobrevivência</p>",
+    "en": "<p><strong>Armor: </strong>All armor, shields<br><strong>Weapons: </strong>Simple weapons, martial weapons<br><strong>Tools: </strong>None<br><strong>Saving Throws: </strong>Strength, Constitution<br><strong>Skills: </strong>Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival</p>"
+   }
+  },
+  {
+   "key": "equipment",
+   "level": 1,
+   "optional": false,
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 90
+    },
+    "en": {
+     "book": "PHB",
+     "page": 70
+    }
+   },
+   "name": {
+    "pt": "equipamento",
+    "en": "Equipment"
+   },
+   "html": {
+    "pt": "<p>Você começa com o seguinte equipamento, além daquele que recebe do seu antecedente:</p><ul><li>(a) cota de malha ou (b) armadura de couro, arco longo e 20 flechas</li><li>(a) uma arma marcial e um escudo ou (b) duas armas marciais</li><li>(a) uma besta leve e 20 virotes ou (b) duas machadinhas</li><li>(a) kit de aventureiro ou (b) kit de explorador</li></ul>",
+    "en": "<p>You start with the following equipment, in addition to the equipment granted by your background:</p> <ul> <li>(a) chain mail or (b) leather armor, longbow, and 20 arrows</li> <li>(a) a martial weapon and a shield or (b) two martial weapons</li> <li>(a) a light crossbow and 20 bolts or (b) two handaxes</li> <li>(a) a dungeoneer’s pack or (b) an explorer’s pack</li> </ul>"
+   }
+  },
+  {
+   "key": "fighting-style",
+   "level": 1,
+   "optional": false,
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 90
+    },
+    "en": {
+     "book": "PHB",
+     "page": 72
+    }
+   },
+   "name": {
+    "pt": "estilo de luta",
+    "en": "Fighting Style"
+   },
+   "html": {
+    "pt": "<p>Você adota um estilo particular de luta como sua especialidade. Escolha uma das seguintes opções. Caso você tenha a opção de escolher um novo Estilo de Luta, não pode escolher um que já possua.</p><p><strong>Arqueria.</strong> Você ganha um bônus de +2 nas jogadas de ataque feitas com armas de combate à distância.</p><p><strong>Combate com Armas Grandes.</strong> Ao tirar 1 ou 2 em um dos dados de dano causado por uma arma de combate corpo a corpo empunhada com ambas as mãos, você pode jogar o dado novamente e deve usar o novo resultado, mesmo que seja 1 ou 2. A arma precisa ter as propriedades duas mãos ou versátil para que você receba este benefício.</p><p><strong>Combate com Duas Armas.</strong> Ao se engajar em combate com duas armas, você pode adicionar o seu modificador de atributo ao dano do segundo ataque.</p><p><strong>Defensivo.</strong> Enquanto estiver vestindo armadura, você ganha um bônus de +1 na sua CA.</p><p><strong>Duelismo.</strong> Enquanto estiver empunhando uma única arma de combate corpo a corpo em apenas uma das mãos, você ganha um bônus de +2 nas jogadas de dano feitas com essa arma.</p><p><strong>Protetivo.</strong> Você pode usar sua reação para impor desvantagem à jogada de ataque de uma criatura que você possa ver, quando ela atacar um alvo que não seja você e que esteja a até 1,5 metro de distância. Você precisa estar empunhando um escudo.</p>",
+    "en": "<p>You adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</p> Archery <p></p><p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p><p></p> Defense <p></p><p>While you are wearing armor, you gain a +1 bonus to AC.</p><p></p> Dueling <p></p><p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p><p></p> Great Weapon Fighting <p></p><p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</p><p></p> Protection <p></p><p>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</p><p></p> Two-Weapon Fighting <p></p><p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p><p></p>"
+   }
+  },
+  {
+   "key": "fighting-style-options",
+   "level": 1,
+   "optional": true,
+   "source": {
+    "pt": {
+     "book": "CTCT",
+     "page": 57
+    },
+    "en": {
+     "book": "TCE",
+     "page": 41
+    }
+   },
+   "name": {
+    "pt": "opções de estilo de luta",
+    "en": "Fighting Style Options"
+   },
+   "html": {
+    "pt": "<p><em>Característica de guerreiro de 1º nível</em><br>Quando escolhe um estilo de luta, os seguintes estilos são adicionados à sua lista de opções.</p><p><strong>Combate com Armas de Arremesso.</strong> Você pode sacar uma arma que tenha a propriedade arremesso como parte do ataque que faz com ela. Adicionalmente, ao acertar um ataque à distância usando uma arma de arremesso, você ganha um bônus de +2 na jogada de dano.</p><p><strong>Combate Desarmado.</strong> Em caso de acerto, seus ataques desarmados causam dano contundente igual a 1d6 + seu modificador de Força. Se você não estiver empunhando nenhuma arma ou escudo ao fazer a jogada de ataque, o d6 se torna um d8.<br>No início de cada um dos seus turnos, você pode causar 1d4 pontos de dano contundente a uma criatura agarrada por você.</p><p><strong>Interceptação.</strong> Quando uma criatura que você possa ver acertar um ataque em um alvo a até 1,5 metro de você (que não seja você), você pode usar sua reação para reduzir o dano que o alvo recebe em 1d10 + seu bônus de proficiência (mínimo de 0 ponto de dano). Você precisa estar empunhando um escudo ou uma arma simples ou marcial para usar essa reação.</p><p><strong>Luta às Cegas.</strong> Você tem visão às cegas com alcance de 3 metros. Dentro deste alcance, você pode efetivamente ver qualquer coisa que não esteja atrás de cobertura total, mesmo se estiver cego ou na escuridão. Além disso, você pode ver uma criatura invisível dentro desse alcance, a menos que a criatura tenha sucesso em se esconder de você.</p><p><strong>Técnica Superior.</strong> Você aprende uma manobra à sua escolha dentre aquelas disponíveis no arquétipo Mestre da Batalha. Se você usar uma manobra que requeira que o alvo faça uma salvaguarda para resistir aos efeitos dela, a CD da salvaguarda é igual a 8 + seu bônus de proficiência + seu modificador de Força ou Destreza, à sua escolha.<br>Você ganha um dado de superioridade, que é um d6. Este dado é adicionado a qualquer dado de superioridade que você tenha de outra fonte. Esse dado é usado para alimentar suas manobras. Um dado de superioridade é gasto quando você o usa. Ao final de um período de descanso curto ou longo, você recupera todos os dados de superioridade gastos.</p>",
+    "en": null
+   }
+  },
+  {
+   "key": "second-wind",
+   "level": 1,
+   "optional": false,
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 90
+    },
+    "en": {
+     "book": "PHB",
+     "page": 72
+    }
+   },
+   "name": {
+    "pt": "recuperar fôlego",
+    "en": "Second Wind"
+   },
+   "html": {
+    "pt": "<p>Você possui uma fonte limitada de vitalidade, a qual pode usar para se proteger do perigo. No seu turno, use sua ação bônus para recuperar uma quantidade de pontos de vida igual a 1d10 + seu nível de guerreiro. Uma vez usada esta característica, você deve completar um descanso curto ou longo antes de poder utilizá-la novamente.</p>",
+    "en": "<p>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again.</p>"
+   }
+  },
+  {
+   "key": "action-surge",
+   "level": 2,
+   "optional": false,
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 90
+    },
+    "en": {
+     "book": "PHB",
+     "page": 72
+    }
+   },
+   "name": {
+    "pt": "surto de ação",
+    "en": "Action Surge"
+   },
+   "html": {
+    "pt": "<p>A partir do 2º nível, você é capaz de superar os seus limites normais momentaneamente. No seu turno, você pode realizar uma ação extra, além da sua ação comum e de uma possível ação bônus.</p><p>Uma vez usada esta característica, você deve completar um descanso curto ou longo antes de poder utilizá-la novamente. A partir do 17º nível, você pode usar esta característica duas vezes antes de precisar de um descanso, mas somente uma vez por turno.</p>",
+    "en": "<p>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action.</p> <p>Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.</p>"
+   }
+  },
+  {
+   "key": "martial-archetype",
+   "level": 3,
+   "optional": false,
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 90
+    },
+    "en": {
+     "book": "PHB",
+     "page": 72
+    }
+   },
+   "name": {
+    "pt": "arquétipo marcial",
+    "en": "Martial Archetype"
+   },
+   "html": {
+    "pt": "<p>No 3º nível, você escolhe um arquétipo que busca incorporar nos seus estilos e técnicas de combate. Escolha entre Campeão, Mestre da Batalha ou Cavaleiro Místico, que são detalhados ao final da descrição desta classe. O arquétipo escolhido lhe concede características no 3º nível e, novamente, no 7º, 10º, 15º e 18º níveis.</p>",
+    "en": "<p>At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. Choose Champion, Battle Master, or Eldritch Knight, all detailed at the end of the class description. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.</p>"
+   }
+  },
+  {
+   "key": "ability-score-improvement-4",
+   "level": 4,
+   "optional": false,
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 90
+    },
+    "en": {
+     "book": "PHB",
+     "page": 72
+    }
+   },
+   "name": {
+    "pt": "aumento no valor de atributo",
+    "en": "Ability Score Improvement"
+   },
+   "html": {
+    "pt": "<p>Ao alcançar o 4º nível, e novamente no 6º, 8º, 12º, 14º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou em 1 os valores de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
+    "en": "<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
+   }
+  },
+  {
+   "key": "martial-versatility",
+   "level": 4,
+   "optional": true,
+   "source": {
+    "pt": {
+     "book": "CTCT",
+     "page": 58
+    },
+    "en": {
+     "book": "TCE",
+     "page": 41
+    }
+   },
+   "name": {
+    "pt": "versatilidade marcial",
+    "en": "Martial Versatility"
+   },
+   "html": {
+    "pt": "<p><em>Característica de guerreiro de 4º nível</em><br>Sempre que alcança um nível nessa classe que conceda a característica Aumento no Valor de Atributo, você pode escolher um dos seguintes, representando uma mudança no foco de sua prática marcial:</p><ul><li>Substitua um estilo de luta que sabe por outro estilo de luta disponível para guerreiros.</li><li>Se conhecer quaisquer manobras do arquétipo Mestre da Batalha, você pode substituir uma manobra conhecida por outra diferente.</li></ul>",
+    "en": "<p><em>4th-level fighter feature</em><br>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, as you shift the focus of your martial practice:</p> <ul> <li>Replace a fighting style you know with another fighting style available to fighters.</li> <li>If you know any maneuvers from the Battle Master archetype, you can replace one maneuver you know with a different maneuver.</li> </ul>"
+   }
+  },
+  {
+   "key": "extra-attack",
+   "level": 5,
+   "optional": false,
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 90
+    },
+    "en": {
+     "book": "PHB",
+     "page": 72
+    }
+   },
+   "name": {
+    "pt": "ataque extra",
+    "en": "Extra Attack"
+   },
+   "html": {
+    "pt": "<p>A partir do 5º nível, durante o seu turno, sempre que executar a ação Atacar, você pode realizar dois ataques em vez de um.</p><p>A quantidade de ataques aumenta para três quando você alcança o 11º nível e para quatro quando alcança o 20º nível.</p>",
+    "en": "<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p> <p>The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class.</p>"
+   }
+  },
+  {
+   "key": "ability-score-improvement-6",
+   "level": 6,
+   "optional": false,
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 90
+    },
+    "en": {
+     "book": "PHB",
+     "page": 72
+    }
+   },
+   "name": {
+    "pt": "aumento no valor de atributo",
+    "en": "Ability Score Improvement"
+   },
+   "html": {
+    "pt": "<p>Ao alcançar o 4º nível, e novamente no 6º, 8º, 12º, 14º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou em 1 os valores de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
+    "en": "<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
+   }
+  },
+  {
+   "key": "ability-score-improvement-8",
+   "level": 8,
+   "optional": false,
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 90
+    },
+    "en": {
+     "book": "PHB",
+     "page": 72
+    }
+   },
+   "name": {
+    "pt": "aumento no valor de atributo",
+    "en": "Ability Score Improvement"
+   },
+   "html": {
+    "pt": "<p>Ao alcançar o 4º nível, e novamente no 6º, 8º, 12º, 14º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou em 1 os valores de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
+    "en": "<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
+   }
+  },
+  {
+   "key": "indomitable",
+   "level": 9,
+   "optional": false,
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 90
+    },
+    "en": {
+     "book": "PHB",
+     "page": 72
+    }
+   },
+   "name": {
+    "pt": "indomável",
+    "en": "Indomitable"
+   },
+   "html": {
+    "pt": "<p>A partir do 9º nível, você pode testar novamente uma salvaguarda na qual tenha falhado. Se fizer isso, deve utilizar a nova jogada, não podendo usar esta característica novamente até completar um descanso longo.</p><p>A partir do 13º nível, você pode usar esta característica duas vezes entre descansos longos, e a partir do 17º nível, três vezes (novamente, entre descansos longos).</p>",
+    "en": "<p>Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can’t use this feature again until you finish a long rest.</p> <p>You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level.</p>"
+   }
+  },
+  {
+   "key": "extra-attack-2",
+   "level": 11,
+   "optional": false,
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 90
+    },
+    "en": {
+     "book": "PHB",
+     "page": 72
+    }
+   },
+   "name": {
+    "pt": "ataque extra (2)",
+    "en": "Extra Attack (2)"
+   },
+   "html": {
+    "pt": "<p>A partir do 11º nível, você pode realizar três ataques em vez de dois, sempre que executar a ação Atacar no seu turno.</p><p>A quantidade de ataques aumenta para quatro quando você alcança o 20º nível.</p>",
+    "en": "<p>Beginning at 11th level, you can attack three times, instead of twice, whenever you take the Attack action on your turn.</p> <p>The number of attacks increases to four when you reach 20th level in this class.</p>"
+   }
+  },
+  {
+   "key": "ability-score-improvement-12",
+   "level": 12,
+   "optional": false,
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 90
+    },
+    "en": {
+     "book": "PHB",
+     "page": 72
+    }
+   },
+   "name": {
+    "pt": "aumento no valor de atributo",
+    "en": "Ability Score Improvement"
+   },
+   "html": {
+    "pt": "<p>Ao alcançar o 4º nível, e novamente no 6º, 8º, 12º, 14º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou em 1 os valores de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
+    "en": "<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
+   }
+  },
+  {
+   "key": "indomitable-two-uses",
+   "level": 13,
+   "optional": false,
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 90
+    },
+    "en": {
+     "book": "PHB",
+     "page": 72
+    }
+   },
+   "name": {
+    "pt": "indomável (dois usos)",
+    "en": "Indomitable (two uses)"
+   },
+   "html": {
+    "pt": "<p>A partir do 9º nível, você pode testar novamente uma salvaguarda na qual tenha falhado. Se fizer isso, deve utilizar a nova jogada, não podendo usar esta característica novamente até completar um descanso longo.</p><p>A partir do 13º nível, você pode usar esta característica duas vezes entre descansos longos, e a partir do 17º nível, três vezes (novamente, entre descansos longos).</p>",
+    "en": "<p>Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can’t use this feature again until you finish a long rest.</p> <p>You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level.</p>"
+   }
+  },
+  {
+   "key": "ability-score-improvement-14",
+   "level": 14,
+   "optional": false,
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 90
+    },
+    "en": {
+     "book": "PHB",
+     "page": 72
+    }
+   },
+   "name": {
+    "pt": "aumento no valor de atributo",
+    "en": "Ability Score Improvement"
+   },
+   "html": {
+    "pt": "<p>Ao alcançar o 4º nível, e novamente no 6º, 8º, 12º, 14º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou em 1 os valores de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
+    "en": "<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
+   }
+  },
+  {
+   "key": "ability-score-improvement-16",
+   "level": 16,
+   "optional": false,
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 90
+    },
+    "en": {
+     "book": "PHB",
+     "page": 72
+    }
+   },
+   "name": {
+    "pt": "aumento no valor de atributo",
+    "en": "Ability Score Improvement"
+   },
+   "html": {
+    "pt": "<p>Ao alcançar o 4º nível, e novamente no 6º, 8º, 12º, 14º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou em 1 os valores de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
+    "en": "<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
+   }
+  },
+  {
+   "key": "action-surge-two-uses",
+   "level": 17,
+   "optional": false,
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 90
+    },
+    "en": {
+     "book": "PHB",
+     "page": 72
+    }
+   },
+   "name": {
+    "pt": "surto de ação (dois usos)",
+    "en": "Action Surge (two uses)"
+   },
+   "html": {
+    "pt": "<p>A partir do 2º nível, você é capaz de superar os seus limites normais momentaneamente. No seu turno, você pode realizar uma ação extra, além da sua ação comum e de uma possível ação bônus.</p><p>Uma vez usada esta característica, você deve completar um descanso curto ou longo antes de poder utilizá-la novamente. A partir do 17º nível, você pode usar esta característica duas vezes antes de precisar de um descanso, mas somente uma vez por turno.</p>",
+    "en": "<p>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action.</p> <p>Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.</p>"
+   }
+  },
+  {
+   "key": "indomitable-three-uses",
+   "level": 17,
+   "optional": false,
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 90
+    },
+    "en": {
+     "book": "PHB",
+     "page": 72
+    }
+   },
+   "name": {
+    "pt": "indomável (três usos)",
+    "en": "Indomitable (three uses)"
+   },
+   "html": {
+    "pt": "<p>A partir do 9º nível, você pode testar novamente uma salvaguarda na qual tenha falhado. Se fizer isso, deve utilizar a nova jogada, não podendo usar esta característica novamente até completar um descanso longo.</p><p>A partir do 13º nível, você pode usar esta característica duas vezes entre descansos longos, e a partir do 17º nível, três vezes (novamente, entre descansos longos).</p>",
+    "en": "<p>Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can’t use this feature again until you finish a long rest.</p> <p>You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level.</p>"
+   }
+  },
+  {
+   "key": "ability-score-improvement-19",
+   "level": 19,
+   "optional": false,
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 90
+    },
+    "en": {
+     "book": "PHB",
+     "page": 72
+    }
+   },
+   "name": {
+    "pt": "aumento no valor de atributo",
+    "en": "Ability Score Improvement"
+   },
+   "html": {
+    "pt": "<p>Ao alcançar o 4º nível, e novamente no 6º, 8º, 12º, 14º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou em 1 os valores de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
+    "en": "<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
+   }
+  },
+  {
+   "key": "extra-attack-3",
+   "level": 20,
+   "optional": false,
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 90
+    },
+    "en": {
+     "book": "PHB",
+     "page": 72
+    }
+   },
+   "name": {
+    "pt": "ataque extra (3)",
+    "en": "Extra Attack (3)"
+   },
+   "html": {
+    "pt": "<p>No 20º nível, você pode realizar quatro ataques em vez de três, sempre que executar a ação Atacar no seu turno.</p>",
+    "en": "<p>At 20th level, you can attack four times, instead of three, whenever you take the Attack action on your turn.</p>"
+   }
+  }
+ ],
+ "subclasses": [
+  {
+   "slug": "champion",
+   "short_name_en": "Champion",
+   "name": {
+    "pt": "campeão",
+    "en": "Champion"
+   },
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 90
+    },
+    "en": {
+     "book": "PHB",
+     "page": 72
+    }
+   },
+   "intro_html": {
+    "pt": "<p>O arquétipo Campeão se concentra no desenvolvimento da força física, cultivando uma perfeição mortífera. Aqueles que se inspiram neste arquétipo combinam o treinamento rigoroso com a excelência física, desferindo golpes devastadores.</p>",
+    "en": "<p>The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.</p>"
+   },
+   "features": [
+    {
+     "key": "improved-critical",
+     "level": 3,
+     "source": {
+      "pt": {
+       "book": "LDJ",
+       "page": 90
+      },
+      "en": {
+       "book": "PHB",
+       "page": 72
+      }
+     },
+     "name": {
+      "pt": "crítico aprimorado",
+      "en": "Improved Critical"
+     },
+     "html": {
+      "pt": "<p>A partir do momento que você escolhe este arquétipo, no 3º nível, seus ataques armados passam a causar um acerto crítico nas jogadas com resultados 19 ou 20.</p>",
+      "en": "<p>Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20.</p>"
+     }
+    },
+    {
+     "key": "remarkable-athlete",
+     "level": 7,
+     "source": {
+      "pt": {
+       "book": "LDJ",
+       "page": 90
+      },
+      "en": {
+       "book": "PHB",
+       "page": 72
+      }
+     },
+     "name": {
+      "pt": "atleta extraordinário",
+      "en": "Remarkable Athlete"
+     },
+     "html": {
+      "pt": "<p>A partir do 7º nível, você pode adicionar metade do seu bônus de proficiência (arredondado para cima) em qualquer teste de Força, Destreza ou Constituição que já não faça uso desse bônus.</p><p>Além disso, ao correr e saltar, a distância coberta pelo seu salto aumenta em 30 centímetros para cada ponto do seu modificador de Força.</p>",
+      "en": "<p>Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn’t already use your proficiency bonus.</p> <p>In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier.</p>"
+     }
+    },
+    {
+     "key": "additional-fighting-style",
+     "level": 10,
+     "source": {
+      "pt": {
+       "book": "LDJ",
+       "page": 90
+      },
+      "en": {
+       "book": "PHB",
+       "page": 72
+      }
+     },
+     "name": {
+      "pt": "estilo de luta adicional",
+      "en": "Additional Fighting Style"
+     },
+     "html": {
+      "pt": "<p>No 10º nível, você pode escolher uma segunda opção da característica de classe Estilo de Luta.</p><p><strong>Arqueria.</strong> Você ganha um bônus de +2 nas jogadas de ataque feitas com armas de combate à distância.</p><p><strong>Combate com Armas Grandes.</strong> Ao tirar 1 ou 2 em um dos dados de dano causado por uma arma de combate corpo a corpo empunhada com ambas as mãos, você pode jogar o dado novamente e deve usar o novo resultado, mesmo que seja 1 ou 2. A arma precisa ter as propriedades duas mãos ou versátil para que você receba este benefício.</p><p><strong>Combate com Duas Armas.</strong> Ao se engajar em combate com duas armas, você pode adicionar o seu modificador de atributo ao dano do segundo ataque.</p><p><strong>Defensivo.</strong> Enquanto estiver vestindo armadura, você ganha um bônus de +1 na sua CA.</p><p><strong>Duelismo.</strong> Enquanto estiver empunhando uma única arma de combate corpo a corpo em apenas uma das mãos, você ganha um bônus de +2 nas jogadas de dano feitas com essa arma.</p><p><strong>Protetivo.</strong> Você pode usar sua reação para impor desvantagem à jogada de ataque de uma criatura que você possa ver, quando ela atacar um alvo que não seja você e que esteja a até 1,5 metro de distância. Você precisa estar empunhando um escudo.</p>",
+      "en": "<p>At 10th level, you can choose a second option from the Fighting Style class feature.</p> Archery <p></p><p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p><p></p> Defense <p></p><p>While you are wearing armor, you gain a +1 bonus to AC.</p><p></p> Dueling <p></p><p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p><p></p> Great Weapon Fighting <p></p><p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</p><p></p> Protection <p></p><p>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</p><p></p> Two-Weapon Fighting <p></p><p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p><p></p>"
+     }
+    },
+    {
+     "key": "superior-critical",
+     "level": 15,
+     "source": {
+      "pt": {
+       "book": "LDJ",
+       "page": 91
+      },
+      "en": {
+       "book": "PHB",
+       "page": 72
+      }
+     },
+     "name": {
+      "pt": "crítico superior",
+      "en": "Superior Critical"
+     },
+     "html": {
+      "pt": "<p>A partir do 15º nível, seus ataques armados causam acerto crítico em uma jogada com resultados 18, 19 ou 20.</p>",
+      "en": "<p>Starting at 15th level, your weapon attacks score a critical hit on a roll of 18–20.</p>"
+     }
+    },
+    {
+     "key": "survivor",
+     "level": 18,
+     "source": {
+      "pt": {
+       "book": "LDJ",
+       "page": 91
+      },
+      "en": {
+       "book": "PHB",
+       "page": 72
+      }
+     },
+     "name": {
+      "pt": "sobrevivente",
+      "en": "Survivor"
+     },
+     "html": {
+      "pt": "<p>No 18º nível, você alcança o ápice da resistência em combate. No começo de cada um dos seus turnos, caso tenha menos do que metade dos seus pontos de vida sobrando, você recupera uma quantidade de pontos de vida igual a 5 + seu modificador de Constituição. Você não ganha esse benefício caso esteja com 0 pontos de vida.</p>",
+      "en": "<p>At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don’t gain this benefit if you have 0 hit points.</p>"
+     }
+    }
+   ],
+   "spells": []
+  },
+  {
+   "slug": "battle-master",
+   "short_name_en": "Battle Master",
+   "name": {
+    "pt": "mestre da batalha",
+    "en": "Battle Master"
+   },
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 91
+    },
+    "en": {
+     "book": "PHB",
+     "page": 73
+    }
+   },
+   "intro_html": {
+    "pt": "<p>Aqueles que incorporam o arquétipo Mestre da Batalha empregam técnicas marciais transmitidas através das gerações. Para um Mestre da Batalha, o combate é um campo de estudos, às vezes incluindo temas que vão além da batalha, como armamentos e caligrafia. Nem todos os lutadores absorvem as lições de história, teoria e arte que são refletidas no arquétipo Mestre da Batalha, mas aqueles que o fazem são guerreiros completos, reunindo grande habilidade e conhecimento.</p>",
+    "en": "<p>Those who emulate the archetypal Battle Master employ martial techniques passed down through generations. To a Battle Master, combat is an academic field, sometimes including subjects beyond battle such as weaponsmithing and calligraphy. Not every fighter absorbs the lessons of history, theory, and artistry that are reflected in the Battle Master archetype, but those who do are well-rounded fighters of great skill and knowledge.</p>"
+   },
+   "features": [
+    {
+     "key": "combat-superiority",
+     "level": 3,
+     "source": {
+      "pt": {
+       "book": "LDJ",
+       "page": 91
+      },
+      "en": {
+       "book": "PHB",
+       "page": 73
+      }
+     },
+     "name": {
+      "pt": "superioridade em combate",
+      "en": "Combat Superiority"
+     },
+     "html": {
+      "pt": "<p>Ao escolher este arquétipo no 3º nível, você aprende manobras que são alimentadas por dados especiais, chamados dados de superioridade.</p><p><strong>Manobras.</strong> Você aprende três manobras à sua escolha, detalhadas abaixo. Muitas manobras melhoram um ataque de alguma forma. Só se pode usar uma manobra por ataque.<br>Você pode escolher duas manobras extras no 7º, 10º e 15º níveis. Toda vez que aprender novas manobras, também poderá substituir uma manobra antiga por uma diferente.</p><p><strong>Dados de Superioridade.</strong> Você possui 4d8 de superioridade. Um dado de superioridade é gasto ao ser utilizado. Você recupera todos os dados gastos após completar um descanso curto ou longo.<br>Você ganha mais um dado de superioridade no 7º nível e outro no 15º nível.</p><p><strong>Salvaguardas.</strong> Algumas das suas manobras exigem que seus alvos realizem testes de salvaguarda para resistirem aos seus efeitos. A CD dos testes de salvaguarda é calculada da seguinte forma:</p><p>CD contra suas manobras = 8 + seu bônus de proficiência + seu modificador de Força ou Destreza (à sua escolha)</p>",
+      "en": "<p>When you choose this archetype at 3rd level, you learn maneuvers that are fueled by special dice called superiority dice.</p> <p><strong>Maneuvers. </strong>You learn three maneuvers of your choice, which are detailed under “Maneuvers” below. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.</p> <p>You learn two additional maneuvers of your choice at 7th, 10th, and 15th level. Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.</p> <p><strong>Superiority Dice. </strong>You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.</p> <p>You gain another superiority die at 7th level and one more at 15th level.</p> <p><strong>Saving Throws. </strong>Some of your maneuvers require your target to make a saving throw to resist the maneuver’s effects. The saving throw DC is calculated as follows:</p> <p><strong>Maneuver save DC</strong> = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)</p>"
+     }
+    },
+    {
+     "key": "maneuvers",
+     "level": 3,
+     "source": {
+      "pt": {
+       "book": "LDJ",
+       "page": 92
+      },
+      "en": {
+       "book": "PHB",
+       "page": 73
+      }
+     },
+     "name": {
+      "pt": "manobras",
+      "en": "Maneuvers"
+     },
+     "html": {
+      "pt": "<p>As manobras serão apresentadas em ordem alfabética.</p><p><strong>Aparar.</strong> Ao sofrer dano em um combate corpo a corpo, você pode usar sua reação e jogar um dado de superioridade, descontando do dano o número obtido no dado + seu modificador de Destreza.</p><p><strong>Ataque Ameaçador.</strong> Ao atingir uma criatura com um ataque armado, você pode usar um dado de superioridade para tentar amedrontá-la. Você deve somar o dado de superioridade à jogada de dano. O alvo, por sua vez, deve realizar um teste de salvaguarda usando Sabedoria. Em caso de sucesso, ele fica amedrontado por você até o final do seu próximo turno.</p><p><strong>Ataque de Varredura.</strong> Ao atingir uma criatura com uma arma de combate corpo a corpo, você pode usar um dado de superioridade para tentar causar dano a outra criatura com o mesmo ataque. Escolha outra criatura que esteja a até 1,5 metro de distância do alvo original e dentro do seu alcance. Se o resultado da jogada de ataque original for suficiente para atingir a segunda criatura, esta sofre uma quantidade de dano igual ao número jogado no seu dado de superioridade. Esse dano pertence ao mesmo tipo causado pelo ataque original.</p><p><strong>Ataque Estendido.</strong> Você pode usar um dado de superioridade para aumentar em 1,5 metro o alcance de um ataque realizado com uma arma de combate corpo a corpo. Se o ataque for bem-sucedido, você deve somar o dado de superioridade à jogada de dano.</p><p><strong>Ataque para Distrair.</strong> Ao atingir uma criatura com um ataque armado, você pode usar um dado de superioridade para distraí-la, oferecendo aos seus aliados uma abertura nas defesas dela. Você deve adicionar o dado de superioridade à jogada de dano. A próxima jogada de ataque realizada por um aliado seu antes do início do próximo turno terá vantagem.</p><p><strong>Ataque Preciso.</strong> Você pode somar um dado de superioridade a uma jogada de ataque feita contra uma criatura. Você pode usar esta característica antes ou depois da jogada, mas deve fazê-lo antes que qualquer efeito seja aplicado.</p><p><strong>Ataque Provocante.</strong> Ao atingir uma criatura com um ataque armado, você pode usar um dado de superioridade para tentar incitá-la a atacá-lo. Você deve somar o dado de superioridade à jogada de dano. O alvo, por sua vez, deve realizar um teste de salvaguarda usando Sabedoria. Em caso de falha, até o final do próximo turno, ele passa a ter desvantagem em todas as jogadas de ataque realizadas contra qualquer alvo, exceto você.</p><p><strong>Contra-ataque.</strong> Quando uma criatura em combate corpo a corpo erra um ataque desferido contra você, ela lhe dá a oportunidade de usar uma reação e um dado de superioridade para atacá-la com uma arma de combate corpo a corpo. Se o ataque for bem-sucedido, você deve somar o dado de superioridade à sua jogada de dano.</p><p><strong>Derrubar.</strong> Ao atingir uma criatura com um ataque armado, você pode usar um dado de superioridade para tentar derrubá-la. Adicione o dado de superioridade à jogada de dano. Se o alvo for Grande ou menor, por sua vez, deve realizar uma salvaguarda de Força. Em caso de falha, ele ficará caído.</p><p><strong>Desarme.</strong> Ao atingir uma criatura com um ataque armado, você pode usar um dado de superioridade para tentar desarmá-la, forçando-a a largar um item que esteja segurando. Você deve adicionar o dado de superioridade à jogada de dano. O alvo, por sua vez, deve realizar uma salvaguarda de Força. Em caso de falha, ele derruba o objeto que você escolheu. O objeto cai aos pés dele.</p><p><strong>Encontrão.</strong> Ao atingir uma criatura com um ataque armado, você pode usar um dado de superioridade para tentar projetá-la para trás. Você deve adicionar o dado de superioridade à jogada de dano. Se o alvo for Grande ou menor, por sua vez, deve realizar uma salvaguarda de Força. Em caso de falha, você o projeta até 4,5 metros para trás.</p><p><strong>Finta.</strong> Você pode gastar um dado de superioridade para usar sua ação bônus no seu turno e realizar uma finta, escolhendo como alvo uma criatura que esteja a até 1,5 metro de distância. Você passa a ter vantagem no seu próximo ataque contra a criatura neste turno. Se o ataque for bem-sucedido, some o dado de superioridade à sua jogada de dano.</p><p><strong>Golpe do Comandante.</strong> Ao realizar a ação Atacar em seu turno, você pode renunciar a um dos seus ataques, e utilizar sua ação bônus para direcionar o ataque de um dos seus companheiros. Para fazê-lo, escolha uma criatura amigável que possa vê-lo ou ouvi-lo, e gaste um dado de superioridade. A criatura alvo pode usar imediatamente uma reação para realizar um ataque armado, adicionando o seu dado de superioridade à jogada de dano realizada por ela.</p><p><strong>Movimentação Evasiva.</strong> Ao mover-se, você pode jogar um dado de superioridade e somar o resultado à sua CA até parar o movimento.</p><p><strong>Manobrar.</strong> Ao atingir uma criatura com um ataque armado, você pode usar um dado de superioridade para reposicionar um dos seus companheiros em um local mais vantajoso. Você soma o dado de superioridade à jogada de dano e, em seguida, deve escolher uma criatura amigável que possa vê-lo ou ouvi-lo. Essa criatura poderá usar a própria reação para se deslocar à metade do deslocamento dela sem provocar ataques de oportunidade do alvo do seu ataque.</p><p><strong>Recuperar Energia.</strong> No seu turno, você pode usar uma ação bônus e gastar um dado de superioridade para reforçar a determinação de um dos seus companheiros. Para tanto, escolha uma criatura amigável que possa vê-lo ou ouvi-lo. Ela ganhará uma quantidade de pontos de vida temporários igual ao resultado da jogada do dado de superioridade + seu modificador de Carisma.</p>",
+      "en": "<p>The maneuvers are presented in alphabetical order.</p> Ambush <p></p><p>When you make a Dexterity (Stealth) check or an initiative roll, you can expend one superiority die and add the die to the roll, provided you aren’t incapacitated.</p><p></p> Bait and Switch <p></p><p>When you’re within 5 feet of a creature on your turn, you can expend one superiority die and switch places with that creature, provided you spend at least 5 feet of movement and the creature is willing and isn’t incapacitated. This movement doesn’t provoke opportunity attacks.</p> <p>Roll the superiority die. Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.</p><p></p> Brace <p></p><p>When a creature you can see moves into the reach you have with the melee weapon you’re wielding, you can use your reaction to expend one superiority die and make one attack against the creature, using that weapon. If the attack hits, add the superiority die to the weapon’s damage roll.</p><p></p> Commander’s Strike <p></p><p>When you take the Attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you and expend one superiority die. That creature can immediately use its reaction to make one weapon attack, adding the superiority die to the attack’s damage roll.</p><p></p> Commanding Presence <p></p><p>When you make a Charisma (Intimidation), a Charisma (Performance), or a Charisma (Persuasion) check, you can expend one superiority die and add the superiority die to the ability check.</p><p></p> Disarming Attack <p></p><p>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it’s holding. You add the superiority die to the attack’s damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.</p><p></p> Distracting Strike <p></p><p>When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack’s damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.</p><p></p> Evasive Footwork <p></p><p>When you move, you can expend one superiority die, rolling the die and adding the number rolled to your AC until you stop moving.</p><p></p> Feinting Attack <p></p><p>You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll against that creature this turn. If that attack hits, add the superiority die to the attack’s damage roll.</p><p></p> Goading Attack <p></p><p>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.</p><p></p> Grappling Strike <p></p><p>Immediately after you hit a creature with a melee attack on your turn, you can expend one superiority die and then try to grapple the target as a bonus action (see the <em>Player’s Handbook</em> for rules on grappling). Add the superiority die to your Strength (Athletics) check.</p><p></p> Lunging Attack <p></p><p>When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack’s damage roll.</p><p></p> Maneuvering Attack <p></p><p>When you hit a creature with a weapon attack, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack’s damage roll, and you choose a friendly creature who can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack.</p><p></p> Menacing Attack <p></p><p>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target. You add the superiority die to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.</p><p></p> Parry <p></p><p>When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die + your Dexterity modifier.</p><p></p> Precision Attack <p></p><p>When you make a weapon attack roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied.</p><p></p> Pushing Attack <p></p><p>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to drive the target back. You add the superiority die to the attack’s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you.</p><p></p> Quick Toss <p></p><p>As a bonus action, you can expend one superiority die and make a ranged attack with a weapon that has the thrown property. You can draw the weapon as part of making this attack. If you hit, add the superiority die to the weapon’s damage roll.</p><p></p> Rally <p></p><p>On your turn, you can use a bonus action and expend one superiority die to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see or hear you. That creature gains temporary hit points equal to the superiority die roll + your Charisma modifier.</p><p></p> Riposte <p></p><p>When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack’s damage roll.</p><p></p> Sweeping Attack <p></p><p>When you hit a creature with a melee weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your superiority die. The damage is of the same type dealt by the original attack.</p><p></p> Tactical Assessment <p></p><p>When you make an Intelligence (Investigation), an Intelligence (History), or a Wisdom (Insight) check, you can expend one superiority die and add the superiority die to the ability check.</p><p></p> Trip Attack <p></p><p>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack’s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.</p><p></p>"
+     }
+    },
+    {
+     "key": "maneuver-options",
+     "level": 3,
+     "source": {
+      "pt": {
+       "book": "CTCT",
+       "page": 58
+      },
+      "en": {
+       "book": "TCE",
+       "page": 41
+      }
+     },
+     "name": {
+      "pt": "opções de manobra",
+      "en": "Maneuver Options"
+     },
+     "html": {
+      "pt": "<p><em>Características opcionais de guerreiro de 3º nível</em><br>Se você tiver acesso a manobras, as seguintes foram adicionadas na lista de opções disponíveis. Manobras estão disponíveis para Mestres da batalha, mas também para personagens que têm uma característica especial, como o estilo de luta Técnica Superior ou o talento Adepto marcial.</p><p><strong>Avaliação Tática.</strong> Ao fazer um teste de Inteligência (Investigação), Inteligência (História) ou Sabedoria (Intuição), você pode usar um dado de superioridade e adicioná-lo ao teste de atributo.</p><p><strong>Emboscada.</strong> Ao fazer um teste de Destreza (Furtividade) ou uma jogada de iniciativa, você pode usar um dado de superioridade e adicioná-lo à jogada, desde que não esteja incapacitado.</p><p><strong>Escorar.</strong> Quando uma criatura que você possa ver mover-se para o alcance de uma arma de combate corpo a corpo que você esteja empunhando, você pode usar sua reação para usar um dado de superioridade e fazer um ataque contra ela com esta arma. Se o ataque acertar, adicione o dado de superioridade à jogada de dano da arma.</p><p><strong>Gato por Lebre.</strong> Quando está a até 1,5 metro de uma criatura em seu turno, você pode gastar um dado de superioridade e trocar de lugar com esta criatura, desde que você gaste pelo menos 1,5 metro de movimento e ela seja voluntária e não esteja incapacitada. Este movimento não provoca ataques de oportunidade.<br>Jogue o dado de superioridade. Até o começo de seu próximo turno, você ou a outra criatura, à sua escolha, ganha um bônus de CA equivalente ao resultado.</p><p><strong>Golpe Agarrador.</strong> Imediatamente após acertar uma criatura com um ataque corpo a corpo no seu turno, você pode usar um dado de superioridade para tentar agarrar o alvo como uma ação bônus (consulte o Player’s Handbook para as regras de agarrar). Adicione o dado de superioridade ao seu teste de Força (Atletismo).</p><p><strong>Lançamento Rápido.</strong> Como uma ação bônus, você pode gastar um dado de superioridade e fazer um ataque à distância com uma arma que tenha a propriedade arremesso. Você pode sacar a arma como parte deste ataque. Se acertá-lo, adicione o dado de superioridade à jogada de dano da arma.</p><p><strong>Presença de Autoridade.</strong> Ao fazer um teste de Carisma (Intimidação), Carisma (Atuação) ou Carisma (Persuasão), você pode usar um dado de superioridade e adicioná-lo ao teste de atributo.</p>",
+      "en": "<p>3rd-level fighter optional class features</p><p>If you have access to maneuvers, the following maneuvers are added to the list of options available to you. Maneuvers are available to Battle Masters but also to characters who have a special feature like the Superior Technique fighting style or the Martial Adept feat.</p>"
+     },
+     "optional": true
+    },
+    {
+     "key": "student-of-war",
+     "level": 3,
+     "source": {
+      "pt": {
+       "book": "LDJ",
+       "page": 91
+      },
+      "en": {
+       "book": "PHB",
+       "page": 73
+      }
+     },
+     "name": {
+      "pt": "estudioso da guerra",
+      "en": "Student of War"
+     },
+     "html": {
+      "pt": "<p>No 3º nível, você ganha proficiência com um tipo de ferramenta de artesão à sua escolha.</p>",
+      "en": "<p>At 3rd level, you gain proficiency with one type of artisan’s tools of your choice.</p>"
+     }
+    },
+    {
+     "key": "know-your-enemy",
+     "level": 7,
+     "source": {
+      "pt": {
+       "book": "LDJ",
+       "page": 91
+      },
+      "en": {
+       "book": "PHB",
+       "page": 73
+      }
+     },
+     "name": {
+      "pt": "conheça seu inimigo",
+      "en": "Know Your Enemy"
+     },
+     "html": {
+      "pt": "<p>A partir do 7º nível, se você passar ao menos 1 minuto observando ou interagindo com uma criatura em qualquer situação que não envolva combate, torna-se capaz de comparar as capacidades dela com as suas. O DM dirá se a criatura é igual, superior ou inferior a você em duas das seguintes características, à sua escolha:</p><ul><li>Valor de Força</li><li>Valor de Destreza</li><li>Valor de Constituição</li><li>Classe de Armadura</li><li>Pontos de Vida atuais</li><li>Total de níveis em todas as classes (se for multiclasse)</li><li>Nível de guerreiro (se possuir)</li></ul>",
+      "en": "<p>Starting at 7th level, if you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:</p> <ul> <li>Strength score</li> <li>Dexterity score</li> <li>Constitution score</li> <li>Armor Class</li> <li>Current hit points</li> <li>Total class levels (if any)</li> <li>Fighter class levels (if any)</li> </ul>"
+     }
+    },
+    {
+     "key": "improved-combat-superiority-d10",
+     "level": 10,
+     "source": {
+      "pt": {
+       "book": "LDJ",
+       "page": 92
+      },
+      "en": {
+       "book": "PHB",
+       "page": 73
+      }
+     },
+     "name": {
+      "pt": "superioridade em combate aprimorada (d10)",
+      "en": "Improved Combat Superiority (d10)"
+     },
+     "html": {
+      "pt": "<p>No 10º nível, seus dados de superioridade transformam-se em d10. No 18º nível, transformam-se em d12.</p>",
+      "en": "<p>At 10th level, your superiority dice turn into d10s. At 18th level, they turn into d12s.</p>"
+     }
+    },
+    {
+     "key": "relentless",
+     "level": 15,
+     "source": {
+      "pt": {
+       "book": "LDJ",
+       "page": 92
+      },
+      "en": {
+       "book": "PHB",
+       "page": 73
+      }
+     },
+     "name": {
+      "pt": "implacável",
+      "en": "Relentless"
+     },
+     "html": {
+      "pt": "<p>A partir do 15º nível, se você não tiver dados de superioridade disponíveis, ao jogar a iniciativa, recupera um dado de superioridade.</p>",
+      "en": "<p>Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain one superiority die.</p>"
+     }
+    },
+    {
+     "key": "improved-combat-superiority-d12",
+     "level": 18,
+     "source": {
+      "pt": {
+       "book": "LDJ",
+       "page": 92
+      },
+      "en": {
+       "book": "PHB",
+       "page": 73
+      }
+     },
+     "name": {
+      "pt": "superioridade em combate aprimorada (d12)",
+      "en": "Improved Combat Superiority (d12)"
+     },
+     "html": {
+      "pt": "<p>No 18º nível, seus dados de superioridade transformam-se em d12.</p>",
+      "en": "<p>At 18th level, your superiority dice turn into d12s.</p>"
+     }
+    }
+   ],
+   "spells": []
+  },
+  {
+   "slug": "eldritch-knight",
+   "short_name_en": "Eldritch Knight",
+   "name": {
+    "pt": "cavaleiro místico",
+    "en": "Eldritch Knight"
+   },
+   "source": {
+    "pt": {
+     "book": "LDJ",
+     "page": 92
+    },
+    "en": {
+     "book": "PHB",
+     "page": 74
+    }
+   },
+   "intro_html": {
+    "pt": "<p>O arquetípico Cavaleiro Místico combina o domínio marcial, comum a todos os guerreiros, com um minucioso estudo de magia. Os membros deste arquétipo usam técnicas similares àquelas praticadas pelos magos. Eles concentram seus estudos em duas das oito escolas de magia: abjuração e evocação. As magias de abjuração lhes conferem proteção extra em batalha, enquanto as de evocação causam dano diretamente a seus inimigos, aumentando o alcance do cavaleiro em combate. Os cavaleiros místicos aprendem uma quantidade de magias relativamente pequena, guardando-as na memória em vez de mantê-las em um grimório.[?]</p>",
+    "en": "<p>The archetypal Eldritch Knight combines the martial mastery common to all fighters with a careful study of magic. Eldritch Knights use magical techniques similar to those practiced by wizards. They focus their study on two of the eight schools of magic: abjuration and evocation. Abjuration spells grant an Eldritch Knight additional protection in battle, and evocation spells deal damage to many foes at once, extending the fighter’s reach in combat. These knights learn a comparatively small number of spells, committing them to memory instead of keeping them in a spellbook.</p>"
+   },
+   "features": [
+    {
+     "key": "spellcasting",
+     "level": 3,
+     "source": {
+      "pt": {
+       "book": "LDJ",
+       "page": 93
+      },
+      "en": {
+       "book": "PHB",
+       "page": 74
+      }
+     },
+     "name": {
+      "pt": "conjuração",
+      "en": "Spellcasting"
+     },
+     "html": {
+      "pt": "<p>Ao alcançar o 3º nível, você amplia o seu poder marcial com a habilidade de conjurar magias. Veja o capítulo 10, \"Conjuração\", para consultar as regras gerais de conjuração, e o capítulo 11, \"Magias\", para verificar a lista de magias de mago.</p><p><strong>Truques.</strong> Você pode escolher dois truques da lista de magias de mago. Você aprende truques adicionais no 10º nível.</p><p><strong>Espaços de Magia.</strong> A tabela de Conjuração: Cavaleiro Místico mostra quantos espaços de magia você possui para conjurar suas magias de mago do 1º círculo em diante. Para conjurar uma magia, você deve usar um espaço de magia igual ou superior ao círculo da magia. Você recupera todos os espaços de magia usados ao final de um descanso longo.<br>Por exemplo, se você conhece a magia de 1º círculo <em>escudo</em>, e possui um espaço de magia de 1º círculo e um de 2º círculo, você pode conjurar <em>escudo</em> usando qualquer um desses espaços.</p><p><strong>Magias Conhecidas de Acordo com o Nível.</strong> Você conhece três magias de mago de 1º círculo à sua escolha, duas das quais deve escolher dentre as magias de abjuração e evocação da lista de magias de mago.<br>A coluna Magias, da tabela de Conjuração: Cavaleiro Místico, mostra quando você aprende magias de mago do 1º círculo em diante. Toda magia aprendida deve pertencer às escolas de abjuração ou evocação, e deve pertencer a um círculo para o qual você tenha espaços de magia. Por exemplo, ao alcançar o 7º nível nesta classe, você pode aprender uma nova magia de 1º ou 2º círculo.<br>As magias que você aprende nos 8º, 14º e 20º níveis podem pertencer a quaisquer escolas de magia.<br>Sempre que você ganhar um nível nesta classe, poderá substituir uma das suas magias de mago por outra magia de mago à sua escolha. A nova magia deve pertencer a um nível para o qual você tenha espaços de magia, e às escolas de abjuração ou evocação, a menos que você esteja substituindo magias adquiridas nos 3º, 8º, 14º ou 20º níveis: nesse caso, a nova magia pode pertencer a qualquer escola.</p><p><strong>Atributo de Conjuração.</strong> Inteligência é o atributo usado para a conjuração das suas magias de mago, pois sua magia vem do estudo e da memorização. Você deve usar Inteligência sempre que uma magia fizer referência ao seu atributo de conjuração. Além disso, você usa o seu modificador de Inteligência tanto para definir a CD de uma salvaguarda feita para evitar uma magia de mago conjurada por você, quanto para realizar uma jogada de ataque com uma magia de mago.</p><p><strong>CD para evitar suas magias</strong> = 8 + seu bônus de proficiência + seu modificador de Inteligência</p><p><strong>Modificador de ataque mágico</strong> = seu bônus de proficiência + seu modificador de Inteligência</p><p><strong>Conjuração: Cavaleiro Místico</strong></p><table><thead><tr><th rowspan=\"2\">Nível de Guerreiro</th><th rowspan=\"2\">Truques</th><th rowspan=\"2\">Magias</th><th colspan=\"4\">Espaços de Magia por Nível</th></tr><tr><th>1º</th><th>2º</th><th>3º</th><th>4º</th></tr></thead><tbody><tr><td>3º</td><td>2</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td></tr><tr><td>4º</td><td>2</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr><tr><td>5º</td><td>2</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr><tr><td>6º</td><td>2</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr><tr><td>7º</td><td>2</td><td>5</td><td>4</td><td>2</td><td>—</td><td>—</td></tr><tr><td>8º</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td></tr><tr><td>9º</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td></tr><tr><td>10º</td><td>3</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td></tr><tr><td>11º</td><td>3</td><td>8</td><td>4</td><td>3</td><td>—</td><td>—</td></tr><tr><td>12º</td><td>3</td><td>8</td><td>4</td><td>3</td><td>—</td><td>—</td></tr><tr><td>13º</td><td>3</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td></tr><tr><td>14º</td><td>3</td><td>10</td><td>4</td><td>3</td><td>2</td><td>—</td></tr><tr><td>15º</td><td>3</td><td>10</td><td>4</td><td>3</td><td>2</td><td>—</td></tr><tr><td>16º</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr><tr><td>17º</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr><tr><td>18º</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr><tr><td>19º</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>1</td></tr><tr><td>20º</td><td>3</td><td>13</td><td>4</td><td>3</td><td>3</td><td>1</td></tr></tbody></table>",
+      "en": "<p>When you reach 3rd level, you augment your martial prowess with the ability to cast spells. See Spells Rules for the general rules of spellcasting and the Spells Listing&nbsp;for the wizard&nbsp;spell list.</p> Cantrips <p>You learn two cantrips of your choice from the wizard spell list. You learn an additional wizard cantrip of your choice at 10th level.</p> Spell Slots <p>The Eldritch Knight Spellcasting table shows how many spell slots you have to cast your wizard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</p> <p>For example, if you know the 1st-level spell shield and have a 1st-level and a 2nd-level spell slot available, you can cast shield using either slot.</p> Spells Known of 1st-Level and Higher <p>You know three 1st-level wizard spells of your choice, two of which you must choose from the abjuration and evocation spells on the wizard spell list.</p> <p>The Spells Known column of the Eldritch Knight Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an abjuration or evocation spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.</p> <p>The spells you learn at 8th, 14th, and 20th level can come from any school of magic.</p> <p>Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an abjuration or evocation spell, unless you’re replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic.</p> Spellcasting Ability <p>Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.</p> <p><strong>Spell save DC </strong>= 8 + your proficiency bonus + your Intelligence modifier</p> <p><strong>Spell attack modifier </strong>= your proficiency bonus + your Intelligence modifier</p> Eldritch Knight Spellcasting<br><br> <table> <thead> <tr> <th> <p><strong>Fighter Level</strong></p> </th> <th> <p><strong>Cantrips</strong></p> <p><strong>Known</strong></p> </th> <th> <p><strong>Spells</strong></p> <p><strong>Known</strong></p> </th> <th> <p><strong>— Spell Slots per Spell Level —</strong></p> </th> </tr> <tr> <th> <p><strong>1st</strong></p> </th> <th> <p><strong>2nd</strong></p> </th> <th> <p><strong>3rd</strong></p> </th> <th> <p><strong>4th</strong></p> </th> </tr> </thead> <tbody> <tr> <td> <p>3rd</p> </td> <td> <p>2</p> </td> <td> <p>3</p> </td> <td> <p>2</p> </td> <td> <p>—</p> </td> <td> <p>—</p> </td> <td> <p>—</p> </td> </tr> <tr> <td> <p>4th</p> </td> <td> <p>2</p> </td> <td> <p>4</p> </td> <td> <p>3</p> </td> <td> <p>—</p> </td> <td> <p>—</p> </td> <td> <p>—</p> </td> </tr> <tr> <td> <p>5th</p> </td> <td> <p>2</p> </td> <td> <p>4</p> </td> <td> <p>3</p> </td> <td> <p>—</p> </td> <td> <p>—</p> </td> <td> <p>—</p> </td> </tr> <tr> <td> <p>6th</p> </td> <td> <p>2</p> </td> <td> <p>4</p> </td> <td> <p>3</p> </td> <td> <p>—</p> </td> <td> <p>—</p> </td> <td> <p>—</p> </td> </tr> <tr> <td> <p>7th</p> </td> <td> <p>2</p> </td> <td> <p>5</p> </td> <td> <p>4</p> </td> <td> <p>2</p> </td> <td> <p>—</p> </td> <td> <p>—</p> </td> </tr> <tr> <td> <p>8th</p> </td> <td> <p>2</p> </td> <td> <p>6</p> </td> <td> <p>4</p> </td> <td> <p>2</p> </td> <td> <p>—</p> </td> <td> <p>—</p> </td> </tr> <tr> <td> <p>9th</p> </td> <td> <p>2</p> </td> <td> <p>6</p> </td> <td> <p>4</p> </td> <td> <p>2</p> </td> <td> <p>—</p> </td> <td> <p>—</p> </td> </tr> <tr> <td> <p>10th</p> </td> <td> <p>3</p> </td> <td> <p>7</p> </td> <td> <p>4</p> </td> <td> <p>3</p> </td> <td> <p>—</p> </td> <td> <p>—</p> </td> </tr> <tr> <td> <p>11th</p> </td> <td> <p>3</p> </td> <td> <p>8</p> </td> <td> <p>4</p> </td> <td> <p>3</p> </td> <td> <p>—</p> </td> <td> <p>—</p> </td> </tr> <tr> <td> <p>12th</p> </td> <td> <p>3</p> </td> <td> <p>8</p> </td> <td> <p>4</p> </td> <td> <p>3</p> </td> <td> <p>—</p> </td> <td> <p>—</p> </td> </tr> <tr> <td> <p>13th</p> </td> <td> <p>3</p> </td> <td> <p>9</p> </td> <td> <p>4</p> </td> <td> <p>3</p> </td> <td> <p>2</p> </td> <td> <p>—</p> </td> </tr> <tr> <td> <p>14th</p> </td> <td> <p>3</p> </td> <td> <p>10</p> </td> <td> <p>4</p> </td> <td> <p>3</p> </td> <td> <p>2</p> </td> <td> <p>—</p> </td> </tr> <tr> <td> <p>15th</p> </td> <td> <p>3</p> </td> <td> <p>10</p> </td> <td> <p>4</p> </td> <td> <p>3</p> </td> <td> <p>2</p> </td> <td> <p>—</p> </td> </tr> <tr> <td> <p>16th</p> </td> <td> <p>3</p> </td> <td> <p>11</p> </td> <td> <p>4</p> </td> <td> <p>3</p> </td> <td> <p>3</p> </td> <td> <p>—</p> </td> </tr> <tr> <td> <p>17th</p> </td> <td> <p>3</p> </td> <td> <p>11</p> </td> <td> <p>4</p> </td> <td> <p>3</p> </td> <td> <p>3</p> </td> <td> <p>—</p> </td> </tr> <tr> <td> <p>18th</p> </td> <td> <p>3</p> </td> <td> <p>11</p> </td> <td> <p>4</p> </td> <td> <p>3</p> </td> <td> <p>3</p> </td> <td> <p>—</p> </td> </tr> <tr> <td> <p>19th</p> </td> <td> <p>3</p> </td> <td> <p>12</p> </td> <td> <p>4</p> </td> <td> <p>3</p> </td> <td> <p>3</p> </td> <td> <p>1</p> </td> </tr> <tr> <td> <p>20th</p> </td> <td> <p>3</p> </td> <td> <p>13</p> </td> <td> <p>4</p> </td> <td> <p>3</p> </td> <td> <p>3</p> </td> <td> <p>1</p> </td> </tr> </tbody> </table>"
+     }
+    },
+    {
+     "key": "weapon-bond",
+     "level": 3,
+     "source": {
+      "pt": {
+       "book": "LDJ",
+       "page": 93
+      },
+      "en": {
+       "book": "PHB",
+       "page": 74
+      }
+     },
+     "name": {
+      "pt": "vínculo com arma",
+      "en": "Weapon Bond"
+     },
+     "html": {
+      "pt": "<p>No 3º nível, você aprende um ritual que cria uma ligação mágica entre você e uma arma. O ritual deve ser executado ao longo de 1 hora, o que pode ser feito durante um descanso curto. A arma deve estar ao seu alcance durante todo o ritual, ao fim do qual você forja a ligação ao tocá-la.</p><p>Uma vez estabelecido o vínculo, você não pode ser desarmado enquanto estiver empunhando essa arma, a menos que esteja incapacitado. Se a arma estiver no mesmo plano de existência que você, é possível invocá-la com uma ação bônus, fazendo com que ela se teleporte instantaneamente para a sua mão.</p><p>É possível ter até duas armas vinculadas, mas só se pode invocar uma delas por ação bônus. Para estabelecer o vínculo com uma terceira arma, você deve desfazer um dos vínculos anteriores.</p>",
+      "en": "<p>At 3rd level, you learn a ritual that creates a magical bond between yourself and one weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond.</p> <p>Once you have bonded a weapon to yourself, you can’t be disarmed of that weapon unless you are incapacitated. If it is on the same plane of existence, you can summon that weapon as a bonus action on your turn, causing it to teleport instantly to your hand.</p> <p>You can have up to two bonded weapons, but can summon only one at a time with your bonus action. If you attempt to bond with a third weapon, you must break the bond with one of the other two.</p>"
+     }
+    },
+    {
+     "key": "war-magic",
+     "level": 7,
+     "source": {
+      "pt": {
+       "book": "LDJ",
+       "page": 93
+      },
+      "en": {
+       "book": "PHB",
+       "page": 74
+      }
+     },
+     "name": {
+      "pt": "magia de guerra",
+      "en": "War Magic"
+     },
+     "html": {
+      "pt": "<p>A partir do 7º nível, ao usar uma ação para conjurar um truque, você pode realizar um ataque armado como sua ação bônus.</p>",
+      "en": "<p>Beginning at 7th level, when you use your action to cast a cantrip, you can make one weapon attack as a bonus action.</p>"
+     }
+    },
+    {
+     "key": "eldritch-strike",
+     "level": 10,
+     "source": {
+      "pt": {
+       "book": "LDJ",
+       "page": 93
+      },
+      "en": {
+       "book": "PHB",
+       "page": 74
+      }
+     },
+     "name": {
+      "pt": "golpe místico",
+      "en": "Eldritch Strike"
+     },
+     "html": {
+      "pt": "<p>No 10º nível, você aprende a fazer com que os golpes da sua arma enfraqueçam a resistência do alvo contra suas magias. Ao atingir uma criatura com um ataque armado, ela terá desvantagem na próxima salvaguarda realizada contra uma magia conjurada por você antes do final do seu próximo turno.</p>",
+      "en": "<p>At 10th level, you learn how to make your weapon strikes undercut a creature’s resistance to your spells. When you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn.</p>"
+     }
+    },
+    {
+     "key": "arcane-charge",
+     "level": 15,
+     "source": {
+      "pt": {
+       "book": "LDJ",
+       "page": 93
+      },
+      "en": {
+       "book": "PHB",
+       "page": 74
+      }
+     },
+     "name": {
+      "pt": "investida mística",
+      "en": "Arcane Charge"
+     },
+     "html": {
+      "pt": "<p>No 15º nível, ao usar Surto de Ação, você pode se teleportar para um espaço desocupado que você possa ver, a até 9 metros de distância. Isso pode ser feito antes ou depois da sua ação extra.</p>",
+      "en": "<p>At 15th level, you gain the ability to teleport up to 30 feet to an unoccupied space you can see when you use your Action Surge. You can teleport before or after the additional action.</p>"
+     }
+    },
+    {
+     "key": "improved-war-magic",
+     "level": 18,
+     "source": {
+      "pt": {
+       "book": "LDJ",
+       "page": 93
+      },
+      "en": {
+       "book": "PHB",
+       "page": 74
+      }
+     },
+     "name": {
+      "pt": "magia de guerra aprimorada",
+      "en": "Improved War Magic"
+     },
+     "html": {
+      "pt": "<p>A partir do 18º nível, ao usar sua ação para conjurar uma magia, você pode realizar um ataque armado como sua ação bônus.</p>",
+      "en": "<p>Starting at 18th level, when you use your action to cast a spell, you can make one weapon attack as a bonus action.</p>"
+     }
+    }
+   ],
+   "spells": []
+  },
+  {
+   "slug": "purple-dragon-knight-banneret",
+   "short_name_en": "Purple Dragon Knight (Banneret)",
+   "name": {
+    "pt": "cavaleiro dragão púrpura (banerete)",
+    "en": "Purple Dragon Knight (Banneret)"
+   },
+   "source": {
+    "pt": {
+     "book": "GACE",
+     "page": 133
+    },
+    "en": {
+     "book": "SCAG",
+     "page": 128
+    }
+   },
+   "intro_html": {
+    "pt": "<p>Os Cavaleiros Dragão Púrpura são combatentes que vêm do reino de Cormyr. Juramentados a proteger a coroa, eles levam a luta contra o mal para além das fronteiras de seu reino. Eles têm a tarefa de vagar pelas terras como cavaleiros errantes, confiando em seu julgamento, bravura e fidelidade ao código de cavalaria para guiá-los no enfrentamento aos mal-feitores.</p><p>Um cavaleiro Dragão Púrpura inspira a grandeza nos outros ao praticar atos de bravura em batalha. A mera presença de um cavaleiro em um vilarejo é o suficiente para fazer com que alguns orcs e bandidos procurem uma presa mais fácil. Um cavaleiro sozinho já é um combatente habilidoso, mas um cavaleiro liderando um bando de aliados pode transformar até mesmo a milícia mais mal equipada em um grupo de guerra feroz.</p><p>Um cavaleiro prefere liderar através de seus feitos, não de palavras. Quando um cavaleiro lidera um ataque, suas ações podem despertar em um aliado a coragem e convicção que estavam escondidas, algo que ele próprio jamais suspeitou que tinha.</p>",
+    "en": "<p>Purple Dragon Knights are warriors who hail from the kingdom of Cormyr. Pledged to protect the crown, they take the fight against evil beyond the kingdom&#x27;s borders. They are tasked with wandering the land as knights errant, relying on their judgment, bravery, and fidelity to guide them in defeating evildoers.</p><p>A Purple Dragon Knight inspires greatness in others by committing brave deeds in battle. The mere presence of a knight in a hamlet is enough to cause some orcs and bandits to seek easier prey. A lone knight is a skilled warrior, but a knight leading a band of allies can transform even the most poorly equipped militia into a ferocious war band.</p><p>A knight prefers to lead through deeds, not words. As a knight spearheads an attack, the knight&#x27;s actions can awaken reserves of courage and conviction in allies that they never suspected they had.</p>"
+   },
+   "features": [
+    {
+     "key": "rallying-cry",
+     "level": 3,
+     "source": {
+      "pt": {
+       "book": "GACE",
+       "page": 133
+      },
+      "en": {
+       "book": "SCAG",
+       "page": 128
+      }
+     },
+     "name": {
+      "pt": "grito de guerra",
+      "en": "Rallying Cry"
+     },
+     "html": {
+      "pt": "<p>Ao escolher este arquétipo no 3º nível, você aprende como inspirar seus aliados a lutar superando seus ferimentos.</p><p>Quando usa a característica Recuperar o Fôlego, você pode escolher até três criaturas a até 18 metros de você que sejam suas aliadas. Cada uma recupera pontos de vida equivalentes ao seu nível de guerreiro, desde que a criatura possa vê-lo ou ouvi-lo.</p>",
+      "en": "<p>When you choose this archetype at 3rd level, you learn how to inspire your allies to fight on past their injuries.</p><p>When you use your Second Wind feature, you can choose up to three creatures within 60 feet of you that are allied with you. Each one regains hit points equal to your fighter level, provided that the creature can see or hear you.</p>"
+     }
+    },
+    {
+     "key": "restriction-knighthood",
+     "level": 3,
+     "source": {
+      "pt": {
+       "book": "GACE",
+       "page": 133
+      },
+      "en": {
+       "book": "SCAG",
+       "page": 128
+      }
+     },
+     "name": {
+      "pt": "restrição: cavalaria",
+      "en": "Restriction: Knighthood"
+     },
+     "html": {
+      "pt": "<p>Cavaleiros Dragão Púrpura são ligados a um típico específico de ordem de cavalaria cormyreana.</p><p>Banerete serve como um nome genérico para este arquétipo se você usá-lo em outros cenários de campanha ou para criar modelos de senhores da guerra que não sejam cavaleiros Dragão Púrpura.</p>",
+      "en": "<p>Purple Dragon Knights are tied to a specific order of Cormyrean knighthood.</p><p>Banneret serves as the generic name for this archetype if you use it in other campaign settings or to model warlords other than the Purple Dragon Knights.</p>"
+     }
+    },
+    {
+     "key": "royal-envoy",
+     "level": 7,
+     "source": {
+      "pt": {
+       "book": "GACE",
+       "page": 133
+      },
+      "en": {
+       "book": "SCAG",
+       "page": 128
+      }
+     },
+     "name": {
+      "pt": "emissário real",
+      "en": "Royal Envoy"
+     },
+     "html": {
+      "pt": "<p>Um cavaleiro Dragão Púrpura serve como um emissário para a coroa cormyreana. Espera-se que cavaleiros de alta posição tenham uma conduta elegante.</p><p>No 7º nível, você ganha proficiência na perícia Persuasão. Se já é proficiente nela, você ganha proficiência em uma das seguintes perícias de sua escolha: Atuação, Intimidação, Intuição ou Lidar com Animais.</p><p>Seu bônus de proficiência é duplicado para qualquer teste de atributo que você fizer e que use Persuasão. Você recebe este benefício independentemente da proficiência em perícia que ganha com esta característica.</p>",
+      "en": "<p>A Purple Dragon Knight serves as an envoy of the Cormyrean crown. Knights of high standing are expected to conduct themselves with grace.</p><p>At 7th level, you gain proficiency in the Persuasion skill. If you are already proficient in it, you gain proficiency in one of the following skills of your choice: Animal Handling, Insight, Intimidation, or Performance.</p><p>Your proficiency bonus is doubled for any ability check you make that uses Persuasion. You receive this benefit regardless of the skill proficiency you gain from this feature.</p>"
+     }
+    },
+    {
+     "key": "inspiring-surge-10",
+     "level": 10,
+     "source": {
+      "pt": {
+       "book": "GACE",
+       "page": 133
+      },
+      "en": {
+       "book": "SCAG",
+       "page": 128
+      }
+     },
+     "name": {
+      "pt": "inspirar surto",
+      "en": "Inspiring Surge"
+     },
+     "html": {
+      "pt": "<p>No 10º nível, ao usar sua característica Surto de Ação, você pode escolher uma criatura a até 18 metros de você que seja sua aliada. Esta criatura pode fazer um ataque corpo a corpo ou à distância com a reação dela, desde que possa vê-lo ou ouvi-lo.</p><p>No 18º nível, em vez de um, você escolhe dois aliados a até 18 metros de você.</p>",
+      "en": "<p>Starting at 10th level, when you use your Action Surge feature, you can choose one creature within 60 feet of you that is allied with you. That creature can make one melee or ranged weapon attack with its reaction, provided that it can see or hear you.</p><p>Starting at 18th level, you can choose two allies within 60 feet of you, rather than one.</p>"
+     }
+    },
+    {
+     "key": "bulwark",
+     "level": 15,
+     "source": {
+      "pt": {
+       "book": "GACE",
+       "page": 133
+      },
+      "en": {
+       "book": "SCAG",
+       "page": 128
+      }
+     },
+     "name": {
+      "pt": "baluarte",
+      "en": "Bulwark"
+     },
+     "html": {
+      "pt": "<p>No 15º nível, você pode estender o benefício de sua característica Indomável para um aliado. Ao usar Indomável para jogar novamente uma salvaguarda de Inteligência, Sabedoria ou Carisma e você não estiver incapacitado, você pode escolher um aliado a até 18 metros de você que também tenha falhado na salvaguarda contra o mesmo efeito. Se a criatura puder vê-lo ou ouvi-lo, ela pode jogar novamente a salvaguarda e deve usar o novo resultado.</p>",
+      "en": "<p>Beginning at 15th level, you can extend the benefit of your Indomitable feature to an ally. When you decide to use Indomitable to reroll an Intelligence, a Wisdom, or a Charisma saving throw and you aren&#x27;t incapacitated, you can choose one ally within 60 feet of you that also failed its saving throw against the same effect. If that creature can see or hear you, it can reroll its saving throw and must use the new roll.</p>"
+     }
+    },
+    {
+     "key": "inspiring-surge-18",
+     "level": 18,
+     "source": {
+      "pt": {
+       "book": "GACE",
+       "page": 133
+      },
+      "en": {
+       "book": "SCAG",
+       "page": 128
+      }
+     },
+     "name": {
+      "pt": "inspirar surto",
+      "en": "Inspiring Surge"
+     },
+     "html": {
+      "pt": "<p>No 18º nível, em vez de um, você escolhe dois aliados a até 18 metros de você.</p>",
+      "en": "<p>Starting at 18th level, you can choose two allies within 60 feet of you, rather than one.</p>"
+     }
+    }
+   ],
+   "spells": []
+  },
+  {
+   "slug": "arcane-archer",
+   "short_name_en": "Arcane Archer",
+   "name": {
+    "pt": "arqueiro arcano",
+    "en": "Arcane Archer"
+   },
+   "source": {
+    "pt": {
+     "book": "GXTC",
+     "page": 42
+    },
+    "en": {
+     "book": "XGE",
+     "page": 28
+    }
+   },
+   "intro_html": {
+    "pt": "<p>Um Arqueiro Arcano estuda um método élfico único de arqueria que entrelaça magia em ataques para produzir efeitos sobrenaturais. Arqueiros Arcanos estão entre os maiores guerreiros de elite dos elfos. Eles vigiam os rincões dos domínios élficos, mantendo o olhar atento sobre transgressores e usando flechas mágicas para derrotar monstros e invasores antes que estes possam alcançar assentamentos élficos.</p><p>Ao longo dos séculos, os métodos desses arqueiros elfos têm sido aprendidos por membros de outras raças que se mostraram capazes de equilibrar aptidão arcana e a arte da arqueria.</p>",
+    "en": "<p>An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Arcane Archers are some of the most elite warriors among the elves. They stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.</p>"
+   },
+   "features": [
+    {
+     "key": "arcane-archer-lore",
+     "level": 3,
+     "source": {
+      "pt": {
+       "book": "GXTC",
+       "page": 42
+      },
+      "en": {
+       "book": "XGE",
+       "page": 28
+      }
+     },
+     "name": {
+      "pt": "arte da arqueria arcana",
+      "en": "Arcane Archer Lore"
+     },
+     "html": {
+      "pt": "<p>No 3º nível, você aprende teoria mágica ou alguns dos segredos da natureza - típico para praticantes desta tradição marcial élfica. Você escolhe ganhar proficiência com uma perícia, Arcanismo ou Natureza, e escolhe aprender um truque dentre <em>prestidigitação arcana</em> ou <em>arte druídica</em>.</p>",
+      "en": "<p>At 3rd level, you learn magical theory or some of the secrets of nature — typical for practitioners of this elven martial tradition. You choose to gain proficiency in either the&nbsp;Arcana or the Nature&nbsp;skill, and you choose to learn either the prestidigitation or the druidcraft&nbsp;cantrip.</p>"
+     }
+    },
+    {
+     "key": "arcane-shot",
+     "level": 3,
+     "source": {
+      "pt": {
+       "book": "GXTC",
+       "page": 42
+      },
+      "en": {
+       "book": "XGE",
+       "page": 28
+      }
+     },
+     "name": {
+      "pt": "disparo arcano",
+      "en": "Arcane Shot"
+     },
+     "html": {
+      "pt": "<p>No 3º nível, você aprende a usar efeitos mágicos especiais com alguns dos seus disparos. Ao ganhar esta característica, você aprende duas opções de Disparo Arcano, à sua escolha (veja \"Opções de Disparo Arcano\" abaixo).</p><p>Uma vez por turno, ao disparar uma flecha com um arco curto ou um arco longo como parte da ação Atacar, você pode aplicar uma de suas opções de Disparo Arcano nessa flecha. Você deve decidir usar a opção quando a flecha atinge uma criatura, a menos que a opção não envolva uma jogada de ataque. Você possui dois usos desta habilidade, recuperando todos os usos gastos ao terminar um descanso curto ou longo.</p><p>Você ganha uma opção adicional de Disparo Arcano, à sua escolha, ao alcançar determinados níveis nesta classe: 7º, 10º, 15º e 18º. Cada opção também melhora quando você se torna um guerreiro de 18º nível.</p>",
+      "en": "<p>At 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two Arcane Shot options of your choice (see “Arcane Shot Options” below).</p> <p>Once per turn when you fire an arrow from a shortbow or longbow as part of the Attack&nbsp;action, you can apply one of your Arcane Shot options to that arrow. You decide to use the option when the arrow hits a creature, unless the option doesn’t involve an attack roll. You have two uses of this ability, and you regain all expended uses of it when you finish a short or long rest.</p> <p>You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level. Each option also improves when you become an 18th-level fighter.</p>"
+     }
+    },
+    {
+     "key": "arcane-shot-options",
+     "level": 3,
+     "source": {
+      "pt": {
+       "book": "GXTC",
+       "page": 43
+      },
+      "en": {
+       "book": "XGE",
+       "page": 28
+      }
+     },
+     "name": {
+      "pt": "opções de disparo arcano",
+      "en": "Arcane Shot Options"
+     },
+     "html": {
+      "pt": "<p>A característica Disparo Arcano permite que você escolha opções para ela em determinados níveis. As opções são apresentadas aqui em ordem alfabética. Trata-se, em todos os casos, de efeitos mágicos, e cada um está associado a uma escola de magia.</p><p>Se uma opção exige uma salvaguarda, a CD para evitar seu Disparo Arcano é 8 + seu bônus de proficiência + seu modificador de Inteligência.</p><p><strong>Flecha de Banimento.</strong> Você usa magia de abjuração para tentar banir temporariamente seu alvo para uma localização inócua em Faéria. A criatura atingida pela flecha também deve ser bem-sucedida numa salvaguarda de Carisma ou ser banida. Enquanto banido desse modo, o deslocamento do alvo é 0 e ele fica incapacitado. No final do próximo turno dele, o alvo reaparece no espaço que ocupava antes de desaparecer, ou no espaço desocupado mais próximo, caso aquele espaço esteja ocupado.</p><p>Após você alcançar o 18º nível nesta classe, um alvo também sofre 2d6 pontos de dano energético quando a flecha o atinge.</p><p><strong>Flecha de Compressão.</strong> Quando esta flecha atinge o alvo, este é envolto por ramos venenosos criados por magia de invocação. A criatura atingida pela flecha sofre 2d6 pontos de dano venenoso adicional, seu deslocamento é reduzido em 3 metros e ela recebe 2d6 pontos de dano cortante na primeira vez em cada turno que se mover 30 centímetros ou mais sem se teleportar. O alvo ou qualquer criatura que possa alcançá-lo pode usar sua ação para remover os ramos com um teste bem-sucedido de Força (Atletismo) contra a CD para evitar seu Disparo Arcano. Caso contrário, os ramos persistem por 1 minuto ou até que você use esta opção outra vez.</p><p>Tanto o dano venenoso quanto o cortante aumentam para 4d6 quando você alcança o 18º nível nesta classe.</p><p><strong>Flecha Debilitante.</strong> Você entrelaça magia necromântica em sua flecha. A criatura atingida pela flecha sofre 2d6 pontos de dano necrótico adicional. O alvo deve ser bem-sucedido em uma salvaguarda de Constituição, ou o dano causado pelos ataques armados dele é diminuído pela metade até o começo do seu próximo turno.</p><p>O dano necrótico aumenta para 4d6 quando você alcança o 18º nível nesta classe.</p><p><strong>Flecha Explosiva.</strong> Você impregna sua flecha com energia extraída da escola de evocação. A energia explode após seu ataque. Imediatamente após a flecha atingir seu alvo, este e todas as criaturas a até 3 metros dele sofrem 2d6 pontos de dano energético cada.</p><p>O dano energético aumenta para 4d6 quando você alcança o 18º nível nesta classe.</p><p><strong>Flecha Feiticeira.</strong> Sua magia de encantamento faz com que esta flecha enfeitice temporariamente seu alvo. A criatura atingida pela flecha sofre 2d6 pontos de dano psíquico adicional e deve escolher um de seus aliados a até 9 metros dela. Ela deve ser bem-sucedida em uma salvaguarda de Sabedoria ou fica enfeitiçada pelo aliado escolhido até o começo do seu próximo turno. Esse efeito termina mais cedo se o aliado escolhido atacar a criatura enfeitiçada, causar dano a ela ou forçá-la a realizar uma salvaguarda.</p><p>O dano psíquico aumenta para 4d6 quando você alcança o 18º nível nesta classe.</p><p><strong>Flecha Perfurante.</strong> Você usa magia de transmutação para dar à sua flecha uma qualidade etérea. Ao usar esta opção, você não faz uma jogada de ataque para o disparo. Em vez disso, a flecha dispara adiante numa linha reta com 30 centímetros de largura e 9 metros de comprimento, antes de desaparecer. A flecha atravessa objetos sem causar dano, ignorando cobertura. Cada criatura nesse trajeto deve realizar uma salvaguarda de Destreza. Cada criatura que falhar sofre dano como se tivesse sido atingida pela flecha, além de 1d6 pontos de dano perfurante adicional. Cada criatura que obtiver sucesso sofre metade desse dano.</p><p>O dano perfurante aumenta para 2d6 quando você alcança o 18º nível nesta classe.</p><p><strong>Flecha Perseguidora.</strong> Usando magia de adivinhação, você concede à sua flecha a habilidade de perseguir um alvo. Ao usar esta opção, você não realiza uma jogada de ataque para o disparo. Em vez disso, escolha uma criatura que você tenha visto no minuto anterior. A flecha voa na direção dessa criatura, contornando cantos se necessário, e ignorando cobertura de três quartos e cobertura parcial. Se o alvo estiver dentro do alcance da arma e houver um caminho largo o suficiente para a flecha viajar até ele, é preciso que ele realize uma salvaguarda de Destreza. Caso contrário, a flecha desaparece após percorrer a maior distância possível. Em caso de falha na salvaguarda, o alvo recebe dano como se tivesse sido atingido pela flecha, além de 1d6 pontos de dano energético, e você fica sabendo a localização atual dele. Em caso de sucesso, o alvo recebe metade do dano, e você não fica sabendo a localização dele.</p><p>O dano energético aumenta para 2d6 quando você alcança o 18º nível nesta classe.</p><p><strong>Flecha de Sombra.</strong> Você entrelaça magia de ilusão em sua flecha, fazendo com que ela obstrua a visão do seu inimigo com sombras. A criatura atingida sofre 2d6 pontos de dano psíquico adicional, e deve ser bem-sucedida em uma salvaguarda de Sabedoria, ou fica incapaz de ver qualquer coisa a uma distância superior a 1,5 metro até o final do seu próximo turno.</p><p>O dano psíquico aumenta para 4d6 quando você alcança o 18º nível nesta classe.</p>",
+      "en": "<p>The Arcane Shot feature lets you choose options for it at certain levels. The options are presented here in alphabetical order. They are all magical effects, and each one is associated with one of the schools of magic.</p> <p>If an option requires a saving throw, your Arcane Shot save DC equals 8 + your proficiency bonus + your Intelligence modifier.</p> Banishing Arrow <p></p><p>You use abjuration magic to try to temporarily banish your target to a harmless location in the Feywild. The creature hit by the arrow must also succeed on a Charisma saving throw or be banished. While banished in this way, the target’s speed is 0, and it is&nbsp;incapacitated. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.</p> <p>After you reach 18th level in this class, a target also takes 2d6 force damage when the arrow hits it.</p><p></p> Beguiling Arrow <p></p><p>Your enchantment magic causes this arrow to temporarily beguile its target. The creature hit by the arrow takes an extra 2d6 psychic damage, and choose one of your allies within 30 feet of the target. The target must succeed on a Wisdom saving throw, or it is charmed&nbsp;by the chosen ally until the start of your next turn. This effect ends early if the chosen ally attacks the&nbsp;charmed&nbsp;target, deals damage to it, or forces it to make a saving throw.</p> <p>The psychic damage increases to 4d6 when you reach 18th level in this class.</p><p></p> Bursting Arrow <p></p><p>You imbue your arrow with force energy drawn from the school of evocation. The energy detonates after your attack. Immediately after the arrow hits the creature, the target and all other creatures within 10 feet of it take 2d6 force damage each.</p> <p>The force damage increases to 4d6 when you reach 18th level in this class.</p><p></p> Enfeebling Arrow <p></p><p>You weave necromantic magic into your arrow. The creature hit by the arrow takes an extra 2d6 necrotic damage. The target must also succeed on a Constitution saving throw, or the damage dealt by its weapon attacks is halved until the start of your next turn.</p> <p>The necrotic damage increases to 4d6 when you reach 18th level in this class.</p><p></p> Grasping Arrow <p></p><p>When this arrow strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. The creature hit by the arrow takes an extra 2d6 poison damage, its speed is reduced by 10 feet, and it takes 2d6 slashing damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength (Athletics) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this option again.</p> <p>The poison damage and slashing damage both increase to 4d6 when you reach 18th level in this class.</p><p></p> Piercing Arrow <p></p><p>You use transmutation magic to give your arrow an ethereal quality. When you use this option, you don’t make an attack roll for the attack. Instead, the arrow shoots forward in a line, which is 1 foot wide and 30 feet long, before disappearing. The arrow passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a creature takes damage as if it were hit by the arrow, plus an extra 1d6 piercing damage. On a successful save, a target takes half as much damage.</p> <p>The piercing damage increases to 2d6 when you reach 18th level in this class.</p><p></p> Seeking Arrow <p></p><p>Using divination magic, you grant your arrow the ability to seek out a target. When you use this option, you don’t make an attack roll for the attack. Instead, choose one creature you have seen in the past minute. The arrow flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover. If the target is within the weapon’s range and there is a path large enough for the arrow to travel to the target, the target must make a Dexterity saving throw. Otherwise, the arrow disappears after traveling as far as it can. On a failed save, the target takes damage as if it were hit by the arrow, plus an extra 1d6 force damage, and you learn the target’s current location. On a successful save, the target takes half as much damage, and you don’t learn its location.</p> <p>The force damage increases to 2d6 when you reach 18th level in this class.</p><p></p> Shadow Arrow <p></p><p>You weave illusion magic into your arrow, causing it to occlude your foe’s vision with shadows. The creature hit by the arrow takes an extra 2d6 psychic damage, and it must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of your next turn.</p> <p>The psychic damage increases to 4d6 when you reach 18th level in this class.</p><p></p>"
+     }
+    },
+    {
+     "key": "curving-shot",
+     "level": 7,
+     "source": {
+      "pt": {
+       "book": "GXTC",
+       "page": 42
+      },
+      "en": {
+       "book": "XGE",
+       "page": 28
+      }
+     },
+     "name": {
+      "pt": "disparo em curva",
+      "en": "Curving Shot"
+     },
+     "html": {
+      "pt": "<p>No 7º nível, você aprende como redirecionar uma flecha mal disparada para um novo alvo. Ao realizar uma jogada de ataque com uma flecha mágica e errar, você pode usar uma ação bônus para refazer a jogada de ataque contra um alvo diferente a até 18 metros do alvo original.</p>",
+      "en": "<p>At 7th level, you learn how to direct an errant arrow toward a new target. When you make an attack roll with a magic arrow and miss, you can use a bonus action to reroll the attack roll against a different target within 60 feet of the original target.</p>"
+     }
+    },
+    {
+     "key": "magic-arrow",
+     "level": 7,
+     "source": {
+      "pt": {
+       "book": "GXTC",
+       "page": 42
+      },
+      "en": {
+       "book": "XGE",
+       "page": 28
+      }
+     },
+     "name": {
+      "pt": "flecha mágica",
+      "en": "Magic Arrow"
+     },
+     "html": {
+      "pt": "<p>No 7º nível, você ganha a habilidade de imbuir flechas com magia. Sempre que disparar uma flecha não mágica com um arco curto ou um arco longo, você pode torná-la mágica no que tange superar resistência e imunidade a ataques e dano não mágicos. A magia desaparece da flecha imediatamente após ela atingir ou errar o alvo.</p>",
+      "en": "<p>At 7th level, you gain the ability to infuse arrows with magic. Whenever you fire a nonmagical arrow from a shortbow or longbow, you can make it magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. The magic fades from the arrow immediately after it hits or misses its target.</p>"
+     }
+    },
+    {
+     "key": "ever-ready-shot",
+     "level": 15,
+     "source": {
+      "pt": {
+       "book": "GXTC",
+       "page": 42
+      },
+      "en": {
+       "book": "XGE",
+       "page": 28
+      }
+     },
+     "name": {
+      "pt": "disparo sempre pronto",
+      "en": "Ever-Ready Shot"
+     },
+     "html": {
+      "pt": "<p>A partir do 15º nível, sua arqueria mágica está disponível sempre que uma batalha tem início. Ao jogar a iniciativa e não ter nenhum uso de Disparo Arcano sobrando, você recupera um uso.</p>",
+      "en": "<p>Starting at 15th level, your magical archery is available whenever battle starts. If you roll initiative and have no uses of Arcane Shot remaining, you regain one use of it.</p>"
+     }
+    }
+   ],
+   "spells": [
+    {
+     "level": 3,
+     "names_pt": [
+      "prestidigitação arcana",
+      "arte druídica"
+     ],
+     "names_en": [
+      "prestidigitation",
+      "druidcraft"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "cavalier",
+   "short_name_en": "Cavalier",
+   "name": {
+    "pt": "cavaleiro",
+    "en": "Cavalier"
+   },
+   "source": {
+    "pt": {
+     "book": "GXTC",
+     "page": 44
+    },
+    "en": {
+     "book": "XGE",
+     "page": 30
+    }
+   },
+   "intro_html": {
+    "pt": "<p>O Cavaleiro arquetípico distingue-se em combate montado. Quase sempre nascido entre a nobreza e criado na corte, um Cavaleiro sente-se em casa tanto ao liderar uma carga de cavalaria quanto fazendo política num jantar de estado. Cavaleiros também aprendem como proteger aqueles sob sua responsabilidade, não raro servindo como protetores de seus superiores e dos oprimidos. Compelidos a corrigir injustiças ou angariar prestígio, muitos desses combatentes abandonam suas vidas de conforto para embarcar em gloriosas aventuras.</p>",
+    "en": "<p>The archetypal Cavalier excels at mounted combat. Usually born among the nobility and raised at court, a Cavalier is equally at home leading a cavalry charge or exchanging repartee at a state dinner. Cavaliers also learn how to guard those in their charge from harm, often serving as the protectors of their superiors and of the weak. Compelled to right wrongs or earn prestige, many of these fighters leave their lives of comfort to embark on glorious adventure.</p>"
+   },
+   "features": [
+    {
+     "key": "bonus-proficiency",
+     "level": 3,
+     "source": {
+      "pt": {
+       "book": "GXTC",
+       "page": 44
+      },
+      "en": {
+       "book": "XGE",
+       "page": 30
+      }
+     },
+     "name": {
+      "pt": "proficiência bônus",
+      "en": "Bonus Proficiency"
+     },
+     "html": {
+      "pt": "<p>Ao escolher este arquétipo no 3º nível, você ganha proficiência em uma das seguintes perícias à sua escolha: Atuação, História, Intuição, Lidar com Animais ou Persuasão. Opcionalmente, você aprende um idioma à sua escolha no lugar de uma perícia.</p>",
+      "en": "<p>When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice:&nbsp;Animal Handling,&nbsp;History,&nbsp;Insight,&nbsp;Performance, or&nbsp;Persuasion. Alternatively, you learn one language of your choice.</p>"
+     }
+    },
+    {
+     "key": "born-to-the-saddle",
+     "level": 3,
+     "source": {
+      "pt": {
+       "book": "GXTC",
+       "page": 44
+      },
+      "en": {
+       "book": "XGE",
+       "page": 30
+      }
+     },
+     "name": {
+      "pt": "nascido para a sela",
+      "en": "Born to the Saddle"
+     },
+     "html": {
+      "pt": "<p>A partir do 3º nível, seu domínio da equitação torna-se evidente. Você passa a ter vantagem em salvaguardas realizadas para evitar cair da sua montaria. Se você cair por não mais do que 3 metros, pousará em pé, caso não esteja incapacitado. Por fim, montar ou desmontar uma criatura custa 1,5 metro, em vez de metade do seu deslocamento.</p>",
+      "en": "<p>Starting at 3rd level, your mastery as a rider becomes apparent. You have advantage on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you’re not incapacitated.</p> <p>Finally, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed.</p>"
+     }
+    },
+    {
+     "key": "unwavering-mark",
+     "level": 3,
+     "source": {
+      "pt": {
+       "book": "GXTC",
+       "page": 44
+      },
+      "en": {
+       "book": "XGE",
+       "page": 30
+      }
+     },
+     "name": {
+      "pt": "marca inabalável",
+      "en": "Unwavering Mark"
+     },
+     "html": {
+      "pt": "<p>A partir do 3º nível, você pode ameaçar seus inimigos, frustrando os ataques deles e punindo-os por causarem dano a terceiros. Ao atingir uma criatura com uma arma de combate corpo a corpo, você pode marcá-la até o final do seu próximo turno. Este efeito termina mais cedo se você ficar incapacitado ou morrer, ou se outro personagem marcar a criatura.</p><p>Enquanto estiver a até 1,5 metro de você, a criatura marcada tem desvantagem em qualquer jogada de ataque que não o tenha como alvo.</p><p>Além disso, se uma criatura marcada por você causar dano a qualquer um que não seja você, isso lhe dá direito a realizar um ataque especial com uma arma de combate corpo a corpo contra a criatura marcada como uma ação bônus no seu próximo turno. Você tem vantagem na jogada de ataque, e caso acerte, a arma usada no ataque causa uma quantidade de dano adicional ao alvo igual a metade do seu nível como guerreiro.</p><p>Independentemente da quantidade de criaturas que você marque, você pode realizar este ataque especial um número de vezes igual ao seu modificador de Força (no mínimo um), recuperando todos os usos gastos desta habilidade ao terminar um descanso longo.</p>",
+      "en": "<p>Starting at 3rd level, you can menace your foes, foiling their attacks and punishing them for harming others. When you hit a creature with a melee weapon attack, you can mark the creature until the end of your next turn. This effect ends early if you are incapacitated&nbsp;or you die, or if someone else marks the creature.</p> <p>While it is within 5 feet of you, a creature marked by you has disadvantage on any attack roll that doesn’t target you.</p> <p>In addition, if a creature marked by you deals damage to anyone other than you, you can make a special melee weapon attack against the marked creature as a bonus action on your next turn. You have advantage on the attack roll, and if it hits, the attack’s weapon deals extra damage to the target equal to half your fighter level.</p> <p>Regardless of the number of creatures you mark, you can make this special attack a number of times equal to your Strength modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.</p>"
+     }
+    },
+    {
+     "key": "warding-maneuver",
+     "level": 7,
+     "source": {
+      "pt": {
+       "book": "GXTC",
+       "page": 44
+      },
+      "en": {
+       "book": "XGE",
+       "page": 30
+      }
+     },
+     "name": {
+      "pt": "manobra defensiva",
+      "en": "Warding Maneuver"
+     },
+     "html": {
+      "pt": "<p>No 7º nível, você aprende a desviar ataques direcionados a você, à sua montaria ou a outras criaturas próximas. Se você ou uma criatura à sua vista e a até 1,5 metro de você for atingido por um ataque, você pode jogar 1d8 como uma reação, caso esteja empunhando uma arma de combate corpo a corpo ou um escudo. Jogue o dado e adicione o resultado à CA do alvo contra aquele ataque. Se o ataque ainda assim for bem-sucedido, o alvo tem resistência contra o dano provocado pelo ataque.</p><p>Você pode usar esta característica uma quantidade de vezes igual ao seu modificador de Constituição (no mínimo uma vez), recuperando todos os usos gastos desta habilidade ao terminar um descanso longo.</p>",
+      "en": "<p>At 7th level, you learn to fend off strikes directed at you, your mount, or other creatures nearby. If you or a creature you can see within 5 feet of you is hit by an attack, you can roll 1d8 as a reaction if you’re wielding a melee weapon or a shield. Roll the die, and add the number rolled to the target’s AC against that attack. If the attack still hits, the target has resistance against the attack’s damage.</p> <p>You can use this feature a number of times equal to your Constitution modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.</p>"
+     }
+    },
+    {
+     "key": "hold-the-line",
+     "level": 10,
+     "source": {
+      "pt": {
+       "book": "GXTC",
+       "page": 45
+      },
+      "en": {
+       "book": "XGE",
+       "page": 30
+      }
+     },
+     "name": {
+      "pt": "manter a formação",
+      "en": "Hold the Line"
+     },
+     "html": {
+      "pt": "<p>No 10º nível, você se torna mestre em travar seus inimigos. Criaturas provocam um ataque de oportunidade seu quando se deslocam 1,5 metro ou mais enquanto estão dentro do seu alcance, e se você atingir uma criatura com um ataque de oportunidade, o deslocamento dela é reduzido a 0 até o final do turno atual.</p>",
+      "en": "<p>At 10th level, you become a master of locking down your enemies. Creatures provoke an opportunity attack from you when they move 5 feet or more while within your reach, and if you hit a creature with an opportunity attack, the target’s speed is reduced to 0 until the end of the current turn.</p>"
+     }
+    },
+    {
+     "key": "ferocious-charger",
+     "level": 15,
+     "source": {
+      "pt": {
+       "book": "GXTC",
+       "page": 45
+      },
+      "en": {
+       "book": "XGE",
+       "page": 30
+      }
+     },
+     "name": {
+      "pt": "carga feroz",
+      "en": "Ferocious Charger"
+     },
+     "html": {
+      "pt": "<p>A partir do 15º nível, montado ou desmontado, você pode atropelar seus inimigos. Se você se mover pelo menos 3 metros em linha reta antes de atacar uma criatura com sucesso, ela deve ser bem-sucedida numa salvaguarda de Força (CD 8 + seu bônus de proficiência + seu modificador de Força) ou ficar caída. Você pode usar esta característica apenas uma vez em cada um dos seus turnos.</p>",
+      "en": "<p>Starting at 15th level, you can run down your foes, whether you’re mounted or not. If you move at least 10 feet in a straight line right before attacking a creature and you hit it with the attack, that target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone. You can use this feature only once on each of your turns.</p>"
+     }
+    },
+    {
+     "key": "vigilant-defender",
+     "level": 18,
+     "source": {
+      "pt": {
+       "book": "GXTC",
+       "page": 45
+      },
+      "en": {
+       "book": "XGE",
+       "page": 30
+      }
+     },
+     "name": {
+      "pt": "defensor vigilante",
+      "en": "Vigilant Defender"
+     },
+     "html": {
+      "pt": "<p>A partir do 18º nível, você responde ao perigo com vigilância extraordinária. Em combate, você tem uma reação especial que pode usar uma vez no turno de toda criatura, exceto no seu próprio. Você pode usar esta reação especial apenas para realizar um ataque de oportunidade, e não pode usá-la no mesmo turno em que usa sua reação normal.</p>",
+      "en": "<p>Starting at 18th level, you respond to danger with extraordinary vigilance. In combat, you get a special reaction that you can take once on every creature’s turn, except your turn. You can use this special reaction only to make an opportunity attack, and you can’t use it on the same turn that you take your normal reaction.</p>"
+     }
+    }
+   ],
+   "spells": []
+  },
+  {
+   "slug": "samurai",
+   "short_name_en": "Samurai",
+   "name": {
+    "pt": "samurai",
+    "en": "Samurai"
+   },
+   "source": {
+    "pt": {
+     "book": "GXTC",
+     "page": 45
+    },
+    "en": {
+     "book": "XGE",
+     "page": 31
+    }
+   },
+   "intro_html": {
+    "pt": "<p>O Samurai é um guerreiro que emprega um implacável espírito de luta para superar seus inimigos. A determinação de um Samurai é praticamente inquebrável, e seus inimigos têm duas escolhas: render-se ou morrer lutando.</p>",
+    "en": "<p>The Samurai is a fighter who draws on an implacable fighting spirit to overcome enemies. A Samurai’s resolve is nearly unbreakable, and the enemies in a Samurai’s path have two choices: yield or die fighting.</p>"
+   },
+   "features": [
+    {
+     "key": "bonus-proficiency",
+     "level": 3,
+     "source": {
+      "pt": {
+       "book": "GXTC",
+       "page": 45
+      },
+      "en": {
+       "book": "XGE",
+       "page": 31
+      }
+     },
+     "name": {
+      "pt": "proficiência bônus",
+      "en": "Bonus Proficiency"
+     },
+     "html": {
+      "pt": "<p>Ao escolher este arquétipo no 3º nível, você ganha proficiência em uma das seguintes perícias à sua escolha: Atuação, História, Intuição ou Persuasão. Opcionalmente, você aprende um idioma à sua escolha no lugar de uma perícia.</p>",
+      "en": "<p>When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: History,&nbsp;Insight,&nbsp;Performance, or&nbsp;Persuasion. Alternatively, you learn one language of your choice.</p>"
+     }
+    },
+    {
+     "key": "fighting-spirit",
+     "level": 3,
+     "source": {
+      "pt": {
+       "book": "GXTC",
+       "page": 45
+      },
+      "en": {
+       "book": "XGE",
+       "page": 31
+      }
+     },
+     "name": {
+      "pt": "espírito guerreiro",
+      "en": "Fighting Spirit"
+     },
+     "html": {
+      "pt": "<p>A partir do 3º nível, sua intensidade em batalha pode servir de escudo e ajudá-lo a atacar com maior potência e precisão. Como uma ação bônus no seu turno, você pode dar a si mesmo vantagem em jogadas de ataques armados até o final do seu turno atual. Ao fazê-lo, você ganha 5 pontos de vida temporários. O número de pontos de vida temporários aumenta quando você alcança certos níveis nesta classe, passando para 10 no 10º e 15 no 15º nível.</p><p>Você pode usar esta característica três vezes, recuperando todos os usos gastos dela ao terminar um descanso longo.</p>",
+      "en": "<p>Starting at 3rd level, your intensity in battle can shield you and help you strike true. As a bonus action on your turn, you can give yourself advantage on weapon attack rolls until the end of the current turn. When you do so, you also gain 5 temporary hit points. The number of temporary hit points increases when you reach certain levels in this class, increasing to 10 at 10th level and 15 at 15th level.</p> <p>You can use this feature three times, and you regain all expended uses of it when you finish a long rest.</p>"
+     }
+    },
+    {
+     "key": "elegant-courtier",
+     "level": 7,
+     "source": {
+      "pt": {
+       "book": "GXTC",
+       "page": 45
+      },
+      "en": {
+       "book": "XGE",
+       "page": 31
+      }
+     },
+     "name": {
+      "pt": "cortesão elegante",
+      "en": "Elegant Courtier"
+     },
+     "html": {
+      "pt": "<p>A partir do 7º nível, sua disciplina e atenção aos detalhes permitem que você se destaque em situações sociais. Todos os seus testes de Carisma (Persuasão) são realizados com um bônus igual ao seu modificador de Sabedoria.</p><p>Seu autocontrole também lhe rende proficiência em salvaguardas de Sabedoria. Caso já possua essa proficiência, em vez disso você ganha proficiência em salvaguardas de Inteligência ou Carisma (à sua escolha).</p>",
+      "en": "<p>Starting at 7th level, your discipline and attention to detail allow you to excel in social situations. Whenever you make a Charisma (Persuasion) check, you gain a bonus to the check equal to your Wisdom modifier.</p> <p>Your self-control also causes you to gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice).</p>"
+     }
+    },
+    {
+     "key": "tireless-spirit",
+     "level": 10,
+     "source": {
+      "pt": {
+       "book": "GXTC",
+       "page": 45
+      },
+      "en": {
+       "book": "XGE",
+       "page": 31
+      }
+     },
+     "name": {
+      "pt": "espírito incansável",
+      "en": "Tireless Spirit"
+     },
+     "html": {
+      "pt": "<p>A partir do 10º nível, sempre que você jogar iniciativa e não tiver nenhum uso de Espírito Guerreiro sobrando, você recupera um uso.</p>",
+      "en": "<p>Starting at 10th level, when you roll initiative and have no uses of Fighting Spirit remaining, you regain one use.</p>"
+     }
+    },
+    {
+     "key": "rapid-strike",
+     "level": 15,
+     "source": {
+      "pt": {
+       "book": "GXTC",
+       "page": 45
+      },
+      "en": {
+       "book": "XGE",
+       "page": 31
+      }
+     },
+     "name": {
+      "pt": "golpe rápido",
+      "en": "Rapid Strike"
+     },
+     "html": {
+      "pt": "<p>A partir do 15º nível, você aprende a trocar precisão por rapidez. Se você usar a ação Ataque no seu turno e possuir vantagem numa jogada de ataque contra um de seus alvos, você pode renunciar à vantagem na jogada para realizar um ataque armado adicional contra aquele alvo, como parte da mesma ação. Você não pode fazer isso mais do que uma vez por turno.</p>",
+      "en": "<p>Starting at 15th level, you learn to trade accuracy for swift strikes. If you take the Attack&nbsp;action on your turn and have advantage on an attack roll against one of the targets, you can forgo the advantage for that roll to make an additional weapon attack against that target, as part of the same action. You can do so no more than once per turn.</p>"
+     }
+    },
+    {
+     "key": "strength-before-death",
+     "level": 18,
+     "source": {
+      "pt": {
+       "book": "GXTC",
+       "page": 45
+      },
+      "en": {
+       "book": "XGE",
+       "page": 31
+      }
+     },
+     "name": {
+      "pt": "força perante a morte",
+      "en": "Strength before Death"
+     },
+     "html": {
+      "pt": "<p>A partir do 18º nível, seu espírito de luta pode adiar o abraço da morte. Se você sofrer dano que o reduza a 0 ponto de vida mas não o mate de uma vez, você pode usar sua reação para adiar ficar inconsciente, e pode ganhar imediatamente um turno extra, interrompendo o atual. Enquanto você estiver com 0 pontos de vida durante o turno extra, sofrer dano resulta em falhas de salvaguarda como sempre, e três dessas falhas ainda podem matá-lo. Quando o turno extra termina, você cai inconsciente se ainda estiver com 0 ponto de vida.</p><p>Após usar esta característica, você não pode usá-la novamente até terminar um descanso longo.</p>",
+      "en": "<p>Starting at 18th level, your fighting spirit can delay the grasp of death. If you take damage that reduces you to 0 hit points and doesn’t kill you outright, you can use your reaction to delay falling unconscious, and you can immediately take an extra turn, interrupting the current turn. While you have 0 hit points during that extra turn, taking damage causes death saving throw failures as normal, and three death saving throw failures can still kill you. When the extra turn ends, you fall&nbsp;unconscious&nbsp;if you still have 0 hit points.</p> <p>Once you use this feature, you can’t use it again until you finish a long rest.</p>"
+     }
+    }
+   ],
+   "spells": []
+  },
+  {
+   "slug": "psi-warrior",
+   "short_name_en": "Psi Warrior",
+   "name": {
+    "pt": "combatente psíquico",
+    "en": "Psi Warrior"
+   },
+   "source": {
+    "pt": {
+     "book": "CTCT",
+     "page": 60
+    },
+    "en": {
+     "book": "TCE",
+     "page": 42
+    }
+   },
+   "intro_html": {
+    "pt": "<p>Desperto para o poder psiônico interno, um combatente psíquico é um guerreiro que amplia seu poder físico com golpes de armas infundidas de energia psiônica, amarras telecinéticas e barreiras de força mental. Muitos githyanki treinam para se tornarem tais combatentes, assim como alguns dos altos elfos mais disciplinados. No mundo de Eberron, muitos jovens kalashtar sonham em se tornarem combatentes psíquicos.</p><p>Como um combatente psíquico, suas habilidades psiônicas podem ter sido afiadas por meio de disciplina individual, libertas sob a tutela de um mestre ou refinadas em uma academia dedicada a empunhar o poder da mente tanto quanto arma como escudo.</p>",
+    "en": "<p>Awake to the psionic power within, a Psi Warrior is a fighter who augments their physical might with psi-infused weapon strikes, telekinetic lashes, and barriers of mental force. Many githyanki train to become such warriors, as do some of the most disciplined high elves. In the world of Eberron, many young kalashtar dream of becoming Psi Warriors.</p> <p>As a Psi Warrior, you might have honed your psionic abilities through solo discipline, unlocked it under the tutelage of a master, or refined it at an academy dedicated to wielding the mind’s power as both weapon and shield.</p>"
+   },
+   "features": [
+    {
+     "key": "psionic-power",
+     "level": 3,
+     "source": {
+      "pt": {
+       "book": "CTCT",
+       "page": 61
+      },
+      "en": {
+       "book": "TCE",
+       "page": 42
+      }
+     },
+     "name": {
+      "pt": "poder psiônico",
+      "en": "Psionic Power"
+     },
+     "html": {
+      "pt": "<p><em>Característica de combatente psíquico de 3º nível</em><br>Você abriga uma reserva de energia psiônica dentro de si. Essa energia é representada por seus dados de energia psiônica, que são d6. Você tem um número desses dados igual a duas vezes seu bônus de proficiência e eles alimentam os vários poderes psiônicos que você possui, que são detalhados abaixo.</p><p>Alguns de seus poderes gastam dados de energia psiônica, como especificado na descrição de poder. Você não pode usar um poder que requeira o uso de um dado caso todos os seus dados tenham sido gastos. Você recupera todos os dados de energia psiônica ao final de um descanso longo. Adicionalmente, como uma ação bônus, você pode recuperar um dado de energia psiônica, mas não poderá fazê-lo novamente até que termine um descanso curto ou longo.</p><p>Ao atingir determinados níveis nessa classe, o tamanho dos dados de Energia Psiônica aumenta: no 5º nível (d8), 11º nível (d10) e 17º nível (d12).</p><p>Os poderes abaixo usam seus dados de energia psiônica.</p><p><strong>Vínculo Protetivo.</strong> Quando você, ou outra criatura que você possa ver a até 9 metros de distância, sofrer dano, você pode usar sua reação para gastar um dado de energia psiônica, jogar o dado e reduzir o dano sofrido pelo resultado da jogada mais seu modificador de Inteligência (redução mínima de 1), graças a um escudo momentâneo de força telecinética que você cria.</p><p><strong>Golpe Psiônico.</strong> Você pode propelir suas armas com força psiônica. Uma vez em cada um de seus turnos, imediatamente após acertar um alvo a até 9 metros de você com um ataque e causar dano a ele com uma arma, você pode gastar um dado de energia psiônica, jogá-lo e causar dano energético ao alvo igual ao resultado mais seu modificador de Inteligência.</p><p><strong>Movimento Telecinético.</strong> Você pode mover um objeto ou criatura com sua mente. Como uma ação, você escolhe como alvo um objeto livre que seja Grande ou menor, ou uma criatura que não seja você mesmo. Se puder ver o alvo e ele estiver a até 9 metros de você, você pode movê-lo a até 9 metros para um espaço desocupado que possa ver. Alternativamente, se for um objeto Minúsculo, você pode movê-lo para ou de sua mão. Em ambos os casos, você pode mover o alvo horizontalmente, verticalmente, ou ambos. Uma vez que execute essa ação, você não poderá repeti-la até terminar um descanso curto ou longo, a menos que gaste um dado de energia psiônica para executá-la novamente.</p>",
+      "en": "<p><em>3rd-level Psi Warrior feature </em></p> <p>You harbor a wellspring of psionic energy within yourself. This energy is represented by your Psionic Energy dice, which are each a d6. You have a number of these dice equal to twice your proficiency bonus, and they fuel various psionic powers you have, which are detailed below.</p> <p>Some of your powers expend the Psionic Energy die they use, as specified in a power’s description, and you can’t use a power if it requires you to use a die when your dice are all expended. You regain all your expended Psionic Energy dice when you finish a long rest. In addition, as a bonus action, you can regain one expended Psionic Energy die, but you can’t do so again until you finish a short or long rest.</p> <p>When you reach certain levels in this class, the size of your Psionic Energy dice increases: at 5th level (d8), 11th level (d10), and 17th level (d12). The powers below use your Psionic Energy dice.</p> <p><em><strong>Protective Field.</strong></em> When you or another creature you can see within 30 feet of you takes damage, you can use your reaction to expend one Psionic Energy die, roll the die, and reduce the damage taken by the number rolled plus your Intelligence modifier (minimum reduction of 1), as you create a momentary shield of telekinetic force.</p> <p><em><strong>Psionic Strike.</strong></em> You can propel your weapons with psionic force. Once on each of your turns, immediately after you hit a target within 30 feet of you with an attack and deal damage to it with a weapon, you can expend one Psionic Energy die, rolling it and dealing force damage to the target equal to the number rolled plus your Intelligence modifier.</p> <p><em><strong>Telekinetic Movement.</strong></em> You can move an object or a creature with your mind. As an action, you target one loose object that is Large or smaller or one willing creature, other than yourself. If you can see the target and it is within 30 feet of you, you can move it up to 30 feet to an unoccupied space you can see. Alternatively, if it is a Tiny object, you can move it to or from your hand. Either way, you can move the target horizontally, vertically, or both. Once you take this action, you can’t do so again until you finish a short or long rest, unless you expend a Psionic Energy die to take it again.</p>"
+     }
+    },
+    {
+     "key": "telekinetic-adept",
+     "level": 7,
+     "source": {
+      "pt": {
+       "book": "CTCT",
+       "page": 61
+      },
+      "en": {
+       "book": "TCE",
+       "page": 42
+      }
+     },
+     "name": {
+      "pt": "adepto telecinético",
+      "en": "Telekinetic Adept"
+     },
+     "html": {
+      "pt": "<p><em>Característica de combatente psíquico de 7º nível</em><br>Você dominou novas formas de usar suas habilidades telecinéticas, detalhadas abaixo.</p><p><strong>Salto com Impulsão Psíquica.</strong> Como uma ação bônus, você pode propelir seu corpo com sua mente. Você ganha um deslocamento de voo igual a duas vezes seu deslocamento de caminhada até o fim do seu turno atual. Uma vez que execute essa ação bônus, você não poderá repeti-la até terminar um descanso curto ou longo, a menos que gaste um dado de energia psiônica para executá-la novamente.</p><p><strong>Estocada Telecinética.</strong> Quando causa dano em um alvo com seu Golpe Psiônico, você pode forçar o alvo a fazer uma salvaguarda de Força contra uma CD igual a 8 + seu bônus de proficiência + seu modificador de Inteligência. Se a salvaguarda falhar, você poderá derrubar o alvo ou movê-lo a até 3 metros em qualquer direção horizontalmente.</p>",
+      "en": "<p><em>7th-level Psi Warrior feature</em></p> <p>You have mastered new ways to use your telekinetic abilities, detailed below.</p> <p><em><strong>Psi-Powered Leap.</strong></em> As a bonus action, you can propel your body with your mind. You gain a flying speed equal to twice your walking speed until the end of the current turn. Once you take this bonus action, you can’t do so again until you finish a short or long rest, unless you expend a Psionic Energy die to take it again.</p> <p><em><strong>Telekinetic Thrust.</strong> </em>When you deal damage to a target with your Psionic Strike, you can force the target to make a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Intelligence modifier. If the save fails, you can knock the target prone or move it up to 10 feet in any direction horizontally.</p>"
+     }
+    },
+    {
+     "key": "guarded-mind",
+     "level": 10,
+     "source": {
+      "pt": {
+       "book": "CTCT",
+       "page": 61
+      },
+      "en": {
+       "book": "TCE",
+       "page": 42
+      }
+     },
+     "name": {
+      "pt": "mente guardada",
+      "en": "Guarded Mind"
+     },
+     "html": {
+      "pt": "<p><em>Característica de combatente psíquico de 10º nível</em><br>A energia psiônica que flui através de você reforçou sua mente. Você tem resistência a dano psíquico.</p><p>Além disso, se começar seu turno enfeitiçado ou amedrontado, você pode gastar um dado de energia psiônica e encerrar cada efeito em você que o sujeite a essas condições.</p>",
+      "en": "<p><em>10th-level Psi Warrior feature</em></p> <p>The psionic energy flowing through you has bolstered your mind. You have resistance to psychic damage. Moreover, if you start your turn charmed or frightened, you can expend a Psionic Energy die and end every effect on yourself subjecting you to those conditions.</p>"
+     }
+    },
+    {
+     "key": "bulwark-of-force",
+     "level": 15,
+     "source": {
+      "pt": {
+       "book": "CTCT",
+       "page": 62
+      },
+      "en": {
+       "book": "TCE",
+       "page": 42
+      }
+     },
+     "name": {
+      "pt": "baluarte de energia",
+      "en": "Bulwark of Force"
+     },
+     "html": {
+      "pt": "<p><em>Característica de combatente psíquico de 15º nível</em><br>Você pode proteger a si e a outros com energia telecinética. Como uma ação bônus, você pode escolher criaturas que possa ver, incluindo você, a até 9 metros de você, em quantidade igual ou menor que seu modificador de Inteligência (mínimo de uma criatura). Cada uma das criaturas escolhidas fica protegida por cobertura parcial, por 1 minuto ou até que você seja incapacitado.</p><p>Uma vez que execute essa ação bônus, você não poderá repeti-la até terminar um descanso longo, a menos que gaste um dado de energia psiônica para executá-la novamente.</p>",
+      "en": "<p><em>15th-level Psi Warrior feature</em></p> <p>You can shield yourself and others with telekinetic force. As a bonus action, you can choose creatures, which can include you, that you can see within 30 feet of you, up to a number of creatures equal to your Intelligence modifier (minimum of one creature). Each of the chosen creatures is protected by half cover for 1 minute or until you’re incapacitated.</p> <p>Once you take this bonus action, you can’t do so again until you finish a long rest, unless you expend a Psionic Energy die to take it again.</p>"
+     }
+    },
+    {
+     "key": "telekinetic-master",
+     "level": 18,
+     "source": {
+      "pt": {
+       "book": "CTCT",
+       "page": 62
+      },
+      "en": {
+       "book": "TCE",
+       "page": 42
+      }
+     },
+     "name": {
+      "pt": "mestre telecinético",
+      "en": "Telekinetic Master"
+     },
+     "html": {
+      "pt": "<p><em>Característica de combatente psíquico de 18º nível</em><br>Sua habilidade de mover criaturas e objetos com sua mente é igualada por poucos. Você pode conjurar a magia <em>telecinese</em> sem precisar de componentes, e seu atributo de conjuração para ela é Inteligência. Em cada um dos seus turnos, enquanto estiver concentrado na magia, incluindo o turno em que a conjurar, você pode fazer um ataque com uma arma como uma ação bônus.</p><p>Uma vez que conjurar a magia com essa característica, você não poderá fazê-lo novamente até terminar um descanso longo, a menos que gaste um dado de energia psiônica para conjurá-la novamente.</p>",
+      "en": "<p><em>18th-level Psi Warrior feature</em></p> <p>Your ability to move creatures and objects with your mind is matched by few. You can cast the telekinesis spell, requiring no components, and your spellcasting ability for the spell is Intelligence. On each of your turns while you concentrate on the spell, including the turn when you cast it, you can make one attack with a weapon as a bonus action.</p> <p>Once you cast the spell with this feature, you can’t do so again until you finish a long rest, unless you expend a Psionic Energy die to cast it again.</p>"
+     }
+    }
+   ],
+   "spells": [
+    {
+     "level": 18,
+     "names_pt": [
+      "telecinese"
+     ],
+     "names_en": [
+      "telekinesis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "rune-knight",
+   "short_name_en": "Rune Knight",
+   "name": {
+    "pt": "cavaleiro rúnico",
+    "en": "Rune Knight"
+   },
+   "source": {
+    "pt": {
+     "book": "CTCT",
+     "page": 58
+    },
+    "en": {
+     "book": "TCE",
+     "page": 44
+    }
+   },
+   "intro_html": {
+    "pt": "<p>Cavaleiros Rúnicos aprimoram sua proeza marcial usando o poder sobrenatural das runas, uma prática ancestral que se originou com os gigantes. Entalhadores de runas podem ser encontrados entre qualquer família de gigantes e você, provavelmente, aprendeu seus métodos em primeira ou segunda mão de um desses artesões místicos. Quer tenha encontrado o trabalho dos gigantes entalhado em uma colina ou caverna, aprendido de um sábio ou conhecido o gigante em pessoa, você estudou a arte dos gigantes e aprendeu como aplicar as runas mágicas para dar poder ao seu equipamento.</p>",
+    "en": "<p>Rune Knights enhance their martial prowess using the supernatural power of runes, an ancient practice that originated with giants. Rune cutters can be found among any family of giants, and you likely learned your methods first or second hand from such a mystical artisan. Whether you found the giant’s work carved into a hill or cave, learned of the runes from a sage, or met the giant in person, you studied the giant’s craft and learned how to apply magic runes to empower your equipment.</p>"
+   },
+   "features": [
+    {
+     "key": "bonus-proficiencies",
+     "level": 3,
+     "source": {
+      "pt": {
+       "book": "CTCT",
+       "page": 59
+      },
+      "en": {
+       "book": "TCE",
+       "page": 44
+      }
+     },
+     "name": {
+      "pt": "proficiências bônus",
+      "en": "Bonus Proficiencies"
+     },
+     "html": {
+      "pt": "<p><em>Característica de cavaleiro rúnico de 3º nível</em><br>Você ganha proficiência com ferramentas de ferreiro e aprende a falar, ler e escrever no idioma Gigante.</p>",
+      "en": "<p><em>3rd-level Rune Knight feature</em></p> <p>You gain proficiency with smith’s tools, and you learn to speak, read, and write Giant.</p>"
+     }
+    },
+    {
+     "key": "giants-might",
+     "level": 3,
+     "source": {
+      "pt": {
+       "book": "CTCT",
+       "page": 60
+      },
+      "en": {
+       "book": "TCE",
+       "page": 44
+      }
+     },
+     "name": {
+      "pt": "poder do gigante",
+      "en": "Giant's Might"
+     },
+     "html": {
+      "pt": "<p><em>Característica de cavaleiro rúnico de 3º nível</em><br>Você aprendeu como imbuir-se com o poder dos gigantes. Como uma ação bônus, você ganha magicamente os seguintes benefícios, que duram por 1 minuto:</p><ul><li>Se você for menor que Grande, se torna Grande, junto com qualquer coisa que esteja usando/vestindo. Se não houver espaço suficiente para você se tornar Grande, seu tamanho não muda.</li><li>Você tem vantagem nos testes de Força e nas salvaguardas.</li><li>Uma vez em cada um dos seus turnos, um dos seus ataques com uma arma ou desarmado pode causar 1d6 pontos de dano extra em um alvo em caso de acerto.</li></ul><p>Você pode usar esta característica um número de vezes igual a seu bônus de proficiência e recupera todos os usos ao terminar um descanso longo.</p>",
+      "en": "<p><em>3rd-level Rune Knight feature</em></p> <p>You have learned how to imbue yourself with the might of giants. As a bonus action, you magically gain the following benefits, which last for 1 minute:</p> <ul> <li>If you are smaller than Large, you become Large, along with anything you are wearing. If you lack the room to become Large, your size doesn’t change.</li> <li>You have advantage on Strength checks and Strength saving throws.</li> <li>Once on each of your turns, one of your attacks with a weapon or an unarmed strike can deal an extra 1d6 damage to a target on a hit.</li> </ul> <p>You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.</p>"
+     }
+    },
+    {
+     "key": "rune-carver",
+     "level": 3,
+     "source": {
+      "pt": {
+       "book": "CTCT",
+       "page": 59
+      },
+      "en": {
+       "book": "TCE",
+       "page": 44
+      }
+     },
+     "name": {
+      "pt": "entalhador de runas",
+      "en": "Rune Carver"
+     },
+     "html": {
+      "pt": "<p><em>Característica de cavaleiro rúnico de 3º nível</em><br>Você pode usar runas mágicas para aprimorar seu equipamento. Você aprende duas runas, à sua escolha, dentre as runas descritas abaixo. Cada vez que você ganha um nível nesta classe, pode substituir uma runa que conhece por uma diferente desta característica. Ao alcançar certos níveis nessa classe, você aprende runas adicionais, como mostrado na tabela Runas Conhecidas.</p><p><strong>Runas Conhecidas</strong></p><table><thead><tr><th>Nível de Guerreiro</th><th>Número de Runas</th></tr></thead><tbody><tr><td>3º</td><td>2</td></tr><tr><td>7º</td><td>3</td></tr><tr><td>10º</td><td>4</td></tr><tr><td>15º</td><td>5</td></tr></tbody></table><p>Sempre que você terminar um descanso longo, pode tocar um número de objetos igual ao número de runas conhecidas e gravar uma runa diferente em cada um desses objetos. Para ser elegível, um objeto deve ser uma arma, uma armadura, um escudo, uma joia ou outra coisa que você possa usar ou segurar em sua mão. Sua runa permanece em um objeto até que você termine um descanso longo. Um objeto só pode suportar uma de suas runas por vez.</p><p>As seguintes runas estão disponíveis para você, ao aprender uma. Se uma runa tem um requerimento de nível, você deve estar pelo menos naquele nível nessa classe para aprender a runa. Se uma runa requer uma salvaguarda, a CD da sua magia de runas é igual a 8 + seu bônus de proficiência + seu modificador de Constituição.</p><p><strong>Runa de Nuvem.</strong> Esta runa emula a magia enganadora usada por alguns gigantes das nuvens. Enquanto estiver usando ou carregando um objeto entalhado com essa runa, você tem vantagem em testes de Destreza (Prestidigitação) e Carisma (Enganação).</p><p>Adicionalmente, quando você, ou uma criatura que possa ver a até 9 metros de você, for acertado por uma jogada de ataque, você pode usar sua reação para invocar a runa e escolher uma criatura diferente, a até 9 metros de você, que não seja o atacante. A criatura escolhida se torna o alvo do ataque, usando a mesma jogada obtida. Essa magia pode transferir os efeitos do ataque independente do alcance do ataque. Uma vez que você invocar essa runa, não pode invocá-la novamente até terminar um descanso curto ou longo.</p><p><strong>Runa Ardente.</strong> A magia dessa runa canaliza a habilidade manual magistral de grandes ferreiros. Enquanto estiver usando ou carregando um objeto entalhado com essa runa, seu bônus de proficiência é dobrado para qualquer teste de atributo que fizer e usar sua proficiência com uma ferramenta.</p><p>Além disso, ao acertar uma criatura com um ataque usando uma arma, você pode invocar a runa para convocar algemas ígneas: o alvo sofre 2d6 pontos de dano ígneo extras e deve ser bem-sucedido em uma salvaguarda de Força ou ficará contido por 1 minuto. Enquanto estiver contido pelas algemas, o alvo sofre 2d6 pontos de dano ígneo no começo de cada um de seus turnos. O alvo pode repetir a salvaguarda no final de cada um dos turnos dele, encerrando o efeito sobre si em caso de sucesso. Uma vez que você invocar essa runa, não poderá invocá-la novamente até terminar um descanso curto ou longo.</p><p><strong>Runa Congelante.</strong> A magia desta runa evoca o poder daqueles que sobrevivem nos ermos invernais, como os gigantes do gelo. Enquanto estiver usando ou carregando um objeto entalhado com essa runa, você tem vantagem em testes de Sabedoria (Lidar com Animais) e Carisma (Intimidação).</p><p>Além disso, você pode invocar a runa como uma ação bônus para aumentar sua robustez. Por 10 minutos, você ganha um bônus de +2 em todos os testes de atributo e salvaguardas que usem Força ou Constituição. Uma vez que você invocar essa runa, não poderá invocá-la novamente até terminar um descanso curto ou longo.</p><p><strong>Runa Pétrea.</strong> A magia dessa runa canaliza a judiciosidade associada com gigantes de pedra. Enquanto estiver usando ou carregando um objeto entalhado com essa runa, você tem vantagem em testes de Sabedoria (Intuição) e tem visão no escuro no alcance de 36 metros.</p><p>Além disso, quando uma criatura que você possa ver termina seu turno a até 9 metros de você, você pode usar sua reação para invocar a runa e forçar a criatura a fazer uma salvaguarda de Sabedoria. A menos que a salvaguarda seja bem-sucedida, a criatura fica encantada por 1 minuto. Enquanto estiver encantada dessa forma, a criatura tem um deslocamento 0 e está incapacitada, caindo em um estupor idílico. A criatura repete a salvaguarda no final de cada um dos turnos dela, encerrando o efeito em caso de sucesso. Uma vez que você invocar essa runa, não poderá invocá-la novamente até terminar um descanso curto ou longo.</p><p><strong>Runa da Colina (7º nível ou maior).</strong> Esta runa mágica concede uma resiliência reminiscente de um gigante da colina. Enquanto estiver usando ou carregando um objeto que possui essa runa, você tem vantagem em salvaguardas contra venenos e possui resistência a dano venenoso.</p><p>Além disso, você pode invocar a runa como uma ação bônus ganhando resistência a dano contundente, perfurante e cortante por 1 minuto. Uma vez que você invocar essa runa, não poderá invocá-la novamente até terminar um descanso curto ou longo.</p><p><strong>Runa Tempestuosa (7º nível ou maior).</strong> Ao usar essa runa, você pode espiar o futuro como um gigante da tempestade vidente. Enquanto estiver usando ou carregando um objeto entalhado com essa runa, você tem vantagem em testes de Inteligência (Arcanismo) e não pode ser surpreendido, desde que não esteja incapacitado.</p><p>Adicionalmente, você pode invocar a runa como uma ação bônus para entrar em estado profético por 1 minuto ou até ficar incapacitado. Até que o estado termine, quando você, ou outra criatura que possa ver a até 18 metros de você, fizer uma jogada de ataque, uma salvaguarda ou um teste de atributo, você pode usar sua reação para fazer a jogada ter vantagem ou desvantagem. Uma vez que você invocar essa runa, não poderá invocá-la novamente até terminar um descanso curto ou longo.</p>",
+      "en": "<p><em>3rd-level Rune Knight feature</em></p> <p>You can use magic runes to enhance your gear. You learn two runes of your choice, from among the runes described below, and each time you gain a level in this class, you can replace one rune you know with a different one from this feature. When you reach certain levels in this class, you learn additional runes, as shown in the Runes Known table.</p> Runes Known  <table> <thead> <tr> <th>Fighter Level</th> <th>Number of Runes</th> </tr> </thead> <tbody> <tr> <td>3rd</td> <td>2</td> </tr> <tr> <td>7th</td> <td>3</td> </tr> <tr> <td>10th</td> <td>4</td> </tr> <tr> <td>15th</td> <td>5</td> </tr> </tbody> </table>  <p>Whenever you finish a long rest, you can touch a number of objects equal to the number of runes you know, and you inscribe a different rune onto each of the objects. To be eligible, an object must be a weapon, a suit of armor, a shield, a piece of jewelry, or something else you can wear or hold in a hand. Your rune remains on an object until you finish a long rest, and an object can bear only one of your runes at a time.</p> <p>The following runes are available to you when you learn a rune. If a rune has a level requirement, you must be at least that level in this class to learn the rune. If a rune requires a saving throw, your Rune Magic save DC equals 8 + your proficiency bonus + your Constitution modifier.</p> <p><strong><em>Cloud Rune.</em></strong> This rune emulates the deceptive magic used by some cloud giants. While wearing or carrying an object inscribed with this rune, you have advantage on Dexterity (Sleight of Hand) checks and Charisma (Deception) checks.</p> <p>In addition, when you or a creature you can see within 30 feet of you is hit by an attack roll, you can use your reaction to invoke the rune and choose a different creature within 30 feet of you, other than the attacker. The chosen creature becomes the target of the attack, using the same roll. This magic can transfer the attack’s effects regardless of the attack’s range. Once you invoke this rune, you can’t do so again until you finish a short or long rest.</p> <p><strong><em>Fire Rune.</em></strong> This rune’s magic channels the masterful craftsmanship of great smiths. While wearing or carrying an object inscribed with this rune, your proficiency bonus is doubled for any ability check you make that uses your proficiency with a tool.</p> <p>In addition, when you hit a creature with an attack using a weapon, you can invoke the rune to summon fiery shackles: the target takes an extra 2d6 fire damage, and it must succeed on a Strength saving throw or be restrained for 1 minute. While restrained by the shackles, the target takes 2d6 fire damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, banishing the shackles on a success. Once you invoke this rune, you can’t do so again until you finish a short or long rest.</p> <p><strong><em>Frost Rune.</em></strong> This rune’s magic evokes the might of those who survive in the wintry wilderness, such as frost giants. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom (Animal Handling) checks and Charisma (Intimidation) checks.</p> <p>In addition, you can invoke the rune as a bonus action to increase your sturdiness. For 10 minutes, you gain a +2 bonus to all ability checks and saving throws that use Strength or Constitution. Once you invoke this rune, you can’t do so again until you finish a short or long rest.</p> <p><strong><em>Stone Rune.</em></strong> This rune’s magic channels the judiciousness associated with stone giants. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom (Insight) checks, and you have darkvision out to a range of 120 feet.</p> <p>In addition, when a creature you can see ends its turn within 30 feet of you, you can use your reaction to invoke the rune and force the creature to make a Wisdom saving throw. Unless the save succeeds, the creature is charmed by you for 1 minute. While charmed in this way, the creature has a speed of 0 and is incapacitated, descending into a dreamy stupor. The creature repeats the saving throw at the end of each of its turns, ending the effect on a success. Once you invoke this rune, you can’t do so again until you finish a short or long rest.</p> <p><strong><em>Hill Rune (7th Level or Higher).</em></strong> This rune’s magic bestows a resilience reminiscent of a hill giant. While wearing or carrying an object that bears this rune, you have advantage on saving throws against being poisoned, and you have resistance against poison damage.</p> <p>In addition, you can invoke the rune as a bonus action, gaining resistance to bludgeoning, piercing, and slashing damage for 1 minute. Once you invoke this rune, you can’t do so again until you finish a short or long rest.</p> <p><strong><em>Storm Rune (7th Level or Higher).</em></strong> Using this rune, you can glimpse the future like a storm giant seer. While wearing or carrying an object inscribed with this rune, you have advantage on Intelligence (Arcana) checks, and you can’t be surprised as long as you aren’t incapacitated.</p> <p>In addition, you can invoke the rune as a bonus action to enter a prophetic state for 1 minute or until you’re incapacitated. Until the state ends, when you or another creature you can see within 60 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to cause the roll to have advantage or disadvantage. Once you invoke this rune, you can’t do so again until you finish a short or long rest.</p>"
+     }
+    },
+    {
+     "key": "runic-shield",
+     "level": 7,
+     "source": {
+      "pt": {
+       "book": "CTCT",
+       "page": 60
+      },
+      "en": {
+       "book": "TCE",
+       "page": 44
+      }
+     },
+     "name": {
+      "pt": "escudo rúnico",
+      "en": "Runic Shield"
+     },
+     "html": {
+      "pt": "<p><em>Característica de cavaleiro rúnico de 7º nível</em><br>Você aprende a invocar sua magia rúnica para proteger seus aliados. Quando outra criatura que você possa ver, a até 18 metros de você, for acertada por uma jogada de ataque, você pode usar sua reação para forçar o atacante a jogar novamente o d20 e usar o novo resultado.</p><p>Você pode usar esta característica um número de vezes igual a seu bônus de proficiência e recupera todos os usos ao terminar um descanso longo.</p>",
+      "en": "<p><em>7th-level Rune Knight feature</em></p> <p>You learn to invoke your rune magic to protect your allies. When another creature you can see within 60 feet of you is hit by an attack roll, you can use your reaction to force the attacker to reroll the d20 and use the new roll.</p> <p>You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>"
+     }
+    },
+    {
+     "key": "great-stature",
+     "level": 10,
+     "source": {
+      "pt": {
+       "book": "CTCT",
+       "page": 60
+      },
+      "en": {
+       "book": "TCE",
+       "page": 44
+      }
+     },
+     "name": {
+      "pt": "grande estatura",
+      "en": "Great Stature"
+     },
+     "html": {
+      "pt": "<p><em>Característica de cavaleiro rúnico de 10º nível</em><br>A magia das suas runas altera você permanentemente. Quando você ganhar essa característica, jogue 3d4. Você cresce um número de centímetros em altura igual ao resultado da jogada.</p><p>Além disso, o dano extra que você causa com sua característica Poder do Gigante aumenta para 1d8.</p>",
+      "en": "<p><em>10th-level Rune Knight feature </em></p> <p>The magic of your runes permanently alters you. When you gain this feature, roll 3d4. You grow a number of inches in height equal to the roll.</p> <p>Moreover, the extra damage you deal with your Giant’s Might feature increases to 1d8.</p>"
+     }
+    },
+    {
+     "key": "master-of-runes",
+     "level": 15,
+     "source": {
+      "pt": {
+       "book": "CTCT",
+       "page": 60
+      },
+      "en": {
+       "book": "TCE",
+       "page": 44
+      }
+     },
+     "name": {
+      "pt": "mestre das runas",
+      "en": "Master of Runes"
+     },
+     "html": {
+      "pt": "<p><em>Característica de cavaleiro rúnico de 15º nível</em><br>Você pode invocar cada runa que conhece da característica Entalhador de Runas duas vezes, em vez de uma, e recupera todos os usos ao final de um descanso curto ou longo.</p>",
+      "en": "<p><em>15th-level Rune Knight feature</em></p> <p>You can invoke each rune you know from your Rune Carver feature twice, rather than once, and you regain all expended uses when you finish a short or long rest.</p>"
+     }
+    },
+    {
+     "key": "runic-juggernaut",
+     "level": 18,
+     "source": {
+      "pt": {
+       "book": "CTCT",
+       "page": 60
+      },
+      "en": {
+       "book": "TCE",
+       "page": 44
+      }
+     },
+     "name": {
+      "pt": "força rúnica implacável",
+      "en": "Runic Juggernaut"
+     },
+     "html": {
+      "pt": "<p><em>Característica de cavaleiro rúnico de 18º nível</em><br>Você aprende a amplificar sua transformação energizada pelas runas. Como resultado, o dano extra que você causa com a característica Poder do Gigante aumenta para 1d10. Além disso, ao usar essa característica, seu tamanho pode aumentar para Enorme e, enquanto estiver desse tamanho, seu alcance aumenta em 1,5 metro.</p>",
+      "en": "<p><em>18th-level Rune Knight feature</em></p> <p>You learn how to amplify your rune-powered transformation. As a result, the extra damage you deal with the Giant’s Might feature increases to 1d10. Moreover, when you use that feature, your size can increase to Huge, and while you are that size, your reach increases by 5 feet.</p>"
+     }
+    }
+   ],
+   "spells": []
+  }
+ ]
+}

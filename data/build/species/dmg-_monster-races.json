@@ -1,0 +1,21 @@
+{
+  "slug": "dmg-monster-races",
+  "name": {
+    "pt": "raças de monstros (características do PNJ)",
+    "en": null
+  },
+  "source": {
+    "pt": {
+      "book": "LDM",
+      "page": 282
+    },
+    "en": null
+  },
+  "intro_html": {
+    "pt": "<p><strong>Criando um PNJ do nada</strong></p><p>Se você precisa de estatísticas completamente novas para um PNJ, há duas opções:</p><ul><li>Você pode criar um bloco de estatísticas para um PNJ (semelhante aos do Monster Manual: Livro dos Monstros) da mesma forma que você faria com um monstro, conforme discutido na seção anterior.</li><li>Você pode construir o PNJ da mesma forma que faria com um personagem do jogador, como discutido no Player's Handbook: Livro do Jogador.</li></ul><p>Se decidir construir um PNJ da mesma forma que constrói um personagem do jogador, você pode ignorar a escolha de um antecedente e, em vez disso, escolher duas proficiências em perícia para o PNJ.</p><p>A tabela Características do PNJ resume os modificadores de atributo e características de várias raças não humanas, bem como várias criaturas do Monster Manual: Livro dos Monstros com um nível de desafio menor que 1. Aplique os modificadores e acrescente as funcionalidades ao bloco de estatísticas do PNJ, então determine o nível de desafio dele tal como faria para um monstro. Características que possam afetar o nível de desafio de um monstro são listadas na tabela Características do Monstro. Assim como no caso de um personagem, o bônus de proficiência do PNJ é determinado pelo nível e não pelo nível de desafio dele.</p><p>Se o monstro que você quer usar não estiver indicado na tabela, use o processo descrito abaixo em \"Monstros com Classes.\"</p>",
+    "en": null
+  },
+  "traits": [],
+  "subraces": [],
+  "spells": []
+}

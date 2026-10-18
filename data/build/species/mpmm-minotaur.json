@@ -1,0 +1,102 @@
+{
+ "slug": "minotaur",
+ "name": {
+  "pt": "minotauro",
+  "en": "Minotaur"
+ },
+ "source": {
+  "pt": {
+   "book": "MPMM",
+   "page": 27
+  },
+  "en": {
+   "book": "MPMM",
+   "page": 27
+  }
+ },
+ "intro_html": {
+  "pt": "<p>Minotauros são humanoides de peitoral largo, com cabeças semelhantes às de touros. Agraciados com um forte e sobrenatural senso de direção, os minotauros são ótimos navegadores. Alguns sábios acreditam que os minotauros foram criados inicialmente pela Senhora da Dor para patrulhar os labirintos mágicos que ela usa para prender seus inimigos.</p><p>Os chifres dos minotauros variam em tamanho, de cerca de 30 cm a até três vezes esse comprimento. Minotauros, com frequência, esculpem seus chifres, seja para afiar suas pontas, gravar símbolos de poder neles ou banhá-los em bronze, evitando assim que se quebrem em batalha.</p><p>O cabelo espesso se estende pelo pescoço e pelas costas musculosas dos minotauros, e alguns têm longas mechas de cabelo no queixo e nas bochechas. Suas pernas terminam em cascos pesados e fendidos, e eles têm caudas longas e tufadas.</p>",
+  "en": "<p>Minotaurs are barrel-chested humanoids with heads resembling those of bulls. Blessed with a supernaturally strong sense of direction, minotaurs make great navigators. Some sages believe minotaurs were first created by the Lady of Pain to patrol the magical mazes that she uses to trap her foes.</p><p>Minotaur horns range in size from about 1 foot long to easily three times that length. Minotaurs often carve their horns to sharpen their edges, etch symbols of power into them, or sheathe them in bronze to prevent them from shattering during battle.</p><p>Thick hair extends down minotaurs’ necks and powerful backs, and some have long patches of hair on their chins and cheeks. Their legs end in heavy, cloven hooves, and they have long, tufted tails.</p>"
+ },
+ "traits": [
+  {
+   "key": "creature-type",
+   "name": {
+    "pt": "tipo de Criatura",
+    "en": "Creature Type"
+   },
+   "html": {
+    "pt": "<p>Você é um humanoide.</p>",
+    "en": "<p>You are a Humanoid.</p>"
+   }
+  },
+  {
+   "key": "size",
+   "name": {
+    "pt": "tamanho",
+    "en": "Size"
+   },
+   "html": {
+    "pt": "<p>Você é Médio.</p>",
+    "en": "<p>You are Medium.</p>"
+   }
+  },
+  {
+   "key": "speed",
+   "name": {
+    "pt": "deslocamento",
+    "en": "Speed"
+   },
+   "html": {
+    "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
+    "en": "<p>Your walking speed is 30 feet.</p>"
+   }
+  },
+  {
+   "key": "goring-rush",
+   "name": {
+    "pt": "chifrada em Arranco",
+    "en": "Goring Rush"
+   },
+   "html": {
+    "pt": "<p>Imediatamente após realizar a ação Correr em seu turno e se mover pelo menos 6 metros, você pode fazer um ataque corpo a corpo com seus chifres como uma ação bônus.</p>",
+    "en": "<p>Immediately after you take the Dash action on your turn and move at least 20 feet, you can make one melee attack with your Horns as a bonus action.</p>"
+   }
+  },
+  {
+   "key": "horns",
+   "name": {
+    "pt": "chifres",
+    "en": "Horns"
+   },
+   "html": {
+    "pt": "<p>Você tem chifres que pode usar para desferir golpes desarmados. Quando você acerta com eles, o golpe causa dano perfurante igual a 1d6 + seu modificador de Força, ao invés do dano contundente normal para um golpe desarmado.</p>",
+    "en": "<p>You have horns that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike.</p>"
+   }
+  },
+  {
+   "key": "hammering-horns",
+   "name": {
+    "pt": "chifres de Aríete",
+    "en": "Hammering Horns"
+   },
+   "html": {
+    "pt": "<p>Imediatamente após acertar uma criatura com um ataque corpo a corpo como parte da ação Atacar em seu turno, você pode usar uma ação bônus para tentar empurrar o alvo com seus chifres. O alvo deve estar a até 1,5 metro de você, e não pode ter um tamanho maior do que uma categoria acima da sua. A menos que ele seja bem-sucedido em uma salvaguarda de Força contra CD 8 + seu bônus de proficiência + seu modificador de Força, você o empurra para até 3 metros de distância de você.</p>",
+    "en": "<p>Immediately after you hit a creature with a melee attack as part of the Attack action on your turn, you can use a bonus action to attempt to push that target with your horns. The target must be within 5 feet of you and no more than one size larger than you. Unless it succeeds on a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Strength modifier, you push it up to 10 feet away from you.</p>"
+   }
+  },
+  {
+   "key": "labyrinthine-recall",
+   "name": {
+    "pt": "memória Labiríntica",
+    "en": "Labyrinthine Recall"
+   },
+   "html": {
+    "pt": "<p>Você sempre sabe para onde está o norte, e tem vantagem em qualquer teste de Sabedoria (Sobrevivência) que fizer para se localizar ou rastrear.</p>",
+    "en": "<p>You always know which direction is north, and you have advantage on any Wisdom (Survival) check you make to navigate or track.</p>"
+   }
+  }
+ ],
+ "subraces": [],
+ "spells": []
+}

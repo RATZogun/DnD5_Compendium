@@ -1,0 +1,13 @@
+{
+  "subclass_duplicates": {
+    "bladesinging": "CTCT",
+    "mastermind": "GXTC",
+    "swashbuckler": "GXTC",
+    "storm-sorcery": "GXTC",
+    "way-of-the-sun-soul": "GXTC"
+  },
+  "en_pages": {
+    "bladesinging|SCAG": 141
+  },
+  "exclude_books": ["GACE"]
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "hexblood",
+  "name": {
+    "pt": "sangue de bruxa",
+    "en": "Hexblood"
+  },
+  "source": {
+    "pt": {
+      "book": "GVRR",
+      "page": 20
+    },
+    "en": {
+      "book": "VRGR",
+      "page": 18
+    }
+  },
+  "intro_html": {
+    "pt": "<p>Onde o desejo falha, a magia antiga pode oferecer o que o coração cobiça - pelo menos por um tempo. Sangues de bruxa são indivíduos infundidos com magia mística, energia feérica ou bruxaria misteriosa. Alguns que entram em barganhas com megeras obtêm seus desejos mais profundos, mas com o tempo se descobrem transformados. Essas mudanças evidenciam a influência de uma megera: orelhas que se partem em pontas aguçadas, pele em tons cadavéricos, cabelo comprido que cresce novamente se for cortado e uma coroa viva irremovível. Junto com essas marcas, sangues de bruxa manifestam traços semelhantes a megeras, tais como visão no escuro e uma variedade de métodos para iludir os sentidos e evitar o mesmo.</p><p>Enquanto muitos sangues de bruxa recebem sua linhagem após fazer um acordo com uma megera, outros revelam sua natureza conforme envelhecem - particularmente se uma megera os influenciou no início da vida, ou mesmo antes de seu nascimento. Muitos sangues de bruxa voltam-se para vidas de aventura, buscando descobrir os mistérios de sua magia, forjar uma conexão com suas naturezas feéricas, ou para escapar de uma megera que é obcecada consigo.</p><p><strong>Herdeiro das megeras</strong></p><p>Uma forma de megeras criarem mais de sua raça é através da criação de sangues de bruxa. Todo sangue de bruxa exibe características indicativas da megera de cuja magia recebeu seus poderes. Isso inclui uma coroa incomum, muitas vezes chamados de cruz anciã ou volta da feiticeira. Essa parte viva do corpo de um sangue de bruxa, semelhante a uma guirlanda, estende-se de suas têmporas e se junta atrás da cabeça, servindo como uma marca visível da barganha entre a megera e o sangue de bruxa, um débito pendente ou uma mudança a vir.</p><p><strong>Origens de sangue de bruxa</strong></p><p>Uma barganha com uma megera ou outras forças sinistras transformaram seu personagem em um ser mágico. Jogue os dados ou escolha uma opção da tabela Origens de Sangue de Bruxa para determinar como seu personagem adquiriu sua linhagem.</p><table><thead><tr><th>d6</th><th>Origem</th></tr></thead><tbody><tr><td>1</td><td>Querendo uma criança, um de seus pais fez uma barganha com uma megera. Você é o resultado desse arranjo.</td></tr><tr><td>2</td><td>Sequestradores feéricos trocaram você pelo filho de seus pais.</td></tr><tr><td>3</td><td>Uma laia de megeras perdeu um de seus membros. Você foi criado para substituir a megera perdida.</td></tr><tr><td>4</td><td>Você foi amaldiçoado enquanto criança. Um acordo com os espíritos da floresta o transformou em um sangue de bruxa, agora livre da maldição.</td></tr><tr><td>5</td><td>Você começou a vida como uma criatura feérica, mas um acidente o mudou e o forçou a deixar seu lar.</td></tr><tr><td>6</td><td>Um druida desprezado o transformou e forjou um vínculo para que você viva somente enquanto uma árvore sagrada tiver frutos.</td></tr></tbody></table><p><strong>Sangues de bruxa nos Domínios do Pavor</strong></p><p>Ao criar um sangue de bruxa, consulte seu DM para verificar se é apropriado ligar suas origens a um dos seguintes Domínios do Pavor (detalhes no capítulo 3):</p><p><strong>Hazlan.</strong> A magia bizarra desse domínio desmoronando expõe a população a forças sobrenaturais, ocasionalmente erguendo sangues de bruxa.</p><p><strong>Kartakass.</strong> Bruxas caprichosas fazem seu lar nas florestas de Kartakass. Elas concedem avidamente desejos de pessoas locais que buscam grandes fortunas para seus filhos.</p><p><strong>Tepest.</strong> Muitas das crianças na cidade de Viktal são sangues de bruxa que exibem suas naturezas sobrenaturais desde jovens. Cada jovem é considerado uma dádiva da deidade patrona da cidade, que é conhecida como Mãe.</p><p><strong>Tornando-se uma megera</strong></p><p>Megeras podem executar um ritual para transformar irreversivelmente um sangue de bruxa criados por elas em uma megera, seja uma com seu próprio sangue ou que personifique a natureza do sangue de bruxa. Isso requer que tanto a megera quanto o sangue de bruxa estejam no mesmo lugar e consintam com o longo ritual - circunstâncias que a maioria dos sangues de bruxa evita, mas podem vir a aceitar no curso dos séculos. Uma vez que um sangue de bruxa sofra esse ritual irreversível, emerge como uma megera PNJ, não mais sob o controle do jogador, a menos que o DM decida de outra forma.</p>",
+    "en": "<p>Where wishing fails, ancient magic can offer a heart’s desire—at least, for a time. Hexbloods are individuals infused with eldritch magic, fey energy, or mysterious witchcraft. Some who enter into bargains with hags gain their deepest wishes but eventually find themselves transformed. These changes evidence a hag’s influence: ears that split in forked points, skin in lurid shades, long hair that regrows if cut, and an irremovable living crown. Along with these marks, hexbloods manifest hag-like traits, such as darkvision and a variety of magical methods to beguile the senses and avoid the same.</p><p>While many hexbloods gain their lineage after making a deal with a hag, others reveal their nature as they age—particularly if a hag influenced them early in life or even before their birth. Many hexbloods turn to lives of adventure, seeking to discover the mysteries of their magic, to forge a connection with their fey natures, or to avoid a hag that obsesses over them.</p><p><strong>Heir of Hags</strong></p><p>One way hags create more of their kind is through the creation of hexbloods. Every hexblood exhibits features suggestive of the hag whose magic inspires their powers. This includes an unusual crown, often called an eldercross or a witch’s turn. This living, garland-like part of a hexblood’s body extends from their temples and wraps behind the head, serving as a visible mark of the bargain between hag and hexblood, a debt owed, or a change to come.</p><p><strong>Hexblood Origins</strong></p><p>A bargain with a hag or other eerie forces transformed your character into a magical being. Roll on or choose an option from the Hexblood Origins table to determine how your character gained their lineage.</p><table><thead><tr><th>d6</th><th>Origin</th></tr></thead><tbody><tr><td>1</td><td>Seeking a child, your parent made a bargain with a hag. You are the result of that arrangement.</td></tr><tr><td>2</td><td>Fey kidnappers swapped you and your parents’ child.</td></tr><tr><td>3</td><td>A coven of hags lost one of its members. You were created to replace the lost hag.</td></tr><tr><td>4</td><td>You were cursed as a child. A deal with the spirits of the forest transformed you into a hexblood, now free of the curse.</td></tr><tr><td>5</td><td>You began life as a fey creature, but an accident changed you and forced you from your home.</td></tr><tr><td>6</td><td>A slighted druid transformed you and bound you to live only so long as a sacred tree bears fruit.</td></tr></tbody></table><p><strong>Hexbloods in the Domains of Dread</strong></p><p>When creating a hexblood, ask your DM if it makes sense for your character to have ties to one of the following Domains of Dread (detailed in <em>Van Richten’s Guide to Ravenloft</em>):</p><p><strong>Hazlan.</strong> The bizarre magic of this crumbling domain exposes the populace to supernatural forces, occasionally giving rise to hexbloods.</p><p><strong>Kartakass.</strong> Whimsical witches make their homes in the forests of Kartakass. They eagerly grant the wishes of locals seeking grand fortunes for their children.</p><p><strong>Tepest.</strong> Many of the children in the town of Viktal are hexbloods who exhibit their supernatural natures from a young age. Each youngster is considered a gift from the town’s patron deity, who is known as Mother.</p>"
+  },
+  "traits": [
+    {
+      "key": "creature-type",
+      "name": {
+        "pt": "tipo de criatura",
+        "en": "Creature Type"
+      },
+      "html": {
+        "pt": "<p>Você é um feérico.</p>",
+        "en": "<p>You are a Fey.</p>"
+      }
+    },
+    {
+      "key": "size",
+      "name": {
+        "pt": "tamanho",
+        "en": "Size"
+      },
+      "html": {
+        "pt": "<p>Você é Médio ou Pequeno. Você escolhe o tamanho ao ganhar essa linhagem.</p>",
+        "en": "<p>You are Medium or Small. You choose the size when you gain this lineage.</p>"
+      }
+    },
+    {
+      "key": "speed",
+      "name": {
+        "pt": "deslocamento",
+        "en": "Speed"
+      },
+      "html": {
+        "pt": "<p>Seu deslocamento de caminhada é 9 metros.</p>",
+        "en": "<p>Your walking speed is 30 feet.</p>"
+      }
+    },
+    {
+      "key": "ancestral-legacy",
+      "name": {
+        "pt": "legado ancestral",
+        "en": "Ancestral Legacy"
+      },
+      "html": {
+        "pt": "<p>Se você substituir uma raça por essa linhagem, você pode manter os seguintes elementos da raça: quaisquer proficiências de perícia que tenha ganhado dela e qualquer deslocamento de escalada, voo ou natação que tenha ganhado dela.</p><p>Se você não mantiver qualquer um desses elementos ou escolher essa linhagem na criação do personagem, você ganha proficiência em duas perícias à sua escolha.</p>",
+        "en": "<p>If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.</p><p>If you don’t keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice.</p>"
+      }
+    },
+    {
+      "key": "darkvision",
+      "name": {
+        "pt": "visão no escuro",
+        "en": "Darkvision"
+      },
+      "html": {
+        "pt": "<p>Você pode ver à meia-luz a até 18 metros como se fosse luz plena e na escuridão como se estivesse à meia-luz. Você discerne cores na escuridão apenas como tons de cinza.</p>",
+        "en": "<p>You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray.</p>"
+      }
+    },
+    {
+      "key": "eerie-token",
+      "name": {
+        "pt": "troféu sinistro",
+        "en": "Eerie Token"
+      },
+      "html": {
+        "pt": "<p>Como uma ação bônus, você pode remover inofensivamente uma mecha do seu cabelo, uma das suas unhas ou um de seus dentes. Esse troféu fica imbuído com magia até que você termine um descanso longo. Enquanto o troféu estiver imbuído dessa forma, você pode fazer essas ações:</p><p><strong>Mensagem Telepática.</strong> Como uma ação, você pode enviar uma mensagem telepática para a criatura que está segurando ou carregando o troféu, enquanto você estiver a até 15 quilômetros dela. A mensagem pode conter até vinte e cinco palavras.</p><p><strong>Visão Remota.</strong> Se estiver a até 15 quilômetros do troféu, você pode entrar em transe como uma ação. O transe dura 1 minuto, mas acaba antes se você o desfizer (nenhuma ação necessária) ou estiver incapacitado. Durante esse transe, você pode ver e ouvir a partir do troféu como se estivesse no mesmo local. Enquanto estiver usando seus sentidos no local do troféu, você está cego e surdo em relação a seus próprios arredores. Quando o transe acaba, o troféu é destruído inofensivamente.</p><p>Uma vez que você crie um troféu usando essa característica, não poderá fazê-lo novamente até terminar um descanso longo; neste ponto sua parte faltante cresce novamente.</p>",
+        "en": "<p>As a bonus action, you can harmlessly remove a lock of your hair, one of your nails, or one of your teeth. This token is imbued with magic until you finish a long rest. While the token is imbued in this way, you can take these actions:</p><p><strong>Telepathic Message.</strong> As an action, you can send a telepathic message to the creature holding or carrying the token, as long as you are within 10 miles of it. The message can contain up to twenty-five words.</p><p><strong>Remote Viewing.</strong> If you are within 10 miles of the token, you can enter a trance as an action. The trance lasts for 1 minute, but it ends early if you dismiss it (no action required) or are incapacitated. During this trance, you can see and hear from the token as if you were located where it is. While you are using your senses at the token’s location, you are blinded and deafened in regard to your own surroundings. When the trance ends, the token is harmlessly destroyed.</p><p>Once you create a token using this feature, you can’t do so again until you finish a long rest, at which point your missing part regrows.</p>"
+      }
+    },
+    {
+      "key": "hex-magic",
+      "name": {
+        "pt": "magia das bruxas",
+        "en": "Hex Magic"
+      },
+      "html": {
+        "pt": "<p>Você pode conjurar as magias disfarçar-se e amaldiçoar com esse traço. Uma vez que conjure alguma dessas magias com esse traço, você não pode conjurar essa magia novamente até que você termine um descanso longo. Você também pode conjurar essas magias usando quaisquer espaços de magia que tiver.</p><p>Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essas magias (escolha o atributo quando você adquirir essa linhagem).</p>",
+        "en": "<p>You can cast the <em>disguise self</em> and <em>hex</em> spells with this trait. Once you cast either of these spells with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have.</p><p>Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose the ability when you gain this lineage).</p>"
+      }
+    }
+  ],
+  "subraces": [],
+  "spells": [
+    {
+      "level": 1,
+      "names_pt": [
+        "disfarçar-se",
+        "amaldiçoar"
+      ],
+      "names_en": [
+        "disguise self",
+        "hex"
+      ],
+      "regularity": {
+        "pt": "uma vez cada, recupera ao terminar um descanso longo; também podem ser conjuradas com espaços de magia",
+        "en": "once each, regained after a long rest; also castable with spell slots"
+      }
+    }
+  ]
+}

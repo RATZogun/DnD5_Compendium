@@ -1,0 +1,58 @@
+{
+  "slug": "troglodyte",
+  "name": {
+    "pt": "troglodita",
+    "en": "Troglodyte"
+  },
+  "source": {
+    "pt": {
+      "book": "LDM",
+      "page": 282
+    },
+    "en": {
+      "book": "DMG",
+      "page": 282
+    }
+  },
+  "intro_html": {
+    "pt": "",
+    "en": null
+  },
+  "traits": [
+    {
+      "key": "ability-score-increase",
+      "name": {
+        "pt": "aumento no valor de atributo",
+        "en": "Ability Score Increase"
+      },
+      "html": {
+        "pt": "<p>+2 For, +2 Con, -4 Int, -4 Car</p>",
+        "en": null
+      }
+    },
+    {
+      "key": "other-traits",
+      "name": {
+        "pt": "outros traços",
+        "en": "Other Traits"
+      },
+      "html": {
+        "pt": "<p>Fedor, Pele de Camaleão, Sensibilidade à Luz Solar; bônus de +1 da armadura natural para a CA; visão no escuro 18 m</p>",
+        "en": "<p><strong><em>Chameleon Skin.</em></strong> You have advantage on Dexterity (Stealth) checks made to hide.</p><p><strong><em>Stench.</em></strong> Any creature other than a troglodyte that starts its turn within 5 ft. of you must succeed on a 12 Constitution saving throw or be poisoned until the start of the creature&#x27;s next turn. On a successful saving throw, the creature is immune to the stench of all troglodytes for 1 hour.</p><p><strong><em>Sunlight Sensitivity.</em></strong> While in sunlight, you have disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</p><p><strong><em>Natural Armor.</em></strong> Your thick hide grants you a +1 bonus to Armor Class.</p><p><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can&#x27;t discern color in darkness, only shades of gray.</p>"
+      }
+    },
+    {
+      "key": "languages",
+      "name": {
+        "pt": "idiomas",
+        "en": "Languages"
+      },
+      "html": {
+        "pt": "<p>fala Troglodita</p>",
+        "en": "<p>You can speak, read, and write Troglodyte.</p>"
+      }
+    }
+  ],
+  "subraces": [],
+  "spells": []
+}

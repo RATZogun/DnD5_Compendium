@@ -1,0 +1,129 @@
+{
+ "slug": "deep-gnome",
+ "name": {
+  "pt": "gnomo das profundezas",
+  "en": "Deep Gnome"
+ },
+ "source": {
+  "pt": {
+   "book": "MPMM",
+   "page": 20
+  },
+  "en": {
+   "book": "MPMM",
+   "page": 11
+  }
+ },
+ "intro_html": {
+  "pt": "<p>Gnomos das profundezas, ou svirfneblin, são naturais do Subterrâneo e são impregnados com a magia deste reino escondido. Eles conseguem se camuflar de forma sobrenatural, e sua magia svirfneblin os torna difíceis de encontrar. Essas habilidades os permitiram sobreviver por gerações entre os perigos do Subterrâneo.</p><p>Como outros gnomos, os gnomos das profundezas podem viver por séculos, até 500 anos.</p>",
+  "en": "<p>Deep gnomes, or svirfneblin, are natives of the Underdark and are suffused with that subterranean realm’s magic. They can supernaturally camouflage themselves, and their svirfneblin magic renders them difficult to locate. These abilities have enabled them to survive for generations among the perils of the Underdark.</p> <p>Like other gnomes, deep gnomes can live for centuries, up to 500 years.</p>"
+ },
+ "traits": [
+  {
+   "key": "creature-type",
+   "name": {
+    "pt": "tipo de criatura",
+    "en": "Creature Type"
+   },
+   "html": {
+    "pt": "<p>Você é um humanoide. Você também é considerado um gnomo para qualquer pré-requisito ou efeito que requeira que você seja um gnomo.</p>",
+    "en": "<p>You are a Humanoid. You are also considered a gnome for any prerequisite or effect that requires you to be a gnome.</p>"
+   }
+  },
+  {
+   "key": "size",
+   "name": {
+    "pt": "tamanho",
+    "en": "Size"
+   },
+   "html": {
+    "pt": "<p>Você é Pequeno.</p>",
+    "en": "<p>You are Small.</p>"
+   }
+  },
+  {
+   "key": "speed",
+   "name": {
+    "pt": "deslocamento",
+    "en": "Speed"
+   },
+   "html": {
+    "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
+    "en": "<p>Your walking speed is 30 feet.</p>"
+   }
+  },
+  {
+   "key": "svirfneblin-camouflage",
+   "name": {
+    "pt": "camuflagem svirfneblin",
+    "en": "Svirfneblin Camouflage"
+   },
+   "html": {
+    "pt": "<p>Quando faz um teste de Destreza (Furtividade), você pode fazer o teste com vantagem. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência, e recupera todos os usos ao terminar um descanso longo.</p>",
+    "en": "<p>When you make a Dexterity (Stealth) check, you can make the check with advantage. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>"
+   }
+  },
+  {
+   "key": "gift-of-the-svirfneblin",
+   "name": {
+    "pt": "dádiva dos svirfneblin",
+    "en": "Gift of the Svirfneblin"
+   },
+   "html": {
+    "pt": "<p>A partir do 3º nível, você pode conjurar a magia disfarçar-se usando este traço. A partir do 5º nível, você também pode conjurar a magia indetectável usando este traço, sem exigir componente material. Uma vez que conjurar uma dessas magias com esse traço, você não poderá conjurar essa magia novamente até terminar um descanso longo. Você também pode conjurar essas magias usando quaisquer espaços de magia que tiver do círculo apropriado.</p><p>Inteligência, Sabedoria ou Carisma é seu atributo de conjuração ao conjurar estas magias utilizando este traço (escolha um ao selecionar esta raça).</p>",
+    "en": "<p>Starting at 3rd level, you can cast the disguise self spell with this trait. Starting at 5th level, you can also cast the nondetection spell with it, without requiring a material component. Once you cast either of these spells with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level.</p> <p>Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>"
+   }
+  },
+  {
+   "key": "gnomish-magic-resistance",
+   "name": {
+    "pt": "resistência dos gnomos a magia",
+    "en": "Gnomish Magic Resistance"
+   },
+   "html": {
+    "pt": "<p>Você tem vantagem em todas as salvaguardas de Inteligência, Sabedoria e Carisma contra magias.</p>",
+    "en": "<p>You have advantage on Intelligence, Wisdom, and Charisma saving throws against spells.</p>"
+   }
+  },
+  {
+   "key": "darkvision",
+   "name": {
+    "pt": "visão no escuro",
+    "en": "Darkvision"
+   },
+   "html": {
+    "pt": "<p>Você consegue enxergar até 36 metros na meia-luz como se fosse luz plena e, na escuridão, como se fosse meia-luz. Na escuridão você só consegue discernir tons de cinza.</p>",
+    "en": "<p>You can see in dim light within 120 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>"
+   }
+  }
+ ],
+ "subraces": [],
+ "spells": [
+  {
+   "level": 3,
+   "names_pt": [
+    "disfarçar-se"
+   ],
+   "names_en": [
+    "disguise self"
+   ],
+   "regularity": {
+    "pt": "uma vez por descanso longo (também pode ser conjurada com espaços de magia do círculo apropriado)",
+    "en": "once per long rest (can also be cast using spell slots of the appropriate level)"
+   }
+  },
+  {
+   "level": 5,
+   "names_pt": [
+    "indetectável"
+   ],
+   "names_en": [
+    "nondetection"
+   ],
+   "regularity": {
+    "pt": "uma vez por descanso longo (também pode ser conjurada com espaços de magia do círculo apropriado)",
+    "en": "once per long rest (can also be cast using spell slots of the appropriate level)"
+   }
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "slug": "harengon",
+ "name": {
+  "pt": "laparlonj",
+  "en": "Harengon"
+ },
+ "source": {
+  "pt": {
+   "book": "MPMM",
+   "page": 26
+  },
+  "en": {
+   "book": "MPMM",
+   "page": 22
+  }
+ },
+ "intro_html": {
+  "pt": "<p>Laparlonjs se originaram em Faéria, onde falavam a língua silvestre e incorporavam o espírito das viagens e da liberdade. Com o tempo, esses povo coelho saltou para outros mundos, trazendo a exuberância do reino feérico com eles, e aprendendo novas línguas à medida que seguiam.</p><p>Os laparlonjs são bípedes, com pés longos característicos dos coelhos com os quais se assemelham, e com pelagem em uma variedade de cores. Eles compartilham os sentidos aguçados e as pernas poderosas de lebres e coelhos, e são cheios de energia, como uma mola enrolada. Os laparlonjs são abençoados com um pouco de sorte feérica, e, durante as aventuras, frequentemente se encontram a poucos metros de distância dos perigos.</p>",
+  "en": "<p>Harengons originated in the Feywild, where they spoke Sylvan and embodied the spirit of freedom and travel. In time, these rabbitfolk hopped into other worlds, bringing the fey realm’s exuberance with them and learning new languages as they went.</p><p>Harengons are bipedal, with the characteristic long feet of the rabbits they resemble and fur in a variety of colors. They share the keen senses and powerful legs of leporine creatures and are full of energy, like a wound-up spring. Harengons are blessed with a little fey luck, and they often find themselves a few fortunate feet away from dangers during adventures.</p>"
+ },
+ "traits": [
+  {
+   "key": "creature-type",
+   "name": {
+    "pt": "tipo de Criatura",
+    "en": "Creature Type"
+   },
+   "html": {
+    "pt": "<p>Você é um humanoide.</p>",
+    "en": "<p>You are a Humanoid.</p>"
+   }
+  },
+  {
+   "key": "size",
+   "name": {
+    "pt": "tamanho",
+    "en": "Size"
+   },
+   "html": {
+    "pt": "<p>Você é Médio ou Pequeno. Você escolhe o tamanho ao selecionar esta raça.</p>",
+    "en": "<p>You are Medium or Small. You choose the size when you select this race.</p>"
+   }
+  },
+  {
+   "key": "speed",
+   "name": {
+    "pt": "deslocamento",
+    "en": "Speed"
+   },
+   "html": {
+    "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
+    "en": "<p>Your walking speed is 30 feet.</p>"
+   }
+  },
+  {
+   "key": "hare-trigger",
+   "name": {
+    "pt": "disparo da Lebre",
+    "en": "Hare-Trigger"
+   },
+   "html": {
+    "pt": "<p>Você pode adicionar seu bônus de proficiência à sua iniciativa.</p>",
+    "en": "<p>You can add your proficiency bonus to your initiative rolls.</p>"
+   }
+  },
+  {
+   "key": "leporine-senses",
+   "name": {
+    "pt": "orelhas Compridas",
+    "en": "Leporine Senses"
+   },
+   "html": {
+    "pt": "<p>Você tem proficiência na perícia Percepção.</p>",
+    "en": "<p>You have proficiency in the Perception skill.</p>"
+   }
+  },
+  {
+   "key": "rabbit-hop",
+   "name": {
+    "pt": "salto do Coelho",
+    "en": "Rabbit Hop"
+   },
+   "html": {
+    "pt": "<p>Como uma ação bônus, você pode saltar um número de metros igual a 1,5 vez seu bônus de proficiência, sem provocar ataques de oportunidade. Você só pode usar este traço se seu deslocamento for superior a 0. Você pode usá-lo um número de vezes igual ao seu bônus de proficiência, e recupera todos os usos ao terminar um descanso longo.</p>",
+    "en": "<p>As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>"
+   }
+  },
+  {
+   "key": "lucky-footwork",
+   "name": {
+    "pt": "sorte nos Pés",
+    "en": "Lucky Footwork"
+   },
+   "html": {
+    "pt": "<p>Ao falhar em uma salvaguarda de Destreza, você pode usar sua reação para rolar 1d4 e adicionar o resultado à salvaguarda, potencialmente transformando uma falha em sucesso. Você não pode usar esta reação se estiver caído ou se seu deslocamento for 0.</p>",
+    "en": "<p>When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the save, potentially turning the failure into a success. You can’t use this reaction if you’re prone or your speed is 0.</p>"
+   }
+  }
+ ],
+ "subraces": [],
+ "spells": []
+}

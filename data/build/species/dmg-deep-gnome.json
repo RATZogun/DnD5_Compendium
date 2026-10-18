@@ -1,0 +1,100 @@
+{
+  "slug": "deep-gnome",
+  "name": {
+    "pt": "gnomo das profundezas",
+    "en": "Gnome (Deep)"
+  },
+  "source": {
+    "pt": {
+      "book": "LDM",
+      "page": 282
+    },
+    "en": {
+      "book": "DMG",
+      "page": 282
+    }
+  },
+  "intro_html": {
+    "pt": "",
+    "en": null
+  },
+  "traits": [
+    {
+      "key": "ability-score-increase",
+      "name": {
+        "pt": "aumento no valor de atributo",
+        "en": "Ability Score Increase"
+      },
+      "html": {
+        "pt": "<p>+1 For, +2 Des</p>",
+        "en": null
+      }
+    },
+    {
+      "key": "size",
+      "name": {
+        "pt": "tamanho",
+        "en": "Size"
+      },
+      "html": {
+        "pt": "<p>Pequeno</p>",
+        "en": null
+      }
+    },
+    {
+      "key": "speed",
+      "name": {
+        "pt": "deslocamento",
+        "en": "Speed"
+      },
+      "html": {
+        "pt": "<p>6 m</p>",
+        "en": null
+      }
+    },
+    {
+      "key": "other-traits",
+      "name": {
+        "pt": "outros traços",
+        "en": "Other Traits"
+      },
+      "html": {
+        "pt": "<p>Astúcia de Gnomo, Camuflagem de Pedra, Conjuração Inata; visão no escuro 36 m</p>",
+        "en": "<p><strong><em>Innate Spellcasting.</em></strong> You have an innate ability to cast the following spells, requiring no material components:</p><p>Intelligence is your spellcasting ability for these spells.</p><p><strong><em>Stone Camouflage.</em></strong> You have advantage on Dexterity (Stealth) checks to hide in rocky terrain.</p><p><strong><em>Gnome Cunning.</em></strong> You have advantage on Intelligence, Wisdom, and Charisma saving throws against magic.</p><p><strong><em>Superior Darkvision.</em></strong> Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can&#x27;t discern color in darkness, only shades of gray.</p>"
+      }
+    },
+    {
+      "key": "languages",
+      "name": {
+        "pt": "idiomas",
+        "en": "Languages"
+      },
+      "html": {
+        "pt": "<p>fala Gnômico, Subcomum e Terran</p>",
+        "en": "<p>You can speak, read, and write Gnomish, Terran, and Undercommon.</p>"
+      }
+    }
+  ],
+  "subraces": [],
+  "spells": [
+    {
+      "level": 1,
+      "names_pt": [
+        "indetectável",
+        "cegueira/surdez",
+        "disfarçar-se",
+        "turvar"
+      ],
+      "names_en": [
+        "nondetection",
+        "blindness/deafness",
+        "disguise self",
+        "blur"
+      ],
+      "regularity": {
+        "pt": null,
+        "en": null
+      }
+    }
+  ]
+}

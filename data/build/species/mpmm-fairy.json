@@ -1,0 +1,120 @@
+{
+ "slug": "fairy",
+ "name": {
+  "pt": "fada",
+  "en": "Fairy"
+ },
+ "source": {
+  "pt": {
+   "book": "MPMM",
+   "page": 14
+  },
+  "en": {
+   "book": "MPMM",
+   "page": 14
+  }
+ },
+ "intro_html": {
+  "pt": "<p>A Faéria é lar de muitos povos fantásticos, incluindo as fadas. As fadas são um povo pequenino, mas não tanto quanto seus amigos pixies e sprites. As primeiras fadas falavam Elfico, Goblin ou Silvestre, e os encontros com visitantes humanos levaram muitas delas a aprender também o idioma Comum.</p><p>Infundidas com a magia da Faéria, a maioria das fadas se parece com pequenos elfos com asas de inseto, mas cada fada tem uma característica física especial que a diferencia. Para sua fada, role na tabela Características Feéricas, ou escolha uma opção nela. Você também está livre para criar suas próprias características se nenhuma das sugestões abaixo se encaixar no seu personagem.</p><p><strong>Características Feéricas</strong></p>\n<table><thead><tr><th>d8</th><th>característica</th></tr></thead><tbody><tr><td>1</td><td>Suas asas são como as de um pássaro.</td></tr><tr><td>2</td><td>Você tem a pele brilhante e multicolorida.</td></tr><tr><td>3</td><td>Você tem orelhas especialmente longas.</td></tr><tr><td>4</td><td>Uma névoa cintilante te envolve permanentemente.</td></tr><tr><td>5</td><td>Você tem um pequeno chifre espectral na testa, como um chifrezinho de unicórnio.</td></tr><tr><td>6</td><td>Você tem pernas de inseto.</td></tr><tr><td>7</td><td>Você cheira a brownies frescos.</td></tr><tr><td>8</td><td>Um frio perceptível mas inofensivo te envolve.</td></tr></tbody></table>",
+  "en": "<p>The Feywild is home to many fantastic peoples, including fairies. Fairies are a wee folk, but not nearly as much so as their pixie and sprite friends. The first fairies spoke Elvish, Goblin, or Sylvan, and encounters with human visitors prompted many of them to learn Common as well.</p> <p>Infused with the magic of the Feywild, most fairies look like Small elves with insectile wings, but each fairy has a special physical characteristic that sets the fairy apart. For your fairy, roll on the Fey Characteristics table or choose an option from it. You’re also free to come up with your own characteristic if none of the suggestions below fit your character.</p><p><strong>Fey Characteristics</strong></p><table> <thead> <tr> <th>d8</th> <th>Characteristic</th> </tr> </thead> <tbody> <tr> <td>1</td> <td>Your wings are like those of a bird.</td> </tr> <tr> <td>2</td> <td>You have shimmering, multicolored skin.</td> </tr> <tr> <td>3</td> <td>You have exceptionally large ears.</td> </tr> <tr> <td>4</td> <td>A glittering mist constantly surrounds you.</td> </tr> <tr> <td>5</td> <td>You have a small spectral horn on your forehead, like a little unicorn horn.</td> </tr> <tr> <td>6</td> <td>Your legs are insectile.</td> </tr> <tr> <td>7</td> <td>You smell like fresh brownies.</td> </tr> <tr> <td>8</td> <td>A noticeable, harmless chill surrounds you.</td> </tr> </tbody> </table>"
+ },
+ "traits": [
+  {
+   "key": "creature-type",
+   "name": {
+    "pt": "tipo de criatura",
+    "en": "Creature Type"
+   },
+   "html": {
+    "pt": "<p>Você é um feérico.</p>",
+    "en": "<p>You are a Fey.</p>"
+   }
+  },
+  {
+   "key": "size",
+   "name": {
+    "pt": "tamanho",
+    "en": "Size"
+   },
+   "html": {
+    "pt": "<p>Você é Pequeno.</p>",
+    "en": "<p>You are Small.</p>"
+   }
+  },
+  {
+   "key": "speed",
+   "name": {
+    "pt": "deslocamento",
+    "en": "Speed"
+   },
+   "html": {
+    "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
+    "en": "<p>Your walking speed is 30 feet.</p>"
+   }
+  },
+  {
+   "key": "fairy-magic",
+   "name": {
+    "pt": "magia das fadas",
+    "en": "Fairy Magic"
+   },
+   "html": {
+    "pt": "<p>Você conhece o truque arte druídica.</p><p>A partir do 3º nível, você pode conjurar a magia fogo das fadas usando este traço. A partir do 5º nível, você também pode conjurar a magia aumentar/reduzir usando este traço. Uma vez que conjurar fogo das fadas ou aumentar/reduzir usando este traço, você não poderá conjurar essa magia novamente até terminar um descanso longo. Você também pode conjurar essas magias usando quaisquer espaços de magia que tiver do círculo apropriado.</p><p>Inteligência, Sabedoria ou Carisma é seu atributo de conjuração ao conjurar estas magias utilizando este traço (escolha um ao selecionar esta raça).</p>",
+    "en": "<p>You know the druidcraft cantrip.</p> <p>Starting at 3rd level, you can cast the faerie fire spell with this trait. Starting at 5th level, you can also cast the enlarge/reduce spell with this trait. Once you cast faerie fire or enlarge/reduce with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p> <p>Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>"
+   }
+  },
+  {
+   "key": "flight",
+   "name": {
+    "pt": "voo",
+    "en": "Flight"
+   },
+   "html": {
+    "pt": "<p>Devido às suas asas, você tem deslocamento de voo equivalente ao seu deslocamento de caminhada. Você não pode usar esse deslocamento de voo se estiver usando uma armadura média ou pesada.</p>",
+    "en": "<p>Because of your wings, you have a flying speed equal to your walking speed. You can’t use this flying speed if you’re wearing medium or heavy armor.</p>"
+   }
+  }
+ ],
+ "subraces": [],
+ "spells": [
+  {
+   "level": 1,
+   "names_pt": [
+    "arte druídica"
+   ],
+   "names_en": [
+    "druidcraft"
+   ],
+   "regularity": {
+    "pt": "truque",
+    "en": "cantrip"
+   }
+  },
+  {
+   "level": 3,
+   "names_pt": [
+    "fogo das fadas"
+   ],
+   "names_en": [
+    "faerie fire"
+   ],
+   "regularity": {
+    "pt": "uma vez por descanso longo (também pode ser conjurada com espaços de magia do círculo apropriado)",
+    "en": "once per long rest (can also be cast using spell slots of the appropriate level)"
+   }
+  },
+  {
+   "level": 5,
+   "names_pt": [
+    "aumentar/reduzir"
+   ],
+   "names_en": [
+    "enlarge/reduce"
+   ],
+   "regularity": {
+    "pt": "uma vez por descanso longo (também pode ser conjurada com espaços de magia do círculo apropriado)",
+    "en": "once per long rest (can also be cast using spell slots of the appropriate level)"
+   }
+  }
+ ]
+}

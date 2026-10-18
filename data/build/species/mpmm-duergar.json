@@ -1,0 +1,129 @@
+{
+ "slug": "duergar",
+ "name": {
+  "pt": "duergar",
+  "en": "Duergar"
+ },
+ "source": {
+  "pt": {
+   "book": "MPMM",
+   "page": 10
+  },
+  "en": {
+   "book": "MPMM",
+   "page": 12
+  }
+ },
+ "intro_html": {
+  "pt": "<p>Duergars são anões cujos antepassados foram transformados após anos morando nos lugares mais profundos do Subterrâneo. Esse reino ctônico é saturado de uma estranha energia mágica e, ao longo das gerações, os primeiros duergar absorveram traços dela. Eles foram alterados ainda mais quando devoradores de mentes e outras aberrações invadiram a região, realizando neles experiências horríveis. Alimentados pela magia do Subterrâneo, esses experimentos deram aos primeiros duergar poderes psiônicos, que foram passados para seus descendentes. Com o tempo, eles se libertaram de seus tiranos aberrantes, e forjaram uma nova vida no Subterrâneo e além.</p><p>Como outros anões, os duergar normalmente têm expectativa de vida de 350 anos.</p>",
+  "en": "<p>Duergar are dwarves whose ancestors were transformed by centuries living in the deepest places of the Underdark. That chthonic realm is saturated with strange magical energy, and over generations, early duergar absorbed traces of it. They were further altered when mind flayers and other Aberrations invaded and performed horrific experiments on them. Fueled by Underdark magic, those experiments left early duergar with psionic powers, which have been passed down to their descendants. In time, they liberated themselves from their aberrant tyrants and forged a new life for themselves in the Underdark and beyond.</p> <p>Like other dwarves, duergar typically have a life span of 350 years.</p>"
+ },
+ "traits": [
+  {
+   "key": "creature-type",
+   "name": {
+    "pt": "tipo de criatura",
+    "en": "Creature Type"
+   },
+   "html": {
+    "pt": "<p>Você é um humanoide. Você também é considerado um anão para qualquer pré-requisito ou efeito que requeira que você seja um anão.</p>",
+    "en": "<p>You are a Humanoid. You are also considered a dwarf for any prerequisite or effect that requires you to be a dwarf.</p>"
+   }
+  },
+  {
+   "key": "size",
+   "name": {
+    "pt": "tamanho",
+    "en": "Size"
+   },
+   "html": {
+    "pt": "<p>Você é Médio.</p>",
+    "en": "<p>You are Medium.</p>"
+   }
+  },
+  {
+   "key": "speed",
+   "name": {
+    "pt": "deslocamento",
+    "en": "Speed"
+   },
+   "html": {
+    "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
+    "en": "<p>Your walking speed is 30 feet.</p>"
+   }
+  },
+  {
+   "key": "psionic-fortitude",
+   "name": {
+    "pt": "fortitude psiônica",
+    "en": "Psionic Fortitude"
+   },
+   "html": {
+    "pt": "<p>Você tem vantagem em salvaguardas para evitar ou encerrar as condições encantado ou atordoado em si mesmo.</p>",
+    "en": "<p>You have advantage on saving throws you make to avoid or end the charmed or stunned condition on yourself.</p>"
+   }
+  },
+  {
+   "key": "duergar-magic",
+   "name": {
+    "pt": "magia dos duergar",
+    "en": "Duergar Magic"
+   },
+   "html": {
+    "pt": "<p>A partir do 3º nível, você pode conjurar a magia aumentar/reduzir usando este traço, sem exigir componente material. A partir do 5º nível, você também pode conjurar a magia invisibilidade usando este traço, sem exigir componente material. Uma vez que conjurar uma dessas magias com esse traço, você não poderá conjurar essa magia novamente até terminar um descanso longo. Você também pode conjurar essas magias usando quaisquer espaços de magia que tiver do círculo apropriado.</p><p>Inteligência, Sabedoria ou Carisma é seu atributo de conjuração ao conjurar estas magias utilizando este traço (escolha um ao selecionar esta raça).</p>",
+    "en": "<p>Starting at 3rd level, you can cast the enlarge/reduce spell on yourself with this trait, without requiring a material component. Starting at 5th level, you can also cast the invisibility spell on yourself with this trait, without requiring a material component. Once you cast either of these spells with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level.</p> <p>Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>"
+   }
+  },
+  {
+   "key": "dwarven-resilience",
+   "name": {
+    "pt": "resistência a toxinas",
+    "en": "Dwarven Resilience"
+   },
+   "html": {
+    "pt": "<p>Você tem vantagem em salvaguardas para evitar ou encerrar a condição envenenado em si mesmo. Você também tem resistência a dano venenoso.</p>",
+    "en": "<p>You have advantage on saving throws you make to avoid or end the poisoned condition on yourself. You also have resistance to poison damage.</p>"
+   }
+  },
+  {
+   "key": "darkvision",
+   "name": {
+    "pt": "visão no escuro",
+    "en": "Darkvision"
+   },
+   "html": {
+    "pt": "<p>Você consegue enxergar até 36 metros na meia-luz como se fosse luz plena e, na escuridão, como se fosse meia-luz. Na escuridão você só consegue discernir tons de cinza.</p>",
+    "en": "<p>You can see in dim light within 120 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>"
+   }
+  }
+ ],
+ "subraces": [],
+ "spells": [
+  {
+   "level": 3,
+   "names_pt": [
+    "aumentar/reduzir"
+   ],
+   "names_en": [
+    "enlarge/reduce"
+   ],
+   "regularity": {
+    "pt": "uma vez por descanso longo (também pode ser conjurada com espaços de magia do círculo apropriado)",
+    "en": "once per long rest (can also be cast using spell slots of the appropriate level)"
+   }
+  },
+  {
+   "level": 5,
+   "names_pt": [
+    "invisibilidade"
+   ],
+   "names_en": [
+    "invisibility"
+   ],
+   "regularity": {
+    "pt": "uma vez por descanso longo (também pode ser conjurada com espaços de magia do círculo apropriado)",
+    "en": "once per long rest (can also be cast using spell slots of the appropriate level)"
+   }
+  }
+ ]
+}

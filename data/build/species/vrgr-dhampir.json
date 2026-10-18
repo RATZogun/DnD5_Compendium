@@ -1,0 +1,113 @@
+{
+  "slug": "dhampir",
+  "name": {
+    "pt": "dampir",
+    "en": "Dhampir"
+  },
+  "source": {
+    "pt": {
+      "book": "GVRR",
+      "page": 16
+    },
+    "en": {
+      "book": "VRGR",
+      "page": 16
+    }
+  },
+  "intro_html": {
+    "pt": "<p>Equilibrado entre os mundos dos vivos e dos mortos, dampires mantém-se presos à vida ainda que sejam testados sem fim por apetites perversos. Seus laços com os mortos-vivos concedem aos dampires uma amostra das proezas imortais dos vampiros sob a forma de deslocamento aumentado, visão no escuro e mordida que drena a vida.</p><p>Com perspectivas únicas sobre a natureza dos mortos-vivos, muitos dampires se tornam aventureiros e caçadores de monstros. Suas razões são muitas vezes profundamente pessoais. Alguns procuram perigo, imaginando monstros como personificações de sua própria fome. Outros buscam vingança contra o que quer que os tenha transformado em um dampir. E outros ainda abraçam a solidão da caçada, forçando-se a se distanciarem daqueles que tentam sua fome.</p><p><strong>Fomes de dampir</strong></p><p>Cada dampir conhece uma sede aplacada apenas pelos vivos. Aqueles que cedem a sua sede arriscam perder o controle e ver os outros como presas para sempre. Aqueles que resistem podem encontrar meios excepcionais para controlar ou suprimir seus impulsos por meio de uma contenção constante que os faz ranger os dentes. Em qualquer caso, a tentação assombra os dampires e as circunstâncias conspiram para lhes dar razões sem fim para ceder.</p><p>Embora a sede de muitos dampires seja por sangue, seu personagem pode obter sustento dos vivos de outra forma. Jogue os dados ou escolha uma opção da tabela Fomes de Dampir para determinar o que tenta seu personagem a se alimentar.</p><table><thead><tr><th>d6</th><th>Fome</th></tr></thead><tbody><tr><td>1</td><td>Sangue</td></tr><tr><td>2</td><td>Carne humana ou carne crua</td></tr><tr><td>3</td><td>Fluido cerebral espinhal</td></tr><tr><td>4</td><td>Energia psíquica</td></tr><tr><td>5</td><td>Sonhos</td></tr><tr><td>6</td><td>Energia vital</td></tr></tbody></table><p><strong>Origens de dampir</strong></p><p>Dampires muitas vezes surgem de encontros com vampiros, mas todas as formas de barganhas macabras, influências necromânticas e encontros com imortais misteriosos podem ter transformado seu personagem. A tabela Origens de Dampir fornece sugestões de como seu personagem adquiriu sua linhagem.</p><table><thead><tr><th>d8</th><th>Origem</th></tr></thead><tbody><tr><td>1</td><td>Você é a reencarnação de um ancestral que foi um tirano vampírico.</td></tr><tr><td>2</td><td>Seu pacto com uma divindade predadora, um ínfero, um feérico ou um espírito o faz compartilhar sua fome.</td></tr><tr><td>3</td><td>Você sobreviveu ao ataque de um vampiro mas mudou para sempre.</td></tr><tr><td>4</td><td>Um parasita vive dentro de você. Você satisfaz a fome dele.</td></tr><tr><td>5</td><td>Tragédia interrompeu sua transformação em um imortal.</td></tr><tr><td>6</td><td>Você é uma forma menor de um ser de outro mundo. Saciar sua fome acelera sua renovação.</td></tr><tr><td>7</td><td>Um de seus pais era um vampiro.</td></tr><tr><td>8</td><td>Um experimento radical mudou seu corpo, tornando-o dependente dos fluidos vitais dos outros.</td></tr></tbody></table><p><strong>Dampires nos Domínios do Pavor</strong></p><p>Ao criar um dampir, pergunte ao seu DM se faz sentido para seu personagem ter laços com um dos seguintes Domínios do Pavor (detalhados no capítulo 3):</p><p><strong>Baróvia.</strong> À sombra do Castelo Ravenloft, fábulas florescem sobre aqueles que amam ou descendem dos vampiros. Você pode ter tal conexão, mas tem medo do que aconteceriam se outros de sua comunidade insular descobrissem.</p><p><strong>Darkon.</strong> A Kargat, a polícia secreta desse domínio estilhaçado, supostamente sabe o segredo da imortalidade. Talvez você tenha se juntado e avançado através de suas fileiras mais baixas, conhecidas como Kargatane, e foi recompensado sendo transformado em um dampir.</p><p><strong>I'Cath.</strong> À noite, a cidade faminta de I'Cath é inundada por jiangshi vampíricos (descrita no capítulo 5). Você foi deixado com uma fome gelada após um encontro com um desses antecessores inquietos.</p>",
+    "en": "<p>Poised between the worlds of the living and the dead, dhampirs retain their grip on life yet are endlessly tested by vicious hungers. Their ties to the undead grant dhampirs a taste of a vampire’s deathless prowess in the form of increased speed, darkvision, and a life-draining bite.</p><p>With unique insights into the nature of the undead, many dhampirs become adventurers and monster hunters. Their reasons are often deeply personal. Some seek danger, imagining monsters as personifications of their own hungers. Others pursue revenge against whatever turned them into a dhampir. And still others embrace the solitude of the hunt, striving to distance themselves from those who’d tempt their hunger.</p><p><strong>Dhampir Hungers</strong></p><p>Every dhampir knows a thirst slaked only by the living. Those who overindulge their thirst risk losing control and forever viewing others as prey. Those who resist might find exceptional ways of controlling their urges or suppress them through constant, molar-grinding restraint. In any case, temptation haunts dhampirs, and circumstances conspire to give them endless reasons to indulge.</p><p>While many dhampirs thirst for blood, your character might otherwise gain sustenance from the living. Roll on or choose an option from the Dhampir Hungers table to determine what tempts your character to feed.</p><table><thead><tr><th>d6</th><th>Hunger</th></tr></thead><tbody><tr><td>1</td><td>Blood</td></tr><tr><td>2</td><td>Flesh or raw meat</td></tr><tr><td>3</td><td>Cerebral spinal fluid</td></tr><tr><td>4</td><td>Psychic energy</td></tr><tr><td>5</td><td>Dreams</td></tr><tr><td>6</td><td>Life energy</td></tr></tbody></table><p><strong>Dhampir Origins</strong></p><p>Dhampirs often arise from encounters with vampires, but all manner of macabre bargains, necromantic influences, and encounters with mysterious immortals might have transformed your character. The Dhampir Origins table provides suggestions for how your character gained their lineage.</p><table><thead><tr><th>d8</th><th>Origin</th></tr></thead><tbody><tr><td>1</td><td>You are the reincarnation of an ancestor who was a vampiric tyrant.</td></tr><tr><td>2</td><td>Your pact with a predatory deity, fiend, fey, or spirit causes you to share their hunger.</td></tr><tr><td>3</td><td>You survived being attacked by a vampire but were forever changed.</td></tr><tr><td>4</td><td>A parasite lives inside you. You indulge its hunger.</td></tr><tr><td>5</td><td>Tragedy interrupted your transformation into an immortal.</td></tr><tr><td>6</td><td>You are a diminished form of an otherworldly being. Slaking your hunger hastens your renewal.</td></tr><tr><td>7</td><td>One of your parents was a vampire.</td></tr><tr><td>8</td><td>A radical experiment changed your body, making you reliant on others for vital fluids.</td></tr></tbody></table><p><strong>Dhampirs in the Domains of Dread</strong></p><p>When creating a dhampir, ask your DM if it makes sense for your character to have ties to one of the following Domains of Dread (detailed in <em>Van Richten’s Guide to Ravenloft</em>):</p><p><strong>Barovia.</strong> In the shadow of Castle Ravenloft, tales flourish of those who love or descend from vampires. You might have such a connection, but dread what would happen if others in your insular community found out.</p><p><strong>Darkon.</strong> The Kargat, this shattered domain’s secret police, supposedly know the secret of immortality. Perhaps you joined and advanced through their lesser ranks, known as the Kargatane, and were rewarded by being transformed into a dhampir.</p><p><strong>I’Cath.</strong> At night, the starving city of I’Cath is overrun by vampiric jiangshi (described in chapter 5 of <em>Van Richten’s Guide to Ravenloft</em>). You were left with a cold hunger after an encounter with one of these unquiet ancestors.</p>"
+  },
+  "traits": [
+    {
+      "key": "creature-type",
+      "name": {
+        "pt": "tipo de criatura",
+        "en": "Creature Type"
+      },
+      "html": {
+        "pt": "<p>Você é um humanoide.</p>",
+        "en": "<p>You are a Humanoid.</p>"
+      }
+    },
+    {
+      "key": "size",
+      "name": {
+        "pt": "tamanho",
+        "en": "Size"
+      },
+      "html": {
+        "pt": "<p>Você é Médio ou Pequeno. Você escolhe o tamanho ao ganhar essa linhagem.</p>",
+        "en": "<p>You are Medium or Small. You choose the size when you gain this lineage.</p>"
+      }
+    },
+    {
+      "key": "speed",
+      "name": {
+        "pt": "deslocamento",
+        "en": "Speed"
+      },
+      "html": {
+        "pt": "<p>Seu deslocamento de caminhada básico é de 10,5 metros.</p>",
+        "en": "<p>Your walking speed is 35 feet.</p>"
+      }
+    },
+    {
+      "key": "ancestral-legacy",
+      "name": {
+        "pt": "legado ancestral",
+        "en": "Ancestral Legacy"
+      },
+      "html": {
+        "pt": "<p>Se você substituir uma raça por essa linhagem, você pode manter os seguintes elementos da raça: quaisquer proficiências de perícia que tenha ganhado dela e qualquer deslocamento de escalada, voo ou natação que tenha ganhado dela.</p><p>Se você não mantiver qualquer um desses elementos ou escolher essa linhagem na criação do personagem, você ganha proficiência em duas perícias à sua escolha.</p>",
+        "en": "<p>If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.</p><p>If you don’t keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice.</p>"
+      }
+    },
+    {
+      "key": "darkvision",
+      "name": {
+        "pt": "visão no escuro",
+        "en": "Darkvision"
+      },
+      "html": {
+        "pt": "<p>Você pode ver à meia-luz a até 18 metros como se fosse luz plena e na escuridão como se estivesse à meia-luz. Você discerne cores na escuridão apenas como tons de cinza.</p>",
+        "en": "<p>You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray.</p>"
+      }
+    },
+    {
+      "key": "deathless-nature",
+      "name": {
+        "pt": "natureza imortal",
+        "en": "Deathless Nature"
+      },
+      "html": {
+        "pt": "<p>Você não precisa respirar.</p>",
+        "en": "<p>You don’t need to breathe.</p>"
+      }
+    },
+    {
+      "key": "spider-climb",
+      "name": {
+        "pt": "escalada de aranha",
+        "en": "Spider Climb"
+      },
+      "html": {
+        "pt": "<p>Você tem deslocamento de escalada igual ao seu deslocamento de caminhada. Além disso, no 3º nível, você pode se mover em superfícies verticais para cima, para baixo, na diagonal e de cabeça para baixo em tetos, desde que suas mãos estejam livres.</p>",
+        "en": "<p>You have a climbing speed equal to your walking speed. In addition, at 3rd level, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.</p>"
+      }
+    },
+    {
+      "key": "vampiric-bite",
+      "name": {
+        "pt": "mordida vampírica",
+        "en": "Vampiric Bite"
+      },
+      "html": {
+        "pt": "<p>Sua mordida com presas é uma arma natural, que conta como uma arma de combate corpo a corpo simples com a qual você é proficiente. Você adiciona seu modificador de Constituição, ao invés de seu modificador de Força, às jogadas de ataque e dano ao atacar com essa mordida. Ela causa 1d4 pontos de dano perfurante em caso de acerto. Ao perder metade ou mais dos seus pontos de vida, você ganha vantagem nas jogadas de ataque que fizer com essa mordida.</p><p>Ao atacar com essa mordida e acertar uma criatura, que não seja um constructo ou morto-vivo, você pode se empoderar de uma das seguintes formas à sua escolha:</p><ul><li>Você recupera pontos de vida igual ao dano perfurante causado pela mordida.</li><li>Você ganha um bônus em seu próximo teste de atributo ou na próxima jogada de ataque que fizer. O bônus é igual ao dano perfurante causado pela mordida.</li></ul><p>Você pode se empoderar com essa mordida um número de vezes igual a seu bônus de proficiência e recupera todos os usos gastos ao terminar um descanso longo.</p>",
+        "en": "<p>Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals 1d4 piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite.</p><p>When you attack with this bite and hit a creature that isn’t a Construct or an Undead, you can empower yourself in one of the following ways of your choice:</p><ul><li>You regain hit points equal to the piercing damage dealt by the bite.</li><li>You gain a bonus to the next ability check or attack roll you make; the bonus equals the piercing damage dealt by the bite</li></ul><p>You can empower yourself with this bite a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>"
+      }
+    }
+  ],
+  "subraces": [],
+  "spells": []
+}

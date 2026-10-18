@@ -1,0 +1,91 @@
+{
+ "slug": "goliath",
+ "name": {
+  "pt": "golias",
+  "en": "Goliath"
+ },
+ "source": {
+  "pt": {
+   "book": "MPMM",
+   "page": 22
+  },
+  "en": {
+   "book": "MPMM",
+   "page": 21
+  }
+ },
+ "intro_html": {
+  "pt": "<p>Os primeiros golias viviam nos picos mais altos das montanhas — muito acima das copas das árvores, onde o ar é rarefeito e ventos frígidos uivam. Parentes distantes dos gigantes, e infundidos com a essência sobrenatural do lar montanhoso de seus ancestrais, os golias têm entre 2,1 e 2,5 metros de altura e uma ampla gama de tons de pele que lembram diferentes tipos de pedra.</p>",
+  "en": "<p>The first goliaths lived on the highest mountain peaks—far above the tree line, where the air is thin and frigid winds howl. Distantly related to giants and infused with the supernatural essence of their ancestors’ mountainous home, goliaths stand between 7 and 8 feet tall and have a wide array of skin tones resembling different types of stone.</p>"
+ },
+ "traits": [
+  {
+   "key": "creature-type",
+   "name": {
+    "pt": "tipo de criatura",
+    "en": "Creature Type"
+   },
+   "html": {
+    "pt": "<p>Você é um humanoide.</p>",
+    "en": "<p>You are a Humanoid.</p>"
+   }
+  },
+  {
+   "key": "size",
+   "name": {
+    "pt": "tamanho",
+    "en": "Size"
+   },
+   "html": {
+    "pt": "<p>Você é Médio.</p>",
+    "en": "<p>You are Medium.</p>"
+   }
+  },
+  {
+   "key": "speed",
+   "name": {
+    "pt": "deslocamento",
+    "en": "Speed"
+   },
+   "html": {
+    "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
+    "en": "<p>Your walking speed is 30 feet.</p>"
+   }
+  },
+  {
+   "key": "stones-endurance",
+   "name": {
+    "pt": "duro como pedra",
+    "en": "Stone’s Endurance"
+   },
+   "html": {
+    "pt": "<p>Você pode se beneficiar da firmeza das pedras para evitar dano. Quando você sofre dano, você pode usar sua reação para rolar 1d12. Adicione seu modificador de Constituição ao número rolado e reduza do dano total.</p><p>Você pode usar este traço um número de vezes igual ao seu bônus de proficiência, e recupera todos os usos ao terminar um descanso longo.</p>",
+    "en": "<p>You can supernaturally draw on unyielding stone to shrug off harm. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.</p> <p>You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>"
+   }
+  },
+  {
+   "key": "mountain-born",
+   "name": {
+    "pt": "nascido nas montanha",
+    "en": "Mountain Born"
+   },
+   "html": {
+    "pt": "<p>Você tem resistência a dano gélido. Ainda, você se aclimata naturalmente a grandes altitudes, mesmo que nunca tenha vivenciado uma. Isso inclui elevações acima de 6.000 metros.</p>",
+    "en": "<p>You have resistance to cold damage. You also naturally acclimate to high altitudes, even if you’ve never been to one. This includes elevations above 20,000 feet.</p>"
+   }
+  },
+  {
+   "key": "little-giant",
+   "name": {
+    "pt": "pequeno gigante",
+    "en": "Little Giant"
+   },
+   "html": {
+    "pt": "<p>Você tem proficiência na perícia Atletismo e é considerado como uma categoria de tamanho acima ao determinar sua capacidade de carga e o peso que pode empurrar, arrastar e levantar.</p>",
+    "en": "<p>You have proficiency in the Athletics skill, and you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>"
+   }
+  }
+ ],
+ "subraces": [],
+ "spells": []
+}

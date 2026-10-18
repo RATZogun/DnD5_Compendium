@@ -1,0 +1,131 @@
+{
+ "slug": "githzerai",
+ "name": {
+  "pt": "githzerai",
+  "en": "Githzerai"
+ },
+ "source": {
+  "pt": {
+   "book": "MPMM",
+   "page": 19
+  },
+  "en": {
+   "book": "MPMM",
+   "page": 19
+  }
+ },
+ "intro_html": {
+  "pt": "<p>Os githzerai migraram para o Caos Eternamente Mutável do Limbo após a antiga ruptura que separou seus ancestrais de seus primos, os githyanki. O Limbo é um sorvedouro turbulento de matéria e energia, desmoronando e se reformulando sem propósito ou direção, até que uma criatura exerça um esforço deliberado para estabilizá-lo. Por meio de seu potente poder psiônico, os githzerai construíram um lar para si em meio ao caos. Com o passar dos anos, os exploradores githzerai se espalharam por outros planos e mundos do multiverso.</p><p>Os githzerai são geralmente esguios, com a pele salpicada em tons de amarelo, verde ou marrom. Eras cultivando seus poderes mentais dentro do caos eterno do Limbo infundiram os githzerai com a habilidade de moldar a energia psiônica para se proteger e sondar mentes.</p>",
+  "en": "<p>Githzerai migrated to the Everchanging Chaos of Limbo after the ancient schism that split their ancestors from their cousins, githyanki. Limbo is a roiling maelstrom of matter and energy, collapsing and reforming without purpose or direction, until a creature exerts deliberate will to stabilize it. Through their potent psionic power, githzerai carved a home for themselves amid the chaos. As the ages passed, githzerai explorers ranged out to other planes and worlds of the multiverse.</p> <p>Githzerai are generally slender, with speckled skin in shades of yellow, green, or brown. Eons of cultivating their mental powers within the endless chaos of Limbo have imbued githzerai with the ability to shape psionic energy to protect themselves and probe minds.</p>"
+ },
+ "traits": [
+  {
+   "key": "creature-type",
+   "name": {
+    "pt": "tipo de criatura",
+    "en": "Creature Type"
+   },
+   "html": {
+    "pt": "<p>Você é um humanoide.</p>",
+    "en": "<p>You are a Humanoid.</p>"
+   }
+  },
+  {
+   "key": "size",
+   "name": {
+    "pt": "tamanho",
+    "en": "Size"
+   },
+   "html": {
+    "pt": "<p>Você é Médio.</p>",
+    "en": "<p>You are Medium.</p>"
+   }
+  },
+  {
+   "key": "speed",
+   "name": {
+    "pt": "deslocamento",
+    "en": "Speed"
+   },
+   "html": {
+    "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
+    "en": "<p>Your walking speed is 30 feet.</p>"
+   }
+  },
+  {
+   "key": "mental-discipline",
+   "name": {
+    "pt": "disciplina mental",
+    "en": "Mental Discipline"
+   },
+   "html": {
+    "pt": "<p>Suas defesas psíquicas inatas concedem vantagem em salvaguardas para evitar ou encerrar as condições enfeitiçado e amedrontado em si mesmo.</p>",
+    "en": "<p>Your innate psychic defenses grant you advantage on saving throws you make to avoid or end the charmed and frightened conditions on yourself.</p>"
+   }
+  },
+  {
+   "key": "githzerai-psionics",
+   "name": {
+    "pt": "psionismo githzerai",
+    "en": "Githzerai Psionics"
+   },
+   "html": {
+    "pt": "<p>Você conhece o truque mãos mágicas e, quando conjura o truque usando este traço, a mão é invisível.</p><p>A partir do 3º nível, você pode conjurar a magia égide usando este traço. A partir do 5º nível, você também pode conjurar a magia detectar pensamentos usando este traço. Uma vez que você conjurar escudo ou detectar pensamentos usando este traço, você não poderá conjurar essa magia novamente até terminar um descanso longo. Você também pode conjurar essas magias usando quaisquer espaços de magia que tiver do círculo apropriado.</p><p>Inteligência, Sabedoria ou Carisma é seu atributo de conjuração ao conjurar estas magias utilizando este traço (escolha um ao selecionar esta raça). Nenhuma dessas magias requer componentes materiais quando conjurada usando este traço.</p>",
+    "en": "<p>You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait.</p> <p>Starting at 3rd level, you can cast the shield spell with this trait. Starting at 5th level, you can also cast the detect thoughts spell with it. Once you cast shield or detect thoughts with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p> <p>Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race). None of these spells require spell components when you cast them with this trait.</p>"
+   }
+  },
+  {
+   "key": "psychic-resilience",
+   "name": {
+    "pt": "resiliência psíquica",
+    "en": "Psychic Resilience"
+   },
+   "html": {
+    "pt": "<p>Você tem resistência a dano psíquico.</p>",
+    "en": "<p>You have resistance to psychic damage.</p>"
+   }
+  }
+ ],
+ "subraces": [],
+ "spells": [
+  {
+   "level": 1,
+   "names_pt": [
+    "mãos mágicas"
+   ],
+   "names_en": [
+    "mage hand"
+   ],
+   "regularity": {
+    "pt": "truque (a mão é invisível)",
+    "en": "cantrip (the hand is invisible)"
+   }
+  },
+  {
+   "level": 3,
+   "names_pt": [
+    "égide"
+   ],
+   "names_en": [
+    "shield"
+   ],
+   "regularity": {
+    "pt": "uma vez por descanso longo (também pode ser conjurada com espaços de magia do círculo apropriado)",
+    "en": "once per long rest (can also be cast using spell slots of the appropriate level)"
+   }
+  },
+  {
+   "level": 5,
+   "names_pt": [
+    "detectar pensamentos"
+   ],
+   "names_en": [
+    "detect thoughts"
+   ],
+   "regularity": {
+    "pt": "uma vez por descanso longo (também pode ser conjurada com espaços de magia do círculo apropriado)",
+    "en": "once per long rest (can also be cast using spell slots of the appropriate level)"
+   }
+  }
+ ]
+}

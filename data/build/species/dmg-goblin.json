@@ -1,0 +1,69 @@
+{
+  "slug": "goblin",
+  "name": {
+    "pt": "goblin",
+    "en": "Goblin"
+  },
+  "source": {
+    "pt": {
+      "book": "LDM",
+      "page": 282
+    },
+    "en": {
+      "book": "DMG",
+      "page": 282
+    }
+  },
+  "intro_html": {
+    "pt": "",
+    "en": null
+  },
+  "traits": [
+    {
+      "key": "ability-score-increase",
+      "name": {
+        "pt": "aumento no valor de atributo",
+        "en": "Ability Score Increase"
+      },
+      "html": {
+        "pt": "<p>-2 For, +2 Des</p>",
+        "en": null
+      }
+    },
+    {
+      "key": "size",
+      "name": {
+        "pt": "tamanho",
+        "en": "Size"
+      },
+      "html": {
+        "pt": "<p>Pequeno</p>",
+        "en": null
+      }
+    },
+    {
+      "key": "other-traits",
+      "name": {
+        "pt": "outros traços",
+        "en": "Other Traits"
+      },
+      "html": {
+        "pt": "<p>Escapada Ágil; visão no escuro 18 m</p>",
+        "en": "<p><strong><em>Nimble Escape.</em></strong> You can take the Disengage or Hide action as a bonus action on each of your turns.</p><p><strong><em>Darkvision.</em></strong> Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can&#x27;t discern color in darkness, only shades of gray.</p>"
+      }
+    },
+    {
+      "key": "languages",
+      "name": {
+        "pt": "idiomas",
+        "en": "Languages"
+      },
+      "html": {
+        "pt": "<p>fala Comum e Goblin</p>",
+        "en": "<p>You can speak, read, and write Common and Goblin.</p>"
+      }
+    }
+  ],
+  "subraces": [],
+  "spells": []
+}

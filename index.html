@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>D&amp;D5</title>
+    <meta name="description" content="Magias, classes e espécies de D&amp;D 5e, com filtros e gerador de pergaminho." />
+    <meta name="theme-color" content="#3F51B5" />
+    <script>
+      // Aplica o tema antes do primeiro paint para não piscar.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem('theme');
+        } catch (e) {}
+        if (theme !== 'light' && theme !== 'dark')
+          theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/classes.css" />
+    <link rel="stylesheet" href="css/scroll.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📜</text></svg>"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container">
+        <a class="brand" href="#/magias">D&amp;D5</a>
+        <ul class="nav-links">
+          <li><a href="#/especies" data-nav="races" data-i18n="nav.races">Espécies</a></li>
+          <li><a href="#/classes" data-nav="klasses" data-i18n="nav.classes">Classes</a></li>
+          <li><a href="#/magias" data-nav="spells" data-i18n="nav.spells">Magias</a></li>
+          <li><a href="#/pergaminho" data-nav="scroll" data-i18n="nav.scroll">Gerar Pergaminho</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button type="button" class="icon-btn lang-toggle"></button>
+          <button type="button" class="icon-btn theme-toggle"></button>
+          <button type="button" class="icon-btn nav-toggle" aria-expanded="false">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+              <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" fill="none" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="app" class="container" tabindex="-1"></main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p data-i18n="footer.srd"></p>
+        <p data-i18n="footer.fan"></p>
+      </div>
+    </footer>
+
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
