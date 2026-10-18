@@ -68,7 +68,7 @@ function updateChrome() {
   themeBtn.setAttribute('aria-label', t(dark ? 'theme.toLight' : 'theme.toDark'));
   themeBtn.title = themeBtn.getAttribute('aria-label');
 
-  langBtn.innerHTML = getLang() === 'pt' ? ICONS.us : ICONS.br;
+  langBtn.innerHTML = getLang() === 'pt' ? ICONS.br : ICONS.us;
   langBtn.setAttribute('aria-label', t('lang.switch'));
   langBtn.title = t('lang.switch');
 
