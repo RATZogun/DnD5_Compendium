@@ -1,142 +1,130 @@
 {
- "slug": "yuan-ti",
- "name": {
-  "pt": "yuan-ti",
-  "en": "Yuan-Ti"
- },
- "source": {
-  "pt": {
-   "book": "MPMM",
-   "page": 36
+  "slug": "yuan-ti",
+  "name": {
+    "pt": "yuan-ti",
+    "en": "Yuan-Ti"
   },
-  "en": {
-   "book": "MPMM",
-   "page": 36
-  }
- },
- "intro_html": {
-  "pt": "<p>Yuan-tis eram inicialmente humanos que se transformaram em um povo serpente através de rituais ancestrais. A maioria dos yuan-ti foi corrompida por esses rituais, se tornando monstros, mas alguns yuan-ti se tornaram um novo povo, que mistura características de humanos e cobras.</p><p>Abençoados com resistência a efeitos mágicos e venenosos pelos rituais que os criaram, cada yuan-ti manifesta sua herança ofídica de diferentes maneiras: língua bifurcada, olhos de cobra, nariz semelhante ao de uma serpente ou outra características ofídicas. Qualquer que seja a aparência de um yuan-ti, eles têm o poder de buscar o bem ou o mal no multiverso.</p>",
-  "en": "<p>Yuan-ti were originally humans who transformed themselves into serpent folk through ancient rituals. Most yuan-ti were corrupted into monsters by those rites, but some yuan-ti instead became a new people who mix characteristics of humans and snakes.</p><p>Blessed with resistance to magical and poisonous effects by the rituals that created them, each of these yuan-ti manifests their serpentine heritage in a variety of ways: a forked tongue, snake eyes, a snakelike nose, or some other ophidian characteristic. However a yuan-ti looks, they have the power to pursue great good or evil in the multiverse.</p>"
- },
- "traits": [
-  {
-   "key": "creature-type",
-   "name": {
-    "pt": "tipo de Criatura",
-    "en": "Creature Type"
-   },
-   "html": {
-    "pt": "<p>Você é um humanoide.</p>",
-    "en": "<p>You are a Humanoid.</p>"
-   }
+  "source": {
+    "pt": {
+      "book": "MPMM",
+      "page": 36
+    },
+    "en": {
+      "book": "MPMM",
+      "page": 36
+    }
   },
-  {
-   "key": "size",
-   "name": {
-    "pt": "tamanho",
-    "en": "Size"
-   },
-   "html": {
-    "pt": "<p>Você é Médio ou Pequeno. Você escolhe o tamanho ao selecionar esta raça.</p>",
-    "en": "<p>You are Medium or Small. You choose the size when you select this race.</p>"
-   }
+  "intro_html": {
+    "pt": "<p>Yuan-tis eram inicialmente humanos que se transformaram em um povo serpente através de rituais ancestrais. A maioria dos yuan-ti foi corrompida por esses rituais, se tornando monstros, mas alguns yuan-ti se tornaram um novo povo, que mistura características de humanos e cobras.</p><p>Abençoados com resistência a efeitos mágicos e venenosos pelos rituais que os criaram, cada yuan-ti manifesta sua herança ofídica de diferentes maneiras: língua bifurcada, olhos de cobra, nariz semelhante ao de uma serpente ou outra características ofídicas. Qualquer que seja a aparência de um yuan-ti, eles têm o poder de buscar o bem ou o mal no multiverso.</p>",
+    "en": "<p>Yuan-ti were originally humans who transformed themselves into serpent folk through ancient rituals. Most yuan-ti were corrupted into monsters by those rites, but some yuan-ti instead became a new people who mix characteristics of humans and snakes.</p><p>Blessed with resistance to magical and poisonous effects by the rituals that created them, each of these yuan-ti manifests their serpentine heritage in a variety of ways: a forked tongue, snake eyes, a snakelike nose, or some other ophidian characteristic. However a yuan-ti looks, they have the power to pursue great good or evil in the multiverse.</p>"
   },
-  {
-   "key": "speed",
-   "name": {
-    "pt": "deslocamento",
-    "en": "Speed"
-   },
-   "html": {
-    "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
-    "en": "<p>Your walking speed is 30 feet.</p>"
-   }
-  },
-  {
-   "key": "serpentine-spellcasting",
-   "name": {
-    "pt": "conjuração Ofídica",
-    "en": "Serpentine Spellcasting"
-   },
-   "html": {
-    "pt": "<p>Você conhece o truque rajada de veneno. Você pode conjurar a magia amizade animal um número ilimitado de vezes com esse traço, mas o alvo deve ser uma cobra. A partir do 3o nível, você também pode conjurar a magia sugestão usando esse traço. Uma vez que o faça, você não pode conjurá-la novamente até terminar um descanso longo. Você também pode conjurar essa magia usando quaisquer espaços de magia de 2o círculo ou superior que você tenha.</p><p>Inteligência, Sabedoria ou Carisma é seu atributo de conjuração ao conjurar estas magias utilizando este traço (escolha um ao selecionar esta raça).</p>",
-    "en": "<p>You know the poison spray cantrip. You can cast animal friendship an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast suggestion with this trait. Once you cast it, you can’t do so again until you finish a long rest. You can also cast it using any spell slots you have of 2nd level or higher.</p> <p>Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>"
-   }
-  },
-  {
-   "key": "magic-resistance",
-   "name": {
-    "pt": "resistência a Magia",
-    "en": "Magic Resistance"
-   },
-   "html": {
-    "pt": "<p>Você tem vantagem em salvaguardas contra magias.</p>",
-    "en": "<p>You have advantage on saving throws against spells.</p>"
-   }
-  },
-  {
-   "key": "poison-resilience",
-   "name": {
-    "pt": "resistência a Veneno",
-    "en": "Poison Resilience"
-   },
-   "html": {
-    "pt": "<p>Você tem vantagem em salvaguardas para evitar ou encerrar a condição envenenado em si mesmo. Você também tem resistência a dano venenoso.</p>",
-    "en": "<p>You have advantage on saving throws you make to avoid or end the poisoned condition on yourself. You also have resistance to poison damage.</p>"
-   }
-  },
-  {
-   "key": "darkvision",
-   "name": {
-    "pt": "visão no Escuro",
-    "en": "Darkvision"
-   },
-   "html": {
-    "pt": "<p>Você consegue enxergar até 18 metros na meia-luz como se fosse luz plena e, na escuridão, como se fosse meia-luz. Na escuridão você só consegue discernir tons de cinza.</p>",
-    "en": "<p>You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>"
-   }
-  }
- ],
- "subraces": [],
- "spells": [
-  {
-   "level": 1,
-   "names_pt": [
-    "rajada de veneno"
-   ],
-   "names_en": [
-    "poison spray"
-   ],
-   "regularity": {
-    "pt": "truque",
-    "en": "cantrip"
-   }
-  },
-  {
-   "level": 1,
-   "names_pt": [
-    "amizade animal"
-   ],
-   "names_en": [
-    "animal friendship"
-   ],
-   "regularity": {
-    "pt": "número ilimitado de vezes (o alvo deve ser uma cobra)",
-    "en": "at will (the target must be a snake)"
-   }
-  },
-  {
-   "level": 3,
-   "names_pt": [
-    "sugestão"
-   ],
-   "names_en": [
-    "suggestion"
-   ],
-   "regularity": {
-    "pt": "uma vez por descanso longo",
-    "en": "once per long rest"
-   }
-  }
- ]
+  "traits": [
+    {
+      "key": "creature-type",
+      "name": {
+        "pt": "tipo de Criatura",
+        "en": "Creature Type"
+      },
+      "html": {
+        "pt": "<p>Você é um humanoide.</p>",
+        "en": "<p>You are a Humanoid.</p>"
+      }
+    },
+    {
+      "key": "size",
+      "name": {
+        "pt": "tamanho",
+        "en": "Size"
+      },
+      "html": {
+        "pt": "<p>Você é Médio ou Pequeno. Você escolhe o tamanho ao selecionar esta raça.</p>",
+        "en": "<p>You are Medium or Small. You choose the size when you select this race.</p>"
+      }
+    },
+    {
+      "key": "speed",
+      "name": {
+        "pt": "deslocamento",
+        "en": "Speed"
+      },
+      "html": {
+        "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
+        "en": "<p>Your walking speed is 30 feet.</p>"
+      }
+    },
+    {
+      "key": "serpentine-spellcasting",
+      "name": {
+        "pt": "conjuração Ofídica",
+        "en": "Serpentine Spellcasting"
+      },
+      "html": {
+        "pt": "<p>Você conhece o truque rajada de veneno. Você pode conjurar a magia amizade animal um número ilimitado de vezes com esse traço, mas o alvo deve ser uma cobra. A partir do 3o nível, você também pode conjurar a magia sugestão usando esse traço. Uma vez que o faça, você não pode conjurá-la novamente até terminar um descanso longo. Você também pode conjurar essa magia usando quaisquer espaços de magia de 2o círculo ou superior que você tenha.</p><p>Inteligência, Sabedoria ou Carisma é seu atributo de conjuração ao conjurar estas magias utilizando este traço (escolha um ao selecionar esta raça).</p>",
+        "en": "<p>You know the poison spray cantrip. You can cast animal friendship an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast suggestion with this trait. Once you cast it, you can’t do so again until you finish a long rest. You can also cast it using any spell slots you have of 2nd level or higher.</p> <p>Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>"
+      }
+    },
+    {
+      "key": "magic-resistance",
+      "name": {
+        "pt": "resistência a Magia",
+        "en": "Magic Resistance"
+      },
+      "html": {
+        "pt": "<p>Você tem vantagem em salvaguardas contra magias.</p>",
+        "en": "<p>You have advantage on saving throws against spells.</p>"
+      }
+    },
+    {
+      "key": "poison-resilience",
+      "name": {
+        "pt": "resistência a Veneno",
+        "en": "Poison Resilience"
+      },
+      "html": {
+        "pt": "<p>Você tem vantagem em salvaguardas para evitar ou encerrar a condição envenenado em si mesmo. Você também tem resistência a dano venenoso.</p>",
+        "en": "<p>You have advantage on saving throws you make to avoid or end the poisoned condition on yourself. You also have resistance to poison damage.</p>"
+      }
+    },
+    {
+      "key": "darkvision",
+      "name": {
+        "pt": "visão no Escuro",
+        "en": "Darkvision"
+      },
+      "html": {
+        "pt": "<p>Você consegue enxergar até 18 metros na meia-luz como se fosse luz plena e, na escuridão, como se fosse meia-luz. Na escuridão você só consegue discernir tons de cinza.</p>",
+        "en": "<p>You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>"
+      }
+    }
+  ],
+  "subraces": [],
+  "spells": [
+    {
+      "level": 1,
+      "names_pt": ["rajada de veneno"],
+      "names_en": ["poison spray"],
+      "regularity": {
+        "pt": "truque",
+        "en": "cantrip"
+      }
+    },
+    {
+      "level": 1,
+      "names_pt": ["amizade animal"],
+      "names_en": ["animal friendship"],
+      "regularity": {
+        "pt": "número ilimitado de vezes (o alvo deve ser uma cobra)",
+        "en": "at will (the target must be a snake)"
+      }
+    },
+    {
+      "level": 3,
+      "names_pt": ["sugestão"],
+      "names_en": ["suggestion"],
+      "regularity": {
+        "pt": "uma vez por descanso longo",
+        "en": "once per long rest"
+      }
+    }
+  ]
 }

@@ -79,18 +79,8 @@
   "spells": [
     {
       "level": 1,
-      "names_pt": [
-        "indetectável",
-        "cegueira/surdez",
-        "disfarçar-se",
-        "turvar"
-      ],
-      "names_en": [
-        "nondetection",
-        "blindness/deafness",
-        "disguise self",
-        "blur"
-      ],
+      "names_pt": ["indetectável", "cegueira/surdez", "disfarçar-se", "turvar"],
+      "names_en": ["nondetection", "blindness/deafness", "disguise self", "blur"],
       "regularity": {
         "pt": null,
         "en": null

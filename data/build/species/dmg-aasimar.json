@@ -123,12 +123,8 @@
   "spells": [
     {
       "level": 1,
-      "names_pt": [
-        "luz"
-      ],
-      "names_en": [
-        "light"
-      ],
+      "names_pt": ["luz"],
+      "names_en": ["light"],
       "regularity": {
         "pt": "truque",
         "en": "cantrip"
@@ -136,12 +132,8 @@
     },
     {
       "level": 3,
-      "names_pt": [
-        "restauração menor"
-      ],
-      "names_en": [
-        "lesser restoration"
-      ],
+      "names_pt": ["restauração menor"],
+      "names_en": ["lesser restoration"],
       "regularity": {
         "pt": "uma vez, recupera ao fim de um descanso longo",
         "en": "once, regained after a long rest"
@@ -149,12 +141,8 @@
     },
     {
       "level": 5,
-      "names_pt": [
-        "luz do dia"
-      ],
-      "names_en": [
-        "daylight"
-      ],
+      "names_pt": ["luz do dia"],
+      "names_en": ["daylight"],
       "regularity": {
         "pt": "uma vez, como magia de 3º círculo, recupera ao fim de um descanso longo",
         "en": "once, regained after a long rest"

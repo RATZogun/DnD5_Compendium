@@ -1,1 +1,81 @@
-{"slug":"bugbear","name":{"pt":"bugurso","en":"Bugbear"},"source":{"pt":{"book":"MPMM","page":8},"en":{"book":"MPMM","page":8}},"intro_html":{"pt":"<p>Nem bicho nem urso, bugursos são os primos parrudos dos goblins e hobgoblins. Com raízes na Agrestia das Fadas, os primeiros bugursos residiam em lugares escondidos, em espaços sombrios e difíceis de alcançar. Há muito tempo e sem que ninguém visse, eles chegaram ao Plano Material, instigados a se espalharem por todo o multiverso pelo deus conquistador Maglubiyet. Séculos depois, eles ainda carregam o dom feérico de se espreitarem sem serem vistos, e muitos deles escaparam da influência daquele deus.</p><p>Eles têm membros longos e são cobertos por pelos ásperos, com orelhas em forma de cunha e dentes pontiagudos. Apesar de seu porte formidável, os bugursos são silenciosos, graças à magia feérica que os permite se esconder em espaços aparentemente pequenos demais para eles.</p>","en":"<p>Neither bugs nor bears, bugbears are the hulking cousins of goblins and hobgoblins. With roots in the Feywild, early bugbears resided in hidden places, in hard-to-reach and shadowed spaces. Long ago and from out of the corner of your eye, they came to the Material Plane, urged to spread throughout the multiverse by the conquering god Maglubiyet. Centuries later, they still bear a fey gift for lurking just out of sight, and many of them have sneaked away from that god’s influence.</p> <p>They are long of limb and covered in coarse hair, with wedge-shaped ears and pointed teeth. Despite their formidable build, bugbears are quiet skulkers, thanks to a fey magic that allows them to hide in spaces seemingly too small for them.</p>"},"traits":[{"key":"creature-type","name":{"pt":"tipo de criatura","en":"Creature Type"},"html":{"pt":"<p>Você é um humanoide. Você também é considerado um goblinoide para qualquer pré-requisito ou efeito que requeira que você seja um goblinoide.</p>","en":"<p>You are a Humanoid. You are also considered a goblinoid for any prerequisite or effect that requires you to be a goblinoid.</p>"}},{"key":"speed","name":{"pt":"deslocamento","en":"Speed"},"html":{"pt":"<p>Seu deslocamento de caminhada é de 9 metros.</p>","en":"<p>Your walking speed is 30 feet.</p>"}},{"key":"fey-ancestry","name":{"pt":"ancestralidade feérica","en":"Fey Ancestry"},"html":{"pt":"<p>Você tem vantagem em salvaguardas para evitar ou encerrar a condição enfeitiçado em si mesmo.</p>","en":"<p>You have advantage on saving throws you make to avoid or end the charmed condition on yourself.</p>"}},{"key":"surprise-attack","name":{"pt":"ataque surpresa","en":"Surprise Attack"},"html":{"pt":"<p>Se você acertar uma criatura com uma jogada de ataque, a criatura sofre 2d6 pontos de dano extra se ainda não tiver agido em um turno no combate atual.</p>","en":"<p>If you hit a creature with an attack roll, the creature takes an extra 2d6 damage if it hasn’t taken a turn yet in the current combat.</p>"}},{"key":"long-limbed","name":{"pt":"membros longos","en":"Long-Limbed"},"html":{"pt":"<p>Ao efetuar um ataque corpo a corpo em seu turno, seu alcance é 1,5 m maior que o normal.</p>","en":"<p>When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.</p>"}},{"key":"powerful-build","name":{"pt":"porte poderoso","en":"Powerful Build"},"html":{"pt":"<p>Você é considerado como uma categoria de tamanho acima ao determinar sua capacidade de carga e o peso que pode empurrar, arrastar ou levantar.</p>","en":"<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>"}},{"key":"sneaky","name":{"pt":"sorrateiro","en":"Sneaky"},"html":{"pt":"<p>Você é proficiente na perícia Furtividade. Além disso, sem se espremer, você pode se mover e parar em um espaço grande o suficiente para uma criatura Pequena.</p>","en":"<p>You are proficient in the Stealth skill. In addition, without squeezing, you can move through and stop in a space large enough for a Small creature.</p>"}},{"key":"darkvision","name":{"pt":"visão no escuro","en":"Darkvision"},"html":{"pt":"<p>Você consegue enxergar até 18 metros na meia-luz como se fosse luz plena e, na escuridão, como se fosse meia-luz. Na escuridão você só consegue discernir tons de cinza.</p>","en":"<p>You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>"}}],"subraces":[],"spells":[],"additional_sources":[],"pt_from":null,"size":["M"],"speed":{"ft":30,"m":9.0}}
+{
+  "slug": "bugbear",
+  "name": { "pt": "bugurso", "en": "Bugbear" },
+  "source": { "pt": { "book": "MPMM", "page": 8 }, "en": { "book": "MPMM", "page": 8 } },
+  "intro_html": {
+    "pt": "<p>Nem bicho nem urso, bugursos são os primos parrudos dos goblins e hobgoblins. Com raízes na Agrestia das Fadas, os primeiros bugursos residiam em lugares escondidos, em espaços sombrios e difíceis de alcançar. Há muito tempo e sem que ninguém visse, eles chegaram ao Plano Material, instigados a se espalharem por todo o multiverso pelo deus conquistador Maglubiyet. Séculos depois, eles ainda carregam o dom feérico de se espreitarem sem serem vistos, e muitos deles escaparam da influência daquele deus.</p><p>Eles têm membros longos e são cobertos por pelos ásperos, com orelhas em forma de cunha e dentes pontiagudos. Apesar de seu porte formidável, os bugursos são silenciosos, graças à magia feérica que os permite se esconder em espaços aparentemente pequenos demais para eles.</p>",
+    "en": "<p>Neither bugs nor bears, bugbears are the hulking cousins of goblins and hobgoblins. With roots in the Feywild, early bugbears resided in hidden places, in hard-to-reach and shadowed spaces. Long ago and from out of the corner of your eye, they came to the Material Plane, urged to spread throughout the multiverse by the conquering god Maglubiyet. Centuries later, they still bear a fey gift for lurking just out of sight, and many of them have sneaked away from that god’s influence.</p> <p>They are long of limb and covered in coarse hair, with wedge-shaped ears and pointed teeth. Despite their formidable build, bugbears are quiet skulkers, thanks to a fey magic that allows them to hide in spaces seemingly too small for them.</p>"
+  },
+  "traits": [
+    {
+      "key": "creature-type",
+      "name": { "pt": "tipo de criatura", "en": "Creature Type" },
+      "html": {
+        "pt": "<p>Você é um humanoide. Você também é considerado um goblinoide para qualquer pré-requisito ou efeito que requeira que você seja um goblinoide.</p>",
+        "en": "<p>You are a Humanoid. You are also considered a goblinoid for any prerequisite or effect that requires you to be a goblinoid.</p>"
+      }
+    },
+    {
+      "key": "speed",
+      "name": { "pt": "deslocamento", "en": "Speed" },
+      "html": {
+        "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
+        "en": "<p>Your walking speed is 30 feet.</p>"
+      }
+    },
+    {
+      "key": "fey-ancestry",
+      "name": { "pt": "ancestralidade feérica", "en": "Fey Ancestry" },
+      "html": {
+        "pt": "<p>Você tem vantagem em salvaguardas para evitar ou encerrar a condição enfeitiçado em si mesmo.</p>",
+        "en": "<p>You have advantage on saving throws you make to avoid or end the charmed condition on yourself.</p>"
+      }
+    },
+    {
+      "key": "surprise-attack",
+      "name": { "pt": "ataque surpresa", "en": "Surprise Attack" },
+      "html": {
+        "pt": "<p>Se você acertar uma criatura com uma jogada de ataque, a criatura sofre 2d6 pontos de dano extra se ainda não tiver agido em um turno no combate atual.</p>",
+        "en": "<p>If you hit a creature with an attack roll, the creature takes an extra 2d6 damage if it hasn’t taken a turn yet in the current combat.</p>"
+      }
+    },
+    {
+      "key": "long-limbed",
+      "name": { "pt": "membros longos", "en": "Long-Limbed" },
+      "html": {
+        "pt": "<p>Ao efetuar um ataque corpo a corpo em seu turno, seu alcance é 1,5 m maior que o normal.</p>",
+        "en": "<p>When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.</p>"
+      }
+    },
+    {
+      "key": "powerful-build",
+      "name": { "pt": "porte poderoso", "en": "Powerful Build" },
+      "html": {
+        "pt": "<p>Você é considerado como uma categoria de tamanho acima ao determinar sua capacidade de carga e o peso que pode empurrar, arrastar ou levantar.</p>",
+        "en": "<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>"
+      }
+    },
+    {
+      "key": "sneaky",
+      "name": { "pt": "sorrateiro", "en": "Sneaky" },
+      "html": {
+        "pt": "<p>Você é proficiente na perícia Furtividade. Além disso, sem se espremer, você pode se mover e parar em um espaço grande o suficiente para uma criatura Pequena.</p>",
+        "en": "<p>You are proficient in the Stealth skill. In addition, without squeezing, you can move through and stop in a space large enough for a Small creature.</p>"
+      }
+    },
+    {
+      "key": "darkvision",
+      "name": { "pt": "visão no escuro", "en": "Darkvision" },
+      "html": {
+        "pt": "<p>Você consegue enxergar até 18 metros na meia-luz como se fosse luz plena e, na escuridão, como se fosse meia-luz. Na escuridão você só consegue discernir tons de cinza.</p>",
+        "en": "<p>You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>"
+      }
+    }
+  ],
+  "subraces": [],
+  "spells": [],
+  "additional_sources": [],
+  "pt_from": null,
+  "size": ["M"],
+  "speed": { "ft": 30, "m": 9.0 }
+}

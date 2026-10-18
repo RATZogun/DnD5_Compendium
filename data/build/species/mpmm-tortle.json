@@ -1,113 +1,113 @@
 {
- "slug": "tortle",
- "name": {
-  "pt": "tortuga",
-  "en": "Tortle"
- },
- "source": {
-  "pt": {
-   "book": "MPMM",
-   "page": 34
+  "slug": "tortle",
+  "name": {
+    "pt": "tortuga",
+    "en": "Tortle"
   },
-  "en": {
-   "book": "MPMM",
-   "page": 34
-  }
- },
- "intro_html": {
-  "pt": "<p>Tortugas têm um ditado: \"Carregamos nossos lares nas costas\". Este povo tartaruga vive em muitos mundos, na maioria das vezes viajando para cima e para baixo pelas costas, ao longo de cursos de água e pelo do mar. Tortugas não têm uma história unificada de como foram criados, mas todos têm a sensação de estar misticamente conectados ao mundo natural. Carregar seu abrigo nas costas dá aos tortugas uma sensação especial de segurança onde quer que vão, pois mesmo que visitem um país distante e desconhecido, eles têm um lugar para dormir.</p><p>Tortugas exibem a mesma gama de coloração e padrões encontrados entre as tartarugas, e muitos tortugas gostam de adornar seus cascos de maneiras distintas.</p>",
-  "en": "<p>Tortles have a saying: “We wear our homes on our backs.” These turtle folk live on many worlds, most often journeying up and down coasts, along waterways, and across the sea. Tortles don’t have a unified story of how they were created, but they all have a sense of being mystically connected to the natural world. Carrying their shelter on their backs gives tortles a special feeling of security wherever they go, for even if they visit a far, unknown country, they have a place to lay their heads.</p><p>Tortles exhibit the same range of coloration and patterns found among turtles, and many tortles enjoy adorning their shells in distinctive ways.</p>"
- },
- "traits": [
-  {
-   "key": "creature-type",
-   "name": {
-    "pt": "tipo de Criatura",
-    "en": "Creature Type"
-   },
-   "html": {
-    "pt": "<p>Você é um humanoide.</p>",
-    "en": "<p>You are a Humanoid.</p>"
-   }
+  "source": {
+    "pt": {
+      "book": "MPMM",
+      "page": 34
+    },
+    "en": {
+      "book": "MPMM",
+      "page": 34
+    }
   },
-  {
-   "key": "size",
-   "name": {
-    "pt": "tamanho",
-    "en": "Size"
-   },
-   "html": {
-    "pt": "<p>Você é Médio ou Pequeno. Você escolhe o tamanho ao selecionar esta raça.</p>",
-    "en": "<p>You are Medium or Small. You choose the size when you select this race.</p>"
-   }
+  "intro_html": {
+    "pt": "<p>Tortugas têm um ditado: \"Carregamos nossos lares nas costas\". Este povo tartaruga vive em muitos mundos, na maioria das vezes viajando para cima e para baixo pelas costas, ao longo de cursos de água e pelo do mar. Tortugas não têm uma história unificada de como foram criados, mas todos têm a sensação de estar misticamente conectados ao mundo natural. Carregar seu abrigo nas costas dá aos tortugas uma sensação especial de segurança onde quer que vão, pois mesmo que visitem um país distante e desconhecido, eles têm um lugar para dormir.</p><p>Tortugas exibem a mesma gama de coloração e padrões encontrados entre as tartarugas, e muitos tortugas gostam de adornar seus cascos de maneiras distintas.</p>",
+    "en": "<p>Tortles have a saying: “We wear our homes on our backs.” These turtle folk live on many worlds, most often journeying up and down coasts, along waterways, and across the sea. Tortles don’t have a unified story of how they were created, but they all have a sense of being mystically connected to the natural world. Carrying their shelter on their backs gives tortles a special feeling of security wherever they go, for even if they visit a far, unknown country, they have a place to lay their heads.</p><p>Tortles exhibit the same range of coloration and patterns found among turtles, and many tortles enjoy adorning their shells in distinctive ways.</p>"
   },
-  {
-   "key": "speed",
-   "name": {
-    "pt": "deslocamento",
-    "en": "Speed"
-   },
-   "html": {
-    "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
-    "en": "<p>Your walking speed is 30 feet.</p>"
-   }
-  },
-  {
-   "key": "natural-armor",
-   "name": {
-    "pt": "armadura Natural",
-    "en": "Natural Armor"
-   },
-   "html": {
-    "pt": "<p>Seu casco lhe concede CA base de 17 (seu modificador de Destreza não afeta este número). Você não pode usar armadura leve, média ou pesada, mas se usar um escudo poderá aplicar o bônus do escudo normalmente.</p>",
-    "en": "<p>Your shell provides you a base AC of 17 (your Dexterity modifier doesn’t affect this number). You can’t wear light, medium, or heavy armor, but if you are using a shield, you can apply the shield’s bonus as normal.</p>"
-   }
-  },
-  {
-   "key": "shell-defense",
-   "name": {
-    "pt": "casco Defensivo",
-    "en": "Shell Defense"
-   },
-   "html": {
-    "pt": "<p>Você pode se recolher para dentro do casco como uma ação. Até que saia, você ganha um bônus de +4 na CA, e tem vantagem em salvaguardas de Força e Constituição. Enquanto estiver dentro do casco você é considerado caído, seu deslocamento é 0 e não pode aumentar, você tem desvantagem nas salvaguardas de Destreza, não pode realizar reações e a única ação que pode realizar é uma ação bônus para sair do casco.</p>",
-    "en": "<p>You can withdraw into your shell as an action. Until you emerge, you gain a +4 bonus to your AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are prone, your speed is 0 and can’t increase, you have disadvantage on Dexterity saving throws, you can’t take reactions, and the only action you can take is a bonus action to emerge from your shell.</p>"
-   }
-  },
-  {
-   "key": "claws",
-   "name": {
-    "pt": "garras",
-    "en": "Claws"
-   },
-   "html": {
-    "pt": "<p>Você tem garras que pode usar para desferir golpes desarmados. Quando você acerta com elas, o golpe causa dano cortante igual a 1d6 + seu modificador de Força, ao invés do dano contundente normal para um golpe desarmado.</p>",
-    "en": "<p>You have claws that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.</p>"
-   }
-  },
-  {
-   "key": "natures-intuition",
-   "name": {
-    "pt": "intuição da Natureza",
-    "en": "Nature’s Intuition"
-   },
-   "html": {
-    "pt": "<p>Graças à sua conexão mística com a natureza, você ganha proficiência em uma das perícias a seguir, à sua escolha: Furtividade, Lidar com Animais, Medicina, Natureza, Percepção ou Sobrevivência.</p>",
-    "en": "<p>Thanks to your mystical connection to nature, you gain proficiency with one of the following skills of your choice: Animal Handling, Medicine, Nature, Perception, Stealth, or Survival.</p>"
-   }
-  },
-  {
-   "key": "hold-breath",
-   "name": {
-    "pt": "prender a Respiração",
-    "en": "Hold Breath"
-   },
-   "html": {
-    "pt": "<p>Você pode prender a respiração por até 1 hora.</p>",
-    "en": "<p>You can hold your breath for up to 1 hour.</p>"
-   }
-  }
- ],
- "subraces": [],
- "spells": []
+  "traits": [
+    {
+      "key": "creature-type",
+      "name": {
+        "pt": "tipo de Criatura",
+        "en": "Creature Type"
+      },
+      "html": {
+        "pt": "<p>Você é um humanoide.</p>",
+        "en": "<p>You are a Humanoid.</p>"
+      }
+    },
+    {
+      "key": "size",
+      "name": {
+        "pt": "tamanho",
+        "en": "Size"
+      },
+      "html": {
+        "pt": "<p>Você é Médio ou Pequeno. Você escolhe o tamanho ao selecionar esta raça.</p>",
+        "en": "<p>You are Medium or Small. You choose the size when you select this race.</p>"
+      }
+    },
+    {
+      "key": "speed",
+      "name": {
+        "pt": "deslocamento",
+        "en": "Speed"
+      },
+      "html": {
+        "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
+        "en": "<p>Your walking speed is 30 feet.</p>"
+      }
+    },
+    {
+      "key": "natural-armor",
+      "name": {
+        "pt": "armadura Natural",
+        "en": "Natural Armor"
+      },
+      "html": {
+        "pt": "<p>Seu casco lhe concede CA base de 17 (seu modificador de Destreza não afeta este número). Você não pode usar armadura leve, média ou pesada, mas se usar um escudo poderá aplicar o bônus do escudo normalmente.</p>",
+        "en": "<p>Your shell provides you a base AC of 17 (your Dexterity modifier doesn’t affect this number). You can’t wear light, medium, or heavy armor, but if you are using a shield, you can apply the shield’s bonus as normal.</p>"
+      }
+    },
+    {
+      "key": "shell-defense",
+      "name": {
+        "pt": "casco Defensivo",
+        "en": "Shell Defense"
+      },
+      "html": {
+        "pt": "<p>Você pode se recolher para dentro do casco como uma ação. Até que saia, você ganha um bônus de +4 na CA, e tem vantagem em salvaguardas de Força e Constituição. Enquanto estiver dentro do casco você é considerado caído, seu deslocamento é 0 e não pode aumentar, você tem desvantagem nas salvaguardas de Destreza, não pode realizar reações e a única ação que pode realizar é uma ação bônus para sair do casco.</p>",
+        "en": "<p>You can withdraw into your shell as an action. Until you emerge, you gain a +4 bonus to your AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are prone, your speed is 0 and can’t increase, you have disadvantage on Dexterity saving throws, you can’t take reactions, and the only action you can take is a bonus action to emerge from your shell.</p>"
+      }
+    },
+    {
+      "key": "claws",
+      "name": {
+        "pt": "garras",
+        "en": "Claws"
+      },
+      "html": {
+        "pt": "<p>Você tem garras que pode usar para desferir golpes desarmados. Quando você acerta com elas, o golpe causa dano cortante igual a 1d6 + seu modificador de Força, ao invés do dano contundente normal para um golpe desarmado.</p>",
+        "en": "<p>You have claws that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.</p>"
+      }
+    },
+    {
+      "key": "natures-intuition",
+      "name": {
+        "pt": "intuição da Natureza",
+        "en": "Nature’s Intuition"
+      },
+      "html": {
+        "pt": "<p>Graças à sua conexão mística com a natureza, você ganha proficiência em uma das perícias a seguir, à sua escolha: Furtividade, Lidar com Animais, Medicina, Natureza, Percepção ou Sobrevivência.</p>",
+        "en": "<p>Thanks to your mystical connection to nature, you gain proficiency with one of the following skills of your choice: Animal Handling, Medicine, Nature, Perception, Stealth, or Survival.</p>"
+      }
+    },
+    {
+      "key": "hold-breath",
+      "name": {
+        "pt": "prender a Respiração",
+        "en": "Hold Breath"
+      },
+      "html": {
+        "pt": "<p>Você pode prender a respiração por até 1 hora.</p>",
+        "en": "<p>You can hold your breath for up to 1 hour.</p>"
+      }
+    }
+  ],
+  "subraces": [],
+  "spells": []
 }

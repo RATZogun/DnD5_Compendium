@@ -1,102 +1,102 @@
 {
- "slug": "custom-lineage",
- "name": {
-  "pt": "linhagem personalizada",
-  "en": "Custom Lineage"
- },
- "source": {
-  "pt": {
-   "book": "CTCT",
-   "page": 8
+  "slug": "custom-lineage",
+  "name": {
+    "pt": "linhagem personalizada",
+    "en": "Custom Lineage"
   },
-  "en": {
-   "book": "TCE",
-   "page": 8
-  }
- },
- "intro_html": {
-  "pt": "<p>Ao invés de escolher uma das raças do jogo para seu personagem no 1º nível, você pode usar as seguintes características para representar a linhagem do seu personagem, o que lhe dá controle total sobre como a origem do seu personagem o moldou:</p>",
-  "en": "<p>Instead of choosing one of the game&#x27;s races for your character at 1st level, you can use the following traits to represent your character&#x27;s lineage, giving you full control over how your character&#x27;s origin shaped them:</p>"
- },
- "traits": [
-  {
-   "key": "creature-type",
-   "name": {
-    "pt": "tipo de criatura",
-    "en": "Creature Type"
-   },
-   "html": {
-    "pt": "<p>Você é um humanoide. Você determina sua aparência e se possui alguma semelhança com seu povo.</p>",
-    "en": "<p>You are a humanoid. You determine your appearance and whether you resemble any of your kin.</p>"
-   }
+  "source": {
+    "pt": {
+      "book": "CTCT",
+      "page": 8
+    },
+    "en": {
+      "book": "TCE",
+      "page": 8
+    }
   },
-  {
-   "key": "size",
-   "name": {
-    "pt": "tamanho",
-    "en": "Size"
-   },
-   "html": {
-    "pt": "<p>Você é Pequeno ou Médio, à sua escolha.</p>",
-    "en": "<p>You are Small or Medium (your choice).</p>"
-   }
+  "intro_html": {
+    "pt": "<p>Ao invés de escolher uma das raças do jogo para seu personagem no 1º nível, você pode usar as seguintes características para representar a linhagem do seu personagem, o que lhe dá controle total sobre como a origem do seu personagem o moldou:</p>",
+    "en": "<p>Instead of choosing one of the game&#x27;s races for your character at 1st level, you can use the following traits to represent your character&#x27;s lineage, giving you full control over how your character&#x27;s origin shaped them:</p>"
   },
-  {
-   "key": "speed",
-   "name": {
-    "pt": "deslocamento",
-    "en": "Speed"
-   },
-   "html": {
-    "pt": "<p>Seu deslocamento de caminhada básico é de 9 metros.</p>",
-    "en": "<p>Your base walking speed is 30 feet.</p>"
-   }
-  },
-  {
-   "key": "ability-score-increase",
-   "name": {
-    "pt": "aumento no valor de atributo",
-    "en": "Ability Score Increase"
-   },
-   "html": {
-    "pt": "<p>Um valor de atributo, à sua escolha, aumenta em 2.</p>",
-    "en": null
-   }
-  },
-  {
-   "key": "feat",
-   "name": {
-    "pt": "talento",
-    "en": "Feat"
-   },
-   "html": {
-    "pt": "<p>Você ganha um talento à sua escolha para o qual se qualifica.</p>",
-    "en": "<p>You gain one feat of your choice for which you qualify.</p>"
-   }
-  },
-  {
-   "key": "variable-trait",
-   "name": {
-    "pt": "traço variável",
-    "en": "Variable Trait"
-   },
-   "html": {
-    "pt": "<p>Você ganha uma das seguintes opções à sua escolha: (a) visão no escuro com um alcance de 18 metros ou (b) proficiência em uma perícia à sua escolha.</p>",
-    "en": "<p>You gain one of the following options of your choice: (a) darkvision with a range of 60 feet or (b) proficiency in one skill of your choice.</p>"
-   }
-  },
-  {
-   "key": "languages",
-   "name": {
-    "pt": "idiomas",
-    "en": "Languages"
-   },
-   "html": {
-    "pt": "<p>Você fala, lê e escreve em Comum e em um outro idioma que você e seu DM concordem que é apropriado para seu personagem.</p>",
-    "en": "<p>You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.</p><p>Your race is considered to be a Custom Lineage for any game feature that requires a certain race, such as elf or dwarf.</p>"
-   }
-  }
- ],
- "subraces": [],
- "spells": []
+  "traits": [
+    {
+      "key": "creature-type",
+      "name": {
+        "pt": "tipo de criatura",
+        "en": "Creature Type"
+      },
+      "html": {
+        "pt": "<p>Você é um humanoide. Você determina sua aparência e se possui alguma semelhança com seu povo.</p>",
+        "en": "<p>You are a humanoid. You determine your appearance and whether you resemble any of your kin.</p>"
+      }
+    },
+    {
+      "key": "size",
+      "name": {
+        "pt": "tamanho",
+        "en": "Size"
+      },
+      "html": {
+        "pt": "<p>Você é Pequeno ou Médio, à sua escolha.</p>",
+        "en": "<p>You are Small or Medium (your choice).</p>"
+      }
+    },
+    {
+      "key": "speed",
+      "name": {
+        "pt": "deslocamento",
+        "en": "Speed"
+      },
+      "html": {
+        "pt": "<p>Seu deslocamento de caminhada básico é de 9 metros.</p>",
+        "en": "<p>Your base walking speed is 30 feet.</p>"
+      }
+    },
+    {
+      "key": "ability-score-increase",
+      "name": {
+        "pt": "aumento no valor de atributo",
+        "en": "Ability Score Increase"
+      },
+      "html": {
+        "pt": "<p>Um valor de atributo, à sua escolha, aumenta em 2.</p>",
+        "en": null
+      }
+    },
+    {
+      "key": "feat",
+      "name": {
+        "pt": "talento",
+        "en": "Feat"
+      },
+      "html": {
+        "pt": "<p>Você ganha um talento à sua escolha para o qual se qualifica.</p>",
+        "en": "<p>You gain one feat of your choice for which you qualify.</p>"
+      }
+    },
+    {
+      "key": "variable-trait",
+      "name": {
+        "pt": "traço variável",
+        "en": "Variable Trait"
+      },
+      "html": {
+        "pt": "<p>Você ganha uma das seguintes opções à sua escolha: (a) visão no escuro com um alcance de 18 metros ou (b) proficiência em uma perícia à sua escolha.</p>",
+        "en": "<p>You gain one of the following options of your choice: (a) darkvision with a range of 60 feet or (b) proficiency in one skill of your choice.</p>"
+      }
+    },
+    {
+      "key": "languages",
+      "name": {
+        "pt": "idiomas",
+        "en": "Languages"
+      },
+      "html": {
+        "pt": "<p>Você fala, lê e escreve em Comum e em um outro idioma que você e seu DM concordem que é apropriado para seu personagem.</p>",
+        "en": "<p>You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.</p><p>Your race is considered to be a Custom Lineage for any game feature that requires a certain race, such as elf or dwarf.</p>"
+      }
+    }
+  ],
+  "subraces": [],
+  "spells": []
 }

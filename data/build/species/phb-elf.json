@@ -1,479 +1,461 @@
 {
- "slug": "elf",
- "name": {
-  "pt": "elfo",
-  "en": "Elf"
- },
- "source": {
-  "pt": {
-   "book": "LDJ",
-   "page": 21
+  "slug": "elf",
+  "name": {
+    "pt": "elfo",
+    "en": "Elf"
   },
-  "en": {
-   "book": "PHB",
-   "page": 21
-  }
- },
- "intro_html": {
-  "pt": "<p>\"Nunca imaginei que existisse algo tão belo\", Lua-Dourada disse baixinho. A marcha havia sido pesada, mas a recompensa ao fim do dia superou seus maiores sonhos. O grupo alcançara o alto de um penhasco, de onde se avistava a mítica cidade de Qualinost.</p><p>Quatro finos pináculos se erguiam dos cantos da cidade como hastes reluzentes, com suas alvas pedras marmorizadas com a prata cintilante. Arcos saltavam graciosamente de um pináculo a outro, como se pairassem em pleno ar. Forjados por antigos ferreiros anões, possuíam força suficiente para sustentar o peso de um exército, e ainda assim pareciam tão delicados a ponto de desabar com o pouso da mais leve ave. Esses arcos brilhantes constituíam a única fronteira da cidade; não havia muralha alguma circundando Qualinost. A cidade élfica abria amorosamente seus braços para a vastidão selvagem.</p><p><em>— Margaret Weis e Tracy Hickman, Dragões do Crepúsculo do Outono</em></p><p>Os elfos são um povo mágico e de graça sobrenatural que vive no mundo mas a ele não pertence inteiramente. Habitam locais de beleza diáfana, no seio de antigas florestas ou em torres prateadas que brilham com luz feérica, onde música suave ecoa no ar e leves fragrâncias flutuam na brisa. Os elfos amam a natureza e a magia, as artes e o talento artístico, a música, a poesia e todas as boas coisas do mundo.</p><p><strong>Esbeltos e Graciosos</strong></p><p>Com graça sobrenatural e traços finos, os elfos parecem assombrosamente belos aos olhos humanos e aos de muitas outras raças. São ligeiramente mais baixos que os humanos, variando de um pouco menos de 1,5 metro até um pouco mais de 1,8 metro. Também são mais esguios que os humanos, pesando entre 50 e 72 quilos. Elfos e elfas têm quase a mesma altura, embora os membros do sexo masculino sejam ligeiramente mais pesados.</p><p>A cor da sua pele varia do mesmo modo que para os humanos, incluindo tons de cobre, bronze e branco-azulado, com cabelos que podem ser verdes ou azuis e olhos que lembram lagos de ouro e prata. Possuem poucos pelos no corpo e são imberbes. Preferem roupas elegantes e de cores vivas, além de apreciarem joias simples, porém belas.</p><p><strong>Uma Perspectiva Atemporal</strong></p><p>Os elfos podem viver muito além dos 700 anos, o que lhes dá uma perspectiva mais ampla sobre eventos que poderiam perturbar raças menos longevas. Costumam ficar mais intrigados do que empolgados, e são quase sempre mais curiosos do que gananciosos. Tendem a permanecer distantes e impávidos diante de fatos corriqueiros. No entanto, quando perseguem um objetivo, seja numa aventura ou ao aprenderem uma nova arte ou habilidade, costumam ser focados e incansáveis.</p><p>Elfos demoram a fazer amigos e inimigos, mas demoram ainda mais para esquecê-los. De um modo geral, respondem a insultos leves com desdém, e a insultos graves com vingança. Assim como os galhos de uma árvore jovem, são flexíveis diante do perigo. Confiam na diplomacia e na negociação como formas de resolver conflitos antes que escalem para a violência. Evitam contato com intrusos, muitas vezes recolhendo-se aos seus refúgios silvestres, onde aguardam pacientemente que os invasores se retirem. Mas quando surge a necessidade, revelam sua face marcial, demonstrando habilidade com a espada, o arco e a estratégia.</p><p><strong>Reinos Ocultos na Floresta</strong></p><p>A maioria dos elfos habita pequenas aldeias escondidas entre as árvores. Eles caçam, coletam e cultivam seus alimentos usando engenho e magia para se sustentarem, sem a necessidade de desmatar ou mesmo arar a terra. São artesãos talentosos, criando roupas e objetos de arte finamente decorados. Seu contato com estrangeiros costuma ser limitado, embora alguns dentre eles levem uma boa vida negociando itens artesanais em troca de metais (já que não têm interesse na mineração).</p><p>Os elfos encontrados fora de suas terras costumam ser menestréis, artistas ou sábios errantes. Nobres humanos competem pela contratação de tutores elfos, que ensinam esgrima ou magia aos seus filhos.</p><p><strong>Exploração e Aventura</strong></p><p>Elfos se aventuram devido ao seu desejo de explorar o mundo. Por terem uma vida tão longa, podem desfrutar de séculos de viagens e descobertas. Eles não apreciam o ritmo da sociedade humana, ao mesmo tempo entediante e mutável ao longo das décadas, o que os leva a buscar carreiras que lhes permitam viajar livremente. Também gostam de exercitar suas habilidades marciais ou ampliar seus poderes mágicos, objetivos que a vida de aventureiro lhes permite atingir. Alguns podem ser rebeldes que lutam contra a opressão, enquanto outros se tornam campeões de causas nobres.</p><p>Embora possam ser arrogantes, os elfos tendem a ser graciosos mesmo com aqueles que não correspondem às suas altas expectativas — normalmente os membros de outras raças. Ainda assim, são capazes de enxergar o bem em qualquer um.</p><p><em>Anões.</em> \"Os anões são brutos, grosseiros e enfadonhos. Mas o que lhes falta em humor, sofisticação e boas maneiras, sobra em coragem. E devo admitir, seus melhores ferreiros produzem trabalhos que se aproximam das artes élficas.\"</p><p><em>Pequeninos.</em> \"Os pequeninos são um povo de gostos simples, e essa não é uma qualidade que se menospreze. São boa gente, cuidam uns dos outros e dos seus jardins, e já se provaram mais tenazes do que aparentam quando a necessidade surge.\"</p><p><em>Humanos.</em> \"Toda aquela pressa, ambição e vontade de completar alguma coisa antes que suas vidas breves se encerrem — às vezes, os esforços humanos parecem tão fúteis. Mas aí você olha para suas realizações e não tem outra opção a não ser apreciá-las. Se ao menos eles diminuíssem o ritmo e desenvolvessem um pouco de requinte.\"</p><p><strong>Nomes Élficos</strong></p><p>Os elfos são considerados crianças até que, em algum momento após o centésimo aniversário, decidem se autodeclarar adultos. Antes disso, são chamados por seus nomes de infância.</p><p>Ao declarar a idade adulta, um elfo também escolhe um nome de adulto, embora aqueles que o conheceram jovem possam continuar a chamá-lo pelo nome de criança. Cada nome adulto é uma criação única, embora possa refletir os nomes de indivíduos respeitados ou membros da família. Há pouca diferença entre nomes masculinos e femininos. As listas a seguir refletem apenas tendências gerais. Além disso, cada indivíduo possui um sobrenome, geralmente uma combinação de palavras élficas. Alguns elfos que viajam entre os humanos traduzem seus sobrenomes para o idioma Comum, enquanto outros utilizam a versão élfica.</p><p><strong>Nomes de Infância:</strong> Ara, Bryn, Del, Eryn, Faen, Innil, Lael, Mella, Naill, Naeris, Phann, Rael, Rinn, Sai, Syllin, Thia, Vall</p><p><strong>Nomes Adultos Masculinos:</strong> Adran, Aelar, Aramil, Arannis, Aust, Beiro, Berrian, Carric, Enialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis</p><p><strong>Nomes Adultos Femininos:</strong> Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, Enna, Felosial, Ielenia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, Valanthe, Xanaphia</p><p><strong>Sobrenomes (possíveis traduções no idioma Comum):</strong> Amakiir (Gema Florida), Amastacia (Estrela Florida), Galanodel (Sussurro Noturno), Holimion (Orvalho Adamântico), Ilphelkiir (Pétala Preciosa), Liadon (Folha Argêntea), Meliamne (Calcanhar D'Querco), Nailo (Brisa Noturna), Siannodel (Riacho Lunar), Xiloscient (Pétala Áurea).</p>",
-  "en": "<p>“I have never imagined such beauty existed,” Goldmoon said softly. The day’s march had been difficult, but the reward at the end was beyond their dreams. The companions stood on a high cliff over the fabled city of Qualinost.</p><p>Four slender spires rose from the city’s corners like glistening spindles, their brilliant white stone marbled with shining silver. Graceful arches, swooping from spire to spire, soared through the air. Crafted by ancient dwarven metalsmiths, they were strong enough to hold the weight of an army, yet they appeared so delicate that a bird lighting on them might overthrow the balance. These glistening arches were the city’s only boundaries; there was no wall around Qualinost. The elven city opened its arms lovingly to the wilderness.</p><p>— <em>Margaret Weis &amp; Tracy Hickman, Dragons of Autumn Twilight</em></p><p>Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. They live in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry, music and poetry, and the good things of the world.</p><p><strong>Slender and Graceful</strong></p><p>With their unearthly grace and fine features, elves appear hauntingly beautiful to humans and members of many other races. They are slightly shorter than humans on average, ranging from well under 5 feet tall to just over 6 feet. They are more slender than humans, weighing only 100 to 145 pounds. Males and females are about the same height, and males are only marginally heavier than females.</p><p>Elves’ coloration encompasses the normal human range and also includes skin in shades of copper, bronze, and almost bluish-white, hair of green or blue, and eyes like pools of liquid gold or silver. Elves have no facial and little body hair. They favor elegant clothing in bright colors, and they enjoy simple yet lovely jewelry.</p><p><strong>A Timeless Perspective</strong></p><p>Elves can live well over 700 years, giving them a broad perspective on events that might trouble the shorter-lived races more deeply. They are more often amused than excited, and more likely to be curious than greedy. They tend to remain aloof and unfazed by petty happenstance. When pursuing a goal, however, whether adventuring on a mission or learning a new skill or art, elves can be focused and relentless. They are slow to make friends and enemies, and even slower to forget them. They reply to petty insults with disdain and to serious insults with vengeance.</p><p>Like the branches of a young tree, elves are flexible in the face of danger. They trust in diplomacy and compromise to resolve differences before they escalate to violence. They have been known to retreat from intrusions into their woodland homes, confident that they can simply wait the invaders out. But when the need arises, elves reveal a stern martial side, demonstrating skill with sword, bow, and strategy.</p><p><strong>Hidden Woodland Realms</strong></p><p>Most elves dwell in small forest villages hidden among the trees. Elves hunt game, gather food, and grow vegetables, and their skill and magic allow them to support themselves without the need for clearing and plowing land. They are talented artisans, crafting finely worked clothes and art objects. Their contact with outsiders is usually limited, though a few elves make a good living by trading crafted items for metals (which they have no interest in mining).</p><p>Elves encountered outside their own lands are commonly traveling minstrels, artists, or sages. Human nobles compete for the services of elf instructors to teach swordplay or magic to their children.</p><p><strong>Exploration and Adventure</strong></p><p>Elves take up adventuring out of wanderlust. Since they are so long-lived, they can enjoy centuries of exploration and discovery. They dislike the pace of human society, which is regimented from day to day but constantly changing over decades, so they find careers that let them travel freely and set their own pace. Elves also enjoy exercising their martial prowess or gaining greater magical power, and adventuring allows them to do so. Some might join with rebels fighting against oppression, and others might become champions of moral causes.</p><p><strong>HAUGHTY BUT GRACIOUS</strong></p><p>Although they can be haughty, elves are generally gracious even to those who fall short of their high expectations—which is most non-elves. Still, they can find good in just about anyone.</p><p><em><strong>Dwarves.</strong></em> “Dwarves are dull, clumsy oafs. But what they lack in humor, sophistication, and manners, they make up in valor. And I must admit, their best smiths produce art that approaches elven quality.”</p><p><em><strong>Halflings.</strong></em> “Halflings are people of simple pleasures, and that is not a quality to scorn. They’re good folk, they care for each other and tend their gardens, and they have proven themselves tougher than they seem when the need arises.”</p><p><em><strong>Humans.</strong></em> “All that haste, their ambition and drive to accomplish something before their brief lives pass away—human endeavors seem so futile sometimes. But then you look at what they have accomplished, and you have to appreciate their achievements. If only they could slow down and learn some refinement.”</p><p><strong>Elf Names</strong></p><p>Elves are considered children until they declare themselves adults, some time after the hundredth birthday, and before this period they are called by child names.</p><p>On declaring adulthood, an elf selects an adult name, although those who knew him or her as a youngster might continue to use the child name. Each elf’s adult name is a unique creation, though it might reflect the names of respected individuals or other family members. Little distinction exists between male names and female names; the groupings here reflect only general tendencies. In addition, every elf bears a family name, typically a combination of other Elvish words. Some elves traveling among humans translate their family names into Common, but others retain the Elvish version.</p><p><strong>Child Names:</strong> Ara, Bryn, Del, Eryn, Faen, Innil, Lael, Mella, Naill, Naeris, Phann, Rael, Rinn, Sai, Syllin, Thia, Vall</p><p><strong>Male Adult Names:</strong> Adran, Aelar, Aramil, Arannis, Aust, Beiro, Berrian, Carric, Enialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis</p><p><strong>Female Adult Names:</strong> Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, Enna, Felosial, Ielenia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, Valanthe, Xanaphia</p><p><strong>Family Names (Common Translations):</strong> Amakiir (Gemflower), Amastacia (Starflower), Galanodel (Moonwhisper), Holimion (Diamonddew), Ilphelkiir (Gemblossom), Liadon (Silverfrond), Meliamne (Oakenheel), Naïlo (Nightbreeze), Siannodel (Moonbrook), Xiloscient (Goldpetal)</p>"
- },
- "traits": [
-  {
-   "key": "ability-score-increase",
-   "name": {
-    "pt": "aumento no valor de atributo",
-    "en": "Ability Score Increase"
-   },
-   "html": {
-    "pt": "<p>Seu valor de Destreza aumenta em 2.</p>",
-    "en": "<p>Your Dexterity score increases by 2.</p>"
-   }
-  },
-  {
-   "key": "age",
-   "name": {
-    "pt": "idade",
-    "en": "Age"
-   },
-   "html": {
-    "pt": "<p>Apesar de os elfos atingirem a maturidade física praticamente na mesma idade que os humanos, sua compreensão da vida adulta vai além do crescimento físico, abarcando também vivência e maturidade. Um elfo normalmente reivindica sua maioridade e seu nome adulto com cerca de 100 anos, podendo viver até os 750 anos de idade.</p>",
-    "en": "<p>Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.</p>"
-   }
-  },
-  {
-   "key": "alignment",
-   "name": {
-    "pt": "alinhamento",
-    "en": null
-   },
-   "html": {
-    "pt": "<p>Elfos amam a liberdade, a variedade e a autoexpressão, por isso têm uma forte inclinação para os aspectos mais sutis do caos. Eles valorizam e protegem tanto a sua própria liberdade quanto a de terceiros, sendo mais frequentemente bons do que maus. Os drow são uma exceção; seu exílio os tornou perigosos e maliciosos. Os membros dessa sub-raça têm mais tendência a serem maus do que bons.</p>",
-    "en": null
-   }
-  },
-  {
-   "key": "size",
-   "name": {
-    "pt": "tamanho",
-    "en": "Size"
-   },
-   "html": {
-    "pt": "<p>Seu tamanho é Médio. Os elfos são esguios e sua altura varia entre 1,5 e 1,8 metro.</p>",
-    "en": "<p>Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.</p>"
-   }
-  },
-  {
-   "key": "speed",
-   "name": {
-    "pt": "deslocamento",
-    "en": "Speed"
-   },
-   "html": {
-    "pt": "<p>Seu deslocamento básico é de 9 metros.</p>",
-    "en": "<p>Your base walking speed is 30 feet.</p>"
-   }
-  },
-  {
-   "key": "darkvision",
-   "name": {
-    "pt": "visão no escuro",
-    "en": "Darkvision"
-   },
-   "html": {
-    "pt": "<p>Acostumado a florestas sombreadas e céus noturnos, você tem visão superior no escuro, podendo enxergar até 18 metros na meia-luz como se fosse dia e, na escuridão, como se fosse meia-luz. Na escuridão, você só consegue discernir tons de cinza.</p>",
-    "en": "<p>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>"
-   }
-  },
-  {
-   "key": "keen-senses",
-   "name": {
-    "pt": "sentidos aguçados",
-    "en": "Keen Senses"
-   },
-   "html": {
-    "pt": "<p>Você é proficiente na perícia Percepção.</p>",
-    "en": "<p>You have proficiency in the Perception skill.</p>"
-   }
-  },
-  {
-   "key": "fey-ancestry",
-   "name": {
-    "pt": "ancestralidade feérica",
-    "en": "Fey Ancestry"
-   },
-   "html": {
-    "pt": "<p>Nenhum tipo de magia pode colocá-lo para dormir, e você tem vantagem em salvaguardas contra ser enfeitiçado.</p>",
-    "en": "<p>You have advantage on saving throws against being charmed, and magic can’t put you to sleep.</p>"
-   }
-  },
-  {
-   "key": "trance",
-   "name": {
-    "pt": "transe",
-    "en": "Trance"
-   },
-   "html": {
-    "pt": "<p>Elfos não precisam dormir. Em vez disso, meditam profundamente, permanecendo semiconscientes 4 horas ao dia. (A expressão comum para tal meditação é \"transe\"). Enquanto medita, você pode sonhar, de certo modo; tais sonhos são, na verdade, exercícios mentais que passaram a ser quase involuntários após anos de prática. Depois de descansar dessa forma, você obtém os mesmos benefícios que um ser humano obtém após 8 horas de sono.</p>",
-    "en": "<p>Elves don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</p>"
-   }
-  },
-  {
-   "key": "languages",
-   "name": {
-    "pt": "idiomas",
-    "en": "Languages"
-   },
-   "html": {
-    "pt": "<p>Você fala, lê e escreve Comum e Élfico. O Élfico é fluido, com entonações sutis e gramática complexa. A literatura élfica é rica e variada, com canções e poemas famosos entre outras raças. Muitos bardos aprendem essa língua para poderem adicionar canções élficas ao seu repertório.</p>",
-    "en": "<p>You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.</p>"
-   }
-  },
-  {
-   "key": "subrace",
-   "name": {
-    "pt": "sub-raças",
-    "en": "Subrace"
-   },
-   "html": {
-    "pt": "<p>Antigas divisões entre os povos élficos resultaram em três sub-raças principais: os altos elfos, os elfos silvestres e os elfos obscuros, que são comumente chamados de drow. Você deve escolher uma dessas sub-raças. Em alguns mundos, elas são ainda mais divididas (como os elfos solares e os elfos lunares em Forgotten Realms), logo, se você desejar, pode escolher uma sub-raça ainda mais específica.</p>",
-    "en": "<p>Ancient divides among the elven people resulted in three main subraces: high elves, wood elves, and dark elves, who are commonly called drow. Choose one of the two subraces presented below or one from another source. In some worlds, these subraces are divided still further (such as the sun elves and moon elves of the Forgotten Realms), so if you wish, you can choose a narrower subrace.</p>"
-   }
-  }
- ],
- "subraces": [
-  {
-   "slug": "high-elf",
-   "name": {
-    "pt": "alto elfo",
-    "en": "High Elf"
-   },
-   "source": {
+  "source": {
     "pt": {
-     "book": "LDJ",
-     "page": 23
+      "book": "LDJ",
+      "page": 21
     },
     "en": {
-     "book": "PHB",
-     "page": 23
+      "book": "PHB",
+      "page": 21
     }
-   },
-   "intro_html": {
-    "pt": "<p>Na qualidade de alto elfo, você possui uma mente perspicaz e o domínio dos fundamentos da magia. Em muitos dos mundos de D&amp;D, existem dois tipos de altos elfos. Um deles (que inclui os elfos cinzentos e os elfos do vale de Greyhawk, os Silvanesti de Dragonlance e os elfos solares de Forgotten Realms) é arrogante e recluso, acreditando-se superior às demais raças e até mesmo a outros elfos. O outro tipo (como os altos elfos de Greyhawk, os Qualinesti de Dragonlance e os elfos lunares de Forgotten Realms) é mais comum e amigável, muitas vezes sendo encontrado entre humanos e outras raças.</p><p>Os elfos solares de Faerûn (também chamados de elfos áureos ou elfos do alvorecer) têm pele bronzeada e cabelos acobreados, negros ou dourados. Seus olhos são dourados, prateados ou negros. Os elfos lunares (também chamados de elfos argênteos ou elfos cinzentos) são muito mais pálidos, com pele de alabastro, por vezes tingida de azul. Costumam ter cabelos de um branco prateado, negros ou azuis, embora diversos tons de loiro, castanho e vermelho sejam comuns. Seus olhos são azuis ou verdes com manchas douradas.</p>",
-    "en": "<p>As a high elf, you have a keen mind and a mastery of at least the basics of magic. In many of the worlds of D&amp;D, there are two kinds of high elves. One type (which includes the gray elves and valley elves of Greyhawk, the Silvanesti of Dragonlance, and the sun elves of the Forgotten Realms) is haughty and reclusive, believing themselves to be superior to non-elves and even other elves. The other type (including the high elves of Greyhawk, the Qualinesti of Dragonlance, and the moon elves of the Forgotten Realms) are more common and more friendly, and often encountered among humans and other races.</p><p>The sun elves of Faerûn (also called gold elves or sunrise elves) have bronze skin and hair of copper, black, or golden blond. Their eyes are golden, silver, or black. Moon elves (also called silver elves or gray elves) are much paler, with alabaster skin sometimes tinged with blue. They often have hair of silver-white, black, or blue, but various shades of blond, brown, and red are not uncommon. Their eyes are blue or green and flecked with gold.</p>"
-   },
-   "traits": [
-    {
-     "key": "ability-score-increase",
-     "name": {
-      "pt": "aumento no valor de atributo",
-      "en": "Ability Score Increase"
-     },
-     "html": {
-      "pt": "<p>O valor de sua Inteligência é aumentado em 1.</p>",
-      "en": "<p>Your Intelligence score increases by 1.</p>"
-     }
-    },
-    {
-     "key": "elf-weapon-training",
-     "name": {
-      "pt": "treinamento élfico com armas",
-      "en": "Elf Weapon Training"
-     },
-     "html": {
-      "pt": "<p>Você é proficiente com espada longa, espada curta, arco curto e arco longo.</p>",
-      "en": "<p>You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>"
-     }
-    },
-    {
-     "key": "cantrip",
-     "name": {
-      "pt": "truque",
-      "en": "Cantrip"
-     },
-     "html": {
-      "pt": "<p>Você conhece um truque da lista de magias de mago, à sua escolha. Inteligência é o atributo usado na conjuração.</p>",
-      "en": "<p>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</p>"
-     }
-    },
-    {
-     "key": "extra-language",
-     "name": {
-      "pt": "idioma extra",
-      "en": "Extra Language"
-     },
-     "html": {
-      "pt": "<p>Você pode falar, ler e escrever um idioma adicional à sua escolha.</p>",
-      "en": "<p>You can speak, read, and write one extra language of your choice.</p>"
-     }
-    }
-   ]
   },
-  {
-   "slug": "wood-elf",
-   "name": {
-    "pt": "elfo silvestre",
-    "en": "Wood Elf"
-   },
-   "source": {
-    "pt": {
-     "book": "LDJ",
-     "page": 24
-    },
-    "en": {
-     "book": "PHB",
-     "page": 24
-    }
-   },
-   "intro_html": {
-    "pt": "<p>Como um elfo silvestre, você possui sentidos e intuição aguçados. Seus pés ágeis guiam-no rápida e furtivamente através das suas florestas nativas. Esta sub-raça inclui os elfos selvagens (grugach) de Greyhawk e os Kagonesti de Dragonlance, bem como as raças chamadas de elfos da floresta em Greyhawk e em Forgotten Realms. Em Faerûn, os elfos silvestres (também chamados de elfos selvagens, elfos verdes ou elfos do bosque) são reclusos e desconfiam dos não-elfos.</p><p>A pele dos elfos silvestres tende a ser de matiz acobreado, algumas vezes com traços de verde. Seus cabelos costumam ser castanhos ou negros, mas ocasionalmente podem ser loiros ou cor de cobre. Seus olhos são verdes, castanhos ou cor de avelã.</p>",
-    "en": "<p>As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests. This category includes the wild elves (grugach) of Greyhawk and the Kagonesti of Dragonlance, as well as the races called wood elves in Greyhawk and the Forgotten Realms. In Faerûn, wood elves (also called wild elves, green elves, or forest elves) are reclusive and distrusting of non-elves.</p><p>Wood elves’ skin tends to be copperish in hue, sometimes with traces of green. Their hair tends toward browns and blacks, but it is occasionally blond or copper-colored. Their eyes are green, brown, or hazel.</p>"
-   },
-   "traits": [
-    {
-     "key": "ability-score-increase",
-     "name": {
-      "pt": "aumento no valor de atributo",
-      "en": "Ability Score Increase"
-     },
-     "html": {
-      "pt": "<p>Seu valor de Sabedoria aumenta em 1.</p>",
-      "en": "<p>Your Wisdom score increases by 1.</p>"
-     }
-    },
-    {
-     "key": "elf-weapon-training",
-     "name": {
-      "pt": "treinamento élfico com armas",
-      "en": "Elf Weapon Training"
-     },
-     "html": {
-      "pt": "<p>Você é proficiente com espada curta, espada longa, arco curto e arco longo.</p>",
-      "en": "<p>You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>"
-     }
-    },
-    {
-     "key": "fleet-of-foot",
-     "name": {
-      "pt": "pés velozes",
-      "en": "Fleet of Foot"
-     },
-     "html": {
-      "pt": "<p>Seu deslocamento base é de 10,5 metros.</p>",
-      "en": "<p>Your base walking speed increases to 35 feet.</p>"
-     }
-    },
-    {
-     "key": "mask-of-the-wild",
-     "name": {
-      "pt": "máscara da natureza",
-      "en": "Mask of the Wild"
-     },
-     "html": {
-      "pt": "<p>Você pode tentar se esconder mesmo quando estiver parcialmente obscurecido apenas por folhagem, chuva forte, neve em queda, névoa ou outro fenômeno natural.</p>",
-      "en": "<p>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>"
-     }
-    }
-   ]
+  "intro_html": {
+    "pt": "<p>\"Nunca imaginei que existisse algo tão belo\", Lua-Dourada disse baixinho. A marcha havia sido pesada, mas a recompensa ao fim do dia superou seus maiores sonhos. O grupo alcançara o alto de um penhasco, de onde se avistava a mítica cidade de Qualinost.</p><p>Quatro finos pináculos se erguiam dos cantos da cidade como hastes reluzentes, com suas alvas pedras marmorizadas com a prata cintilante. Arcos saltavam graciosamente de um pináculo a outro, como se pairassem em pleno ar. Forjados por antigos ferreiros anões, possuíam força suficiente para sustentar o peso de um exército, e ainda assim pareciam tão delicados a ponto de desabar com o pouso da mais leve ave. Esses arcos brilhantes constituíam a única fronteira da cidade; não havia muralha alguma circundando Qualinost. A cidade élfica abria amorosamente seus braços para a vastidão selvagem.</p><p><em>— Margaret Weis e Tracy Hickman, Dragões do Crepúsculo do Outono</em></p><p>Os elfos são um povo mágico e de graça sobrenatural que vive no mundo mas a ele não pertence inteiramente. Habitam locais de beleza diáfana, no seio de antigas florestas ou em torres prateadas que brilham com luz feérica, onde música suave ecoa no ar e leves fragrâncias flutuam na brisa. Os elfos amam a natureza e a magia, as artes e o talento artístico, a música, a poesia e todas as boas coisas do mundo.</p><p><strong>Esbeltos e Graciosos</strong></p><p>Com graça sobrenatural e traços finos, os elfos parecem assombrosamente belos aos olhos humanos e aos de muitas outras raças. São ligeiramente mais baixos que os humanos, variando de um pouco menos de 1,5 metro até um pouco mais de 1,8 metro. Também são mais esguios que os humanos, pesando entre 50 e 72 quilos. Elfos e elfas têm quase a mesma altura, embora os membros do sexo masculino sejam ligeiramente mais pesados.</p><p>A cor da sua pele varia do mesmo modo que para os humanos, incluindo tons de cobre, bronze e branco-azulado, com cabelos que podem ser verdes ou azuis e olhos que lembram lagos de ouro e prata. Possuem poucos pelos no corpo e são imberbes. Preferem roupas elegantes e de cores vivas, além de apreciarem joias simples, porém belas.</p><p><strong>Uma Perspectiva Atemporal</strong></p><p>Os elfos podem viver muito além dos 700 anos, o que lhes dá uma perspectiva mais ampla sobre eventos que poderiam perturbar raças menos longevas. Costumam ficar mais intrigados do que empolgados, e são quase sempre mais curiosos do que gananciosos. Tendem a permanecer distantes e impávidos diante de fatos corriqueiros. No entanto, quando perseguem um objetivo, seja numa aventura ou ao aprenderem uma nova arte ou habilidade, costumam ser focados e incansáveis.</p><p>Elfos demoram a fazer amigos e inimigos, mas demoram ainda mais para esquecê-los. De um modo geral, respondem a insultos leves com desdém, e a insultos graves com vingança. Assim como os galhos de uma árvore jovem, são flexíveis diante do perigo. Confiam na diplomacia e na negociação como formas de resolver conflitos antes que escalem para a violência. Evitam contato com intrusos, muitas vezes recolhendo-se aos seus refúgios silvestres, onde aguardam pacientemente que os invasores se retirem. Mas quando surge a necessidade, revelam sua face marcial, demonstrando habilidade com a espada, o arco e a estratégia.</p><p><strong>Reinos Ocultos na Floresta</strong></p><p>A maioria dos elfos habita pequenas aldeias escondidas entre as árvores. Eles caçam, coletam e cultivam seus alimentos usando engenho e magia para se sustentarem, sem a necessidade de desmatar ou mesmo arar a terra. São artesãos talentosos, criando roupas e objetos de arte finamente decorados. Seu contato com estrangeiros costuma ser limitado, embora alguns dentre eles levem uma boa vida negociando itens artesanais em troca de metais (já que não têm interesse na mineração).</p><p>Os elfos encontrados fora de suas terras costumam ser menestréis, artistas ou sábios errantes. Nobres humanos competem pela contratação de tutores elfos, que ensinam esgrima ou magia aos seus filhos.</p><p><strong>Exploração e Aventura</strong></p><p>Elfos se aventuram devido ao seu desejo de explorar o mundo. Por terem uma vida tão longa, podem desfrutar de séculos de viagens e descobertas. Eles não apreciam o ritmo da sociedade humana, ao mesmo tempo entediante e mutável ao longo das décadas, o que os leva a buscar carreiras que lhes permitam viajar livremente. Também gostam de exercitar suas habilidades marciais ou ampliar seus poderes mágicos, objetivos que a vida de aventureiro lhes permite atingir. Alguns podem ser rebeldes que lutam contra a opressão, enquanto outros se tornam campeões de causas nobres.</p><p>Embora possam ser arrogantes, os elfos tendem a ser graciosos mesmo com aqueles que não correspondem às suas altas expectativas — normalmente os membros de outras raças. Ainda assim, são capazes de enxergar o bem em qualquer um.</p><p><em>Anões.</em> \"Os anões são brutos, grosseiros e enfadonhos. Mas o que lhes falta em humor, sofisticação e boas maneiras, sobra em coragem. E devo admitir, seus melhores ferreiros produzem trabalhos que se aproximam das artes élficas.\"</p><p><em>Pequeninos.</em> \"Os pequeninos são um povo de gostos simples, e essa não é uma qualidade que se menospreze. São boa gente, cuidam uns dos outros e dos seus jardins, e já se provaram mais tenazes do que aparentam quando a necessidade surge.\"</p><p><em>Humanos.</em> \"Toda aquela pressa, ambição e vontade de completar alguma coisa antes que suas vidas breves se encerrem — às vezes, os esforços humanos parecem tão fúteis. Mas aí você olha para suas realizações e não tem outra opção a não ser apreciá-las. Se ao menos eles diminuíssem o ritmo e desenvolvessem um pouco de requinte.\"</p><p><strong>Nomes Élficos</strong></p><p>Os elfos são considerados crianças até que, em algum momento após o centésimo aniversário, decidem se autodeclarar adultos. Antes disso, são chamados por seus nomes de infância.</p><p>Ao declarar a idade adulta, um elfo também escolhe um nome de adulto, embora aqueles que o conheceram jovem possam continuar a chamá-lo pelo nome de criança. Cada nome adulto é uma criação única, embora possa refletir os nomes de indivíduos respeitados ou membros da família. Há pouca diferença entre nomes masculinos e femininos. As listas a seguir refletem apenas tendências gerais. Além disso, cada indivíduo possui um sobrenome, geralmente uma combinação de palavras élficas. Alguns elfos que viajam entre os humanos traduzem seus sobrenomes para o idioma Comum, enquanto outros utilizam a versão élfica.</p><p><strong>Nomes de Infância:</strong> Ara, Bryn, Del, Eryn, Faen, Innil, Lael, Mella, Naill, Naeris, Phann, Rael, Rinn, Sai, Syllin, Thia, Vall</p><p><strong>Nomes Adultos Masculinos:</strong> Adran, Aelar, Aramil, Arannis, Aust, Beiro, Berrian, Carric, Enialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis</p><p><strong>Nomes Adultos Femininos:</strong> Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, Enna, Felosial, Ielenia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, Valanthe, Xanaphia</p><p><strong>Sobrenomes (possíveis traduções no idioma Comum):</strong> Amakiir (Gema Florida), Amastacia (Estrela Florida), Galanodel (Sussurro Noturno), Holimion (Orvalho Adamântico), Ilphelkiir (Pétala Preciosa), Liadon (Folha Argêntea), Meliamne (Calcanhar D'Querco), Nailo (Brisa Noturna), Siannodel (Riacho Lunar), Xiloscient (Pétala Áurea).</p>",
+    "en": "<p>“I have never imagined such beauty existed,” Goldmoon said softly. The day’s march had been difficult, but the reward at the end was beyond their dreams. The companions stood on a high cliff over the fabled city of Qualinost.</p><p>Four slender spires rose from the city’s corners like glistening spindles, their brilliant white stone marbled with shining silver. Graceful arches, swooping from spire to spire, soared through the air. Crafted by ancient dwarven metalsmiths, they were strong enough to hold the weight of an army, yet they appeared so delicate that a bird lighting on them might overthrow the balance. These glistening arches were the city’s only boundaries; there was no wall around Qualinost. The elven city opened its arms lovingly to the wilderness.</p><p>— <em>Margaret Weis &amp; Tracy Hickman, Dragons of Autumn Twilight</em></p><p>Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. They live in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry, music and poetry, and the good things of the world.</p><p><strong>Slender and Graceful</strong></p><p>With their unearthly grace and fine features, elves appear hauntingly beautiful to humans and members of many other races. They are slightly shorter than humans on average, ranging from well under 5 feet tall to just over 6 feet. They are more slender than humans, weighing only 100 to 145 pounds. Males and females are about the same height, and males are only marginally heavier than females.</p><p>Elves’ coloration encompasses the normal human range and also includes skin in shades of copper, bronze, and almost bluish-white, hair of green or blue, and eyes like pools of liquid gold or silver. Elves have no facial and little body hair. They favor elegant clothing in bright colors, and they enjoy simple yet lovely jewelry.</p><p><strong>A Timeless Perspective</strong></p><p>Elves can live well over 700 years, giving them a broad perspective on events that might trouble the shorter-lived races more deeply. They are more often amused than excited, and more likely to be curious than greedy. They tend to remain aloof and unfazed by petty happenstance. When pursuing a goal, however, whether adventuring on a mission or learning a new skill or art, elves can be focused and relentless. They are slow to make friends and enemies, and even slower to forget them. They reply to petty insults with disdain and to serious insults with vengeance.</p><p>Like the branches of a young tree, elves are flexible in the face of danger. They trust in diplomacy and compromise to resolve differences before they escalate to violence. They have been known to retreat from intrusions into their woodland homes, confident that they can simply wait the invaders out. But when the need arises, elves reveal a stern martial side, demonstrating skill with sword, bow, and strategy.</p><p><strong>Hidden Woodland Realms</strong></p><p>Most elves dwell in small forest villages hidden among the trees. Elves hunt game, gather food, and grow vegetables, and their skill and magic allow them to support themselves without the need for clearing and plowing land. They are talented artisans, crafting finely worked clothes and art objects. Their contact with outsiders is usually limited, though a few elves make a good living by trading crafted items for metals (which they have no interest in mining).</p><p>Elves encountered outside their own lands are commonly traveling minstrels, artists, or sages. Human nobles compete for the services of elf instructors to teach swordplay or magic to their children.</p><p><strong>Exploration and Adventure</strong></p><p>Elves take up adventuring out of wanderlust. Since they are so long-lived, they can enjoy centuries of exploration and discovery. They dislike the pace of human society, which is regimented from day to day but constantly changing over decades, so they find careers that let them travel freely and set their own pace. Elves also enjoy exercising their martial prowess or gaining greater magical power, and adventuring allows them to do so. Some might join with rebels fighting against oppression, and others might become champions of moral causes.</p><p><strong>HAUGHTY BUT GRACIOUS</strong></p><p>Although they can be haughty, elves are generally gracious even to those who fall short of their high expectations—which is most non-elves. Still, they can find good in just about anyone.</p><p><em><strong>Dwarves.</strong></em> “Dwarves are dull, clumsy oafs. But what they lack in humor, sophistication, and manners, they make up in valor. And I must admit, their best smiths produce art that approaches elven quality.”</p><p><em><strong>Halflings.</strong></em> “Halflings are people of simple pleasures, and that is not a quality to scorn. They’re good folk, they care for each other and tend their gardens, and they have proven themselves tougher than they seem when the need arises.”</p><p><em><strong>Humans.</strong></em> “All that haste, their ambition and drive to accomplish something before their brief lives pass away—human endeavors seem so futile sometimes. But then you look at what they have accomplished, and you have to appreciate their achievements. If only they could slow down and learn some refinement.”</p><p><strong>Elf Names</strong></p><p>Elves are considered children until they declare themselves adults, some time after the hundredth birthday, and before this period they are called by child names.</p><p>On declaring adulthood, an elf selects an adult name, although those who knew him or her as a youngster might continue to use the child name. Each elf’s adult name is a unique creation, though it might reflect the names of respected individuals or other family members. Little distinction exists between male names and female names; the groupings here reflect only general tendencies. In addition, every elf bears a family name, typically a combination of other Elvish words. Some elves traveling among humans translate their family names into Common, but others retain the Elvish version.</p><p><strong>Child Names:</strong> Ara, Bryn, Del, Eryn, Faen, Innil, Lael, Mella, Naill, Naeris, Phann, Rael, Rinn, Sai, Syllin, Thia, Vall</p><p><strong>Male Adult Names:</strong> Adran, Aelar, Aramil, Arannis, Aust, Beiro, Berrian, Carric, Enialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis</p><p><strong>Female Adult Names:</strong> Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, Enna, Felosial, Ielenia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, Valanthe, Xanaphia</p><p><strong>Family Names (Common Translations):</strong> Amakiir (Gemflower), Amastacia (Starflower), Galanodel (Moonwhisper), Holimion (Diamonddew), Ilphelkiir (Gemblossom), Liadon (Silverfrond), Meliamne (Oakenheel), Naïlo (Nightbreeze), Siannodel (Moonbrook), Xiloscient (Goldpetal)</p>"
   },
-  {
-   "slug": "drow",
-   "name": {
-    "pt": "elfo obscuro (drow)",
-    "en": "Drow"
-   },
-   "source": {
-    "pt": {
-     "book": "LDJ",
-     "page": 24
+  "traits": [
+    {
+      "key": "ability-score-increase",
+      "name": {
+        "pt": "aumento no valor de atributo",
+        "en": "Ability Score Increase"
+      },
+      "html": {
+        "pt": "<p>Seu valor de Destreza aumenta em 2.</p>",
+        "en": "<p>Your Dexterity score increases by 2.</p>"
+      }
     },
-    "en": {
-     "book": "PHB",
-     "page": 24
+    {
+      "key": "age",
+      "name": {
+        "pt": "idade",
+        "en": "Age"
+      },
+      "html": {
+        "pt": "<p>Apesar de os elfos atingirem a maturidade física praticamente na mesma idade que os humanos, sua compreensão da vida adulta vai além do crescimento físico, abarcando também vivência e maturidade. Um elfo normalmente reivindica sua maioridade e seu nome adulto com cerca de 100 anos, podendo viver até os 750 anos de idade.</p>",
+        "en": "<p>Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.</p>"
+      }
+    },
+    {
+      "key": "alignment",
+      "name": {
+        "pt": "alinhamento",
+        "en": null
+      },
+      "html": {
+        "pt": "<p>Elfos amam a liberdade, a variedade e a autoexpressão, por isso têm uma forte inclinação para os aspectos mais sutis do caos. Eles valorizam e protegem tanto a sua própria liberdade quanto a de terceiros, sendo mais frequentemente bons do que maus. Os drow são uma exceção; seu exílio os tornou perigosos e maliciosos. Os membros dessa sub-raça têm mais tendência a serem maus do que bons.</p>",
+        "en": null
+      }
+    },
+    {
+      "key": "size",
+      "name": {
+        "pt": "tamanho",
+        "en": "Size"
+      },
+      "html": {
+        "pt": "<p>Seu tamanho é Médio. Os elfos são esguios e sua altura varia entre 1,5 e 1,8 metro.</p>",
+        "en": "<p>Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.</p>"
+      }
+    },
+    {
+      "key": "speed",
+      "name": {
+        "pt": "deslocamento",
+        "en": "Speed"
+      },
+      "html": {
+        "pt": "<p>Seu deslocamento básico é de 9 metros.</p>",
+        "en": "<p>Your base walking speed is 30 feet.</p>"
+      }
+    },
+    {
+      "key": "darkvision",
+      "name": {
+        "pt": "visão no escuro",
+        "en": "Darkvision"
+      },
+      "html": {
+        "pt": "<p>Acostumado a florestas sombreadas e céus noturnos, você tem visão superior no escuro, podendo enxergar até 18 metros na meia-luz como se fosse dia e, na escuridão, como se fosse meia-luz. Na escuridão, você só consegue discernir tons de cinza.</p>",
+        "en": "<p>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>"
+      }
+    },
+    {
+      "key": "keen-senses",
+      "name": {
+        "pt": "sentidos aguçados",
+        "en": "Keen Senses"
+      },
+      "html": {
+        "pt": "<p>Você é proficiente na perícia Percepção.</p>",
+        "en": "<p>You have proficiency in the Perception skill.</p>"
+      }
+    },
+    {
+      "key": "fey-ancestry",
+      "name": {
+        "pt": "ancestralidade feérica",
+        "en": "Fey Ancestry"
+      },
+      "html": {
+        "pt": "<p>Nenhum tipo de magia pode colocá-lo para dormir, e você tem vantagem em salvaguardas contra ser enfeitiçado.</p>",
+        "en": "<p>You have advantage on saving throws against being charmed, and magic can’t put you to sleep.</p>"
+      }
+    },
+    {
+      "key": "trance",
+      "name": {
+        "pt": "transe",
+        "en": "Trance"
+      },
+      "html": {
+        "pt": "<p>Elfos não precisam dormir. Em vez disso, meditam profundamente, permanecendo semiconscientes 4 horas ao dia. (A expressão comum para tal meditação é \"transe\"). Enquanto medita, você pode sonhar, de certo modo; tais sonhos são, na verdade, exercícios mentais que passaram a ser quase involuntários após anos de prática. Depois de descansar dessa forma, você obtém os mesmos benefícios que um ser humano obtém após 8 horas de sono.</p>",
+        "en": "<p>Elves don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</p>"
+      }
+    },
+    {
+      "key": "languages",
+      "name": {
+        "pt": "idiomas",
+        "en": "Languages"
+      },
+      "html": {
+        "pt": "<p>Você fala, lê e escreve Comum e Élfico. O Élfico é fluido, com entonações sutis e gramática complexa. A literatura élfica é rica e variada, com canções e poemas famosos entre outras raças. Muitos bardos aprendem essa língua para poderem adicionar canções élficas ao seu repertório.</p>",
+        "en": "<p>You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.</p>"
+      }
+    },
+    {
+      "key": "subrace",
+      "name": {
+        "pt": "sub-raças",
+        "en": "Subrace"
+      },
+      "html": {
+        "pt": "<p>Antigas divisões entre os povos élficos resultaram em três sub-raças principais: os altos elfos, os elfos silvestres e os elfos obscuros, que são comumente chamados de drow. Você deve escolher uma dessas sub-raças. Em alguns mundos, elas são ainda mais divididas (como os elfos solares e os elfos lunares em Forgotten Realms), logo, se você desejar, pode escolher uma sub-raça ainda mais específica.</p>",
+        "en": "<p>Ancient divides among the elven people resulted in three main subraces: high elves, wood elves, and dark elves, who are commonly called drow. Choose one of the two subraces presented below or one from another source. In some worlds, these subraces are divided still further (such as the sun elves and moon elves of the Forgotten Realms), so if you wish, you can choose a narrower subrace.</p>"
+      }
     }
-   },
-   "intro_html": {
-    "pt": "<p>Descendentes de uma antiga sub-raça de elfos de pele escura, os drow foram banidos da superfície por seguirem a deusa Lolth no caminho do mal e da corrupção. Depois disso, construíram sua própria civilização nas profundezas da Umbreterna, moldados pelo Caminho de Lolth. Também conhecidos como elfos obscuros, os membros desta sub-raça possuem pele negra como a obsidiana polida e cabelos brancos opacos ou de um amarelo pálido. Normalmente possuem olhos muito pálidos (tão pálidos que são confundidos com olhos brancos) com tons de lilás, prata, rosa, vermelho e azul. Costumam ser mais baixos e magros que a maioria dos elfos.</p><p>Aventureiros drow são raros. Verifique com seu DM a disponibilidade desta sub-raça para personagens dos jogadores.</p><p>Se não fosse por uma única exceção conhecida, a raça dos drow seria universalmente malvista. Para a imensa maioria, eles são uma raça de saqueadores e adoradores de demônios, que habita as profundezas subterrâneas da Umbreterna, emergindo apenas nas noites mais escuras para pilhar e massacrar os habitantes da superfície, a quem desprezam. Sua sociedade é depravada e obcecada por Lolth, a deusa-aranha, que permite o assassinato e o extermínio de famílias inteiras, quando as casas nobres disputam posições sociais.</p><p>No entanto, pelo menos um drow quebrou esse estereótipo. Drizzt Do'Urden, guardião do Norte, no mundo de Forgotten Realms, provou sua boa índole como defensor dos fracos e inocentes. Rejeitando sua herança, e perdido em um mundo que o enxerga com horror e aversão, Drizzt é um modelo para os poucos drow que seguem seus passos, tentando buscar uma vida independente das sociedades malignas da Umbreterna.</p><p>Os drow crescem acreditando que as raças da superfície são inferiores, servindo apenas como escravos. Aqueles que desenvolvem uma consciência, ou acham necessário cooperar com membros das outras raças, encontram dificuldade em sobrepujar tal preconceito, especialmente por serem muitas vezes recebidos com desconfiança e ódio.</p>",
-    "en": "<p>As a drow, you are infused with the magic of the Underdark, an underground realm of wonders and horrors rarely seen on the surface above. You are at home in shadows and, thanks to your innate magic, learn to conjure forth both light and darkness. Your kin tend to have stark white hair and grayish skin of many hues.</p><p>The cult of the god Lolth, Queen of Spiders, has corrupted some of the oldest drow cities, especially in the worlds of Oerth and Toril. Eberron, Krynn, and other realms have escaped the cult’s influence—for now. Wherever the cult lurks, drow heroes stand on the front lines in the war against it, seeking to sunder Lolth’s web.</p>"
-   },
-   "traits": [
+  ],
+  "subraces": [
     {
-     "key": "ability-score-increase",
-     "name": {
-      "pt": "aumento no valor de atributo",
-      "en": "Ability Score Increase"
-     },
-     "html": {
-      "pt": "<p>O valor do seu Carisma aumenta em 1.</p>",
-      "en": "<p>Your Charisma score increases by 1.</p>"
-     }
+      "slug": "high-elf",
+      "name": {
+        "pt": "alto elfo",
+        "en": "High Elf"
+      },
+      "source": {
+        "pt": {
+          "book": "LDJ",
+          "page": 23
+        },
+        "en": {
+          "book": "PHB",
+          "page": 23
+        }
+      },
+      "intro_html": {
+        "pt": "<p>Na qualidade de alto elfo, você possui uma mente perspicaz e o domínio dos fundamentos da magia. Em muitos dos mundos de D&amp;D, existem dois tipos de altos elfos. Um deles (que inclui os elfos cinzentos e os elfos do vale de Greyhawk, os Silvanesti de Dragonlance e os elfos solares de Forgotten Realms) é arrogante e recluso, acreditando-se superior às demais raças e até mesmo a outros elfos. O outro tipo (como os altos elfos de Greyhawk, os Qualinesti de Dragonlance e os elfos lunares de Forgotten Realms) é mais comum e amigável, muitas vezes sendo encontrado entre humanos e outras raças.</p><p>Os elfos solares de Faerûn (também chamados de elfos áureos ou elfos do alvorecer) têm pele bronzeada e cabelos acobreados, negros ou dourados. Seus olhos são dourados, prateados ou negros. Os elfos lunares (também chamados de elfos argênteos ou elfos cinzentos) são muito mais pálidos, com pele de alabastro, por vezes tingida de azul. Costumam ter cabelos de um branco prateado, negros ou azuis, embora diversos tons de loiro, castanho e vermelho sejam comuns. Seus olhos são azuis ou verdes com manchas douradas.</p>",
+        "en": "<p>As a high elf, you have a keen mind and a mastery of at least the basics of magic. In many of the worlds of D&amp;D, there are two kinds of high elves. One type (which includes the gray elves and valley elves of Greyhawk, the Silvanesti of Dragonlance, and the sun elves of the Forgotten Realms) is haughty and reclusive, believing themselves to be superior to non-elves and even other elves. The other type (including the high elves of Greyhawk, the Qualinesti of Dragonlance, and the moon elves of the Forgotten Realms) are more common and more friendly, and often encountered among humans and other races.</p><p>The sun elves of Faerûn (also called gold elves or sunrise elves) have bronze skin and hair of copper, black, or golden blond. Their eyes are golden, silver, or black. Moon elves (also called silver elves or gray elves) are much paler, with alabaster skin sometimes tinged with blue. They often have hair of silver-white, black, or blue, but various shades of blond, brown, and red are not uncommon. Their eyes are blue or green and flecked with gold.</p>"
+      },
+      "traits": [
+        {
+          "key": "ability-score-increase",
+          "name": {
+            "pt": "aumento no valor de atributo",
+            "en": "Ability Score Increase"
+          },
+          "html": {
+            "pt": "<p>O valor de sua Inteligência é aumentado em 1.</p>",
+            "en": "<p>Your Intelligence score increases by 1.</p>"
+          }
+        },
+        {
+          "key": "elf-weapon-training",
+          "name": {
+            "pt": "treinamento élfico com armas",
+            "en": "Elf Weapon Training"
+          },
+          "html": {
+            "pt": "<p>Você é proficiente com espada longa, espada curta, arco curto e arco longo.</p>",
+            "en": "<p>You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>"
+          }
+        },
+        {
+          "key": "cantrip",
+          "name": {
+            "pt": "truque",
+            "en": "Cantrip"
+          },
+          "html": {
+            "pt": "<p>Você conhece um truque da lista de magias de mago, à sua escolha. Inteligência é o atributo usado na conjuração.</p>",
+            "en": "<p>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</p>"
+          }
+        },
+        {
+          "key": "extra-language",
+          "name": {
+            "pt": "idioma extra",
+            "en": "Extra Language"
+          },
+          "html": {
+            "pt": "<p>Você pode falar, ler e escrever um idioma adicional à sua escolha.</p>",
+            "en": "<p>You can speak, read, and write one extra language of your choice.</p>"
+          }
+        }
+      ]
     },
     {
-     "key": "superior-darkvision",
-     "name": {
-      "pt": "visão no escuro aprimorada",
-      "en": "Superior Darkvision"
-     },
-     "html": {
-      "pt": "<p>Sua visão no escuro tem um alcance maior, atingindo até 36 metros.</p>",
-      "en": "<p>Your darkvision has a radius of 120 feet.</p>"
-     }
+      "slug": "wood-elf",
+      "name": {
+        "pt": "elfo silvestre",
+        "en": "Wood Elf"
+      },
+      "source": {
+        "pt": {
+          "book": "LDJ",
+          "page": 24
+        },
+        "en": {
+          "book": "PHB",
+          "page": 24
+        }
+      },
+      "intro_html": {
+        "pt": "<p>Como um elfo silvestre, você possui sentidos e intuição aguçados. Seus pés ágeis guiam-no rápida e furtivamente através das suas florestas nativas. Esta sub-raça inclui os elfos selvagens (grugach) de Greyhawk e os Kagonesti de Dragonlance, bem como as raças chamadas de elfos da floresta em Greyhawk e em Forgotten Realms. Em Faerûn, os elfos silvestres (também chamados de elfos selvagens, elfos verdes ou elfos do bosque) são reclusos e desconfiam dos não-elfos.</p><p>A pele dos elfos silvestres tende a ser de matiz acobreado, algumas vezes com traços de verde. Seus cabelos costumam ser castanhos ou negros, mas ocasionalmente podem ser loiros ou cor de cobre. Seus olhos são verdes, castanhos ou cor de avelã.</p>",
+        "en": "<p>As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests. This category includes the wild elves (grugach) of Greyhawk and the Kagonesti of Dragonlance, as well as the races called wood elves in Greyhawk and the Forgotten Realms. In Faerûn, wood elves (also called wild elves, green elves, or forest elves) are reclusive and distrusting of non-elves.</p><p>Wood elves’ skin tends to be copperish in hue, sometimes with traces of green. Their hair tends toward browns and blacks, but it is occasionally blond or copper-colored. Their eyes are green, brown, or hazel.</p>"
+      },
+      "traits": [
+        {
+          "key": "ability-score-increase",
+          "name": {
+            "pt": "aumento no valor de atributo",
+            "en": "Ability Score Increase"
+          },
+          "html": {
+            "pt": "<p>Seu valor de Sabedoria aumenta em 1.</p>",
+            "en": "<p>Your Wisdom score increases by 1.</p>"
+          }
+        },
+        {
+          "key": "elf-weapon-training",
+          "name": {
+            "pt": "treinamento élfico com armas",
+            "en": "Elf Weapon Training"
+          },
+          "html": {
+            "pt": "<p>Você é proficiente com espada curta, espada longa, arco curto e arco longo.</p>",
+            "en": "<p>You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>"
+          }
+        },
+        {
+          "key": "fleet-of-foot",
+          "name": {
+            "pt": "pés velozes",
+            "en": "Fleet of Foot"
+          },
+          "html": {
+            "pt": "<p>Seu deslocamento base é de 10,5 metros.</p>",
+            "en": "<p>Your base walking speed increases to 35 feet.</p>"
+          }
+        },
+        {
+          "key": "mask-of-the-wild",
+          "name": {
+            "pt": "máscara da natureza",
+            "en": "Mask of the Wild"
+          },
+          "html": {
+            "pt": "<p>Você pode tentar se esconder mesmo quando estiver parcialmente obscurecido apenas por folhagem, chuva forte, neve em queda, névoa ou outro fenômeno natural.</p>",
+            "en": "<p>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>"
+          }
+        }
+      ]
     },
     {
-     "key": "sunlight-sensitivity",
-     "name": {
-      "pt": "sensibilidade à luz solar",
-      "en": "Sunlight Sensitivity"
-     },
-     "html": {
-      "pt": "<p>Você possui desvantagem nas jogadas de ataque e nos testes de Sabedoria (Percepção) relacionados à visão quando você, o alvo do seu ataque ou qualquer coisa que esteja tentando perceber estiver sob luz solar direta.</p>",
-      "en": "<p>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>"
-     }
+      "slug": "drow",
+      "name": {
+        "pt": "elfo obscuro (drow)",
+        "en": "Drow"
+      },
+      "source": {
+        "pt": {
+          "book": "LDJ",
+          "page": 24
+        },
+        "en": {
+          "book": "PHB",
+          "page": 24
+        }
+      },
+      "intro_html": {
+        "pt": "<p>Descendentes de uma antiga sub-raça de elfos de pele escura, os drow foram banidos da superfície por seguirem a deusa Lolth no caminho do mal e da corrupção. Depois disso, construíram sua própria civilização nas profundezas da Umbreterna, moldados pelo Caminho de Lolth. Também conhecidos como elfos obscuros, os membros desta sub-raça possuem pele negra como a obsidiana polida e cabelos brancos opacos ou de um amarelo pálido. Normalmente possuem olhos muito pálidos (tão pálidos que são confundidos com olhos brancos) com tons de lilás, prata, rosa, vermelho e azul. Costumam ser mais baixos e magros que a maioria dos elfos.</p><p>Aventureiros drow são raros. Verifique com seu DM a disponibilidade desta sub-raça para personagens dos jogadores.</p><p>Se não fosse por uma única exceção conhecida, a raça dos drow seria universalmente malvista. Para a imensa maioria, eles são uma raça de saqueadores e adoradores de demônios, que habita as profundezas subterrâneas da Umbreterna, emergindo apenas nas noites mais escuras para pilhar e massacrar os habitantes da superfície, a quem desprezam. Sua sociedade é depravada e obcecada por Lolth, a deusa-aranha, que permite o assassinato e o extermínio de famílias inteiras, quando as casas nobres disputam posições sociais.</p><p>No entanto, pelo menos um drow quebrou esse estereótipo. Drizzt Do'Urden, guardião do Norte, no mundo de Forgotten Realms, provou sua boa índole como defensor dos fracos e inocentes. Rejeitando sua herança, e perdido em um mundo que o enxerga com horror e aversão, Drizzt é um modelo para os poucos drow que seguem seus passos, tentando buscar uma vida independente das sociedades malignas da Umbreterna.</p><p>Os drow crescem acreditando que as raças da superfície são inferiores, servindo apenas como escravos. Aqueles que desenvolvem uma consciência, ou acham necessário cooperar com membros das outras raças, encontram dificuldade em sobrepujar tal preconceito, especialmente por serem muitas vezes recebidos com desconfiança e ódio.</p>",
+        "en": "<p>As a drow, you are infused with the magic of the Underdark, an underground realm of wonders and horrors rarely seen on the surface above. You are at home in shadows and, thanks to your innate magic, learn to conjure forth both light and darkness. Your kin tend to have stark white hair and grayish skin of many hues.</p><p>The cult of the god Lolth, Queen of Spiders, has corrupted some of the oldest drow cities, especially in the worlds of Oerth and Toril. Eberron, Krynn, and other realms have escaped the cult’s influence—for now. Wherever the cult lurks, drow heroes stand on the front lines in the war against it, seeking to sunder Lolth’s web.</p>"
+      },
+      "traits": [
+        {
+          "key": "ability-score-increase",
+          "name": {
+            "pt": "aumento no valor de atributo",
+            "en": "Ability Score Increase"
+          },
+          "html": {
+            "pt": "<p>O valor do seu Carisma aumenta em 1.</p>",
+            "en": "<p>Your Charisma score increases by 1.</p>"
+          }
+        },
+        {
+          "key": "superior-darkvision",
+          "name": {
+            "pt": "visão no escuro aprimorada",
+            "en": "Superior Darkvision"
+          },
+          "html": {
+            "pt": "<p>Sua visão no escuro tem um alcance maior, atingindo até 36 metros.</p>",
+            "en": "<p>Your darkvision has a radius of 120 feet.</p>"
+          }
+        },
+        {
+          "key": "sunlight-sensitivity",
+          "name": {
+            "pt": "sensibilidade à luz solar",
+            "en": "Sunlight Sensitivity"
+          },
+          "html": {
+            "pt": "<p>Você possui desvantagem nas jogadas de ataque e nos testes de Sabedoria (Percepção) relacionados à visão quando você, o alvo do seu ataque ou qualquer coisa que esteja tentando perceber estiver sob luz solar direta.</p>",
+            "en": "<p>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>"
+          }
+        },
+        {
+          "key": "drow-magic",
+          "name": {
+            "pt": "magia drow",
+            "en": "Drow Magic"
+          },
+          "html": {
+            "pt": "<p>Você possui o truque <em>luzes dançantes</em>. Ao alcançar o 3º nível, torna-se capaz de lançar a magia <em>fogo das fadas</em> uma vez e recuperar a habilidade de fazê-lo ao fim de um descanso longo. Ao alcançar o 5º nível, pode conjurar <em>escuridão</em> uma vez por dia. O atributo usado para a conjuração dessas magias é Carisma.</p>",
+            "en": "<p>You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>"
+          }
+        },
+        {
+          "key": "drow-weapon-training",
+          "name": {
+            "pt": "treinamento drow com armas",
+            "en": "Drow Weapon Training"
+          },
+          "html": {
+            "pt": "<p>Você é proficiente com rapieiras, espadas curtas e bestas de mão.</p>",
+            "en": "<p>You have proficiency with rapiers, shortswords, and hand crossbows.</p>"
+          }
+        }
+      ]
     },
     {
-     "key": "drow-magic",
-     "name": {
-      "pt": "magia drow",
-      "en": "Drow Magic"
-     },
-     "html": {
-      "pt": "<p>Você possui o truque <em>luzes dançantes</em>. Ao alcançar o 3º nível, torna-se capaz de lançar a magia <em>fogo das fadas</em> uma vez e recuperar a habilidade de fazê-lo ao fim de um descanso longo. Ao alcançar o 5º nível, pode conjurar <em>escuridão</em> uma vez por dia. O atributo usado para a conjuração dessas magias é Carisma.</p>",
-      "en": "<p>You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>"
-     }
-    },
-    {
-     "key": "drow-weapon-training",
-     "name": {
-      "pt": "treinamento drow com armas",
-      "en": "Drow Weapon Training"
-     },
-     "html": {
-      "pt": "<p>Você é proficiente com rapieiras, espadas curtas e bestas de mão.</p>",
-      "en": "<p>You have proficiency with rapiers, shortswords, and hand crossbows.</p>"
-     }
+      "slug": "eladrin",
+      "name": {
+        "pt": "eladrin",
+        "en": "Eladrin"
+      },
+      "source": {
+        "pt": {
+          "book": "LDM",
+          "page": 286
+        },
+        "en": {
+          "book": "DMG",
+          "page": 286
+        }
+      },
+      "intro_html": {
+        "pt": "<p>Criaturas de magia com fortes laços com a natureza, os eladrin vivem no reino crepuscular de Faéria. Às vezes, as suas cidades cruzam o Plano Material, aparecendo brevemente em vales de montanha ou em clareiras no seio de florestas profundas, antes de desaparecerem de volta à Faéria.</p>",
+        "en": "<p>Creatures of magic with strong ties to nature, eladrin live in the twilight realm of the Feywild. Their cities sometimes cross over to the Material Plane, appearing briefly in mountain valleys or deep forest glades before fading back into the Feywild.</p>"
+      },
+      "traits": [
+        {
+          "key": "ability-score-increase",
+          "name": {
+            "pt": "aumento no valor do atributo",
+            "en": "Ability Score Increase"
+          },
+          "html": {
+            "pt": "<p>Seu valor de Inteligência aumenta em 1.</p>",
+            "en": "<p>Your Intelligence score increases by 1.</p>"
+          }
+        },
+        {
+          "key": "elf-weapon-training",
+          "name": {
+            "pt": "proficiência élfica com armas",
+            "en": "Elf Weapon Training"
+          },
+          "html": {
+            "pt": "<p>Você tem proficiência com a espada longa, espada curta, arco curto e arco longo.</p>",
+            "en": "<p>You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>"
+          }
+        },
+        {
+          "key": "fey-step",
+          "name": {
+            "pt": "passo feérico",
+            "en": "Fey Step"
+          },
+          "html": {
+            "pt": "<p>Você pode conjurar a magia <em>passo nebuloso</em> uma vez usando este traço racial. Você recupera a capacidade de fazê-lo ao terminar um descanso curto ou longo.</p>",
+            "en": "<p>You can cast the misty step spell once using this trait. You regain the ability to do so when you finish a short or long rest.</p>"
+          }
+        }
+      ]
     }
-   ]
-  },
-  {
-   "slug": "eladrin",
-   "name": {
-    "pt": "eladrin",
-    "en": "Eladrin"
-   },
-   "source": {
-    "pt": {
-     "book": "LDM",
-     "page": 286
+  ],
+  "spells": [
+    {
+      "level": 1,
+      "names_pt": ["luzes dançantes"],
+      "names_en": ["dancing lights"],
+      "regularity": {
+        "pt": "truque (drow)",
+        "en": "cantrip (drow)"
+      }
     },
-    "en": {
-     "book": "DMG",
-     "page": 286
+    {
+      "level": 3,
+      "names_pt": ["fogo das fadas"],
+      "names_en": ["faerie fire"],
+      "regularity": {
+        "pt": "1 vez por descanso longo (drow)",
+        "en": null
+      }
+    },
+    {
+      "level": 5,
+      "names_pt": ["escuridão"],
+      "names_en": ["darkness"],
+      "regularity": {
+        "pt": "1 vez por dia (drow)",
+        "en": null
+      }
+    },
+    {
+      "level": 1,
+      "names_pt": ["um truque da lista de magias de mago, à sua escolha"],
+      "names_en": [],
+      "regularity": {
+        "pt": "truque (alto elfo; Inteligência)",
+        "en": "cantrip (high elf; Intelligence)"
+      }
+    },
+    {
+      "level": 1,
+      "names_pt": ["passo nebuloso"],
+      "names_en": ["misty step"],
+      "regularity": {
+        "pt": "1 vez por descanso curto ou longo (eladrin)",
+        "en": null
+      }
     }
-   },
-   "intro_html": {
-    "pt": "<p>Criaturas de magia com fortes laços com a natureza, os eladrin vivem no reino crepuscular de Faéria. Às vezes, as suas cidades cruzam o Plano Material, aparecendo brevemente em vales de montanha ou em clareiras no seio de florestas profundas, antes de desaparecerem de volta à Faéria.</p>",
-    "en": "<p>Creatures of magic with strong ties to nature, eladrin live in the twilight realm of the Feywild. Their cities sometimes cross over to the Material Plane, appearing briefly in mountain valleys or deep forest glades before fading back into the Feywild.</p>"
-   },
-   "traits": [
-    {
-     "key": "ability-score-increase",
-     "name": {
-      "pt": "aumento no valor do atributo",
-      "en": "Ability Score Increase"
-     },
-     "html": {
-      "pt": "<p>Seu valor de Inteligência aumenta em 1.</p>",
-      "en": "<p>Your Intelligence score increases by 1.</p>"
-     }
-    },
-    {
-     "key": "elf-weapon-training",
-     "name": {
-      "pt": "proficiência élfica com armas",
-      "en": "Elf Weapon Training"
-     },
-     "html": {
-      "pt": "<p>Você tem proficiência com a espada longa, espada curta, arco curto e arco longo.</p>",
-      "en": "<p>You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>"
-     }
-    },
-    {
-     "key": "fey-step",
-     "name": {
-      "pt": "passo feérico",
-      "en": "Fey Step"
-     },
-     "html": {
-      "pt": "<p>Você pode conjurar a magia <em>passo nebuloso</em> uma vez usando este traço racial. Você recupera a capacidade de fazê-lo ao terminar um descanso curto ou longo.</p>",
-      "en": "<p>You can cast the misty step spell once using this trait. You regain the ability to do so when you finish a short or long rest.</p>"
-     }
-    }
-   ]
-  }
- ],
- "spells": [
-  {
-   "level": 1,
-   "names_pt": [
-    "luzes dançantes"
-   ],
-   "names_en": [
-    "dancing lights"
-   ],
-   "regularity": {
-    "pt": "truque (drow)",
-    "en": "cantrip (drow)"
-   }
-  },
-  {
-   "level": 3,
-   "names_pt": [
-    "fogo das fadas"
-   ],
-   "names_en": [
-    "faerie fire"
-   ],
-   "regularity": {
-    "pt": "1 vez por descanso longo (drow)",
-    "en": null
-   }
-  },
-  {
-   "level": 5,
-   "names_pt": [
-    "escuridão"
-   ],
-   "names_en": [
-    "darkness"
-   ],
-   "regularity": {
-    "pt": "1 vez por dia (drow)",
-    "en": null
-   }
-  },
-  {
-   "level": 1,
-   "names_pt": [
-    "um truque da lista de magias de mago, à sua escolha"
-   ],
-   "names_en": [],
-   "regularity": {
-    "pt": "truque (alto elfo; Inteligência)",
-    "en": "cantrip (high elf; Intelligence)"
-   }
-  },
-  {
-   "level": 1,
-   "names_pt": [
-    "passo nebuloso"
-   ],
-   "names_en": [
-    "misty step"
-   ],
-   "regularity": {
-    "pt": "1 vez por descanso curto ou longo (eladrin)",
-    "en": null
-   }
-  }
- ]
+  ]
 }

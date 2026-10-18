@@ -1,1 +1,75 @@
-{"slug":"gem-dragonborn","name":{"pt":"draconato gema","en":"Dragonborn (Gem)"},"source":{"pt":{"book":"TDF","page":11},"en":{"book":"FTD","page":11}},"intro_html":{"pt":"<p>Os draconatos gema compartilham a herança dos dragões gema, que afirmam ser herdeiros de Sardior, o Dragão de Rubi. As cores e os poderes misteriosos dos dragões gema - ametista, cristal, esmeralda, safira e topázio - brilham na pele escamosa desses draconatos e correm por suas veias. Eles possuem as maravilhas da mente, a força de vontade, a luz brilhante da intuição e o eco retumbante da descoberta - mas também a dessecação do desespero.</p>","en":"<p>Gem dragonborn partake of the heritage of gem dragons, who claim to be heirs of Sardior, the Ruby Dragon. The colors and mysterious powers of gem dragons—amethyst, crystal, emerald, sapphire, and topaz—gleam in these dragonborn&#x27;s scaled skin and course through their veins. Theirs are the wonders of the mind, the force of will, the brilliant light of insight, and the resounding echo of discovery—but also the desiccation of despair.</p>"},"traits":[{"key":"creature-type","name":{"pt":"tipo de criatura","en":"Creature Type"},"html":{"pt":"<p>Você é um humanoide.</p>","en":"<p>You are a Humanoid.</p>"}},{"key":"size","name":{"pt":"tamanho","en":"Size"},"html":{"pt":"<p>Você é Médio.</p>","en":"<p>You are Medium.</p>"}},{"key":"speed","name":{"pt":"deslocamento","en":"Speed"},"html":{"pt":"<p>Seu deslocamento de caminhada é 9 metros.</p>","en":"<p>Your walking speed is 30 feet.</p>"}},{"key":"gem-ancestry","name":{"pt":"ancestralidade de gema","en":"Gem Ancestry"},"html":{"pt":"<p>Você tem um ancestral dragão gema, que lhe concede uma afinidade especial com a magia. Escolha um tipo de dragão da tabela Ancestralidade de Gema. Isso determina o tipo de dano para seus outros traços, conforme mostrado na tabela.</p><table><thead><tr><th>Dragão</th><th>Tipo de Dano</th></tr></thead><tbody><tr><td>Ametista</td><td>Energético</td></tr><tr><td>Cristal</td><td>Radiante</td></tr><tr><td>Esmeralda</td><td>Psíquico</td></tr><tr><td>Safira</td><td>Trovejante</td></tr><tr><td>Topázio</td><td>Necrótico</td></tr></tbody></table>","en":"<p>You have a gem dragon ancestor, granting you a special magical affinity. Choose one kind of dragon from the Gem Ancestry table. This determines the damage type for your other traits, as shown in the table.</p><table><thead><tr><th>Dragon</th><th>Damage Type</th></tr></thead><tbody><tr><td>Amethyst</td><td>Force</td></tr><tr><td>Crystal</td><td>Radiant</td></tr><tr><td>Emerald</td><td>Psychic</td></tr><tr><td>Sapphire</td><td>Thunder</td></tr><tr><td>Topaz</td><td>Necrotic</td></tr></tbody></table>"}},{"key":"breath-weapon","name":{"pt":"sopro","en":"Breath Weapon"},"html":{"pt":"<p>Quando você realiza a ação Atacar em seu turno, você pode substituir um de seus ataques por uma exalação de energia mágica em um cone de 4,5 metros. Cada criatura nessa área deve fazer uma salvaguarda de Destreza (CD = 8 + seu modificador de Constituição + seu bônus de proficiência). Se falhar na salvaguarda, a criatura sofrerá 1d10 pontos de dano do tipo associado à sua Ancestralidade de Gema. Em uma salvaguarda bem-sucedida, sofre metade do dano. Esse dano aumenta em 1d10 quando você atinge o 5º nível (2d10), 11º nível (3d10) e 17º nível (4d10).</p><p>Você pode usar seu Sopro um número de vezes igual ao seu bônus de proficiência, e recupera todos os usos ao terminar um descanso longo.</p>","en":"<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d10 damage of the type associated with your Gem Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p><p>You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>"}},{"key":"draconic-resistance","name":{"pt":"resistência dracônica","en":"Draconic Resistance"},"html":{"pt":"<p>Você tem resistência ao tipo de dano associado à sua Ancestralidade de Gema.</p>","en":"<p>You have resistance to the damage type associated with your Gem Ancestry.</p>"}},{"key":"psionic-mind","name":{"pt":"mente psiônica","en":"Psionic Mind"},"html":{"pt":"<p>Você pode enviar mensagens telepáticas para qualquer criatura que você possa ver a até 9 metros de você. Você não precisa compartilhar um idioma com a criatura para que ela entenda essas mensagens, mas ela deve ser capaz de entender pelo menos um idioma para compreendê-las.</p>","en":"<p>You can send telepathic messages to any creature you can see within 30 feet of you. You don&#x27;t need to share a language with the creature for it to understand these messages, but it must be able to understand at least one language to comprehend them.</p>"}},{"key":"gem-flight","name":{"pt":"voo de gema","en":"Gem Flight"},"html":{"pt":"<p>A partir do 5º nível, você pode usar uma ação bônus para manifestar asas espectrais em seu corpo. Essas asas duram por 1 minuto. Pela duração, você ganha deslocamento de voo igual ao seu deslocamento de caminhada e pode pairar. Uma vez que você usar este traço, só poderá usá-lo de novo após terminar um descanso longo.</p>","en":"<p>Starting at 5th level, you can use a bonus action to manifest spectral wings on your body. These wings last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can&#x27;t do so again until you finish a long rest.</p>"}}],"subraces":[],"spells":[],"additional_sources":[],"pt_from":null,"size":["M"],"speed":{"ft":30,"m":9.0}}
+{
+  "slug": "gem-dragonborn",
+  "name": { "pt": "draconato gema", "en": "Dragonborn (Gem)" },
+  "source": { "pt": { "book": "TDF", "page": 11 }, "en": { "book": "FTD", "page": 11 } },
+  "intro_html": {
+    "pt": "<p>Os draconatos gema compartilham a herança dos dragões gema, que afirmam ser herdeiros de Sardior, o Dragão de Rubi. As cores e os poderes misteriosos dos dragões gema - ametista, cristal, esmeralda, safira e topázio - brilham na pele escamosa desses draconatos e correm por suas veias. Eles possuem as maravilhas da mente, a força de vontade, a luz brilhante da intuição e o eco retumbante da descoberta - mas também a dessecação do desespero.</p>",
+    "en": "<p>Gem dragonborn partake of the heritage of gem dragons, who claim to be heirs of Sardior, the Ruby Dragon. The colors and mysterious powers of gem dragons—amethyst, crystal, emerald, sapphire, and topaz—gleam in these dragonborn&#x27;s scaled skin and course through their veins. Theirs are the wonders of the mind, the force of will, the brilliant light of insight, and the resounding echo of discovery—but also the desiccation of despair.</p>"
+  },
+  "traits": [
+    {
+      "key": "creature-type",
+      "name": { "pt": "tipo de criatura", "en": "Creature Type" },
+      "html": { "pt": "<p>Você é um humanoide.</p>", "en": "<p>You are a Humanoid.</p>" }
+    },
+    {
+      "key": "size",
+      "name": { "pt": "tamanho", "en": "Size" },
+      "html": { "pt": "<p>Você é Médio.</p>", "en": "<p>You are Medium.</p>" }
+    },
+    {
+      "key": "speed",
+      "name": { "pt": "deslocamento", "en": "Speed" },
+      "html": {
+        "pt": "<p>Seu deslocamento de caminhada é 9 metros.</p>",
+        "en": "<p>Your walking speed is 30 feet.</p>"
+      }
+    },
+    {
+      "key": "gem-ancestry",
+      "name": { "pt": "ancestralidade de gema", "en": "Gem Ancestry" },
+      "html": {
+        "pt": "<p>Você tem um ancestral dragão gema, que lhe concede uma afinidade especial com a magia. Escolha um tipo de dragão da tabela Ancestralidade de Gema. Isso determina o tipo de dano para seus outros traços, conforme mostrado na tabela.</p><table><thead><tr><th>Dragão</th><th>Tipo de Dano</th></tr></thead><tbody><tr><td>Ametista</td><td>Energético</td></tr><tr><td>Cristal</td><td>Radiante</td></tr><tr><td>Esmeralda</td><td>Psíquico</td></tr><tr><td>Safira</td><td>Trovejante</td></tr><tr><td>Topázio</td><td>Necrótico</td></tr></tbody></table>",
+        "en": "<p>You have a gem dragon ancestor, granting you a special magical affinity. Choose one kind of dragon from the Gem Ancestry table. This determines the damage type for your other traits, as shown in the table.</p><table><thead><tr><th>Dragon</th><th>Damage Type</th></tr></thead><tbody><tr><td>Amethyst</td><td>Force</td></tr><tr><td>Crystal</td><td>Radiant</td></tr><tr><td>Emerald</td><td>Psychic</td></tr><tr><td>Sapphire</td><td>Thunder</td></tr><tr><td>Topaz</td><td>Necrotic</td></tr></tbody></table>"
+      }
+    },
+    {
+      "key": "breath-weapon",
+      "name": { "pt": "sopro", "en": "Breath Weapon" },
+      "html": {
+        "pt": "<p>Quando você realiza a ação Atacar em seu turno, você pode substituir um de seus ataques por uma exalação de energia mágica em um cone de 4,5 metros. Cada criatura nessa área deve fazer uma salvaguarda de Destreza (CD = 8 + seu modificador de Constituição + seu bônus de proficiência). Se falhar na salvaguarda, a criatura sofrerá 1d10 pontos de dano do tipo associado à sua Ancestralidade de Gema. Em uma salvaguarda bem-sucedida, sofre metade do dano. Esse dano aumenta em 1d10 quando você atinge o 5º nível (2d10), 11º nível (3d10) e 17º nível (4d10).</p><p>Você pode usar seu Sopro um número de vezes igual ao seu bônus de proficiência, e recupera todos os usos ao terminar um descanso longo.</p>",
+        "en": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d10 damage of the type associated with your Gem Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p><p>You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>"
+      }
+    },
+    {
+      "key": "draconic-resistance",
+      "name": { "pt": "resistência dracônica", "en": "Draconic Resistance" },
+      "html": {
+        "pt": "<p>Você tem resistência ao tipo de dano associado à sua Ancestralidade de Gema.</p>",
+        "en": "<p>You have resistance to the damage type associated with your Gem Ancestry.</p>"
+      }
+    },
+    {
+      "key": "psionic-mind",
+      "name": { "pt": "mente psiônica", "en": "Psionic Mind" },
+      "html": {
+        "pt": "<p>Você pode enviar mensagens telepáticas para qualquer criatura que você possa ver a até 9 metros de você. Você não precisa compartilhar um idioma com a criatura para que ela entenda essas mensagens, mas ela deve ser capaz de entender pelo menos um idioma para compreendê-las.</p>",
+        "en": "<p>You can send telepathic messages to any creature you can see within 30 feet of you. You don&#x27;t need to share a language with the creature for it to understand these messages, but it must be able to understand at least one language to comprehend them.</p>"
+      }
+    },
+    {
+      "key": "gem-flight",
+      "name": { "pt": "voo de gema", "en": "Gem Flight" },
+      "html": {
+        "pt": "<p>A partir do 5º nível, você pode usar uma ação bônus para manifestar asas espectrais em seu corpo. Essas asas duram por 1 minuto. Pela duração, você ganha deslocamento de voo igual ao seu deslocamento de caminhada e pode pairar. Uma vez que você usar este traço, só poderá usá-lo de novo após terminar um descanso longo.</p>",
+        "en": "<p>Starting at 5th level, you can use a bonus action to manifest spectral wings on your body. These wings last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can&#x27;t do so again until you finish a long rest.</p>"
+      }
+    }
+  ],
+  "subraces": [],
+  "spells": [],
+  "additional_sources": [],
+  "pt_from": null,
+  "size": ["M"],
+  "speed": { "ft": 30, "m": 9.0 }
+}

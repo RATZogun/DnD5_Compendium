@@ -1,1 +1,59 @@
-{"slug":"kobold","name":{"pt":"kobold","en":"Kobold"},"source":{"pt":{"book":"MPMM","page":25},"en":{"book":"MPMM","page":25}},"intro_html":{"pt":"<p>Uma das menores criaturas dracônicas do multiverso, kobolds demonstram sua ancestralidade dracônica no brilho de suas escamas e em seus rugidos. Lendas dizem que os primeiros kobolds emergiram do Subterrâneo, próximo aos covis dos primeiros dragões. Em algumas regiões, os kobolds servem a dragões cromáticos ou metálicos — até mesmo os adorando como seres divinos. Em outros lugares, os kobolds sabem muito bem o quão perigosos esses dragões podem ser, e ajudam outros a se defender da destruição dracônica.</p><p>Qualquer que seja sua relação com os dragões, as escamas dos kobolds tendem a ser cor de ferrugem, embora ocasionalmente algum kobold exiba uma cor de escama mais parecida com a de um dragão cromático ou metálico. O grito de um kobold pode expressar uma variedade de emoções: raiva, determinação, euforia, medo e mais. Independentemente da emoção expressa, seu grito ressoa com poder dracônico.</p>","en":"<p>Some of the smallest draconic creatures in the multiverse, kobolds display their draconic ancestry in the glint of their scales and in their roars. Legends tell of the first kobolds emerging from the Underdark near the lairs of the earliest dragons. In some lands, kobolds serve chromatic or metallic dragons—even worshiping them as divine beings. In other places, kobolds know too well how dangerous those dragons can be and help others defend against draconic destruction.</p><p>Whatever their relationship to dragons, kobold scales tend to be rust colored, although the occasional kobold sports a scale color more akin to that of a chromatic or a metallic dragon. A kobold’s cry can express a range of emotion: anger, resolve, elation, fear, and more. Regardless of the emotion expressed, their cry resonates with draconic power.</p>"},"traits":[{"key":"creature-type","name":{"pt":"tipo de Criatura","en":"Creature Type"},"html":{"pt":"<p>Você é um humanoide.</p>","en":"<p>You are a Humanoid.</p>"}},{"key":"size","name":{"pt":"tamanho","en":"Size"},"html":{"pt":"<p>Você é Pequeno.</p>","en":"<p>You are Small.</p>"}},{"key":"speed","name":{"pt":"deslocamento","en":"Speed"},"html":{"pt":"<p>Seu deslocamento de caminhada é de 9 metros.</p>","en":"<p>Your walking speed is 30 feet.</p>"}},{"key":"draconic-cry","name":{"pt":"grito Dracônico","en":"Draconic Cry"},"html":{"pt":"<p>Como uma ação bônus, você solta um grito em inimigos a até 3 metros de você. Até o início de seu próximo turno, você e seus aliados têm vantagem nas jogadas de ataque contra qualquer um dos inimigos que puderam ouvi-lo. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência, e recupera todos os usos ao terminar um descanso longo.</p>","en":"<p>As a bonus action, you let out a cry at your enemies within 10 feet of you. Until the start of your next turn, you and your allies have advantage on attack rolls against any of those enemies who could hear you. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>"}},{"key":"kobold-legacy","name":{"pt":"legado Kobold","en":"Kobold Legacy"},"html":{"pt":"<p>A conexão dos Kobolds com os dragões pode se manifestar de maneiras imprevisíveis dentre os kobolds. Escolha uma das opções de legado para seu kobold:</p><ul><li><strong>Astúcia.</strong> Você tem proficiência com uma das perícias a seguir, à sua escolha: Arcanismo, Investigação, Medicina, Prestidigitação ou Sobrevivência.</li><li><strong>Enfrentamento.</strong> Você tem vantagem em salvaguardas para evitar ou encerrar a condição amedrontado em si mesmo.</li><li><strong>Feitiçaria Dracônica.</strong> Você conhece um truque da lista de magias do feiticeiro, à sua escolha. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para tal truque (escolha um ao selecionar esta raça).</li></ul>","en":"<p>Kobolds’ connection to dragons can manifest in unpredictable ways in an individual kobold. Choose one of the following legacy options for your kobold:</p> <p><strong>Craftiness.</strong> You have proficiency in one of the following skills of your choice: Arcana, Investigation, Medicine, Sleight of Hand, or Survival.</p> <p><strong>Defiance.</strong> You have advantage on saving throws to avoid or end the frightened condition on yourself.</p> <p><strong>Draconic Sorcery.</strong> You know one cantrip of your choice from the sorcerer spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for that cantrip (choose when you select this race).</p>"}},{"key":"darkvision","name":{"pt":"visão no Escuro","en":"Darkvision"},"html":{"pt":"<p>Você consegue enxergar até 18 metros na meia-luz como se fosse luz plena e, na escuridão, como se fosse meia-luz. Na escuridão você só consegue discernir tons de cinza.</p>","en":"<p>You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>"}}],"subraces":[],"spells":[],"additional_sources":[],"pt_from":null,"size":["S"],"speed":{"ft":30,"m":9.0}}
+{
+  "slug": "kobold",
+  "name": { "pt": "kobold", "en": "Kobold" },
+  "source": { "pt": { "book": "MPMM", "page": 25 }, "en": { "book": "MPMM", "page": 25 } },
+  "intro_html": {
+    "pt": "<p>Uma das menores criaturas dracônicas do multiverso, kobolds demonstram sua ancestralidade dracônica no brilho de suas escamas e em seus rugidos. Lendas dizem que os primeiros kobolds emergiram do Subterrâneo, próximo aos covis dos primeiros dragões. Em algumas regiões, os kobolds servem a dragões cromáticos ou metálicos — até mesmo os adorando como seres divinos. Em outros lugares, os kobolds sabem muito bem o quão perigosos esses dragões podem ser, e ajudam outros a se defender da destruição dracônica.</p><p>Qualquer que seja sua relação com os dragões, as escamas dos kobolds tendem a ser cor de ferrugem, embora ocasionalmente algum kobold exiba uma cor de escama mais parecida com a de um dragão cromático ou metálico. O grito de um kobold pode expressar uma variedade de emoções: raiva, determinação, euforia, medo e mais. Independentemente da emoção expressa, seu grito ressoa com poder dracônico.</p>",
+    "en": "<p>Some of the smallest draconic creatures in the multiverse, kobolds display their draconic ancestry in the glint of their scales and in their roars. Legends tell of the first kobolds emerging from the Underdark near the lairs of the earliest dragons. In some lands, kobolds serve chromatic or metallic dragons—even worshiping them as divine beings. In other places, kobolds know too well how dangerous those dragons can be and help others defend against draconic destruction.</p><p>Whatever their relationship to dragons, kobold scales tend to be rust colored, although the occasional kobold sports a scale color more akin to that of a chromatic or a metallic dragon. A kobold’s cry can express a range of emotion: anger, resolve, elation, fear, and more. Regardless of the emotion expressed, their cry resonates with draconic power.</p>"
+  },
+  "traits": [
+    {
+      "key": "creature-type",
+      "name": { "pt": "tipo de Criatura", "en": "Creature Type" },
+      "html": { "pt": "<p>Você é um humanoide.</p>", "en": "<p>You are a Humanoid.</p>" }
+    },
+    {
+      "key": "size",
+      "name": { "pt": "tamanho", "en": "Size" },
+      "html": { "pt": "<p>Você é Pequeno.</p>", "en": "<p>You are Small.</p>" }
+    },
+    {
+      "key": "speed",
+      "name": { "pt": "deslocamento", "en": "Speed" },
+      "html": {
+        "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
+        "en": "<p>Your walking speed is 30 feet.</p>"
+      }
+    },
+    {
+      "key": "draconic-cry",
+      "name": { "pt": "grito Dracônico", "en": "Draconic Cry" },
+      "html": {
+        "pt": "<p>Como uma ação bônus, você solta um grito em inimigos a até 3 metros de você. Até o início de seu próximo turno, você e seus aliados têm vantagem nas jogadas de ataque contra qualquer um dos inimigos que puderam ouvi-lo. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência, e recupera todos os usos ao terminar um descanso longo.</p>",
+        "en": "<p>As a bonus action, you let out a cry at your enemies within 10 feet of you. Until the start of your next turn, you and your allies have advantage on attack rolls against any of those enemies who could hear you. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>"
+      }
+    },
+    {
+      "key": "kobold-legacy",
+      "name": { "pt": "legado Kobold", "en": "Kobold Legacy" },
+      "html": {
+        "pt": "<p>A conexão dos Kobolds com os dragões pode se manifestar de maneiras imprevisíveis dentre os kobolds. Escolha uma das opções de legado para seu kobold:</p><ul><li><strong>Astúcia.</strong> Você tem proficiência com uma das perícias a seguir, à sua escolha: Arcanismo, Investigação, Medicina, Prestidigitação ou Sobrevivência.</li><li><strong>Enfrentamento.</strong> Você tem vantagem em salvaguardas para evitar ou encerrar a condição amedrontado em si mesmo.</li><li><strong>Feitiçaria Dracônica.</strong> Você conhece um truque da lista de magias do feiticeiro, à sua escolha. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para tal truque (escolha um ao selecionar esta raça).</li></ul>",
+        "en": "<p>Kobolds’ connection to dragons can manifest in unpredictable ways in an individual kobold. Choose one of the following legacy options for your kobold:</p> <p><strong>Craftiness.</strong> You have proficiency in one of the following skills of your choice: Arcana, Investigation, Medicine, Sleight of Hand, or Survival.</p> <p><strong>Defiance.</strong> You have advantage on saving throws to avoid or end the frightened condition on yourself.</p> <p><strong>Draconic Sorcery.</strong> You know one cantrip of your choice from the sorcerer spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for that cantrip (choose when you select this race).</p>"
+      }
+    },
+    {
+      "key": "darkvision",
+      "name": { "pt": "visão no Escuro", "en": "Darkvision" },
+      "html": {
+        "pt": "<p>Você consegue enxergar até 18 metros na meia-luz como se fosse luz plena e, na escuridão, como se fosse meia-luz. Na escuridão você só consegue discernir tons de cinza.</p>",
+        "en": "<p>You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>"
+      }
+    }
+  ],
+  "subraces": [],
+  "spells": [],
+  "additional_sources": [],
+  "pt_from": null,
+  "size": ["S"],
+  "speed": { "ft": 30, "m": 9.0 }
+}

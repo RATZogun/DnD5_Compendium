@@ -1,118 +1,112 @@
 {
- "slug": "firbolg",
- "name": {
-  "pt": "firbolg",
-  "en": "Firbolg"
- },
- "source": {
-  "pt": {
-   "book": "MPMM",
-   "page": 15
+  "slug": "firbolg",
+  "name": {
+    "pt": "firbolg",
+    "en": "Firbolg"
   },
-  "en": {
-   "book": "MPMM",
-   "page": 15
-  }
- },
- "intro_html": {
-  "pt": "<p>Primos distantes dos gigantes, os primeiros firbolgs vagavam pelas florestas primordiais do multiverso, e a magia dessas florestas se entrelaçou com as almas dos firbolg. Séculos depois, essa magia ainda ressoa dentro de um firbolg, mesmo aquele que nunca viveu sob os galhos de uma das grandes florestas.</p><p>A magia de um firbolg é do tipo obscurecedora, que permitia a seus ancestrais atravessar as florestas sem perturbá-las. Tão profunda é a conexão entre um firbolg e os lugares selvagens do mundo que eles podem se comunicar com a flora e a fauna.</p><p>Firbolgs podem viver até 500 anos.</p>",
-  "en": "<p>Distant cousins of giants, the first firbolgs wandered the primeval forests of the multiverse, and the magic of those forests entwined itself with the firbolgs’ souls. Centuries later, that magic still thrums inside a firbolg, even one who has never lived under the boughs of a great forest.</p> <p>A firbolg’s magic is an obscuring sort, which allowed their ancestors to pass through a forest without disturbing it. So deep is the connection between a firbolg and the wild places of the world that they can communicate with flora and fauna.</p> <p>Firbolgs can live up to 500 years.</p>"
- },
- "traits": [
-  {
-   "key": "creature-type",
-   "name": {
-    "pt": "tipo de criatura",
-    "en": "Creature Type"
-   },
-   "html": {
-    "pt": "<p>Você é um humanoide.</p>",
-    "en": "<p>You are a Humanoid.</p>"
-   }
+  "source": {
+    "pt": {
+      "book": "MPMM",
+      "page": 15
+    },
+    "en": {
+      "book": "MPMM",
+      "page": 15
+    }
   },
-  {
-   "key": "size",
-   "name": {
-    "pt": "tamanho",
-    "en": "Size"
-   },
-   "html": {
-    "pt": "<p>Você é Médio.</p>",
-    "en": "<p>You are Medium.</p>"
-   }
+  "intro_html": {
+    "pt": "<p>Primos distantes dos gigantes, os primeiros firbolgs vagavam pelas florestas primordiais do multiverso, e a magia dessas florestas se entrelaçou com as almas dos firbolg. Séculos depois, essa magia ainda ressoa dentro de um firbolg, mesmo aquele que nunca viveu sob os galhos de uma das grandes florestas.</p><p>A magia de um firbolg é do tipo obscurecedora, que permitia a seus ancestrais atravessar as florestas sem perturbá-las. Tão profunda é a conexão entre um firbolg e os lugares selvagens do mundo que eles podem se comunicar com a flora e a fauna.</p><p>Firbolgs podem viver até 500 anos.</p>",
+    "en": "<p>Distant cousins of giants, the first firbolgs wandered the primeval forests of the multiverse, and the magic of those forests entwined itself with the firbolgs’ souls. Centuries later, that magic still thrums inside a firbolg, even one who has never lived under the boughs of a great forest.</p> <p>A firbolg’s magic is an obscuring sort, which allowed their ancestors to pass through a forest without disturbing it. So deep is the connection between a firbolg and the wild places of the world that they can communicate with flora and fauna.</p> <p>Firbolgs can live up to 500 years.</p>"
   },
-  {
-   "key": "speed",
-   "name": {
-    "pt": "deslocamento",
-    "en": "Speed"
-   },
-   "html": {
-    "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
-    "en": "<p>Your walking speed is 30 feet.</p>"
-   }
-  },
-  {
-   "key": "speech-of-beast-and-leaf",
-   "name": {
-    "pt": "fala da fera e da folha",
-    "en": "Speech of Beast and Leaf"
-   },
-   "html": {
-    "pt": "<p>Você tem a capacidade de se comunicar de maneira limitada com feras, plantas e vegetação. Elas podem entender o significado de suas palavras, embora você não tenha a habilidade especial para entendê-las de volta. Você tem vantagem em todos os testes de Carisma que fizer para influenciá-las.</p>",
-    "en": "<p>You have the ability to communicate in a limited manner with Beasts, Plants, and vegetation. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.</p>"
-   }
-  },
-  {
-   "key": "firbolg-magic",
-   "name": {
-    "pt": "magia dos firbolg",
-    "en": "Firbolg Magic"
-   },
-   "html": {
-    "pt": "<p>Você pode conjurar as magias detectar magia e disfarçar-se com este traço. Quando usa esta versão de disfarçar-se, você pode parecer até 1 metro mais baixo ou mais alto. Uma vez que conjurar uma dessas magias com esse traço, você não poderá conjurar essa magia novamente até terminar um descanso longo. Você também pode conjurar essas magias usando quaisquer espaços de magia que tiver.</p><p>Inteligência, Sabedoria ou Carisma é seu atributo de conjuração ao conjurar estas magias utilizando este traço (escolha um ao selecionar esta raça).</p>",
-    "en": "<p>You can cast the detect magic and disguise self spells with this trait. When you use this version of disguise self, you can seem up to 3 feet shorter or taller. Once you cast either of these spells with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have.</p> <p>Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>"
-   }
-  },
-  {
-   "key": "hidden-step",
-   "name": {
-    "pt": "passo oculto",
-    "en": "Hidden Step"
-   },
-   "html": {
-    "pt": "<p>Como uma ação bônus, você pode tornar-se magicamente invisível até o começo do seu próximo turno, ou até que você ataque, cause dano ou force alguém a jogar uma salvaguarda. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência, e recupera todos os usos ao terminar um descanso longo.</p>",
-    "en": "<p>As a bonus action, you can magically turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>"
-   }
-  },
-  {
-   "key": "powerful-build",
-   "name": {
-    "pt": "porte poderoso",
-    "en": "Powerful Build"
-   },
-   "html": {
-    "pt": "<p>Você é considerado como uma categoria de tamanho acima ao determinar sua capacidade de carga e o peso que pode empurrar, arrastar ou levantar.</p>",
-    "en": "<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>"
-   }
-  }
- ],
- "subraces": [],
- "spells": [
-  {
-   "level": 1,
-   "names_pt": [
-    "detectar magia",
-    "disfarçar-se"
-   ],
-   "names_en": [
-    "detect magic",
-    "disguise self"
-   ],
-   "regularity": {
-    "pt": "uma vez cada por descanso longo (também podem ser conjuradas com espaços de magia)",
-    "en": "once each per long rest (can also be cast using spell slots)"
-   }
-  }
- ]
+  "traits": [
+    {
+      "key": "creature-type",
+      "name": {
+        "pt": "tipo de criatura",
+        "en": "Creature Type"
+      },
+      "html": {
+        "pt": "<p>Você é um humanoide.</p>",
+        "en": "<p>You are a Humanoid.</p>"
+      }
+    },
+    {
+      "key": "size",
+      "name": {
+        "pt": "tamanho",
+        "en": "Size"
+      },
+      "html": {
+        "pt": "<p>Você é Médio.</p>",
+        "en": "<p>You are Medium.</p>"
+      }
+    },
+    {
+      "key": "speed",
+      "name": {
+        "pt": "deslocamento",
+        "en": "Speed"
+      },
+      "html": {
+        "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
+        "en": "<p>Your walking speed is 30 feet.</p>"
+      }
+    },
+    {
+      "key": "speech-of-beast-and-leaf",
+      "name": {
+        "pt": "fala da fera e da folha",
+        "en": "Speech of Beast and Leaf"
+      },
+      "html": {
+        "pt": "<p>Você tem a capacidade de se comunicar de maneira limitada com feras, plantas e vegetação. Elas podem entender o significado de suas palavras, embora você não tenha a habilidade especial para entendê-las de volta. Você tem vantagem em todos os testes de Carisma que fizer para influenciá-las.</p>",
+        "en": "<p>You have the ability to communicate in a limited manner with Beasts, Plants, and vegetation. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.</p>"
+      }
+    },
+    {
+      "key": "firbolg-magic",
+      "name": {
+        "pt": "magia dos firbolg",
+        "en": "Firbolg Magic"
+      },
+      "html": {
+        "pt": "<p>Você pode conjurar as magias detectar magia e disfarçar-se com este traço. Quando usa esta versão de disfarçar-se, você pode parecer até 1 metro mais baixo ou mais alto. Uma vez que conjurar uma dessas magias com esse traço, você não poderá conjurar essa magia novamente até terminar um descanso longo. Você também pode conjurar essas magias usando quaisquer espaços de magia que tiver.</p><p>Inteligência, Sabedoria ou Carisma é seu atributo de conjuração ao conjurar estas magias utilizando este traço (escolha um ao selecionar esta raça).</p>",
+        "en": "<p>You can cast the detect magic and disguise self spells with this trait. When you use this version of disguise self, you can seem up to 3 feet shorter or taller. Once you cast either of these spells with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have.</p> <p>Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>"
+      }
+    },
+    {
+      "key": "hidden-step",
+      "name": {
+        "pt": "passo oculto",
+        "en": "Hidden Step"
+      },
+      "html": {
+        "pt": "<p>Como uma ação bônus, você pode tornar-se magicamente invisível até o começo do seu próximo turno, ou até que você ataque, cause dano ou force alguém a jogar uma salvaguarda. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência, e recupera todos os usos ao terminar um descanso longo.</p>",
+        "en": "<p>As a bonus action, you can magically turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>"
+      }
+    },
+    {
+      "key": "powerful-build",
+      "name": {
+        "pt": "porte poderoso",
+        "en": "Powerful Build"
+      },
+      "html": {
+        "pt": "<p>Você é considerado como uma categoria de tamanho acima ao determinar sua capacidade de carga e o peso que pode empurrar, arrastar ou levantar.</p>",
+        "en": "<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>"
+      }
+    }
+  ],
+  "subraces": [],
+  "spells": [
+    {
+      "level": 1,
+      "names_pt": ["detectar magia", "disfarçar-se"],
+      "names_en": ["detect magic", "disguise self"],
+      "regularity": {
+        "pt": "uma vez cada por descanso longo (também podem ser conjuradas com espaços de magia)",
+        "en": "once each per long rest (can also be cast using spell slots)"
+      }
+    }
+  ]
 }

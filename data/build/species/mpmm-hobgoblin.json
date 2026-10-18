@@ -1,102 +1,102 @@
 {
- "slug": "hobgoblin",
- "name": {
-  "pt": "hobgoblin",
-  "en": "Hobgoblin"
- },
- "source": {
-  "pt": {
-   "book": "MPMM",
-   "page": 23
+  "slug": "hobgoblin",
+  "name": {
+    "pt": "hobgoblin",
+    "en": "Hobgoblin"
   },
-  "en": {
-   "book": "MPMM",
-   "page": 23
-  }
- },
- "intro_html": {
-  "pt": "<p>As origens dos hobgoblins podem ser traçadas aos campos da Faéria, onde apareceram pela primeira vez ao lado de seus semelhantes, os goblins e os bugursos. Muitos deles foram levados para longe da Faéria pelo deus conquistador Maglubiyet, que os comandou como soldados, mas o reino das fadas deixou sua marca; onde quer que estejam no multiverso, eles ainda canalizam um aspecto da regra de reciprocidade da Agrestia das Fadas, que cria um vínculo místico entre o doador e o receptor de um presente.</p><p>Em alguns mundos, esses laços levam os hobgoblins a formar comunidades com vínculos interpessoais profundos. Em Eberron e em Forgotten Realms, vastas legiões de hobgoblins surgiram, com grupamentos de soldados dedicados, conhecidos por sua unidade.</p><p>Hobgoblins são geralmente mais altos que seus primos goblins, mas não tão grandes quanto bugursos. Eles têm orelhas curvas e pontiagudas, e narizes que brilham em vermelho ou azul quando manifestam emoções.</p>",
-  "en": "<p>Hobgoblins trace their origins to the ancient courts of the Feywild, where they first appeared with their goblin and bugbear kin. Many of them were driven from the Feywild by the conquering god Maglubiyet, who marshaled them as soldiers, but the fey realm left its mark; wherever they are in the multiverse, they continue to channel an aspect of the Feywild’s rule of reciprocity, which creates a mystical bond between the giver and the receiver of a gift.</p><p>On some worlds, such bonds lead hobgoblins to form communities with deep ties to one another. In Eberron and the Forgotten Realms, vast hobgoblin legions have emerged, with ranks of devoted soldiers famed for their unity.</p><p>Hobgoblins are generally taller than their goblin cousins but not quite as big as bugbears. They have curved, pointed ears and noses that turn bright red or blue during displays of emotion.</p>"
- },
- "traits": [
-  {
-   "key": "creature-type",
-   "name": {
-    "pt": "tipo de Criatura",
-    "en": "Creature Type"
-   },
-   "html": {
-    "pt": "<p>Você é um humanoide. Você também é considerado um goblinoide para qualquer pré-requisito ou efeito que requeira que você seja um goblinoide.</p>",
-    "en": "<p>You are a Humanoid. You are also considered a goblinoid for any prerequisite or effect that requires you to be a goblinoid.</p>"
-   }
+  "source": {
+    "pt": {
+      "book": "MPMM",
+      "page": 23
+    },
+    "en": {
+      "book": "MPMM",
+      "page": 23
+    }
   },
-  {
-   "key": "size",
-   "name": {
-    "pt": "tamanho",
-    "en": "Size"
-   },
-   "html": {
-    "pt": "<p>Você é Médio.</p>",
-    "en": "<p>You are Medium.</p>"
-   }
+  "intro_html": {
+    "pt": "<p>As origens dos hobgoblins podem ser traçadas aos campos da Faéria, onde apareceram pela primeira vez ao lado de seus semelhantes, os goblins e os bugursos. Muitos deles foram levados para longe da Faéria pelo deus conquistador Maglubiyet, que os comandou como soldados, mas o reino das fadas deixou sua marca; onde quer que estejam no multiverso, eles ainda canalizam um aspecto da regra de reciprocidade da Agrestia das Fadas, que cria um vínculo místico entre o doador e o receptor de um presente.</p><p>Em alguns mundos, esses laços levam os hobgoblins a formar comunidades com vínculos interpessoais profundos. Em Eberron e em Forgotten Realms, vastas legiões de hobgoblins surgiram, com grupamentos de soldados dedicados, conhecidos por sua unidade.</p><p>Hobgoblins são geralmente mais altos que seus primos goblins, mas não tão grandes quanto bugursos. Eles têm orelhas curvas e pontiagudas, e narizes que brilham em vermelho ou azul quando manifestam emoções.</p>",
+    "en": "<p>Hobgoblins trace their origins to the ancient courts of the Feywild, where they first appeared with their goblin and bugbear kin. Many of them were driven from the Feywild by the conquering god Maglubiyet, who marshaled them as soldiers, but the fey realm left its mark; wherever they are in the multiverse, they continue to channel an aspect of the Feywild’s rule of reciprocity, which creates a mystical bond between the giver and the receiver of a gift.</p><p>On some worlds, such bonds lead hobgoblins to form communities with deep ties to one another. In Eberron and the Forgotten Realms, vast hobgoblin legions have emerged, with ranks of devoted soldiers famed for their unity.</p><p>Hobgoblins are generally taller than their goblin cousins but not quite as big as bugbears. They have curved, pointed ears and noses that turn bright red or blue during displays of emotion.</p>"
   },
-  {
-   "key": "speed",
-   "name": {
-    "pt": "deslocamento",
-    "en": "Speed"
-   },
-   "html": {
-    "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
-    "en": "<p>Your walking speed is 30 feet.</p>"
-   }
-  },
-  {
-   "key": "fey-ancestry",
-   "name": {
-    "pt": "ancestralidade Feérica",
-    "en": "Fey Ancestry"
-   },
-   "html": {
-    "pt": "<p>Você tem vantagem em salvaguardas para evitar ou encerrar a condição enfeitiçado em si mesmo.</p>",
-    "en": "<p>You have advantage on saving throws you make to avoid or end the charmed condition on yourself.</p>"
-   }
-  },
-  {
-   "key": "fey-gift",
-   "name": {
-    "pt": "presente Feérico",
-    "en": "Fey Gift"
-   },
-   "html": {
-    "pt": "<p>Você pode usar este traço para executar a ação Ajudar como uma ação bônus, e pode fazê-lo um número de vezes igual ao seu bônus de proficiência. Você recupera todos os usos ao final de um descanso longo.</p><p>Começando no 3o nível, escolha uma das opções abaixo cada vez que você realizar a ação Ajudar com este traço:</p><ul><li><strong>Despeito.</strong> Até o começo do seu próximo turno, a primeira vez que a criatura que você ajudar acertar um alvo com uma jogada de ataque, aquele alvo tem desvantagem na próxima jogada de ataque que fizer dentro de um minuto.</li><li><strong>Hospitalidade.</strong> Você e a criatura que você ajudar ganham um número de pontos de vida temporários equivalentes a 1d6 mais seu bônus de proficiência.</li><li><strong>Passagem.</strong> Você e a criatura que você ajudar aumentam seu deslocamento de caminhada em 3 metros até o começo do seu próximo turno.</li></ul>",
-    "en": "<p>You can use this trait to take the Help action as a bonus action, and you can do so a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.</p> <p>Starting at 3rd level, choose one of the options below each time you take the Help action with this trait:</p> <p><strong>Hospitality.</strong> You and the creature you help each gain a number of temporary hit points equal to 1d6 plus your proficiency bonus.</p> <p><strong>Passage.</strong> You and the creature you help each increase your walking speeds by 10 feet until the start of your next turn.</p> <p><strong>Spite.</strong> Until the start of your next turn, the first time the creature you help hits a target with an attack roll, that target has disadvantage on the next attack roll it makes within the next minute.</p>"
-   }
-  },
-  {
-   "key": "fortune-from-the-many",
-   "name": {
-    "pt": "sorte dos Muitos",
-    "en": "Fortune from the Many"
-   },
-   "html": {
-    "pt": "<p>Se você errar uma jogada de ataque ou falhar em um teste de atributo ou salvaguarda, você pode usar seus laços de reciprocidade para ganhar um bônus na jogada igual ao número de aliados que você pode ver a até 9 metros de você (bônus máximo de +3).</p><p>Você pode usar este traço um número de vezes igual ao seu bônus de proficiência, e recupera todos os usos ao terminar um descanso longo.</p>",
-    "en": "<p>If you miss with an attack roll or fail an ability check or a saving throw, you can draw on your bonds of reciprocity to gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +3). You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>"
-   }
-  },
-  {
-   "key": "darkvision",
-   "name": {
-    "pt": "visão no Escuro",
-    "en": "Darkvision"
-   },
-   "html": {
-    "pt": "<p>Você consegue enxergar até 18 metros na meia-luz como se fosse luz plena e, na escuridão, como se fosse meia-luz. Na escuridão você só consegue discernir tons de cinza.</p>",
-    "en": "<p>You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>"
-   }
-  }
- ],
- "subraces": [],
- "spells": []
+  "traits": [
+    {
+      "key": "creature-type",
+      "name": {
+        "pt": "tipo de Criatura",
+        "en": "Creature Type"
+      },
+      "html": {
+        "pt": "<p>Você é um humanoide. Você também é considerado um goblinoide para qualquer pré-requisito ou efeito que requeira que você seja um goblinoide.</p>",
+        "en": "<p>You are a Humanoid. You are also considered a goblinoid for any prerequisite or effect that requires you to be a goblinoid.</p>"
+      }
+    },
+    {
+      "key": "size",
+      "name": {
+        "pt": "tamanho",
+        "en": "Size"
+      },
+      "html": {
+        "pt": "<p>Você é Médio.</p>",
+        "en": "<p>You are Medium.</p>"
+      }
+    },
+    {
+      "key": "speed",
+      "name": {
+        "pt": "deslocamento",
+        "en": "Speed"
+      },
+      "html": {
+        "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
+        "en": "<p>Your walking speed is 30 feet.</p>"
+      }
+    },
+    {
+      "key": "fey-ancestry",
+      "name": {
+        "pt": "ancestralidade Feérica",
+        "en": "Fey Ancestry"
+      },
+      "html": {
+        "pt": "<p>Você tem vantagem em salvaguardas para evitar ou encerrar a condição enfeitiçado em si mesmo.</p>",
+        "en": "<p>You have advantage on saving throws you make to avoid or end the charmed condition on yourself.</p>"
+      }
+    },
+    {
+      "key": "fey-gift",
+      "name": {
+        "pt": "presente Feérico",
+        "en": "Fey Gift"
+      },
+      "html": {
+        "pt": "<p>Você pode usar este traço para executar a ação Ajudar como uma ação bônus, e pode fazê-lo um número de vezes igual ao seu bônus de proficiência. Você recupera todos os usos ao final de um descanso longo.</p><p>Começando no 3o nível, escolha uma das opções abaixo cada vez que você realizar a ação Ajudar com este traço:</p><ul><li><strong>Despeito.</strong> Até o começo do seu próximo turno, a primeira vez que a criatura que você ajudar acertar um alvo com uma jogada de ataque, aquele alvo tem desvantagem na próxima jogada de ataque que fizer dentro de um minuto.</li><li><strong>Hospitalidade.</strong> Você e a criatura que você ajudar ganham um número de pontos de vida temporários equivalentes a 1d6 mais seu bônus de proficiência.</li><li><strong>Passagem.</strong> Você e a criatura que você ajudar aumentam seu deslocamento de caminhada em 3 metros até o começo do seu próximo turno.</li></ul>",
+        "en": "<p>You can use this trait to take the Help action as a bonus action, and you can do so a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.</p> <p>Starting at 3rd level, choose one of the options below each time you take the Help action with this trait:</p> <p><strong>Hospitality.</strong> You and the creature you help each gain a number of temporary hit points equal to 1d6 plus your proficiency bonus.</p> <p><strong>Passage.</strong> You and the creature you help each increase your walking speeds by 10 feet until the start of your next turn.</p> <p><strong>Spite.</strong> Until the start of your next turn, the first time the creature you help hits a target with an attack roll, that target has disadvantage on the next attack roll it makes within the next minute.</p>"
+      }
+    },
+    {
+      "key": "fortune-from-the-many",
+      "name": {
+        "pt": "sorte dos Muitos",
+        "en": "Fortune from the Many"
+      },
+      "html": {
+        "pt": "<p>Se você errar uma jogada de ataque ou falhar em um teste de atributo ou salvaguarda, você pode usar seus laços de reciprocidade para ganhar um bônus na jogada igual ao número de aliados que você pode ver a até 9 metros de você (bônus máximo de +3).</p><p>Você pode usar este traço um número de vezes igual ao seu bônus de proficiência, e recupera todos os usos ao terminar um descanso longo.</p>",
+        "en": "<p>If you miss with an attack roll or fail an ability check or a saving throw, you can draw on your bonds of reciprocity to gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +3). You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>"
+      }
+    },
+    {
+      "key": "darkvision",
+      "name": {
+        "pt": "visão no Escuro",
+        "en": "Darkvision"
+      },
+      "html": {
+        "pt": "<p>Você consegue enxergar até 18 metros na meia-luz como se fosse luz plena e, na escuridão, como se fosse meia-luz. Na escuridão você só consegue discernir tons de cinza.</p>",
+        "en": "<p>You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>"
+      }
+    }
+  ],
+  "subraces": [],
+  "spells": []
 }

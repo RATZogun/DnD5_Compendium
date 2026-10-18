@@ -1,1 +1,67 @@
-{"slug":"chromatic-dragonborn","name":{"pt":"draconato cromático","en":"Dragonborn (Chromatic)"},"source":{"pt":{"book":"TDF","page":10},"en":{"book":"FTD","page":10}},"intro_html":{"pt":"<p>Draconatos com ascendência cromática reivindicam o poder elemental bruto dos dragões cromáticos. As cores vibrantes dos dragões preto, azul, verde, vermelho e branco brilham na pele escamosa desses draconatos e na energia mortal de seus sopros. Eles possuem a fúria elemental crua do vulcão, dos ventos árticos cortantes e das tempestades de raio furiosos, bem como o sussurro sutil do pântano e da floresta, tóxico e corrosivo.</p>","en":"<p>Dragonborn with chromatic ancestry claim the raw elemental power of chromatic dragons. The vibrant colors of black, blue, green, red, and white dragons gleam in those dragonborn&#x27;s scaled skin and in the deadly energy of their breath weapons. Theirs is the raw elemental fury of the volcano, of biting arctic winds, and of raging lightning storms, as well as the subtle whisper of swamp and forest, toxic and corrosive.</p>"},"traits":[{"key":"creature-type","name":{"pt":"tipo de criatura","en":"Creature Type"},"html":{"pt":"<p>Você é um humanoide.</p>","en":"<p>You are a Humanoid.</p>"}},{"key":"size","name":{"pt":"tamanho","en":"Size"},"html":{"pt":"<p>Você é Médio.</p>","en":"<p>You are Medium.</p>"}},{"key":"speed","name":{"pt":"deslocamento","en":"Speed"},"html":{"pt":"<p>Seu deslocamento de caminhada é 9 metros.</p>","en":"<p>Your walking speed is 30 feet.</p>"}},{"key":"chromatic-ancestry","name":{"pt":"ancestralidade cromática","en":"Chromatic Ancestry"},"html":{"pt":"<p>Você tem um ancestral dragão cromático, que lhe concede uma afinidade especial com a magia. Escolha um tipo de dragão da tabela Ancestralidade Cromática. Isso determina o tipo de dano para seus outros traços, conforme mostrado na tabela.</p><table><thead><tr><th>Dragão</th><th>Tipo de Dano</th></tr></thead><tbody><tr><td>Azul</td><td>Elétrico</td></tr><tr><td>Branco</td><td>Gélido</td></tr><tr><td>Negro</td><td>Ácido</td></tr><tr><td>Verde</td><td>Venenoso</td></tr><tr><td>Vermelho</td><td>Ígneo</td></tr></tbody></table>","en":"<p>You have a chromatic dragon ancestor, granting you a special magical affinity. Choose one kind of dragon from the Chromatic Ancestry table. This determines the damage type for your other traits, as shown in the table.</p><table><thead><tr><th>Dragon</th><th>Damage Type</th></tr></thead><tbody><tr><td>Black</td><td>Acid</td></tr><tr><td>Blue</td><td>Lightning</td></tr><tr><td>Green</td><td>Poison</td></tr><tr><td>Red</td><td>Fire</td></tr><tr><td>White</td><td>Cold</td></tr></tbody></table>"}},{"key":"breath-weapon","name":{"pt":"sopro","en":"Breath Weapon"},"html":{"pt":"<p>Quando você realiza a ação Atacar em seu turno, você pode substituir um de seus ataques por uma exalação de energia mágica em uma linha de 9 metros com 1,5 metro de largura. Cada criatura nessa área deve fazer uma salvaguarda de Destreza (CD = 8 + seu modificador de Constituição + seu bônus de proficiência). Se falhar na salvaguarda, a criatura sofrerá 1d10 pontos de dano do tipo associado à sua Ancestralidade Cromática. Em uma salvaguarda bem-sucedida, sofre metade do dano. Esse dano aumenta em 1d10 quando você atinge o 5º nível (2d10), 11º nível (3d10) e 17º nível (4d10).</p><p>Você pode usar seu Sopro um número de vezes igual ao seu bônus de proficiência, e recupera todos os usos ao terminar um descanso longo.</p>","en":"<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot line that is 5 feet wide. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d10 damage of the type associated with your Chromatic Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p><p>You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>"}},{"key":"draconic-resistance","name":{"pt":"resistência dracônica","en":"Draconic Resistance"},"html":{"pt":"<p>Você tem resistência ao tipo de dano associado à sua Ancestralidade Cromática.</p>","en":"<p>You have resistance to the damage type associated with your Chromatic Ancestry.</p>"}},{"key":"chromatic-warding","name":{"pt":"guarda cromática","en":"Chromatic Warding"},"html":{"pt":"<p>A partir do 5º nível, como uma ação, você pode canalizar sua energia dracônica para se proteger. Por 1 minuto, você se torna imune ao tipo de dano associado à sua Ancestralidade Cromática. Uma vez que você usar este traço, só poderá usá-lo de novo após terminar um descanso longo.</p>","en":"<p>Starting at 5th level, as an action, you can channel your draconic energy to protect yourself. For 1 minute, you become immune to the damage type associated with your Chromatic Ancestry. Once you use this trait, you can&#x27;t do so again until you finish a long rest.</p>"}}],"subraces":[],"spells":[],"additional_sources":[],"pt_from":null,"size":["M"],"speed":{"ft":30,"m":9.0}}
+{
+  "slug": "chromatic-dragonborn",
+  "name": { "pt": "draconato cromático", "en": "Dragonborn (Chromatic)" },
+  "source": { "pt": { "book": "TDF", "page": 10 }, "en": { "book": "FTD", "page": 10 } },
+  "intro_html": {
+    "pt": "<p>Draconatos com ascendência cromática reivindicam o poder elemental bruto dos dragões cromáticos. As cores vibrantes dos dragões preto, azul, verde, vermelho e branco brilham na pele escamosa desses draconatos e na energia mortal de seus sopros. Eles possuem a fúria elemental crua do vulcão, dos ventos árticos cortantes e das tempestades de raio furiosos, bem como o sussurro sutil do pântano e da floresta, tóxico e corrosivo.</p>",
+    "en": "<p>Dragonborn with chromatic ancestry claim the raw elemental power of chromatic dragons. The vibrant colors of black, blue, green, red, and white dragons gleam in those dragonborn&#x27;s scaled skin and in the deadly energy of their breath weapons. Theirs is the raw elemental fury of the volcano, of biting arctic winds, and of raging lightning storms, as well as the subtle whisper of swamp and forest, toxic and corrosive.</p>"
+  },
+  "traits": [
+    {
+      "key": "creature-type",
+      "name": { "pt": "tipo de criatura", "en": "Creature Type" },
+      "html": { "pt": "<p>Você é um humanoide.</p>", "en": "<p>You are a Humanoid.</p>" }
+    },
+    {
+      "key": "size",
+      "name": { "pt": "tamanho", "en": "Size" },
+      "html": { "pt": "<p>Você é Médio.</p>", "en": "<p>You are Medium.</p>" }
+    },
+    {
+      "key": "speed",
+      "name": { "pt": "deslocamento", "en": "Speed" },
+      "html": {
+        "pt": "<p>Seu deslocamento de caminhada é 9 metros.</p>",
+        "en": "<p>Your walking speed is 30 feet.</p>"
+      }
+    },
+    {
+      "key": "chromatic-ancestry",
+      "name": { "pt": "ancestralidade cromática", "en": "Chromatic Ancestry" },
+      "html": {
+        "pt": "<p>Você tem um ancestral dragão cromático, que lhe concede uma afinidade especial com a magia. Escolha um tipo de dragão da tabela Ancestralidade Cromática. Isso determina o tipo de dano para seus outros traços, conforme mostrado na tabela.</p><table><thead><tr><th>Dragão</th><th>Tipo de Dano</th></tr></thead><tbody><tr><td>Azul</td><td>Elétrico</td></tr><tr><td>Branco</td><td>Gélido</td></tr><tr><td>Negro</td><td>Ácido</td></tr><tr><td>Verde</td><td>Venenoso</td></tr><tr><td>Vermelho</td><td>Ígneo</td></tr></tbody></table>",
+        "en": "<p>You have a chromatic dragon ancestor, granting you a special magical affinity. Choose one kind of dragon from the Chromatic Ancestry table. This determines the damage type for your other traits, as shown in the table.</p><table><thead><tr><th>Dragon</th><th>Damage Type</th></tr></thead><tbody><tr><td>Black</td><td>Acid</td></tr><tr><td>Blue</td><td>Lightning</td></tr><tr><td>Green</td><td>Poison</td></tr><tr><td>Red</td><td>Fire</td></tr><tr><td>White</td><td>Cold</td></tr></tbody></table>"
+      }
+    },
+    {
+      "key": "breath-weapon",
+      "name": { "pt": "sopro", "en": "Breath Weapon" },
+      "html": {
+        "pt": "<p>Quando você realiza a ação Atacar em seu turno, você pode substituir um de seus ataques por uma exalação de energia mágica em uma linha de 9 metros com 1,5 metro de largura. Cada criatura nessa área deve fazer uma salvaguarda de Destreza (CD = 8 + seu modificador de Constituição + seu bônus de proficiência). Se falhar na salvaguarda, a criatura sofrerá 1d10 pontos de dano do tipo associado à sua Ancestralidade Cromática. Em uma salvaguarda bem-sucedida, sofre metade do dano. Esse dano aumenta em 1d10 quando você atinge o 5º nível (2d10), 11º nível (3d10) e 17º nível (4d10).</p><p>Você pode usar seu Sopro um número de vezes igual ao seu bônus de proficiência, e recupera todos os usos ao terminar um descanso longo.</p>",
+        "en": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot line that is 5 feet wide. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d10 damage of the type associated with your Chromatic Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p><p>You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>"
+      }
+    },
+    {
+      "key": "draconic-resistance",
+      "name": { "pt": "resistência dracônica", "en": "Draconic Resistance" },
+      "html": {
+        "pt": "<p>Você tem resistência ao tipo de dano associado à sua Ancestralidade Cromática.</p>",
+        "en": "<p>You have resistance to the damage type associated with your Chromatic Ancestry.</p>"
+      }
+    },
+    {
+      "key": "chromatic-warding",
+      "name": { "pt": "guarda cromática", "en": "Chromatic Warding" },
+      "html": {
+        "pt": "<p>A partir do 5º nível, como uma ação, você pode canalizar sua energia dracônica para se proteger. Por 1 minuto, você se torna imune ao tipo de dano associado à sua Ancestralidade Cromática. Uma vez que você usar este traço, só poderá usá-lo de novo após terminar um descanso longo.</p>",
+        "en": "<p>Starting at 5th level, as an action, you can channel your draconic energy to protect yourself. For 1 minute, you become immune to the damage type associated with your Chromatic Ancestry. Once you use this trait, you can&#x27;t do so again until you finish a long rest.</p>"
+      }
+    }
+  ],
+  "subraces": [],
+  "spells": [],
+  "additional_sources": [],
+  "pt_from": null,
+  "size": ["M"],
+  "speed": { "ft": 30, "m": 9.0 }
+}

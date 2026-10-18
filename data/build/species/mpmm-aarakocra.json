@@ -1,105 +1,101 @@
 {
- "slug": "aarakocra",
- "name": {
-  "pt": "aarakocra",
-  "en": "Aarakocra"
- },
- "source": {
-  "pt": {
-   "book": "MPMM",
-   "page": 6
+  "slug": "aarakocra",
+  "name": {
+    "pt": "aarakocra",
+    "en": "Aarakocra"
   },
-  "en": {
-   "book": "MPMM",
-   "page": 5
-  }
- },
- "intro_html": {
-  "pt": "<p>Um povo alado que se originou no Plano Elemental do Ar, os aarakocra planam pelos céus por onde viajam. Os primeiros aarakocra serviram aos Duques do Vento de Aaqa — poderosos seres do ar — e foram imbuídos de uma fração do poder de seus mestres sobre os ventos. Seus descendentes ainda controlam o que resta desse poder.</p><p>Vistos de baixo, os aarakocra parecem pássaros grandes e, portanto, às vezes são chamados de povo pássaro. Somente quando eles se empoleiram em um galho ou andam pelo chão é que sua natureza humanoide fica clara. De pé, os aarakocras têm cerca de 1,5 m de altura e pernas longas e estreitas que se afunilam em garras afiadas. Seus corpos são cobertos de penas — geralmente vermelhas, alaranjadas, amarelas, marrons ou cinzas. Eles também têm cabeça de ave, muitas vezes parecidas com as de papagaios ou águias.</p>",
-  "en": "<p>A winged people who originated on the Elemental Plane of Air, aarakocra soar through the sky wherever they wander. The first aarakocra served the Wind Dukes of Aaqa—mighty beings of air—and were imbued with a measure of their masters’ power over winds. Their descendants still command echoes of that power.</p> <p>From below, aarakocra look like large birds and thus are sometimes called birdfolk. Only when they roost on a branch or walk across the ground is their Humanoid nature clear. Standing upright, aarakocra are typically about 5 feet tall, and they have long, narrow legs that taper to sharp talons. Feathers cover their bodies—usually red, orange, yellow, brown, or gray. Their heads are also avian, often resembling those of parrots or eagles.</p>"
- },
- "traits": [
-  {
-   "key": "creature-type",
-   "name": {
-    "pt": "tipo de criatura",
-    "en": "Creature Type"
-   },
-   "html": {
-    "pt": "<p>Você é um humanoide.</p>",
-    "en": "<p>You are a Humanoid.</p>"
-   }
+  "source": {
+    "pt": {
+      "book": "MPMM",
+      "page": 6
+    },
+    "en": {
+      "book": "MPMM",
+      "page": 5
+    }
   },
-  {
-   "key": "size",
-   "name": {
-    "pt": "tamanho",
-    "en": "Size"
-   },
-   "html": {
-    "pt": "<p>Seu tamanho é Médio.</p>",
-    "en": "<p>Your size is Medium.</p>"
-   }
+  "intro_html": {
+    "pt": "<p>Um povo alado que se originou no Plano Elemental do Ar, os aarakocra planam pelos céus por onde viajam. Os primeiros aarakocra serviram aos Duques do Vento de Aaqa — poderosos seres do ar — e foram imbuídos de uma fração do poder de seus mestres sobre os ventos. Seus descendentes ainda controlam o que resta desse poder.</p><p>Vistos de baixo, os aarakocra parecem pássaros grandes e, portanto, às vezes são chamados de povo pássaro. Somente quando eles se empoleiram em um galho ou andam pelo chão é que sua natureza humanoide fica clara. De pé, os aarakocras têm cerca de 1,5 m de altura e pernas longas e estreitas que se afunilam em garras afiadas. Seus corpos são cobertos de penas — geralmente vermelhas, alaranjadas, amarelas, marrons ou cinzas. Eles também têm cabeça de ave, muitas vezes parecidas com as de papagaios ou águias.</p>",
+    "en": "<p>A winged people who originated on the Elemental Plane of Air, aarakocra soar through the sky wherever they wander. The first aarakocra served the Wind Dukes of Aaqa—mighty beings of air—and were imbued with a measure of their masters’ power over winds. Their descendants still command echoes of that power.</p> <p>From below, aarakocra look like large birds and thus are sometimes called birdfolk. Only when they roost on a branch or walk across the ground is their Humanoid nature clear. Standing upright, aarakocra are typically about 5 feet tall, and they have long, narrow legs that taper to sharp talons. Feathers cover their bodies—usually red, orange, yellow, brown, or gray. Their heads are also avian, often resembling those of parrots or eagles.</p>"
   },
-  {
-   "key": "speed",
-   "name": {
-    "pt": "deslocamento",
-    "en": "Speed"
-   },
-   "html": {
-    "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
-    "en": "<p>Your walking speed is 30 feet.</p>"
-   }
-  },
-  {
-   "key": "talons",
-   "name": {
-    "pt": "garras",
-    "en": "Talons"
-   },
-   "html": {
-    "pt": "<p>Você tem garras que pode usar para desferir golpes desarmados. Quando você acerta com elas, o golpe causa dano cortante igual a 1d6 + seu modificador de Força, ao invés do dano contundente normal para um golpe desarmado.</p>",
-    "en": "<p>You have talons that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.</p>"
-   }
-  },
-  {
-   "key": "wind-caller",
-   "name": {
-    "pt": "manipulador de vento",
-    "en": "Wind Caller"
-   },
-   "html": {
-    "pt": "<p>A partir do 3º nível, você pode conjurar a magia lufada de vento usando este traço, sem exigir componente material. Uma vez que conjurar essa magia com esse traço, você não poderá fazê-lo novamente até terminar um descanso longo. Você também pode conjurar a magia usando quaisquer espaços de magia de 2º círculo ou superior que você tenha.</p><p>Inteligência, Sabedoria ou Carisma é seu atributo de conjuração quando você conjura lufada de vento utilizando este traço (escolha um ao selecionar esta raça).</p>",
-    "en": "<p>Starting at 3rd level, you can cast the gust of wind spell with this trait, without requiring a material component. Once you cast the spell with this trait, you can’t do so again until you finish a long rest. You can also cast the spell using any spell slots you have of 2nd level or higher.</p> <p>Intelligence, Wisdom, or Charisma is your spellcasting ability for it when you cast gust of wind with this trait (choose when you select this race).</p>"
-   }
-  },
-  {
-   "key": "flight",
-   "name": {
-    "pt": "voo",
-    "en": "Flight"
-   },
-   "html": {
-    "pt": "<p>Devido às suas asas, você tem deslocamento de voo equivalente ao seu deslocamento de caminhada. Você não pode usar esse deslocamento de voo se estiver usando uma armadura média ou pesada.</p>",
-    "en": "<p>Because of your wings, you have a flying speed equal to your walking speed. You can’t use this flying speed if you’re wearing medium or heavy armor.</p>"
-   }
-  }
- ],
- "subraces": [],
- "spells": [
-  {
-   "level": 3,
-   "names_pt": [
-    "lufada de vento"
-   ],
-   "names_en": [
-    "gust of wind"
-   ],
-   "regularity": {
-    "pt": "uma vez por descanso longo (também pode ser conjurada com espaços de magia de 2º círculo ou superior)",
-    "en": "once per long rest (can also be cast using spell slots of 2nd level or higher)"
-   }
-  }
- ]
+  "traits": [
+    {
+      "key": "creature-type",
+      "name": {
+        "pt": "tipo de criatura",
+        "en": "Creature Type"
+      },
+      "html": {
+        "pt": "<p>Você é um humanoide.</p>",
+        "en": "<p>You are a Humanoid.</p>"
+      }
+    },
+    {
+      "key": "size",
+      "name": {
+        "pt": "tamanho",
+        "en": "Size"
+      },
+      "html": {
+        "pt": "<p>Seu tamanho é Médio.</p>",
+        "en": "<p>Your size is Medium.</p>"
+      }
+    },
+    {
+      "key": "speed",
+      "name": {
+        "pt": "deslocamento",
+        "en": "Speed"
+      },
+      "html": {
+        "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
+        "en": "<p>Your walking speed is 30 feet.</p>"
+      }
+    },
+    {
+      "key": "talons",
+      "name": {
+        "pt": "garras",
+        "en": "Talons"
+      },
+      "html": {
+        "pt": "<p>Você tem garras que pode usar para desferir golpes desarmados. Quando você acerta com elas, o golpe causa dano cortante igual a 1d6 + seu modificador de Força, ao invés do dano contundente normal para um golpe desarmado.</p>",
+        "en": "<p>You have talons that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.</p>"
+      }
+    },
+    {
+      "key": "wind-caller",
+      "name": {
+        "pt": "manipulador de vento",
+        "en": "Wind Caller"
+      },
+      "html": {
+        "pt": "<p>A partir do 3º nível, você pode conjurar a magia lufada de vento usando este traço, sem exigir componente material. Uma vez que conjurar essa magia com esse traço, você não poderá fazê-lo novamente até terminar um descanso longo. Você também pode conjurar a magia usando quaisquer espaços de magia de 2º círculo ou superior que você tenha.</p><p>Inteligência, Sabedoria ou Carisma é seu atributo de conjuração quando você conjura lufada de vento utilizando este traço (escolha um ao selecionar esta raça).</p>",
+        "en": "<p>Starting at 3rd level, you can cast the gust of wind spell with this trait, without requiring a material component. Once you cast the spell with this trait, you can’t do so again until you finish a long rest. You can also cast the spell using any spell slots you have of 2nd level or higher.</p> <p>Intelligence, Wisdom, or Charisma is your spellcasting ability for it when you cast gust of wind with this trait (choose when you select this race).</p>"
+      }
+    },
+    {
+      "key": "flight",
+      "name": {
+        "pt": "voo",
+        "en": "Flight"
+      },
+      "html": {
+        "pt": "<p>Devido às suas asas, você tem deslocamento de voo equivalente ao seu deslocamento de caminhada. Você não pode usar esse deslocamento de voo se estiver usando uma armadura média ou pesada.</p>",
+        "en": "<p>Because of your wings, you have a flying speed equal to your walking speed. You can’t use this flying speed if you’re wearing medium or heavy armor.</p>"
+      }
+    }
+  ],
+  "subraces": [],
+  "spells": [
+    {
+      "level": 3,
+      "names_pt": ["lufada de vento"],
+      "names_en": ["gust of wind"],
+      "regularity": {
+        "pt": "uma vez por descanso longo (também pode ser conjurada com espaços de magia de 2º círculo ou superior)",
+        "en": "once per long rest (can also be cast using spell slots of 2nd level or higher)"
+      }
+    }
+  ]
 }

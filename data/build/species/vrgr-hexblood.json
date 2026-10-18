@@ -101,14 +101,8 @@
   "spells": [
     {
       "level": 1,
-      "names_pt": [
-        "disfarçar-se",
-        "amaldiçoar"
-      ],
-      "names_en": [
-        "disguise self",
-        "hex"
-      ],
+      "names_pt": ["disfarçar-se", "amaldiçoar"],
+      "names_en": ["disguise self", "hex"],
       "regularity": {
         "pt": "uma vez cada, recupera ao terminar um descanso longo; também podem ser conjuradas com espaços de magia",
         "en": "once each, regained after a long rest; also castable with spell slots"

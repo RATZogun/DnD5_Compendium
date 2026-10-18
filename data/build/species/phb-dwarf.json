@@ -1,361 +1,353 @@
 {
- "slug": "dwarf",
- "name": {
-  "pt": "anão",
-  "en": "Dwarf"
- },
- "source": {
-  "pt": {
-   "book": "LDJ",
-   "page": 18
+  "slug": "dwarf",
+  "name": {
+    "pt": "anão",
+    "en": "Dwarf"
   },
-  "en": {
-   "book": "PHB",
-   "page": 18
-  }
- },
- "intro_html": {
-  "pt": "<p>\"ESTAIS ATRASADO, ELFO!\", a voz familiar o atingiu com seu gume áspero. Bruenor Martelo de Batalha pisava sobre as costas do adversário caído, desconsiderando o fato de que o pesado monstro ainda jazia sobre seu amigo élfico. Apesar do desconforto, o grande, pontudo e diversas vezes fraturado nariz do anão, bem como sua barba ruiva, rajada de branco mas ainda tingida de fogo, eram uma visão agradável para Drizzt. \"Tinha certeza de que vos encontraria em apuros, caso decidisse procurar!\"</p><p><em>— R. A. Salvatore, A Estilha de Cristal</em></p><p>Ricos reinos de grandeza ancestral, salões esculpidos na raiz das montanhas, o ecoar de picaretas e martelos nas minas profundas e forjas ardentes, a tradição e o compromisso com o clã, o ódio intenso aos goblins e orcs — esses são os temas que unem todos os anões.</p><p><strong>Baixos e Robustos</strong></p><p>Audazes e resistentes, os anões são conhecidos como guerreiros hábeis, mineradores e artífices da pedra e do metal. Embora tenham menos de 1,5 metro de altura, são tão largos e compactos que podem pesar tanto quanto um humano 60 centímetros mais alto. E sua coragem e resistência rivalizam com as de qualquer povo de maior estatura física.</p><p>A cor da sua pele varia do marrom escuro a um matiz pálido, tingido de vermelho, embora os tons mais comuns sejam o castanho claro ou bronzeado. Seus cabelos, longos mas de estilo simples, geralmente são negros, cinzentos ou castanhos, embora indivíduos pálidos frequentemente possuam cabelos ruivos. Anões do sexo masculino valorizam muito suas barbas, cuidando delas com todo o zelo.</p><p><strong>Memórias Antigas, Antigos Rancores</strong></p><p>Os anões podem viver mais de 400 anos, e, por isso, os mais velhos costumam se lembrar de um mundo muito diferente. Por exemplo, alguns dos habitantes mais antigos da Cidadela Felbarr (em Forgotten Realms) lembram-se do dia, há mais de três séculos, em que os orcs conquistaram sua fortaleza, forçando-os a um exílio que durou mais de 250 anos. Uma expectativa de vida tão longa concede aos anões uma perspectiva sobre o mundo que as raças de menor longevidade, como os humanos e os pequeninos, não possuem.</p><p>Os anões são tão sólidos e longevos como suas adoradas montanhas, resistindo à passagem dos séculos com grande durabilidade e pouca mudança. Eles respeitam os costumes dos clãs, traçando a história dos seus ancestrais a partir da fundação das mais antigas fortalezas, quando o mundo ainda era jovem, e não abandonam suas tradições facilmente. A devoção aos deuses do seu povo, defensores dos ideais do trabalho industrial, da habilidade guerreira e da devoção à forja, fazem parte dessas tradições.</p><p>Os membros desta raça são muito determinados, leais à sua palavra e decididos no agir, chegando ao ponto da inflexibilidade. Muitos partilham um forte senso de justiça, demorando a esquecer os malfeitos cometidos contra si e os seus. Uma injustiça cometida contra um anão é uma ofensa contra todo o clã. E o que começa como uma busca solitária por vingança, pode acabar se tornando a vendeta de toda uma família.</p><p><strong>Clãs e Reinos</strong></p><p>Os reinos anões se estendem pelas profundezas das montanhas, onde os membros desse povo mineram pedras e metais preciosos, e, a partir deles, forjam itens maravilhosos.</p><p>Os anões amam a beleza dos metais raros e das joias finas. Em alguns deles, esse amor chega a se transformar em avareza. E as riquezas que não podem encontrar em suas montanhas, adquirem por meio do comércio. Como não são muito afeitos a barcos, são os comerciantes humanos e pequeninos que negociam seus bens nas rotas marítimas. Membros de confiança de outras raças são bem-vindos em povoados anões, embora algumas áreas dessas cidades sejam proibidas até mesmo para esses visitantes.</p><p>A unidade central de qualquer sociedade anã é o clã, e os anões valorizam muito o status social. Mesmo os que vivem longe dos seus próprios reinos valorizam sua filiação a um clã e a identidade que daí provém, reconhecendo seus parentes e invocando os nomes de seus ancestrais em juramentos e maldições. Não pertencer a um clã é o pior destino que pode se abater sobre um anão.</p><p>Em terras estrangeiras, os anões costumam ser artesãos, geralmente ferreiros, armeiros e joalheiros. Alguns tornam-se mercenários ou guarda-costas, valorizados por sua coragem e lealdade.</p><p><strong>Deuses, Ouro e Clã</strong></p><p>Os anões que levam uma vida de aventuras podem ser motivados pelo desejo de obter tesouros, seja para fins de acumulação, por alguma razão específica, ou mesmo pelo desejo de ajudar terceiros. Outros são guiados pelo comando ou inspiração de uma divindade, seja por um chamado direto ou simplesmente pelo desejo de trazer glória a um dos seus deuses. O clã e os ancestrais de um anão também podem ser motivações importantes. Um anão poderia estar buscando a restauração da honra perdida de seu clã, a vingança por uma antiga ofensa ou a reconquista do território de um clã exilado. Ou poderia se envolver na busca por um machado, outrora empunhado por um ancestral glorioso, e há muito perdido no campo de batalha.</p><p>Anões convivem razoavelmente bem com a maioria das outras raças. \"A diferença entre um conhecido e um amigo é de uns cem anos\", reza um ditado que pode ser exagerado, mas certamente demonstra o quanto é difícil, para membros de raças de vida curta, como os humanos, ganhar a confiança de um anão.</p><p><em>Elfos.</em> \"Não é sensato depender dos elfos. É difícil prever o que farão; quando o martelo racha o crânio de um orc, eles podem tanto começar a cantar, quanto sacar uma espada. Elfos são volúveis e fúteis. Há duas coisas a serem ditas sobre os elfos: eles não possuem muitos ferreiros, mas os poucos que possuem fazem um ótimo trabalho. E quando orcs ou goblins avançam pelas montanhas, é bom ter um elfo ao seu lado — talvez não tanto quanto um anão, mas sem dúvida eles odeiam os orcs tanto quanto nós.\"</p><p><em>Pequeninos.</em> \"Certamente são um povo agradável. Porém, mostre-me algum herói pequenino. Um império, um exército triunfante. Até mesmo um tesouro que tenha sido conquistado pelas mãos de um pequenino. Nada! Como levá-los a sério?\"</p><p><em>Humanos.</em> \"Mal você conhece uma humana, e ela já está no leito de morte. Se tiver sorte, ela terá descendentes — filhos ou netos — que tenham mãos e coração tão bons quanto os dela. Só assim é possível fazer amizade com um humano. E assisti-los partir! Quando colocam seu coração em alguma coisa, vão atrás, seja isso o tesouro de um dragão ou o trono de um império. Essa diligência é digna de admiração, ainda que ela os coloque em apuros com muita frequência.\"</p><p><strong>Nomes Anões</strong></p><p>Segundo a tradição, o nome de um anão é escolhido pelo ancião do clã. Todos os nomes próprios de anões têm sido utilizados e reutilizados por gerações. O nome de um anão pertence ao clã, não ao indivíduo. Um anão que usar seu nome indevidamente, ou trouxer vergonha para o clã perde o nome, e está proibido por lei de usar qualquer outro nome anão em seu lugar.</p><p><strong>Nomes Masculinos:</strong> Adrik, Alberich, Baern, Barendd, Brottor, Bruenor, Dain, Darrak, Delg, Eberk, Einkil, Fargrim, Flint, Gardain, Harbek, Kildrak, Morgran, Orsik, Oskar, Rangrim, Rurik, Taklinn, Thoradin, Thorin, Tordek, Traubon, Travok, Ulfgar, Veit, Vondal</p><p><strong>Nomes Femininos:</strong> Amber, Artin, Audhild, Bardryn, Dagnal, Diesa, Eldeth, Falkrunn, Finellen, Gunnloda, Gurdis, Helja, Hlin, Kathra, Kristryd, Ilde, Liftrasa, Mardred, Riswynn, Sannl, Torbera, Torgga, Vistra</p><p><strong>Nomes de Clãs:</strong> Balderk, Barba Gélida, Bigorna-Forte, Dankil, Forja-Fogo, Gorunn, Holderhek, Loderr, Lutgehr, Martelo de Batalha, Punho de Ferro, Rumnaheim, Strakeln, Torunn, Ungartt</p>",
-  "en": "<p>“Yer late, elf!” came the rough edge of a familiar voice. Bruenor Battlehammer walked up the back of his dead foe, disregarding the fact that the heavy monster lay on top of his elven friend. In spite of the added discomfort, the dwarf’s long, pointed, often-broken nose and gray-streaked though still-fiery red beard came as a welcome sight to Drizzt. “Knew I’d find ye in trouble if I came out an’ looked for ye!”</p><p><em>— R. A. Salvatore, The Crystal Shard</em></p><p>Kingdoms rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and blazing forges, a commitment to clan and tradition, and a burning hatred of goblins and orcs—these common threads unite all dwarves.</p><p><strong>Short and Stout</strong></p><p>Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. Though they stand well under 5 feet tall, dwarves are so broad and compact that they can weigh as much as a human standing nearly two feet taller. Their courage and endurance are also easily a match for any of the larger folk.</p><p>Dwarven skin ranges from deep brown to a paler hue tinged with red, but the most common shades are light brown or deep tan, like certain tones of earth. Their hair, worn long but in simple styles, is usually black, gray, or brown, though paler dwarves often have red hair. Male dwarves value their beards highly and groom them carefully.</p><p><strong>Long Memory, Long Grudges</strong></p><p>Dwarves can live to be more than 400 years old, so the oldest living dwarves often remember a very different world. For example, some of the oldest dwarves living in Citadel Felbarr (in the world of the Forgotten Realms) can recall the day, more than three centuries ago, when orcs conquered the fortress and drove them into an exile that lasted over 250 years. This longevity grants them a perspective on the world that shorter-lived races such as humans and halflings lack.</p><p>Dwarves are solid and enduring like the mountains they love, weathering the passage of centuries with stoic endurance and little change. They respect the traditions of their clans, tracing their ancestry back to the founding of their most ancient strongholds in the youth of the world, and don’t abandon those traditions lightly. Part of those traditions is devotion to the gods of the dwarves, who uphold the dwarven ideals of industrious labor, skill in battle, and devotion to the forge.</p><p>Individual dwarves are determined and loyal, true to their word and decisive in action, sometimes to the point of stubbornness. Many dwarves have a strong sense of justice, and they are slow to forget wrongs they have suffered. A wrong done to one dwarf is a wrong done to the dwarf’s entire clan, so what begins as one dwarf’s hunt for vengeance can become a full-blown clan feud.</p><p><strong>Clans and Kingdoms</strong></p><p>Dwarven kingdoms stretch deep beneath the mountains where the dwarves mine gems and precious metals and forge items of wonder. They love the beauty and artistry of precious metals and fine jewelry, and in some dwarves this love festers into avarice. Whatever wealth they can’t find in their mountains, they gain through trade. They dislike boats, so enterprising humans and halflings frequently handle trade in dwarven goods along water routes. Trustworthy members of other races are welcome in dwarf settlements, though some areas are off limits even to them.</p><p>The chief unit of dwarven society is the clan, and dwarves highly value social standing. Even dwarves who live far from their own kingdoms cherish their clan identities and affiliations, recognize related dwarves, and invoke their ancestors’ names in oaths and curses. To be clanless is the worst fate that can befall a dwarf.</p><p>Dwarves in other lands are typically artisans, especially weaponsmiths, armorers, and jewelers. Some become mercenaries or bodyguards, highly sought after for their courage and loyalty.</p><p><strong>Gods, Gold, and Clan</strong></p><p>Dwarves who take up the adventuring life might be motivated by a desire for treasure—for its own sake, for a specific purpose, or even out of an altruistic desire to help others. Other dwarves are driven by the command or inspiration of a deity, a direct calling or simply a desire to bring glory to one of the dwarf gods. Clan and ancestry are also important motivators. A dwarf might seek to restore a clan’s lost honor, avenge an ancient wrong the clan suffered, or earn a new place within the clan after having been exiled. Or a dwarf might search for the axe wielded by a mighty ancestor, lost on the field of battle centuries ago.</p><p><strong>SLOW TO TRUST</strong></p><p>Dwarves get along passably well with most other races. “The difference between an acquaintance and a friend is about a hundred years,” is a dwarf saying that might be hyperbole, but certainly points to how difficult it can be for a member of a short-lived race like humans to earn a dwarf’s trust.</p><p><em><strong>Elves.</strong></em> “It’s not wise to depend on the elves. No telling what an elf will do next; when the hammer meets the orc’s head, they’re as apt to start singing as to pull out a sword. They’re flighty and frivolous. Two things to be said for them, though: They don’t have many smiths, but the ones they have do very fine work. And when orcs or goblins come streaming down out of the mountains, an elf’s good to have at your back. Not as good as a dwarf, maybe, but no doubt they hate the orcs as much as we do.”</p><p><em><strong>Halflings.</strong></em> “Sure, they’re pleasant folk. But show me a halfling hero. An empire, a triumphant army. Even a treasure for the ages made by halfling hands. Nothing. How can you take them seriously?”</p><p><em><strong>Humans.</strong></em> “You take the time to get to know a human, and by then the human’s on her deathbed. If you’re lucky, she’s got kin—a daughter or granddaughter, maybe—who’s got hands and heart as good as hers. That’s when you can make a human friend. And watch them go! They set their hearts on something, they’ll get it, whether it’s a dragon’s hoard or an empire’s throne. You have to admire that kind of dedication, even if it gets them in trouble more often than not.”</p><p><strong>Dwarf Names</strong></p><p>A dwarf’s name is granted by a clan elder, in accordance with tradition. Every proper dwarven name has been used and reused down through the generations. A dwarf’s name belongs to the clan, not to the individual. A dwarf who misuses or brings shame to a clan name is stripped of the name and forbidden by law to use any dwarven name in its place.</p><p><strong>Male Names:</strong> Adrik, Alberich, Baern, Barendd, Brottor, Bruenor, Dain, Darrak, Delg, Eberk, Einkil, Fargrim, Flint, Gardain, Harbek, Kildrak, Morgran, Orsik, Oskar, Rangrim, Rurik, Taklinn, Thoradin, Thorin, Tordek, Traubon, Travok, Ulfgar, Veit, Vondal</p><p><strong>Female Names:</strong> Amber, Artin, Audhild, Bardryn, Dagnal, Diesa, Eldeth, Falkrunn, Finellen, Gunnloda, Gurdis, Helja, Hlin, Kathra, Kristryd, Ilde, Liftrasa, Mardred, Riswynn, Sannl, Torbera, Torgga, Vistra</p><p><strong>Clan Names:</strong> Balderk, Battlehammer, Brawnanvil, Dankil, Fireforge, Frostbeard, Gorunn, Holderhek, Ironfist, Loderr, Lutgehr, Rumnaheim, Strakeln, Torunn, Ungart</p>"
- },
- "traits": [
-  {
-   "key": "ability-score-increase",
-   "name": {
-    "pt": "aumento no valor de atributo",
-    "en": "Ability Score Increase"
-   },
-   "html": {
-    "pt": "<p>O valor da sua Constituição aumenta em 2.</p>",
-    "en": "<p>Your Constitution score increases by 2.</p>"
-   }
-  },
-  {
-   "key": "age",
-   "name": {
-    "pt": "idade",
-    "en": "Age"
-   },
-   "html": {
-    "pt": "<p>Anões amadurecem na mesma velocidade que os humanos, mas são considerados jovens até os 50 anos. Vivem em média 350 anos.</p>",
-    "en": "<p>Dwarves mature at the same rate as humans, but they’re considered young until they reach the age of 50. On average, they live about 350 years.</p>"
-   }
-  },
-  {
-   "key": "alignment",
-   "name": {
-    "pt": "alinhamento",
-    "en": null
-   },
-   "html": {
-    "pt": "<p>A maior parte dos anões é ordeira, acreditando fortemente nos benefícios de uma sociedade organizada. Eles também tendem ao bem, possuindo um forte senso de honestidade e a crença de que todos merecem compartilhar os benefícios da ordem e da justiça.</p>",
-    "en": null
-   }
-  },
-  {
-   "key": "size",
-   "name": {
-    "pt": "tamanho",
-    "en": "Size"
-   },
-   "html": {
-    "pt": "<p>Seu tamanho é Médio. Anões crescem até 1,5 metro e pesam em torno de 75 quilos.</p>",
-    "en": "<p>Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.</p>"
-   }
-  },
-  {
-   "key": "speed",
-   "name": {
-    "pt": "deslocamento",
-    "en": "Speed"
-   },
-   "html": {
-    "pt": "<p>Seu deslocamento básico ao caminhar é de 7,5 metros. Seu deslocamento não é reduzido ao utilizar armaduras pesadas.</p>",
-    "en": "<p>Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor.</p>"
-   }
-  },
-  {
-   "key": "darkvision",
-   "name": {
-    "pt": "visão no escuro",
-    "en": "Darkvision"
-   },
-   "html": {
-    "pt": "<p>Acostumado à vida subterrânea, você possui uma visão superior no escuro, enxergando até 18 metros na meia-luz como se fosse dia e, na escuridão, como se fosse meia-luz. Na escuridão, você só distingue tons de cinza.</p>",
-    "en": "<p>Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>"
-   }
-  },
-  {
-   "key": "dwarven-resilience",
-   "name": {
-    "pt": "resistência a toxinas",
-    "en": "Dwarven Resilience"
-   },
-   "html": {
-    "pt": "<p>Você tem vantagem em salvaguardas contra venenos e possui resistência a dano venenoso (explicadas no Capítulo 9, \"Combate\").</p>",
-    "en": "<p>You have advantage on saving throws against poison, and you have resistance against poison damage (explained in the “Combat” section).</p>"
-   }
-  },
-  {
-   "key": "dwarven-combat-training",
-   "name": {
-    "pt": "treinamento anão em combate",
-    "en": "Dwarven Combat Training"
-   },
-   "html": {
-    "pt": "<p>Você é proficiente com machados de guerra, machadinhas, martelos leves e martelos de guerra.</p>",
-    "en": "<p>You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.</p>"
-   }
-  },
-  {
-   "key": "tool-proficiency",
-   "name": {
-    "pt": "proficiência com ferramentas",
-    "en": "Tool Proficiency"
-   },
-   "html": {
-    "pt": "<p>Você é proficiente em uma das ferramentas de artesão, à sua escolha: ferraria, cervejaria ou alvenaria.</p>",
-    "en": "<p>You gain proficiency with the artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</p>"
-   }
-  },
-  {
-   "key": "stonecunning",
-   "name": {
-    "pt": "conhecimento de pedras",
-    "en": "Stonecunning"
-   },
-   "html": {
-    "pt": "<p>Sempre que você fizer um teste de Inteligência (História) relacionado à origem de um trabalho em pedra, você é considerado proficiente na perícia História e, no lugar do bônus de proficiência normal, deve somar o dobro desse bônus ao teste.</p>",
-    "en": "<p>Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>"
-   }
-  },
-  {
-   "key": "languages",
-   "name": {
-    "pt": "idiomas",
-    "en": "Languages"
-   },
-   "html": {
-    "pt": "<p>Você fala, lê e escreve os idiomas Comum e Anão. O idioma Anão é repleto de consoantes fortes e sons guturais. Esse traço vocal contamina, com sotaque peculiar, todos os idiomas que o anão vier a falar.</p>",
-    "en": "<p>You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.</p>"
-   }
-  },
-  {
-   "key": "subrace",
-   "name": {
-    "pt": "sub-raças",
-    "en": "Subrace"
-   },
-   "html": {
-    "pt": "<p>Existem duas sub-raças principais de anões nos mundos de D&amp;D: anões da colina e anões da montanha. Você deve escolher uma delas.</p>",
-    "en": "<p>Two main subraces of dwarves populate the worlds of D&amp;D: hill dwarves and mountain dwarves. Choose one of these subraces or one from another source.</p>"
-   }
-  }
- ],
- "subraces": [
-  {
-   "slug": "hill-dwarf",
-   "name": {
-    "pt": "anão da colina",
-    "en": "Hill Dwarf"
-   },
-   "source": {
+  "source": {
     "pt": {
-     "book": "LDJ",
-     "page": 20
+      "book": "LDJ",
+      "page": 18
     },
     "en": {
-     "book": "PHB",
-     "page": 20
+      "book": "PHB",
+      "page": 18
     }
-   },
-   "intro_html": {
-    "pt": "<p>Na qualidade de anão da colina, você possui sentidos aguçados, intuição profunda e uma resiliência formidável. Assim como os exilados Neidar e os degradados Klar de Krynn, do cenário de Dragonlance, e os anões do ouro de Faerûn, nativos do poderoso reino ao sul do continente, são anões da colina.</p>",
-    "en": "<p>As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience. The gold dwarves of Faerûn in their mighty southern kingdom are hill dwarves, as are the exiled Neidar and the debased Klar of Krynn in the Dragonlance setting.</p>"
-   },
-   "traits": [
-    {
-     "key": "ability-score-increase",
-     "name": {
-      "pt": "aumento no valor de atributo",
-      "en": "Ability Score Increase"
-     },
-     "html": {
-      "pt": "<p>Seu valor de Sabedoria aumenta em 1.</p>",
-      "en": "<p>Your Wisdom score increases by 1.</p>"
-     }
-    },
-    {
-     "key": "dwarven-toughness",
-     "name": {
-      "pt": "tenacidade anã",
-      "en": "Dwarven Toughness"
-     },
-     "html": {
-      "pt": "<p>Seus pontos de vida máximos aumentam em 1, e mais 1 toda vez que você passar de nível.</p>",
-      "en": "<p>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p>"
-     }
-    }
-   ]
   },
-  {
-   "slug": "mountain-dwarf",
-   "name": {
-    "pt": "anão da montanha",
-    "en": "Mountain Dwarf"
-   },
-   "source": {
-    "pt": {
-     "book": "LDJ",
-     "page": 20
-    },
-    "en": {
-     "book": "PHB",
-     "page": 20
-    }
-   },
-   "intro_html": {
-    "pt": "<p>Na qualidade de anão da montanha, você é forte e resistente, estando acostumado à vida dura em terrenos difíceis. Você provavelmente é alto para um anão, e tende a possuir uma cor mais clara. Os anões do escudo, que vivem no norte de Faerûn, assim como o clã governante Hylar e os clãs nobres Daewar, de Dragonlance, são anões da montanha.</p>",
-    "en": "<p>As a mountain dwarf, you’re strong and hardy, accustomed to a difficult life in rugged terrain. You’re probably on the tall side (for a dwarf), and tend toward lighter coloration. The shield dwarves of northern Faerûn, as well as the ruling Hylar clan and the noble Daewar clan of Dragonlance, are mountain dwarves.</p>"
-   },
-   "traits": [
-    {
-     "key": "ability-score-increase",
-     "name": {
-      "pt": "aumento no valor de atributo",
-      "en": "Ability Score Increase"
-     },
-     "html": {
-      "pt": "<p>Seu valor de Força aumenta em 2.</p>",
-      "en": "<p>Your Strength score increases by 2.</p>"
-     }
-    },
-    {
-     "key": "dwarven-armor-training",
-     "name": {
-      "pt": "treinamento anão com armaduras",
-      "en": "Dwarven Armor Training"
-     },
-     "html": {
-      "pt": "<p>Você é proficiente com armaduras leves e médias.</p>",
-      "en": "<p>You have proficiency with light and medium armor.</p>"
-     }
-    }
-   ]
+  "intro_html": {
+    "pt": "<p>\"ESTAIS ATRASADO, ELFO!\", a voz familiar o atingiu com seu gume áspero. Bruenor Martelo de Batalha pisava sobre as costas do adversário caído, desconsiderando o fato de que o pesado monstro ainda jazia sobre seu amigo élfico. Apesar do desconforto, o grande, pontudo e diversas vezes fraturado nariz do anão, bem como sua barba ruiva, rajada de branco mas ainda tingida de fogo, eram uma visão agradável para Drizzt. \"Tinha certeza de que vos encontraria em apuros, caso decidisse procurar!\"</p><p><em>— R. A. Salvatore, A Estilha de Cristal</em></p><p>Ricos reinos de grandeza ancestral, salões esculpidos na raiz das montanhas, o ecoar de picaretas e martelos nas minas profundas e forjas ardentes, a tradição e o compromisso com o clã, o ódio intenso aos goblins e orcs — esses são os temas que unem todos os anões.</p><p><strong>Baixos e Robustos</strong></p><p>Audazes e resistentes, os anões são conhecidos como guerreiros hábeis, mineradores e artífices da pedra e do metal. Embora tenham menos de 1,5 metro de altura, são tão largos e compactos que podem pesar tanto quanto um humano 60 centímetros mais alto. E sua coragem e resistência rivalizam com as de qualquer povo de maior estatura física.</p><p>A cor da sua pele varia do marrom escuro a um matiz pálido, tingido de vermelho, embora os tons mais comuns sejam o castanho claro ou bronzeado. Seus cabelos, longos mas de estilo simples, geralmente são negros, cinzentos ou castanhos, embora indivíduos pálidos frequentemente possuam cabelos ruivos. Anões do sexo masculino valorizam muito suas barbas, cuidando delas com todo o zelo.</p><p><strong>Memórias Antigas, Antigos Rancores</strong></p><p>Os anões podem viver mais de 400 anos, e, por isso, os mais velhos costumam se lembrar de um mundo muito diferente. Por exemplo, alguns dos habitantes mais antigos da Cidadela Felbarr (em Forgotten Realms) lembram-se do dia, há mais de três séculos, em que os orcs conquistaram sua fortaleza, forçando-os a um exílio que durou mais de 250 anos. Uma expectativa de vida tão longa concede aos anões uma perspectiva sobre o mundo que as raças de menor longevidade, como os humanos e os pequeninos, não possuem.</p><p>Os anões são tão sólidos e longevos como suas adoradas montanhas, resistindo à passagem dos séculos com grande durabilidade e pouca mudança. Eles respeitam os costumes dos clãs, traçando a história dos seus ancestrais a partir da fundação das mais antigas fortalezas, quando o mundo ainda era jovem, e não abandonam suas tradições facilmente. A devoção aos deuses do seu povo, defensores dos ideais do trabalho industrial, da habilidade guerreira e da devoção à forja, fazem parte dessas tradições.</p><p>Os membros desta raça são muito determinados, leais à sua palavra e decididos no agir, chegando ao ponto da inflexibilidade. Muitos partilham um forte senso de justiça, demorando a esquecer os malfeitos cometidos contra si e os seus. Uma injustiça cometida contra um anão é uma ofensa contra todo o clã. E o que começa como uma busca solitária por vingança, pode acabar se tornando a vendeta de toda uma família.</p><p><strong>Clãs e Reinos</strong></p><p>Os reinos anões se estendem pelas profundezas das montanhas, onde os membros desse povo mineram pedras e metais preciosos, e, a partir deles, forjam itens maravilhosos.</p><p>Os anões amam a beleza dos metais raros e das joias finas. Em alguns deles, esse amor chega a se transformar em avareza. E as riquezas que não podem encontrar em suas montanhas, adquirem por meio do comércio. Como não são muito afeitos a barcos, são os comerciantes humanos e pequeninos que negociam seus bens nas rotas marítimas. Membros de confiança de outras raças são bem-vindos em povoados anões, embora algumas áreas dessas cidades sejam proibidas até mesmo para esses visitantes.</p><p>A unidade central de qualquer sociedade anã é o clã, e os anões valorizam muito o status social. Mesmo os que vivem longe dos seus próprios reinos valorizam sua filiação a um clã e a identidade que daí provém, reconhecendo seus parentes e invocando os nomes de seus ancestrais em juramentos e maldições. Não pertencer a um clã é o pior destino que pode se abater sobre um anão.</p><p>Em terras estrangeiras, os anões costumam ser artesãos, geralmente ferreiros, armeiros e joalheiros. Alguns tornam-se mercenários ou guarda-costas, valorizados por sua coragem e lealdade.</p><p><strong>Deuses, Ouro e Clã</strong></p><p>Os anões que levam uma vida de aventuras podem ser motivados pelo desejo de obter tesouros, seja para fins de acumulação, por alguma razão específica, ou mesmo pelo desejo de ajudar terceiros. Outros são guiados pelo comando ou inspiração de uma divindade, seja por um chamado direto ou simplesmente pelo desejo de trazer glória a um dos seus deuses. O clã e os ancestrais de um anão também podem ser motivações importantes. Um anão poderia estar buscando a restauração da honra perdida de seu clã, a vingança por uma antiga ofensa ou a reconquista do território de um clã exilado. Ou poderia se envolver na busca por um machado, outrora empunhado por um ancestral glorioso, e há muito perdido no campo de batalha.</p><p>Anões convivem razoavelmente bem com a maioria das outras raças. \"A diferença entre um conhecido e um amigo é de uns cem anos\", reza um ditado que pode ser exagerado, mas certamente demonstra o quanto é difícil, para membros de raças de vida curta, como os humanos, ganhar a confiança de um anão.</p><p><em>Elfos.</em> \"Não é sensato depender dos elfos. É difícil prever o que farão; quando o martelo racha o crânio de um orc, eles podem tanto começar a cantar, quanto sacar uma espada. Elfos são volúveis e fúteis. Há duas coisas a serem ditas sobre os elfos: eles não possuem muitos ferreiros, mas os poucos que possuem fazem um ótimo trabalho. E quando orcs ou goblins avançam pelas montanhas, é bom ter um elfo ao seu lado — talvez não tanto quanto um anão, mas sem dúvida eles odeiam os orcs tanto quanto nós.\"</p><p><em>Pequeninos.</em> \"Certamente são um povo agradável. Porém, mostre-me algum herói pequenino. Um império, um exército triunfante. Até mesmo um tesouro que tenha sido conquistado pelas mãos de um pequenino. Nada! Como levá-los a sério?\"</p><p><em>Humanos.</em> \"Mal você conhece uma humana, e ela já está no leito de morte. Se tiver sorte, ela terá descendentes — filhos ou netos — que tenham mãos e coração tão bons quanto os dela. Só assim é possível fazer amizade com um humano. E assisti-los partir! Quando colocam seu coração em alguma coisa, vão atrás, seja isso o tesouro de um dragão ou o trono de um império. Essa diligência é digna de admiração, ainda que ela os coloque em apuros com muita frequência.\"</p><p><strong>Nomes Anões</strong></p><p>Segundo a tradição, o nome de um anão é escolhido pelo ancião do clã. Todos os nomes próprios de anões têm sido utilizados e reutilizados por gerações. O nome de um anão pertence ao clã, não ao indivíduo. Um anão que usar seu nome indevidamente, ou trouxer vergonha para o clã perde o nome, e está proibido por lei de usar qualquer outro nome anão em seu lugar.</p><p><strong>Nomes Masculinos:</strong> Adrik, Alberich, Baern, Barendd, Brottor, Bruenor, Dain, Darrak, Delg, Eberk, Einkil, Fargrim, Flint, Gardain, Harbek, Kildrak, Morgran, Orsik, Oskar, Rangrim, Rurik, Taklinn, Thoradin, Thorin, Tordek, Traubon, Travok, Ulfgar, Veit, Vondal</p><p><strong>Nomes Femininos:</strong> Amber, Artin, Audhild, Bardryn, Dagnal, Diesa, Eldeth, Falkrunn, Finellen, Gunnloda, Gurdis, Helja, Hlin, Kathra, Kristryd, Ilde, Liftrasa, Mardred, Riswynn, Sannl, Torbera, Torgga, Vistra</p><p><strong>Nomes de Clãs:</strong> Balderk, Barba Gélida, Bigorna-Forte, Dankil, Forja-Fogo, Gorunn, Holderhek, Loderr, Lutgehr, Martelo de Batalha, Punho de Ferro, Rumnaheim, Strakeln, Torunn, Ungartt</p>",
+    "en": "<p>“Yer late, elf!” came the rough edge of a familiar voice. Bruenor Battlehammer walked up the back of his dead foe, disregarding the fact that the heavy monster lay on top of his elven friend. In spite of the added discomfort, the dwarf’s long, pointed, often-broken nose and gray-streaked though still-fiery red beard came as a welcome sight to Drizzt. “Knew I’d find ye in trouble if I came out an’ looked for ye!”</p><p><em>— R. A. Salvatore, The Crystal Shard</em></p><p>Kingdoms rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and blazing forges, a commitment to clan and tradition, and a burning hatred of goblins and orcs—these common threads unite all dwarves.</p><p><strong>Short and Stout</strong></p><p>Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. Though they stand well under 5 feet tall, dwarves are so broad and compact that they can weigh as much as a human standing nearly two feet taller. Their courage and endurance are also easily a match for any of the larger folk.</p><p>Dwarven skin ranges from deep brown to a paler hue tinged with red, but the most common shades are light brown or deep tan, like certain tones of earth. Their hair, worn long but in simple styles, is usually black, gray, or brown, though paler dwarves often have red hair. Male dwarves value their beards highly and groom them carefully.</p><p><strong>Long Memory, Long Grudges</strong></p><p>Dwarves can live to be more than 400 years old, so the oldest living dwarves often remember a very different world. For example, some of the oldest dwarves living in Citadel Felbarr (in the world of the Forgotten Realms) can recall the day, more than three centuries ago, when orcs conquered the fortress and drove them into an exile that lasted over 250 years. This longevity grants them a perspective on the world that shorter-lived races such as humans and halflings lack.</p><p>Dwarves are solid and enduring like the mountains they love, weathering the passage of centuries with stoic endurance and little change. They respect the traditions of their clans, tracing their ancestry back to the founding of their most ancient strongholds in the youth of the world, and don’t abandon those traditions lightly. Part of those traditions is devotion to the gods of the dwarves, who uphold the dwarven ideals of industrious labor, skill in battle, and devotion to the forge.</p><p>Individual dwarves are determined and loyal, true to their word and decisive in action, sometimes to the point of stubbornness. Many dwarves have a strong sense of justice, and they are slow to forget wrongs they have suffered. A wrong done to one dwarf is a wrong done to the dwarf’s entire clan, so what begins as one dwarf’s hunt for vengeance can become a full-blown clan feud.</p><p><strong>Clans and Kingdoms</strong></p><p>Dwarven kingdoms stretch deep beneath the mountains where the dwarves mine gems and precious metals and forge items of wonder. They love the beauty and artistry of precious metals and fine jewelry, and in some dwarves this love festers into avarice. Whatever wealth they can’t find in their mountains, they gain through trade. They dislike boats, so enterprising humans and halflings frequently handle trade in dwarven goods along water routes. Trustworthy members of other races are welcome in dwarf settlements, though some areas are off limits even to them.</p><p>The chief unit of dwarven society is the clan, and dwarves highly value social standing. Even dwarves who live far from their own kingdoms cherish their clan identities and affiliations, recognize related dwarves, and invoke their ancestors’ names in oaths and curses. To be clanless is the worst fate that can befall a dwarf.</p><p>Dwarves in other lands are typically artisans, especially weaponsmiths, armorers, and jewelers. Some become mercenaries or bodyguards, highly sought after for their courage and loyalty.</p><p><strong>Gods, Gold, and Clan</strong></p><p>Dwarves who take up the adventuring life might be motivated by a desire for treasure—for its own sake, for a specific purpose, or even out of an altruistic desire to help others. Other dwarves are driven by the command or inspiration of a deity, a direct calling or simply a desire to bring glory to one of the dwarf gods. Clan and ancestry are also important motivators. A dwarf might seek to restore a clan’s lost honor, avenge an ancient wrong the clan suffered, or earn a new place within the clan after having been exiled. Or a dwarf might search for the axe wielded by a mighty ancestor, lost on the field of battle centuries ago.</p><p><strong>SLOW TO TRUST</strong></p><p>Dwarves get along passably well with most other races. “The difference between an acquaintance and a friend is about a hundred years,” is a dwarf saying that might be hyperbole, but certainly points to how difficult it can be for a member of a short-lived race like humans to earn a dwarf’s trust.</p><p><em><strong>Elves.</strong></em> “It’s not wise to depend on the elves. No telling what an elf will do next; when the hammer meets the orc’s head, they’re as apt to start singing as to pull out a sword. They’re flighty and frivolous. Two things to be said for them, though: They don’t have many smiths, but the ones they have do very fine work. And when orcs or goblins come streaming down out of the mountains, an elf’s good to have at your back. Not as good as a dwarf, maybe, but no doubt they hate the orcs as much as we do.”</p><p><em><strong>Halflings.</strong></em> “Sure, they’re pleasant folk. But show me a halfling hero. An empire, a triumphant army. Even a treasure for the ages made by halfling hands. Nothing. How can you take them seriously?”</p><p><em><strong>Humans.</strong></em> “You take the time to get to know a human, and by then the human’s on her deathbed. If you’re lucky, she’s got kin—a daughter or granddaughter, maybe—who’s got hands and heart as good as hers. That’s when you can make a human friend. And watch them go! They set their hearts on something, they’ll get it, whether it’s a dragon’s hoard or an empire’s throne. You have to admire that kind of dedication, even if it gets them in trouble more often than not.”</p><p><strong>Dwarf Names</strong></p><p>A dwarf’s name is granted by a clan elder, in accordance with tradition. Every proper dwarven name has been used and reused down through the generations. A dwarf’s name belongs to the clan, not to the individual. A dwarf who misuses or brings shame to a clan name is stripped of the name and forbidden by law to use any dwarven name in its place.</p><p><strong>Male Names:</strong> Adrik, Alberich, Baern, Barendd, Brottor, Bruenor, Dain, Darrak, Delg, Eberk, Einkil, Fargrim, Flint, Gardain, Harbek, Kildrak, Morgran, Orsik, Oskar, Rangrim, Rurik, Taklinn, Thoradin, Thorin, Tordek, Traubon, Travok, Ulfgar, Veit, Vondal</p><p><strong>Female Names:</strong> Amber, Artin, Audhild, Bardryn, Dagnal, Diesa, Eldeth, Falkrunn, Finellen, Gunnloda, Gurdis, Helja, Hlin, Kathra, Kristryd, Ilde, Liftrasa, Mardred, Riswynn, Sannl, Torbera, Torgga, Vistra</p><p><strong>Clan Names:</strong> Balderk, Battlehammer, Brawnanvil, Dankil, Fireforge, Frostbeard, Gorunn, Holderhek, Ironfist, Loderr, Lutgehr, Rumnaheim, Strakeln, Torunn, Ungart</p>"
   },
-  {
-   "slug": "duergar",
-   "name": {
-    "pt": "anão cinzento (duergar)",
-    "en": "Duergar"
-   },
-   "source": {
-    "pt": {
-     "book": "GACE",
-     "page": 104
-    },
-    "en": null
-   },
-   "intro_html": {
-    "pt": "<p>Nas cidades profundas da Umbreterna, vivem os duergar, ou anões cinzentos. Esses perversos e furtivos comerciantes de escravos invadem o mundo da superfície para fazer prisioneiros e vendê-los para outras raças da Umbreterna. Eles possuem habilidades mágicas inatas para tornarem-se invisíveis e crescerem temporariamente até o tamanho de gigantes.</p><p>Os anões cinzentos, ou duergar, vivem nas profundezas da Umbreterna. Após escavar mais fundo do que qualquer outro anão, eles foram escravizados por devoradores de mentes durante eras. Embora tenham conseguido sua liberdade, agora esses anões sombrios e de pele cor de cinzas fazem seus próprios escravos e são tão tirânicos quanto seus antigos mestres.</p><p>Fisicamente semelhantes a outros anões em alguns aspectos, os duergar são magros e esbeltos, com olhos negros e cabeças completamente carecas, e os exemplares masculinos mantêm longas e desgrenhadas barbas grisalhas.</p><p>Os duergar valorizam o trabalho acima de tudo. Mostrar emoções além de uma cruel determinação é algo não aprovado em sua cultura, mas por vezes eles podem parecer contentes quando estão trabalhando. Eles possuem o apreço por ordem, tradição e pelo trabalho manual impecável típico dos anões, mas seus bens são essencialmente utilitários, pois desprezam o valor estético e artístico.</p><p>Poucos duergar tornam-se aventureiros, menos ainda permanecem no mundo da superfície, pois são uma raça tacanha e desconfiada. Aqueles que deixam suas cidades subterrâneas normalmente são exilados. Verifique com seu Dungeon Master a possibilidade de jogar com um personagem anão cinzento.</p><p>A sub-raça duergar possui os traços raciais dos anões do Player's Handbook: Livro do jogador, além dos traços raciais da sub-raça abaixo.</p>",
-    "en": "<p>In cities deep in the Underdark live the duergar, or gray dwarves. These vicious, stealthy slave traders raid the surface world for captives, then sell their prey to the other races of the Underdark. They have innate magical abilities to become invisible and to temporarily grow to giant size.</p>"
-   },
-   "traits": [
+  "traits": [
     {
-     "key": "ability-score-increase",
-     "name": {
-      "pt": "aumento no valor de atributo",
-      "en": null
-     },
-     "html": {
-      "pt": "<p>Seu valor de Força aumenta em 1.</p>",
-      "en": null
-     }
+      "key": "ability-score-increase",
+      "name": {
+        "pt": "aumento no valor de atributo",
+        "en": "Ability Score Increase"
+      },
+      "html": {
+        "pt": "<p>O valor da sua Constituição aumenta em 2.</p>",
+        "en": "<p>Your Constitution score increases by 2.</p>"
+      }
     },
     {
-     "key": "superior-darkvision",
-     "name": {
-      "pt": "visão no escuro superior",
-      "en": null
-     },
-     "html": {
-      "pt": "<p>Sua visão no escuro tem um raio de 36 metros.</p>",
-      "en": null
-     }
+      "key": "age",
+      "name": {
+        "pt": "idade",
+        "en": "Age"
+      },
+      "html": {
+        "pt": "<p>Anões amadurecem na mesma velocidade que os humanos, mas são considerados jovens até os 50 anos. Vivem em média 350 anos.</p>",
+        "en": "<p>Dwarves mature at the same rate as humans, but they’re considered young until they reach the age of 50. On average, they live about 350 years.</p>"
+      }
     },
     {
-     "key": "extra-language",
-     "name": {
-      "pt": "idioma extra",
-      "en": null
-     },
-     "html": {
-      "pt": "<p>Você pode falar, ler e escrever o idioma Subcomum.</p>",
-      "en": null
-     }
+      "key": "alignment",
+      "name": {
+        "pt": "alinhamento",
+        "en": null
+      },
+      "html": {
+        "pt": "<p>A maior parte dos anões é ordeira, acreditando fortemente nos benefícios de uma sociedade organizada. Eles também tendem ao bem, possuindo um forte senso de honestidade e a crença de que todos merecem compartilhar os benefícios da ordem e da justiça.</p>",
+        "en": null
+      }
     },
     {
-     "key": "duergar-resilience",
-     "name": {
-      "pt": "resiliência duergar",
-      "en": null
-     },
-     "html": {
-      "pt": "<p>Você tem vantagem em salvaguardas contra ilusões e contra ser enfeitiçado ou paralisado.</p>",
-      "en": null
-     }
+      "key": "size",
+      "name": {
+        "pt": "tamanho",
+        "en": "Size"
+      },
+      "html": {
+        "pt": "<p>Seu tamanho é Médio. Anões crescem até 1,5 metro e pesam em torno de 75 quilos.</p>",
+        "en": "<p>Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.</p>"
+      }
     },
     {
-     "key": "duergar-magic",
-     "name": {
-      "pt": "magia duergar",
-      "en": null
-     },
-     "html": {
-      "pt": "<p>Quando alcança o 3º nível, você pode conjurar a magia <em>aumentar/reduzir</em> em si mesmo uma vez com esse traço racial, usando apenas a opção aumentar. Quando alcança o 5º nível, você pode conjurar a magia <em>invisibilidade</em> em si mesmo uma vez com este traço racial. Você não precisa de componentes materiais para estas magias, e não pode conjurá-las enquanto estiver sob luz do sol direta, embora a luz do sol não as afete uma vez conjuradas. Você recupera a capacidade de conjurar estas magias com este traço racial quando termina um descanso longo. Inteligência é o seu atributo de conjuração usado para estas magias.</p>",
-      "en": null
-     }
+      "key": "speed",
+      "name": {
+        "pt": "deslocamento",
+        "en": "Speed"
+      },
+      "html": {
+        "pt": "<p>Seu deslocamento básico ao caminhar é de 7,5 metros. Seu deslocamento não é reduzido ao utilizar armaduras pesadas.</p>",
+        "en": "<p>Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor.</p>"
+      }
     },
     {
-     "key": "sunlight-sensitivity",
-     "name": {
-      "pt": "sensibilidade à luz solar",
-      "en": null
-     },
-     "html": {
-      "pt": "<p>Você tem desvantagem em jogadas de ataque e em testes de Sabedoria (Percepção) que dependam da visão quando você, o alvo de seu ataque ou o que seja que você está tentando perceber estiver sob a luz do sol direta.</p>",
-      "en": null
-     }
+      "key": "darkvision",
+      "name": {
+        "pt": "visão no escuro",
+        "en": "Darkvision"
+      },
+      "html": {
+        "pt": "<p>Acostumado à vida subterrânea, você possui uma visão superior no escuro, enxergando até 18 metros na meia-luz como se fosse dia e, na escuridão, como se fosse meia-luz. Na escuridão, você só distingue tons de cinza.</p>",
+        "en": "<p>Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>"
+      }
+    },
+    {
+      "key": "dwarven-resilience",
+      "name": {
+        "pt": "resistência a toxinas",
+        "en": "Dwarven Resilience"
+      },
+      "html": {
+        "pt": "<p>Você tem vantagem em salvaguardas contra venenos e possui resistência a dano venenoso (explicadas no Capítulo 9, \"Combate\").</p>",
+        "en": "<p>You have advantage on saving throws against poison, and you have resistance against poison damage (explained in the “Combat” section).</p>"
+      }
+    },
+    {
+      "key": "dwarven-combat-training",
+      "name": {
+        "pt": "treinamento anão em combate",
+        "en": "Dwarven Combat Training"
+      },
+      "html": {
+        "pt": "<p>Você é proficiente com machados de guerra, machadinhas, martelos leves e martelos de guerra.</p>",
+        "en": "<p>You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.</p>"
+      }
+    },
+    {
+      "key": "tool-proficiency",
+      "name": {
+        "pt": "proficiência com ferramentas",
+        "en": "Tool Proficiency"
+      },
+      "html": {
+        "pt": "<p>Você é proficiente em uma das ferramentas de artesão, à sua escolha: ferraria, cervejaria ou alvenaria.</p>",
+        "en": "<p>You gain proficiency with the artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</p>"
+      }
+    },
+    {
+      "key": "stonecunning",
+      "name": {
+        "pt": "conhecimento de pedras",
+        "en": "Stonecunning"
+      },
+      "html": {
+        "pt": "<p>Sempre que você fizer um teste de Inteligência (História) relacionado à origem de um trabalho em pedra, você é considerado proficiente na perícia História e, no lugar do bônus de proficiência normal, deve somar o dobro desse bônus ao teste.</p>",
+        "en": "<p>Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>"
+      }
+    },
+    {
+      "key": "languages",
+      "name": {
+        "pt": "idiomas",
+        "en": "Languages"
+      },
+      "html": {
+        "pt": "<p>Você fala, lê e escreve os idiomas Comum e Anão. O idioma Anão é repleto de consoantes fortes e sons guturais. Esse traço vocal contamina, com sotaque peculiar, todos os idiomas que o anão vier a falar.</p>",
+        "en": "<p>You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.</p>"
+      }
+    },
+    {
+      "key": "subrace",
+      "name": {
+        "pt": "sub-raças",
+        "en": "Subrace"
+      },
+      "html": {
+        "pt": "<p>Existem duas sub-raças principais de anões nos mundos de D&amp;D: anões da colina e anões da montanha. Você deve escolher uma delas.</p>",
+        "en": "<p>Two main subraces of dwarves populate the worlds of D&amp;D: hill dwarves and mountain dwarves. Choose one of these subraces or one from another source.</p>"
+      }
     }
-   ]
-  }
- ],
- "spells": [
-  {
-   "level": 3,
-   "names_pt": [
-    "aumentar/reduzir"
-   ],
-   "names_en": [
-    "enlarge/reduce"
-   ],
-   "regularity": {
-    "pt": "1 vez por descanso longo (duergar; apenas a opção aumentar, somente em si mesmo)",
-    "en": null
-   }
-  },
-  {
-   "level": 5,
-   "names_pt": [
-    "invisibilidade"
-   ],
-   "names_en": [
-    "invisibility"
-   ],
-   "regularity": {
-    "pt": "1 vez por descanso longo (duergar; somente em si mesmo)",
-    "en": null
-   }
-  }
- ]
+  ],
+  "subraces": [
+    {
+      "slug": "hill-dwarf",
+      "name": {
+        "pt": "anão da colina",
+        "en": "Hill Dwarf"
+      },
+      "source": {
+        "pt": {
+          "book": "LDJ",
+          "page": 20
+        },
+        "en": {
+          "book": "PHB",
+          "page": 20
+        }
+      },
+      "intro_html": {
+        "pt": "<p>Na qualidade de anão da colina, você possui sentidos aguçados, intuição profunda e uma resiliência formidável. Assim como os exilados Neidar e os degradados Klar de Krynn, do cenário de Dragonlance, e os anões do ouro de Faerûn, nativos do poderoso reino ao sul do continente, são anões da colina.</p>",
+        "en": "<p>As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience. The gold dwarves of Faerûn in their mighty southern kingdom are hill dwarves, as are the exiled Neidar and the debased Klar of Krynn in the Dragonlance setting.</p>"
+      },
+      "traits": [
+        {
+          "key": "ability-score-increase",
+          "name": {
+            "pt": "aumento no valor de atributo",
+            "en": "Ability Score Increase"
+          },
+          "html": {
+            "pt": "<p>Seu valor de Sabedoria aumenta em 1.</p>",
+            "en": "<p>Your Wisdom score increases by 1.</p>"
+          }
+        },
+        {
+          "key": "dwarven-toughness",
+          "name": {
+            "pt": "tenacidade anã",
+            "en": "Dwarven Toughness"
+          },
+          "html": {
+            "pt": "<p>Seus pontos de vida máximos aumentam em 1, e mais 1 toda vez que você passar de nível.</p>",
+            "en": "<p>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p>"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "mountain-dwarf",
+      "name": {
+        "pt": "anão da montanha",
+        "en": "Mountain Dwarf"
+      },
+      "source": {
+        "pt": {
+          "book": "LDJ",
+          "page": 20
+        },
+        "en": {
+          "book": "PHB",
+          "page": 20
+        }
+      },
+      "intro_html": {
+        "pt": "<p>Na qualidade de anão da montanha, você é forte e resistente, estando acostumado à vida dura em terrenos difíceis. Você provavelmente é alto para um anão, e tende a possuir uma cor mais clara. Os anões do escudo, que vivem no norte de Faerûn, assim como o clã governante Hylar e os clãs nobres Daewar, de Dragonlance, são anões da montanha.</p>",
+        "en": "<p>As a mountain dwarf, you’re strong and hardy, accustomed to a difficult life in rugged terrain. You’re probably on the tall side (for a dwarf), and tend toward lighter coloration. The shield dwarves of northern Faerûn, as well as the ruling Hylar clan and the noble Daewar clan of Dragonlance, are mountain dwarves.</p>"
+      },
+      "traits": [
+        {
+          "key": "ability-score-increase",
+          "name": {
+            "pt": "aumento no valor de atributo",
+            "en": "Ability Score Increase"
+          },
+          "html": {
+            "pt": "<p>Seu valor de Força aumenta em 2.</p>",
+            "en": "<p>Your Strength score increases by 2.</p>"
+          }
+        },
+        {
+          "key": "dwarven-armor-training",
+          "name": {
+            "pt": "treinamento anão com armaduras",
+            "en": "Dwarven Armor Training"
+          },
+          "html": {
+            "pt": "<p>Você é proficiente com armaduras leves e médias.</p>",
+            "en": "<p>You have proficiency with light and medium armor.</p>"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "duergar",
+      "name": {
+        "pt": "anão cinzento (duergar)",
+        "en": "Duergar"
+      },
+      "source": {
+        "pt": {
+          "book": "GACE",
+          "page": 104
+        },
+        "en": null
+      },
+      "intro_html": {
+        "pt": "<p>Nas cidades profundas da Umbreterna, vivem os duergar, ou anões cinzentos. Esses perversos e furtivos comerciantes de escravos invadem o mundo da superfície para fazer prisioneiros e vendê-los para outras raças da Umbreterna. Eles possuem habilidades mágicas inatas para tornarem-se invisíveis e crescerem temporariamente até o tamanho de gigantes.</p><p>Os anões cinzentos, ou duergar, vivem nas profundezas da Umbreterna. Após escavar mais fundo do que qualquer outro anão, eles foram escravizados por devoradores de mentes durante eras. Embora tenham conseguido sua liberdade, agora esses anões sombrios e de pele cor de cinzas fazem seus próprios escravos e são tão tirânicos quanto seus antigos mestres.</p><p>Fisicamente semelhantes a outros anões em alguns aspectos, os duergar são magros e esbeltos, com olhos negros e cabeças completamente carecas, e os exemplares masculinos mantêm longas e desgrenhadas barbas grisalhas.</p><p>Os duergar valorizam o trabalho acima de tudo. Mostrar emoções além de uma cruel determinação é algo não aprovado em sua cultura, mas por vezes eles podem parecer contentes quando estão trabalhando. Eles possuem o apreço por ordem, tradição e pelo trabalho manual impecável típico dos anões, mas seus bens são essencialmente utilitários, pois desprezam o valor estético e artístico.</p><p>Poucos duergar tornam-se aventureiros, menos ainda permanecem no mundo da superfície, pois são uma raça tacanha e desconfiada. Aqueles que deixam suas cidades subterrâneas normalmente são exilados. Verifique com seu Dungeon Master a possibilidade de jogar com um personagem anão cinzento.</p><p>A sub-raça duergar possui os traços raciais dos anões do Player's Handbook: Livro do jogador, além dos traços raciais da sub-raça abaixo.</p>",
+        "en": "<p>In cities deep in the Underdark live the duergar, or gray dwarves. These vicious, stealthy slave traders raid the surface world for captives, then sell their prey to the other races of the Underdark. They have innate magical abilities to become invisible and to temporarily grow to giant size.</p>"
+      },
+      "traits": [
+        {
+          "key": "ability-score-increase",
+          "name": {
+            "pt": "aumento no valor de atributo",
+            "en": null
+          },
+          "html": {
+            "pt": "<p>Seu valor de Força aumenta em 1.</p>",
+            "en": null
+          }
+        },
+        {
+          "key": "superior-darkvision",
+          "name": {
+            "pt": "visão no escuro superior",
+            "en": null
+          },
+          "html": {
+            "pt": "<p>Sua visão no escuro tem um raio de 36 metros.</p>",
+            "en": null
+          }
+        },
+        {
+          "key": "extra-language",
+          "name": {
+            "pt": "idioma extra",
+            "en": null
+          },
+          "html": {
+            "pt": "<p>Você pode falar, ler e escrever o idioma Subcomum.</p>",
+            "en": null
+          }
+        },
+        {
+          "key": "duergar-resilience",
+          "name": {
+            "pt": "resiliência duergar",
+            "en": null
+          },
+          "html": {
+            "pt": "<p>Você tem vantagem em salvaguardas contra ilusões e contra ser enfeitiçado ou paralisado.</p>",
+            "en": null
+          }
+        },
+        {
+          "key": "duergar-magic",
+          "name": {
+            "pt": "magia duergar",
+            "en": null
+          },
+          "html": {
+            "pt": "<p>Quando alcança o 3º nível, você pode conjurar a magia <em>aumentar/reduzir</em> em si mesmo uma vez com esse traço racial, usando apenas a opção aumentar. Quando alcança o 5º nível, você pode conjurar a magia <em>invisibilidade</em> em si mesmo uma vez com este traço racial. Você não precisa de componentes materiais para estas magias, e não pode conjurá-las enquanto estiver sob luz do sol direta, embora a luz do sol não as afete uma vez conjuradas. Você recupera a capacidade de conjurar estas magias com este traço racial quando termina um descanso longo. Inteligência é o seu atributo de conjuração usado para estas magias.</p>",
+            "en": null
+          }
+        },
+        {
+          "key": "sunlight-sensitivity",
+          "name": {
+            "pt": "sensibilidade à luz solar",
+            "en": null
+          },
+          "html": {
+            "pt": "<p>Você tem desvantagem em jogadas de ataque e em testes de Sabedoria (Percepção) que dependam da visão quando você, o alvo de seu ataque ou o que seja que você está tentando perceber estiver sob a luz do sol direta.</p>",
+            "en": null
+          }
+        }
+      ]
+    }
+  ],
+  "spells": [
+    {
+      "level": 3,
+      "names_pt": ["aumentar/reduzir"],
+      "names_en": ["enlarge/reduce"],
+      "regularity": {
+        "pt": "1 vez por descanso longo (duergar; apenas a opção aumentar, somente em si mesmo)",
+        "en": null
+      }
+    },
+    {
+      "level": 5,
+      "names_pt": ["invisibilidade"],
+      "names_en": ["invisibility"],
+      "regularity": {
+        "pt": "1 vez por descanso longo (duergar; somente em si mesmo)",
+        "en": null
+      }
+    }
+  ]
 }

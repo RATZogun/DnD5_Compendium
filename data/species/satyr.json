@@ -1,1 +1,67 @@
-{"slug":"satyr","name":{"pt":"sátiro","en":"Satyr"},"source":{"pt":{"book":"MPMM","page":31},"en":{"book":"MPMM","page":29}},"intro_html":{"pt":"<p>Originários da Faéria — um reino de emoção pura — sátiros prosperam com a energia do divertimento. Eles se parecem com elfos, mas têm pernas caprinas, cascos fendidos e chifres de carneiro ou de cabra. A magia do reino feérico deu a eles uma habilidade inata de atuar, encantar e resistir à intrusão mágica.</p><p>Embora sejam normalmente encontrados em Faéria, os sátiros vagam para outros planos de existência, mais frequentemente para o Plano Material. Lá, eles procuram levar um pouco do esplendor de seu plano natal para outros mundos.</p>","en":"<p>Originating in the Feywild—a realm of pure emotion— satyrs thrive on the energy of merriment. They resemble elves but have goatlike legs, cloven hooves, and ram or goat horns. The magic of the fey realm has given them an innate ability to perform, to delight, and to resist magical intrusion. While they’re usually found in the Feywild, satyrs do wander to other planes of existence, most often to the Material Plane. There they seek to bring a bit of their home plane’s splendor to other worlds.</p>"},"traits":[{"key":"creature-type","name":{"pt":"tipo de Criatura","en":"Creature Type"},"html":{"pt":"<p>Você é um feérico.</p>","en":"<p>You are a Fey.</p>"}},{"key":"size","name":{"pt":"tamanho","en":"Size"},"html":{"pt":"<p>Você é Médio.</p>","en":"<p>You are Medium.</p>"}},{"key":"speed","name":{"pt":"deslocamento","en":"Speed"},"html":{"pt":"<p>Seu deslocamento de caminhada é 10,5 metros.</p>","en":"<p>Your walking speed is 35 feet.</p>"}},{"key":"ram","name":{"pt":"aríete","en":"Ram"},"html":{"pt":"<p>Você pode usar sua cabeça e chifres para desferir golpes desarmados. Quando você acerta com eles, o golpe causa dano contundente igual a 1d6 + seu modificador de Força, ao invés do dano contundente normal para um golpe desarmado.</p>","en":"<p>You can use your head and horns to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.</p>"}},{"key":"reveler","name":{"pt":"farrista","en":"Reveler"},"html":{"pt":"<p>Como uma personificação da folia, você tem proficiência nas perícias Atuação e Persuasão e em um instrumento musical de sua escolha.</p>","en":"<p>As an embodiment of revelry, you have proficiency in the Performance and Persuasion skills, and you have proficiency with one musical instrument of your choice.</p>"}},{"key":"magic-resistance","name":{"pt":"resistência a Magia","en":"Magic Resistance"},"html":{"pt":"<p>Você tem vantagem em salvaguardas contra magias.</p>","en":"<p>You have advantage on saving throws against spells.</p>"}},{"key":"mirthful-leaps","name":{"pt":"saltos de Alegria","en":"Mirthful Leaps"},"html":{"pt":"<p>Sempre que você efetua um salto em distância ou um salto em altura, pode rolar um d8 e somar o número rolado x 0,3 m ao resultado, mesmo quando inicia o salto parado. Essa distância extra tem o custo normal de deslocamento.</p>","en":"<p>Whenever you make a long jump or a high jump, you can roll a d8 and add the number rolled to the number of feet you cover, even when making a standing jump. This extra distance costs movement as normal.</p>"}}],"subraces":[],"spells":[],"additional_sources":[],"pt_from":null,"size":["M"],"speed":{"ft":35,"m":10.5}}
+{
+  "slug": "satyr",
+  "name": { "pt": "sátiro", "en": "Satyr" },
+  "source": { "pt": { "book": "MPMM", "page": 31 }, "en": { "book": "MPMM", "page": 29 } },
+  "intro_html": {
+    "pt": "<p>Originários da Faéria — um reino de emoção pura — sátiros prosperam com a energia do divertimento. Eles se parecem com elfos, mas têm pernas caprinas, cascos fendidos e chifres de carneiro ou de cabra. A magia do reino feérico deu a eles uma habilidade inata de atuar, encantar e resistir à intrusão mágica.</p><p>Embora sejam normalmente encontrados em Faéria, os sátiros vagam para outros planos de existência, mais frequentemente para o Plano Material. Lá, eles procuram levar um pouco do esplendor de seu plano natal para outros mundos.</p>",
+    "en": "<p>Originating in the Feywild—a realm of pure emotion— satyrs thrive on the energy of merriment. They resemble elves but have goatlike legs, cloven hooves, and ram or goat horns. The magic of the fey realm has given them an innate ability to perform, to delight, and to resist magical intrusion. While they’re usually found in the Feywild, satyrs do wander to other planes of existence, most often to the Material Plane. There they seek to bring a bit of their home plane’s splendor to other worlds.</p>"
+  },
+  "traits": [
+    {
+      "key": "creature-type",
+      "name": { "pt": "tipo de Criatura", "en": "Creature Type" },
+      "html": { "pt": "<p>Você é um feérico.</p>", "en": "<p>You are a Fey.</p>" }
+    },
+    {
+      "key": "size",
+      "name": { "pt": "tamanho", "en": "Size" },
+      "html": { "pt": "<p>Você é Médio.</p>", "en": "<p>You are Medium.</p>" }
+    },
+    {
+      "key": "speed",
+      "name": { "pt": "deslocamento", "en": "Speed" },
+      "html": {
+        "pt": "<p>Seu deslocamento de caminhada é 10,5 metros.</p>",
+        "en": "<p>Your walking speed is 35 feet.</p>"
+      }
+    },
+    {
+      "key": "ram",
+      "name": { "pt": "aríete", "en": "Ram" },
+      "html": {
+        "pt": "<p>Você pode usar sua cabeça e chifres para desferir golpes desarmados. Quando você acerta com eles, o golpe causa dano contundente igual a 1d6 + seu modificador de Força, ao invés do dano contundente normal para um golpe desarmado.</p>",
+        "en": "<p>You can use your head and horns to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.</p>"
+      }
+    },
+    {
+      "key": "reveler",
+      "name": { "pt": "farrista", "en": "Reveler" },
+      "html": {
+        "pt": "<p>Como uma personificação da folia, você tem proficiência nas perícias Atuação e Persuasão e em um instrumento musical de sua escolha.</p>",
+        "en": "<p>As an embodiment of revelry, you have proficiency in the Performance and Persuasion skills, and you have proficiency with one musical instrument of your choice.</p>"
+      }
+    },
+    {
+      "key": "magic-resistance",
+      "name": { "pt": "resistência a Magia", "en": "Magic Resistance" },
+      "html": {
+        "pt": "<p>Você tem vantagem em salvaguardas contra magias.</p>",
+        "en": "<p>You have advantage on saving throws against spells.</p>"
+      }
+    },
+    {
+      "key": "mirthful-leaps",
+      "name": { "pt": "saltos de Alegria", "en": "Mirthful Leaps" },
+      "html": {
+        "pt": "<p>Sempre que você efetua um salto em distância ou um salto em altura, pode rolar um d8 e somar o número rolado x 0,3 m ao resultado, mesmo quando inicia o salto parado. Essa distância extra tem o custo normal de deslocamento.</p>",
+        "en": "<p>Whenever you make a long jump or a high jump, you can roll a d8 and add the number rolled to the number of feet you cover, even when making a standing jump. This extra distance costs movement as normal.</p>"
+      }
+    }
+  ],
+  "subraces": [],
+  "spells": [],
+  "additional_sources": [],
+  "pt_from": null,
+  "size": ["M"],
+  "speed": { "ft": 35, "m": 10.5 }
+}

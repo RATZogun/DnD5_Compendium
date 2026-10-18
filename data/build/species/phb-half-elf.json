@@ -1,345 +1,331 @@
 {
- "slug": "half-elf",
- "name": {
-  "pt": "meio-elfo",
-  "en": "Half-Elf"
- },
- "source": {
-  "pt": {
-   "book": "LDJ",
-   "page": 38
+  "slug": "half-elf",
+  "name": {
+    "pt": "meio-elfo",
+    "en": "Half-Elf"
   },
-  "en": {
-   "book": "PHB",
-   "page": 38
-  }
- },
- "intro_html": {
-  "pt": "<p>Flint olhava para o sol poente quando pensou ter visto a figura de um homem caminhando pela trilha. O anão ergueu-se e recuou até a sombra de um alto pinheiro para ver melhor. As passadas do homem eram marcadas por uma graça natural — uma graça quase élfica. Porém, seu corpo tinha a compleição e a musculatura típicas de um humano, e a barba o afastava ainda mais dos elfos. Todos os anões podiam ver que o rosto emoldurado pelo capuz verde tinha a pele bronzeada e uma barba castanho-arruivada. Um arco longo pendia de um dos seus ombros, e uma espada descansava em seu flanco esquerdo. Ele vestia um couro macio finamente tecido com os intrincados desenhos amados pelos elfos. Mas nenhum elfo no mundo de Krynn poderia ter uma barba... nenhum elfo, a não ser...</p><p>\"Tanis?\" Disse Flint, hesitante, à medida que o homem se aproximava.</p><p>\"Eu mesmo.\" O rosto barbudo do recém-chegado abriu-se num largo sorriso. Então, repetiu o gesto com os braços e, antes que o anão pudesse impedi-lo, envolveu-o num abraço que o suspendeu. Flint apertou forte o velho amigo por um instante, mas, lembrando-se da sua compostura, se debateu até se livrar do abraço do meio-elfo.</p><p><em>— Margaret Weis e Tracy Hickman, Dragões do Crepúsculo do Outono</em></p><p>Caminhando em dois mundos mas não pertencendo a nenhum, os meio-elfos combinam o que alguns dizem ser as melhores qualidades de seus pais elfos e humanos: curiosidade, inventividade e ambição humanas, equilibradas pelos sentidos refinados, amor pela natureza e sensibilidade artística dos elfos. Em que pesem suas diferenças emocionais e físicas, alguns meio-elfos vivem entre os humanos, observando amigos e entes queridos envelhecerem enquanto o tempo mal os toca. Outros vivem com os elfos, ficando inquietos ao atingirem a idade adulta nos reinos eternos, enquanto seus pares continuam a viver como crianças. Muitos meio-elfos, incapazes de se encaixarem em qualquer sociedade, escolhem vidas de errância solitária, ou juntam-se a outros desajustados e párias numa vida aventureira.</p><p><strong>Pertencentes a Dois Mundos</strong></p><p>Para os humanos, os meio-elfos se parecem com elfos, e, para os elfos, se parecem com humanos. Em altura, são iguais a ambos os pais, mas não são tão esbeltos como os elfos nem tão parrudos como os humanos. Medem entre 1,5 e 1,8 metro de altura e pesam entre 50 e 90 quilos, sendo os homens um pouco mais altos e pesados que as mulheres. Os meio-elfos do sexo masculino têm pelos faciais e, às vezes, barbas que podem ter por função mascarar sua descendência élfica. Sua coloração e características encontram-se entre as dos seus pais humanos e elfos, mostrando assim uma variedade ainda mais pronunciada do que a encontrada entre membros daquelas duas raças. Meio-elfos tendem a puxar os olhos dos elfos.</p><p><strong>Diplomatas ou Andarilhos</strong></p><p>Meio-elfos não possuem terras, embora sejam bem-vindos em cidades humanas e um pouco menos nas florestas élficas. Nas grandes cidades de regiões onde elfos e humanos interagem, podem ser numerosos o suficiente para formar pequenas comunidades próprias. Eles gostam da companhia de outros meio-elfos, os únicos que realmente entendem o que é viver entre dois mundos.</p><p>Na maior parte das terras, no entanto, os meio-elfos são incomuns o suficiente para que um indivíduo desta raça possa viver anos sem encontrar outro. Alguns deles preferem evitar companhia por completo, vagando pelos bosques como caçadores, mateiros, guardiões ou aventureiros, raramente visitando a civilização. Como os elfos, são motivados pela vontade de viajar, que surge com o correr dos anos. Outros, pelo contrário, se engajam na sociedade, empregando seu carisma e suas habilidades sociais em papéis diplomáticos ou criminais.</p><p><strong>Excelentes Embaixadores</strong></p><p>Muitos meio-elfos aprendem cedo a lidar com todo tipo de situações, desarmando hostilidades e negociando meio-termos. Como descendentes de duas raças, usufruem da graça élfica sem a desvantagem da arrogância comum aos membros dessa raça; do mesmo modo, desfrutam da energia humana sem a desvantagem do egoísmo. Não raro, tornam-se excelentes embaixadores e mediadores (a não ser entre elfos e humanos, pois cada lado tende a suspeitar que o meio-elfo favorece o outro).</p><p><strong>Nomes de Meio-Elfos</strong></p><p>Meio-elfos usam nomes humanos ou élficos. Como se quisessem enfatizar seu desajuste em qualquer sociedade, aqueles criados entre humanos costumam receber nomes élficos, enquanto aqueles criados entre elfos muitas vezes assumem nomes humanos.</p>",
-  "en": "<p>Flint squinted into the setting sun. He thought he saw the figure of a man striding up the path. Standing, Flint drew back into the shadow of a tall pine to see better. The man’s walk was marked by an easy grace—an elvish grace, Flint would have said; yet the man’s body had the thickness and tight muscles of a human, while the facial hair was definitely humankind’s. All the dwarf could see of the man’s face beneath a green hood was tan skin and a brownish-red beard. A longbow was slung over one shoulder and a sword hung at his left side. He was dressed in soft leather, carefully tooled in the intricate designs the elves loved. But no elf in the world of Krynn could grow a beard <br>. . . no elf, but . . .</p><p>“Tanis?” said Flint hesitantly as the man neared.</p><p>“The same.” The newcomer’s bearded face split in a wide grin. He held open his arms and, before the dwarf could stop him, engulfed Flint in a hug that lifted him off the ground. The dwarf clasped his old friend close for a brief instant, then, remembering his dignity, squirmed and freed himself from the half-elf’s embrace.</p><p><em>— Margaret Weis and Tracy Hickman, </em><em>Dragons of Autumn Twilight</em></p><p>Walking in two worlds but truly belonging to neither, half-elves combine what some say are the best qualities of their elf and human parents: human curiosity, inventiveness, and ambition tempered by the refined senses, love of nature, and artistic tastes of the elves. Some half-elves live among humans, set apart by their emotional and physical differences, watching friends and loved ones age while time barely touches them. Others live with the elves, growing restless as they reach adulthood in the timeless elven realms, while their peers continue to live as children. Many half-elves, unable to fit into either society, choose lives of solitary wandering or join with other misfits and outcasts in the adventuring life.</p><p><strong>Of Two Worlds</strong></p><p>To humans, half-elves look like elves, and to elves, they look human. In height, they’re on par with both parents, though they’re neither as slender as elves nor as broad as humans. They range from under 5 feet to about 6 feet tall, and from 100 to 180 pounds, with men only slightly taller and heavier than women. Half-elf men do have facial hair, and sometimes grow beards to mask their elven ancestry. Half-elven coloration and features lie somewhere between their human and elf parents, and thus show a variety even more pronounced than that found among either race. They tend to have the eyes of their elven parents.</p><p><strong>Diplomats or Wanderers</strong></p><p>Half-elves have no lands of their own, though they are welcome in human cities and somewhat less welcome in elven forests. In large cities in regions where elves and humans interact often, half-elves are sometimes numerous enough to form small communities of their own. They enjoy the company of other half-elves, the only people who truly understand what it is to live between these two worlds.</p><p>In most parts of the world, though, half-elves are uncommon enough that one might live for years without meeting another. Some half-elves prefer to avoid company altogether, wandering the wilds as trappers, foresters, hunters, or adventurers and visiting civilization only rarely. Like elves, they are driven by the wanderlust that comes of their longevity. Others, in contrast, throw themselves into the thick of society, putting their charisma and social skills to great use in diplomatic roles or as swindlers.</p><p><strong>Half-Elf Names</strong></p><p>Half-elves use either human or elven naming conventions. As if to emphasize that they don’t really fit in to either society, half-elves raised among humans are often given elven names, and those raised among elves often take human names.</p><p><strong>EXCELLENT AMBASSADORS</strong></p><p>Many half-elves learn at an early age to get along with everyone, defusing hostility and finding common ground. As a race, they have elven grace without elven aloofness and human energy without human boorishness. They often make excellent ambassadors and go-betweens (except between elves and humans, since each side suspects the half-elf of favoring the other).</p><p><strong>Half-Elf Variants</strong></p><p>Some half-elves in Faerûn have a racial trait in place of the Skill Versatility trait. If your DM allows it, your half-elf character can forgo Skill Versatility and instead take the elf trait Keen Senses or a trait based on your elf parentage:</p>"
- },
- "traits": [
-  {
-   "key": "ability-score-increase",
-   "name": {
-    "pt": "aumento no valor de atributo",
-    "en": "Ability Score Increase"
-   },
-   "html": {
-    "pt": "<p>Seu valor de Carisma aumenta em 2. Aumente em 1 os valores de dois outros atributos à sua escolha.</p>",
-    "en": "<p>Your Charisma score increases by 2, and two other ability scores of your choice increase by 1.</p>"
-   }
-  },
-  {
-   "key": "age",
-   "name": {
-    "pt": "idade",
-    "en": "Age"
-   },
-   "html": {
-    "pt": "<p>Meio-elfos amadurecem na mesma idade dos humanos, atingindo a idade adulta perto dos 20 anos. No entanto, vivem muito mais do que os humanos, ultrapassando com frequência os 180 anos.</p>",
-    "en": "<p>Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years.</p>"
-   }
-  },
-  {
-   "key": "alignment",
-   "name": {
-    "pt": "alinhamento",
-    "en": null
-   },
-   "html": {
-    "pt": "<p>Meio-elfos compartilham a inclinação caótica da sua herança élfica. Valorizam tanto a liberdade pessoal quanto a expressão criativa, não demonstrando apreço por líderes nem o desejo de ter seguidores. As regras os irritam, por isso não gostam de receber ordens e, às vezes, provam-se indignos de confiança.</p>",
-    "en": null
-   }
-  },
-  {
-   "key": "size",
-   "name": {
-    "pt": "tamanho",
-    "en": "Size"
-   },
-   "html": {
-    "pt": "<p>Seu tamanho é Médio. Meio-elfos chegam à mesma estatura dos humanos, entre 1,5 e 1,8 metros.</p>",
-    "en": "<p>Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium.</p>"
-   }
-  },
-  {
-   "key": "speed",
-   "name": {
-    "pt": "deslocamento",
-    "en": "Speed"
-   },
-   "html": {
-    "pt": "<p>Seu deslocamento básico é de 9 metros.</p>",
-    "en": "<p>Your base walking speed is 30 feet.</p>"
-   }
-  },
-  {
-   "key": "darkvision",
-   "name": {
-    "pt": "visão no escuro",
-    "en": "Darkvision"
-   },
-   "html": {
-    "pt": "<p>Graças ao seu sangue élfico, você possui uma visão superior no escuro. Você consegue enxergar até 18 metros na meia-luz como se fosse dia e, na escuridão, como se fosse meia-luz. Na escuridão você só consegue discernir tons de cinza.</p>",
-    "en": "<p>Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>"
-   }
-  },
-  {
-   "key": "fey-ancestry",
-   "name": {
-    "pt": "ancestralidade feérica",
-    "en": "Fey Ancestry"
-   },
-   "html": {
-    "pt": "<p>Nenhum tipo de magia pode colocá-lo para dormir, e você tem vantagem em salvaguardas contra ser enfeitiçado.</p>",
-    "en": "<p>You have advantage on saving throws against being charmed, and magic can’t put you to sleep.</p>"
-   }
-  },
-  {
-   "key": "skill-versatility",
-   "name": {
-    "pt": "versatilidade com perícias",
-    "en": "Skill Versatility"
-   },
-   "html": {
-    "pt": "<p>Você ganha proficiência em duas perícias à sua escolha.</p>",
-    "en": "<p>You gain proficiency in two skills of your choice.</p>"
-   }
-  },
-  {
-   "key": "languages",
-   "name": {
-    "pt": "idiomas",
-    "en": "Languages"
-   },
-   "html": {
-    "pt": "<p>Você pode falar, ler e escrever Comum, Élfico e outro idioma à sua escolha.</p>",
-    "en": "<p>You can speak, read, and write Common, Elvish, and one extra language of your choice.</p>"
-   }
-  }
- ],
- "subraces": [
-  {
-   "slug": "wood-elf-descent",
-   "name": {
-    "pt": "meio-elfo descendente de elfo silvestre (variante)",
-    "en": "Variant; Wood Elf Descent"
-   },
-   "source": {
+  "source": {
     "pt": {
-     "book": "GACE",
-     "page": 116
+      "book": "LDJ",
+      "page": 38
     },
     "en": {
-     "book": "SCAG",
-     "page": 116
+      "book": "PHB",
+      "page": 38
     }
-   },
-   "intro_html": {
-    "pt": "<p>Alguns meio-elfos de Faerûn têm um traço racial no lugar do traço Versatilidade com Perícias. Se o seu DM permitir, seu personagem meio-elfo pode abrir mão de Versatilidade com Perícias e no lugar dele escolher o traço racial élfico Sentidos Aguçados ou um traço racial baseado em seu parentesco élfico:</p><p>Um meio-elfo descendente de um elfo silvestre pode escolher um dos traços raciais do elfo silvestre: Treinamento Élfico com Armas, Pés Velozes ou Máscara da Natureza.</p>",
-    "en": null
-   },
-   "traits": [
+  },
+  "intro_html": {
+    "pt": "<p>Flint olhava para o sol poente quando pensou ter visto a figura de um homem caminhando pela trilha. O anão ergueu-se e recuou até a sombra de um alto pinheiro para ver melhor. As passadas do homem eram marcadas por uma graça natural — uma graça quase élfica. Porém, seu corpo tinha a compleição e a musculatura típicas de um humano, e a barba o afastava ainda mais dos elfos. Todos os anões podiam ver que o rosto emoldurado pelo capuz verde tinha a pele bronzeada e uma barba castanho-arruivada. Um arco longo pendia de um dos seus ombros, e uma espada descansava em seu flanco esquerdo. Ele vestia um couro macio finamente tecido com os intrincados desenhos amados pelos elfos. Mas nenhum elfo no mundo de Krynn poderia ter uma barba... nenhum elfo, a não ser...</p><p>\"Tanis?\" Disse Flint, hesitante, à medida que o homem se aproximava.</p><p>\"Eu mesmo.\" O rosto barbudo do recém-chegado abriu-se num largo sorriso. Então, repetiu o gesto com os braços e, antes que o anão pudesse impedi-lo, envolveu-o num abraço que o suspendeu. Flint apertou forte o velho amigo por um instante, mas, lembrando-se da sua compostura, se debateu até se livrar do abraço do meio-elfo.</p><p><em>— Margaret Weis e Tracy Hickman, Dragões do Crepúsculo do Outono</em></p><p>Caminhando em dois mundos mas não pertencendo a nenhum, os meio-elfos combinam o que alguns dizem ser as melhores qualidades de seus pais elfos e humanos: curiosidade, inventividade e ambição humanas, equilibradas pelos sentidos refinados, amor pela natureza e sensibilidade artística dos elfos. Em que pesem suas diferenças emocionais e físicas, alguns meio-elfos vivem entre os humanos, observando amigos e entes queridos envelhecerem enquanto o tempo mal os toca. Outros vivem com os elfos, ficando inquietos ao atingirem a idade adulta nos reinos eternos, enquanto seus pares continuam a viver como crianças. Muitos meio-elfos, incapazes de se encaixarem em qualquer sociedade, escolhem vidas de errância solitária, ou juntam-se a outros desajustados e párias numa vida aventureira.</p><p><strong>Pertencentes a Dois Mundos</strong></p><p>Para os humanos, os meio-elfos se parecem com elfos, e, para os elfos, se parecem com humanos. Em altura, são iguais a ambos os pais, mas não são tão esbeltos como os elfos nem tão parrudos como os humanos. Medem entre 1,5 e 1,8 metro de altura e pesam entre 50 e 90 quilos, sendo os homens um pouco mais altos e pesados que as mulheres. Os meio-elfos do sexo masculino têm pelos faciais e, às vezes, barbas que podem ter por função mascarar sua descendência élfica. Sua coloração e características encontram-se entre as dos seus pais humanos e elfos, mostrando assim uma variedade ainda mais pronunciada do que a encontrada entre membros daquelas duas raças. Meio-elfos tendem a puxar os olhos dos elfos.</p><p><strong>Diplomatas ou Andarilhos</strong></p><p>Meio-elfos não possuem terras, embora sejam bem-vindos em cidades humanas e um pouco menos nas florestas élficas. Nas grandes cidades de regiões onde elfos e humanos interagem, podem ser numerosos o suficiente para formar pequenas comunidades próprias. Eles gostam da companhia de outros meio-elfos, os únicos que realmente entendem o que é viver entre dois mundos.</p><p>Na maior parte das terras, no entanto, os meio-elfos são incomuns o suficiente para que um indivíduo desta raça possa viver anos sem encontrar outro. Alguns deles preferem evitar companhia por completo, vagando pelos bosques como caçadores, mateiros, guardiões ou aventureiros, raramente visitando a civilização. Como os elfos, são motivados pela vontade de viajar, que surge com o correr dos anos. Outros, pelo contrário, se engajam na sociedade, empregando seu carisma e suas habilidades sociais em papéis diplomáticos ou criminais.</p><p><strong>Excelentes Embaixadores</strong></p><p>Muitos meio-elfos aprendem cedo a lidar com todo tipo de situações, desarmando hostilidades e negociando meio-termos. Como descendentes de duas raças, usufruem da graça élfica sem a desvantagem da arrogância comum aos membros dessa raça; do mesmo modo, desfrutam da energia humana sem a desvantagem do egoísmo. Não raro, tornam-se excelentes embaixadores e mediadores (a não ser entre elfos e humanos, pois cada lado tende a suspeitar que o meio-elfo favorece o outro).</p><p><strong>Nomes de Meio-Elfos</strong></p><p>Meio-elfos usam nomes humanos ou élficos. Como se quisessem enfatizar seu desajuste em qualquer sociedade, aqueles criados entre humanos costumam receber nomes élficos, enquanto aqueles criados entre elfos muitas vezes assumem nomes humanos.</p>",
+    "en": "<p>Flint squinted into the setting sun. He thought he saw the figure of a man striding up the path. Standing, Flint drew back into the shadow of a tall pine to see better. The man’s walk was marked by an easy grace—an elvish grace, Flint would have said; yet the man’s body had the thickness and tight muscles of a human, while the facial hair was definitely humankind’s. All the dwarf could see of the man’s face beneath a green hood was tan skin and a brownish-red beard. A longbow was slung over one shoulder and a sword hung at his left side. He was dressed in soft leather, carefully tooled in the intricate designs the elves loved. But no elf in the world of Krynn could grow a beard <br>. . . no elf, but . . .</p><p>“Tanis?” said Flint hesitantly as the man neared.</p><p>“The same.” The newcomer’s bearded face split in a wide grin. He held open his arms and, before the dwarf could stop him, engulfed Flint in a hug that lifted him off the ground. The dwarf clasped his old friend close for a brief instant, then, remembering his dignity, squirmed and freed himself from the half-elf’s embrace.</p><p><em>— Margaret Weis and Tracy Hickman, </em><em>Dragons of Autumn Twilight</em></p><p>Walking in two worlds but truly belonging to neither, half-elves combine what some say are the best qualities of their elf and human parents: human curiosity, inventiveness, and ambition tempered by the refined senses, love of nature, and artistic tastes of the elves. Some half-elves live among humans, set apart by their emotional and physical differences, watching friends and loved ones age while time barely touches them. Others live with the elves, growing restless as they reach adulthood in the timeless elven realms, while their peers continue to live as children. Many half-elves, unable to fit into either society, choose lives of solitary wandering or join with other misfits and outcasts in the adventuring life.</p><p><strong>Of Two Worlds</strong></p><p>To humans, half-elves look like elves, and to elves, they look human. In height, they’re on par with both parents, though they’re neither as slender as elves nor as broad as humans. They range from under 5 feet to about 6 feet tall, and from 100 to 180 pounds, with men only slightly taller and heavier than women. Half-elf men do have facial hair, and sometimes grow beards to mask their elven ancestry. Half-elven coloration and features lie somewhere between their human and elf parents, and thus show a variety even more pronounced than that found among either race. They tend to have the eyes of their elven parents.</p><p><strong>Diplomats or Wanderers</strong></p><p>Half-elves have no lands of their own, though they are welcome in human cities and somewhat less welcome in elven forests. In large cities in regions where elves and humans interact often, half-elves are sometimes numerous enough to form small communities of their own. They enjoy the company of other half-elves, the only people who truly understand what it is to live between these two worlds.</p><p>In most parts of the world, though, half-elves are uncommon enough that one might live for years without meeting another. Some half-elves prefer to avoid company altogether, wandering the wilds as trappers, foresters, hunters, or adventurers and visiting civilization only rarely. Like elves, they are driven by the wanderlust that comes of their longevity. Others, in contrast, throw themselves into the thick of society, putting their charisma and social skills to great use in diplomatic roles or as swindlers.</p><p><strong>Half-Elf Names</strong></p><p>Half-elves use either human or elven naming conventions. As if to emphasize that they don’t really fit in to either society, half-elves raised among humans are often given elven names, and those raised among elves often take human names.</p><p><strong>EXCELLENT AMBASSADORS</strong></p><p>Many half-elves learn at an early age to get along with everyone, defusing hostility and finding common ground. As a race, they have elven grace without elven aloofness and human energy without human boorishness. They often make excellent ambassadors and go-betweens (except between elves and humans, since each side suspects the half-elf of favoring the other).</p><p><strong>Half-Elf Variants</strong></p><p>Some half-elves in Faerûn have a racial trait in place of the Skill Versatility trait. If your DM allows it, your half-elf character can forgo Skill Versatility and instead take the elf trait Keen Senses or a trait based on your elf parentage:</p>"
+  },
+  "traits": [
     {
-     "key": "elf-weapon-training",
-     "name": {
-      "pt": "treinamento élfico com armas",
-      "en": "Elf Weapon Training"
-     },
-     "html": {
-      "pt": "<p>Você é proficiente com espada curta, espada longa, arco curto e arco longo.</p>",
-      "en": "<p>You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>"
-     }
+      "key": "ability-score-increase",
+      "name": {
+        "pt": "aumento no valor de atributo",
+        "en": "Ability Score Increase"
+      },
+      "html": {
+        "pt": "<p>Seu valor de Carisma aumenta em 2. Aumente em 1 os valores de dois outros atributos à sua escolha.</p>",
+        "en": "<p>Your Charisma score increases by 2, and two other ability scores of your choice increase by 1.</p>"
+      }
     },
     {
-     "key": "fleet-of-foot",
-     "name": {
-      "pt": "pés velozes",
-      "en": "Fleet of Foot"
-     },
-     "html": {
-      "pt": "<p>Seu deslocamento base é de 10,5 metros.</p>",
-      "en": "<p>Your base walking speed increases to 35 feet.</p>"
-     }
+      "key": "age",
+      "name": {
+        "pt": "idade",
+        "en": "Age"
+      },
+      "html": {
+        "pt": "<p>Meio-elfos amadurecem na mesma idade dos humanos, atingindo a idade adulta perto dos 20 anos. No entanto, vivem muito mais do que os humanos, ultrapassando com frequência os 180 anos.</p>",
+        "en": "<p>Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years.</p>"
+      }
     },
     {
-     "key": "mask-of-the-wild",
-     "name": {
-      "pt": "máscara da natureza",
-      "en": "Mask of the Wild"
-     },
-     "html": {
-      "pt": "<p>Você pode tentar se esconder mesmo quando estiver parcialmente obscurecido apenas por folhagem, chuva forte, neve em queda, névoa ou outro fenômeno natural.</p>",
-      "en": "<p>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "moon-or-sun-elf-descent",
-   "name": {
-    "pt": "meio-elfo descendente de elfo lunar ou elfo solar (variante)",
-    "en": "Variant; Moon Elf or Sun Elf Descent"
-   },
-   "source": {
-    "pt": {
-     "book": "GACE",
-     "page": 116
-    },
-    "en": {
-     "book": "SCAG",
-     "page": 116
-    }
-   },
-   "intro_html": {
-    "pt": "<p>Um meio-elfo descendente de elfo lunar ou elfo solar pode escolher um dos traços raciais do alto elfo: Treinamento Élfico com Armas ou Truque.</p>",
-    "en": null
-   },
-   "traits": [
-    {
-     "key": "elf-weapon-training",
-     "name": {
-      "pt": "treinamento élfico com armas",
-      "en": "Elf Weapon Training"
-     },
-     "html": {
-      "pt": "<p>Você é proficiente com espada longa, espada curta, arco curto e arco longo.</p>",
-      "en": "<p>You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>"
-     }
+      "key": "alignment",
+      "name": {
+        "pt": "alinhamento",
+        "en": null
+      },
+      "html": {
+        "pt": "<p>Meio-elfos compartilham a inclinação caótica da sua herança élfica. Valorizam tanto a liberdade pessoal quanto a expressão criativa, não demonstrando apreço por líderes nem o desejo de ter seguidores. As regras os irritam, por isso não gostam de receber ordens e, às vezes, provam-se indignos de confiança.</p>",
+        "en": null
+      }
     },
     {
-     "key": "cantrip",
-     "name": {
-      "pt": "truque",
-      "en": "Cantrip"
-     },
-     "html": {
-      "pt": "<p>Você conhece um truque da lista de magias de mago, à sua escolha. Inteligência é o atributo usado na conjuração.</p>",
-      "en": "<p>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</p>"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "drow-descent",
-   "name": {
-    "pt": "meio-elfo descendente de drow (variante)",
-    "en": "Variant; Drow Descent"
-   },
-   "source": {
-    "pt": {
-     "book": "GACE",
-     "page": 116
+      "key": "size",
+      "name": {
+        "pt": "tamanho",
+        "en": "Size"
+      },
+      "html": {
+        "pt": "<p>Seu tamanho é Médio. Meio-elfos chegam à mesma estatura dos humanos, entre 1,5 e 1,8 metros.</p>",
+        "en": "<p>Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium.</p>"
+      }
     },
-    "en": {
-     "book": "SCAG",
-     "page": 116
-    }
-   },
-   "intro_html": {
-    "pt": "<p>Um meio-elfo descendente de drow pode escolher o traço racial do drow: Magia Drow.</p>",
-    "en": null
-   },
-   "traits": [
     {
-     "key": "drow-magic",
-     "name": {
-      "pt": "magia drow",
-      "en": "Drow Magic"
-     },
-     "html": {
-      "pt": "<p>Você possui o truque <em>luzes dançantes</em>. Ao alcançar o 3º nível, torna-se capaz de lançar a magia <em>fogo das fadas</em> uma vez e recuperar a habilidade de fazê-lo ao fim de um descanso longo. Ao alcançar o 5º nível, pode conjurar <em>escuridão</em> uma vez por dia. O atributo usado para a conjuração dessas magias é Carisma.</p>",
-      "en": "<p>You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the darkness spell once per day; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells.</p>"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "aquatic-elf-descent",
-   "name": {
-    "pt": "meio-elfo descendente de elfo aquático (variante)",
-    "en": "Variant; Aquatic Elf Descent"
-   },
-   "source": {
-    "pt": {
-     "book": "GACE",
-     "page": 116
+      "key": "speed",
+      "name": {
+        "pt": "deslocamento",
+        "en": "Speed"
+      },
+      "html": {
+        "pt": "<p>Seu deslocamento básico é de 9 metros.</p>",
+        "en": "<p>Your base walking speed is 30 feet.</p>"
+      }
     },
-    "en": {
-     "book": "SCAG",
-     "page": 116
-    }
-   },
-   "intro_html": {
-    "pt": "<p>Um meio-elfo descendente de elfo aquático pode escolher um deslocamento de natação de 9 metros.</p>",
-    "en": null
-   },
-   "traits": [
     {
-     "key": "swim",
-     "name": {
-      "pt": "natação",
-      "en": "Swim"
-     },
-     "html": {
-      "pt": "<p>Você pode escolher um deslocamento de natação de 9 metros.</p>",
-      "en": "<p>You gain a swimming speed of 30 ft.</p>"
-     }
+      "key": "darkvision",
+      "name": {
+        "pt": "visão no escuro",
+        "en": "Darkvision"
+      },
+      "html": {
+        "pt": "<p>Graças ao seu sangue élfico, você possui uma visão superior no escuro. Você consegue enxergar até 18 metros na meia-luz como se fosse dia e, na escuridão, como se fosse meia-luz. Na escuridão você só consegue discernir tons de cinza.</p>",
+        "en": "<p>Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>"
+      }
+    },
+    {
+      "key": "fey-ancestry",
+      "name": {
+        "pt": "ancestralidade feérica",
+        "en": "Fey Ancestry"
+      },
+      "html": {
+        "pt": "<p>Nenhum tipo de magia pode colocá-lo para dormir, e você tem vantagem em salvaguardas contra ser enfeitiçado.</p>",
+        "en": "<p>You have advantage on saving throws against being charmed, and magic can’t put you to sleep.</p>"
+      }
+    },
+    {
+      "key": "skill-versatility",
+      "name": {
+        "pt": "versatilidade com perícias",
+        "en": "Skill Versatility"
+      },
+      "html": {
+        "pt": "<p>Você ganha proficiência em duas perícias à sua escolha.</p>",
+        "en": "<p>You gain proficiency in two skills of your choice.</p>"
+      }
+    },
+    {
+      "key": "languages",
+      "name": {
+        "pt": "idiomas",
+        "en": "Languages"
+      },
+      "html": {
+        "pt": "<p>Você pode falar, ler e escrever Comum, Élfico e outro idioma à sua escolha.</p>",
+        "en": "<p>You can speak, read, and write Common, Elvish, and one extra language of your choice.</p>"
+      }
     }
-   ]
-  }
- ],
- "spells": [
-  {
-   "level": 1,
-   "names_pt": [
-    "luzes dançantes"
-   ],
-   "names_en": [
-    "dancing lights"
-   ],
-   "regularity": {
-    "pt": "truque (variante: descendente de drow; Carisma)",
-    "en": "cantrip (variant: drow descent; Charisma)"
-   }
-  },
-  {
-   "level": 3,
-   "names_pt": [
-    "fogo das fadas"
-   ],
-   "names_en": [
-    "faerie fire"
-   ],
-   "regularity": {
-    "pt": "1 vez por descanso longo (variante: descendente de drow)",
-    "en": null
-   }
-  },
-  {
-   "level": 5,
-   "names_pt": [
-    "escuridão"
-   ],
-   "names_en": [
-    "darkness"
-   ],
-   "regularity": {
-    "pt": "1 vez por dia (variante: descendente de drow)",
-    "en": null
-   }
-  },
-  {
-   "level": 1,
-   "names_pt": [
-    "um truque da lista de magias de mago, à sua escolha"
-   ],
-   "names_en": [],
-   "regularity": {
-    "pt": "truque (variante: descendente de elfo lunar ou solar; Inteligência)",
-    "en": "cantrip (variant: moon elf or sun elf descent; Intelligence)"
-   }
-  }
- ]
+  ],
+  "subraces": [
+    {
+      "slug": "wood-elf-descent",
+      "name": {
+        "pt": "meio-elfo descendente de elfo silvestre (variante)",
+        "en": "Variant; Wood Elf Descent"
+      },
+      "source": {
+        "pt": {
+          "book": "GACE",
+          "page": 116
+        },
+        "en": {
+          "book": "SCAG",
+          "page": 116
+        }
+      },
+      "intro_html": {
+        "pt": "<p>Alguns meio-elfos de Faerûn têm um traço racial no lugar do traço Versatilidade com Perícias. Se o seu DM permitir, seu personagem meio-elfo pode abrir mão de Versatilidade com Perícias e no lugar dele escolher o traço racial élfico Sentidos Aguçados ou um traço racial baseado em seu parentesco élfico:</p><p>Um meio-elfo descendente de um elfo silvestre pode escolher um dos traços raciais do elfo silvestre: Treinamento Élfico com Armas, Pés Velozes ou Máscara da Natureza.</p>",
+        "en": null
+      },
+      "traits": [
+        {
+          "key": "elf-weapon-training",
+          "name": {
+            "pt": "treinamento élfico com armas",
+            "en": "Elf Weapon Training"
+          },
+          "html": {
+            "pt": "<p>Você é proficiente com espada curta, espada longa, arco curto e arco longo.</p>",
+            "en": "<p>You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>"
+          }
+        },
+        {
+          "key": "fleet-of-foot",
+          "name": {
+            "pt": "pés velozes",
+            "en": "Fleet of Foot"
+          },
+          "html": {
+            "pt": "<p>Seu deslocamento base é de 10,5 metros.</p>",
+            "en": "<p>Your base walking speed increases to 35 feet.</p>"
+          }
+        },
+        {
+          "key": "mask-of-the-wild",
+          "name": {
+            "pt": "máscara da natureza",
+            "en": "Mask of the Wild"
+          },
+          "html": {
+            "pt": "<p>Você pode tentar se esconder mesmo quando estiver parcialmente obscurecido apenas por folhagem, chuva forte, neve em queda, névoa ou outro fenômeno natural.</p>",
+            "en": "<p>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "moon-or-sun-elf-descent",
+      "name": {
+        "pt": "meio-elfo descendente de elfo lunar ou elfo solar (variante)",
+        "en": "Variant; Moon Elf or Sun Elf Descent"
+      },
+      "source": {
+        "pt": {
+          "book": "GACE",
+          "page": 116
+        },
+        "en": {
+          "book": "SCAG",
+          "page": 116
+        }
+      },
+      "intro_html": {
+        "pt": "<p>Um meio-elfo descendente de elfo lunar ou elfo solar pode escolher um dos traços raciais do alto elfo: Treinamento Élfico com Armas ou Truque.</p>",
+        "en": null
+      },
+      "traits": [
+        {
+          "key": "elf-weapon-training",
+          "name": {
+            "pt": "treinamento élfico com armas",
+            "en": "Elf Weapon Training"
+          },
+          "html": {
+            "pt": "<p>Você é proficiente com espada longa, espada curta, arco curto e arco longo.</p>",
+            "en": "<p>You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>"
+          }
+        },
+        {
+          "key": "cantrip",
+          "name": {
+            "pt": "truque",
+            "en": "Cantrip"
+          },
+          "html": {
+            "pt": "<p>Você conhece um truque da lista de magias de mago, à sua escolha. Inteligência é o atributo usado na conjuração.</p>",
+            "en": "<p>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</p>"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "drow-descent",
+      "name": {
+        "pt": "meio-elfo descendente de drow (variante)",
+        "en": "Variant; Drow Descent"
+      },
+      "source": {
+        "pt": {
+          "book": "GACE",
+          "page": 116
+        },
+        "en": {
+          "book": "SCAG",
+          "page": 116
+        }
+      },
+      "intro_html": {
+        "pt": "<p>Um meio-elfo descendente de drow pode escolher o traço racial do drow: Magia Drow.</p>",
+        "en": null
+      },
+      "traits": [
+        {
+          "key": "drow-magic",
+          "name": {
+            "pt": "magia drow",
+            "en": "Drow Magic"
+          },
+          "html": {
+            "pt": "<p>Você possui o truque <em>luzes dançantes</em>. Ao alcançar o 3º nível, torna-se capaz de lançar a magia <em>fogo das fadas</em> uma vez e recuperar a habilidade de fazê-lo ao fim de um descanso longo. Ao alcançar o 5º nível, pode conjurar <em>escuridão</em> uma vez por dia. O atributo usado para a conjuração dessas magias é Carisma.</p>",
+            "en": "<p>You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the darkness spell once per day; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells.</p>"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "aquatic-elf-descent",
+      "name": {
+        "pt": "meio-elfo descendente de elfo aquático (variante)",
+        "en": "Variant; Aquatic Elf Descent"
+      },
+      "source": {
+        "pt": {
+          "book": "GACE",
+          "page": 116
+        },
+        "en": {
+          "book": "SCAG",
+          "page": 116
+        }
+      },
+      "intro_html": {
+        "pt": "<p>Um meio-elfo descendente de elfo aquático pode escolher um deslocamento de natação de 9 metros.</p>",
+        "en": null
+      },
+      "traits": [
+        {
+          "key": "swim",
+          "name": {
+            "pt": "natação",
+            "en": "Swim"
+          },
+          "html": {
+            "pt": "<p>Você pode escolher um deslocamento de natação de 9 metros.</p>",
+            "en": "<p>You gain a swimming speed of 30 ft.</p>"
+          }
+        }
+      ]
+    }
+  ],
+  "spells": [
+    {
+      "level": 1,
+      "names_pt": ["luzes dançantes"],
+      "names_en": ["dancing lights"],
+      "regularity": {
+        "pt": "truque (variante: descendente de drow; Carisma)",
+        "en": "cantrip (variant: drow descent; Charisma)"
+      }
+    },
+    {
+      "level": 3,
+      "names_pt": ["fogo das fadas"],
+      "names_en": ["faerie fire"],
+      "regularity": {
+        "pt": "1 vez por descanso longo (variante: descendente de drow)",
+        "en": null
+      }
+    },
+    {
+      "level": 5,
+      "names_pt": ["escuridão"],
+      "names_en": ["darkness"],
+      "regularity": {
+        "pt": "1 vez por dia (variante: descendente de drow)",
+        "en": null
+      }
+    },
+    {
+      "level": 1,
+      "names_pt": ["um truque da lista de magias de mago, à sua escolha"],
+      "names_en": [],
+      "regularity": {
+        "pt": "truque (variante: descendente de elfo lunar ou solar; Inteligência)",
+        "en": "cantrip (variant: moon elf or sun elf descent; Intelligence)"
+      }
+    }
+  ]
 }

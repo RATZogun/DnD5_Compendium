@@ -1,271 +1,271 @@
 {
- "slug": "halfling",
- "name": {
-  "pt": "pequenino",
-  "en": "Halfling"
- },
- "source": {
-  "pt": {
-   "book": "LDJ",
-   "page": 29
+  "slug": "halfling",
+  "name": {
+    "pt": "pequenino",
+    "en": "Halfling"
   },
-  "en": {
-   "book": "PHB",
-   "page": 26
-  }
- },
- "intro_html": {
-  "pt": "<p>Régis, o pequenino, único de sua espécie num raio de centenas de quilômetros, entrelaçou os dedos na nuca e recostou-se contra a capa musgosa de um tronco. Ele era baixinho, mesmo para os padrões da sua raça de pouca estatura, e, mesmo contando com seus cachos castanhos, mal alcançava a marca de um metro. Já sua barriga se distendia por conta do seu amor por uma boa refeição — ou várias, dependendo das oportunidades que se apresentassem. O galho retorcido que lhe servia de vara de pesca erguia-se acima dele, preso entre seus dedos do pé, inclinando-se sobre as águas plácidas do lago, perfeitamente espelhado na superfície vítrea do Maer Dualdon.</p><p><em>— R.A. Salvatore, A Estilha de Cristal</em></p><p>O conforto do lar é o objetivo da maioria dos pequeninos: um fogo aceso e uma refeição generosa, boa bebida e boa conversa, um local para viver em paz e sossego, longe de monstros saqueadores e embates de exércitos. Embora alguns pequeninos vivam seus dias em comunidades agrícolas remotas, outros formam bandos nômades, atraídos pela estrada livre e o vasto horizonte, à procura de maravilhas, novas terras e povos. No entanto, até mesmo esses andarilhos amam a paz, a comida, uma lareira e um lar, ainda que este seja uma carruagem tangida ao longo de uma estrada de terra, ou uma balsa flutuando lentamente rio abaixo.</p><p><strong>Pequenos e Práticos</strong></p><p>Para sobreviver em um mundo repleto de criaturas grandes, os pequeninos evitam ser notados, ou, quando falham, evitam conflitos. Com aproximadamente 90 centímetros de altura, parecem inofensivos; e foi assim que conseguiram sobreviver por séculos à sombra dos impérios e à margem das guerras e conflitos políticos. Eles costumam ser robustos, pesando entre 20 e 23 quilos.</p><p>A cor da sua pele varia do bronzeado ao pálido com tonalidade corada, e seus cabelos costumam ser castanhos ou castanhos claros e ondulados. Possuem olhos castanhos ou amendoados. Pequeninos do sexo masculino muitas vezes ostentam longas costeletas, mas barbas são raras e bigodes quase inexistentes. Eles gostam de usar roupas simples, confortáveis e práticas, preferindo as cores claras.</p><p>A praticidade dos membros desta raça se estende para além do seu modo de se vestir. Eles se preocupam com as necessidades básicas e os prazeres mais simples, não sendo inclinados à ostentação. Até o mais rico dos pequeninos mantêm seus tesouros trancados em um porão. Eles demonstram impaciência para indecisões, e têm um talento especial para encontrar a solução mais simples para um problema.</p><p><strong>Generosos e Curiosos</strong></p><p>Os pequeninos são um povo afável e alegre. Apreciam os laços de família e a amizade, assim como o conforto do lar, nutrindo poucos sonhos de ouro e glória. Mesmo os aventureiros entre eles costumam se lançar no mundo tendo como motivações a comunidade, a amizade, o desejo de viajar ou a curiosidade. Eles amam descobrir coisas novas, até mesmo as mais simples, tais como comidas exóticas ou estilos de vestuário incomuns.</p><p>Os pequeninos se apiedam com facilidade, e detestam ver o sofrimento de qualquer ser vivo. São generosos, partilhando alegremente o que possuem, mesmo em épocas de vacas magras.</p><p><strong>Misturados à Multidão</strong></p><p>Pequeninos adaptam-se perfeitamente à rotina de comunidades humanas, anãs ou élficas, tornando-se valiosos e bem-vindos. A combinação de furtividade inata e natureza modesta os ajuda a evitar atenção indesejada.</p><p>Eles trabalham bem em equipe, sendo leais aos seus amigos, sejam estes pequeninos ou não. Também podem demonstrar uma notável ferocidade quando seus amigos, familiares ou comunidades estão em perigo.</p><p><strong>Jovialidade Pastoril</strong></p><p>A maioria dos membros desta raça vive em comunidades reduzidas e pacíficas, formadas por grandes fazendas e bosques preservados. Raramente constroem reinos próprios ou possuem mais terras do que seus tranquilos condados. Em geral, não reconhecem qualquer tipo de nobreza ou realeza entre si, preferindo a isso os conselhos das suas famílias e anciãos. As famílias, por sua vez, preservam suas tradições, a despeito da ascensão e da queda dos impérios.</p><p>Muitos pequeninos vivem entre as outras raças, onde seu trabalho duro e sua lealdade rendem recompensas e conforto abundantes. Algumas comunidades de pequeninos são nômades, tangendo carruagens ou guiando barcos de lugar em lugar, sem lar permanente.</p><p>Os pequeninos tentam se dar bem com todo o mundo, e relutam em fazer generalizações — especialmente as negativas.</p><p><em>Anões.</em> \"Anões são amigos leais, você pode confiar em sua palavra. Mas custa sorrir de vez em quando?\"</p><p><em>Elfos.</em> \"Eles são tão belos! Seus rostos, sua música, sua elegância e tudo mais. É como se tivessem saído de um sonho maravilhoso. Mas não há como dizer o que se passa por trás da sua face sorridente — com certeza muito mais do que demonstram.\"</p><p><em>Humanos.</em> \"Os humanos de fato são muito parecidos com a gente. Pelo menos alguns deles. Saia de seus castelos e fortalezas, converse com os agricultores e pastores, e você encontrará um povo bom e forte. Não que haja algo errado com os barões e soldados — é preciso admirar sua convicção. Afinal, ao protegerem suas próprias terras, eles também nos protegem.\"</p><p><strong>Explorando Oportunidades</strong></p><p>Os pequeninos que tomam o caminho da aventura costumam fazê-lo para defender suas comunidades, apoiar seus amigos ou explorar um mundo grande e cheio de maravilhas. Para eles, aventurar-se é menos uma carreira e mais uma oportunidade — por vezes, uma necessidade.</p><p><strong>Nomes de Pequeninos</strong></p><p>Todo pequenino tem um nome que lhe foi dado, um sobrenome e possivelmente um apelido. Os sobrenomes podem ser apelidos que emplacaram e, por isso, foram transmitidos através das gerações.</p><p><strong>Nomes Masculinos:</strong> Alton, Ander, Cade, Corrin, Eldon, Errich, Finnan, Garret, Lindal, Lyle, Merric, Milo, Osborn, Perrin, Reed, Roscoe, Wellby</p><p><strong>Nomes Femininos:</strong> Andry, Bree, Callie, Cora, Euphemia, Jillian, Kithri, Lavinia, Lidda, Merla, Nedda, Paela, Portia, Seraphina, Shaena, Trym, Vani, Verna</p><p><strong>Sobrenomes:</strong> Avalamonte, Baixogalho, Bodoque, Bombarril, Catescova, Chafolhado, Colinalta, Forcalho, Moringa-verde, Quebrespinho</p>",
-  "en": "<p>Regis the halfling, the only one of his kind for hundreds of miles in any direction, locked his fingers behind his head and leaned back against the mossy blanket of the tree trunk. Regis was short, even by the standards of his diminutive race, with the fluff of his curly brown locks barely cresting the three-foot mark, but his belly was amply thickened by his love of a good meal, or several, as the opportunities presented themselves. The crooked stick that served as his fishing pole rose up above him, clenched between two of his toes, and hung out over the quiet lake, mirrored perfectly in the glassy surface of Maer Dualdon.</p><p><em>— R.A. Salvatore, </em><em>The Crystal Shard</em></p><p>The comforts of home are the goals of most halflings’ lives: a place to settle in peace and quiet, far from marauding monsters and clashing armies; a blazing fire and a generous meal; fine drink and fine conversation. Though some halflings live out their days in remote agricultural communities, others form nomadic bands that travel constantly, lured by the open road and the wide horizon to discover the wonders of new lands and peoples. But even these wanderers love peace, food, hearth, and home, though home might be a wagon jostling along a dirt road or a raft floating downriver.</p><p><strong>Small and Practical</strong></p><p>The diminutive halflings survive in a world full of larger creatures by avoiding notice or, barring that, avoiding offense. Standing about 3 feet tall, they appear relatively harmless and so have managed to survive for centuries in the shadow of empires and on the edges of wars and political strife. They are inclined to be stout, weighing between 40 and 45 pounds.</p><p>Halflings’ skin ranges from tan to pale with a ruddy cast, and their hair is usually brown or sandy brown and wavy. They have brown or hazel eyes. Halfling men often sport long sideburns, but beards are rare among them and mustaches even more so. They like to wear simple, comfortable, and practical clothes, favoring bright colors.</p><p>Halfling practicality extends beyond their clothing. They’re concerned with basic needs and simple pleasures and have little use for ostentation. Even the wealthiest of halflings keep their treasures locked in a cellar rather than on display for all to see. They have a knack for finding the most straightforward solution to a problem, and have little patience for dithering.</p><p><strong>Kind and Curious</strong></p><p>Halflings are an affable and cheerful people. They cherish the bonds of family and friendship as well as the comforts of hearth and home, harboring few dreams of gold or glory. Even adventurers among them usually venture into the world for reasons of community, friendship, wanderlust, or curiosity. They love discovering new things, even simple things, such as an exotic food or an unfamiliar style of clothing.</p><p>Halflings are easily moved to pity and hate to see any living thing suffer. They are generous, happily sharing what they have even in lean times.</p><p><strong>Blend into the Crowd</strong></p><p>Halflings are adept at fitting into a community of humans, dwarves, or elves, making themselves valuable and welcome. The combination of their inherent stealth and their unassuming nature helps halflings to avoid unwanted attention.</p><p>Halflings work readily with others, and they are loyal to their friends, whether halfling or otherwise. They can display remarkable ferocity when their friends, families, or communities are threatened.</p><p><strong>Pastoral Pleasantries</strong></p><p>Most halflings live in small, peaceful communities with large farms and well-kept groves. They rarely build kingdoms of their own or even hold much land beyond their quiet shires. They typically don’t recognize any sort of halfling nobility or royalty, instead looking to family elders to guide them. Families preserve their traditional ways despite the rise and fall of empires.</p><p>Many halflings live among other races, where the halflings’ hard work and loyal outlook offer them abundant rewards and creature comforts. Some halfling communities travel as a way of life, driving wagons or guiding boats from place to place and maintaining no permanent home.</p><p><strong>AFFABLE AND POSITIVE</strong></p><p>Halflings try to get along with everyone else and are loath to make sweeping generalizations—especially negative ones.</p><p><em><strong>Dwarves. </strong></em>“Dwarves make loyal friends, and you can count on them to keep their word. But would it hurt them to smile once in a while?”</p><p><em><strong>Elves.</strong></em> “They’re so beautiful! Their faces, their music, their grace and all. It’s like they stepped out of a wonderful dream. But there’s no telling what’s going on behind their smiling faces—surely more than they ever let on.”</p><p><em><strong>Humans. </strong></em>“Humans are a lot like us, really. At least some of them are. Step out of the castles and keeps, go talk to the farmers and herders and you’ll find good, solid folk. Not that there’s anything wrong with the barons and soldiers—you have to admire their conviction. And by protecting their own lands, they protect us as well.”</p><p><strong>Exploring Opportunities</strong></p><p>Halflings usually set out on the adventurer’s path to defend their communities, support their friends, or explore a wide and wonder-filled world. For them, adventuring is less a career than an opportunity or sometimes a necessity.</p><p><strong>Halfling Names</strong></p><p>A halfling has a given name, a family name, and possibly a nickname. Family names are often nicknames that stuck so tenaciously they have been passed down through the generations.</p><p><strong>Male Names: </strong>Alton, Ander, Cade, Corrin, Eldon, Errich, Finnan, Garret, Lindal, Lyle, Merric, Milo, Osborn, Perrin, Reed, Roscoe, Wellby</p><p><strong>Female Names:</strong> Andry, Bree, Callie, Cora, Euphemia, Jillian, Kithri, Lavinia, Lidda, Merla, Nedda, Paela, Portia, Seraphina, Shaena, Trym, Vani, Verna</p><p><strong>Family Names:</strong> Brushgather, Goodbarrel, Greenbottle, High-hill, Hilltopple, Leagallow, Tealeaf, Thorngage, Tosscobble, Underbough</p>"
- },
- "traits": [
-  {
-   "key": "ability-score-increase",
-   "name": {
-    "pt": "aumento no valor de atributo",
-    "en": "Ability Score Increase"
-   },
-   "html": {
-    "pt": "<p>Seu valor de Destreza aumenta em 2.</p>",
-    "en": "<p>Your Dexterity score increases by 2.</p>"
-   }
-  },
-  {
-   "key": "age",
-   "name": {
-    "pt": "idade",
-    "en": "Age"
-   },
-   "html": {
-    "pt": "<p>Um pequenino atinge a idade adulta aos 20 anos, e pode chegar a até dois séculos e meio de idade.</p>",
-    "en": "<p>A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.</p>"
-   }
-  },
-  {
-   "key": "alignment",
-   "name": {
-    "pt": "alinhamento",
-    "en": null
-   },
-   "html": {
-    "pt": "<p>A maioria dos pequeninos são ordeiros e bons. Como regra geral, são bondosos e gentis, detestam ver o sofrimento alheio e são intolerantes a todo tipo de opressão. Também são muito organizados e tradicionalistas, apoiando-se em suas comunidades e no conforto de suas antigas tradições.</p>",
-    "en": null
-   }
-  },
-  {
-   "key": "size",
-   "name": {
-    "pt": "tamanho",
-    "en": "Size"
-   },
-   "html": {
-    "pt": "<p>Seu tamanho é Pequeno. Membros da raça medem cerca de 90 centímetros de altura, e pesam aproximadamente 18 quilos.</p>",
-    "en": "<p>Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.</p>"
-   }
-  },
-  {
-   "key": "speed",
-   "name": {
-    "pt": "deslocamento",
-    "en": "Speed"
-   },
-   "html": {
-    "pt": "<p>Seu deslocamento básico é de 7,5 metros.</p>",
-    "en": "<p>Your base walking speed is 25 feet.</p>"
-   }
-  },
-  {
-   "key": "lucky",
-   "name": {
-    "pt": "sortudo",
-    "en": "Lucky"
-   },
-   "html": {
-    "pt": "<p>Ao tirar 1 em uma jogada de ataque, teste de habilidade ou salvaguarda, você pode jogar novamente, devendo usar o novo resultado.</p>",
-    "en": "<p>When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</p>"
-   }
-  },
-  {
-   "key": "brave",
-   "name": {
-    "pt": "corajoso",
-    "en": "Brave"
-   },
-   "html": {
-    "pt": "<p>Você tem vantagem nas salvaguardas contra ser amedrontado.</p>",
-    "en": "<p>You have advantage on saving throws against being frightened.</p>"
-   }
-  },
-  {
-   "key": "halfling-nimbleness",
-   "name": {
-    "pt": "agilidade pequenina",
-    "en": "Halfling Nimbleness"
-   },
-   "html": {
-    "pt": "<p>Você pode se mover através do espaço de qualquer criatura com tamanho um nível acima do seu.</p>",
-    "en": "<p>You can move through the space of any creature that is of a size larger than yours.</p>"
-   }
-  },
-  {
-   "key": "languages",
-   "name": {
-    "pt": "idiomas",
-    "en": "Languages"
-   },
-   "html": {
-    "pt": "<p>Você pode falar, ler e escrever o idioma Comum e Pequenino. Este último (conhecido entre os pequeninos como Diminuto) não é secreto, mas os pequeninos relutam em compartilhá-lo. Como escrevem muito pouco, não possuem uma literatura vasta. Sua tradição oral, no entanto, é muito forte. Quase todos os pequeninos utilizam o idioma Comum para conversar com as pessoas das terras que habitam ou pelas quais estão de passagem.</p>",
-    "en": "<p>You can speak, read, and write Common and Halfling. The Halfling language isn’t secret, but halflings are loath to share it with others. They write very little, so they don’t have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.</p>"
-   }
-  },
-  {
-   "key": "subrace",
-   "name": {
-    "pt": "sub-raça",
-    "en": "Subrace"
-   },
-   "html": {
-    "pt": "<p>Os dois tipos principais de pequeninos, Pés-Ligeiros e Robustos, são mais como famílias muito próximas do que verdadeiras sub-raças. Você deve escolher uma das duas.</p>",
-    "en": "<p>The two main kinds of halfling, lightfoot and stout, are more like closely related families than true subraces. Choose one of these subraces or one from another source.</p>"
-   }
-  }
- ],
- "subraces": [
-  {
-   "slug": "lightfoot-halfling",
-   "name": {
-    "pt": "pequenino pés-ligeiros",
-    "en": "Lightfoot Halfling"
-   },
-   "source": {
+  "source": {
     "pt": {
-     "book": "LDJ",
-     "page": 31
+      "book": "LDJ",
+      "page": 29
     },
     "en": {
-     "book": "PHB",
-     "page": 28
+      "book": "PHB",
+      "page": 26
     }
-   },
-   "intro_html": {
-    "pt": "<p>Como um pequenino pés-ligeiros, você pode se ocultar facilmente, usando até mesmo outras pessoas como cobertura. Você tende a ser afável e a se dar bem com os outros. No cenário de Forgotten Realms, pequeninos pés-ligeiros tiveram uma maior disseminação, tornando-se a variedade mais comum.</p><p>Pés-ligeiros são mais propensos a viajar do que outros pequeninos, muitas vezes convivendo com outras raças ou optando por uma vida nômade. No mundo de Greyhawk, estes pequeninos são chamados de pés-peludos ou companheiros-altos.</p>",
-    "en": "<p>As a lightfoot halfling, you can easily hide from notice, even using other people as cover. You’re inclined to be affable and get along well with others. In the Forgotten Realms, lightfoot halflings have spread the farthest and thus are the most common variety.</p><p>Lightfoots are more prone to wanderlust than other halflings, and often dwell alongside other races or take up a nomadic life. In the world of Greyhawk, these halflings are called hairfeet or tallfellows.</p>"
-   },
-   "traits": [
-    {
-     "key": "ability-score-increase",
-     "name": {
-      "pt": "aumento no valor de atributo",
-      "en": "Ability Score Increase"
-     },
-     "html": {
-      "pt": "<p>O valor do seu Carisma aumenta em 1.</p>",
-      "en": "<p>Your Charisma score increases by 1.</p>"
-     }
-    },
-    {
-     "key": "naturally-stealthy",
-     "name": {
-      "pt": "furtividade natural",
-      "en": "Naturally Stealthy"
-     },
-     "html": {
-      "pt": "<p>Você pode tentar se esconder mesmo quando só possuir a cobertura de uma criatura com ao menos um nível de tamanho acima do seu.</p>",
-      "en": "<p>You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.</p>"
-     }
-    }
-   ]
   },
-  {
-   "slug": "stout-halfling",
-   "name": {
-    "pt": "pequenino robusto",
-    "en": "Stout Halfling"
-   },
-   "source": {
-    "pt": {
-     "book": "LDJ",
-     "page": 31
-    },
-    "en": {
-     "book": "PHB",
-     "page": 28
-    }
-   },
-   "intro_html": {
-    "pt": "<p>Como um pequenino robusto, você é mais vigoroso do que a média, e tem alguma resistência a venenos. Dizem que os robustos possuem sangue anão. No cenário de Forgotten Realms, são chamados de austeros, e vivem principalmente no sul.</p>",
-    "en": "<p>As a stout halfling, you’re hardier than average and have some resistance to poison. Some say that stouts have dwarven blood. In the Forgotten Realms, these halflings are called stronghearts, and they’re most common in the south.</p>"
-   },
-   "traits": [
-    {
-     "key": "ability-score-increase",
-     "name": {
-      "pt": "aumento no valor de atributo",
-      "en": "Ability Score Increase"
-     },
-     "html": {
-      "pt": "<p>Seu valor de Constituição aumenta em 1.</p>",
-      "en": "<p>Your Constitution score increases by 1.</p>"
-     }
-    },
-    {
-     "key": "stout-resilience",
-     "name": {
-      "pt": "resistência a toxinas",
-      "en": "Stout Resilience"
-     },
-     "html": {
-      "pt": "<p>Você tem vantagem em salvaguardas contra venenos e possui resistência a dano venenoso (explicadas no Capítulo 9, \"Combate\").</p>",
-      "en": "<p>You have advantage on saving throws against poison, and you have resistance against poison damage.</p>"
-     }
-    }
-   ]
+  "intro_html": {
+    "pt": "<p>Régis, o pequenino, único de sua espécie num raio de centenas de quilômetros, entrelaçou os dedos na nuca e recostou-se contra a capa musgosa de um tronco. Ele era baixinho, mesmo para os padrões da sua raça de pouca estatura, e, mesmo contando com seus cachos castanhos, mal alcançava a marca de um metro. Já sua barriga se distendia por conta do seu amor por uma boa refeição — ou várias, dependendo das oportunidades que se apresentassem. O galho retorcido que lhe servia de vara de pesca erguia-se acima dele, preso entre seus dedos do pé, inclinando-se sobre as águas plácidas do lago, perfeitamente espelhado na superfície vítrea do Maer Dualdon.</p><p><em>— R.A. Salvatore, A Estilha de Cristal</em></p><p>O conforto do lar é o objetivo da maioria dos pequeninos: um fogo aceso e uma refeição generosa, boa bebida e boa conversa, um local para viver em paz e sossego, longe de monstros saqueadores e embates de exércitos. Embora alguns pequeninos vivam seus dias em comunidades agrícolas remotas, outros formam bandos nômades, atraídos pela estrada livre e o vasto horizonte, à procura de maravilhas, novas terras e povos. No entanto, até mesmo esses andarilhos amam a paz, a comida, uma lareira e um lar, ainda que este seja uma carruagem tangida ao longo de uma estrada de terra, ou uma balsa flutuando lentamente rio abaixo.</p><p><strong>Pequenos e Práticos</strong></p><p>Para sobreviver em um mundo repleto de criaturas grandes, os pequeninos evitam ser notados, ou, quando falham, evitam conflitos. Com aproximadamente 90 centímetros de altura, parecem inofensivos; e foi assim que conseguiram sobreviver por séculos à sombra dos impérios e à margem das guerras e conflitos políticos. Eles costumam ser robustos, pesando entre 20 e 23 quilos.</p><p>A cor da sua pele varia do bronzeado ao pálido com tonalidade corada, e seus cabelos costumam ser castanhos ou castanhos claros e ondulados. Possuem olhos castanhos ou amendoados. Pequeninos do sexo masculino muitas vezes ostentam longas costeletas, mas barbas são raras e bigodes quase inexistentes. Eles gostam de usar roupas simples, confortáveis e práticas, preferindo as cores claras.</p><p>A praticidade dos membros desta raça se estende para além do seu modo de se vestir. Eles se preocupam com as necessidades básicas e os prazeres mais simples, não sendo inclinados à ostentação. Até o mais rico dos pequeninos mantêm seus tesouros trancados em um porão. Eles demonstram impaciência para indecisões, e têm um talento especial para encontrar a solução mais simples para um problema.</p><p><strong>Generosos e Curiosos</strong></p><p>Os pequeninos são um povo afável e alegre. Apreciam os laços de família e a amizade, assim como o conforto do lar, nutrindo poucos sonhos de ouro e glória. Mesmo os aventureiros entre eles costumam se lançar no mundo tendo como motivações a comunidade, a amizade, o desejo de viajar ou a curiosidade. Eles amam descobrir coisas novas, até mesmo as mais simples, tais como comidas exóticas ou estilos de vestuário incomuns.</p><p>Os pequeninos se apiedam com facilidade, e detestam ver o sofrimento de qualquer ser vivo. São generosos, partilhando alegremente o que possuem, mesmo em épocas de vacas magras.</p><p><strong>Misturados à Multidão</strong></p><p>Pequeninos adaptam-se perfeitamente à rotina de comunidades humanas, anãs ou élficas, tornando-se valiosos e bem-vindos. A combinação de furtividade inata e natureza modesta os ajuda a evitar atenção indesejada.</p><p>Eles trabalham bem em equipe, sendo leais aos seus amigos, sejam estes pequeninos ou não. Também podem demonstrar uma notável ferocidade quando seus amigos, familiares ou comunidades estão em perigo.</p><p><strong>Jovialidade Pastoril</strong></p><p>A maioria dos membros desta raça vive em comunidades reduzidas e pacíficas, formadas por grandes fazendas e bosques preservados. Raramente constroem reinos próprios ou possuem mais terras do que seus tranquilos condados. Em geral, não reconhecem qualquer tipo de nobreza ou realeza entre si, preferindo a isso os conselhos das suas famílias e anciãos. As famílias, por sua vez, preservam suas tradições, a despeito da ascensão e da queda dos impérios.</p><p>Muitos pequeninos vivem entre as outras raças, onde seu trabalho duro e sua lealdade rendem recompensas e conforto abundantes. Algumas comunidades de pequeninos são nômades, tangendo carruagens ou guiando barcos de lugar em lugar, sem lar permanente.</p><p>Os pequeninos tentam se dar bem com todo o mundo, e relutam em fazer generalizações — especialmente as negativas.</p><p><em>Anões.</em> \"Anões são amigos leais, você pode confiar em sua palavra. Mas custa sorrir de vez em quando?\"</p><p><em>Elfos.</em> \"Eles são tão belos! Seus rostos, sua música, sua elegância e tudo mais. É como se tivessem saído de um sonho maravilhoso. Mas não há como dizer o que se passa por trás da sua face sorridente — com certeza muito mais do que demonstram.\"</p><p><em>Humanos.</em> \"Os humanos de fato são muito parecidos com a gente. Pelo menos alguns deles. Saia de seus castelos e fortalezas, converse com os agricultores e pastores, e você encontrará um povo bom e forte. Não que haja algo errado com os barões e soldados — é preciso admirar sua convicção. Afinal, ao protegerem suas próprias terras, eles também nos protegem.\"</p><p><strong>Explorando Oportunidades</strong></p><p>Os pequeninos que tomam o caminho da aventura costumam fazê-lo para defender suas comunidades, apoiar seus amigos ou explorar um mundo grande e cheio de maravilhas. Para eles, aventurar-se é menos uma carreira e mais uma oportunidade — por vezes, uma necessidade.</p><p><strong>Nomes de Pequeninos</strong></p><p>Todo pequenino tem um nome que lhe foi dado, um sobrenome e possivelmente um apelido. Os sobrenomes podem ser apelidos que emplacaram e, por isso, foram transmitidos através das gerações.</p><p><strong>Nomes Masculinos:</strong> Alton, Ander, Cade, Corrin, Eldon, Errich, Finnan, Garret, Lindal, Lyle, Merric, Milo, Osborn, Perrin, Reed, Roscoe, Wellby</p><p><strong>Nomes Femininos:</strong> Andry, Bree, Callie, Cora, Euphemia, Jillian, Kithri, Lavinia, Lidda, Merla, Nedda, Paela, Portia, Seraphina, Shaena, Trym, Vani, Verna</p><p><strong>Sobrenomes:</strong> Avalamonte, Baixogalho, Bodoque, Bombarril, Catescova, Chafolhado, Colinalta, Forcalho, Moringa-verde, Quebrespinho</p>",
+    "en": "<p>Regis the halfling, the only one of his kind for hundreds of miles in any direction, locked his fingers behind his head and leaned back against the mossy blanket of the tree trunk. Regis was short, even by the standards of his diminutive race, with the fluff of his curly brown locks barely cresting the three-foot mark, but his belly was amply thickened by his love of a good meal, or several, as the opportunities presented themselves. The crooked stick that served as his fishing pole rose up above him, clenched between two of his toes, and hung out over the quiet lake, mirrored perfectly in the glassy surface of Maer Dualdon.</p><p><em>— R.A. Salvatore, </em><em>The Crystal Shard</em></p><p>The comforts of home are the goals of most halflings’ lives: a place to settle in peace and quiet, far from marauding monsters and clashing armies; a blazing fire and a generous meal; fine drink and fine conversation. Though some halflings live out their days in remote agricultural communities, others form nomadic bands that travel constantly, lured by the open road and the wide horizon to discover the wonders of new lands and peoples. But even these wanderers love peace, food, hearth, and home, though home might be a wagon jostling along a dirt road or a raft floating downriver.</p><p><strong>Small and Practical</strong></p><p>The diminutive halflings survive in a world full of larger creatures by avoiding notice or, barring that, avoiding offense. Standing about 3 feet tall, they appear relatively harmless and so have managed to survive for centuries in the shadow of empires and on the edges of wars and political strife. They are inclined to be stout, weighing between 40 and 45 pounds.</p><p>Halflings’ skin ranges from tan to pale with a ruddy cast, and their hair is usually brown or sandy brown and wavy. They have brown or hazel eyes. Halfling men often sport long sideburns, but beards are rare among them and mustaches even more so. They like to wear simple, comfortable, and practical clothes, favoring bright colors.</p><p>Halfling practicality extends beyond their clothing. They’re concerned with basic needs and simple pleasures and have little use for ostentation. Even the wealthiest of halflings keep their treasures locked in a cellar rather than on display for all to see. They have a knack for finding the most straightforward solution to a problem, and have little patience for dithering.</p><p><strong>Kind and Curious</strong></p><p>Halflings are an affable and cheerful people. They cherish the bonds of family and friendship as well as the comforts of hearth and home, harboring few dreams of gold or glory. Even adventurers among them usually venture into the world for reasons of community, friendship, wanderlust, or curiosity. They love discovering new things, even simple things, such as an exotic food or an unfamiliar style of clothing.</p><p>Halflings are easily moved to pity and hate to see any living thing suffer. They are generous, happily sharing what they have even in lean times.</p><p><strong>Blend into the Crowd</strong></p><p>Halflings are adept at fitting into a community of humans, dwarves, or elves, making themselves valuable and welcome. The combination of their inherent stealth and their unassuming nature helps halflings to avoid unwanted attention.</p><p>Halflings work readily with others, and they are loyal to their friends, whether halfling or otherwise. They can display remarkable ferocity when their friends, families, or communities are threatened.</p><p><strong>Pastoral Pleasantries</strong></p><p>Most halflings live in small, peaceful communities with large farms and well-kept groves. They rarely build kingdoms of their own or even hold much land beyond their quiet shires. They typically don’t recognize any sort of halfling nobility or royalty, instead looking to family elders to guide them. Families preserve their traditional ways despite the rise and fall of empires.</p><p>Many halflings live among other races, where the halflings’ hard work and loyal outlook offer them abundant rewards and creature comforts. Some halfling communities travel as a way of life, driving wagons or guiding boats from place to place and maintaining no permanent home.</p><p><strong>AFFABLE AND POSITIVE</strong></p><p>Halflings try to get along with everyone else and are loath to make sweeping generalizations—especially negative ones.</p><p><em><strong>Dwarves. </strong></em>“Dwarves make loyal friends, and you can count on them to keep their word. But would it hurt them to smile once in a while?”</p><p><em><strong>Elves.</strong></em> “They’re so beautiful! Their faces, their music, their grace and all. It’s like they stepped out of a wonderful dream. But there’s no telling what’s going on behind their smiling faces—surely more than they ever let on.”</p><p><em><strong>Humans. </strong></em>“Humans are a lot like us, really. At least some of them are. Step out of the castles and keeps, go talk to the farmers and herders and you’ll find good, solid folk. Not that there’s anything wrong with the barons and soldiers—you have to admire their conviction. And by protecting their own lands, they protect us as well.”</p><p><strong>Exploring Opportunities</strong></p><p>Halflings usually set out on the adventurer’s path to defend their communities, support their friends, or explore a wide and wonder-filled world. For them, adventuring is less a career than an opportunity or sometimes a necessity.</p><p><strong>Halfling Names</strong></p><p>A halfling has a given name, a family name, and possibly a nickname. Family names are often nicknames that stuck so tenaciously they have been passed down through the generations.</p><p><strong>Male Names: </strong>Alton, Ander, Cade, Corrin, Eldon, Errich, Finnan, Garret, Lindal, Lyle, Merric, Milo, Osborn, Perrin, Reed, Roscoe, Wellby</p><p><strong>Female Names:</strong> Andry, Bree, Callie, Cora, Euphemia, Jillian, Kithri, Lavinia, Lidda, Merla, Nedda, Paela, Portia, Seraphina, Shaena, Trym, Vani, Verna</p><p><strong>Family Names:</strong> Brushgather, Goodbarrel, Greenbottle, High-hill, Hilltopple, Leagallow, Tealeaf, Thorngage, Tosscobble, Underbough</p>"
   },
-  {
-   "slug": "ghostwise-halfling",
-   "name": {
-    "pt": "pequenino fantasmassábio",
-    "en": "Ghostwise Halfling"
-   },
-   "source": {
-    "pt": {
-     "book": "GACE",
-     "page": 112
-    },
-    "en": {
-     "book": "SCAG",
-     "page": 110
-    }
-   },
-   "intro_html": {
-    "pt": "<p>Os pequeninos fantasmassábios remontam sua ancestralidade até uma guerra entre tribos de pequeninos que levaram seus antigos ancestrais a fugirem para Luiren. Os pequeninos fantasmassábios são os mais raros entre os hin, encontrados apenas no Bosque Chondal e em alguns outros bosques isolados, fechados em clãs bem unidos.</p><p>Muitos clãs fantasmassábios escolhem um ponto de referência natural como o centro de seu território, e membros carregam algo deste ponto de referência consigo o tempo todo. Os combatentes dos clã, conhecidos como planadores noturnos, criam laços e cavalgam corujas gigantes como montarias.</p><p>Como este povo é tribal e desconfiado de forasteiros, os pequeninos fantasmassábios aventureiros são bem raros. Pergunte ao seu DM se você pode jogar com um membro desta sub-raça, que tem os traços raciais dos pequeninos do Player's Handbook: Livro do jogador, além dos traços da sub-raça a seguir.</p>",
-    "en": null
-   },
-   "traits": [
+  "traits": [
     {
-     "key": "ability-score-increase",
-     "name": {
-      "pt": "aumento no valor de atributo",
-      "en": null
-     },
-     "html": {
-      "pt": "<p>Seu valor de Sabedoria aumenta em 1.</p>",
-      "en": null
-     }
+      "key": "ability-score-increase",
+      "name": {
+        "pt": "aumento no valor de atributo",
+        "en": "Ability Score Increase"
+      },
+      "html": {
+        "pt": "<p>Seu valor de Destreza aumenta em 2.</p>",
+        "en": "<p>Your Dexterity score increases by 2.</p>"
+      }
     },
     {
-     "key": "silent-speech",
-     "name": {
-      "pt": "fala silenciosa",
-      "en": "Silent Speech"
-     },
-     "html": {
-      "pt": "<p>Você pode falar telepaticamente com qualquer criatura que esteja a até 9 metros de você. A criatura entende você apenas se ambos compartilharem um idioma. Você pode falar telepaticamente desta forma com apenas uma criatura por vez.</p>",
-      "en": "<p>You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time.</p>"
-     }
+      "key": "age",
+      "name": {
+        "pt": "idade",
+        "en": "Age"
+      },
+      "html": {
+        "pt": "<p>Um pequenino atinge a idade adulta aos 20 anos, e pode chegar a até dois séculos e meio de idade.</p>",
+        "en": "<p>A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.</p>"
+      }
+    },
+    {
+      "key": "alignment",
+      "name": {
+        "pt": "alinhamento",
+        "en": null
+      },
+      "html": {
+        "pt": "<p>A maioria dos pequeninos são ordeiros e bons. Como regra geral, são bondosos e gentis, detestam ver o sofrimento alheio e são intolerantes a todo tipo de opressão. Também são muito organizados e tradicionalistas, apoiando-se em suas comunidades e no conforto de suas antigas tradições.</p>",
+        "en": null
+      }
+    },
+    {
+      "key": "size",
+      "name": {
+        "pt": "tamanho",
+        "en": "Size"
+      },
+      "html": {
+        "pt": "<p>Seu tamanho é Pequeno. Membros da raça medem cerca de 90 centímetros de altura, e pesam aproximadamente 18 quilos.</p>",
+        "en": "<p>Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.</p>"
+      }
+    },
+    {
+      "key": "speed",
+      "name": {
+        "pt": "deslocamento",
+        "en": "Speed"
+      },
+      "html": {
+        "pt": "<p>Seu deslocamento básico é de 7,5 metros.</p>",
+        "en": "<p>Your base walking speed is 25 feet.</p>"
+      }
+    },
+    {
+      "key": "lucky",
+      "name": {
+        "pt": "sortudo",
+        "en": "Lucky"
+      },
+      "html": {
+        "pt": "<p>Ao tirar 1 em uma jogada de ataque, teste de habilidade ou salvaguarda, você pode jogar novamente, devendo usar o novo resultado.</p>",
+        "en": "<p>When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</p>"
+      }
+    },
+    {
+      "key": "brave",
+      "name": {
+        "pt": "corajoso",
+        "en": "Brave"
+      },
+      "html": {
+        "pt": "<p>Você tem vantagem nas salvaguardas contra ser amedrontado.</p>",
+        "en": "<p>You have advantage on saving throws against being frightened.</p>"
+      }
+    },
+    {
+      "key": "halfling-nimbleness",
+      "name": {
+        "pt": "agilidade pequenina",
+        "en": "Halfling Nimbleness"
+      },
+      "html": {
+        "pt": "<p>Você pode se mover através do espaço de qualquer criatura com tamanho um nível acima do seu.</p>",
+        "en": "<p>You can move through the space of any creature that is of a size larger than yours.</p>"
+      }
+    },
+    {
+      "key": "languages",
+      "name": {
+        "pt": "idiomas",
+        "en": "Languages"
+      },
+      "html": {
+        "pt": "<p>Você pode falar, ler e escrever o idioma Comum e Pequenino. Este último (conhecido entre os pequeninos como Diminuto) não é secreto, mas os pequeninos relutam em compartilhá-lo. Como escrevem muito pouco, não possuem uma literatura vasta. Sua tradição oral, no entanto, é muito forte. Quase todos os pequeninos utilizam o idioma Comum para conversar com as pessoas das terras que habitam ou pelas quais estão de passagem.</p>",
+        "en": "<p>You can speak, read, and write Common and Halfling. The Halfling language isn’t secret, but halflings are loath to share it with others. They write very little, so they don’t have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.</p>"
+      }
+    },
+    {
+      "key": "subrace",
+      "name": {
+        "pt": "sub-raça",
+        "en": "Subrace"
+      },
+      "html": {
+        "pt": "<p>Os dois tipos principais de pequeninos, Pés-Ligeiros e Robustos, são mais como famílias muito próximas do que verdadeiras sub-raças. Você deve escolher uma das duas.</p>",
+        "en": "<p>The two main kinds of halfling, lightfoot and stout, are more like closely related families than true subraces. Choose one of these subraces or one from another source.</p>"
+      }
     }
-   ]
-  }
- ],
- "spells": []
+  ],
+  "subraces": [
+    {
+      "slug": "lightfoot-halfling",
+      "name": {
+        "pt": "pequenino pés-ligeiros",
+        "en": "Lightfoot Halfling"
+      },
+      "source": {
+        "pt": {
+          "book": "LDJ",
+          "page": 31
+        },
+        "en": {
+          "book": "PHB",
+          "page": 28
+        }
+      },
+      "intro_html": {
+        "pt": "<p>Como um pequenino pés-ligeiros, você pode se ocultar facilmente, usando até mesmo outras pessoas como cobertura. Você tende a ser afável e a se dar bem com os outros. No cenário de Forgotten Realms, pequeninos pés-ligeiros tiveram uma maior disseminação, tornando-se a variedade mais comum.</p><p>Pés-ligeiros são mais propensos a viajar do que outros pequeninos, muitas vezes convivendo com outras raças ou optando por uma vida nômade. No mundo de Greyhawk, estes pequeninos são chamados de pés-peludos ou companheiros-altos.</p>",
+        "en": "<p>As a lightfoot halfling, you can easily hide from notice, even using other people as cover. You’re inclined to be affable and get along well with others. In the Forgotten Realms, lightfoot halflings have spread the farthest and thus are the most common variety.</p><p>Lightfoots are more prone to wanderlust than other halflings, and often dwell alongside other races or take up a nomadic life. In the world of Greyhawk, these halflings are called hairfeet or tallfellows.</p>"
+      },
+      "traits": [
+        {
+          "key": "ability-score-increase",
+          "name": {
+            "pt": "aumento no valor de atributo",
+            "en": "Ability Score Increase"
+          },
+          "html": {
+            "pt": "<p>O valor do seu Carisma aumenta em 1.</p>",
+            "en": "<p>Your Charisma score increases by 1.</p>"
+          }
+        },
+        {
+          "key": "naturally-stealthy",
+          "name": {
+            "pt": "furtividade natural",
+            "en": "Naturally Stealthy"
+          },
+          "html": {
+            "pt": "<p>Você pode tentar se esconder mesmo quando só possuir a cobertura de uma criatura com ao menos um nível de tamanho acima do seu.</p>",
+            "en": "<p>You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.</p>"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "stout-halfling",
+      "name": {
+        "pt": "pequenino robusto",
+        "en": "Stout Halfling"
+      },
+      "source": {
+        "pt": {
+          "book": "LDJ",
+          "page": 31
+        },
+        "en": {
+          "book": "PHB",
+          "page": 28
+        }
+      },
+      "intro_html": {
+        "pt": "<p>Como um pequenino robusto, você é mais vigoroso do que a média, e tem alguma resistência a venenos. Dizem que os robustos possuem sangue anão. No cenário de Forgotten Realms, são chamados de austeros, e vivem principalmente no sul.</p>",
+        "en": "<p>As a stout halfling, you’re hardier than average and have some resistance to poison. Some say that stouts have dwarven blood. In the Forgotten Realms, these halflings are called stronghearts, and they’re most common in the south.</p>"
+      },
+      "traits": [
+        {
+          "key": "ability-score-increase",
+          "name": {
+            "pt": "aumento no valor de atributo",
+            "en": "Ability Score Increase"
+          },
+          "html": {
+            "pt": "<p>Seu valor de Constituição aumenta em 1.</p>",
+            "en": "<p>Your Constitution score increases by 1.</p>"
+          }
+        },
+        {
+          "key": "stout-resilience",
+          "name": {
+            "pt": "resistência a toxinas",
+            "en": "Stout Resilience"
+          },
+          "html": {
+            "pt": "<p>Você tem vantagem em salvaguardas contra venenos e possui resistência a dano venenoso (explicadas no Capítulo 9, \"Combate\").</p>",
+            "en": "<p>You have advantage on saving throws against poison, and you have resistance against poison damage.</p>"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "ghostwise-halfling",
+      "name": {
+        "pt": "pequenino fantasmassábio",
+        "en": "Ghostwise Halfling"
+      },
+      "source": {
+        "pt": {
+          "book": "GACE",
+          "page": 112
+        },
+        "en": {
+          "book": "SCAG",
+          "page": 110
+        }
+      },
+      "intro_html": {
+        "pt": "<p>Os pequeninos fantasmassábios remontam sua ancestralidade até uma guerra entre tribos de pequeninos que levaram seus antigos ancestrais a fugirem para Luiren. Os pequeninos fantasmassábios são os mais raros entre os hin, encontrados apenas no Bosque Chondal e em alguns outros bosques isolados, fechados em clãs bem unidos.</p><p>Muitos clãs fantasmassábios escolhem um ponto de referência natural como o centro de seu território, e membros carregam algo deste ponto de referência consigo o tempo todo. Os combatentes dos clã, conhecidos como planadores noturnos, criam laços e cavalgam corujas gigantes como montarias.</p><p>Como este povo é tribal e desconfiado de forasteiros, os pequeninos fantasmassábios aventureiros são bem raros. Pergunte ao seu DM se você pode jogar com um membro desta sub-raça, que tem os traços raciais dos pequeninos do Player's Handbook: Livro do jogador, além dos traços da sub-raça a seguir.</p>",
+        "en": null
+      },
+      "traits": [
+        {
+          "key": "ability-score-increase",
+          "name": {
+            "pt": "aumento no valor de atributo",
+            "en": null
+          },
+          "html": {
+            "pt": "<p>Seu valor de Sabedoria aumenta em 1.</p>",
+            "en": null
+          }
+        },
+        {
+          "key": "silent-speech",
+          "name": {
+            "pt": "fala silenciosa",
+            "en": "Silent Speech"
+          },
+          "html": {
+            "pt": "<p>Você pode falar telepaticamente com qualquer criatura que esteja a até 9 metros de você. A criatura entende você apenas se ambos compartilharem um idioma. Você pode falar telepaticamente desta forma com apenas uma criatura por vez.</p>",
+            "en": "<p>You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time.</p>"
+          }
+        }
+      ]
+    }
+  ],
+  "spells": []
 }

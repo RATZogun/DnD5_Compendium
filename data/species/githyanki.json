@@ -1,1 +1,84 @@
-{"slug":"githyanki","name":{"pt":"githyanki","en":"Githyanki"},"source":{"pt":{"book":"MPMM","page":18},"en":{"book":"MPMM","page":18}},"intro_html":{"pt":"<p>Outrora membros de um povo que escapou da servidão aos devoradores de mentes, os githyanki se separaram de seus primos, githzerai, e fugiram para o Plano Astral. Nesse reino argênteo e atemporal, os githyanki aprimoraram seus poderes psiônicos e construíram uma grande cidade chamada Tu'narath. Desde então, eles se espalharam por todo o multiverso, começando em postos avançados fora do Plano Astral, chamados de creches, onde o tempo passa e seus filhos podem atingir a idade adulta.</p><p>Um povo magro com tons de pele amarelo, verde e marrom, os githyanki complementam suas proezas físicas com poderes psiônicos, imbuídos neles pelos devoradores de mente e cultivados por eras no Plano Astral. Agora, todos os githyanki podem usar seu vínculo psíquico com aquele plano para acessar fragmentos de conhecimento deixados para trás por seres que viajam, vivem e morrem dentre as prateadas nuvens astrais.</p><p>Os githyanki que residem no Plano Astral podem viver eternamente.</p>","en":"<p>Once members of a people who escaped servitude to mind flayers, githyanki split from their cousins, githzerai, and fled to the Astral Plane. In that timeless, silvery realm, githyanki honed their psionic powers and built a great city called Tu’narath. They have since spread throughout the multiverse, starting in outposts outside the Astral Plane, called creches, where time passes and their children can reach adulthood.</p> <p>A lanky people with skin tones of yellows, greens, and browns, githyanki complement their physical prowess with psionic might, instilled in them by mind flayers and cultivated over eons in the Astral Plane. Now all githyanki can use their psychic bond with that plane to access splinters of knowledge left behind by beings who travel, live, and die among the silver astral clouds.</p> <p>Githyanki who reside in the Astral Plane can live indefinitely.</p>"},"traits":[{"key":"creature-type","name":{"pt":"tipo de criatura","en":"Creature Type"},"html":{"pt":"<p>Você é um humanoide.</p>","en":"<p>You are a Humanoid.</p>"}},{"key":"size","name":{"pt":"tamanho","en":"Size"},"html":{"pt":"<p>Você é Médio.</p>","en":"<p>You are Medium.</p>"}},{"key":"speed","name":{"pt":"deslocamento","en":"Speed"},"html":{"pt":"<p>Seu deslocamento de caminhada é de 9 metros.</p>","en":"<p>Your walking speed is 30 feet.</p>"}},{"key":"astral-knowledge","name":{"pt":"conhecimento astral","en":"Astral Knowledge"},"html":{"pt":"<p>Você pode acessar misticamente um depósito de experiências de entidades conectadas ao Plano Astral. Sempre que terminar um descanso longo, você ganha proficiência em uma perícia de sua escolha e com uma arma ou ferramenta de sua escolha, selecionada do Livro do Jogador, conforme você projeta momentaneamente sua consciência para o Plano Astral. Essas proficiências duram até o fim do seu próximo descanso longo.</p>","en":"<p>You can mystically access a reservoir of experiences of entities connected to the Astral Plane. Whenever you finish a long rest, you gain proficiency in one skill of your choice and with one weapon or tool of your choice, selected from the <em>Player’s Handbook</em>, as you momentarily project your consciousness into the Astral Plane. These proficiencies last until the end of your next long rest.</p>"}},{"key":"githyanki-psionics","name":{"pt":"psionismo githyanki","en":"Githyanki Psionics"},"html":{"pt":"<p>Você conhece o truque mãos mágicas e, quando conjura o truque usando este traço, a mão é invisível.</p><p>A partir do 3º nível, você pode conjurar a magia salto usando este traço. A partir do 5º nível, você também pode conjurar a magia passo nebuloso usando este traço. Uma vez que conjurar salto ou passo nebuloso usando este traço, você não poderá conjurar essa magia novamente até terminar um descanso longo. Você também pode conjurar essas magias usando quaisquer espaços de magia que tiver do círculo apropriado.</p><p>Inteligência, Sabedoria ou Carisma é seu atributo de conjuração ao conjurar estas magias utilizando este traço (escolha um ao selecionar esta raça). Nenhuma dessas magias requer componentes materiais quando conjurada usando este traço.</p>","en":"<p>You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait.</p> <p>Starting at 3rd level, you can cast the jump spell with this trait. Starting at 5th level, you can also cast the misty step spell with it. Once you cast jump or misty step with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p> <p>Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race). None of these spells require spell components when you cast them with this trait.</p>"}},{"key":"psychic-resilience","name":{"pt":"resiliência psíquica","en":"Psychic Resilience"},"html":{"pt":"<p>Você tem resistência a dano psíquico.</p>","en":"<p>You have resistance to psychic damage.</p>"}}],"subraces":[],"spells":[{"level":1,"names_pt":["mãos mágicas"],"names_en":["mage hand"],"regularity":{"pt":"truque (a mão é invisível)","en":"cantrip (the hand is invisible)"}},{"level":3,"names_pt":["salto"],"names_en":["jump"],"regularity":{"pt":"uma vez por descanso longo (também pode ser conjurada com espaços de magia do círculo apropriado)","en":"once per long rest (can also be cast using spell slots of the appropriate level)"}},{"level":5,"names_pt":["passo nebuloso"],"names_en":["misty step"],"regularity":{"pt":"uma vez por descanso longo (também pode ser conjurada com espaços de magia do círculo apropriado)","en":"once per long rest (can also be cast using spell slots of the appropriate level)"}}],"additional_sources":[],"pt_from":null,"size":["M"],"speed":{"ft":30,"m":9.0}}
+{
+  "slug": "githyanki",
+  "name": { "pt": "githyanki", "en": "Githyanki" },
+  "source": { "pt": { "book": "MPMM", "page": 18 }, "en": { "book": "MPMM", "page": 18 } },
+  "intro_html": {
+    "pt": "<p>Outrora membros de um povo que escapou da servidão aos devoradores de mentes, os githyanki se separaram de seus primos, githzerai, e fugiram para o Plano Astral. Nesse reino argênteo e atemporal, os githyanki aprimoraram seus poderes psiônicos e construíram uma grande cidade chamada Tu'narath. Desde então, eles se espalharam por todo o multiverso, começando em postos avançados fora do Plano Astral, chamados de creches, onde o tempo passa e seus filhos podem atingir a idade adulta.</p><p>Um povo magro com tons de pele amarelo, verde e marrom, os githyanki complementam suas proezas físicas com poderes psiônicos, imbuídos neles pelos devoradores de mente e cultivados por eras no Plano Astral. Agora, todos os githyanki podem usar seu vínculo psíquico com aquele plano para acessar fragmentos de conhecimento deixados para trás por seres que viajam, vivem e morrem dentre as prateadas nuvens astrais.</p><p>Os githyanki que residem no Plano Astral podem viver eternamente.</p>",
+    "en": "<p>Once members of a people who escaped servitude to mind flayers, githyanki split from their cousins, githzerai, and fled to the Astral Plane. In that timeless, silvery realm, githyanki honed their psionic powers and built a great city called Tu’narath. They have since spread throughout the multiverse, starting in outposts outside the Astral Plane, called creches, where time passes and their children can reach adulthood.</p> <p>A lanky people with skin tones of yellows, greens, and browns, githyanki complement their physical prowess with psionic might, instilled in them by mind flayers and cultivated over eons in the Astral Plane. Now all githyanki can use their psychic bond with that plane to access splinters of knowledge left behind by beings who travel, live, and die among the silver astral clouds.</p> <p>Githyanki who reside in the Astral Plane can live indefinitely.</p>"
+  },
+  "traits": [
+    {
+      "key": "creature-type",
+      "name": { "pt": "tipo de criatura", "en": "Creature Type" },
+      "html": { "pt": "<p>Você é um humanoide.</p>", "en": "<p>You are a Humanoid.</p>" }
+    },
+    {
+      "key": "size",
+      "name": { "pt": "tamanho", "en": "Size" },
+      "html": { "pt": "<p>Você é Médio.</p>", "en": "<p>You are Medium.</p>" }
+    },
+    {
+      "key": "speed",
+      "name": { "pt": "deslocamento", "en": "Speed" },
+      "html": {
+        "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
+        "en": "<p>Your walking speed is 30 feet.</p>"
+      }
+    },
+    {
+      "key": "astral-knowledge",
+      "name": { "pt": "conhecimento astral", "en": "Astral Knowledge" },
+      "html": {
+        "pt": "<p>Você pode acessar misticamente um depósito de experiências de entidades conectadas ao Plano Astral. Sempre que terminar um descanso longo, você ganha proficiência em uma perícia de sua escolha e com uma arma ou ferramenta de sua escolha, selecionada do Livro do Jogador, conforme você projeta momentaneamente sua consciência para o Plano Astral. Essas proficiências duram até o fim do seu próximo descanso longo.</p>",
+        "en": "<p>You can mystically access a reservoir of experiences of entities connected to the Astral Plane. Whenever you finish a long rest, you gain proficiency in one skill of your choice and with one weapon or tool of your choice, selected from the <em>Player’s Handbook</em>, as you momentarily project your consciousness into the Astral Plane. These proficiencies last until the end of your next long rest.</p>"
+      }
+    },
+    {
+      "key": "githyanki-psionics",
+      "name": { "pt": "psionismo githyanki", "en": "Githyanki Psionics" },
+      "html": {
+        "pt": "<p>Você conhece o truque mãos mágicas e, quando conjura o truque usando este traço, a mão é invisível.</p><p>A partir do 3º nível, você pode conjurar a magia salto usando este traço. A partir do 5º nível, você também pode conjurar a magia passo nebuloso usando este traço. Uma vez que conjurar salto ou passo nebuloso usando este traço, você não poderá conjurar essa magia novamente até terminar um descanso longo. Você também pode conjurar essas magias usando quaisquer espaços de magia que tiver do círculo apropriado.</p><p>Inteligência, Sabedoria ou Carisma é seu atributo de conjuração ao conjurar estas magias utilizando este traço (escolha um ao selecionar esta raça). Nenhuma dessas magias requer componentes materiais quando conjurada usando este traço.</p>",
+        "en": "<p>You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait.</p> <p>Starting at 3rd level, you can cast the jump spell with this trait. Starting at 5th level, you can also cast the misty step spell with it. Once you cast jump or misty step with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p> <p>Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race). None of these spells require spell components when you cast them with this trait.</p>"
+      }
+    },
+    {
+      "key": "psychic-resilience",
+      "name": { "pt": "resiliência psíquica", "en": "Psychic Resilience" },
+      "html": {
+        "pt": "<p>Você tem resistência a dano psíquico.</p>",
+        "en": "<p>You have resistance to psychic damage.</p>"
+      }
+    }
+  ],
+  "subraces": [],
+  "spells": [
+    {
+      "level": 1,
+      "names_pt": ["mãos mágicas"],
+      "names_en": ["mage hand"],
+      "regularity": { "pt": "truque (a mão é invisível)", "en": "cantrip (the hand is invisible)" }
+    },
+    {
+      "level": 3,
+      "names_pt": ["salto"],
+      "names_en": ["jump"],
+      "regularity": {
+        "pt": "uma vez por descanso longo (também pode ser conjurada com espaços de magia do círculo apropriado)",
+        "en": "once per long rest (can also be cast using spell slots of the appropriate level)"
+      }
+    },
+    {
+      "level": 5,
+      "names_pt": ["passo nebuloso"],
+      "names_en": ["misty step"],
+      "regularity": {
+        "pt": "uma vez por descanso longo (também pode ser conjurada com espaços de magia do círculo apropriado)",
+        "en": "once per long rest (can also be cast using spell slots of the appropriate level)"
+      }
+    }
+  ],
+  "additional_sources": [],
+  "pt_from": null,
+  "size": ["M"],
+  "speed": { "ft": 30, "m": 9.0 }
+}

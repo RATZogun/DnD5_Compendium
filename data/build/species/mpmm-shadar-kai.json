@@ -1,124 +1,124 @@
 {
- "slug": "shadar-kai",
- "name": {
-  "pt": "shadar-kai",
-  "en": "Shadar-Kai"
- },
- "source": {
-  "pt": {
-   "book": "MPMM",
-   "page": 32
+  "slug": "shadar-kai",
+  "name": {
+    "pt": "shadar-kai",
+    "en": "Shadar-Kai"
   },
-  "en": {
-   "book": "MPMM",
-   "page": 31
-  }
- },
- "intro_html": {
-  "pt": "<p>Shadar-kai são os elfos do Sombral, atraídos originalmente para este reino sombrio pela Rainha Corvo. Ao longo dos séculos, alguns deles continuaram a servi-la, enquanto outros se aventuraram no Plano Material para forjar seus próprios destinos.</p><p>Outrora, shadar-kais eram feéricos como seus demais parentes élficos; agora eles existem em um estado entre a vida e a morte, graças à transformação que sofreram pela energia sinistra do Sombral. Shadar-kais têm tons de pele acinzentados, e enquanto eles estão no Sombral também se tornam enrugados, refletindo a natureza tenebrosa daquele plano sombrio. Assim como os demais elfos, shadar-kais podem viver além dos 750 anos.</p>",
-  "en": "<p>Shadar-kai are the elves of the Shadowfell, originally drawn to that dread realm by the Raven Queen. Over the centuries, some of them have continued to serve her, while others have ventured into the Material Plane to forge their own destinies.</p><p>Once shadar-kai were Fey like the rest of their elven kin; now they exist in a state between life and death, thanks to being transformed by the Shadowfell’s grim energy.</p><p>Shadar-kai have ashen skin tones, and while they’re in the Shadowfell, they also become wizened, reflecting the somber nature of that gloomy plane.</p><p>Like other elves, shadar-kai can live to be over 750 years old.</p>"
- },
- "traits": [
-  {
-   "key": "creature-type",
-   "name": {
-    "pt": "tipo de Criatura",
-    "en": "Creature Type"
-   },
-   "html": {
-    "pt": "<p>Você é um humanoide. Você também é considerado um elfo para qualquer pré-requisito ou efeito que requeira que você seja um elfo.</p>",
-    "en": "<p>You are a Humanoid. You are also considered an elf for any prerequisite or effect that requires you to be an elf.</p>"
-   }
+  "source": {
+    "pt": {
+      "book": "MPMM",
+      "page": 32
+    },
+    "en": {
+      "book": "MPMM",
+      "page": 31
+    }
   },
-  {
-   "key": "size",
-   "name": {
-    "pt": "tamanho",
-    "en": "Size"
-   },
-   "html": {
-    "pt": "<p>Você é Médio.</p>",
-    "en": "<p>You are Medium.</p>"
-   }
+  "intro_html": {
+    "pt": "<p>Shadar-kai são os elfos do Sombral, atraídos originalmente para este reino sombrio pela Rainha Corvo. Ao longo dos séculos, alguns deles continuaram a servi-la, enquanto outros se aventuraram no Plano Material para forjar seus próprios destinos.</p><p>Outrora, shadar-kais eram feéricos como seus demais parentes élficos; agora eles existem em um estado entre a vida e a morte, graças à transformação que sofreram pela energia sinistra do Sombral. Shadar-kais têm tons de pele acinzentados, e enquanto eles estão no Sombral também se tornam enrugados, refletindo a natureza tenebrosa daquele plano sombrio. Assim como os demais elfos, shadar-kais podem viver além dos 750 anos.</p>",
+    "en": "<p>Shadar-kai are the elves of the Shadowfell, originally drawn to that dread realm by the Raven Queen. Over the centuries, some of them have continued to serve her, while others have ventured into the Material Plane to forge their own destinies.</p><p>Once shadar-kai were Fey like the rest of their elven kin; now they exist in a state between life and death, thanks to being transformed by the Shadowfell’s grim energy.</p><p>Shadar-kai have ashen skin tones, and while they’re in the Shadowfell, they also become wizened, reflecting the somber nature of that gloomy plane.</p><p>Like other elves, shadar-kai can live to be over 750 years old.</p>"
   },
-  {
-   "key": "speed",
-   "name": {
-    "pt": "deslocamento",
-    "en": "Speed"
-   },
-   "html": {
-    "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
-    "en": "<p>Your walking speed is 30 feet.</p>"
-   }
-  },
-  {
-   "key": "fey-ancestry",
-   "name": {
-    "pt": "ancestralidade Feérica",
-    "en": "Fey Ancestry"
-   },
-   "html": {
-    "pt": "<p>Você tem vantagem em salvaguardas para evitar ou encerrar a condição enfeitiçado em si mesmo.</p>",
-    "en": "<p>You have advantage on saving throws you make to avoid or end the charmed condition on yourself.</p>"
-   }
-  },
-  {
-   "key": "blessing-of-the-raven-queen",
-   "name": {
-    "pt": "benção da Rainha Corvo",
-    "en": "Blessing of the Raven Queen"
-   },
-   "html": {
-    "pt": "<p>Como uma ação bônus, você pode se teleportar magicamente até 9 metros para um espaço desocupado que você possa ver. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência, e recupera todos os usos ao terminar um descanso longo.</p><p>A partir do 3o nível você também ganha resistência a todo tipo de dano quando teleporta usando este traço. Esta resistência dura até o começo do seu próximo turno. Durante esse tempo, você parece fantasmagórico e translúcido.</p>",
-    "en": "<p>As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p> <p>Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.</p>"
-   }
-  },
-  {
-   "key": "necrotic-resistance",
-   "name": {
-    "pt": "resistência Necrótica",
-    "en": "Necrotic Resistance"
-   },
-   "html": {
-    "pt": "<p>Você tem resistência a dano necrótico.</p>",
-    "en": "<p>You have resistance to necrotic damage.</p>"
-   }
-  },
-  {
-   "key": "keen-senses",
-   "name": {
-    "pt": "sentidos Aguçados",
-    "en": "Keen Senses"
-   },
-   "html": {
-    "pt": "<p>Você tem proficiência na perícia Percepção.</p>",
-    "en": "<p>You have proficiency in the Perception skill.</p>"
-   }
-  },
-  {
-   "key": "trance",
-   "name": {
-    "pt": "transe",
-    "en": "Trance"
-   },
-   "html": {
-    "pt": "<p>Você não precisa dormir, e magia não pode fazê-lo dormir. Você pode concluir um descanso longo em 4 horas se passar essas horas meditando em transe, durante o qual você se mantém consciente.</p><p>Sempre que termina este transe, você pode ganhar duas proficiências que você não tenha com uma arma ou uma ferramenta à sua escolha, selecionadas a partir do Livro do Jogador. Você adquire misticamente essas proficiências, extraindo-as da memória compartilhada dos elfos, e as retém até terminar seu próximo descanso longo.</p>",
-    "en": "<p>You don’t need to sleep, and magic can’t put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.</p> <p>Whenever you finish this trance, you can gain two proficiencies that you don’t have, each one with a weapon or a tool of your choice selected from the <em>Player’s Handbook</em>. You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest.</p>"
-   }
-  },
-  {
-   "key": "darkvision",
-   "name": {
-    "pt": "visão no Escuro",
-    "en": "Darkvision"
-   },
-   "html": {
-    "pt": "<p>Você consegue enxergar até 18 metros na meia-luz como se fosse luz plena e, na escuridão, como se fosse meia-luz. Na escuridão você só consegue discernir tons de cinza.</p>",
-    "en": "<p>You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>"
-   }
-  }
- ],
- "subraces": [],
- "spells": []
+  "traits": [
+    {
+      "key": "creature-type",
+      "name": {
+        "pt": "tipo de Criatura",
+        "en": "Creature Type"
+      },
+      "html": {
+        "pt": "<p>Você é um humanoide. Você também é considerado um elfo para qualquer pré-requisito ou efeito que requeira que você seja um elfo.</p>",
+        "en": "<p>You are a Humanoid. You are also considered an elf for any prerequisite or effect that requires you to be an elf.</p>"
+      }
+    },
+    {
+      "key": "size",
+      "name": {
+        "pt": "tamanho",
+        "en": "Size"
+      },
+      "html": {
+        "pt": "<p>Você é Médio.</p>",
+        "en": "<p>You are Medium.</p>"
+      }
+    },
+    {
+      "key": "speed",
+      "name": {
+        "pt": "deslocamento",
+        "en": "Speed"
+      },
+      "html": {
+        "pt": "<p>Seu deslocamento de caminhada é de 9 metros.</p>",
+        "en": "<p>Your walking speed is 30 feet.</p>"
+      }
+    },
+    {
+      "key": "fey-ancestry",
+      "name": {
+        "pt": "ancestralidade Feérica",
+        "en": "Fey Ancestry"
+      },
+      "html": {
+        "pt": "<p>Você tem vantagem em salvaguardas para evitar ou encerrar a condição enfeitiçado em si mesmo.</p>",
+        "en": "<p>You have advantage on saving throws you make to avoid or end the charmed condition on yourself.</p>"
+      }
+    },
+    {
+      "key": "blessing-of-the-raven-queen",
+      "name": {
+        "pt": "benção da Rainha Corvo",
+        "en": "Blessing of the Raven Queen"
+      },
+      "html": {
+        "pt": "<p>Como uma ação bônus, você pode se teleportar magicamente até 9 metros para um espaço desocupado que você possa ver. Você pode usar este traço um número de vezes igual ao seu bônus de proficiência, e recupera todos os usos ao terminar um descanso longo.</p><p>A partir do 3o nível você também ganha resistência a todo tipo de dano quando teleporta usando este traço. Esta resistência dura até o começo do seu próximo turno. Durante esse tempo, você parece fantasmagórico e translúcido.</p>",
+        "en": "<p>As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p> <p>Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.</p>"
+      }
+    },
+    {
+      "key": "necrotic-resistance",
+      "name": {
+        "pt": "resistência Necrótica",
+        "en": "Necrotic Resistance"
+      },
+      "html": {
+        "pt": "<p>Você tem resistência a dano necrótico.</p>",
+        "en": "<p>You have resistance to necrotic damage.</p>"
+      }
+    },
+    {
+      "key": "keen-senses",
+      "name": {
+        "pt": "sentidos Aguçados",
+        "en": "Keen Senses"
+      },
+      "html": {
+        "pt": "<p>Você tem proficiência na perícia Percepção.</p>",
+        "en": "<p>You have proficiency in the Perception skill.</p>"
+      }
+    },
+    {
+      "key": "trance",
+      "name": {
+        "pt": "transe",
+        "en": "Trance"
+      },
+      "html": {
+        "pt": "<p>Você não precisa dormir, e magia não pode fazê-lo dormir. Você pode concluir um descanso longo em 4 horas se passar essas horas meditando em transe, durante o qual você se mantém consciente.</p><p>Sempre que termina este transe, você pode ganhar duas proficiências que você não tenha com uma arma ou uma ferramenta à sua escolha, selecionadas a partir do Livro do Jogador. Você adquire misticamente essas proficiências, extraindo-as da memória compartilhada dos elfos, e as retém até terminar seu próximo descanso longo.</p>",
+        "en": "<p>You don’t need to sleep, and magic can’t put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.</p> <p>Whenever you finish this trance, you can gain two proficiencies that you don’t have, each one with a weapon or a tool of your choice selected from the <em>Player’s Handbook</em>. You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest.</p>"
+      }
+    },
+    {
+      "key": "darkvision",
+      "name": {
+        "pt": "visão no Escuro",
+        "en": "Darkvision"
+      },
+      "html": {
+        "pt": "<p>Você consegue enxergar até 18 metros na meia-luz como se fosse luz plena e, na escuridão, como se fosse meia-luz. Na escuridão você só consegue discernir tons de cinza.</p>",
+        "en": "<p>You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>"
+      }
+    }
+  ],
+  "subraces": [],
+  "spells": []
 }
