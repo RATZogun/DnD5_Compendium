@@ -1,4 +1,4 @@
-import { html, raw, titleCase, setTitle, titleStrongs } from '../util.js';
+import { html, raw, titleCase, setTitle, titleStrongs, wrapDoc } from '../util.js';
 import { t, ordinal, getLang } from '../i18n.js';
 import { href } from '../router.js';
 import { loadSpecies } from '../data.js';
@@ -61,14 +61,10 @@ function versionHtml(R, data, v) {
   return html` <p class="text-muted">
       ${raw(sourceLine(R, v.source, v.additional_sources ?? data.additional_sources))}
     </p>
-    <div class="panel">
-      <div class="panel-body">
-        <p>
-          <strong>${titleCase(t('races.size'))}</strong>: ${sizeText(data.size)} ·
-          <strong>${titleCase(t('races.speed'))}</strong>: ${speedText(data.speed)}
-        </p>
-      </div>
-    </div>
+    <p class="doc-facts">
+      <strong>${titleCase(t('races.size'))}</strong>: ${sizeText(data.size)} ·
+      <strong>${titleCase(t('races.speed'))}</strong>: ${speedText(data.speed)}
+    </p>
     ${
       intro
         ? raw(
@@ -133,7 +129,7 @@ export async function render(container, { R, params }) {
     }
     <div class="version-body">${raw(versionHtml(R, data, versions[0]))}</div>
     ${raw(back)}`;
-  titleStrongs(container);
+  wrapDoc(container);
   container.querySelectorAll('[data-version]').forEach((b) =>
     b.addEventListener('click', () => {
       const i = Number(b.dataset.version);

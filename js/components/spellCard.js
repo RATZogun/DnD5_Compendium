@@ -20,7 +20,7 @@ export const rangeText = (s) => s.range_text ?? qty(s.range, s.range_unit);
 export const durationText = (s) =>
   s.duration_text ?? (s.does_need_concentration ? t('spell.concentrationUpTo') : '') + qty(s.duration, s.duration_unit);
 
-function componentsText(s) {
+export function componentsText(s) {
   if (s.components_text) return s.components_text;
   const parts = [];
   if (s.does_have_verbal_component) parts.push('V');
@@ -43,7 +43,7 @@ export function sourcesHtml(R, rels) {
   return html`<strong>${titleCase(t('common.sources'))}</strong>: ${raw(items.join(', '))}`;
 }
 
-function castersHtml(R, spell, link) {
+export function castersHtml(R, spell, link) {
   const casters = spellCasters(R, spell);
   if (!casters.length) return '—';
   return casters

@@ -34,14 +34,27 @@ function effect(s) {
   return '';
 }
 
-function popupHtml(R, s) {
+// grade de propriedades da magia, usada no popup e na página da magia (full: textos completos)
+export function spellMetaGridHtml(R, s, { full = false } = {}) {
   const cell = (label, value) =>
     html`<div class="sp-cell">
       <div class="sp-label">${label}</div>
       <div class="sp-value">${value}</div>
     </div>`;
+  const fit = (v) => (full ? v : short(v));
   const level = s.level === 0 ? t('popup.cantrip') : ordinal(s.level);
-  const material = s.material_component ? html`<p class="sp-material">* – (${s.material_component})</p>` : '';
+  return html`<div class="sp-grid">
+    ${raw(cell(t('popup.level'), level))} ${raw(cell(t('popup.castingTime'), fit(castingTimeText(s))))}
+    ${raw(cell(t('popup.range'), fit(rangeText(s))))} ${raw(cell(t('popup.components'), componentsShort(s)))}
+    ${raw(cell(t('popup.duration'), durationText(s)))} ${raw(cell(t('popup.school'), titleCase(s.spell_school_name)))}
+    ${raw(cell(t('popup.attackSave'), attackSave(R, s)))} ${raw(cell(t('popup.effect'), effect(s)))}
+  </div>`;
+}
+
+export const materialNoteHtml = (s) =>
+  s.material_component ? html`<p class="sp-material">* – (${s.material_component})</p>` : '';
+
+function popupHtml(R, s) {
   return html`<header class="sp-head">
       <div>
         <div class="sp-name">${titleCase(s.name)}</div>
@@ -49,13 +62,8 @@ function popupHtml(R, s) {
       </div>
       <span class="sp-badge">${t('popup.badge')}</span>
     </header>
-    <div class="sp-grid">
-      ${raw(cell(t('popup.level'), level))} ${raw(cell(t('popup.castingTime'), short(castingTimeText(s))))}
-      ${raw(cell(t('popup.range'), short(rangeText(s))))} ${raw(cell(t('popup.components'), componentsShort(s)))}
-      ${raw(cell(t('popup.duration'), durationText(s)))} ${raw(cell(t('popup.school'), titleCase(s.spell_school_name)))}
-      ${raw(cell(t('popup.attackSave'), attackSave(R, s)))} ${raw(cell(t('popup.effect'), effect(s)))}
-    </div>
-    <div class="sp-body">${raw(s.description)}${raw(material)}</div>`;
+    ${raw(spellMetaGridHtml(R, s))}
+    <div class="sp-body">${raw(s.description)}${raw(materialNoteHtml(s))}</div>`;
 }
 
 export function initSpellPopup(getR) {
