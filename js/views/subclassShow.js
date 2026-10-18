@@ -1,4 +1,4 @@
-import { html, raw, setTitle, titleCase } from '../util.js';
+import { html, raw, setTitle, titleCase, wrapDoc, titleStrongs } from '../util.js';
 import { t } from '../i18n.js';
 import { href } from '../router.js';
 import { loadClass } from '../data.js';
@@ -53,6 +53,7 @@ export async function render(container, { R, params }) {
     }
     <div class="version-body">${raw(versionHtml(R, versions[0]))}</div>
     ${raw(back)}`;
+  wrapDoc(container);
   container.querySelectorAll('[data-version]').forEach((b) =>
     b.addEventListener('click', () => {
       current = Number(b.dataset.version);
@@ -60,6 +61,7 @@ export async function render(container, { R, params }) {
         .querySelectorAll('[data-version]')
         .forEach((x) => x.setAttribute('aria-pressed', String(Number(x.dataset.version) === current)));
       container.querySelector('.version-body').innerHTML = versionHtml(R, versions[current]);
+      titleStrongs(container.querySelector('.version-body'));
     }),
   );
 }

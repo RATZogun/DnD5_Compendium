@@ -146,3 +146,28 @@ export function buildQuery(obj) {
 export function setTitle(...parts) {
   document.title = [...parts, t('site.title')].filter(Boolean).join(' | ');
 }
+
+// envolve o conteúdo já renderizado num contêiner de leitura (páginas de texto longo)
+export function wrapDoc(container) {
+  const doc = document.createElement('article');
+  doc.className = 'doc';
+  doc.append(...container.childNodes);
+  container.append(doc);
+  titleStrongs(doc);
+}
+
+// subtítulos em negrito no texto dos livros ("truques.", "pacto da corrente.") ganham a mesma capitalização dos títulos
+export function titleStrongs(root) {
+  root.querySelectorAll('strong').forEach((el) => {
+    const text = el.textContent.trim();
+    if (!text || text.length > 60 || text[0] === text[0].toUpperCase()) return;
+    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+    let first = true;
+    for (let node = walker.nextNode(); node; node = walker.nextNode()) {
+      if (!node.textContent.trim()) continue;
+      const cased = titleCase(node.textContent);
+      node.textContent = first ? cased : cased.replace(/^\S/, (c) => node.textContent.trimStart()[0] ?? c);
+      first = false;
+    }
+  });
+}

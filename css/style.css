@@ -14,6 +14,9 @@
   --warn-bg: #fcf8e3;
   --warn-text: #8a6d3b;
   --warn-border: #faebcc;
+  --accent: #c9a24a;
+  --row-alt: rgba(63, 81, 181, 0.07);
+  --box-bg: rgba(63, 81, 181, 0.05);
   --popup-head: linear-gradient(100deg, #1c1f2e 0%, #2b3150 100%);
   --popup-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
   color-scheme: light;
@@ -32,6 +35,9 @@
   --warn-bg: #000;
   --warn-text: #f0d48a;
   --warn-border: #5c4d1f;
+  --accent: #b8913f;
+  --row-alt: #0c0d16;
+  --box-bg: #08090f;
   --popup-head: linear-gradient(100deg, #0b0b10 0%, #1d2240 100%);
   --popup-shadow: 0 8px 28px rgba(0, 0, 0, 0.8);
   color-scheme: dark;

@@ -1,4 +1,4 @@
-import { html, raw, titleCase, setTitle } from '../util.js';
+import { html, raw, titleCase, setTitle, titleStrongs } from '../util.js';
 import { t, ordinal, getLang } from '../i18n.js';
 import { href } from '../router.js';
 import { loadSpecies } from '../data.js';
@@ -133,6 +133,7 @@ export async function render(container, { R, params }) {
     }
     <div class="version-body">${raw(versionHtml(R, data, versions[0]))}</div>
     ${raw(back)}`;
+  titleStrongs(container);
   container.querySelectorAll('[data-version]').forEach((b) =>
     b.addEventListener('click', () => {
       const i = Number(b.dataset.version);
@@ -140,6 +141,7 @@ export async function render(container, { R, params }) {
         .querySelectorAll('[data-version]')
         .forEach((x) => x.setAttribute('aria-pressed', String(Number(x.dataset.version) === i)));
       container.querySelector('.version-body').innerHTML = versionHtml(R, data, versions[i]);
+      titleStrongs(container.querySelector('.version-body'));
     }),
   );
 }

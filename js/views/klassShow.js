@@ -1,4 +1,4 @@
-import { html, raw, setTitle, titleCase, escapeHtml } from '../util.js';
+import { html, raw, setTitle, titleCase, escapeHtml, wrapDoc } from '../util.js';
 import { t, ordinal, getLang } from '../i18n.js';
 import { href } from '../router.js';
 import { loadClass } from '../data.js';
@@ -232,6 +232,7 @@ export async function render(container, { R, params }) {
     <h2>${titleCase(t('classes.classFeatures'))}</h2>
     <div class="features">${data.features.map((f) => raw(featureHtml(R, f, data)))}</div>
     ${data.subclasses?.length && !data.features.some((f) => f.subclass_list) ? raw(subclassListHtml(R, data)) : ''} ${raw(back)}`;
+  wrapDoc(container);
   container.querySelectorAll('[data-anchor]').forEach((a) =>
     a.addEventListener('click', (e) => {
       e.preventDefault();
