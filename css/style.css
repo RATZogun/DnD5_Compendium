@@ -1,15 +1,19 @@
 :root {
+  --font-brand: 'Cinzel', Georgia, serif;
+  --font-heading: 'Fraunces', Georgia, serif;
+  --font-body: 'Literata', Georgia, serif;
+  --font-ui: 'Inter', system-ui, Arial, sans-serif;
   --primary: #3f51b5;
   --primary-dark: #36469c;
   --navbar-bg: #3f51b5;
   --navbar-border: #36469c;
-  --bg: #f7f7fc;
-  --text: #333;
-  --muted: #6b6b76;
-  --panel: #fff;
-  --panel-alt: rgba(127, 127, 127, 0.06);
-  --border: rgba(0, 0, 0, 0.12);
-  --input-border: #ccc;
+  --bg: #f7f2e8;
+  --text: #2a2118;
+  --muted: #6b5d4d;
+  --panel: #fffcf6;
+  --panel-alt: #f3ecdf;
+  --border: #e2d6c1;
+  --input-border: #c9b9a0;
   --link: #3f51b5;
   --warn-bg: #fcf8e3;
   --warn-text: #8a6d3b;
@@ -24,10 +28,10 @@
   --cat-gold-bg: #f6ebd3;
   --overlay: rgba(23, 18, 13, 0.55);
   --accent: #c9a24a;
-  --accent-text: #85641c;
-  --row-alt: rgba(63, 81, 181, 0.07);
-  --box-bg: rgba(63, 81, 181, 0.05);
-  --box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  --accent-text: #765715;
+  --row-alt: rgba(168, 122, 34, 0.07);
+  --box-bg: #efe7d8;
+  --box-shadow: 0 2px 6px rgba(42, 33, 24, 0.1);
   --popup-head: linear-gradient(100deg, #1c1f2e 0%, #2b3150 100%);
   --popup-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
   color-scheme: light;
@@ -74,11 +78,7 @@ html {
 }
 body {
   margin: 0;
-  font:
-    14px/1.5 'Open Sans',
-    Arial,
-    Helvetica,
-    sans-serif;
+  font: 14px/1.5 var(--font-ui);
   color: var(--text);
   background: var(--bg);
 }
@@ -598,4 +598,46 @@ main {
   .sp-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+}
+
+/* fontes do Figma: Cinzel na marca, Fraunces nos títulos, Literata no texto de leitura, Inter na interface */
+h1,
+h2,
+h3,
+.home-card-title,
+.statblock .sb-head strong,
+.statblock .sb-section,
+.spell-card .spell-name,
+.sp-name {
+  font-family: var(--font-heading);
+}
+.navbar .brand,
+.footer-brand {
+  font-family: var(--font-brand);
+  letter-spacing: 0.04em;
+}
+.doc,
+.spell-description,
+.spell-card .panel-body,
+.sp-body,
+.home-lead,
+.home-card-text,
+.home-search input,
+.gs-input,
+.panel-body,
+.footer-about p:not(.footer-brand) {
+  font-family: var(--font-body);
+}
+.doc table,
+.doc .level-badge,
+.doc .optional-badge,
+.doc .feature-source,
+.doc .breadcrumb,
+.doc .sb-level,
+.doc .back-link,
+.statblock table,
+.sp-grid,
+.filters-panel,
+.filters-panel .panel-body {
+  font-family: var(--font-ui);
 }
