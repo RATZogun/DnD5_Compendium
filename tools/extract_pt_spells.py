@@ -11,8 +11,8 @@ from pathlib import Path
 
 # arquivo (trecho do nome) -> (sigla, nome, deslocamento página impressa - página do PDF)
 BOOKS = {
-    'Livro do Jogador D&D 5e (Traduzido Fã': ('LJF', 'Livro do Jogador (tradução de fãs)', 1),
-    'Xanathar para Todas as coisas (Tradução Fã': ('GXF', 'Guia de Xanathar para Todas as Coisas (tradução de fãs)', 1),
+    'Livro do Jogador D&D 5e (Traduzido Fã': ('LJF', 'Livro do Jogador', 1),
+    'Xanathar para Todas as coisas (Tradução Fã': ('GXF', 'Guia de Xanathar para Todas as Coisas', 1),
     'Tasha': ('CTCT', 'Caldeirão de Tasha para Todas as Coisas', -1),
     'Fizban': ('TDF', 'Tesouro dos Dragões de Fizban', -1),
 }

@@ -12,6 +12,7 @@ OVERRIDES_PATH = ROOT / 'tools' / 'species_overrides.json'
 OVERRIDES = json.loads(OVERRIDES_PATH.read_text()) if OVERRIDES_PATH.exists() else {}
 NAMES = json.loads((ROOT / 'tools' / 'names.json').read_text())
 EXCLUDED_BOOKS = set(OVERRIDES.get('exclude_books', []))
+EXCLUDED_FILES = set(OVERRIDES.get('exclude_files', []))
 REMOVED_SUBRACES = set(OVERRIDES.get('remove_subraces', []))
 REMOVED_TRAITS = {'ability-score-increase', 'alignment'}  # aumento flexível e alinhamento removido nas erratas
 
@@ -81,7 +82,8 @@ def main():
     groups = {}
     for path in sorted((ROOT / 'data' / 'build' / 'species').glob('*.json')):
         data = json.loads(path.read_text())
-        if path.stem.split('-', 1)[1].startswith('_') or data['source']['pt']['book'] in EXCLUDED_BOOKS:
+        if path.stem.split('-', 1)[1].startswith('_') or data['source']['pt']['book'] in EXCLUDED_BOOKS \
+                or path.stem in EXCLUDED_FILES:
             continue
         clean_species(data)
         skel_path = skel_dir / path.name

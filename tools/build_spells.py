@@ -19,15 +19,15 @@ NAMES = json.loads((ROOT / 'tools' / 'names.json').read_text())
 
 PT_BOOK_TO_EN = {'LJF': 'PHB', 'GXF': 'XGE', 'CTCT': 'TCE', 'TDF': 'FTD'}
 SOURCES_PT = [
-    ('LJF', 'Livro do Jogador (tradução de fãs)'),
-    ('GXF', 'Guia de Xanathar para Todas as Coisas (tradução de fãs)'),
+    ('LJF', 'Livro do Jogador'),
+    ('GXF', 'Guia de Xanathar para Todas as Coisas'),
     ('CTCT', 'Caldeirão de Tasha para Todas as Coisas'),
     ('TDF', 'Tesouro dos Dragões de Fizban'),
-    ('GMF', 'Guia do Mestre (tradução de fãs)'),
+    ('GMF', 'Guia do Mestre'),
     ('GVRR', 'Guia de Van Richten para Ravenloft'),
     ('BGG', 'Bigby Apresenta: A Glória dos Gigantes'),
     ('MPMM', 'Mordenkainen Apresenta: Monstros do Multiverso'),
-    ('LDJ', 'Livro do Jogador'),
+    ('LDJ', 'Livro do Jogador (Galápagos)'),
 ]
 SOURCES_EN = [
     ('PHB', "Player's Handbook"),

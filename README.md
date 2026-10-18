@@ -10,7 +10,7 @@ Acesse em **[ratzogun.github.io/DnD5_Compendium](https://ratzogun.github.io/DnD5
 - **Magias** (`#/magias`): 484 magias com filtros, ordenação, paginação e página própria para cada magia.
 - **Classes** (`#/classes`): 13 classes completas, com tabela de progressão e todas as características, e 108
   subclasses, cada uma com página própria.
-- **Espécies** (`#/especies`): 46 espécies com traços, sub-espécies e magias inatas.
+- **Espécies** (`#/especies`): 44 espécies com traços, sub-espécies e magias inatas.
 - **Gerar Pergaminho** (`#/pergaminho`): sorteia uma magia de acordo com os filtros.
 - Interface em português e inglês, modo claro e escuro.
 

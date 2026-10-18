@@ -11,5 +11,6 @@
     "orc": "MPMM"
   },
   "exclude_books": ["LDM", "GMF", "GACE"],
-  "remove_subraces": ["duergar"]
+  "remove_subraces": ["duergar"],
+  "exclude_files": ["phb-dragonborn", "tce-custom-lineage"]
 }

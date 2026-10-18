@@ -592,16 +592,6 @@
       "spell_list_name": null
     },
     {
-      "name": "draconato",
-      "slug": "dragonborn",
-      "sources_rels": [{ "source_abbreviation": "LJF", "page": 32 }],
-      "size": ["médio"],
-      "speed": { "ft": 30, "m": 9.0 },
-      "subraces": [],
-      "spellcasting_ability_abbreviation": null,
-      "spell_list_name": null
-    },
-    {
       "name": "draconato cromático",
       "slug": "chromatic-dragonborn",
       "sources_rels": [{ "source_abbreviation": "TDF", "page": 10 }],
@@ -832,16 +822,6 @@
       "spell_list_name": null
     },
     {
-      "name": "linhagem personalizada",
-      "slug": "custom-lineage",
-      "sources_rels": [{ "source_abbreviation": "CTCT", "page": 8 }],
-      "size": ["pequeno", "médio"],
-      "speed": { "ft": 30, "m": 9.0 },
-      "subraces": [],
-      "spellcasting_ability_abbreviation": null,
-      "spell_list_name": null
-    },
-    {
       "name": "meio-elfo",
       "slug": "half-elf",
       "sources_rels": [{ "source_abbreviation": "LJF", "page": 38 }],
@@ -993,15 +973,15 @@
     }
   ],
   "sources": [
-    { "abbreviation": "LJF", "name": "Livro do Jogador (tradução de fãs)" },
-    { "abbreviation": "GXF", "name": "Guia de Xanathar para Todas as Coisas (tradução de fãs)" },
+    { "abbreviation": "LJF", "name": "Livro do Jogador" },
+    { "abbreviation": "GXF", "name": "Guia de Xanathar para Todas as Coisas" },
     { "abbreviation": "CTCT", "name": "Caldeirão de Tasha para Todas as Coisas" },
     { "abbreviation": "TDF", "name": "Tesouro dos Dragões de Fizban" },
-    { "abbreviation": "GMF", "name": "Guia do Mestre (tradução de fãs)" },
+    { "abbreviation": "GMF", "name": "Guia do Mestre" },
     { "abbreviation": "GVRR", "name": "Guia de Van Richten para Ravenloft" },
     { "abbreviation": "BGG", "name": "Bigby Apresenta: A Glória dos Gigantes" },
     { "abbreviation": "MPMM", "name": "Mordenkainen Apresenta: Monstros do Multiverso" },
-    { "abbreviation": "LDJ", "name": "Livro do Jogador" }
+    { "abbreviation": "LDJ", "name": "Livro do Jogador (Galápagos)" }
   ],
   "specializations": [
     {

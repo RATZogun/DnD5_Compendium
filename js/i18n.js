@@ -13,6 +13,7 @@ const STRINGS = {
     'footer.srd': 'Conteúdo do Documento de Referência do Sistema (SRD) de Dungeons & Dragons 5ª edição.',
     'footer.fan':
       'Versão pessoal inspirada no extinto dnd5spells.rpgist.net. Projeto de fã, sem afiliação com a Wizards of the Coast.',
+    'footer.translation': 'Tradução em português obtida em',
 
     'common.loading': 'Carregando',
     'common.loadError': 'Não foi possível carregar os dados.',
@@ -167,6 +168,7 @@ const STRINGS = {
     'footer.srd': 'Content from the Dungeons & Dragons 5th edition System Reference Document (SRD).',
     'footer.fan':
       'Personal version inspired by the defunct dnd5spells.rpgist.net. Fan project, not affiliated with Wizards of the Coast.',
+    'footer.translation': 'Portuguese translation obtained from',
 
     'common.loading': 'Loading',
     'common.loadError': 'Could not load the data.',

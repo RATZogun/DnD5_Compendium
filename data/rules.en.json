@@ -582,16 +582,6 @@
       "spell_list_name": null
     },
     {
-      "name": "Custom Lineage",
-      "slug": "custom-lineage",
-      "sources_rels": [{ "source_abbreviation": "TCE", "page": 8 }],
-      "size": ["Small", "Medium"],
-      "speed": { "ft": 30, "m": 9.0 },
-      "subraces": [],
-      "spellcasting_ability_abbreviation": null,
-      "spell_list_name": null
-    },
-    {
       "name": "Deep Gnome",
       "slug": "deep-gnome",
       "sources_rels": [{ "source_abbreviation": "MPMM", "page": 11 }],
@@ -607,16 +597,6 @@
       "sources_rels": [{ "source_abbreviation": "VRGR", "page": 16 }],
       "size": ["Small", "Medium"],
       "speed": { "ft": 35, "m": 10.5 },
-      "subraces": [],
-      "spellcasting_ability_abbreviation": null,
-      "spell_list_name": null
-    },
-    {
-      "name": "Dragonborn",
-      "slug": "dragonborn",
-      "sources_rels": [{ "source_abbreviation": "PHB", "page": 32 }],
-      "size": ["Medium"],
-      "speed": { "ft": 30, "m": 9.0 },
       "subraces": [],
       "spellcasting_ability_abbreviation": null,
       "spell_list_name": null
