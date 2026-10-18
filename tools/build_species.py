@@ -36,6 +36,16 @@ def clean_species(data):
         sub['traits'] = [t for t in sub.get('traits') or [] if keep(t)]
         subs.append(sub)
     data['subraces'] = subs
+    fan = NAMES.get('fan', {})
+    slug = data['slug']
+    data['name']['pt'] = fan.get('species', {}).get(slug, data['name']['pt'])
+    for t in data['traits']:
+        t['name']['pt'] = fan.get('traits', {}).get(slug, {}).get(t['key'], t['name']['pt'])
+    for sub in subs:
+        key = f"{slug}/{sub['slug']}"
+        sub['name']['pt'] = fan.get('subraces', {}).get(key, sub['name']['pt'])
+        for t in sub['traits']:
+            t['name']['pt'] = fan.get('subrace_traits', {}).get(key, {}).get(t['key'], t['name']['pt'])
     data['additional_sources'] = [x for x in data.get('additional_sources') or [] if x['pt']['book'] not in EXCLUDED_BOOKS]
     return data
 

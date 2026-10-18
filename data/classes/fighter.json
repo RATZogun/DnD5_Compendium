@@ -13,28 +13,28 @@
     "features_by_level": {
       "1": [
         { "key": "fighting-style", "name": { "pt": "estilo de luta", "en": "Fighting Style" } },
-        { "key": "second-wind", "name": { "pt": "recuperar fôlego", "en": "Second Wind" } }
+        { "key": "second-wind", "name": { "pt": "retomar o fôlego", "en": "Second Wind" } }
       ],
       "2": [{ "key": "action-surge", "name": { "pt": "surto de ação", "en": "Action Surge" } }],
       "3": [{ "key": "martial-archetype", "name": { "pt": "arquétipo marcial", "en": "Martial Archetype" } }],
       "4": [
         {
           "key": "ability-score-improvement-4",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "5": [{ "key": "extra-attack", "name": { "pt": "ataque extra", "en": "Extra Attack" } }],
       "6": [
         {
           "key": "ability-score-improvement-6",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "7": [{ "key": "subclasses", "name": { "pt": "Arquétipo Marcial", "en": "Martial Archetype" } }],
       "8": [
         {
           "key": "ability-score-improvement-8",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "9": [{ "key": "indomitable", "name": { "pt": "indomável", "en": "Indomitable" } }],
@@ -43,7 +43,7 @@
       "12": [
         {
           "key": "ability-score-improvement-12",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "13": [
@@ -52,14 +52,14 @@
       "14": [
         {
           "key": "ability-score-improvement-14",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "15": [{ "key": "subclasses", "name": { "pt": "Arquétipo Marcial", "en": "Martial Archetype" } }],
       "16": [
         {
           "key": "ability-score-improvement-16",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "17": [
@@ -73,7 +73,7 @@
       "19": [
         {
           "key": "ability-score-improvement-19",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "20": [{ "key": "extra-attack-3", "name": { "pt": "ataque extra (3)", "en": "Extra Attack (3)" } }]
@@ -140,7 +140,7 @@
       "level": 1,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 90 }, "en": { "book": "PHB", "page": 72 } },
-      "name": { "pt": "recuperar fôlego", "en": "Second Wind" },
+      "name": { "pt": "retomar o fôlego", "en": "Second Wind" },
       "html": {
         "pt": "<p>Você possui uma fonte limitada de vitalidade, a qual pode usar para se proteger do perigo. No seu turno, use sua ação bônus para recuperar uma quantidade de pontos de vida igual a 1d10 + seu nível de guerreiro. Uma vez usada esta característica, você deve completar um descanso curto ou longo antes de poder utilizá-la novamente.</p>",
         "en": "<p>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again.</p>"
@@ -173,7 +173,7 @@
       "level": 4,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 90 }, "en": { "book": "PHB", "page": 72 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível, e novamente no 6º, 8º, 12º, 14º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou em 1 os valores de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -206,7 +206,7 @@
       "level": 6,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 90 }, "en": { "book": "PHB", "page": 72 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível, e novamente no 6º, 8º, 12º, 14º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou em 1 os valores de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -217,7 +217,7 @@
       "level": 8,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 90 }, "en": { "book": "PHB", "page": 72 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível, e novamente no 6º, 8º, 12º, 14º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou em 1 os valores de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -250,7 +250,7 @@
       "level": 12,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 90 }, "en": { "book": "PHB", "page": 72 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível, e novamente no 6º, 8º, 12º, 14º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou em 1 os valores de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -272,7 +272,7 @@
       "level": 14,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 90 }, "en": { "book": "PHB", "page": 72 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível, e novamente no 6º, 8º, 12º, 14º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou em 1 os valores de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -283,7 +283,7 @@
       "level": 16,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 90 }, "en": { "book": "PHB", "page": 72 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível, e novamente no 6º, 8º, 12º, 14º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou em 1 os valores de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -316,7 +316,7 @@
       "level": 19,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 90 }, "en": { "book": "PHB", "page": 72 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível, e novamente no 6º, 8º, 12º, 14º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou em 1 os valores de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -359,7 +359,7 @@
           "key": "remarkable-athlete",
           "level": 7,
           "source": { "pt": { "book": "LDJ", "page": 90 }, "en": { "book": "PHB", "page": 72 } },
-          "name": { "pt": "atleta extraordinário", "en": "Remarkable Athlete" },
+          "name": { "pt": "atletismo extraordinário", "en": "Remarkable Athlete" },
           "html": {
             "pt": "<p>A partir do 7º nível, você pode adicionar metade do seu bônus de proficiência (arredondado para cima) em qualquer teste de Força, Destreza ou Constituição que já não faça uso desse bônus.</p><p>Além disso, ao correr e saltar, a distância coberta pelo seu salto aumenta em 30 centímetros para cada ponto do seu modificador de Força.</p>",
             "en": "<p>Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn’t already use your proficiency bonus.</p> <p>In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier.</p>"
@@ -402,7 +402,7 @@
     {
       "slug": "battle-master",
       "short_name_en": "Battle Master",
-      "name": { "pt": "Mestre de Batalha", "en": "Battle Master" },
+      "name": { "pt": "mestre de batalha", "en": "Battle Master" },
       "source": { "pt": { "book": "LDJ", "page": 91 }, "en": { "book": "PHB", "page": 73 } },
       "intro_html": {
         "pt": "<p>Aqueles que incorporam o arquétipo Mestre da Batalha empregam técnicas marciais transmitidas através das gerações. Para um Mestre da Batalha, o combate é um campo de estudos, às vezes incluindo temas que vão além da batalha, como armamentos e caligrafia. Nem todos os lutadores absorvem as lições de história, teoria e arte que são refletidas no arquétipo Mestre da Batalha, mas aqueles que o fazem são guerreiros completos, reunindo grande habilidade e conhecimento.</p>",
@@ -497,7 +497,7 @@
     {
       "slug": "eldritch-knight",
       "short_name_en": "Eldritch Knight",
-      "name": { "pt": "Cavaleiro Arcano", "en": "Eldritch Knight" },
+      "name": { "pt": "cavaleiro arcano", "en": "Eldritch Knight" },
       "source": { "pt": { "book": "LDJ", "page": 92 }, "en": { "book": "PHB", "page": 74 } },
       "intro_html": {
         "pt": "<p>O arquetípico Cavaleiro Místico combina o domínio marcial, comum a todos os guerreiros, com um minucioso estudo de magia. Os membros deste arquétipo usam técnicas similares àquelas praticadas pelos magos. Eles concentram seus estudos em duas das oito escolas de magia: abjuração e evocação. As magias de abjuração lhes conferem proteção extra em batalha, enquanto as de evocação causam dano diretamente a seus inimigos, aumentando o alcance do cavaleiro em combate. Os cavaleiros místicos aprendem uma quantidade de magias relativamente pequena, guardando-as na memória em vez de mantê-las em um grimório.[?]</p>",
@@ -548,7 +548,7 @@
           "key": "arcane-charge",
           "level": 15,
           "source": { "pt": { "book": "LDJ", "page": 93 }, "en": { "book": "PHB", "page": 74 } },
-          "name": { "pt": "investida mística", "en": "Arcane Charge" },
+          "name": { "pt": "investida arcana", "en": "Arcane Charge" },
           "html": {
             "pt": "<p>No 15º nível, ao usar Surto de Ação, você pode se teleportar para um espaço desocupado que você possa ver, a até 9 metros de distância. Isso pode ser feito antes ou depois da sua ação extra.</p>",
             "en": "<p>At 15th level, you gain the ability to teleport up to 30 feet to an unoccupied space you can see when you use your Action Surge. You can teleport before or after the additional action.</p>"
@@ -582,7 +582,7 @@
           "key": "arcane-archer-lore",
           "level": 3,
           "source": { "pt": { "book": "GXTC", "page": 42 }, "en": { "book": "XGE", "page": 28 } },
-          "name": { "pt": "arte da arqueria arcana", "en": "Arcane Archer Lore" },
+          "name": { "pt": "tradição do arqueiro arcano", "en": "Arcane Archer Lore" },
           "html": {
             "pt": "<p>No 3º nível, você aprende teoria mágica ou alguns dos segredos da natureza - típico para praticantes desta tradição marcial élfica. Você escolhe ganhar proficiência com uma perícia, Arcanismo ou Natureza, e escolhe aprender um truque dentre <em>prestidigitação arcana</em> ou <em>arte druídica</em>.</p>",
             "en": "<p>At 3rd level, you learn magical theory or some of the secrets of nature — typical for practitioners of this elven martial tradition. You choose to gain proficiency in either the&nbsp;Arcana or the Nature&nbsp;skill, and you choose to learn either the prestidigitation or the druidcraft&nbsp;cantrip.</p>"
@@ -612,7 +612,7 @@
           "key": "curving-shot",
           "level": 7,
           "source": { "pt": { "book": "GXTC", "page": 42 }, "en": { "book": "XGE", "page": 28 } },
-          "name": { "pt": "disparo em curva", "en": "Curving Shot" },
+          "name": { "pt": "tiro curvado", "en": "Curving Shot" },
           "html": {
             "pt": "<p>No 7º nível, você aprende como redirecionar uma flecha mal disparada para um novo alvo. Ao realizar uma jogada de ataque com uma flecha mágica e errar, você pode usar uma ação bônus para refazer a jogada de ataque contra um alvo diferente a até 18 metros do alvo original.</p>",
             "en": "<p>At 7th level, you learn how to direct an errant arrow toward a new target. When you make an attack roll with a magic arrow and miss, you can use a bonus action to reroll the attack roll against a different target within 60 feet of the original target.</p>"
@@ -662,7 +662,7 @@
           "key": "bonus-proficiency",
           "level": 3,
           "source": { "pt": { "book": "GXTC", "page": 44 }, "en": { "book": "XGE", "page": 30 } },
-          "name": { "pt": "proficiência bônus", "en": "Bonus Proficiency" },
+          "name": { "pt": "bônus de proficiência", "en": "Bonus Proficiency" },
           "html": {
             "pt": "<p>Ao escolher este arquétipo no 3º nível, você ganha proficiência em uma das seguintes perícias à sua escolha: Atuação, História, Intuição, Lidar com Animais ou Persuasão. Opcionalmente, você aprende um idioma à sua escolha no lugar de uma perícia.</p>",
             "en": "<p>When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice:&nbsp;Animal Handling,&nbsp;History,&nbsp;Insight,&nbsp;Performance, or&nbsp;Persuasion. Alternatively, you learn one language of your choice.</p>"
@@ -692,7 +692,7 @@
           "key": "warding-maneuver",
           "level": 7,
           "source": { "pt": { "book": "GXTC", "page": 44 }, "en": { "book": "XGE", "page": 30 } },
-          "name": { "pt": "manobra defensiva", "en": "Warding Maneuver" },
+          "name": { "pt": "manobra de proteção", "en": "Warding Maneuver" },
           "html": {
             "pt": "<p>No 7º nível, você aprende a desviar ataques direcionados a você, à sua montaria ou a outras criaturas próximas. Se você ou uma criatura à sua vista e a até 1,5 metro de você for atingido por um ataque, você pode jogar 1d8 como uma reação, caso esteja empunhando uma arma de combate corpo a corpo ou um escudo. Jogue o dado e adicione o resultado à CA do alvo contra aquele ataque. Se o ataque ainda assim for bem-sucedido, o alvo tem resistência contra o dano provocado pelo ataque.</p><p>Você pode usar esta característica uma quantidade de vezes igual ao seu modificador de Constituição (no mínimo uma vez), recuperando todos os usos gastos desta habilidade ao terminar um descanso longo.</p>",
             "en": "<p>At 7th level, you learn to fend off strikes directed at you, your mount, or other creatures nearby. If you or a creature you can see within 5 feet of you is hit by an attack, you can roll 1d8 as a reaction if you’re wielding a melee weapon or a shield. Roll the die, and add the number rolled to the target’s AC against that attack. If the attack still hits, the target has resistance against the attack’s damage.</p> <p>You can use this feature a number of times equal to your Constitution modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.</p>"
@@ -702,7 +702,7 @@
           "key": "hold-the-line",
           "level": 10,
           "source": { "pt": { "book": "GXTC", "page": 45 }, "en": { "book": "XGE", "page": 30 } },
-          "name": { "pt": "manter a formação", "en": "Hold the Line" },
+          "name": { "pt": "mantenha a formação", "en": "Hold the Line" },
           "html": {
             "pt": "<p>No 10º nível, você se torna mestre em travar seus inimigos. Criaturas provocam um ataque de oportunidade seu quando se deslocam 1,5 metro ou mais enquanto estão dentro do seu alcance, e se você atingir uma criatura com um ataque de oportunidade, o deslocamento dela é reduzido a 0 até o final do turno atual.</p>",
             "en": "<p>At 10th level, you become a master of locking down your enemies. Creatures provoke an opportunity attack from you when they move 5 feet or more while within your reach, and if you hit a creature with an opportunity attack, the target’s speed is reduced to 0 until the end of the current turn.</p>"
@@ -712,7 +712,7 @@
           "key": "ferocious-charger",
           "level": 15,
           "source": { "pt": { "book": "GXTC", "page": 45 }, "en": { "book": "XGE", "page": 30 } },
-          "name": { "pt": "carga feroz", "en": "Ferocious Charger" },
+          "name": { "pt": "investida feroz", "en": "Ferocious Charger" },
           "html": {
             "pt": "<p>A partir do 15º nível, montado ou desmontado, você pode atropelar seus inimigos. Se você se mover pelo menos 3 metros em linha reta antes de atacar uma criatura com sucesso, ela deve ser bem-sucedida numa salvaguarda de Força (CD 8 + seu bônus de proficiência + seu modificador de Força) ou ficar caída. Você pode usar esta característica apenas uma vez em cada um dos seus turnos.</p>",
             "en": "<p>Starting at 15th level, you can run down your foes, whether you’re mounted or not. If you move at least 10 feet in a straight line right before attacking a creature and you hit it with the attack, that target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone. You can use this feature only once on each of your turns.</p>"
@@ -746,7 +746,7 @@
           "key": "bonus-proficiency",
           "level": 3,
           "source": { "pt": { "book": "GXTC", "page": 45 }, "en": { "book": "XGE", "page": 31 } },
-          "name": { "pt": "proficiência bônus", "en": "Bonus Proficiency" },
+          "name": { "pt": "bônus de proficiência", "en": "Bonus Proficiency" },
           "html": {
             "pt": "<p>Ao escolher este arquétipo no 3º nível, você ganha proficiência em uma das seguintes perícias à sua escolha: Atuação, História, Intuição ou Persuasão. Opcionalmente, você aprende um idioma à sua escolha no lugar de uma perícia.</p>",
             "en": "<p>When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: History,&nbsp;Insight,&nbsp;Performance, or&nbsp;Persuasion. Alternatively, you learn one language of your choice.</p>"
@@ -796,7 +796,7 @@
           "key": "strength-before-death",
           "level": 18,
           "source": { "pt": { "book": "GXTC", "page": 45 }, "en": { "book": "XGE", "page": 31 } },
-          "name": { "pt": "força perante a morte", "en": "Strength before Death" },
+          "name": { "pt": "força diante da morte", "en": "Strength before Death" },
           "html": {
             "pt": "<p>A partir do 18º nível, seu espírito de luta pode adiar o abraço da morte. Se você sofrer dano que o reduza a 0 ponto de vida mas não o mate de uma vez, você pode usar sua reação para adiar ficar inconsciente, e pode ganhar imediatamente um turno extra, interrompendo o atual. Enquanto você estiver com 0 pontos de vida durante o turno extra, sofrer dano resulta em falhas de salvaguarda como sempre, e três dessas falhas ainda podem matá-lo. Quando o turno extra termina, você cai inconsciente se ainda estiver com 0 ponto de vida.</p><p>Após usar esta característica, você não pode usá-la novamente até terminar um descanso longo.</p>",
             "en": "<p>Starting at 18th level, your fighting spirit can delay the grasp of death. If you take damage that reduces you to 0 hit points and doesn’t kill you outright, you can use your reaction to delay falling unconscious, and you can immediately take an extra turn, interrupting the current turn. While you have 0 hit points during that extra turn, taking damage causes death saving throw failures as normal, and three death saving throw failures can still kill you. When the extra turn ends, you fall&nbsp;unconscious&nbsp;if you still have 0 hit points.</p> <p>Once you use this feature, you can’t use it again until you finish a long rest.</p>"

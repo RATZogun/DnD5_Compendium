@@ -57,7 +57,7 @@ export function spellCardHtml(R, spell, { linkName = true, showName = true, link
   const title = titleCase(spell.name);
   const original =
     spell.original_name && spell.original_name !== spell.name
-      ? html` <small>(${titleCase(spell.original_name)})</small>`
+      ? html` <small>(${titleCase(spell.original_name, 'en')})</small>`
       : '';
   const nameHtml = linkName ? html`<a href="${href.spell(spell.slug)}">${title}</a>` : html`${title}`;
   return html` <article class="panel spell-card">

@@ -130,17 +130,17 @@
         { "key": "spellcasting", "name": { "pt": "conjuração", "en": "Spellcasting" } }
       ],
       "2": [
-        { "key": "jack-of-all-trades", "name": { "pt": "pau pra toda obra", "en": "Jack of All Trades" } },
+        { "key": "jack-of-all-trades", "name": { "pt": "versatilidade", "en": "Jack of All Trades" } },
         { "key": "song-of-rest-d6", "name": { "pt": "canção do descanso (d6)", "en": "Song of Rest (d6)" } }
       ],
       "3": [
         { "key": "bard-college", "name": { "pt": "colégio de bardo", "en": "Bard College" } },
-        { "key": "expertise-3", "name": { "pt": "especialista", "en": "Expertise" } }
+        { "key": "expertise-3", "name": { "pt": "aptidão", "en": "Expertise" } }
       ],
       "4": [
         {
           "key": "ability-score-improvement-4",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "5": [
@@ -151,13 +151,13 @@
         { "key": "font-of-inspiration", "name": { "pt": "fonte de inspiração", "en": "Font of Inspiration" } }
       ],
       "6": [
-        { "key": "countercharm", "name": { "pt": "contra-encantamento", "en": "Countercharm" } },
+        { "key": "countercharm", "name": { "pt": "canção de proteção", "en": "Countercharm" } },
         { "key": "subclasses", "name": { "pt": "Colégio de Bardo", "en": "Bard College" } }
       ],
       "8": [
         {
           "key": "ability-score-improvement-8",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "9": [{ "key": "song-of-rest-d8", "name": { "pt": "canção do descanso (d8)", "en": "Song of Rest (d8)" } }],
@@ -166,13 +166,13 @@
           "key": "bardic-inspiration-d10",
           "name": { "pt": "inspiração de bardo (d10)", "en": "Bardic Inspiration (d10)" }
         },
-        { "key": "expertise-10", "name": { "pt": "especialista", "en": "Expertise" } },
+        { "key": "expertise-10", "name": { "pt": "aptidão", "en": "Expertise" } },
         { "key": "magical-secrets-10", "name": { "pt": "segredos mágicos", "en": "Magical Secrets" } }
       ],
       "12": [
         {
           "key": "ability-score-improvement-12",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "13": [{ "key": "song-of-rest-d10", "name": { "pt": "canção do descanso (d10)", "en": "Song of Rest (d10)" } }],
@@ -189,7 +189,7 @@
       "16": [
         {
           "key": "ability-score-improvement-16",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "17": [{ "key": "song-of-rest-d12", "name": { "pt": "canção do descanso (d12)", "en": "Song of Rest (d12)" } }],
@@ -197,7 +197,7 @@
       "19": [
         {
           "key": "ability-score-improvement-19",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "20": [{ "key": "superior-inspiration", "name": { "pt": "inspiração superior", "en": "Superior Inspiration" } }]
@@ -264,7 +264,7 @@
       "level": 2,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 54 }, "en": { "book": "PHB", "page": 51 } },
-      "name": { "pt": "pau pra toda obra", "en": "Jack of All Trades" },
+      "name": { "pt": "versatilidade", "en": "Jack of All Trades" },
       "html": {
         "pt": "<p>A partir do 2º nível, você pode adicionar metade do seu bônus de proficiência, arredondado para baixo, a qualquer teste de atributo que realizar e que já não inclua seu bônus de proficiência.</p>",
         "en": "<p>Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn’t already include your proficiency bonus.</p>"
@@ -308,7 +308,7 @@
       "level": 3,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 54 }, "en": { "book": "PHB", "page": 51 } },
-      "name": { "pt": "especialista", "en": "Expertise" },
+      "name": { "pt": "aptidão", "en": "Expertise" },
       "html": {
         "pt": "<p>No 3º nível, escolha duas perícias nas quais já seja proficiente. Seu bônus de proficiência é duplicado em qualquer teste de atributo que utilize uma dessas perícias.</p><p>No 10º nível, você pode atribuir este mesmo benefício a outras duas perícias em que seja proficiente.</p>",
         "en": "<p>At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</p>"
@@ -319,7 +319,7 @@
       "level": 4,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 54 }, "en": { "book": "PHB", "page": 51 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -363,7 +363,7 @@
       "level": 6,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 54 }, "en": { "book": "PHB", "page": 51 } },
-      "name": { "pt": "contra-encantamento", "en": "Countercharm" },
+      "name": { "pt": "canção de proteção", "en": "Countercharm" },
       "html": {
         "pt": "<p>No 6º nível, você ganha a habilidade de usar notas musicais ou palavras de poder para desfazer efeitos que influenciam a mente. Como sua ação no turno, você pode dar início a uma apresentação que dura até o final do seu próximo turno. Durante esse tempo, você e quaisquer criaturas amigáveis a até 9 metros de distância adquirem vantagem em salvaguardas contra serem amedrontadas ou enfeitiçadas. Uma criatura deve ser capaz de ouvi-lo para receber esse benefício. A apresentação se encerra antes do tempo, caso você seja incapacitado ou silenciado, ou se decidir encerrá-la voluntariamente (nenhuma ação é necessária).</p>",
         "en": "<p>At 6th level, you gain the ability to use musical notes or words of power to disrupt mind-influencing effects. As an action, you can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being frightened or charmed. A creature must be able to hear you to gain this benefit. The performance ends early if you are incapacitated or silenced or if you voluntarily end it (no action required).</p>"
@@ -374,7 +374,7 @@
       "level": 8,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 54 }, "en": { "book": "PHB", "page": 51 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -407,7 +407,7 @@
       "level": 10,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 54 }, "en": { "book": "PHB", "page": 51 } },
-      "name": { "pt": "especialista", "en": "Expertise" },
+      "name": { "pt": "aptidão", "en": "Expertise" },
       "html": {
         "pt": "<p>No 3º nível, escolha duas perícias nas quais já seja proficiente. Seu bônus de proficiência é duplicado em qualquer teste de atributo que utilize uma dessas perícias.</p><p>No 10º nível, você pode atribuir este mesmo benefício a outras duas perícias em que seja proficiente.</p>",
         "en": "<p>At 10th level, choose two more of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</p>"
@@ -429,7 +429,7 @@
       "level": 12,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 54 }, "en": { "book": "PHB", "page": 51 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -473,7 +473,7 @@
       "level": 16,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 54 }, "en": { "book": "PHB", "page": 51 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -506,7 +506,7 @@
       "level": 19,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 54 }, "en": { "book": "PHB", "page": 51 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -540,7 +540,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 54 }, "en": { "book": "PHB", "page": 54 } },
-          "name": { "pt": "proficiência bônus", "en": "Bonus Proficiencies" },
+          "name": { "pt": "proficiência adicional", "en": "Bonus Proficiencies" },
           "html": {
             "pt": "<p>Ao entrar para o Colégio do Conhecimento no 3º nível, você ganha proficiência em três perícias, à sua escolha.</p>",
             "en": "<p>When you join the College of Lore at 3rd level, you gain proficiency with three skills of your choice.</p>"
@@ -598,7 +598,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 55 }, "en": { "book": "PHB", "page": 55 } },
-          "name": { "pt": "proficiência bônus", "en": "Bonus Proficiencies" },
+          "name": { "pt": "proficiência adicional", "en": "Bonus Proficiencies" },
           "html": {
             "pt": "<p>Ao se juntar ao Colégio da Bravura no 3º nível, você adquire proficiência com armaduras médias, escudos e armas marciais.</p>",
             "en": "<p>When you join the College of Valor at 3rd level, you gain proficiency with medium armor, shields, and martial weapons.</p>"
@@ -667,7 +667,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 14 }, "en": { "book": "XGE", "page": 14 } },
-          "name": { "pt": "performance sublime", "en": "Enthralling Performance" },
+          "name": { "pt": "performance deslumbrante", "en": "Enthralling Performance" },
           "html": {
             "pt": "<p>A partir do 3º nível, você pode energizar suas apresentações com a sedutora magia feérica.</p><p>Se você se apresentar por pelo menos 1 minuto, pode tentar inspirar admiração na sua audiência cantando, declamando um poema ou dançando. Ao final da performance, escolha um número de humanoides a até 18 metros de você que tenha assistido e escutado a tudo, até um máximo igual a seu modificador de Carisma (no mínimo um). Cada alvo deve ser bem-sucedido numa salvaguarda de Sabedoria contra a CD para evitar suas magias, ou ser enfeitiçado por você. Enquanto enfeitiçado desse modo, o alvo o idolatra, fala bem de você a qualquer um que converse com ele e impede qualquer um que se oponha a você, embora ele evite violência a não ser que já estivesse inclinado a lutar por você. Este efeito se encerra sobre o alvo após 1 hora, caso ele sofra qualquer tipo ou quantidade de dano, caso você o ataque, ou se ele vê-lo atacando ou ferindo qualquer um dos aliados dele.</p><p>Se um alvo for bem-sucedido na salvaguarda, ele não terá a menor ideia de que você tentou enfeitiçá-lo.</p><p>Após usar esta característica, você não pode usá-la novamente até terminar um descanso curto ou longo.</p>",
             "en": "<p>Starting at 3rd level, you can charge your performance with seductive, fey magic.</p> <p>If you perform for at least 1 minute, you can attempt to inspire wonder in your audience by singing, reciting a poem, or dancing. At the end of the performance, choose a number of humanoids within 60 feet of you who watched and listened to all of it, up to a number equal to your Charisma modifier (minimum of one). Each target must succeed on a Wisdom saving throw against your spell save DC or be charmed by you. While charmed in this way, the target idolizes you, it speaks glowingly of you to anyone who talks to it, and it hinders anyone who opposes you, although it avoids violence unless it was already inclined to fight on your behalf. This effect ends on a target after 1 hour, if it takes any damage, if you attack it, or if it witnesses you attacking or damaging any of its allies.</p> <p>If a target succeeds on its saving throw, the target has no hint that you tried to charm it.</p> <p>Once you use this feature, you can’t use it again until you finish a short or long rest.</p>"
@@ -689,7 +689,7 @@
           "level": 14,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 14 }, "en": { "book": "XGE", "page": 14 } },
-          "name": { "pt": "majestade inquebrantável", "en": "Unbreakable Majesty" },
+          "name": { "pt": "majestade inquebrável", "en": "Unbreakable Majesty" },
           "html": {
             "pt": "<p>No 14º nível, sua aparência ganha permanentemente um aspecto de outro mundo, que o torna mais amável e feroz.</p><p>Além disso, como uma ação bônus, você pode assumir uma presença mágica majestosa por 1 minuto, ou até ser incapacitado. Pela duração deste efeito, sempre que qualquer criatura tentar atacá-lo pela primeira vez em um turno, ela deve realizar uma salvaguarda de Carisma contra a CD para evitar suas magias. Em caso de falha, ela não pode atacá-lo neste turno, e deve escolher um novo alvo para o ataque ou o desperdiçará. Em caso de sucesso, ela pode atacá-lo neste turno, mas com desvantagem em qualquer salvaguarda que realizar contra suas magias no seu próximo turno.</p><p>Uma vez que tenha assumido esta presença majestosa, você não pode fazê-lo novamente até terminar um descanso curto ou longo.</p>",
             "en": "<p>At 14th level, your appearance permanently gains an otherworldly aspect that makes you look more lovely and fierce.</p> <p>In addition, as a bonus action, you can assume a magically majestic presence for 1 minute or until you are incapacitated. For the duration, whenever any creature tries to attack you for the first time on a turn, the attacker must make a Charisma saving throw against your spell save DC. On a failed save, it can’t attack you on this turn, and it must choose a new target for its attack or the attack is wasted. On a successful save, it can attack you on this turn, but it has disadvantage on any saving throw it makes against your spells on your next turn.</p> <p>Once you assume this majestic presence, you can’t do so again until you finish a short or long rest.</p>"
@@ -714,7 +714,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 15 }, "en": { "book": "XGE", "page": 15 } },
-          "name": { "pt": "proficiências bônus", "en": "Bonus Proficiencies" },
+          "name": { "pt": "proficiência bônus", "en": "Bonus Proficiencies" },
           "html": {
             "pt": "<p>Ao entrar no Colégio das Espadas no 3º nível, você ganha proficiência com armaduras médias e cimitarras.</p><p>Se for proficiente com uma arma de combate corpo a corpo simples ou marcial, você pode usá-la como um foco de conjuração para suas magias de bardo.</p>",
             "en": "<p>When you join the College of Swords at 3rd level, you gain proficiency with medium armor and the scimitar.</p> <p>If you’re proficient with a simple or martial melee weapon, you can use it as a spellcasting focus for your bard spells.</p>"
@@ -736,7 +736,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 15 }, "en": { "book": "XGE", "page": 15 } },
-          "name": { "pt": "floreio com lâminas", "en": "Blade Flourish" },
+          "name": { "pt": "floreio de lâminas", "en": "Blade Flourish" },
           "html": {
             "pt": "<p>No 3º nível, você aprende a realizar impressionantes demonstrações de velocidade e habilidade marcial.</p><p>Sempre que você realizar uma ação Atacar no seu turno, seu deslocamento de caminhada aumenta em 3 metros até o final do turno, e se um ataque armado que você fizer como parte dessa ação atingir uma criatura, você pode usar uma das seguintes opções de Floreio com Lâminas à sua escolha. Você pode usar uma única opção por turno.</p><p><strong>Floreio Defensivo.</strong> Você pode gastar um uso de sua Inspiração de Bardo para fazer com que sua arma cause dano adicional a um alvo que você atingir. O dano é igual ao resultado no dado de Inspiração de Bardo. Você também pode somar o resultado no dado à sua CA até o início do seu próximo turno.</p><p><strong>Floreio Arrasador.</strong> Você pode gastar um uso de sua Inspiração de Bardo para fazer com que sua arma cause dano adicional a um alvo que você atinja e a uma outra criatura qualquer à sua escolha, que você possa ver e que esteja a até 1,5 metro de você. O dano é igual ao resultado no seu dado de Inspiração de Bardo.</p><p><strong>Floreio Móvel.</strong> Você pode gastar um uso de sua Inspiração de Bardo para fazer com que sua arma cause dano adicional a um alvo que você atingir. O dano é igual ao resultado no dado de Inspiração de Bardo. Você também pode empurrar o alvo até 1,5 metro para longe de você, mais uma quantidade de centímetros igual ao resultado no dado multiplicado por 30. Imediatamente em seguida, você pode usar sua reação para mover-se até o máximo do seu deslocamento até um espaço desocupado a 1,5 metro do alvo.</p>",
             "en": "<p>At 3rd level, you learn to perform impressive displays of martial prowess and speed.</p> <p>Whenever you take the Attack action on your turn, your walking speed increases by 10 feet until the end of the turn, and if a weapon attack that you make as part of this action hits a creature, you can use one of the following Blade Flourish options of your choice. You can use only one Blade Flourish option per turn.</p> <p><strong>Defensive Flourish.</strong>&nbsp;You can expend one use of your Bardic Inspiration to cause the weapon to deal extra damage to the target you hit. The damage equals the number you roll on the Bardic Inspiration die. You also add the number rolled to your AC until the start of your next turn.</p> <p><strong>Slashing Flourish.</strong>&nbsp;You can expend one use of your Bardic Inspiration to cause the weapon to deal extra damage to the target you hit and to any other creature of your choice that you can see within 5 feet of you. The damage equals the number you roll on the Bardic Inspiration die.</p> <p><strong>Mobile Flourish.</strong> You can expend one use of your Bardic Inspiration to cause the weapon to deal extra damage to the target you hit. The damage equals the number you roll on the Bardic Inspiration die. You can also push the target up to 5 feet away from you, plus a number of feet equal to the number you roll on that die. You can then immediately use your reaction to move up to your walking speed to an unoccupied space within 5 feet of the target.</p>"
@@ -758,7 +758,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 15 }, "en": { "book": "XGE", "page": 15 } },
-          "name": { "pt": "floreio arrasador", "en": "Slashing Flourish" },
+          "name": { "pt": "floreio cortante", "en": "Slashing Flourish" },
           "html": {
             "pt": "<p>Você pode gastar um uso de sua Inspiração de Bardo para fazer com que sua arma cause dano adicional a um alvo que você atinja e a uma outra criatura qualquer à sua escolha, que você possa ver e que esteja a até 1,5 metro de você. O dano é igual ao resultado no seu dado de Inspiração de Bardo.</p>",
             "en": "<p>You can expend one use of your Bardic Inspiration to cause the weapon to deal extra damage to the target you hit and to any other creature of your choice that you can see within 5 feet of you. The damage equals the number you roll on the Bardic Inspiration die.</p>"
@@ -791,7 +791,7 @@
           "level": 14,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 16 }, "en": { "book": "XGE", "page": 15 } },
-          "name": { "pt": "floreio de mestre", "en": "Master's Flourish" },
+          "name": { "pt": "floreio do mestre", "en": "Master's Flourish" },
           "html": {
             "pt": "<p>A partir do 14º nível, sempre que você usar uma das opções de Floreio com Lâminas, você pode jogar 1d6 no lugar de gastar um dado de Inspiração de Bardo.</p>",
             "en": "<p>Starting at 14th level, whenever you use a Blade Flourish option, you can roll a d6 and use it instead of expending a Bardic Inspiration die.</p>"
@@ -849,7 +849,7 @@
           "level": 14,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 16 }, "en": { "book": "XGE", "page": 16 } },
-          "name": { "pt": "segredo tenebroso", "en": "Shadow Lore" },
+          "name": { "pt": "conhecimento das sombras", "en": "Shadow Lore" },
           "html": {
             "pt": "<p>No 14º nível você ganha a habilidade de entrelaçar magia soturna em suas palavras de modo a acessar os medos mais profundos de uma criatura.</p><p>Como uma ação, você sussurra magicamente uma frase que apenas a criatura que você escolheu, estando a até 9 metros de você, pode ouvir. O alvo deve realizar uma salvaguarda de Sabedoria contra a CD para evitar as suas magias. Ele obtém sucesso automático caso não fale o mesmo idioma que você ou se não puder ouvi-lo. Em caso de sucesso, seus sussurros soam como um balbucio ininteligível e não surtem efeito.</p><p>Em caso de falha, o alvo é enfeitiçado por você pelas próximas 8 horas ou até que você ou seus aliados o ataquem, causem dano a ele ou o forcem a realizar uma salvaguarda. Ele interpreta os sussurros como uma descrição de seu segredo mais humilhante. Você não fica conhecendo o segredo de fato, mas o alvo acredita nisso.</p><p>A criatura enfeitiçada obedece às suas ordens por medo de que você revele o segredo dela. Ela não arriscará a própria vida por você, a menos que já estivesse inclinada a fazê-lo. Ela lhe fará favores e dará presentes como se você fosse um amigo próximo.</p><p>Quando o efeito termina, a criatura não entende porque teve tanto medo de você.</p><p>Após usar esta característica, você não pode usá-la novamente até terminar um descanso longo.</p>",
             "en": "<p>At 14th level, you gain the ability to weave dark magic into your words and tap into a creature’s deepest fears.</p> <p>As an action, you magically whisper a phrase that only one creature of your choice within 30 feet of you can hear. The target must make a Wisdom saving throw against your spell save DC. It automatically succeeds if it doesn’t share a language with you or if it can’t hear you. On a successful saving throw, your whisper sounds like unintelligible mumbling and has no effect.</p> <p>On a failed saving throw, the target is charmed by you for the next 8 hours or until you or your allies attack it, damage it, or force it to make a saving throw. It interprets the whispers as a description of its most mortifying secret. You gain no knowledge of this secret, but the target is convinced you know it.</p> <p>The charmed creature obeys your commands for fear that you will reveal its secret. It won’t risk its life for you or fight for&nbsp;you,&nbsp;unless it was already inclined to do so. It grants you favors&nbsp;and gifts it would offer to a close friend.</p> <p>When the effect ends, the creature has no understanding of why it held you in such fear.</p> <p>Once you use this feature, you can’t use it again until you finish a long rest.</p>"

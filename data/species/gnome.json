@@ -41,7 +41,7 @@
     },
     {
       "key": "gnome-cunning",
-      "name": { "pt": "astúcia de gnomo", "en": "Gnome Cunning" },
+      "name": { "pt": "esperteza gnômica", "en": "Gnome Cunning" },
       "html": {
         "pt": "<p>Você tem vantagem em todas as salvaguardas de Inteligência, Sabedoria e Carisma contra magia.</p>",
         "en": "<p>You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</p>"
@@ -84,7 +84,7 @@
         },
         {
           "key": "speak-with-small-beasts",
-          "name": { "pt": "falar com animais pequenos", "en": "Speak with Small Beasts" },
+          "name": { "pt": "falar com bestas pequenas", "en": "Speak with Small Beasts" },
           "html": {
             "pt": "<p>Através de sons e gestos, você pode comunicar ideias simples a animais de tamanho Pequeno ou menores. Gnomos dos Bosques adoram animais e muitas vezes mantêm esquilos, texugos, coelhos, toupeiras, pica-paus e outras criaturas como animais de estimação.</p>",
             "en": "<p>Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets.</p>"

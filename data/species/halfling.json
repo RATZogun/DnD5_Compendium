@@ -41,7 +41,7 @@
     },
     {
       "key": "brave",
-      "name": { "pt": "corajoso", "en": "Brave" },
+      "name": { "pt": "bravura", "en": "Brave" },
       "html": {
         "pt": "<p>Você tem vantagem nas salvaguardas contra ser amedrontado.</p>",
         "en": "<p>You have advantage on saving throws against being frightened.</p>"
@@ -49,7 +49,7 @@
     },
     {
       "key": "halfling-nimbleness",
-      "name": { "pt": "agilidade pequenina", "en": "Halfling Nimbleness" },
+      "name": { "pt": "agilidade halfling", "en": "Halfling Nimbleness" },
       "html": {
         "pt": "<p>Você pode se mover através do espaço de qualquer criatura com tamanho um nível acima do seu.</p>",
         "en": "<p>You can move through the space of any creature that is of a size larger than yours.</p>"
@@ -75,7 +75,7 @@
   "subraces": [
     {
       "slug": "lightfoot-halfling",
-      "name": { "pt": "halfling pés-leves", "en": "Lightfoot Halfling" },
+      "name": { "pt": "pés leves", "en": "Lightfoot Halfling" },
       "source": { "pt": { "book": "LDJ", "page": 31 }, "en": { "book": "PHB", "page": 28 } },
       "intro_html": {
         "pt": "<p>Como um pequenino pés-ligeiros, você pode se ocultar facilmente, usando até mesmo outras pessoas como cobertura. Você tende a ser afável e a se dar bem com os outros. No cenário de Forgotten Realms, pequeninos pés-ligeiros tiveram uma maior disseminação, tornando-se a variedade mais comum.</p><p>Pés-ligeiros são mais propensos a viajar do que outros pequeninos, muitas vezes convivendo com outras raças ou optando por uma vida nômade. No mundo de Greyhawk, estes pequeninos são chamados de pés-peludos ou companheiros-altos.</p>",
@@ -94,7 +94,7 @@
     },
     {
       "slug": "stout-halfling",
-      "name": { "pt": "halfling robusto", "en": "Stout Halfling" },
+      "name": { "pt": "robusto", "en": "Stout Halfling" },
       "source": { "pt": { "book": "LDJ", "page": 31 }, "en": { "book": "PHB", "page": 28 } },
       "intro_html": {
         "pt": "<p>Como um pequenino robusto, você é mais vigoroso do que a média, e tem alguma resistência a venenos. Dizem que os robustos possuem sangue anão. No cenário de Forgotten Realms, são chamados de austeros, e vivem principalmente no sul.</p>",
@@ -103,7 +103,7 @@
       "traits": [
         {
           "key": "stout-resilience",
-          "name": { "pt": "resistência a toxinas", "en": "Stout Resilience" },
+          "name": { "pt": "resiliência dos robustos", "en": "Stout Resilience" },
           "html": {
             "pt": "<p>Você tem vantagem em salvaguardas contra venenos e possui resistência a dano venenoso (explicadas no Capítulo 9, \"Combate\").</p>",
             "en": "<p>You have advantage on saving throws against poison, and you have resistance against poison damage.</p>"

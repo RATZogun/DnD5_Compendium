@@ -21,7 +21,7 @@ BOOKS = {
 SCHOOLS = 'abjuração|adivinhação|conjuração|invocação|encantamento|evocação|ilusão|necromancia|transmutação'
 OCR_DIGIT = {'I': '1', 'l': '1', 'i': '1', 'O': '0', 'o': '0'}
 TAIL = r'\s*(\(ritual\))?[\s·.•]*$'
-LEVEL_RE = re.compile(rf'^([0-9IlO])\s*[°ºo]?\s*(?:c[ií]rculo|n[ií]vel)\s*,?\s*({SCHOOLS}){TAIL}', re.I)
+LEVEL_RE = re.compile(rf'^([0-9IlO])\s*[°ºo]?\s*(?:c[ií]rculo|n[ií]vel)\s*(?:,|de)?\s*({SCHOOLS}){TAIL}', re.I)
 CANTRIP_RE = re.compile(rf'^truque\s*(?:,|de)?\s*({SCHOOLS}){TAIL}', re.I)
 CANTRIP_REV_RE = re.compile(rf'^({SCHOOLS})\s*,\s*truque{TAIL}', re.I)
 # Alguns blocos do livro em português ficaram com os rótulos em inglês.

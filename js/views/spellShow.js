@@ -15,7 +15,7 @@ export function render(container, { R, params }) {
   setTitle(titleCase(spell.name), t('spells.title'));
   const original =
     spell.original_name && spell.original_name !== spell.name
-      ? html` <small>(${titleCase(spell.original_name)})</small>`
+      ? html` <small>(${titleCase(spell.original_name, 'en')})</small>`
       : '';
   container.innerHTML = html` <h1>${titleCase(spell.name)}${raw(original)}</h1>
     ${raw(spellCardHtml(R, spell, { showName: false, linkName: false }))} ${raw(back)}`;

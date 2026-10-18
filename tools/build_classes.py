@@ -52,6 +52,24 @@ OVERRIDES = json.loads((ROOT / 'tools' / 'class_overrides.json').read_text())
 NAMES = json.loads((ROOT / 'tools' / 'names.json').read_text())
 
 
+def apply_fan_names(data):
+    """Nomes da tradução de fãs (prioridade sobre os da iccarion), por chave do item."""
+    fan = NAMES.get('fan', {})
+    slug = data['slug']
+    data['name']['pt'] = fan.get('classes', {}).get(slug, data['name']['pt'])
+    if slug in fan.get('subclass_titles', {}):
+        data.setdefault('subclass_title', {})['pt'] = fan['subclass_titles'][slug]
+    for f in data['features']:
+        f['name']['pt'] = fan.get('features', {}).get(slug, {}).get(f['key'], f['name']['pt'])
+    for sub in data.get('subclasses', []):
+        key = f"{slug}/{sub['slug']}"
+        for v in [sub] + sub.get('versions', []):
+            if key in fan.get('subclasses', {}) and v.get('name'):
+                v['name']['pt'] = fan['subclasses'][key]
+            for f in v.get('features') or []:
+                f['name']['pt'] = fan.get('subclass_features', {}).get(key, {}).get(f['key'], f['name']['pt'])
+
+
 def apply_names(data):
     en = data['name']['en']
     data['name']['pt'] = NAMES['classes'].get(en, data['name']['pt'])
@@ -274,6 +292,7 @@ def main():
         skel = json.loads((skel_dir / path.name).read_text())
         fill_missing_en(data, ddb)
         apply_names(data)
+        apply_fan_names(data)
         for sub in data.get('subclasses', []):
             resolve_duplicates(sub)
         drop_excluded(data)

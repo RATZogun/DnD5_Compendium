@@ -81,7 +81,7 @@
     ],
     "features_by_level": {
       "1": [
-        { "key": "druidic", "name": { "pt": "idioma druídico", "en": "Druidic" } },
+        { "key": "druidic", "name": { "pt": "druídico", "en": "Druidic" } },
         { "key": "spellcasting", "name": { "pt": "conjuração", "en": "Spellcasting" } }
       ],
       "2": [
@@ -91,7 +91,7 @@
       "4": [
         {
           "key": "ability-score-improvement-4",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         },
         {
           "key": "wild-shape-improvement-4",
@@ -102,7 +102,7 @@
       "8": [
         {
           "key": "ability-score-improvement-8",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         },
         {
           "key": "wild-shape-improvement-8",
@@ -113,24 +113,24 @@
       "12": [
         {
           "key": "ability-score-improvement-12",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "14": [{ "key": "subclasses", "name": { "pt": "Círculo Druídico", "en": "Druid Circle" } }],
       "16": [
         {
           "key": "ability-score-improvement-16",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "18": [
-        { "key": "beast-spells", "name": { "pt": "magias bestiais", "en": "Beast Spells" } },
+        { "key": "beast-spells", "name": { "pt": "magias da besta", "en": "Beast Spells" } },
         { "key": "timeless-body", "name": { "pt": "corpo atemporal", "en": "Timeless Body" } }
       ],
       "19": [
         {
           "key": "ability-score-improvement-19",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "20": [{ "key": "archdruid", "name": { "pt": "arquidruida", "en": "Archdruid" } }]
@@ -175,7 +175,7 @@
       "level": 1,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 73 }, "en": { "book": "PHB", "page": 64 } },
-      "name": { "pt": "idioma druídico", "en": "Druidic" },
+      "name": { "pt": "druídico", "en": "Druidic" },
       "html": {
         "pt": "<p>Você domina o Druídico, o idioma secreto dos druidas. Você pode falar esse idioma e usá-lo para deixar mensagens ocultas. Você e outros conhecedores desse idioma detectam automaticamente esse tipo de mensagem. Outras pessoas podem descobrir a mensagem com um teste bem-sucedido de Sabedoria (Percepção) com CD 15, porém não conseguirão decifrá-la sem usar magia.</p>",
         "en": "<p>You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message’s presence with a successful DC 15 Wisdom (Perception) check but can’t decipher it without magic.</p>"
@@ -230,7 +230,7 @@
       "level": 4,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 74 }, "en": { "book": "PHB", "page": 64 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em dois o valor de um atributo à sua escolha, ou pode aumentar em um o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -263,7 +263,7 @@
       "level": 8,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 74 }, "en": { "book": "PHB", "page": 64 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em dois o valor de um atributo à sua escolha, ou pode aumentar em um o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -285,7 +285,7 @@
       "level": 12,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 74 }, "en": { "book": "PHB", "page": 64 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em dois o valor de um atributo à sua escolha, ou pode aumentar em um o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -296,7 +296,7 @@
       "level": 16,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 74 }, "en": { "book": "PHB", "page": 64 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em dois o valor de um atributo à sua escolha, ou pode aumentar em um o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -307,7 +307,7 @@
       "level": 18,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 74 }, "en": { "book": "PHB", "page": 64 } },
-      "name": { "pt": "magias bestiais", "en": "Beast Spells" },
+      "name": { "pt": "magias da besta", "en": "Beast Spells" },
       "html": {
         "pt": "<p>A partir do 18º nível, você pode conjurar muitas de suas magias de druida em qualquer forma que assuma, usando Forma Selvagem. Você pode executar os componentes verbais e somáticos de uma magia de druida enquanto está na forma animal, mas não é capaz de manipular componentes materiais.</p>",
         "en": "<p>Beginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren’t able to provide material components.</p>"
@@ -329,7 +329,7 @@
       "level": 19,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 74 }, "en": { "book": "PHB", "page": 64 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em dois o valor de um atributo à sua escolha, ou pode aumentar em um o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -362,7 +362,7 @@
           "key": "bonus-cantrip",
           "level": 2,
           "source": { "pt": { "book": "LDJ", "page": 75 }, "en": { "book": "PHB", "page": 68 } },
-          "name": { "pt": "truque bônus", "en": "Bonus Cantrip" },
+          "name": { "pt": "truque adicional", "en": "Bonus Cantrip" },
           "html": {
             "pt": "<p>Ao optar por este círculo no 2º nível, você pode escolher um truque de druida adicional.</p>",
             "en": "<p>When you choose this circle at 2nd level, you learn one additional druid cantrip of your choice. This cantrip doesn’t count against the number of druid cantrips you know.</p>"
@@ -372,7 +372,7 @@
           "key": "circle-spells",
           "level": 2,
           "source": { "pt": { "book": "LDJ", "page": 75 }, "en": { "book": "PHB", "page": 68 } },
-          "name": { "pt": "magias de círculo druídico", "en": "Circle Spells" },
+          "name": { "pt": "magias de círculo", "en": "Circle Spells" },
           "html": {
             "pt": "<p>Sua conexão mística com a terra lhe concede a capacidade de conjurar algumas magias. No 3º, 5º, 7º e 9º níveis, você ganha acesso a magias de círculo ligadas ao terreno no qual você se tornou druida. Escolha o tipo de terreno - ártico, litoral, deserto, floresta, campo, montanha, pântano ou umbreterna - e consulte a lista de magias associadas a ele.</p><p>Uma vez que tenha acesso a uma magia de círculo, ela estará sempre preparada e não conta para o número de magias que você pode preparar a cada dia. Se tiver acesso a uma magia que não conste na lista de magias de druida, para você ela conta como uma magia de druida.</p><p><strong>Ártico</strong></p><table><thead><tr><th>Nível de Druida</th><th>Magias</th></tr></thead><tbody><tr><td>3º</td><td><em>crescer espinhos</em>, <em>imobilizar pessoa</em></td></tr><tr><td>5º</td><td><em>lentidão</em>, <em>nevasca</em></td></tr><tr><td>7º</td><td><em>movimentação livre</em>, <em>tempestade glacial</em></td></tr><tr><td>9º</td><td><em>comunhão com a natureza</em>, <em>cone de frio</em></td></tr></tbody></table><p><strong>Campo</strong></p><table><thead><tr><th>Nível de Druida</th><th>Magias</th></tr></thead><tbody><tr><td>3º</td><td><em>invisibilidade</em>, <em>passo sem rastro</em></td></tr><tr><td>5º</td><td><em>celeridade</em>, <em>luz do dia</em></td></tr><tr><td>7º</td><td><em>movimentação livre</em>, <em>presságio</em></td></tr><tr><td>9º</td><td><em>praga de insetos</em>, <em>sonho</em></td></tr></tbody></table><p><strong>Deserto</strong></p><table><thead><tr><th>Nível de Druida</th><th>Magias</th></tr></thead><tbody><tr><td>3º</td><td><em>silêncio</em>, <em>turvar</em></td></tr><tr><td>5º</td><td><em>criar comida e água</em>, <em>proteção contra energia</em></td></tr><tr><td>7º</td><td><em>malogro</em>, <em>terreno alucinatório</em></td></tr><tr><td>9º</td><td><em>muralha de pedra</em>, <em>praga de insetos</em></td></tr></tbody></table><p><strong>Floresta</strong></p><table><thead><tr><th>Nível de Druida</th><th>Magias</th></tr></thead><tbody><tr><td>3º</td><td><em>escalada de aranha</em>, <em>pele-casca</em></td></tr><tr><td>5º</td><td><em>convocar relâmpagos</em>, <em>crescimento de plantas</em></td></tr><tr><td>7º</td><td><em>movimentação livre</em>, <em>presságio</em></td></tr><tr><td>9º</td><td><em>comunhão com a natureza</em>, <em>passo arbóreo</em></td></tr></tbody></table><p><strong>Litoral</strong></p><table><thead><tr><th>Nível de Druida</th><th>Magias</th></tr></thead><tbody><tr><td>3º</td><td><em>passo nebuloso</em>, <em>reflexos</em></td></tr><tr><td>5º</td><td><em>andar sobre as águas</em>, <em>respirar na água</em></td></tr><tr><td>7º</td><td><em>controlar água</em>, <em>movimentação livre</em></td></tr><tr><td>9º</td><td><em>conjurar elemental</em>, <em>vidência</em></td></tr></tbody></table><p><strong>Montanha</strong></p><table><thead><tr><th>Nível de Druida</th><th>Magias</th></tr></thead><tbody><tr><td>3º</td><td><em>crescer espinhos</em>, <em>escalada de aranha</em></td></tr><tr><td>5º</td><td><em>fundir-se às rochas</em>, <em>relâmpago</em></td></tr><tr><td>7º</td><td><em>moldar rochas</em>, <em>pele-rocha</em></td></tr><tr><td>9º</td><td><em>criar passagem</em>, <em>muralha de pedra</em></td></tr></tbody></table><p><strong>Pântano</strong></p><table><thead><tr><th>Nível de Druida</th><th>Magias</th></tr></thead><tbody><tr><td>3º</td><td><em>escuridão</em>, <em>flecha ácida de Melf</em></td></tr><tr><td>5º</td><td><em>andar sobre as águas</em>, <em>nuvem fétida</em></td></tr><tr><td>7º</td><td><em>localizar criatura</em>, <em>movimentação livre</em></td></tr><tr><td>9º</td><td><em>praga de insetos</em>, <em>vidência</em></td></tr></tbody></table><p><strong>Umbreterna</strong></p><table><thead><tr><th>Nível de Druida</th><th>Magias</th></tr></thead><tbody><tr><td>3º</td><td><em>escalada de aranha</em>, <em>teia</em></td></tr><tr><td>5º</td><td><em>forma gasosa</em>, <em>nuvem fétida</em></td></tr><tr><td>7º</td><td><em>invisibilidade maior</em>, <em>moldar rochas</em></td></tr><tr><td>9º</td><td><em>névoa mortal</em>, <em>praga de insetos</em></td></tr></tbody></table>",
             "en": "<p>Your mystical connection to the land infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid. Choose that land — arctic, coast, desert, forest, grassland, mountain, swamp, or Underdark — and consult the associated list of spells.</p> <p>Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p> <table>Arctic <thead> <tr> <th>Druid Level</th> <th>Spells</th> </tr> </thead> <tbody> <tr> <td>3rd</td> <td><em>hold person</em>, <em>spike growth</em></td> </tr> <tr> <td>5th</td> <td><em>sleet storm</em>, <em>slow</em></td> </tr> <tr> <td>7th</td> <td><em>freedom of movement</em>, <em>ice storm</em></td> </tr> <tr> <td>9th</td> <td><em>commune with nature</em>, <em>cone of cold</em>&nbsp;</td> </tr> </tbody> </table> <table>Coast <thead> <tr> <th>Druid Level</th> <th>Spells</th> </tr> </thead> <tbody> <tr> <td>3rd</td> <td><em>mirror image</em>, <em>misty step</em></td> </tr> <tr> <td>5th</td> <td><em>water breathing</em>, <em>water walk</em></td> </tr> <tr> <td>7th</td> <td><em>control water</em>, <em>freedom of movement</em></td> </tr> <tr> <td>9th</td> <td><em>conjure elemental</em>, <em>scrying</em></td> </tr> </tbody> </table> <table>Desert <thead> <tr> <th>Druid Level</th> <th>Spells</th> </tr> </thead> <tbody> <tr> <td>3rd</td> <td><em>blur</em>, <em>silence</em></td> </tr> <tr> <td>5th</td> <td><em>create food and water</em>, <em>protection from energy</em></td> </tr> <tr> <td>7th</td> <td><em>blight</em>, <em>hallucinatory terrain</em></td> </tr> <tr> <td>9th</td> <td><em>insect plague</em>, <em>wall of stone</em></td> </tr> </tbody> </table> <table>Forest <thead> <tr> <th>Druid Level</th> <th>Spells</th> </tr> </thead> <tbody> <tr> <td>3rd</td> <td><em>barkskin</em>, <em>spider climb</em></td> </tr> <tr> <td>5th</td> <td><em>call lightning</em>, <em>plant growth</em></td> </tr> <tr> <td>7th</td> <td><em>divination</em>, <em>freedom of movement</em></td> </tr> <tr> <td>9th</td> <td><em>commune with nature</em>, <em>tree stride</em></td> </tr> </tbody> </table> <table>Grassland <thead> <tr> <th>Druid Level</th> <th>Spells</th> </tr> </thead> <tbody> <tr> <td>3rd</td> <td><em>invisibility</em>, <em>pass without trace</em></td> </tr> <tr> <td>5th</td> <td><em>daylight</em>, <em>haste</em></td> </tr> <tr> <td>7th</td> <td><em>divination</em>, <em>freedom of movement</em></td> </tr> <tr> <td>9th</td> <td><em>dream</em>, <em>insect plague</em></td> </tr> </tbody> </table> <table>Mountain <thead> <tr> <th>Druid Level</th> <th>Spells</th> </tr> </thead> <tbody> <tr> <td>3rd</td> <td><em>spider climb</em>, <em>spike growth</em></td> </tr> <tr> <td>5th</td> <td><em>lightning bolt</em>, <em>meld into stone</em></td> </tr> <tr> <td>7th</td> <td><em>stone shape</em>, <em>stoneskin</em></td> </tr> <tr> <td>9th</td> <td><em>passwall</em>, <em>wall of stone</em></td> </tr> </tbody> </table> <table>Swamp <thead> <tr> <th>Druid Level</th> <th>Spells</th> </tr> </thead> <tbody> <tr> <td>3rd</td> <td><em>darkness</em>, <em>acid arrow</em></td> </tr> <tr> <td>5th</td> <td><em>water walk</em>, <em>stinking cloud</em></td> </tr> <tr> <td>7th</td> <td><em>freedom of movement</em>, <em>locate creature</em></td> </tr> <tr> <td>9th</td> <td><em>insect plague</em>, <em>scrying</em></td> </tr> </tbody> </table> <table>Underdark <thead> <tr> <th>Druid Level</th> <th>Spells</th> </tr> </thead> <tbody> <tr> <td>3rd</td> <td><em>spider climb</em>, <em>web</em></td> </tr> <tr> <td>5th</td> <td><em>gaseous form</em>, <em>stinking cloud</em></td> </tr> <tr> <td>7th</td> <td><em>greater invisibility</em>, <em>stone shape</em></td> </tr> <tr> <td>9th</td> <td><em>cloudkill</em>, <em>insect plague</em></td> </tr> </tbody> </table>"
@@ -392,7 +392,7 @@
           "key": "lands-stride",
           "level": 6,
           "source": { "pt": { "book": "LDJ", "page": 75 }, "en": { "book": "PHB", "page": 68 } },
-          "name": { "pt": "passo da terra", "en": "Land's Stride" },
+          "name": { "pt": "caminho da floresta", "en": "Land's Stride" },
           "html": {
             "pt": "<p>A partir do 6º nível, movimentar-se através de terreno difícil, não-mágico, não custa a você nenhum movimento adicional. Você também é capaz de mover-se por vegetação não mágica sem ser atrasado e sem receber dano, ainda que ela possua espinhos, espículas ou perigos semelhantes.</p><p>Além disso, você tem vantagem em salvaguardas contra plantas que são[?] criadas ou manipuladas magicamente para impedir movimento, como aquelas criadas pela magia constrição.</p>",
             "en": "<p>Starting at 6th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.</p> <p>In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.</p>"
@@ -629,7 +629,7 @@
           "key": "circle-forms",
           "level": 2,
           "source": { "pt": { "book": "LDJ", "page": 76 }, "en": { "book": "PHB", "page": 69 } },
-          "name": { "pt": "formas animais dos círculos druídicos", "en": "Circle Forms" },
+          "name": { "pt": "formas de círculo", "en": "Circle Forms" },
           "html": {
             "pt": "<p>Os ritos do seu círculo druídico lhe garantem a habilidade de se transformar em formas animais mais poderosas. A partir do 2º nível, você pode usar Forma Selvagem para se transformar em um animal com nível de desafio menor ou igual a 1 (você ignora a coluna ND Máximo da tabela Forma Animal, mas ainda deve respeitar as demais limitações descritas).</p><p>A partir do 6º nível, você pode se transformar em um animal com nível de desafio tão alto quanto seu nível de druida dividido por 3, arredondando para baixo.</p>",
             "en": "<p>The rites of your circle grant you the ability to transform into more dangerous animal forms. Starting at 2nd level, you can use your Wild Shape to transform into a beast with a challenge rating as high as 1 (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there).</p> <p>Starting at 6th level, you can transform into a beast with a challenge rating as high as your druid level divided by 3, rounded down.</p>"
@@ -649,7 +649,7 @@
           "key": "primal-strike",
           "level": 6,
           "source": { "pt": { "book": "LDJ", "page": 76 }, "en": { "book": "PHB", "page": 69 } },
-          "name": { "pt": "ataque primal", "en": "Primal Strike" },
+          "name": { "pt": "ataque primordial", "en": "Primal Strike" },
           "html": {
             "pt": "<p>A partir do 6º nível, seus ataques realizados enquanto na forma animal contam como ataques mágicos com o propósito de superar resistência e imunidade a ataques e danos não mágicos.</p>",
             "en": "<p>Starting at 6th level, your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>"
@@ -703,7 +703,7 @@
           "key": "hearth-of-moonlight-and-shadow",
           "level": 6,
           "source": { "pt": { "book": "GXTC", "page": 27 }, "en": { "book": "XGE", "page": 22 } },
-          "name": { "pt": "refúgio da sombra e do luar", "en": "Hearth of Moonlight and Shadow" },
+          "name": { "pt": "lareira de sombra e luar", "en": "Hearth of Moonlight and Shadow" },
           "html": {
             "pt": "<p>No 6º nível, todo local pode ser seu lar. Durante um descanso curto ou longo, você pode invocar o poder sombrio da Corte Sombria para ajudar a proteger seu descanso. No começo do seu descanso, você toca um ponto no espaço e uma esfera mágica, invisível, com 9 metros de raio aparece, centrada naquele ponto. Cobertura total bloqueia a esfera.</p><p>Uma vez dentro, você e seus aliados ganham um bônus de +5 em testes de Destreza (Furtividade) e Sabedoria (Percepção), e qualquer luz oriunda de chamas dentro da esfera (como fogueiras, tochas e similares) são invisíveis do lado de fora. A esfera desaparece ao final do descanso ou quando você sai dela.</p>",
             "en": "<p>At 6th level, home can be wherever you are. During a short or long rest, you can invoke the shadowy power of the Gloaming Court to help guard your respite. At the start of the rest, you touch a point in space, and an invisible, 30-foot-radius sphere of magic appears, centered on that point. Total cover blocks the sphere.</p> <p>While within the sphere, you and your allies gain a +5 bonus to Dexterity (Stealth) and Wisdom (Perception) checks, and any light from open flames in the sphere (a campfire, torches, or the like) isn’t visible outside it.</p> <p>The sphere vanishes at the end of the rest or when you leave the sphere.</p>"
@@ -713,7 +713,7 @@
           "key": "hidden-paths",
           "level": 10,
           "source": { "pt": { "book": "GXTC", "page": 27 }, "en": { "book": "XGE", "page": 22 } },
-          "name": { "pt": "trilhas ocultas", "en": "Hidden Paths" },
+          "name": { "pt": "caminhos ocultos", "en": "Hidden Paths" },
           "html": {
             "pt": "<p>A partir do 10º nível, você pode usar os caminhos mágicos e ocultos dos feéricos para percorrer grandes distâncias num piscar de olhos. Como uma ação bônus no seu turno, você pode se teleportar por uma distância de até 18 metros para um espaço desocupado que você possa ver.</p><p>Como alternativa, você pode usar sua ação para teleportar uma criatura voluntária que você toque por até 18 metros para um espaço desocupado que você possa ver.</p><p>Você pode usar esta característica um número de vezes igual ao seu modificador de Sabedoria (no mínimo uma vez), e você recupera todos os usos gastos dela ao terminar um descanso longo.</p>",
             "en": "<p>Starting at 10th level, you can use the hidden, magical pathways that some fey use to traverse space in the blink of an eye. As a bonus action on your turn, you can teleport up to 60 feet to an unoccupied space you can see. Alternatively, you can use your action to teleport one willing creature you touch up to 30 feet to an unoccupied space you can see.</p> <p>You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.</p>"
@@ -723,7 +723,7 @@
           "key": "walker-in-dreams",
           "level": 14,
           "source": { "pt": { "book": "GXTC", "page": 28 }, "en": { "book": "XGE", "page": 22 } },
-          "name": { "pt": "caminhante onírico", "en": "Walker in Dreams" },
+          "name": { "pt": "caminhante dos sonhos", "en": "Walker in Dreams" },
           "html": {
             "pt": "<p>No 14º nível, a magia de Faéria lhe garante a habilidade de viajar mentalmente ou fisicamente pelas terras dos sonhos.</p><p>Ao terminar um descanso curto, você conjura uma das seguintes magias, sem gastar um espaço de magia ou usar componentes materiais: sonho (com você como mensageiro), vidência ou círculo de teleporte.</p><p>Este uso de círculo de teleporte é especial. Em vez de abrir um portal para um círculo de teleporte permanente, a magia abre um portal para a última localização onde você terminou um descanso longo no seu atual plano de existência. Caso você não tenha chegado a terminar um descanso longo no seu atual plano de existência, a magia falha mas não é gasta.</p><p>Após usar esta característica, você não pode usá-la novamente até terminar um descanso longo.</p>",
             "en": "<p>At 14th level, the magic of the Feywild grants you the ability to travel mentally or physically through dreamlands.</p> <p>When you finish a short rest, you can cast one of the following spells, without expending a spell slot or requiring material components: dream (with you as the messenger), scrying, or teleportation circle.</p> <p>This use of teleportation circle is special. Rather than opening a portal to a permanent teleportation circle, it opens a portal to the last location where you finished a long rest on your current plane of existence. If you haven’t taken a long rest on your current plane, the spell fails but isn’t wasted.</p> <p>Once you use this feature, you can’t use it again until you finish a long rest.</p>"
@@ -736,7 +736,7 @@
     {
       "slug": "circle-of-the-shepherd",
       "short_name_en": "Shepherd",
-      "name": { "pt": "Círculo do Pastor", "en": "Circle of the Shepherd" },
+      "name": { "pt": "círculo do pastor", "en": "Circle of the Shepherd" },
       "source": { "pt": { "book": "GXTC", "page": 28 }, "en": { "book": "XGE", "page": 23 } },
       "intro_html": {
         "pt": "<p>Druidas do Círculo do Pastoreio comungam com os espíritos da natureza, especialmente com os espíritos de feras e feéricos, chamando esses espíritos para pedir ajuda. Esses druidas reconhecem que todas as coisas vivas têm um papel no mundo natural, mas concentram-se em proteger animais e criaturas feéricas que têm dificuldade em defenderem-se a si próprias. Pastores, como são chamados, veem tais criaturas como sua responsabilidade. Eles expulsam monstros que as ameacem e caçadores que matam mais do que o necessário, impedindo, assim, que a civilização invada hábitats de animais raros e locais sagrados para as fadas. Muitos desses druidas são mais felizes longe das vilas e cidades, satisfeitos em passar seus dias na companhia de animais e criaturas feéricas dos ermos.</p><p>Membros deste círculo tornam-se aventureiros para se oporem às forças que ameaçam seus protegidos, ou para saírem em busca de conhecimento e poder que os auxiliem nessa tarefa. Para onde quer que esses druidas vão, os espíritos dos ermos os acompanham.</p>",
@@ -747,7 +747,7 @@
           "key": "speech-of-the-woods",
           "level": 2,
           "source": { "pt": { "book": "GXTC", "page": 28 }, "en": { "book": "XGE", "page": 23 } },
-          "name": { "pt": "discurso da floresta", "en": "Speech of the Woods" },
+          "name": { "pt": "voz da natureza", "en": "Speech of the Woods" },
           "html": {
             "pt": "<p>No 2º nível, você ganha a habilidade de conversar com feras e muitos tipos de feéricos.</p><p>Você aprende a falar, ler e escrever Silvestre. Além disso, feras podem entender o que você fala, e você ganha a habilidade de decifrar os sons e emoções delas. A maioria das feras não têm a inteligência necessária para comunicar ou compreender conceitos sofisticados, mas uma fera amigável poderia retransmitir o que ela viu ou ouviu no passado recente. Esta habilidade não lhe garante a amizade das feras, embora você possa combiná-la com presentes para incorrer nos favores delas, como faria com qualquer personagem não jogador.</p>",
             "en": "<p>At 2nd level, you gain the ability to converse with beasts and many fey.</p> <p>You learn to speak, read, and write Sylvan. In addition, beasts can understand your speech, and you gain the ability to decipher their noises and motions. Most beasts lack the intelligence to convey or understand sophisticated concepts, but a friendly beast could relay what it has seen or heard in the recent past. This ability doesn’t grant you friendship with beasts, though you can combine this ability with gifts to curry favor with them as you would with any nonplayer character.</p>"
@@ -757,7 +757,7 @@
           "key": "spirit-totem",
           "level": 2,
           "source": { "pt": { "book": "GXTC", "page": 28 }, "en": { "book": "XGE", "page": 23 } },
-          "name": { "pt": "totem espiritual", "en": "Spirit Totem" },
+          "name": { "pt": "espírito totêmico", "en": "Spirit Totem" },
           "html": {
             "pt": "<p>A partir do 2º nível, você pode convocar espíritos da natureza para influenciarem o mundo ao seu redor. Como uma ação bônus, você pode invocar magicamente um espírito incorpóreo para um ponto à sua vista e a até 18 metros de você. O espírito cria uma aura com raio de 9 metros centrada naquele ponto. O espírito não conta nem como uma criatura, nem como um objeto, embora tenha a aparência espectral da criatura que ele representa.</p><p>Como uma ação bônus, você pode mover o espírito por até 18 metros para um ponto que você possa ver.</p><p>O espírito persiste por 1 minuto ou até que você fique incapacitado. Após usar esta característica, você não pode voltar a usá-la até terminar um descanso curto ou longo.</p><p>O efeito da aura depende do tipo de espírito que você invocou, veja as opções a seguir.</p><p><strong>Espírito Falcão.</strong> O espírito falcão é o caçador consumado, ajudando-o e a seus aliados com visão aguçada. Quando uma criatura realiza uma jogada de ataque contra um alvo dentro da aura do espírito, você pode usar sua reação para conceder vantagem à jogada de ataque. Além disso, você e seus aliados têm vantagem em testes de Sabedoria (Percepção) enquanto estiverem dentro da aura.</p><p><strong>Espírito Unicórnio.</strong> O espírito unicórnio protege àqueles próximos a ele. Você e seus aliados ganham vantagem em todos os testes de atributo feitos para detectar criaturas dentro da aura do espírito. Além disso, se você usar um espaço de magia para conjurar uma magia que restaure pontos de vida a qualquer criatura dentro ou fora da aura, cada criatura à sua escolha dentro da aura também recupera uma quantidade de pontos de vida igual ao seu nível como druida.</p><p><strong>Espírito Urso.</strong> O espírito urso concede a você e seus aliados força e resistência. Cada criatura à sua escolha dentro da aura quando o espírito aparece ganha uma quantidade de pontos de vida temporários igual a 5 + seu nível como druida. Além disso, você e seus aliados ganham vantagem em testes e salvaguardas de Força enquanto estiverem dentro da aura.</p>",
             "en": "<p>Starting at 2nd level, you can call forth nature spirits to influence the world around you. As a bonus action, you can magically summon an incorporeal spirit to a point you can see within 60 feet of you. The spirit creates an aura in a 30-foot radius around that point. It counts as neither a creature nor an object, though it has the spectral appearance of the creature it represents.</p> <p>As a bonus action, you can move the spirit up to 60 feet to a point you can see.</p> <p>The spirit persists for 1 minute or until you’re incapacitated. Once you use this feature, you can’t use it again until you finish a short or long rest.</p> <p>The effect of the spirit’s aura depends on the type of spirit you summon from the options below.</p> <p><strong>Bear Spirit.&nbsp;</strong>The bear spirit grants you and your allies its might and endurance. Each creature of your choice in the aura when the spirit appears gains temporary hit points equal to 5 + your druid level. In addition, you and your allies gain&nbsp;advantage&nbsp;on Strength checks and Strength saving throws while in the aura.</p> <p><strong>Hawk Spirit.</strong>&nbsp;The hawk spirit is a consummate hunter, aiding you and your allies with its keen sight. When a creature makes an attack roll against a target in the spirit’s aura, you can use your reaction to grant advantage to that attack roll. In addition, you and your allies have&nbsp;advantage&nbsp;on Wisdom (Perception) checks while in the aura.</p> <p><strong>Unicorn Spirit.</strong>&nbsp;The unicorn spirit lends its protection to those nearby. You and your allies gain&nbsp;advantage&nbsp;on all ability checks made to detect creatures in the spirit’s aura. In addition, if you cast a spell using a spell slot that restores hit points to any creature inside or outside the aura, each creature of your choice in the aura also regains hit points equal to your druid level.</p>"
@@ -787,7 +787,7 @@
           "key": "faithful-summons",
           "level": 14,
           "source": { "pt": { "book": "GXTC", "page": 29 }, "en": { "book": "XGE", "page": 23 } },
-          "name": { "pt": "invocações fiéis", "en": "Faithful Summons" },
+          "name": { "pt": "chamado de fidelidade", "en": "Faithful Summons" },
           "html": {
             "pt": "<p>A partir do 14º nível, os espíritos da natureza com os quais você comunga passam a protegê-lo quando você mais precisa. Se você estiver reduzido a 0 ponto de vida ou estiver incapacitado contra sua vontade, você pode ganhar imediatamente os benefícios de invocar animais como se essa magia tivesse sido conjurada usando um espaço de magia de 9º círculo. Ela invoca quatro feras à sua escolha que tenham nível de desafio 2 ou menor. As feras invocadas aparecem a até 6 metros de você. Caso não recebam ordens suas, elas o protegerão do perigo e atacarão seus inimigos.</p><p>A magia dura 1 hora, não exigindo concentração, ou até que você a dissipe (não exige uma ação).</p><p>Após usar esta característica, você não pode usá-la novamente até terminar um descanso longo.</p>",
             "en": "<p>Starting at 14th level, the nature spirits you commune with protect you when you are the most defenseless. If you are reduced to 0 hit points or are incapacitated against your will, you can immediately gain the benefits of conjure animals&nbsp;as if it were cast using a 9th-level spell slot. It summons four beasts of your choice that are challenge rating 2 or lower. The conjured beasts appear within 20 feet of you. If they receive no commands from you, they protect you from harm and attack your foes. The spell lasts for 1 hour, requiring no concentration, or until you dismiss it (no action required).</p> <p>Once you use this feature, you can’t use it again until you finish a long rest.</p>"

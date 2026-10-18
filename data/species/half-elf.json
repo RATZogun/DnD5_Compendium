@@ -41,7 +41,7 @@
     },
     {
       "key": "fey-ancestry",
-      "name": { "pt": "ancestralidade feérica", "en": "Fey Ancestry" },
+      "name": { "pt": "ancestral feérico", "en": "Fey Ancestry" },
       "html": {
         "pt": "<p>Nenhum tipo de magia pode colocá-lo para dormir, e você tem vantagem em salvaguardas contra ser enfeitiçado.</p>",
         "en": "<p>You have advantage on saving throws against being charmed, and magic can’t put you to sleep.</p>"
@@ -49,7 +49,7 @@
     },
     {
       "key": "skill-versatility",
-      "name": { "pt": "versatilidade com perícias", "en": "Skill Versatility" },
+      "name": { "pt": "versatilidade em perícia", "en": "Skill Versatility" },
       "html": {
         "pt": "<p>Você ganha proficiência em duas perícias à sua escolha.</p>",
         "en": "<p>You gain proficiency in two skills of your choice.</p>"

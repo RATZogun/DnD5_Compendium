@@ -52,7 +52,7 @@
       "traits": [
         {
           "key": "skills",
-          "name": { "pt": "perícias", "en": "Skills" },
+          "name": { "pt": "perícia", "en": "Skills" },
           "html": {
             "pt": "<p>Você ganha proficiência em uma perícia à sua escolha.</p>",
             "en": "<p>You gain proficiency in one skill of your choice.</p>"

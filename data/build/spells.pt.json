@@ -1,7 +1,7 @@
 [
   {
     "slug": "calm-emotions",
-    "name": "Acalmar Emoções",
+    "name": "acalmar emoções",
     "original_name": "Calm Emotions",
     "level": 2,
     "is_ritual": false,
@@ -41,7 +41,7 @@
   },
   {
     "slug": "spare-the-dying",
-    "name": "acudir os moribundos",
+    "name": "estabilizar",
     "original_name": "Spare the Dying",
     "level": 0,
     "is_ritual": false,
@@ -121,7 +121,7 @@
   },
   {
     "slug": "planar-ally",
-    "name": "Aliado Planar",
+    "name": "aliado planar",
     "original_name": "Planar Ally",
     "level": 6,
     "is_ritual": false,
@@ -241,7 +241,7 @@
   },
   {
     "slug": "friends",
-    "name": "amigos",
+    "name": "amizade",
     "original_name": "Friends",
     "level": 0,
     "is_ritual": false,
@@ -321,7 +321,7 @@
   },
   {
     "slug": "planar-binding",
-    "name": "Âncora Planar",
+    "name": "âncora planar",
     "original_name": "Planar Binding",
     "level": 5,
     "is_ritual": false,
@@ -361,7 +361,7 @@
   },
   {
     "slug": "animate-dead",
-    "name": "Animar Mortos",
+    "name": "animar mortos",
     "original_name": "Animate Dead",
     "level": 3,
     "is_ritual": false,
@@ -441,7 +441,7 @@
   },
   {
     "slug": "antipathy-sympathy",
-    "name": "Antipatia/Simpatia",
+    "name": "antipatia/simpatia",
     "original_name": "Antipathy/Sympathy",
     "level": 8,
     "is_ritual": false,
@@ -481,7 +481,7 @@
   },
   {
     "slug": "enhance-ability",
-    "name": "aprimorar atributo",
+    "name": "aprimorar habilidade",
     "original_name": "Enhance Ability",
     "level": 2,
     "is_ritual": false,
@@ -521,7 +521,7 @@
   },
   {
     "slug": "imprisonment",
-    "name": "Aprisionamento",
+    "name": "aprisionamento",
     "original_name": "Imprisonment",
     "level": 9,
     "is_ritual": false,
@@ -561,7 +561,7 @@
   },
   {
     "slug": "leomunds-secret-chest",
-    "name": "Arca Secreta de Leomund",
+    "name": "arca secreta de leomund",
     "original_name": "Leomund's Secret Chest",
     "level": 4,
     "is_ritual": false,
@@ -721,7 +721,7 @@
   },
   {
     "slug": "mage-armor",
-    "name": "Armadura Arcana",
+    "name": "armadura arcana",
     "original_name": "Mage Armor",
     "level": 1,
     "is_ritual": false,
@@ -761,7 +761,7 @@
   },
   {
     "slug": "armor-of-agathys",
-    "name": "armadura de Agathys",
+    "name": "armadura de agathys",
     "original_name": "Armor of Agathys",
     "level": 1,
     "is_ritual": false,
@@ -801,7 +801,7 @@
   },
   {
     "slug": "knock",
-    "name": "Arrombar",
+    "name": "arrombar",
     "original_name": "Knock",
     "level": 2,
     "is_ritual": false,
@@ -841,7 +841,7 @@
   },
   {
     "slug": "druidcraft",
-    "name": "Druidismo",
+    "name": "druidismo",
     "original_name": "Druidcraft",
     "level": 0,
     "is_ritual": false,
@@ -961,7 +961,7 @@
   },
   {
     "slug": "enlarge-reduce",
-    "name": "Aumentar/Reduzir",
+    "name": "aumentar/reduzir",
     "original_name": "Enlarge/Reduce",
     "level": 2,
     "is_ritual": false,
@@ -1001,7 +1001,7 @@
   },
   {
     "slug": "aura-of-life",
-    "name": "Aura da Vida",
+    "name": "aura de vida",
     "original_name": "Aura of Life",
     "level": 4,
     "is_ritual": false,
@@ -1041,7 +1041,7 @@
   },
   {
     "slug": "aura-of-purity",
-    "name": "Aura da Pureza",
+    "name": "aura de pureza",
     "original_name": "Aura of Purity",
     "level": 4,
     "is_ritual": false,
@@ -1121,7 +1121,7 @@
   },
   {
     "slug": "nystuls-magic-aura",
-    "name": "aura mágica de Nystul",
+    "name": "aura mágica de nystul",
     "original_name": "Nystul's Magic Aura",
     "level": 2,
     "is_ritual": false,
@@ -1161,7 +1161,7 @@
   },
   {
     "slug": "holy-aura",
-    "name": "Aura Sagrada",
+    "name": "aura sagrada",
     "original_name": "Holy Aura",
     "level": 8,
     "is_ritual": false,
@@ -1201,7 +1201,7 @@
   },
   {
     "slug": "aid",
-    "name": "auxílio",
+    "name": "ajuda",
     "original_name": "Aid",
     "level": 2,
     "is_ritual": false,
@@ -1241,7 +1241,7 @@
   },
   {
     "slug": "banishment",
-    "name": "Banimento",
+    "name": "banimento",
     "original_name": "Banishment",
     "level": 4,
     "is_ritual": false,
@@ -1281,7 +1281,7 @@
   },
   {
     "slug": "heroes-feast",
-    "name": "Banquete de Heróis",
+    "name": "banquete de heróis",
     "original_name": "Heroes' Feast",
     "level": 6,
     "is_ritual": false,
@@ -1361,7 +1361,7 @@
   },
   {
     "slug": "bless",
-    "name": "Benção",
+    "name": "bênção",
     "original_name": "Bless",
     "level": 1,
     "is_ritual": false,
@@ -1401,7 +1401,7 @@
   },
   {
     "slug": "magic-mouth",
-    "name": "Boca Encantada",
+    "name": "boca encantada",
     "original_name": "Magic Mouth",
     "level": 2,
     "is_ritual": true,
@@ -1441,7 +1441,7 @@
   },
   {
     "slug": "fireball",
-    "name": "Bola de Fogo",
+    "name": "bola de fogo",
     "original_name": "Fireball",
     "level": 3,
     "is_ritual": false,
@@ -1481,7 +1481,7 @@
   },
   {
     "slug": "delayed-blast-fireball",
-    "name": "Bola de Fogo Controlável",
+    "name": "bola de fogo controlável",
     "original_name": "Delayed Blast Fireball",
     "level": 7,
     "is_ritual": false,
@@ -1521,7 +1521,7 @@
   },
   {
     "slug": "acid-splash",
-    "name": "bolha ácida",
+    "name": "espirro ácido",
     "original_name": "Acid Splash",
     "level": 0,
     "is_ritual": false,
@@ -1641,7 +1641,7 @@
   },
   {
     "slug": "arms-of-hadar",
-    "name": "Braços de Hadar",
+    "name": "braços de hadar",
     "original_name": "Arms of Hadar",
     "level": 1,
     "is_ritual": false,
@@ -1681,7 +1681,7 @@
   },
   {
     "slug": "wind-walk",
-    "name": "Caminhar no Vento",
+    "name": "caminhar no vento",
     "original_name": "Wind Walk",
     "level": 6,
     "is_ritual": false,
@@ -1721,7 +1721,7 @@
   },
   {
     "slug": "water-walk",
-    "name": "Andar na Água",
+    "name": "andar na água",
     "original_name": "Water Walk",
     "level": 3,
     "is_ritual": true,
@@ -1761,7 +1761,7 @@
   },
   {
     "slug": "antimagic-field",
-    "name": "Campo Antimagia",
+    "name": "campo antimagia",
     "original_name": "Antimagic Field",
     "level": 8,
     "is_ritual": false,
@@ -1801,7 +1801,7 @@
   },
   {
     "slug": "mordenkainens-faithful-hound",
-    "name": "Cão Fiel de Mordenkainen",
+    "name": "cão fiel de mordenkainen",
     "original_name": "Mordenkainen's Faithful Hound",
     "level": 4,
     "is_ritual": false,
@@ -1841,7 +1841,7 @@
   },
   {
     "slug": "forcecage",
-    "name": "Prisão de Energia",
+    "name": "prisão de energia",
     "original_name": "Forcecage",
     "level": 7,
     "is_ritual": false,
@@ -1881,7 +1881,7 @@
   },
   {
     "slug": "enthrall",
-    "name": "Cativar",
+    "name": "cativar",
     "original_name": "Enthrall",
     "level": 2,
     "is_ritual": false,
@@ -1961,7 +1961,7 @@
   },
   {
     "slug": "haste",
-    "name": "Velocidade",
+    "name": "velocidade",
     "original_name": "Haste",
     "level": 3,
     "is_ritual": false,
@@ -2001,7 +2001,7 @@
   },
   {
     "slug": "continual-flame",
-    "name": "Chama Contínua",
+    "name": "chama contínua",
     "original_name": "Continual Flame",
     "level": 2,
     "is_ritual": false,
@@ -2041,7 +2041,7 @@
   },
   {
     "slug": "sacred-flame",
-    "name": "Chama Sagrada",
+    "name": "chama sagrada",
     "original_name": "Sacred Flame",
     "level": 0,
     "is_ritual": false,
@@ -2081,7 +2081,7 @@
   },
   {
     "slug": "thorn-whip",
-    "name": "Chicote de Espinhos",
+    "name": "chicote de espinhos",
     "original_name": "Thorn Whip",
     "level": 0,
     "is_ritual": false,
@@ -2121,7 +2121,7 @@
   },
   {
     "slug": "meteor-swarm",
-    "name": "Chuva de Meteoros",
+    "name": "chuva de meteoros",
     "original_name": "Meteor Swarm",
     "level": 9,
     "is_ritual": false,
@@ -2161,7 +2161,7 @@
   },
   {
     "slug": "circle-of-death",
-    "name": "Círculo da Morte",
+    "name": "círculo da morte",
     "original_name": "Circle of Death",
     "level": 6,
     "is_ritual": false,
@@ -2241,7 +2241,7 @@
   },
   {
     "slug": "teleportation-circle",
-    "name": "Círculo de Teletransporte",
+    "name": "círculo de teletransporte",
     "original_name": "Teleportation Circle",
     "level": 5,
     "is_ritual": false,
@@ -2281,7 +2281,7 @@
   },
   {
     "slug": "magic-circle",
-    "name": "Círculo Mágico",
+    "name": "círculo mágico",
     "original_name": "Magic Circle",
     "level": 3,
     "is_ritual": false,
@@ -2321,7 +2321,7 @@
   },
   {
     "slug": "clairvoyance",
-    "name": "Clarividência",
+    "name": "clarividência",
     "original_name": "Clairvoyance",
     "level": 3,
     "is_ritual": false,
@@ -2361,7 +2361,7 @@
   },
   {
     "slug": "clone",
-    "name": "Clone",
+    "name": "clone",
     "original_name": "Clone",
     "level": 8,
     "is_ritual": false,
@@ -2441,7 +2441,7 @@
   },
   {
     "slug": "command",
-    "name": "Comando",
+    "name": "comando",
     "original_name": "Command",
     "level": 1,
     "is_ritual": false,
@@ -2481,7 +2481,7 @@
   },
   {
     "slug": "comprehend-languages",
-    "name": "Compreender Idiomas",
+    "name": "compreender idiomas",
     "original_name": "Comprehend Languages",
     "level": 1,
     "is_ritual": true,
@@ -2561,7 +2561,7 @@
   },
   {
     "slug": "commune",
-    "name": "Comunhão",
+    "name": "comunhão",
     "original_name": "Commune",
     "level": 5,
     "is_ritual": true,
@@ -2641,7 +2641,7 @@
   },
   {
     "slug": "cone-of-cold",
-    "name": "Cone de Frio",
+    "name": "cone de frio",
     "original_name": "Cone of Cold",
     "level": 5,
     "is_ritual": false,
@@ -2721,7 +2721,7 @@
   },
   {
     "slug": "hallow",
-    "name": "Consagrar",
+    "name": "consagrar",
     "original_name": "Hallow",
     "level": 5,
     "is_ritual": false,
@@ -2761,7 +2761,7 @@
   },
   {
     "slug": "contagion",
-    "name": "contágio",
+    "name": "praga",
     "original_name": "Contagion",
     "level": 5,
     "is_ritual": false,
@@ -2801,7 +2801,7 @@
   },
   {
     "slug": "contact-other-plane",
-    "name": "Contato Extraplanar",
+    "name": "contato extraplanar",
     "original_name": "Contact Other Plane",
     "level": 5,
     "is_ritual": true,
@@ -2841,7 +2841,7 @@
   },
   {
     "slug": "contingency",
-    "name": "Contingência",
+    "name": "contingência",
     "original_name": "Contingency",
     "level": 6,
     "is_ritual": false,
@@ -2881,7 +2881,7 @@
   },
   {
     "slug": "counterspell",
-    "name": "Contramágica",
+    "name": "contramágica",
     "original_name": "Counterspell",
     "level": 3,
     "is_ritual": false,
@@ -2921,7 +2921,7 @@
   },
   {
     "slug": "control-water",
-    "name": "Controlar a Água",
+    "name": "controlar a água",
     "original_name": "Control Water",
     "level": 4,
     "is_ritual": false,
@@ -2961,7 +2961,7 @@
   },
   {
     "slug": "control-weather",
-    "name": "Controlar o Clima",
+    "name": "controlar o clima",
     "original_name": "Control Weather",
     "level": 8,
     "is_ritual": false,
@@ -3001,7 +3001,7 @@
   },
   {
     "slug": "drawmijs-instant-summons",
-    "name": "Invocação Instantânea de Drawmij",
+    "name": "invocação instantânea de drawmij",
     "original_name": "Drawmij's Instant Summons",
     "level": 6,
     "is_ritual": true,
@@ -3161,7 +3161,7 @@
   },
   {
     "slug": "rope-trick",
-    "name": "Truque de Corda",
+    "name": "truque de corda",
     "original_name": "Rope Trick",
     "level": 2,
     "is_ritual": false,
@@ -3241,7 +3241,7 @@
   },
   {
     "slug": "crown-of-madness",
-    "name": "Coroa da Loucura",
+    "name": "coroa da loucura",
     "original_name": "Crown of Madness",
     "level": 2,
     "is_ritual": false,
@@ -3281,7 +3281,7 @@
   },
   {
     "slug": "chain-lightning",
-    "name": "Corrente de Relâmpagos",
+    "name": "corrente de relâmpagos",
     "original_name": "Chain Lightning",
     "level": 6,
     "is_ritual": false,
@@ -3321,7 +3321,7 @@
   },
   {
     "slug": "spike-growth",
-    "name": "Crescer Espinhos",
+    "name": "crescer espinhos",
     "original_name": "Spike Growth",
     "level": 2,
     "is_ritual": false,
@@ -3361,7 +3361,7 @@
   },
   {
     "slug": "plant-growth",
-    "name": "Ampliar Plantas",
+    "name": "ampliar plantas",
     "original_name": "Plant Growth",
     "level": 3,
     "is_ritual": false,
@@ -3401,7 +3401,7 @@
   },
   {
     "slug": "creation",
-    "name": "Criação",
+    "name": "criação",
     "original_name": "Creation",
     "level": 5,
     "is_ritual": false,
@@ -3481,7 +3481,7 @@
   },
   {
     "slug": "create-food-and-water",
-    "name": "Criar Alimentos",
+    "name": "criar alimentos",
     "original_name": "Create Food and Water",
     "level": 3,
     "is_ritual": false,
@@ -3521,7 +3521,7 @@
   },
   {
     "slug": "create-undead",
-    "name": "Criar Mortos-Vivos",
+    "name": "criar mortos- vivos",
     "original_name": "Create Undead",
     "level": 6,
     "is_ritual": false,
@@ -3561,7 +3561,7 @@
   },
   {
     "slug": "create-or-destroy-water",
-    "name": "Criar ou Destruir Água",
+    "name": "criar ou destruir água",
     "original_name": "Create or Destroy Water",
     "level": 1,
     "is_ritual": false,
@@ -3601,7 +3601,7 @@
   },
   {
     "slug": "passwall",
-    "name": "Criar Passagem",
+    "name": "criar passagem",
     "original_name": "Passwall",
     "level": 5,
     "is_ritual": false,
@@ -3641,7 +3641,7 @@
   },
   {
     "slug": "antilife-shell",
-    "name": "Cúpula Antivida",
+    "name": "cúpula antivida",
     "original_name": "Antilife Shell",
     "level": 5,
     "is_ritual": false,
@@ -3841,7 +3841,7 @@
   },
   {
     "slug": "hex",
-    "name": "danação",
+    "name": "bruxaria",
     "original_name": "Hex",
     "level": 1,
     "is_ritual": false,
@@ -3881,7 +3881,7 @@
   },
   {
     "slug": "ottos-irresistible-dance",
-    "name": "Dança Irresistível de Otto",
+    "name": "dança irresistível de otto",
     "original_name": "Otto's Irresistible Dance",
     "level": 6,
     "is_ritual": false,
@@ -3921,7 +3921,7 @@
   },
   {
     "slug": "flesh-to-stone",
-    "name": "Carne Para Pedra",
+    "name": "carne para pedra",
     "original_name": "Flesh to Stone",
     "level": 6,
     "is_ritual": false,
@@ -3961,7 +3961,7 @@
   },
   {
     "slug": "finger-of-death",
-    "name": "Dedo da Morte",
+    "name": "dedo da morte",
     "original_name": "Finger of Death",
     "level": 7,
     "is_ritual": false,
@@ -4001,7 +4001,7 @@
   },
   {
     "slug": "guardian-of-faith",
-    "name": "Guardião da Fé",
+    "name": "guardião da fé",
     "original_name": "Guardian of Faith",
     "level": 4,
     "is_ritual": false,
@@ -4041,7 +4041,7 @@
   },
   {
     "slug": "wish",
-    "name": "Desejo",
+    "name": "desejo",
     "original_name": "Wish",
     "level": 9,
     "is_ritual": false,
@@ -4081,7 +4081,7 @@
   },
   {
     "slug": "disintegrate",
-    "name": "Desintegrar",
+    "name": "desintegrar",
     "original_name": "Disintegrate",
     "level": 6,
     "is_ritual": false,
@@ -4121,7 +4121,7 @@
   },
   {
     "slug": "shatter",
-    "name": "Despedaçar",
+    "name": "despedaçar",
     "original_name": "Shatter",
     "level": 2,
     "is_ritual": false,
@@ -4161,7 +4161,7 @@
   },
   {
     "slug": "awaken",
-    "name": "Despertar",
+    "name": "despertar",
     "original_name": "Awaken",
     "level": 5,
     "is_ritual": false,
@@ -4201,7 +4201,7 @@
   },
   {
     "slug": "mislead",
-    "name": "Despistar",
+    "name": "despistar",
     "original_name": "Mislead",
     "level": 5,
     "is_ritual": false,
@@ -4241,7 +4241,7 @@
   },
   {
     "slug": "staggering-smite",
-    "name": "destruição atordoante",
+    "name": "destruição estonteante",
     "original_name": "Staggering Smite",
     "level": 4,
     "is_ritual": false,
@@ -4281,7 +4281,7 @@
   },
   {
     "slug": "banishing-smite",
-    "name": "destruição banidor a",
+    "name": "destruição banidora",
     "original_name": "Banishing Smite",
     "level": 5,
     "is_ritual": false,
@@ -4321,7 +4321,7 @@
   },
   {
     "slug": "searing-smite",
-    "name": "destruição cauterizante",
+    "name": "destruição lancinante",
     "original_name": "Searing Smite",
     "level": 1,
     "is_ritual": false,
@@ -4441,7 +4441,7 @@
   },
   {
     "slug": "thunderous-smite",
-    "name": "destruição estrondosa",
+    "name": "destruição trovejante",
     "original_name": "Thunderous Smite",
     "level": 1,
     "is_ritual": false,
@@ -4481,7 +4481,7 @@
   },
   {
     "slug": "detect-magic",
-    "name": "Detectar Magia",
+    "name": "detectar magia",
     "original_name": "Detect Magic",
     "level": 1,
     "is_ritual": true,
@@ -4521,7 +4521,7 @@
   },
   {
     "slug": "detect-evil-and-good",
-    "name": "Detectar o Bem e Mal",
+    "name": "detectar o bem e mal",
     "original_name": "Detect Evil and Good",
     "level": 1,
     "is_ritual": false,
@@ -4561,7 +4561,7 @@
   },
   {
     "slug": "detect-thoughts",
-    "name": "Detectar Pensamentos",
+    "name": "detectar pensamentos",
     "original_name": "Detect Thoughts",
     "level": 2,
     "is_ritual": false,
@@ -4601,7 +4601,7 @@
   },
   {
     "slug": "detect-poison-and-disease",
-    "name": "Detectar Veneno e Doença",
+    "name": "detectar veneno e doença",
     "original_name": "Detect Poison and Disease",
     "level": 1,
     "is_ritual": true,
@@ -4641,7 +4641,7 @@
   },
   {
     "slug": "tensers-floating-disk",
-    "name": "Disco Flutuante de Tenser",
+    "name": "disco flutuante de tenser",
     "original_name": "Tenser's Floating Disk",
     "level": 1,
     "is_ritual": true,
@@ -4681,7 +4681,7 @@
   },
   {
     "slug": "disguise-self",
-    "name": "Disfarçar",
+    "name": "disfarçar-se",
     "original_name": "Disguise Self",
     "level": 1,
     "is_ritual": false,
@@ -4761,7 +4761,7 @@
   },
   {
     "slug": "dispel-evil-and-good",
-    "name": "Dissipar o Bem e o Mal",
+    "name": "dissipar o bem e mal",
     "original_name": "Dispel Evil and Good",
     "level": 5,
     "is_ritual": false,
@@ -4801,7 +4801,7 @@
   },
   {
     "slug": "dominate-beast",
-    "name": "Dominar Besta",
+    "name": "dominar besta",
     "original_name": "Dominate Beast",
     "level": 4,
     "is_ritual": false,
@@ -4841,7 +4841,7 @@
   },
   {
     "slug": "dominate-monster",
-    "name": "Dominar Monstro",
+    "name": "dominar monstro",
     "original_name": "Dominate Monster",
     "level": 8,
     "is_ritual": false,
@@ -4881,7 +4881,7 @@
   },
   {
     "slug": "dominate-person",
-    "name": "Dominar Pessoa",
+    "name": "dominar pessoa",
     "original_name": "Dominate Person",
     "level": 5,
     "is_ritual": false,
@@ -4961,7 +4961,7 @@
   },
   {
     "slug": "entangle",
-    "name": "emaranhar",
+    "name": "constrição",
     "original_name": "Entangle",
     "level": 1,
     "is_ritual": false,
@@ -5041,7 +5041,7 @@
   },
   {
     "slug": "find-traps",
-    "name": "Encontrar Armadilhas",
+    "name": "encontrar armadilhas",
     "original_name": "Find Traps",
     "level": 2,
     "is_ritual": false,
@@ -5081,7 +5081,7 @@
   },
   {
     "slug": "find-the-path",
-    "name": "Encontrar o Caminho",
+    "name": "encontrar o caminho",
     "original_name": "Find the Path",
     "level": 6,
     "is_ritual": false,
@@ -5161,7 +5161,7 @@
   },
   {
     "slug": "feeblemind",
-    "name": "Enfraquecer o Intelecto",
+    "name": "enfraquecer intelecto",
     "original_name": "Feeblemind",
     "level": 8,
     "is_ritual": false,
@@ -5201,7 +5201,7 @@
   },
   {
     "slug": "spider-climb",
-    "name": "Patas de Aranha",
+    "name": "patas de aranha",
     "original_name": "Spider Climb",
     "level": 2,
     "is_ritual": false,
@@ -5241,7 +5241,7 @@
   },
   {
     "slug": "illusory-script",
-    "name": "Escrita Ilusória",
+    "name": "escrita ilusória",
     "original_name": "Illusory Script",
     "level": 1,
     "is_ritual": true,
@@ -5281,7 +5281,7 @@
   },
   {
     "slug": "shield",
-    "name": "Escudo Arcano",
+    "name": "escudo arcano",
     "original_name": "Shield",
     "level": 1,
     "is_ritual": false,
@@ -5321,7 +5321,7 @@
   },
   {
     "slug": "fire-shield",
-    "name": "Escudo de Fogo",
+    "name": "escudo de fogo",
     "original_name": "Fire Shield",
     "level": 4,
     "is_ritual": false,
@@ -5401,7 +5401,7 @@
   },
   {
     "slug": "darkness",
-    "name": "Escuridão",
+    "name": "escuridão",
     "original_name": "Darkness",
     "level": 2,
     "is_ritual": false,
@@ -5441,7 +5441,7 @@
   },
   {
     "slug": "otilukes-freezing-sphere",
-    "name": "Esfera Congelante de Otiluke",
+    "name": "esfera congelante de otiluke",
     "original_name": "Otiluke's Freezing Sphere",
     "level": 6,
     "is_ritual": false,
@@ -5481,7 +5481,7 @@
   },
   {
     "slug": "flaming-sphere",
-    "name": "Esfera Flamejante",
+    "name": "esfera flamejante",
     "original_name": "Flaming Sphere",
     "level": 2,
     "is_ritual": false,
@@ -5521,7 +5521,7 @@
   },
   {
     "slug": "otilukes-resilient-sphere",
-    "name": "Esfera Resiliente de Otiluke",
+    "name": "esfera resiliente de otiluke",
     "original_name": "Otiluke's Resilient Sphere",
     "level": 4,
     "is_ritual": false,
@@ -5561,7 +5561,7 @@
   },
   {
     "slug": "mordenkainens-sword",
-    "name": "espada de Mordenkainen",
+    "name": "espada de mordenkainen",
     "original_name": "Mordenkainen's Sword",
     "level": 7,
     "is_ritual": false,
@@ -5601,7 +5601,7 @@
   },
   {
     "slug": "heat-metal",
-    "name": "Esquentar Metal",
+    "name": "esquentar metal",
     "original_name": "Heat Metal",
     "level": 2,
     "is_ritual": false,
@@ -5681,7 +5681,7 @@
   },
   {
     "slug": "fabricate",
-    "name": "Fabricar",
+    "name": "fabricar",
     "original_name": "Fabricate",
     "level": 4,
     "is_ritual": false,
@@ -5721,7 +5721,7 @@
   },
   {
     "slug": "speak-with-animals",
-    "name": "Falar Com Animais",
+    "name": "falar com animais",
     "original_name": "Speak with Animals",
     "level": 1,
     "is_ritual": true,
@@ -5761,7 +5761,7 @@
   },
   {
     "slug": "speak-with-dead",
-    "name": "Falar com os Mortos",
+    "name": "falar com os mortos",
     "original_name": "Speak with Dead",
     "level": 3,
     "is_ritual": false,
@@ -5801,7 +5801,7 @@
   },
   {
     "slug": "speak-with-plants",
-    "name": "Falar com Plantas",
+    "name": "falar com plantas",
     "original_name": "Speak with Plants",
     "level": 3,
     "is_ritual": false,
@@ -5841,7 +5841,7 @@
   },
   {
     "slug": "divine-favor",
-    "name": "favor divino",
+    "name": "auxílio divino",
     "original_name": "Divine Favor",
     "level": 1,
     "is_ritual": false,
@@ -5881,7 +5881,7 @@
   },
   {
     "slug": "melfs-acid-arrow",
-    "name": "flecha ácida de Melf",
+    "name": "flecha ácida de melf",
     "original_name": "Melf's Acid Arrow",
     "level": 2,
     "is_ritual": false,
@@ -5921,7 +5921,7 @@
   },
   {
     "slug": "lightning-arrow",
-    "name": "flecha relâmpago",
+    "name": "flecha relampejante",
     "original_name": "Lightning Arrow",
     "level": 3,
     "is_ritual": false,
@@ -5961,7 +5961,7 @@
   },
   {
     "slug": "faerie-fire",
-    "name": "Fogo das Fadas",
+    "name": "fogo das fadas",
     "original_name": "Faerie Fire",
     "level": 1,
     "is_ritual": false,
@@ -6001,7 +6001,7 @@
   },
   {
     "slug": "hunger-of-hadar",
-    "name": "fome de Hadar",
+    "name": "fome de hadar",
     "original_name": "Hunger of Hadar",
     "level": 3,
     "is_ritual": false,
@@ -6041,7 +6041,7 @@
   },
   {
     "slug": "phantasmal-force",
-    "name": "força espectral",
+    "name": "força fantasmagórica",
     "original_name": "Phantasmal Force",
     "level": 2,
     "is_ritual": false,
@@ -6081,7 +6081,7 @@
   },
   {
     "slug": "etherealness",
-    "name": "Forma Etérea",
+    "name": "forma etérea",
     "original_name": "Etherealness",
     "level": 7,
     "is_ritual": false,
@@ -6121,7 +6121,7 @@
   },
   {
     "slug": "gaseous-form",
-    "name": "Forma Gasosa",
+    "name": "forma gasosa",
     "original_name": "Gaseous Form",
     "level": 3,
     "is_ritual": false,
@@ -6161,7 +6161,7 @@
   },
   {
     "slug": "animal-shapes",
-    "name": "Formas Animais",
+    "name": "formas animais",
     "original_name": "Animal Shapes",
     "level": 8,
     "is_ritual": false,
@@ -6201,7 +6201,7 @@
   },
   {
     "slug": "tashas-hideous-laughter",
-    "name": "gargalhada nefasta de Tasha",
+    "name": "riso histérico de tasha",
     "original_name": "Tasha's Hideous Laughter",
     "level": 1,
     "is_ritual": false,
@@ -6241,7 +6241,7 @@
   },
   {
     "slug": "glyph-of-warding",
-    "name": "Glifo da Vigilância",
+    "name": "glifo de vigilância",
     "original_name": "Glyph of Warding",
     "level": 3,
     "is_ritual": false,
@@ -6281,7 +6281,7 @@
   },
   {
     "slug": "globe-of-invulnerability",
-    "name": "Globo de Invulnerabilidade",
+    "name": "globo de invulnerabilidade",
     "original_name": "Globe of Invulnerability",
     "level": 6,
     "is_ritual": false,
@@ -6321,7 +6321,7 @@
   },
   {
     "slug": "true-strike",
-    "name": "golpe certeiro",
+    "name": "ataque certeiro",
     "original_name": "True Strike",
     "level": 0,
     "is_ritual": false,
@@ -6401,7 +6401,7 @@
   },
   {
     "slug": "grease",
-    "name": "Área Escorregadia",
+    "name": "área escorregadia",
     "original_name": "Grease",
     "level": 1,
     "is_ritual": false,
@@ -6441,7 +6441,7 @@
   },
   {
     "slug": "spirit-guardians",
-    "name": "guardiões espirituais",
+    "name": "espíritos guardiões",
     "original_name": "Spirit Guardians",
     "level": 3,
     "is_ritual": false,
@@ -6481,7 +6481,7 @@
   },
   {
     "slug": "heroism",
-    "name": "Heroísmo",
+    "name": "heroísmo",
     "original_name": "Heroism",
     "level": 1,
     "is_ritual": false,
@@ -6521,7 +6521,7 @@
   },
   {
     "slug": "identify",
-    "name": "Identificação",
+    "name": "identificação",
     "original_name": "Identify",
     "level": 1,
     "is_ritual": true,
@@ -6601,7 +6601,7 @@
   },
   {
     "slug": "programmed-illusion",
-    "name": "Ilusão Programada",
+    "name": "ilusão programada",
     "original_name": "Programmed Illusion",
     "level": 6,
     "is_ritual": false,
@@ -6681,7 +6681,7 @@
   },
   {
     "slug": "silent-image",
-    "name": "Imagem Silenciosa",
+    "name": "imagem silenciosa",
     "original_name": "Silent Image",
     "level": 1,
     "is_ritual": false,
@@ -6721,7 +6721,7 @@
   },
   {
     "slug": "hold-monster",
-    "name": "Imobilizar Monstro",
+    "name": "imobilizar monstro",
     "original_name": "Hold Monster",
     "level": 5,
     "is_ritual": false,
@@ -6761,7 +6761,7 @@
   },
   {
     "slug": "hold-person",
-    "name": "Imobilizar Pessoa",
+    "name": "imobilizar pessoa",
     "original_name": "Hold Person",
     "level": 2,
     "is_ritual": false,
@@ -6801,7 +6801,7 @@
   },
   {
     "slug": "nondetection",
-    "name": "Dificultar Detecção",
+    "name": "dificultar detecção",
     "original_name": "Nondetection",
     "level": 3,
     "is_ritual": false,
@@ -6841,7 +6841,7 @@
   },
   {
     "slug": "inflict-wounds",
-    "name": "Infligir Ferimentos",
+    "name": "infligir ferimentos",
     "original_name": "Inflict Wounds",
     "level": 1,
     "is_ritual": false,
@@ -6921,7 +6921,7 @@
   },
   {
     "slug": "reverse-gravity",
-    "name": "Inverter a Gravidade",
+    "name": "inverter a gravidade",
     "original_name": "Reverse Gravity",
     "level": 7,
     "is_ritual": false,
@@ -6961,7 +6961,7 @@
   },
   {
     "slug": "invisibility",
-    "name": "Invisibilidade",
+    "name": "invisibilidade",
     "original_name": "Invisibility",
     "level": 2,
     "is_ritual": false,
@@ -7001,7 +7001,7 @@
   },
   {
     "slug": "greater-invisibility",
-    "name": "Invisibilidade Maior",
+    "name": "invisibilidade maior",
     "original_name": "Greater Invisibility",
     "level": 4,
     "is_ritual": false,
@@ -7041,7 +7041,7 @@
   },
   {
     "slug": "conjure-animals",
-    "name": "invocar animais",
+    "name": "conjurar animais",
     "original_name": "Conjure Animals",
     "level": 3,
     "is_ritual": false,
@@ -7081,7 +7081,7 @@
   },
   {
     "slug": "conjure-barrage",
-    "name": "invocar barragem",
+    "name": "conjurar rajada",
     "original_name": "Conjure Barrage",
     "level": 3,
     "is_ritual": false,
@@ -7121,7 +7121,7 @@
   },
   {
     "slug": "conjure-celestial",
-    "name": "invocar celestial",
+    "name": "conjurar celestial",
     "original_name": "Conjure Celestial",
     "level": 7,
     "is_ritual": false,
@@ -7161,7 +7161,7 @@
   },
   {
     "slug": "conjure-minor-elementals",
-    "name": "Conjurar Elementais Menores",
+    "name": "conjurar elementais menores",
     "original_name": "Conjure Minor Elementals",
     "level": 4,
     "is_ritual": false,
@@ -7201,7 +7201,7 @@
   },
   {
     "slug": "conjure-elemental",
-    "name": "invocar elemental",
+    "name": "conjurar elemental",
     "original_name": "Conjure Elemental",
     "level": 5,
     "is_ritual": false,
@@ -7241,7 +7241,7 @@
   },
   {
     "slug": "conjure-fey",
-    "name": "invocar feérico",
+    "name": "conjurar fada",
     "original_name": "Conjure Fey",
     "level": 6,
     "is_ritual": false,
@@ -7281,7 +7281,7 @@
   },
   {
     "slug": "conjure-volley",
-    "name": "invocar saraivada",
+    "name": "conjurar saraivada",
     "original_name": "Conjure Volley",
     "level": 5,
     "is_ritual": false,
@@ -7321,7 +7321,7 @@
   },
   {
     "slug": "conjure-woodland-beings",
-    "name": "invocar seres da floresta",
+    "name": "conjurar seres da floresta",
     "original_name": "Conjure Woodland Beings",
     "level": 4,
     "is_ritual": false,
@@ -7361,7 +7361,7 @@
   },
   {
     "slug": "maze",
-    "name": "Labirinto",
+    "name": "labirinto",
     "original_name": "Maze",
     "level": 8,
     "is_ritual": false,
@@ -7441,7 +7441,7 @@
   },
   {
     "slug": "legend-lore",
-    "name": "lendas e histórias",
+    "name": "conhecimento lendário",
     "original_name": "Legend Lore",
     "level": 5,
     "is_ritual": false,
@@ -7481,7 +7481,7 @@
   },
   {
     "slug": "slow",
-    "name": "Lentidão",
+    "name": "lentidão",
     "original_name": "Slow",
     "level": 3,
     "is_ritual": false,
@@ -7561,7 +7561,7 @@
   },
   {
     "slug": "levitate",
-    "name": "Levitação",
+    "name": "levitação",
     "original_name": "Levitate",
     "level": 2,
     "is_ritual": false,
@@ -7601,7 +7601,7 @@
   },
   {
     "slug": "rarys-telepathic-bond",
-    "name": "Ligação Telepática de Rary",
+    "name": "ligação telepática de rary",
     "original_name": "Rary's Telepathic Bond",
     "level": 5,
     "is_ritual": true,
@@ -7641,7 +7641,7 @@
   },
   {
     "slug": "mind-blank",
-    "name": "Limpar a Mente",
+    "name": "limpar a mente",
     "original_name": "Mind Blank",
     "level": 8,
     "is_ritual": false,
@@ -7681,7 +7681,7 @@
   },
   {
     "slug": "tongues",
-    "name": "Idiomas",
+    "name": "idiomas",
     "original_name": "Tongues",
     "level": 3,
     "is_ritual": false,
@@ -7721,7 +7721,7 @@
   },
   {
     "slug": "locate-animals-or-plants",
-    "name": "Localizar Animais ou Plantas",
+    "name": "localizar animais ou plantas",
     "original_name": "Locate Animals or Plants",
     "level": 2,
     "is_ritual": true,
@@ -7761,7 +7761,7 @@
   },
   {
     "slug": "locate-creature",
-    "name": "Localizar Criatura",
+    "name": "localizar criatura",
     "original_name": "Locate Creature",
     "level": 4,
     "is_ritual": false,
@@ -7801,7 +7801,7 @@
   },
   {
     "slug": "locate-object",
-    "name": "Localizar Objeto",
+    "name": "localizar objeto",
     "original_name": "Locate Object",
     "level": 2,
     "is_ritual": false,
@@ -7841,7 +7841,7 @@
   },
   {
     "slug": "glibness",
-    "name": "Loquacidade",
+    "name": "loquacidade",
     "original_name": "Glibness",
     "level": 8,
     "is_ritual": false,
@@ -7921,7 +7921,7 @@
   },
   {
     "slug": "light",
-    "name": "Luz",
+    "name": "luz",
     "original_name": "Light",
     "level": 0,
     "is_ritual": false,
@@ -8001,7 +8001,7 @@
   },
   {
     "slug": "dancing-lights",
-    "name": "luzes dançantes",
+    "name": "globos de luz",
     "original_name": "Dancing Lights",
     "level": 0,
     "is_ritual": false,
@@ -8041,7 +8041,7 @@
   },
   {
     "slug": "blight",
-    "name": "Malogro",
+    "name": "malogro",
     "original_name": "Blight",
     "level": 4,
     "is_ritual": false,
@@ -8081,7 +8081,7 @@
   },
   {
     "slug": "mordenkainens-magnificent-mansion",
-    "name": "Mansão Magnífica de Mordenkainen",
+    "name": "mansão magnífica de mordenkainen",
     "original_name": "Mordenkainen's Magnificent Mansion",
     "level": 7,
     "is_ritual": false,
@@ -8121,7 +8121,7 @@
   },
   {
     "slug": "crusaders-mantle",
-    "name": "Manto do Cruzado",
+    "name": "manto do cruzado",
     "original_name": "Crusader's Mantle",
     "level": 3,
     "is_ritual": false,
@@ -8161,7 +8161,7 @@
   },
   {
     "slug": "bigbys-hand",
-    "name": "Mão de Bigby",
+    "name": "mão de bigby",
     "original_name": "Bigby's Hand",
     "level": 5,
     "is_ritual": false,
@@ -8201,7 +8201,7 @@
   },
   {
     "slug": "burning-hands",
-    "name": "Mãos Flamejantes",
+    "name": "mãos flamejantes",
     "original_name": "Burning Hands",
     "level": 1,
     "is_ritual": false,
@@ -8321,7 +8321,7 @@
   },
   {
     "slug": "hunters-mark",
-    "name": "marca do predador",
+    "name": "marca do caçador",
     "original_name": "Hunter's Mark",
     "level": 1,
     "is_ritual": false,
@@ -8361,7 +8361,7 @@
   },
   {
     "slug": "eyebite",
-    "name": "Ataque Visual",
+    "name": "ataque visual",
     "original_name": "Eyebite",
     "level": 6,
     "is_ritual": false,
@@ -8401,7 +8401,7 @@
   },
   {
     "slug": "fear",
-    "name": "Medo",
+    "name": "medo",
     "original_name": "Fear",
     "level": 3,
     "is_ritual": false,
@@ -8441,7 +8441,7 @@
   },
   {
     "slug": "animal-messenger",
-    "name": "Mensageiro Animal",
+    "name": "mensageiro animal",
     "original_name": "Animal Messenger",
     "level": 2,
     "is_ritual": true,
@@ -8521,7 +8521,7 @@
   },
   {
     "slug": "meld-into-stone",
-    "name": "Fundir em Pedra",
+    "name": "mesclar-se às rochas",
     "original_name": "Meld into Stone",
     "level": 3,
     "is_ritual": true,
@@ -8561,7 +8561,7 @@
   },
   {
     "slug": "shapechange",
-    "name": "Alterar Forma",
+    "name": "alterar forma",
     "original_name": "Shapechange",
     "level": 9,
     "is_ritual": false,
@@ -8601,7 +8601,7 @@
   },
   {
     "slug": "mirage-arcane",
-    "name": "Miragem",
+    "name": "miragem",
     "original_name": "Mirage Arcane",
     "level": 7,
     "is_ritual": false,
@@ -8681,7 +8681,7 @@
   },
   {
     "slug": "magic-missile",
-    "name": "Mísseis Mágicos",
+    "name": "mísseis mágicos",
     "original_name": "Magic Missile",
     "level": 1,
     "is_ritual": false,
@@ -8721,7 +8721,7 @@
   },
   {
     "slug": "modify-memory",
-    "name": "Modificar Memória",
+    "name": "modificar memória",
     "original_name": "Modify Memory",
     "level": 5,
     "is_ritual": false,
@@ -8761,7 +8761,7 @@
   },
   {
     "slug": "stone-shape",
-    "name": "Moldar Rochas",
+    "name": "moldar rochas",
     "original_name": "Stone Shape",
     "level": 4,
     "is_ritual": false,
@@ -8801,7 +8801,7 @@
   },
   {
     "slug": "harm",
-    "name": "Doença Plena",
+    "name": "doença plena",
     "original_name": "Harm",
     "level": 6,
     "is_ritual": false,
@@ -8881,7 +8881,7 @@
   },
   {
     "slug": "move-earth",
-    "name": "Mover Terra",
+    "name": "mover terra",
     "original_name": "Move Earth",
     "level": 6,
     "is_ritual": false,
@@ -8961,7 +8961,7 @@
   },
   {
     "slug": "wall-of-force",
-    "name": "Muralha de Energia",
+    "name": "muralha de energia",
     "original_name": "Wall of Force",
     "level": 5,
     "is_ritual": false,
@@ -9001,7 +9001,7 @@
   },
   {
     "slug": "wall-of-thorns",
-    "name": "Muralha de Espinhos",
+    "name": "muralha de espinhos",
     "original_name": "Wall of Thorns",
     "level": 6,
     "is_ritual": false,
@@ -9041,7 +9041,7 @@
   },
   {
     "slug": "wall-of-fire",
-    "name": "Muralha de Fogo",
+    "name": "muralha de fogo",
     "original_name": "Wall of Fire",
     "level": 4,
     "is_ritual": false,
@@ -9081,7 +9081,7 @@
   },
   {
     "slug": "wall-of-ice",
-    "name": "Muralha de Gelo",
+    "name": "muralha de gelo",
     "original_name": "Wall of Ice",
     "level": 6,
     "is_ritual": false,
@@ -9121,7 +9121,7 @@
   },
   {
     "slug": "wall-of-stone",
-    "name": "Muralha de Pedra",
+    "name": "muralha de pedra",
     "original_name": "Wall of Stone",
     "level": 5,
     "is_ritual": false,
@@ -9161,7 +9161,7 @@
   },
   {
     "slug": "wind-wall",
-    "name": "Muralha de Vento",
+    "name": "muralha de vento",
     "original_name": "Wind Wall",
     "level": 3,
     "is_ritual": false,
@@ -9201,7 +9201,7 @@
   },
   {
     "slug": "prismatic-wall",
-    "name": "Muralha Prismática",
+    "name": "muralha prismática",
     "original_name": "Prismatic Wall",
     "level": 9,
     "is_ritual": false,
@@ -9321,7 +9321,7 @@
   },
   {
     "slug": "fog-cloud",
-    "name": "Névoa Obscurecente",
+    "name": "névoa obscurecente",
     "original_name": "Fog Cloud",
     "level": 1,
     "is_ritual": false,
@@ -9401,7 +9401,7 @@
   },
   {
     "slug": "stinking-cloud",
-    "name": "Névoa Fétida",
+    "name": "névoa fétida",
     "original_name": "Stinking Cloud",
     "level": 3,
     "is_ritual": false,
@@ -9561,7 +9561,7 @@
   },
   {
     "slug": "thunderwave",
-    "name": "Onda Trovejante",
+    "name": "onda trovejante",
     "original_name": "Thunderwave",
     "level": 1,
     "is_ritual": false,
@@ -9601,7 +9601,7 @@
   },
   {
     "slug": "prayer-of-healing",
-    "name": "oração de cura",
+    "name": "oração curativa",
     "original_name": "Prayer of Healing",
     "level": 2,
     "is_ritual": false,
@@ -9641,7 +9641,7 @@
   },
   {
     "slug": "chromatic-orb",
-    "name": "orbe cromático",
+    "name": "orbe cromática",
     "original_name": "Chromatic Orb",
     "level": 1,
     "is_ritual": false,
@@ -9721,7 +9721,7 @@
   },
   {
     "slug": "hypnotic-pattern",
-    "name": "Padrão Hipnótico",
+    "name": "padrão hipnótico",
     "original_name": "Hypnotic Pattern",
     "level": 3,
     "is_ritual": false,
@@ -9761,7 +9761,7 @@
   },
   {
     "slug": "healing-word",
-    "name": "Palavra Curativa",
+    "name": "palavra curativa",
     "original_name": "Healing Word",
     "level": 1,
     "is_ritual": false,
@@ -9841,7 +9841,7 @@
   },
   {
     "slug": "power-word-stun",
-    "name": "palavra de poder: atordoar",
+    "name": "palavra de poder atordoar",
     "original_name": "Power Word Stun",
     "level": 8,
     "is_ritual": false,
@@ -9881,7 +9881,7 @@
   },
   {
     "slug": "power-word-heal",
-    "name": "palavra de poder: salvar",
+    "name": "palavra de poder curar",
     "original_name": "Power Word Heal",
     "level": 9,
     "is_ritual": false,
@@ -9921,7 +9921,7 @@
   },
   {
     "slug": "power-word-kill",
-    "name": "palavra de poder: matar",
+    "name": "palavra de poder matar",
     "original_name": "Power Word Kill",
     "level": 9,
     "is_ritual": false,
@@ -9961,7 +9961,7 @@
   },
   {
     "slug": "word-of-recall",
-    "name": "Palavra de Recordação",
+    "name": "palavra de recordação",
     "original_name": "Word of Recall",
     "level": 6,
     "is_ritual": false,
@@ -10001,7 +10001,7 @@
   },
   {
     "slug": "divine-word",
-    "name": "Palavra Divina",
+    "name": "palavra divina",
     "original_name": "Divine Word",
     "level": 7,
     "is_ritual": false,
@@ -10041,7 +10041,7 @@
   },
   {
     "slug": "time-stop",
-    "name": "Parar o Tempo",
+    "name": "parar o tempo",
     "original_name": "Time Stop",
     "level": 9,
     "is_ritual": false,
@@ -10081,7 +10081,7 @@
   },
   {
     "slug": "tree-stride",
-    "name": "Caminhar em Árvores",
+    "name": "caminhar em árvores",
     "original_name": "Tree Stride",
     "level": 5,
     "is_ritual": false,
@@ -10121,7 +10121,7 @@
   },
   {
     "slug": "misty-step",
-    "name": "Passo Nebuloso",
+    "name": "passo nebuloso",
     "original_name": "Misty Step",
     "level": 2,
     "is_ritual": false,
@@ -10161,7 +10161,7 @@
   },
   {
     "slug": "pass-without-trace",
-    "name": "Passos Sem Pegadas",
+    "name": "passos sem pegadas",
     "original_name": "Pass without Trace",
     "level": 2,
     "is_ritual": false,
@@ -10201,7 +10201,7 @@
   },
   {
     "slug": "longstrider",
-    "name": "Passos Longos",
+    "name": "passos longos",
     "original_name": "Longstrider",
     "level": 1,
     "is_ritual": false,
@@ -10241,7 +10241,7 @@
   },
   {
     "slug": "barkskin",
-    "name": "pele-casca",
+    "name": "pele de árvore",
     "original_name": "Barkskin",
     "level": 2,
     "is_ritual": false,
@@ -10281,7 +10281,7 @@
   },
   {
     "slug": "stoneskin",
-    "name": "Pele de Pedra",
+    "name": "pele de pedra",
     "original_name": "Stoneskin",
     "level": 4,
     "is_ritual": false,
@@ -10321,7 +10321,7 @@
   },
   {
     "slug": "leomunds-tiny-hut",
-    "name": "pequeno refúgio de Leomund",
+    "name": "pequena cabana de leomund",
     "original_name": "Leomund's Tiny Hut",
     "level": 3,
     "is_ritual": true,
@@ -10361,7 +10361,7 @@
   },
   {
     "slug": "bane",
-    "name": "Perdição",
+    "name": "perdição",
     "original_name": "Bane",
     "level": 1,
     "is_ritual": false,
@@ -10441,7 +10441,7 @@
   },
   {
     "slug": "polymorph",
-    "name": "polimorfia",
+    "name": "metamorfose",
     "original_name": "Polymorph",
     "level": 4,
     "is_ritual": false,
@@ -10481,7 +10481,7 @@
   },
   {
     "slug": "true-polymorph",
-    "name": "polimorfia total",
+    "name": "metamorfose verdadeira",
     "original_name": "True Polymorph",
     "level": 9,
     "is_ritual": false,
@@ -10561,7 +10561,7 @@
   },
   {
     "slug": "arcane-gate",
-    "name": "Portal Arcano",
+    "name": "portal arcano",
     "original_name": "Arcane Gate",
     "level": 6,
     "is_ritual": false,
@@ -10641,7 +10641,7 @@
   },
   {
     "slug": "insect-plague",
-    "name": "Praga de Insetos",
+    "name": "praga de insetos",
     "original_name": "Insect Plague",
     "level": 5,
     "is_ritual": false,
@@ -10681,7 +10681,7 @@
   },
   {
     "slug": "divination",
-    "name": "Adivinhação",
+    "name": "adivinhação",
     "original_name": "Divination",
     "level": 4,
     "is_ritual": true,
@@ -10721,7 +10721,7 @@
   },
   {
     "slug": "prestidigitation",
-    "name": "prestidigitação arcana",
+    "name": "prestidigitação",
     "original_name": "Prestidigitation",
     "level": 0,
     "is_ritual": false,
@@ -10761,7 +10761,7 @@
   },
   {
     "slug": "forbiddance",
-    "name": "Proibição",
+    "name": "proibição",
     "original_name": "Forbiddance",
     "level": 6,
     "is_ritual": true,
@@ -10801,7 +10801,7 @@
   },
   {
     "slug": "astral-projection",
-    "name": "Projeção Astral",
+    "name": "projeção astral",
     "original_name": "Astral Projection",
     "level": 9,
     "is_ritual": false,
@@ -10841,7 +10841,7 @@
   },
   {
     "slug": "project-image",
-    "name": "Projetar Imagem",
+    "name": "projetar imagem",
     "original_name": "Project Image",
     "level": 7,
     "is_ritual": false,
@@ -10881,7 +10881,7 @@
   },
   {
     "slug": "protection-from-energy",
-    "name": "Proteção Contra Energia",
+    "name": "proteção contra energia",
     "original_name": "Protection from Energy",
     "level": 3,
     "is_ritual": false,
@@ -10961,7 +10961,7 @@
   },
   {
     "slug": "death-ward",
-    "name": "Proteção Contra a Morte",
+    "name": "proteção contra a morte",
     "original_name": "Death Ward",
     "level": 4,
     "is_ritual": false,
@@ -11001,7 +11001,7 @@
   },
   {
     "slug": "protection-from-evil-and-good",
-    "name": "Proteção Contra o Bem e Mal",
+    "name": "proteção contra o bem e mal",
     "original_name": "Protection from Evil and Good",
     "level": 1,
     "is_ritual": false,
@@ -11081,7 +11081,7 @@
   },
   {
     "slug": "guards-and-wards",
-    "name": "Proteger Fortaleza",
+    "name": "proteger fortaleza",
     "original_name": "Guards and Wards",
     "level": 6,
     "is_ritual": false,
@@ -11121,7 +11121,7 @@
   },
   {
     "slug": "purify-food-and-drink",
-    "name": "Purificar Alimentos",
+    "name": "purificar alimentos",
     "original_name": "Purify Food and Drink",
     "level": 1,
     "is_ritual": true,
@@ -11161,7 +11161,7 @@
   },
   {
     "slug": "feather-fall",
-    "name": "Queda Suave",
+    "name": "queda suave",
     "original_name": "Feather Fall",
     "level": 1,
     "is_ritual": false,
@@ -11201,7 +11201,7 @@
   },
   {
     "slug": "scorching-ray",
-    "name": "Raio Ardente",
+    "name": "raio ardente",
     "original_name": "Scorching Ray",
     "level": 2,
     "is_ritual": false,
@@ -11281,7 +11281,7 @@
   },
   {
     "slug": "fire-bolt",
-    "name": "Raio de Fogo",
+    "name": "raio de fogo",
     "original_name": "Fire Bolt",
     "level": 0,
     "is_ritual": false,
@@ -11321,7 +11321,7 @@
   },
   {
     "slug": "ray-of-frost",
-    "name": "Raio de Gelo",
+    "name": "raio de gelo",
     "original_name": "Ray of Frost",
     "level": 0,
     "is_ritual": false,
@@ -11361,7 +11361,7 @@
   },
   {
     "slug": "guiding-bolt",
-    "name": "Raio Guiador",
+    "name": "raio guiador",
     "original_name": "Guiding Bolt",
     "level": 1,
     "is_ritual": false,
@@ -11401,7 +11401,7 @@
   },
   {
     "slug": "ray-of-enfeeblement",
-    "name": "Raio do Enfraquecimento",
+    "name": "raio do enfraquecimento",
     "original_name": "Ray of Enfeeblement",
     "level": 2,
     "is_ritual": false,
@@ -11481,7 +11481,7 @@
   },
   {
     "slug": "eldritch-blast",
-    "name": "Rajada Mística",
+    "name": "rajada mística",
     "original_name": "Eldritch Blast",
     "level": 0,
     "is_ritual": false,
@@ -11521,7 +11521,7 @@
   },
   {
     "slug": "ray-of-sickness",
-    "name": "raio nauseante",
+    "name": "raio adoecente",
     "original_name": "Ray of Sickness",
     "level": 1,
     "is_ritual": false,
@@ -11561,7 +11561,7 @@
   },
   {
     "slug": "sunbeam",
-    "name": "Raio Solar",
+    "name": "raio solar",
     "original_name": "Sunbeam",
     "level": 6,
     "is_ritual": false,
@@ -11681,7 +11681,7 @@
   },
   {
     "slug": "magic-jar",
-    "name": "Recipiente Arcano",
+    "name": "recipiente arcano",
     "original_name": "Magic Jar",
     "level": 6,
     "is_ritual": false,
@@ -11721,7 +11721,7 @@
   },
   {
     "slug": "reincarnate",
-    "name": "Reencarnação",
+    "name": "reencarnação",
     "original_name": "Reincarnate",
     "level": 5,
     "is_ritual": false,
@@ -11801,7 +11801,7 @@
   },
   {
     "slug": "sequester",
-    "name": "Isolamento",
+    "name": "isolamento",
     "original_name": "Sequester",
     "level": 7,
     "is_ritual": false,
@@ -11841,7 +11841,7 @@
   },
   {
     "slug": "regenerate",
-    "name": "Regeneração",
+    "name": "regeneração",
     "original_name": "Regenerate",
     "level": 7,
     "is_ritual": false,
@@ -11881,7 +11881,7 @@
   },
   {
     "slug": "lightning-bolt",
-    "name": "Relâmpago",
+    "name": "relâmpago",
     "original_name": "Lightning Bolt",
     "level": 3,
     "is_ritual": false,
@@ -11921,7 +11921,7 @@
   },
   {
     "slug": "sending",
-    "name": "Enviar Mensagem",
+    "name": "enviar mensagem",
     "original_name": "Sending",
     "level": 3,
     "is_ritual": false,
@@ -11961,7 +11961,7 @@
   },
   {
     "slug": "remove-curse",
-    "name": "Remover Maldição",
+    "name": "remover maldição",
     "original_name": "Remove Curse",
     "level": 3,
     "is_ritual": false,
@@ -12001,7 +12001,7 @@
   },
   {
     "slug": "mending",
-    "name": "reparar",
+    "name": "consertar",
     "original_name": "Mending",
     "level": 0,
     "is_ritual": false,
@@ -12041,7 +12041,7 @@
   },
   {
     "slug": "gentle-repose",
-    "name": "Repouso Tranquilo",
+    "name": "repouso tranquilo",
     "original_name": "Gentle Repose",
     "level": 2,
     "is_ritual": true,
@@ -12081,7 +12081,7 @@
   },
   {
     "slug": "hellish-rebuke",
-    "name": "Repreensão Infernal",
+    "name": "repreensão infernal",
     "original_name": "Hellish Rebuke",
     "level": 1,
     "is_ritual": false,
@@ -12121,7 +12121,7 @@
   },
   {
     "slug": "resistance",
-    "name": "Resistência",
+    "name": "resistência",
     "original_name": "Resistance",
     "level": 0,
     "is_ritual": false,
@@ -12161,7 +12161,7 @@
   },
   {
     "slug": "water-breathing",
-    "name": "Respirar na Água",
+    "name": "respirar na água",
     "original_name": "Water Breathing",
     "level": 3,
     "is_ritual": true,
@@ -12201,7 +12201,7 @@
   },
   {
     "slug": "resurrection",
-    "name": "Ressurreição",
+    "name": "ressurreição",
     "original_name": "Resurrection",
     "level": 7,
     "is_ritual": false,
@@ -12241,7 +12241,7 @@
   },
   {
     "slug": "true-resurrection",
-    "name": "Ressurreição Verdadeira",
+    "name": "ressurreição verdadeira",
     "original_name": "True Resurrection",
     "level": 9,
     "is_ritual": false,
@@ -12281,7 +12281,7 @@
   },
   {
     "slug": "greater-restoration",
-    "name": "Restauração Maior",
+    "name": "restauração maior",
     "original_name": "Greater Restoration",
     "level": 5,
     "is_ritual": false,
@@ -12361,7 +12361,7 @@
   },
   {
     "slug": "expeditious-retreat",
-    "name": "Recuo Acelerado",
+    "name": "recuo acelerado",
     "original_name": "Expeditious Retreat",
     "level": 1,
     "is_ritual": false,
@@ -12401,7 +12401,7 @@
   },
   {
     "slug": "raise-dead",
-    "name": "Reviver os Mortos",
+    "name": "reviver os mortos",
     "original_name": "Raise Dead",
     "level": 5,
     "is_ritual": false,
@@ -12441,7 +12441,7 @@
   },
   {
     "slug": "revivify",
-    "name": "Revivificar",
+    "name": "revivificar",
     "original_name": "Revivify",
     "level": 3,
     "is_ritual": false,
@@ -12561,7 +12561,7 @@
   },
   {
     "slug": "sanctuary",
-    "name": "Santuário",
+    "name": "santuário",
     "original_name": "Sanctuary",
     "level": 1,
     "is_ritual": false,
@@ -12601,7 +12601,7 @@
   },
   {
     "slug": "mordenkainens-private-sanctum",
-    "name": "Santuário Particular de Mordenkainen",
+    "name": "santuário particular de mordenkainen",
     "original_name": "Mordenkainen's Private Sanctum",
     "level": 4,
     "is_ritual": false,
@@ -12681,7 +12681,7 @@
   },
   {
     "slug": "demiplane",
-    "name": "Semiplano",
+    "name": "semiplano",
     "original_name": "Demiplane",
     "level": 8,
     "is_ritual": false,
@@ -12721,7 +12721,7 @@
   },
   {
     "slug": "beast-sense",
-    "name": "Sentido Bestial",
+    "name": "sentido bestial",
     "original_name": "Beast Sense",
     "level": 2,
     "is_ritual": true,
@@ -12761,7 +12761,7 @@
   },
   {
     "slug": "unseen-servant",
-    "name": "Servo Invisível",
+    "name": "servo invisível",
     "original_name": "Unseen Servant",
     "level": 1,
     "is_ritual": true,
@@ -12801,7 +12801,7 @@
   },
   {
     "slug": "foresight",
-    "name": "Sexto Sentido",
+    "name": "sexto sentido",
     "original_name": "Foresight",
     "level": 9,
     "is_ritual": false,
@@ -12841,7 +12841,7 @@
   },
   {
     "slug": "silence",
-    "name": "Silêncio",
+    "name": "silêncio",
     "original_name": "Silence",
     "level": 2,
     "is_ritual": true,
@@ -12881,7 +12881,7 @@
   },
   {
     "slug": "symbol",
-    "name": "Símbolo",
+    "name": "símbolo",
     "original_name": "Symbol",
     "level": 7,
     "is_ritual": false,
@@ -12921,7 +12921,7 @@
   },
   {
     "slug": "seeming",
-    "name": "Similaridade",
+    "name": "similaridade",
     "original_name": "Seeming",
     "level": 5,
     "is_ritual": false,
@@ -12961,7 +12961,7 @@
   },
   {
     "slug": "simulacrum",
-    "name": "Simulacro",
+    "name": "simulacro",
     "original_name": "Simulacrum",
     "level": 7,
     "is_ritual": false,
@@ -13001,7 +13001,7 @@
   },
   {
     "slug": "feign-death",
-    "name": "Forjar Morte",
+    "name": "forjar morte",
     "original_name": "Feign Death",
     "level": 3,
     "is_ritual": true,
@@ -13041,7 +13041,7 @@
   },
   {
     "slug": "beacon-of-hope",
-    "name": "Sinal de Esperança",
+    "name": "sinal de esperança",
     "original_name": "Beacon of Hope",
     "level": 3,
     "is_ritual": false,
@@ -13121,7 +13121,7 @@
   },
   {
     "slug": "sleep",
-    "name": "Sono",
+    "name": "sono",
     "original_name": "Sleep",
     "level": 1,
     "is_ritual": false,
@@ -13241,7 +13241,7 @@
   },
   {
     "slug": "dissonant-whispers",
-    "name": "Sussurros Dissonantes",
+    "name": "sussurros dissonantes",
     "original_name": "Dissonant Whispers",
     "level": 1,
     "is_ritual": false,
@@ -13321,7 +13321,7 @@
   },
   {
     "slug": "web",
-    "name": "Teia",
+    "name": "teia",
     "original_name": "Web",
     "level": 2,
     "is_ritual": false,
@@ -13361,7 +13361,7 @@
   },
   {
     "slug": "telekinesis",
-    "name": "Telecinésia",
+    "name": "telecinésia",
     "original_name": "Telekinesis",
     "level": 5,
     "is_ritual": false,
@@ -13401,7 +13401,7 @@
   },
   {
     "slug": "telepathy",
-    "name": "Telepatia",
+    "name": "telepatia",
     "original_name": "Telepathy",
     "level": 8,
     "is_ritual": false,
@@ -13441,7 +13441,7 @@
   },
   {
     "slug": "teleport",
-    "name": "Teletransporte",
+    "name": "teletransporte",
     "original_name": "Teleport",
     "level": 7,
     "is_ritual": false,
@@ -13481,7 +13481,7 @@
   },
   {
     "slug": "transport-via-plants",
-    "name": "Teletransporte por Árvores",
+    "name": "teletransporte por árvores",
     "original_name": "Transport via Plants",
     "level": 6,
     "is_ritual": false,
@@ -13521,7 +13521,7 @@
   },
   {
     "slug": "storm-of-vengeance",
-    "name": "Tempestade da Vingança",
+    "name": "tempestade da vingança",
     "original_name": "Storm of Vengeance",
     "level": 9,
     "is_ritual": false,
@@ -13561,7 +13561,7 @@
   },
   {
     "slug": "fire-storm",
-    "name": "Tempestade de Fogo",
+    "name": "tempestade de fogo",
     "original_name": "Fire Storm",
     "level": 7,
     "is_ritual": false,
@@ -13601,7 +13601,7 @@
   },
   {
     "slug": "ice-storm",
-    "name": "tempestade glacial",
+    "name": "tempestade de gelo",
     "original_name": "Ice Storm",
     "level": 4,
     "is_ritual": false,
@@ -13641,7 +13641,7 @@
   },
   {
     "slug": "evards-black-tentacles",
-    "name": "tentáculos negros de Evard",
+    "name": "tentáculos negros de evard",
     "original_name": "Evard's Black Tentacles",
     "level": 4,
     "is_ritual": false,
@@ -13681,7 +13681,7 @@
   },
   {
     "slug": "earthquake",
-    "name": "Terremoto",
+    "name": "terremoto",
     "original_name": "Earthquake",
     "level": 8,
     "is_ritual": false,
@@ -13721,7 +13721,7 @@
   },
   {
     "slug": "hallucinatory-terrain",
-    "name": "Terreno Alucinógeno",
+    "name": "terreno alucinógeno",
     "original_name": "Hallucinatory Terrain",
     "level": 4,
     "is_ritual": false,
@@ -13761,7 +13761,7 @@
   },
   {
     "slug": "shocking-grasp",
-    "name": "Toque Chocante",
+    "name": "toque chocante",
     "original_name": "Shocking Grasp",
     "level": 0,
     "is_ritual": false,
@@ -13801,7 +13801,7 @@
   },
   {
     "slug": "chill-touch",
-    "name": "Toque Arrepiante",
+    "name": "toque arrepiante",
     "original_name": "Chill Touch",
     "level": 0,
     "is_ritual": false,
@@ -13841,7 +13841,7 @@
   },
   {
     "slug": "vampiric-touch",
-    "name": "Toque Vampírico",
+    "name": "toque vampírico",
     "original_name": "Vampiric Touch",
     "level": 3,
     "is_ritual": false,
@@ -13921,7 +13921,7 @@
   },
   {
     "slug": "plane-shift",
-    "name": "Viagem Planar",
+    "name": "viagem planar",
     "original_name": "Plane Shift",
     "level": 7,
     "is_ritual": false,
@@ -14001,7 +14001,7 @@
   },
   {
     "slug": "blur",
-    "name": "Nublar",
+    "name": "nublar",
     "original_name": "Blur",
     "level": 2,
     "is_ritual": false,
@@ -14041,7 +14041,7 @@
   },
   {
     "slug": "see-invisibility",
-    "name": "Ver o Invisível",
+    "name": "ver o invisível",
     "original_name": "See Invisibility",
     "level": 2,
     "is_ritual": false,
@@ -14081,7 +14081,7 @@
   },
   {
     "slug": "scrying",
-    "name": "Vidência",
+    "name": "vidência",
     "original_name": "Scrying",
     "level": 5,
     "is_ritual": false,
@@ -14121,7 +14121,7 @@
   },
   {
     "slug": "warding-bond",
-    "name": "Vínculo Protetor",
+    "name": "vínculo protetor",
     "original_name": "Warding Bond",
     "level": 2,
     "is_ritual": false,
@@ -14161,7 +14161,7 @@
   },
   {
     "slug": "grasping-vine",
-    "name": "vinha agarradora",
+    "name": "vinha esmagadora",
     "original_name": "Grasping Vine",
     "level": 4,
     "is_ritual": false,
@@ -14201,7 +14201,7 @@
   },
   {
     "slug": "true-seeing",
-    "name": "Visão da Verdade",
+    "name": "visão da verdade",
     "original_name": "True Seeing",
     "level": 6,
     "is_ritual": false,
@@ -14281,7 +14281,7 @@
   },
   {
     "slug": "false-life",
-    "name": "vitalidade vazia",
+    "name": "vitalidade falsa",
     "original_name": "False Life",
     "level": 1,
     "is_ritual": false,
@@ -14321,7 +14321,7 @@
   },
   {
     "slug": "fly",
-    "name": "Voo",
+    "name": "voo",
     "original_name": "Fly",
     "level": 3,
     "is_ritual": false,
@@ -14361,7 +14361,7 @@
   },
   {
     "slug": "vicious-mockery",
-    "name": "Zombaria Viciosa",
+    "name": "zombaria viciosa",
     "original_name": "Vicious Mockery",
     "level": 0,
     "is_ritual": false,
@@ -14401,7 +14401,7 @@
   },
   {
     "slug": "zone-of-truth",
-    "name": "Zona da Verdade",
+    "name": "zona da verdade",
     "original_name": "Zone of Truth",
     "level": 2,
     "is_ritual": false,
@@ -14441,7 +14441,7 @@
   },
   {
     "slug": "aganazzars-scorcher",
-    "name": "Queimadura de Aganazzar",
+    "name": "queimadura de aganazzar",
     "original_name": "Aganazzar's Scorcher",
     "level": 2,
     "is_ritual": false,
@@ -14481,7 +14481,7 @@
   },
   {
     "slug": "absorb-elements",
-    "name": "absorção de elementos",
+    "name": "absorver elementos",
     "original_name": "Absorb Elements",
     "level": 1,
     "is_ritual": false,
@@ -14521,7 +14521,7 @@
   },
   {
     "slug": "maximilians-earthen-grasp",
-    "name": "aperto de terra de Maximilian",
+    "name": "abraço terrestre de maximilian",
     "original_name": "Maximilian's Earthen Grasp",
     "level": 2,
     "is_ritual": false,
@@ -14561,7 +14561,7 @@
   },
   {
     "slug": "zephyr-strike",
-    "name": "Golpe do Zéfiro",
+    "name": "golpe de zephyr",
     "original_name": "Zephyr Strike",
     "level": 1,
     "is_ritual": false,
@@ -14641,7 +14641,7 @@
   },
   {
     "slug": "druid-grove",
-    "name": "Bosque de Druida",
+    "name": "bosque de druida",
     "original_name": "Druid Grove",
     "level": 6,
     "is_ritual": false,
@@ -14721,7 +14721,7 @@
   },
   {
     "slug": "cause-fear",
-    "name": "Causar Medo",
+    "name": "causar medo",
     "original_name": "Cause Fear",
     "level": 1,
     "is_ritual": false,
@@ -14761,7 +14761,7 @@
   },
   {
     "slug": "ceremony",
-    "name": "Cerimônia",
+    "name": "cerimônia",
     "original_name": "Ceremony",
     "level": 1,
     "is_ritual": true,
@@ -14801,7 +14801,7 @@
   },
   {
     "slug": "infernal-calling",
-    "name": "Chamado Infernal",
+    "name": "chamado infernal",
     "original_name": "Infernal Calling",
     "level": 5,
     "is_ritual": false,
@@ -14841,7 +14841,7 @@
   },
   {
     "slug": "control-flames",
-    "name": "Controlar Chamas",
+    "name": "controlar chamas",
     "original_name": "Control Flames",
     "level": 0,
     "is_ritual": false,
@@ -14881,7 +14881,7 @@
   },
   {
     "slug": "control-winds",
-    "name": "Controlar os Ventos",
+    "name": "controlar os ventos",
     "original_name": "Control Winds",
     "level": 5,
     "is_ritual": false,
@@ -14921,7 +14921,7 @@
   },
   {
     "slug": "find-greater-steed",
-    "name": "convocar montaria maior",
+    "name": "encontrar montaria maior",
     "original_name": "Find Greater Steed",
     "level": 4,
     "is_ritual": false,
@@ -14961,7 +14961,7 @@
   },
   {
     "slug": "crown-of-stars",
-    "name": "Coroa de Estrelas",
+    "name": "coroa de estrelas",
     "original_name": "Crown of Stars",
     "level": 7,
     "is_ritual": false,
@@ -15001,7 +15001,7 @@
   },
   {
     "slug": "create-bonfire",
-    "name": "Criar Fogueira",
+    "name": "criar fogueira",
     "original_name": "Create Bonfire",
     "level": 0,
     "is_ritual": false,
@@ -15041,7 +15041,7 @@
   },
   {
     "slug": "create-homunculus",
-    "name": "Criar Homúnculo",
+    "name": "criar homúnculo",
     "original_name": "Create Homunculus",
     "level": 6,
     "is_ritual": false,
@@ -15081,7 +15081,7 @@
   },
   {
     "slug": "danse-macabre",
-    "name": "Dança Macabra",
+    "name": "dança macabra",
     "original_name": "Danse Macabre",
     "level": 5,
     "is_ritual": false,
@@ -15161,7 +15161,7 @@
   },
   {
     "slug": "scatter",
-    "name": "Dispersão",
+    "name": "dispersão",
     "original_name": "Scatter",
     "level": 6,
     "is_ritual": false,
@@ -15201,7 +15201,7 @@
   },
   {
     "slug": "illusory-dragon",
-    "name": "Dragão Ilusório",
+    "name": "dragão ilusório",
     "original_name": "Illusory Dragon",
     "level": 8,
     "is_ritual": false,
@@ -15321,7 +15321,7 @@
   },
   {
     "slug": "erupting-earth",
-    "name": "Erupção de Terra",
+    "name": "erupção de terra",
     "original_name": "Erupting Earth",
     "level": 3,
     "is_ritual": false,
@@ -15361,7 +15361,7 @@
   },
   {
     "slug": "skywrite",
-    "name": "Escrita Celeste",
+    "name": "escrita celeste",
     "original_name": "Skywrite",
     "level": 2,
     "is_ritual": true,
@@ -15401,7 +15401,7 @@
   },
   {
     "slug": "watery-sphere",
-    "name": "Esfera Aquosa",
+    "name": "esfera aquosa",
     "original_name": "Watery Sphere",
     "level": 4,
     "is_ritual": false,
@@ -15441,7 +15441,7 @@
   },
   {
     "slug": "storm-sphere",
-    "name": "esfera da tormenta",
+    "name": "esfera tempestuosa",
     "original_name": "Storm Sphere",
     "level": 4,
     "is_ritual": false,
@@ -15481,7 +15481,7 @@
   },
   {
     "slug": "vitriolic-sphere",
-    "name": "Esfera Cáustica",
+    "name": "esfera cáustica",
     "original_name": "Vitriolic Sphere",
     "level": 4,
     "is_ritual": false,
@@ -15521,7 +15521,7 @@
   },
   {
     "slug": "mind-spike",
-    "name": "Espinho Mental",
+    "name": "espinho mental",
     "original_name": "Mind Spike",
     "level": 2,
     "is_ritual": false,
@@ -15561,7 +15561,7 @@
   },
   {
     "slug": "healing-spirit",
-    "name": "Espírito da Cura",
+    "name": "espírito curativo",
     "original_name": "Healing Spirit",
     "level": 2,
     "is_ritual": false,
@@ -15601,7 +15601,7 @@
   },
   {
     "slug": "sickening-radiance",
-    "name": "Resplendor Enjoativo",
+    "name": "resplendor enjoativo",
     "original_name": "Sickening Radiance",
     "level": 4,
     "is_ritual": false,
@@ -15681,7 +15681,7 @@
   },
   {
     "slug": "ice-knife",
-    "name": "Faca de Gelo",
+    "name": "faca de gelo",
     "original_name": "Ice Knife",
     "level": 1,
     "is_ritual": false,
@@ -15721,7 +15721,7 @@
   },
   {
     "slug": "flame-arrows",
-    "name": "Flechas Flamejantes",
+    "name": "flechas flamejantes",
     "original_name": "Flame Arrows",
     "level": 3,
     "is_ritual": false,
@@ -15801,7 +15801,7 @@
   },
   {
     "slug": "snillocs-snowball-swarm",
-    "name": "Chuva de Bolas de Neve de Snilloc",
+    "name": "chuva de bolas de neve de snilloc",
     "original_name": "Snilloc's Snowball Swarm",
     "level": 2,
     "is_ritual": false,
@@ -15841,7 +15841,7 @@
   },
   {
     "slug": "wrath-of-nature",
-    "name": "Fúria da Natureza",
+    "name": "ira da natureza",
     "original_name": "Wrath of Nature",
     "level": 5,
     "is_ritual": false,
@@ -15881,7 +15881,7 @@
   },
   {
     "slug": "steel-wind-strike",
-    "name": "Golpe do Vento de Aço",
+    "name": "ataque do vento de aço",
     "original_name": "Steel Wind Strike",
     "level": 5,
     "is_ritual": false,
@@ -15921,7 +15921,7 @@
   },
   {
     "slug": "psychic-scream",
-    "name": "Grito Psíquico",
+    "name": "grito psíquico",
     "original_name": "Psychic Scream",
     "level": 9,
     "is_ritual": false,
@@ -15961,7 +15961,7 @@
   },
   {
     "slug": "guardian-of-nature",
-    "name": "Guardião da Natureza",
+    "name": "guardião da natureza",
     "original_name": "Guardian of Nature",
     "level": 4,
     "is_ritual": false,
@@ -16001,7 +16001,7 @@
   },
   {
     "slug": "immolation",
-    "name": "Imolação",
+    "name": "imolação",
     "original_name": "Immolation",
     "level": 5,
     "is_ritual": false,
@@ -16041,7 +16041,7 @@
   },
   {
     "slug": "infestation",
-    "name": "Infestação",
+    "name": "infestação",
     "original_name": "Infestation",
     "level": 0,
     "is_ritual": false,
@@ -16081,7 +16081,7 @@
   },
   {
     "slug": "enemies-abound",
-    "name": "Infestar de Inimigos",
+    "name": "infestar de inimigos",
     "original_name": "Enemies Abound",
     "level": 3,
     "is_ritual": false,
@@ -16121,7 +16121,7 @@
   },
   {
     "slug": "negative-energy-flood",
-    "name": "Inundação de Energia Negativa",
+    "name": "inundação de energia negativa",
     "original_name": "Negative Energy Flood",
     "level": 5,
     "is_ritual": false,
@@ -16161,7 +16161,7 @@
   },
   {
     "slug": "investiture-of-flame",
-    "name": "investidura do fogo",
+    "name": "manto de chamas",
     "original_name": "Investiture of Flame",
     "level": 6,
     "is_ritual": false,
@@ -16201,7 +16201,7 @@
   },
   {
     "slug": "investiture-of-ice",
-    "name": "Manto de Gelo",
+    "name": "manto de gelo",
     "original_name": "Investiture of Ice",
     "level": 6,
     "is_ritual": false,
@@ -16241,7 +16241,7 @@
   },
   {
     "slug": "investiture-of-stone",
-    "name": "Manto de Pedra",
+    "name": "manto de pedra",
     "original_name": "Investiture of Stone",
     "level": 6,
     "is_ritual": false,
@@ -16281,7 +16281,7 @@
   },
   {
     "slug": "investiture-of-wind",
-    "name": "Manto de Vento",
+    "name": "manto de vento",
     "original_name": "Investiture of Wind",
     "level": 6,
     "is_ritual": false,
@@ -16321,7 +16321,7 @@
   },
   {
     "slug": "summon-lesser-demons",
-    "name": "Invocar Demônios Menores",
+    "name": "invocar demônios menores",
     "original_name": "Summon Lesser Demons",
     "level": 3,
     "is_ritual": false,
@@ -16401,7 +16401,7 @@
   },
   {
     "slug": "invulnerability",
-    "name": "Invulnerabilidade",
+    "name": "invulnerabilidade",
     "original_name": "Invulnerability",
     "level": 9,
     "is_ritual": false,
@@ -16481,7 +16481,7 @@
   },
   {
     "slug": "snare",
-    "name": "Laço",
+    "name": "laço",
     "original_name": "Snare",
     "level": 1,
     "is_ritual": false,
@@ -16521,7 +16521,7 @@
   },
   {
     "slug": "shadow-blade",
-    "name": "Lâmina Sombria",
+    "name": "lâmina sombria",
     "original_name": "Shadow Blade",
     "level": 2,
     "is_ritual": false,
@@ -16561,7 +16561,7 @@
   },
   {
     "slug": "earthbind",
-    "name": "ligado à terra",
+    "name": "agarrão da terra",
     "original_name": "Earthbind",
     "level": 2,
     "is_ritual": false,
@@ -16641,7 +16641,7 @@
   },
   {
     "slug": "elemental-bane",
-    "name": "Destruição Elemental",
+    "name": "destruição elemental",
     "original_name": "Elemental Bane",
     "level": 4,
     "is_ritual": false,
@@ -16681,7 +16681,7 @@
   },
   {
     "slug": "tidal-wave",
-    "name": "Maremoto",
+    "name": "maremoto",
     "original_name": "Tidal Wave",
     "level": 3,
     "is_ritual": false,
@@ -16721,7 +16721,7 @@
   },
   {
     "slug": "melfs-minute-meteors",
-    "name": "Meteoros Momentâneos de Melf",
+    "name": "meteoros momentâneos de melf",
     "original_name": "Melf's Minute Meteors",
     "level": 3,
     "is_ritual": false,
@@ -16761,7 +16761,7 @@
   },
   {
     "slug": "mold-earth",
-    "name": "Moldar Terra",
+    "name": "moldar terra",
     "original_name": "Mold Earth",
     "level": 0,
     "is_ritual": false,
@@ -16801,7 +16801,7 @@
   },
   {
     "slug": "shape-water",
-    "name": "Moldar Água",
+    "name": "moldar água",
     "original_name": "Shape Water",
     "level": 0,
     "is_ritual": false,
@@ -16841,7 +16841,7 @@
   },
   {
     "slug": "wall-of-water",
-    "name": "Muralha de Água",
+    "name": "muralha de água",
     "original_name": "Wall of Water",
     "level": 3,
     "is_ritual": false,
@@ -16881,7 +16881,7 @@
   },
   {
     "slug": "wall-of-sand",
-    "name": "Muralha de Areia",
+    "name": "muralha de areia",
     "original_name": "Wall of Sand",
     "level": 3,
     "is_ritual": false,
@@ -16921,7 +16921,7 @@
   },
   {
     "slug": "wall-of-light",
-    "name": "Muralha de Luz",
+    "name": "parede de luz",
     "original_name": "Wall of Light",
     "level": 5,
     "is_ritual": false,
@@ -16961,7 +16961,7 @@
   },
   {
     "slug": "bones-of-the-earth",
-    "name": "Ossos da Terra",
+    "name": "ossos da terra",
     "original_name": "Bones of the Earth",
     "level": 6,
     "is_ritual": false,
@@ -17001,7 +17001,7 @@
   },
   {
     "slug": "power-word-pain",
-    "name": "Palavra do Poder Dor",
+    "name": "palavra de poder dor",
     "original_name": "Power Word Pain",
     "level": 7,
     "is_ritual": false,
@@ -17041,7 +17041,7 @@
   },
   {
     "slug": "word-of-radiance",
-    "name": "Palavra do Esplendor",
+    "name": "palavra do esplendor",
     "original_name": "Word of Radiance",
     "level": 0,
     "is_ritual": false,
@@ -17081,7 +17081,7 @@
   },
   {
     "slug": "far-step",
-    "name": "Passo Distante",
+    "name": "passo distante",
     "original_name": "Far Step",
     "level": 5,
     "is_ritual": false,
@@ -17121,7 +17121,7 @@
   },
   {
     "slug": "thunder-step",
-    "name": "Passo Trovejante",
+    "name": "passo trovejante",
     "original_name": "Thunder Step",
     "level": 3,
     "is_ritual": false,
@@ -17161,7 +17161,7 @@
   },
   {
     "slug": "magic-stone",
-    "name": "Pedras Mágicas",
+    "name": "pedra encantada",
     "original_name": "Magic Stone",
     "level": 0,
     "is_ritual": false,
@@ -17201,7 +17201,7 @@
   },
   {
     "slug": "pyrotechnics",
-    "name": "Pirotecnia",
+    "name": "pirotecnia",
     "original_name": "Pyrotechnics",
     "level": 2,
     "is_ritual": false,
@@ -17241,7 +17241,7 @@
   },
   {
     "slug": "mighty-fortress",
-    "name": "Fortaleza Poderosa",
+    "name": "fortaleza poderosa",
     "original_name": "Mighty Fortress",
     "level": 8,
     "is_ritual": false,
@@ -17281,7 +17281,7 @@
   },
   {
     "slug": "mass-polymorph",
-    "name": "Metamorfose em Massa",
+    "name": "metamorfose em massa",
     "original_name": "Mass Polymorph",
     "level": 9,
     "is_ritual": false,
@@ -17321,7 +17321,7 @@
   },
   {
     "slug": "mental-prison",
-    "name": "Prisão Mental",
+    "name": "prisão mental",
     "original_name": "Mental Prison",
     "level": 6,
     "is_ritual": false,
@@ -17401,7 +17401,7 @@
   },
   {
     "slug": "primordial-ward",
-    "name": "Proteção Primordial",
+    "name": "proteção primordial",
     "original_name": "Primordial Ward",
     "level": 6,
     "is_ritual": false,
@@ -17441,7 +17441,7 @@
   },
   {
     "slug": "frostbite",
-    "name": "queimadura de gelo",
+    "name": "picada congelante",
     "original_name": "Frostbite",
     "level": 0,
     "is_ritual": false,
@@ -17521,7 +17521,7 @@
   },
   {
     "slug": "chaos-bolt",
-    "name": "Raio do Caos",
+    "name": "raio de caos",
     "original_name": "Chaos Bolt",
     "level": 1,
     "is_ritual": false,
@@ -17561,7 +17561,7 @@
   },
   {
     "slug": "gust",
-    "name": "Lufada",
+    "name": "lufada",
     "original_name": "Gust",
     "level": 0,
     "is_ritual": false,
@@ -17641,7 +17641,7 @@
   },
   {
     "slug": "tiny-servant",
-    "name": "servo miniatura",
+    "name": "pequeno servo",
     "original_name": "Tiny Servant",
     "level": 3,
     "is_ritual": false,
@@ -17721,7 +17721,7 @@
   },
   {
     "slug": "catnap",
-    "name": "Soneca",
+    "name": "soneca",
     "original_name": "Catnap",
     "level": 3,
     "is_ritual": false,
@@ -17761,7 +17761,7 @@
   },
   {
     "slug": "dragons-breath",
-    "name": "Bafo de Dragão",
+    "name": "bafo de dragão",
     "original_name": "Dragon's Breath",
     "level": 2,
     "is_ritual": false,
@@ -17801,7 +17801,7 @@
   },
   {
     "slug": "temple-of-the-gods",
-    "name": "Templo dos Deuses",
+    "name": "templo dos deuses",
     "original_name": "Temple of the Gods",
     "level": 7,
     "is_ritual": false,
@@ -17841,7 +17841,7 @@
   },
   {
     "slug": "abi-dalzims-horrid-wilting",
-    "name": "Evaporação de Abi-Dalzim",
+    "name": "evaporação de abi-dalzim",
     "original_name": "Abi-Dalzim's Horrid Wilting",
     "level": 8,
     "is_ritual": false,
@@ -17881,7 +17881,7 @@
   },
   {
     "slug": "life-transference",
-    "name": "Transferência de Vida",
+    "name": "transferência de vida",
     "original_name": "Life Transference",
     "level": 3,
     "is_ritual": false,
@@ -17921,7 +17921,7 @@
   },
   {
     "slug": "transmute-rock",
-    "name": "Transmutar Pedra",
+    "name": "transmutar pedra",
     "original_name": "Transmute Rock",
     "level": 5,
     "is_ritual": false,
@@ -17961,7 +17961,7 @@
   },
   {
     "slug": "tensers-transformation",
-    "name": "Transformação de Tenser",
+    "name": "transformação de tenser",
     "original_name": "Tenser's Transformation",
     "level": 6,
     "is_ritual": false,
@@ -18001,7 +18001,7 @@
   },
   {
     "slug": "earth-tremor",
-    "name": "Tremor de Terra",
+    "name": "tremor de terra",
     "original_name": "Earth Tremor",
     "level": 1,
     "is_ritual": false,
@@ -18041,7 +18041,7 @@
   },
   {
     "slug": "maddening-darkness",
-    "name": "trevas da loucura",
+    "name": "escuridão enlouquecedora",
     "original_name": "Maddening Darkness",
     "level": 8,
     "is_ritual": false,
@@ -18081,7 +18081,7 @@
   },
   {
     "slug": "thunderclap",
-    "name": "trovão",
+    "name": "golpe trovejante",
     "original_name": "Thunderclap",
     "level": 0,
     "is_ritual": false,
@@ -18161,7 +18161,7 @@
   },
   {
     "slug": "warding-wind",
-    "name": "Vento Protetor",
+    "name": "vento protetor",
     "original_name": "Warding Wind",
     "level": 2,
     "is_ritual": false,
@@ -18201,7 +18201,7 @@
   },
   {
     "slug": "beast-bond",
-    "name": "vínculo ferino",
+    "name": "vínculo com a besta",
     "original_name": "Beast Bond",
     "level": 1,
     "is_ritual": false,

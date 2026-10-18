@@ -71,32 +71,29 @@
         { "key": "martial-arts", "name": { "pt": "artes marciais", "en": "Martial Arts" } }
       ],
       "2": [
-        { "key": "ki", "name": { "pt": "ki", "en": "Ki" } },
-        { "key": "flurry-of-blows", "name": { "pt": "torrente de golpes", "en": "Flurry of Blows" } },
+        { "key": "ki", "name": { "pt": "chi", "en": "Ki" } },
+        { "key": "flurry-of-blows", "name": { "pt": "rajada de golpes", "en": "Flurry of Blows" } },
         { "key": "patient-defense", "name": { "pt": "defesa paciente", "en": "Patient Defense" } },
-        { "key": "step-of-the-wind", "name": { "pt": "passos do vento", "en": "Step of the Wind" } },
+        { "key": "step-of-the-wind", "name": { "pt": "passo do vento", "en": "Step of the Wind" } },
         { "key": "unarmored-movement", "name": { "pt": "movimento sem armadura", "en": "Unarmored Movement" } }
       ],
       "3": [
         { "key": "monastic-tradition", "name": { "pt": "tradição monástica", "en": "Monastic Tradition" } },
-        { "key": "deflect-missiles", "name": { "pt": "desviar projéteis", "en": "Deflect Missiles" } }
+        { "key": "deflect-missiles", "name": { "pt": "defletir projéteis", "en": "Deflect Missiles" } }
       ],
       "4": [
         {
           "key": "ability-score-improvement-4",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         },
         { "key": "slow-fall", "name": { "pt": "queda lenta", "en": "Slow Fall" } }
       ],
       "5": [
         { "key": "extra-attack", "name": { "pt": "ataque extra", "en": "Extra Attack" } },
-        { "key": "stunning-strike", "name": { "pt": "golpe atordoante", "en": "Stunning Strike" } }
+        { "key": "stunning-strike", "name": { "pt": "ataque atordoante", "en": "Stunning Strike" } }
       ],
       "6": [
-        {
-          "key": "ki-empowered-strikes",
-          "name": { "pt": "golpes potencializados com ki", "en": "Ki-Empowered Strikes" }
-        },
+        { "key": "ki-empowered-strikes", "name": { "pt": "golpes de chi", "en": "Ki-Empowered Strikes" } },
         { "key": "subclasses", "name": { "pt": "Tradição Monástica", "en": "Monastic Tradition" } }
       ],
       "7": [
@@ -106,27 +103,27 @@
       "8": [
         {
           "key": "ability-score-improvement-8",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "9": [
         {
           "key": "unarmored-movement-improvement",
-          "name": { "pt": "aperfeiçoamento do deslocamento sem armadura", "en": "Unarmored Movement improvement" }
+          "name": { "pt": "aprimoramento de movimento sem armadura", "en": "Unarmored Movement improvement" }
         }
       ],
-      "10": [{ "key": "purity-of-body", "name": { "pt": "pureza do corpo", "en": "Purity of Body" } }],
+      "10": [{ "key": "purity-of-body", "name": { "pt": "pureza corporal", "en": "Purity of Body" } }],
       "11": [{ "key": "subclasses", "name": { "pt": "Tradição Monástica", "en": "Monastic Tradition" } }],
       "12": [
         {
           "key": "ability-score-improvement-12",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "13": [
         {
           "key": "tongue-of-the-sun-and-moon",
-          "name": { "pt": "idioma do sol e da lua", "en": "Tongue of the Sun and Moon" }
+          "name": { "pt": "idiomas do sol e da lua", "en": "Tongue of the Sun and Moon" }
         }
       ],
       "14": [{ "key": "diamond-soul", "name": { "pt": "alma de diamante", "en": "Diamond Soul" } }],
@@ -134,7 +131,7 @@
       "16": [
         {
           "key": "ability-score-improvement-16",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "17": [{ "key": "subclasses", "name": { "pt": "Tradição Monástica", "en": "Monastic Tradition" } }],
@@ -142,10 +139,10 @@
       "19": [
         {
           "key": "ability-score-improvement-19",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
-      "20": [{ "key": "perfect-self", "name": { "pt": "autoaperfeiçoamento", "en": "Perfect Self" } }]
+      "20": [{ "key": "perfect-self", "name": { "pt": "auto aperfeiçoamento", "en": "Perfect Self" } }]
     }
   },
   "features": [
@@ -209,7 +206,7 @@
       "level": 2,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 109 }, "en": { "book": "PHB", "page": 76 } },
-      "name": { "pt": "ki", "en": "Ki" },
+      "name": { "pt": "chi", "en": "Ki" },
       "html": {
         "pt": "<p>A partir do 2º nível, seu treinamento permite que você utilize o poder místico do ki. Seu acesso a essa energia é representado por um número de pontos de ki. Seu nível de Monge determina o número de pontos possuídos, conforme mostrado na coluna de Pontos de ki, da tabela O Monge.</p><p>Você pode usar esses pontos para ativar diversas características de ki. Você começa com três características: Torrente de Golpes, Defesa Paciente e Passo do Vento. Você aprende mais características de ki conforme ganha níveis nesta classe.</p><p>Ao usar um ponto de ki, ele ficará gasto até que você medite ininterruptamente por pelo menos meia-hora, após o que você recupera todos os pontos gastos. É preciso meditar por pelo menos 30 minutos durante o período de descanso para recuperar seus pontos de ki.</p><p>Algumas características de ki exigem que seu alvo realize uma salvaguarda para evitar seus efeitos. A CD desses testes é calculada da seguinte forma:</p><p><strong>CD para evitar os efeitos do seu ki</strong> = 8 + seu bônus de proficiência + seu modificador de Sabedoria</p><p><strong>Torrente de Golpes</strong><br>Imediatamente após executar a ação Atacar no seu turno, você pode gastar 1 ponto de ki para realizar dois ataques desarmados como sua ação bônus.</p><p><strong>Defesa Paciente</strong><br>Você pode usar 1 ponto de ki para executar a ação Esquivar como sua ação bônus do turno.</p><p><strong>Passos do Vento</strong><br>Você pode gastar 1 ponto de ki para executar a ação Desengajar ou Correr como sua ação bônus do turno. Sua distância de salto é dobrada.</p>",
         "en": "<p>Starting at 2nd level, your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of ki points. Your monk level determines the number of points you have, as shown in the Ki Points column of the Monk table.</p> <p>You can spend these points to fuel various ki features. You start knowing three such features: <strong>Flurry of Blows</strong>, <strong>Patient Defense</strong>, and <strong>Step of the Wind</strong>. You learn more ki features as you gain levels in this class.</p> <p>When you spend a ki point, it is unavailable until you finish a short or long rest, at the end of which you draw all of your expended ki back into yourself. You must spend at least 30 minutes of the rest meditating to regain your ki points.</p> <p>Some of your ki features require your target to make a saving throw to resist the feature’s effects. The saving throw DC is calculated as follows:</p> <p><strong>Ki save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p> <p><strong>Flurry of Blows&nbsp;<br></strong> Immediately after you take the Attack action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action.</p> <p><strong>Patient Defense<br></strong> You can spend 1 ki point to take the Dodge action as a bonus action on your turn.</p> <p><strong>Step of the Wind<br></strong> You can spend 1 ki point to take the Disengage or Dash action as a bonus action on your turn, and your jump distance is doubled for the turn.</p>"
@@ -220,7 +217,7 @@
       "level": 2,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 109 }, "en": { "book": "PHB", "page": 76 } },
-      "name": { "pt": "torrente de golpes", "en": "Flurry of Blows" },
+      "name": { "pt": "rajada de golpes", "en": "Flurry of Blows" },
       "html": {
         "pt": "<p>Imediatamente após executar a ação Atacar no seu turno, você pode gastar 1 ponto de ki para realizar dois ataques desarmados como sua ação bônus.</p>",
         "en": "<p>Immediately after you take the Attack action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action.</p>"
@@ -242,7 +239,7 @@
       "level": 2,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 109 }, "en": { "book": "PHB", "page": 76 } },
-      "name": { "pt": "passos do vento", "en": "Step of the Wind" },
+      "name": { "pt": "passo do vento", "en": "Step of the Wind" },
       "html": {
         "pt": "<p>Você pode gastar 1 ponto de ki para executar a ação Desengajar ou Correr como sua ação bônus do turno. Sua distância de salto é dobrada.</p>",
         "en": "<p>You can spend 1 ki point to take the Disengage or Dash action as a bonus action on your turn, and your jump distance is doubled for the turn.</p>"
@@ -286,7 +283,7 @@
       "level": 3,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 109 }, "en": { "book": "PHB", "page": 76 } },
-      "name": { "pt": "desviar projéteis", "en": "Deflect Missiles" },
+      "name": { "pt": "defletir projéteis", "en": "Deflect Missiles" },
       "html": {
         "pt": "<p>A partir do 3º nível, você pode usar sua reação para desviar ou segurar um projétil disparado contra você. Ao fazê-lo, o dano que você receberia é reduzido em 1d10 + seu modificador de Destreza + seu nível de monge.</p><p>Se o dano for reduzido a 0 e o projétil for pequeno o suficiente para caber em sua mão (que deve estar livre), você pode agarrá-lo. Como parte da mesma reação, você pode gastar 1 ponto de ki para executar um ataque à distância com o projétil que acabou de agarrar. Independentemente das suas proficiências com armas, você faz esse ataque com proficiência, pois, neste caso, o projétil conta como uma arma de monge, cujo alcance é de 6 metros e alcance máximo de 18 metros.</p>",
         "en": "<p>Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your monk level.</p> <p>If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack, which has a normal range of 20 feet and a long range of 60 feet.</p>"
@@ -308,7 +305,7 @@
       "level": 4,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 109 }, "en": { "book": "PHB", "page": 76 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando essa característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -352,7 +349,7 @@
       "level": 5,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 110 }, "en": { "book": "PHB", "page": 76 } },
-      "name": { "pt": "golpe atordoante", "en": "Stunning Strike" },
+      "name": { "pt": "ataque atordoante", "en": "Stunning Strike" },
       "html": {
         "pt": "<p>A partir do 5º nível, você pode interferir no fluxo de ki no corpo de um oponente. Ao atingir uma criatura com uma arma de combate corpo a corpo, você pode gastar 1 ponto de ki para tentar um golpe atordoante. O alvo deve ser bem-sucedido em uma salvaguarda de Constituição, ou ficará atordoado até o final do seu próximo turno.</p>",
         "en": "<p>Starting at 5th level, you can interfere with the flow of ki in an opponent’s body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.</p>"
@@ -374,7 +371,7 @@
       "level": 6,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 110 }, "en": { "book": "PHB", "page": 76 } },
-      "name": { "pt": "golpes potencializados com ki", "en": "Ki-Empowered Strikes" },
+      "name": { "pt": "golpes de chi", "en": "Ki-Empowered Strikes" },
       "html": {
         "pt": "<p>A partir do 6º nível, seus ataques desarmados contam como ataques mágicos, para efeito de superar resistência e imunidade a ataques e dano não-mágicos.</p>",
         "en": "<p>Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>"
@@ -407,7 +404,7 @@
       "level": 8,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 109 }, "en": { "book": "PHB", "page": 76 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando essa característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -418,7 +415,7 @@
       "level": 9,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 109 }, "en": { "book": "PHB", "page": 76 } },
-      "name": { "pt": "aperfeiçoamento do deslocamento sem armadura", "en": "Unarmored Movement improvement" },
+      "name": { "pt": "aprimoramento de movimento sem armadura", "en": "Unarmored Movement improvement" },
       "html": {
         "pt": "<p>No 9º nível, você ganha a habilidade de mover-se sobre superfícies verticais ou líquidas sem cair ou afundar durante o seu deslocamento.</p>",
         "en": "<p>At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during your move.</p>"
@@ -429,7 +426,7 @@
       "level": 10,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 110 }, "en": { "book": "PHB", "page": 76 } },
-      "name": { "pt": "pureza do corpo", "en": "Purity of Body" },
+      "name": { "pt": "pureza corporal", "en": "Purity of Body" },
       "html": {
         "pt": "<p>No 10º nível, seu domínio sobre o fluxo do ki em seu corpo o torna imune a doenças e venenos.</p>",
         "en": "<p>At 10th level, your mastery of the ki flowing through you makes you immune to disease and poison.</p>"
@@ -440,7 +437,7 @@
       "level": 12,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 109 }, "en": { "book": "PHB", "page": 76 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando essa característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -451,7 +448,7 @@
       "level": 13,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 110 }, "en": { "book": "PHB", "page": 76 } },
-      "name": { "pt": "idioma do sol e da lua", "en": "Tongue of the Sun and Moon" },
+      "name": { "pt": "idiomas do sol e da lua", "en": "Tongue of the Sun and Moon" },
       "html": {
         "pt": "<p>A partir do 13º nível, você aprende a tocar o ki de outras mentes, sendo capaz de entender todos os idiomas falados. Além disso, toda criatura capaz de entender qualquer idioma passa a entender o que você diz.</p>",
         "en": "<p>Starting at 13th level, you learn to touch the ki of other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say.</p>"
@@ -484,7 +481,7 @@
       "level": 16,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 109 }, "en": { "book": "PHB", "page": 76 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando essa característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -506,7 +503,7 @@
       "level": 19,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 109 }, "en": { "book": "PHB", "page": 76 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando essa característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -517,7 +514,7 @@
       "level": 20,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 110 }, "en": { "book": "PHB", "page": 76 } },
-      "name": { "pt": "autoaperfeiçoamento", "en": "Perfect Self" },
+      "name": { "pt": "auto aperfeiçoamento", "en": "Perfect Self" },
       "html": {
         "pt": "<p>No 20º nível, caso tenha gastado todos os seus pontos de ki, ao jogar para iniciativa você recupera 4 pontos de ki.</p>",
         "en": "<p>At 20th level, when you roll for initiative and have no ki points remaining, you regain 4 ki points.</p>"
@@ -528,7 +525,7 @@
     {
       "slug": "way-of-shadow",
       "short_name_en": "Shadow",
-      "name": { "pt": "Caminho das Sombras", "en": "Way of Shadow" },
+      "name": { "pt": "caminho da sombra", "en": "Way of Shadow" },
       "source": { "pt": { "book": "LDJ", "page": 111 }, "en": { "book": "PHB", "page": 80 } },
       "intro_html": {
         "pt": "<p>Os monges do Caminho das Sombras seguem uma tradição que valoriza a furtividade e o subterfúgio. Esses monges podem ser chamados de ninjas ou dançarinos das sombras, servindo como espiões e assassinos. Às vezes, os membros de um monastério ninja pertencem à mesma família, formando um clã que jurou segredo sobre suas artes e missões. Outros monastérios se assemelham a guildas de ladrões, alugando seus serviços para nobres, mercadores ricos ou qualquer um que possa pagar seu preço. Independentemente dos seus métodos, os chefes desses monastérios exigem dos seus discípulos obediência inquestionável.</p>",
@@ -540,7 +537,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 111 }, "en": { "book": "PHB", "page": 80 } },
-          "name": { "pt": "arte da sombra", "en": "Shadow Arts" },
+          "name": { "pt": "artes sombrias", "en": "Shadow Arts" },
           "html": {
             "pt": "<p>A partir do momento em que você escolhe esta tradição, no 3º nível, passa a poder usar o seu ki para duplicar os efeitos de certas magias. Com uma ação, você pode gastar 2 pontos de ki para conjurar <em>escuridão</em>, <em>visão no escuro</em>, <em>passo sem rastro</em> ou <em>silêncio</em>, sem precisar de componentes materiais. Além disso, ganha o truque <em>ilusão menor</em>, caso já não o conheça.</p>",
             "en": "<p>Starting when you choose this tradition at 3rd level, you can use your ki to duplicate the effects of certain spells. As an action, you can spend 2 ki points to cast darkness, darkvision, pass without trace, or silence, without providing material components. Additionally, you gain the minor illusion cantrip if you don’t already know it.</p>"
@@ -551,7 +548,7 @@
           "level": 6,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 111 }, "en": { "book": "PHB", "page": 80 } },
-          "name": { "pt": "passo da sombra", "en": "Shadow Step" },
+          "name": { "pt": "passo das sombras", "en": "Shadow Step" },
           "html": {
             "pt": "<p>No 6º nível, você ganha a habilidade de se mover de uma sombra para outra. Quando estiver na meia-luz ou escuridão, você pode usar uma ação bônus para se teleportar a até 18 metros de distância, escolhendo um espaço desocupado de meia-luz ou escuridão, à sua vista. Você ainda tem vantagem no primeiro ataque corpo a corpo que executar antes do final do turno.</p>",
             "en": "<p>At 6th level, you gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. You then have advantage on the first melee attack you make before the end of the turn.</p>"
@@ -562,7 +559,7 @@
           "level": 11,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 111 }, "en": { "book": "PHB", "page": 80 } },
-          "name": { "pt": "manto da sombra", "en": "Cloak of Shadows" },
+          "name": { "pt": "manto de sombras", "en": "Cloak of Shadows" },
           "html": {
             "pt": "<p>No 11º nível, você aprendeu a se tornar um com as sombras. Quando estiver em uma área de meia-luz ou escuridão, pode usar sua ação para se tornar invisível. Você permanece invisível até realizar um ataque, conjurar uma magia ou adentrar uma área de luz plena.</p>",
             "en": "<p>By 11th level, you have learned to become one with the shadows. When you are in an area of dim light or darkness, you can use your action to become invisible. You remain invisible until you make an attack, cast a spell, or are in an area of bright light.</p>"
@@ -628,7 +625,7 @@
     {
       "slug": "way-of-the-open-hand",
       "short_name_en": "Open Hand",
-      "name": { "pt": "Caminho da Palma Aberta", "en": "Way of the Open Hand" },
+      "name": { "pt": "caminho da mão aberta", "en": "Way of the Open Hand" },
       "source": { "pt": { "book": "LDJ", "page": 110 }, "en": { "book": "PHB", "page": 79 } },
       "intro_html": {
         "pt": "<p>Os monges do Caminho da Mão Espalmada são os mestres absolutos do combate com artes marciais, quer se utilizem de armas ou não. Eles aprendem técnicas para empurrar e derrubar seus oponentes, manipular o ki para curar o dano causado em seus próprios corpos, e praticam a meditação avançada, capaz de protegê-los do perigo.</p>",
@@ -640,7 +637,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 110 }, "en": { "book": "PHB", "page": 79 } },
-          "name": { "pt": "técnica da mão espalmada", "en": "Open Hand Technique" },
+          "name": { "pt": "técnica da mão aberta", "en": "Open Hand Technique" },
           "html": {
             "pt": "<p>A partir do momento em que você escolhe esta tradição, no 3º nível, passa a ser capaz de manipular o ki do seu inimigo, ao controlar o seu próprio. Sempre que acertar uma criatura com um dos seus ataques de Torrente de Golpes, pode impor a ela um dos efeitos a seguir:</p><ul><li>Ela precisa ser bem-sucedida em uma salvaguarda de Destreza ou cairá.</li><li>Ela deve realizar uma salvaguarda de Força. Em caso de falha, você pode empurrá-la a até 4,5 metros de distância.</li><li>Ela não pode executar reações até o final do seu próximo turno.</li></ul>",
             "en": "<p>Starting when you choose this tradition at 3rd level, you can manipulate your enemy’s ki when you harness your own. Whenever you hit a creature with one of the attacks granted by your Flurry of Blows, you can impose one of the following effects on that target:</p> <ul> <li>It must succeed on a Dexterity saving throw or be knocked prone.</li> <li>It must make a Strength saving throw. If it fails, you can push it up to 15 feet away from you.</li> <li>It can’t take reactions until the end of your next turn.</li> </ul>"
@@ -686,7 +683,7 @@
     {
       "slug": "way-of-the-drunken-master",
       "short_name_en": "Drunken Master",
-      "name": { "pt": "Caminho do Mestre Bêbado", "en": "Way of the Drunken Master" },
+      "name": { "pt": "estilo do mestre bêbado", "en": "Way of the Drunken Master" },
       "source": { "pt": { "book": "GXTC", "page": 54 }, "en": { "book": "XGE", "page": 33 } },
       "intro_html": {
         "pt": "<p>O Caminho do Mestre Ébrio ensina seus estudantes a moverem-se com os modos irregulares e imprevisíveis de um bêbado. Um mestre ébrio ginga, cambaleando sobre pés instáveis, de modo a mostrar-se o que parece ser um combatente inábil, contra quem é frustrante lutar. Os tropeços erráticos do mestre ébrio escondem uma cuidadosamente executada dança de bloqueios, desvios, avanços, ataques e recuos.</p><p>Um mestre ébrio costuma gostar de se fazer de bobo para trazer alegria aos desanimados ou demonstrar humildade aos arrogantes, mas assim que uma luta se inicia, o mestre ébrio pode ser um oponente habilidoso e exasperante.</p>",
@@ -709,7 +706,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 55 }, "en": { "book": "XGE", "page": 33 } },
-          "name": { "pt": "técnica ébria", "en": "Drunken Technique" },
+          "name": { "pt": "técnica bêbada", "en": "Drunken Technique" },
           "html": {
             "pt": "<p>No 3º nível, você aprende como se virar e se contorcer rapidamente como parte de sua Torrente de Golpes. Sempre que usar Torrente de Golpes, você ganha o benefício da ação Desengajar, e seu deslocamento de caminhada aumenta em 3 metros até o final do turno atual.</p>",
             "en": "<p>At 3rd level, you learn how to twist and turn quickly as part of your Flurry of Blows. Whenever you use Flurry of Blows, you gain the benefit of the Disengage action, and your walking speed increases by 10 feet until the end of the current turn.</p>"
@@ -720,7 +717,7 @@
           "level": 6,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 55 }, "en": { "book": "XGE", "page": 34 } },
-          "name": { "pt": "em pé instantaneamente", "en": "Leap to Your Feet" },
+          "name": { "pt": "levantar do chão", "en": "Leap to Your Feet" },
           "html": {
             "pt": "<p>Quando estiver caído, você pode ficar de pé gastando apenas 1,5 metro, em vez de metade, do seu deslocamento.</p>",
             "en": "<p>When you&#x27;re prone, you can stand up by spending 5 feet of movement, rather than half your speed.</p>"
@@ -731,7 +728,7 @@
           "level": 6,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 55 }, "en": { "book": "XGE", "page": 34 } },
-          "name": { "pt": "redirecionamento de ataque", "en": "Redirect Attack" },
+          "name": { "pt": "redirecionar ataque", "en": "Redirect Attack" },
           "html": {
             "pt": "<p>Um ataque corpo a corpo malsucedido contra você permite que você gaste 1 ponto de ki como uma reação para fazer com que o ataque acerte uma criatura à sua escolha, à sua vista e a até 1,5 metro de você, exceto o próprio atacante.</p>",
             "en": "<p>When a creature misses you with a melee attack roll, you can spend 1 ki point as a reaction to cause that attack to hit one creature of your choice, other than the attacker, that you can see within 5 feet of you.</p>"
@@ -742,7 +739,7 @@
           "level": 6,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 55 }, "en": { "book": "XGE", "page": 33 } },
-          "name": { "pt": "ginga embriagada", "en": "Tipsy Sway" },
+          "name": { "pt": "balanço bêbado", "en": "Tipsy Sway" },
           "html": {
             "pt": "<p>A partir do 6º nível, você pode mover-se de modo súbito e oscilante, ganhando os seguintes benefícios.</p><p><strong>Em Pé Instantaneamente.</strong> Quando estiver caído, você pode ficar de pé gastando apenas 1,5 metro, em vez de metade, do seu deslocamento.</p><p><strong>Redirecionamento de Ataque.</strong> Um ataque corpo a corpo malsucedido contra você permite que você gaste 1 ponto de ki como uma reação para fazer com que o ataque acerte uma criatura à sua escolha, à sua vista e a até 1,5 metro de você, exceto o próprio atacante.</p>",
             "en": "<p>Starting at 6th level, you can move in sudden, swaying ways. You gain the following benefits.</p> <p><em><strong>Leap to Your Feet.&nbsp;</strong></em>When you’re prone, you can stand up by spending 5 feet of movement, rather than half your speed.</p> <p><em><strong>Redirect Attack.</strong></em>&nbsp;When a creature misses you with a melee attack roll, you can spend 1 ki point as a reaction to cause that attack to hit one creature of your choice, other than the attacker, that you can see within 5 feet of you.</p>"
@@ -753,7 +750,7 @@
           "level": 11,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 55 }, "en": { "book": "XGE", "page": 33 } },
-          "name": { "pt": "sorte de beberrão", "en": "Drunkard's Luck" },
+          "name": { "pt": "sorte do bêbado", "en": "Drunkard's Luck" },
           "html": {
             "pt": "<p>A partir do 11º nível, você parece sempre fazer o movimento certo na hora certa. Você pode gastar 2 pontos de ki para cancelar uma desvantagem em um teste de atributo, jogada de ataque ou salvaguarda.</p>",
             "en": "<p>Starting at 11th level, you always seem to get a lucky bounce at the right moment. When you make an ability check, an attack roll, or a saving throw and have disadvantage on the roll, you can spend 2 ki points to cancel the disadvantage for that roll.</p>"
@@ -764,7 +761,7 @@
           "level": 17,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 55 }, "en": { "book": "XGE", "page": 33 } },
-          "name": { "pt": "frenesi intoxicado", "en": "Intoxicated Frenzy" },
+          "name": { "pt": "frenesi do bêbado", "en": "Intoxicated Frenzy" },
           "html": {
             "pt": "<p>No 17º nível, você ganha a habilidade de realizar uma quantidade avassaladora de ataques contra um grupo de inimigos. Ao usar sua Torrente de Golpes, você pode fazer até três ataques adicionais com ela (até um total de cinco ataques Torrente de Golpes), contanto que cada ataque Torrente de Golpes tenha como alvo uma criatura diferente neste turno.</p>",
             "en": "<p>At 17th level, you gain the ability to make an overwhelming number of attacks against a group of enemies. When you use your Flurry of Blows, you can make up to three additional attacks with it (up to a total of five Flurry of Blows attacks), provided that each Flurry of Blows attack targets a different creature this turn.</p>"
@@ -777,7 +774,7 @@
     {
       "slug": "way-of-the-kensei",
       "short_name_en": "Kensei",
-      "name": { "pt": "Caminho do Kensei", "en": "Way of the Kensei" },
+      "name": { "pt": "estilo do kensei", "en": "Way of the Kensei" },
       "source": { "pt": { "book": "GXTC", "page": 55 }, "en": { "book": "XGE", "page": 34 } },
       "intro_html": {
         "pt": "<p>Monges do Caminho do Kensei treinam incansavelmente com suas armas, até o ponto onde as armas tornam-se uma extensão dos seus corpos. Tendo como fundação o domínio da luta com espadas, a tradição se ampliou de modo a incluir muitos outros tipos de armas.</p><p>Um kensei enxerga uma arma de modo semelhante ao modo como um calígrafo ou pintor enxerga uma pena ou pincel. Que uma tal mestria torne o kensei um guerreiro inigualável é apenas consequência de devoção, prática e estudo intensos.</p>",
@@ -789,7 +786,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 55 }, "en": { "book": "XGE", "page": 34 } },
-          "name": { "pt": "aparar ágil", "en": "Agile Parry" },
+          "name": { "pt": "esquiva rápida", "en": "Agile Parry" },
           "html": {
             "pt": "<p>Caso você realize um ataque desarmado como parte da ação Ataque em seu turno, e esteja empunhando uma arma kensei, você pode usá-la para se defender, caso se trate de uma arma de combate corpo a corpo. Você ganha um bônus de +2 para sua CA até o começo do seu próximo turno, enquanto a arma estiver em sua mão e você não estiver incapacitado.</p>",
             "en": "<p>If you make an unarmed strike as part of the Attack action on your turn and are holding a kensei weapon, you can use it to defend yourself if it is a melee weapon. You gain a +2 bonus to AC until the start of your next turn, while the weapon is in your hand and you aren&#x27;t incapacitated.</p>"
@@ -800,7 +797,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 55 }, "en": { "book": "XGE", "page": 34 } },
-          "name": { "pt": "disparo kensei", "en": "Kensei's Shot" },
+          "name": { "pt": "tiro do kensei", "en": "Kensei's Shot" },
           "html": {
             "pt": "<p>Você pode usar uma ação bônus no seu turno para tornar seus ataques à distância com uma arma kensei mais fatais. Ao fazê-lo, qualquer alvo que você atinja com um ataque à distância usando uma arma kensei sofre 1d4 pontos de dano adicional do tipo da arma. Você mantém este benefício até o final do turno atual.</p>",
             "en": "<p>You can use a bonus action on your turn to make your ranged attacks with a kensei weapon more deadly. When you do so, any target you hit with a ranged attack using a kensei weapon takes an extra 1d4 damage of the weapon&#x27;s type. You retain this benefit until the end of the current turn.</p>"
@@ -822,7 +819,7 @@
           "level": 6,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 55 }, "en": { "book": "XGE", "page": 34 } },
-          "name": { "pt": "um com a lâmina", "en": "One with the Blade" },
+          "name": { "pt": "uno com a lâmina", "en": "One with the Blade" },
           "html": {
             "pt": "<p>No 6º nível, você estende seu ki até suas armas kensei, concedendo a si mesmo os benefícios a seguir.</p><p><strong>Armas Kensei Mágicas.</strong> Seus ataques com armas kensei contam como mágicos para o propósito de superar resistência e imunidade a ataques e dano não mágicos.</p><p><strong>Ataque Ágil.</strong> Ao atingir um alvo com uma arma kensei, você pode gastar 1 ponto de ki para fazer com que a arma cause uma quantidade de dano adicional ao alvo igual ao seu dado de Artes Marciais. Você pode usar esta característica apenas uma vez em cada um dos seus turnos.</p>",
             "en": "<p>At 6th level, you extend your ki into your kensei weapons, granting you the following benefits.</p> <p><em><strong>Magic Kensei Weapons.</strong></em>&nbsp;Your attacks with your kensei weapons count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p> <p><em><strong>Deft Strike.</strong></em> When you hit a target with a kensei weapon, you can spend 1 ki point to cause the weapon to deal extra damage to the target equal to your Martial Arts die. You can use this feature only once on each of your turns.</p>"
@@ -857,7 +854,7 @@
     {
       "slug": "way-of-the-sun-soul",
       "short_name_en": "Sun Soul",
-      "name": { "pt": "Caminho da Alma Solar", "en": "Way of the Sun Soul" },
+      "name": { "pt": "estilo da alma solar", "en": "Way of the Sun Soul" },
       "source": { "pt": { "book": "GXTC", "page": 56 }, "en": { "book": "XGE", "page": 35 } },
       "intro_html": {
         "pt": "<p>Monges do Caminho da Alma Solar aprendem a canalizar sua energia vital em abrasadores raios de luz. Eles ensinam que a meditação pode desbloquear a habilidade de canalizar a luz vertida pela alma de cada criatura viva.</p>",
@@ -869,7 +866,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 56 }, "en": { "book": "XGE", "page": 35 } },
-          "name": { "pt": "rajada solar radiante", "en": "Radiant Sun Bolt" },
+          "name": { "pt": "raio solar radiante", "en": "Radiant Sun Bolt" },
           "html": {
             "pt": "<p>Ao escolher esta tradição no 3º nível, você pode lançar ardentes rajadas de radiação mágica.</p><p>Você ganha uma nova opção de ataque para usar com a ação Atacar. Esse ataque especial é um ataque mágico à distância com alcance de 9 metros. Você é proficiente com ele, adicionando seu modificador de Destreza às jogadas de ataque e dano dele. O tipo de dano é radiante, e o dado de dano é 1d4. Esse dado muda à medida que você ganha níveis como monge, conforme mostrado na coluna Artes Marciais da tabela O Monge.</p><p>Quando você executa a ação Atacar no seu turno e usa este ataque especial como parte dela, você pode gastar 1 ponto de ki para realizar o ataque especial duas vezes como uma ação bônus.</p><p>Ao ganhar a característica Ataque Extra, este ataque especial pode ser usado para qualquer um dos ataques que você faz como parte da ação Atacar.</p>",
             "en": "<p>Starting when you choose this tradition at 3rd level, you can hurl searing bolts of magical radiance.</p> <p>You gain a new attack option that you can use with the Attack&nbsp;action. This special attack is a ranged spell attack with a range of 30 feet. You are proficient with it, and you add your Dexterity modifier to its attack and damage rolls. Its damage is radiant, and its damage die is a d4. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.</p> <p>When you take the Attack action on your turn and use this special attack as part of it, you can spend 1 ki point to make the special attack twice as a bonus action.</p> <p>When you gain the Extra Attack feature, this special attack can be used for any of the attacks you make as part of the Attack action.</p>"
@@ -880,7 +877,7 @@
           "level": 6,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 56 }, "en": { "book": "XGE", "page": 35 } },
-          "name": { "pt": "golpe do arco ardente", "en": "Searing Arc Strike" },
+          "name": { "pt": "golpe do arco abrasador", "en": "Searing Arc Strike" },
           "html": {
             "pt": "<p>No 6º nível, você ganha a habilidade de canalizar seu ki em abrasadoras ondas de energia. Imediatamente após executar a ação Atacar em seu turno, você pode gastar 2 pontos de ki para conjurar a magia <em>mãos flamejantes</em> como uma ação bônus.</p><p>Você pode gastar pontos de ki adicionais para conjurar <em>mãos flamejantes</em> como uma magia de círculo superior. Cada ponto de ki adicional gasto aumenta o círculo da magia em 1. A quantidade máxima de pontos de ki (2 mais quaisquer pontos adicionais) que você pode gastar na magia é igual a metade do seu nível como monge.</p>",
             "en": "<p>At 6th level, you gain the ability to channel your ki into searing waves of energy. Immediately after you take the Attack action on your turn, you can spend 2 ki points to cast the burning hands&nbsp;spell as a bonus action.</p> <p>You can spend additional ki points to cast&nbsp;burning hands&nbsp;as a higher-level spell. Each additional ki point you spend increases the spell’s level by 1. The maximum number of ki points (2 plus any additional points) that you can spend on the spell equals half your monk level.</p>"
@@ -891,7 +888,7 @@
           "level": 11,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 56 }, "en": { "book": "XGE", "page": 35 } },
-          "name": { "pt": "explosão solar cauterizante", "en": "Searing Sunburst" },
+          "name": { "pt": "explosão calcinante", "en": "Searing Sunburst" },
           "html": {
             "pt": "<p>No 11º nível, você ganha a habilidade de criar um orbe de luz que irrompe numa explosão devastadora. Como uma ação, você cria magicamente um orbe e lança-o na direção de um ponto à sua escolha e a até 45 metros de você, onde ele irrompe numa esfera de luz radiante por um breve, porém mortal, instante.</p><p>Cada criatura dentro dessa esfera com raio de 6 metros deve ser bem-sucedida em uma salvaguarda de Constituição ou receber 2d6 pontos de dano radiante. As criaturas não precisam realizar a salvaguarda se estiverem por trás de cobertura total opaca.</p><p>Você pode aumentar o dano da esfera gastando pontos de ki. Cada ponto gasto, até um máximo de 3, aumenta o dano em 2d6.</p>",
             "en": "<p>At 11th level, you gain the ability to create an orb of light that erupts into a devastating explosion. As an action, you magically create an orb and hurl it at a point you choose within 150 feet, where it erupts into a sphere of radiant light for a brief but deadly instant.</p> <p>Each creature in that 20-foot-radius sphere must succeed on a Constitution saving throw or take 2d6 radiant damage. A creature doesn’t need to make the save if the creature is behind total cover that is opaque.</p> <p>You can increase the sphere’s damage by spending ki points. Each point you spend, to a maximum of 3, increases the damage by 2d6.</p>"

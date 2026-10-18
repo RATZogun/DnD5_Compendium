@@ -70,7 +70,7 @@
     "features_by_level": {
       "1": [
         { "key": "divine-sense", "name": { "pt": "sentido divino", "en": "Divine Sense" } },
-        { "key": "lay-on-hands", "name": { "pt": "mãos consagradas", "en": "Lay on Hands" } }
+        { "key": "lay-on-hands", "name": { "pt": "cura pelas mãos", "en": "Lay on Hands" } }
       ],
       "2": [
         { "key": "fighting-style", "name": { "pt": "estilo de luta", "en": "Fighting Style" } },
@@ -86,7 +86,7 @@
       "4": [
         {
           "key": "ability-score-improvement-4",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "5": [{ "key": "extra-attack", "name": { "pt": "ataque extra", "en": "Extra Attack" } }],
@@ -95,7 +95,7 @@
       "8": [
         {
           "key": "ability-score-improvement-8",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "10": [{ "key": "aura-of-courage", "name": { "pt": "aura de coragem", "en": "Aura of Courage" } }],
@@ -108,7 +108,7 @@
       "12": [
         {
           "key": "ability-score-improvement-12",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "14": [{ "key": "cleansing-touch", "name": { "pt": "toque purificador", "en": "Cleansing Touch" } }],
@@ -116,13 +116,13 @@
       "16": [
         {
           "key": "ability-score-improvement-16",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "19": [
         {
           "key": "ability-score-improvement-19",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "20": [{ "key": "subclasses", "name": { "pt": "Juramento Sagrado", "en": "Sacred Oath" } }]
@@ -178,7 +178,7 @@
       "level": 1,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 115 }, "en": { "book": "PHB", "page": 82 } },
-      "name": { "pt": "mãos consagradas", "en": "Lay on Hands" },
+      "name": { "pt": "cura pelas mãos", "en": "Lay on Hands" },
       "html": {
         "pt": "<p>Seu toque abençoado pode curar ferimentos. Você possui uma reserva de poder curativo que se regenera ao fim de um descanso longo. Com essa reserva, você pode restaurar um total de pontos de vida igual ao seu nível x 5.</p><p>Como uma ação, você pode tocar uma criatura e transferir-lhe parte dessa reserva, restaurando-lhe os pontos de vida até o valor máximo.</p><p>Se preferir, pode gastar 5 pontos de sua reserva para curar a criatura de uma doença, ou neutralizar um veneno que a esteja afetando. Você pode curar múltiplas doenças e neutralizar múltiplos venenos com um único uso de Repousar Mãos, gastando 5 pontos separadamente para cada doença ou veneno.</p><p>Esta característica não afeta mortos-vivos ou constructos.</p>",
         "en": "<p>Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your paladin level × 5.</p> <p>As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.</p> <p>Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points separately for each one.</p> <p>This feature has no effect on undead and constructs.</p>"
@@ -299,7 +299,7 @@
       "level": 4,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 116 }, "en": { "book": "PHB", "page": 82 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível, e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -343,7 +343,7 @@
       "level": 8,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 116 }, "en": { "book": "PHB", "page": 82 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível, e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -376,7 +376,7 @@
       "level": 12,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 116 }, "en": { "book": "PHB", "page": 82 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível, e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -398,7 +398,7 @@
       "level": 16,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 116 }, "en": { "book": "PHB", "page": 82 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível, e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -409,7 +409,7 @@
       "level": 19,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 116 }, "en": { "book": "PHB", "page": 82 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível, e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -420,7 +420,7 @@
     {
       "slug": "oath-of-devotion",
       "short_name_en": "Devotion",
-      "name": { "pt": "Juramento da Devoção", "en": "Oath of Devotion" },
+      "name": { "pt": "juramento de devoção", "en": "Oath of Devotion" },
       "source": { "pt": { "book": "LDJ", "page": 116 }, "en": { "book": "PHB", "page": 85 } },
       "intro_html": {
         "pt": "<p>O Juramento da Devoção vincula um paladino aos mais elevados ideais da justiça, virtude e ordem. Algumas vezes chamados de cavaleiros, cavaleiros brancos ou guerreiros sagrados, esses paladinos personificam o ideal do cavaleiro de armadura brilhante, que age com honra em busca da justiça e do bem maior. Eles cultivam e perseguem os mais elevados padrões de conduta, e alguns, de um modo ou de outro, exigem que o resto do mundo mantenha os mesmos padrões. Muitos dos que realizam esse juramento são devotos de deuses da justiça e do bem, usando os mandamentos das suas divindades como medida para sua devoção. Eles admiram os anjos - os mais perfeitos servos do bem - e os têm como seus ideais, incorporando imagens de asas angelicais em seus elmos e brasões.</p>",
@@ -432,7 +432,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 117 }, "en": { "book": "PHB", "page": 85 } },
-          "name": { "pt": "princípios da devoção", "en": "Tenets of Devotion" },
+          "name": { "pt": "dogmas de devoção", "en": "Tenets of Devotion" },
           "html": {
             "pt": "<p>Embora as palavras e restrições exatas do Juramento da Devoção possam variar, os paladinos deste juramento compartilham os seguintes dogmas.</p><p><strong>Honestidade.</strong> Não minta ou trapaceie. Que sua palavra seja sua garantia.</p><p><strong>Coragem.</strong> Nunca tenha medo de agir, embora o sábio seja cauteloso.</p><p><strong>Compaixão.</strong> Ajude o próximo, proteja os fracos, puna aqueles que os ameaçam. Demonstre misericórdia para com seus oponentes, mas sempre com sabedoria.</p><p><strong>Honra.</strong> Trate o próximo com justiça, que ele veja suas ações honradas como exemplo. Faça o bem sempre que possível, enquanto causa o menor dos prejuízos.</p><p><strong>Dever.</strong> Seja responsável por suas ações e suas consequências, proteja os que estão sob seus cuidados e obedeça aos que detém autoridade sobre você.</p>",
             "en": "<p>Though the exact words and strictures of the Oath of Devotion vary, paladins of this oath share these tenets.</p><p><strong><em>Honesty.</em></strong> Don&#x27;t lie or cheat. Let your word be your promise.</p><p><strong><em>Courage.</em></strong> Never fear to act, though caution is wise.</p><p><strong><em>Compassion.</em></strong> Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with wisdom.</p><p><strong><em>Honor.</em></strong> Treat others with fairness, and let your honorable deeds be an example to them. Do as much good as possible while causing the least amount of harm.</p><p><strong><em>Duty.</em></strong> Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you.</p>"
@@ -509,7 +509,7 @@
           "level": 20,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 117 }, "en": { "book": "PHB", "page": 85 } },
-          "name": { "pt": "resplendor sagrado", "en": "Holy Nimbus" },
+          "name": { "pt": "halo sagrado", "en": "Holy Nimbus" },
           "html": {
             "pt": "<p>No 20º nível, como uma ação, você pode emanar uma aura de luz solar. Durante 1 minuto, você emanará luz plena em um raio de 9 metros e meia-luz por mais 9 metros.</p><p>Sempre que uma criatura inimiga iniciar o turno dela na área de luz plena, sofrerá 10 pontos de dano radiante.</p><p>Além disso, enquanto durar a luz, você tem vantagem em salvaguardas contra magias conjuradas por ínferos e mortos-vivos.</p><p>Uma vez usada esta característica, ela não pode ser usada novamente até que você termine um descanso longo.</p>",
             "en": "<p>At 20th level, as an action, you can emanate an aura of sunlight. For 1 minute, bright light shines from you in a 30-foot radius, and dim light shines 30 feet beyond that.</p> <p>Whenever an enemy creature starts its turn in the bright light, the creature takes 10 radiant damage.</p> <p>In addition, for the duration, you have advantage on saving throws against spells cast by fiends or undead.</p> <p>Once you use this feature, you can’t use it again until you finish a long rest.</p>"
@@ -556,7 +556,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 118 }, "en": { "book": "PHB", "page": 86 } },
-          "name": { "pt": "princípios dos anciões", "en": "Tenets of the Ancients" },
+          "name": { "pt": "dogmas dos anciões", "en": "Tenets of the Ancients" },
           "html": {
             "pt": "<p>Os princípios do Juramento dos Anciões foram preservados durante incontáveis séculos. O juramento enfatiza os princípios do bem acima de quaisquer preocupações com a ordem ou o caos. Seus quatro princípios centrais são simples.</p><p><strong>Acendei a Luz.</strong> Por meio de vossos atos de misericórdia, bondade e perdão, acendei a luz da esperança no mundo e rechaçai o desespero.</p><p><strong>Protegei a Luz.</strong> Onde houver o bem, a beleza, o amor e a alegria no mundo, colocai-vos contra a maldade que vos pode engolir. Onde floresce a vida, protegei-a contra as forças que a fazem murchar.</p><p><strong>Preservai a Vossa Própria Luz.</strong> Deliciai-vos com a música, o bom-humor, a beleza e a arte. Se permitíreis que a luz pereça em vosso coração, como ireis preservá-la no mundo?</p><p><strong>Tornai-vos Luz.</strong> Vós sois o farol. Gloriosa é a luz que de ti emana para todos os que vivem em desespero. Deixai que a luz de vossa alegria e coragem abrilhante todos os vossos atos.</p>",
             "en": "<p>The tenets of the Oath of the Ancients have been preserved for uncounted centuries. This oath emphasizes the principles of good above any concerns of law or chaos. Its four central principles are simple.</p><p><strong><em>Kindle the Light.</em></strong> Through your acts of mercy, kindness, and forgiveness, kindle the light of hope in the world, beating back despair.</p><p><strong><em>Shelter the Light.</em></strong> Where there is good, beauty, love, and laughter in the world, stand against the wickedness that would swallow it. Where life flourishes, stand against the forces that would render it barren.</p><p><strong><em>Preserve Your Own Light.</em></strong> Delight in song and laughter, in beauty and art. If you allow the light to die in your own heart, you can&#x27;t preserve it in the world.</p><p><strong><em>Be the Light.</em></strong> Be a glorious beacon for all who live in despair. Let the light of your joy and courage shine forth in all your deeds.</p>"
@@ -589,7 +589,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 118 }, "en": { "book": "PHB", "page": 86 } },
-          "name": { "pt": "a ira da natureza", "en": "Nature's Wrath" },
+          "name": { "pt": "fúria da natureza", "en": "Nature's Wrath" },
           "html": {
             "pt": "<p>Você pode usar seu Canalizar Divindade para invocar as forças primitivas e com elas prender um adversário. Com uma ação, você pode convocar videiras espectrais, que se estendem e se enlaçam ao redor de uma criatura, à sua vista, que esteja a até 3 metros de distância. A criatura deve ser bem-sucedida em uma salvaguarda de Força ou Destreza (ela escolhe), ou será contida. Enquanto estiver presa às videiras, ela deve repetir a salvaguarda ao final de cada um dos seus turnos. Caso obtenha sucesso, liberta-se e as videiras desaparecem.</p>",
             "en": "<p>You can use your Channel Divinity to invoke primeval forces to ensnare a foe. As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a Strength or Dexterity saving throw (its choice) or be restrained. While restrained by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish.</p>"
@@ -611,7 +611,7 @@
           "level": 7,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 118 }, "en": { "book": "PHB", "page": 86 } },
-          "name": { "pt": "aura de resistência", "en": "Aura of Warding" },
+          "name": { "pt": "aura de vigilância", "en": "Aura of Warding" },
           "html": {
             "pt": "<p>A partir do 7º nível, a magia antiga está tão enraizada em você que chega a formar uma aura de defesa mística. Você, e quaisquer criaturas amigáveis que estejam dentro de um raio de até 3 metros de distância, ganham resistência a dano causado por magias.</p><p>No 18º nível, o raio desta aura aumenta para 9 metros.</p>",
             "en": "<p>Beginning at 7th level, ancient magic lies so heavily upon you that it forms an eldritch ward. You and friendly creatures within 10 feet of you have resistance to damage from spells.</p> <p>At 18th level, the range of this aura increases to 30 feet.</p>"
@@ -633,7 +633,7 @@
           "level": 20,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 118 }, "en": { "book": "PHB", "page": 86 } },
-          "name": { "pt": "campeão ancestral", "en": "Elder Champion" },
+          "name": { "pt": "campeão dos anciões", "en": "Elder Champion" },
           "html": {
             "pt": "<p>No 20º nível, você é capaz de assumir a forma de uma antiga força da natureza, que se manifesta conforme a sua vontade. Por exemplo, sua pele pode se tornar verde, ou assumir uma textura de casca de árvore, seus cabelos podem se tornar folhosos ou musgosos, você poderia exibir uma galhada como as de um alce ou uma juba como a de um leão.</p><p>Com o uso de uma ação, você se transforma e, durante 1 minuto, recebe os seguintes benefícios:</p><ul><li>No começo de cada um dos seus turnos, você recupera 10 pontos de vida.</li><li>Ao lançar uma magia de paladino que exija uma ação para ser conjurada, é possível usar uma ação bônus para fazê-lo.</li><li>Criaturas inimigas que se encontrem em um raio de até 3 metros de distância têm desvantagem em salvaguardas contra as suas magias de paladino e os seus efeitos de Canalizar Divindade.</li></ul><p>Após usar esta característica, você não pode utilizá-la novamente até completar um descanso longo.</p>",
             "en": "<p>At 20th level, you can assume the form of an ancient force of nature, taking on an appearance you choose. For example, your skin might turn green or take on a bark-like texture, your hair might become leafy or moss-like, or you might sprout antlers or a lion-like mane.</p> <p>Using your action, you undergo a transformation. For 1 minute, you gain the following benefits:</p> <ul> <li>At the start of each of your turns, you regain 10 hit points.</li> <li>Whenever you cast a paladin spell that has a casting time of 1 action, you can cast it using a bonus action instead.</li> <li>Enemy creatures within 10 feet of you have disadvantage on saving throws against your paladin spells and Channel Divinity options.</li> </ul> <p>Once you use this feature, you can’t use it again until you finish a long rest.</p>"
@@ -664,7 +664,7 @@
     {
       "slug": "oath-of-vengeance",
       "short_name_en": "Vengeance",
-      "name": { "pt": "Juramento da Vingança", "en": "Oath of Vengeance" },
+      "name": { "pt": "juramento de vingança", "en": "Oath of Vengeance" },
       "source": { "pt": { "book": "LDJ", "page": 118 }, "en": { "book": "PHB", "page": 87 } },
       "intro_html": {
         "pt": "<p>O juramento da Vingança é um comprometimento solene de punir todos os que tenham cometido crimes capitais. Quando uma força maligna massacra camponeses indefesos, uma população inteira se nega a cumprir os desígnios dos deuses, uma guilda de ladrões se torna demasiadamente violenta ou poderosa, ou um dragão causa sofrimento em uma área rural - nessas horas, paladinos se erguem e prestam um Juramento de Vingança para corrigir aquilo que está errado. Para esses paladinos - muitas vezes chamados de vingadores ou cavaleiros sombrios - sua própria pureza não é tão importante quanto fazer justiça.</p>",
@@ -676,7 +676,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 119 }, "en": { "book": "PHB", "page": 87 } },
-          "name": { "pt": "princípios da vingança", "en": "Tenets of Vengeance" },
+          "name": { "pt": "dogmas de vingança", "en": "Tenets of Vengeance" },
           "html": {
             "pt": "<p>Os princípios do Juramento da Vingança podem variar de um paladino para outro, mas todos versam sobre punir os malfeitores a qualquer custo. Os paladinos que defendem esses princípios estão dispostos a sacrificar até mesmo a sua retidão para trazer à justiça aqueles que praticam maldades. Por isso, esses paladinos costumam ter alinhamento neutro ou ordeiro e neutro. Os dogmas que orientam seus princípios são brutalmente simples.</p><p><strong>Lute Contra o Mal Maior.</strong> Diante da escolha entre lutar contra meus inimigos jurados ou contra um mal menor, eu escolho o mal maior.</p><p><strong>Sem Misericórdia para os Maus.</strong> Inimigos comuns podem merecer a minha misericórdia; meus inimigos jurados, nunca.</p><p><strong>Por Todos os Meios Necessários.</strong> Meu remorso não deve me impedir de exterminar meus inimigos.</p><p><strong>Restituição.</strong> Se meus inimigos trazem ruína ao mundo, é porque falhei no meu dever. Devo ajudar suas vítimas.</p>",
             "en": "<p>The tenets of the Oath of Vengeance vary by paladin, but all the tenets revolve around punishing wrongdoers by any means necessary. Paladins who uphold these tenets are willing to sacrifice even their own righteousness to mete out justice upon those who do evil, so the paladins are often neutral or lawful neutral in alignment. The core principles of the tenets are brutally simple.</p><p><strong><em>Fight the Greater Evil.</em></strong> Faced with a choice of fighting my sworn foes or combating a lesser evil, I choose the greater evil.</p><p><strong><em>No Mercy for the Wicked.</em></strong> Ordinary foes might win my mercy, but my sworn enemies do not.</p><p><strong><em>By Any Means Necessary.</em></strong> My qualms can&#x27;t get in the way of exterminating my foes.</p><p><strong><em>Restitution.</em></strong> If my foes wreak ruin on the world, it is because I failed to stop them. I must help those harmed by their misdeeds.</p>"
@@ -709,7 +709,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 119 }, "en": { "book": "PHB", "page": 87 } },
-          "name": { "pt": "repudiar inimigo", "en": "Abjure Enemy" },
+          "name": { "pt": "abjurar inimigo", "en": "Abjure Enemy" },
           "html": {
             "pt": "<p>Com uma ação, você exibe seu símbolo sagrado e faz uma prece de denúncia. Escolha uma criatura visível dentro a até 18 metros de distância. Ela precisa realizar uma salvaguarda de Sabedoria, a não ser que seja imune a ser amedrontada. Ínferos e mortos-vivos têm desvantagem nessa salvaguarda.</p><p>Em caso de falha, a criatura fica amedrontada por 1 minuto ou até sofrer dano. Enquanto estiver amedrontada, ela não pode se movimentar ou se beneficiar de qualquer bônus de deslocamento.</p><p>Caso seja bem-sucedida, seu deslocamento cai pela metade por 1 minuto ou até ela sofrer dano.</p>",
             "en": "<p>As an action, you present your holy symbol and speak a prayer of denunciation, using your Channel Divinity. Choose one creature within 60 feet of you that you can see. That creature must make a Wisdom saving throw, unless it is immune to being frightened. Fiends and undead have disadvantage on this saving throw.</p><p>On a failed save, the creature is frightened for 1 minute or until it takes any damage. While frightened, the creature&#x27;s speed is 0, and it can&#x27;t benefit from any bonus to its speed.</p><p>On a successful save, the creature&#x27;s speed is halved for 1 minute or until the creature takes any damage.</p>"
@@ -742,7 +742,7 @@
           "level": 15,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 119 }, "en": { "book": "PHB", "page": 87 } },
-          "name": { "pt": "alma vingativa", "en": "Soul of Vengeance" },
+          "name": { "pt": "alma de vingança", "en": "Soul of Vengeance" },
           "html": {
             "pt": "<p>A partir do 15º nível, a autoridade com a qual você selou o Voto de Inimizade lhe concede um poder superior sobre seu inimigo. Quando uma criatura que esteja sob o efeito do seu Voto de Inimizade realizar um ataque, e se encontrar a uma distância adequada, você pode atacá-la com uma arma de combate corpo a corpo.</p>",
             "en": "<p>Starting at 15th level, the authority with which you speak your Vow of Enmity gives you greater power over your foe. When a creature under the effect of your Vow of Enmity makes an attack, you can use your reaction to make a melee weapon attack against that creature if it is within range.</p>"
@@ -776,7 +776,7 @@
     {
       "slug": "oathbreaker",
       "short_name_en": "Oathbreaker",
-      "name": { "pt": "Quebrador de Juramento", "en": "Oathbreaker" },
+      "name": { "pt": "quebrador de juramento", "en": "Oathbreaker" },
       "source": { "pt": { "book": "LDM", "page": 97 }, "en": { "book": "DMG", "page": 97 } },
       "intro_html": {
         "pt": "<p>Um Violador do Juramento, também conhecido como Violador, é um paladino que quebra seus juramentos sagrados para perseguir alguma ambição obscura ou servir um poder maligno. Qualquer luz que havia no coração do paladino foi extinta. Só resta a escuridão.</p><p>Um paladino deve ser mau e pelo menos de 3º nível para se tornar um Violador. O paladino substitui as características específicas do seu Juramento Sagrado pelas características do Violador.</p>",
@@ -788,7 +788,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "LDM", "page": 97 }, "en": { "book": "DMG", "page": 97 } },
-          "name": { "pt": null, "en": "Oathbreaker Spells" },
+          "name": { "pt": "magias de quebrador de juramento", "en": "Oathbreaker Spells" },
           "html": {
             "pt": null,
             "en": "<p>You gain oathbreaker spells at the paladin levels listed.</p><table><thead><tr><th>Paladin Level</th><th>Spells</th></tr></thead><tbody><tr><td>3rd</td><td>hellish rebuke, inflict wounds</td></tr><tr><td>5th</td><td>crown of madness, darkness</td></tr><tr><td>9th</td><td>animate dead, bestow curse</td></tr><tr><td>13th</td><td>blight, confusion</td></tr><tr><td>17th</td><td>contagion, dominate person</td></tr></tbody></table>"
@@ -810,7 +810,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "LDM", "page": 97 }, "en": { "book": "DMG", "page": 97 } },
-          "name": { "pt": "controlar mortos-vivos", "en": "Control Undead" },
+          "name": { "pt": "controlar morto-vivo", "en": "Control Undead" },
           "html": {
             "pt": "<p>Com uma ação, o paladino escolhe uma criatura morta-viva à vista e a até 9 metros dele. O alvo deve fazer uma salvaguarda de Sabedoria. Se falhar, deve obedecer os comandos do paladino pelas próximas 24 horas, ou até que o paladino use esta opção de Canalizar Divindade novamente. Um morto-vivo com nível de desafio igual ou superior ao nível do paladino é imune a este efeito.</p>",
             "en": "<p>As an action, the paladin targets one undead creature he or she can see within 30 feet of him or her. The target must make a Wisdom saving throw. On a failed save, the target must obey the paladin&#x27;s commands for the next 24 hours, or until the paladin uses this Channel Divinity option again. An undead whose challenge rating is equal to or greater than the paladin&#x27;s level is immune to this effect.</p>"
@@ -821,7 +821,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "LDM", "page": 97 }, "en": { "book": "DMG", "page": 97 } },
-          "name": { "pt": "aspecto terrível", "en": "Dreadful Aspect" },
+          "name": { "pt": "aspecto apavorante", "en": "Dreadful Aspect" },
           "html": {
             "pt": "<p>Com uma ação, o paladino canaliza as emoções mais sombrias e as concentra em uma explosão de ameaça mágica. Cada criatura à escolha do paladino, a até 9 metros dele e que possa vê-lo deve fazer uma salvaguarda de Sabedoria. Se falhar, fica amedrontada pelo paladino por 1 minuto. Se uma criatura amedrontada por este efeito terminar seu turno a mais de 9 metros de distância do paladino, ela pode tentar outra salvaguarda de Sabedoria para encerrar o efeito sobre si.</p>",
             "en": "<p>As an action, the paladin channels the darkest emotions and focuses them into a burst of magical menace. Each creature of the paladin&#x27;s choice within 30 feet of the paladin must make a Wisdom saving throw if it can see the paladin. On a failed save, the target is frightened of the paladin for 1 minute. If a creature frightened by this effect ends its turn more than 30 feet away from the paladin, it can attempt another Wisdom saving throw to end the effect on it.</p>"
@@ -854,7 +854,7 @@
           "level": 20,
           "optional": false,
           "source": { "pt": { "book": "LDM", "page": 97 }, "en": { "book": "DMG", "page": 97 } },
-          "name": { "pt": "lorde do pavor", "en": "Dread Lord" },
+          "name": { "pt": "senhor do pavor", "en": "Dread Lord" },
           "html": {
             "pt": "<p>No 20º nível, o paladino pode, com uma ação, cercar-se com uma aura de angústia que dura 1 minuto. A aura reduz qualquer luz plena para meia-luz em um raio de 9 metros em torno do paladino. Sempre que um inimigo amedrontado pelo paladino começar seu turno na aura, ele sofre 4d10 pontos de dano psíquico. Além disso, o paladino e as criaturas que ele escolhe na aura são envoltos por uma sombra mais intensa. Criaturas que dependam da visão têm desvantagem em jogadas de ataque contra criaturas envolvidas por esta sombra.</p><p>Enquanto a aura durar, o paladino pode usar uma ação bônus em seu turno para fazer com que as sombras na aura ataquem uma criatura. O paladino faz um ataque mágico corpo a corpo contra o alvo. Se acertar o ataque, o alvo sofre dano necrótico igual a 3d10 + o modificador de Carisma do paladino.</p><p>Depois de ativar a aura, o paladino não pode fazê-lo novamente até que termine um descanso longo.</p>",
             "en": "<p>At 20th level, the paladin can, as an action, surround himself or herself with an aura of gloom that lasts for 1 minute. The aura reduces any bright light in a 30-foot radius around the paladin to dim light. Whenever an enemy that is frightened by the paladin starts its turn in the aura, it takes 4d10 psychic damage. Additionally, the paladin and creatures he or she chooses in the aura are draped in deeper shadow. Creatures that rely on sight have disadvantage on attack rolls against creatures draped in this shadow.</p><p>While the aura lasts, the paladin can use a bonus action on his or her turn to cause the shadows in the aura to attack one creature. The paladin makes a melee spell attack against the target. If the attack hits, the target takes necrotic damage equal to 3d10 + the paladin&#x27;s Charisma modifier.</p><p>After activating the aura, the paladin can&#x27;t do so again until he or she finishes a long rest.</p>"
@@ -893,7 +893,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 58 }, "en": { "book": "XGE", "page": 37 } },
-          "name": { "pt": "princípios da conquista", "en": "Tenets of Conquest" },
+          "name": { "pt": "dogmas da conquista", "en": "Tenets of Conquest" },
           "html": {
             "pt": "<p>Um paladino que faça este juramento tem os princípios da conquista cauterizados no braço.</p><p><strong>Extinga a Chama da Esperança.</strong> A mera derrota do inimigo em combate não basta. Sua vitória deve esmagar a determinação de seus inimigos para todo sempre. Uma lâmina pode pôr fim a uma vida. O medo pode derrubar um império.</p><p><strong>Governe com Punho de Ferro.</strong> Uma vez que você tenha conquistado, não tolere nenhuma dissidência. Sua palavra é lei. Aqueles que o obedecem devem ser favorecidos. Aqueles que o desafiam devem ser punidos como exemplo para os demais.</p><p><strong>Força acima de Tudo.</strong> Você deve governar até que surja alguém mais forte. Então você deve se fortalecer e fazer jus ao desafio, ou provar sua própria ruína.</p>",
             "en": "<p>A paladin who takes this oath has the tenets of conquest seared on the upper arm.</p><p><strong><em>Douse the Flame of Hope.</em></strong> It is not enough to merely defeat an enemy in battle. Your victory must be so overwhelming that your enemies&#x27; will to fight is shattered forever. A blade can end a life. Fear can end an empire.</p><p><strong><em>Rule with an Iron Fist.</em></strong> Once you have conquered, tolerate no dissent. Your word is law. Those who obey it shall be favored. Those who defy it shall be punished as an example to all who might follow.</p><p><strong><em>Strength Above All.</em></strong> You shall rule until a stronger one arises. Then you must grow mightier and meet the challenge, or fall to your own ruin.</p>"
@@ -959,7 +959,7 @@
           "level": 15,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 59 }, "en": { "book": "XGE", "page": 37 } },
-          "name": { "pt": "censura desdenhosa", "en": "Scornful Rebuke" },
+          "name": { "pt": "repreensão arrogante", "en": "Scornful Rebuke" },
           "html": {
             "pt": "<p>A partir do 15º nível, aqueles que ousam atacá-lo são punidos psiquicamente por tal audácia. Sempre que uma criatura o atingir com um ataque, ela recebe uma quantidade de dano psíquico igual ao seu modificador de Carisma (no mínimo 1), se você não estiver incapacitado.</p>",
             "en": "<p>Starting at 15th level, those who dare to strike you are psychically punished for their audacity. Whenever a creature hits you with an attack, that creature takes psychic damage equal to your Charisma modifier (minimum of 1) if you’re not incapacitated.</p>"
@@ -1005,7 +1005,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 59 }, "en": { "book": "XGE", "page": 38 } },
-          "name": { "pt": "princípios da redenção", "en": "Tenets of Redemption" },
+          "name": { "pt": "dogmas da redenção", "en": "Tenets of Redemption" },
           "html": {
             "pt": "<p>Os princípios do Juramento da Redenção mantém um paladino em um alto padrão de paz e justiça.</p><p><strong>Paz.</strong> A violência é o último recurso. Diplomacia e compreensão são os caminhos para a paz permanente.</p><p><strong>Inocência.</strong> Todas as pessoas iniciam a vida num estado de inocência, sendo o ambiente ou a influência de forças obscuras que as levam para o mal. Ao dar o bom exemplo, e trabalhar para curar as feridas de uma mundo profundamente falho, você pode colocar qualquer um no caminho justo.</p><p><strong>Paciência.</strong> A mudança leva tempo. Aqueles que trilharam o caminho do mal devem ser lembrados da necessidade de se manterem honestos e verdadeiros. Após ter plantado a semente da retidão em uma criatura, você deve trabalhar diariamente para que a semente sobreviva e floresça.</p><p><strong>Sabedoria.</strong> Seu coração e mente devem permanecer puros, pois eventualmente você será forçado a admitir uma derrota. Ainda que todas as criaturas possam ser redimidas, algumas foram tão longe no caminho do mal que não lhe resta escolha senão encerrar suas vidas em nome do bem maior. Uma ação como essa deve ser cuidadosamente pesada e as consequências plenamente compreendidas, mas assim que a decisão for tomada, você deve levá-la a cabo sabendo que seu caminho é justo.</p>",
             "en": "<p>The tenets of the Oath of Redemption hold a paladin to a high standard of peace and justice.</p><p><strong><em>Peace.</em></strong> Violence is a weapon of last resort. Diplomacy and understanding are the paths to long-lasting peace.</p><p><strong><em>Innocence.</em></strong> All people begin life in an innocent state, and it is their environment or the influence of dark forces that drives them to evil. By setting the proper example, and working to heal the wounds of a deeply flawed world, you can set anyone on a righteous path.</p><p><strong><em>Patience.</em></strong> Change takes time. Those who have walked the path of the wicked must be given reminders to keep them honest and true. Once you have planted the seed of righteousness in a creature, you must work day after day to allow that seed to survive and flourish.</p><p><strong><em>Wisdom.</em></strong> Your heart and mind must stay clear, for eventually you will be forced to admit defeat. While every creature can be redeemed, some are so far along the path of evil that you have no choice but to end their lives for the greater good. Any such action must be carefully weighed and the consequences fully understood, but once you have made the decision, follow through with it knowing your path is just.</p>"
@@ -1049,7 +1049,7 @@
           "level": 3,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 60 }, "en": { "book": "XGE", "page": 38 } },
-          "name": { "pt": "repreender os violentos", "en": "Rebuke the Violent" },
+          "name": { "pt": "repreendendo a violência", "en": "Rebuke the Violent" },
           "html": {
             "pt": "<p>Você pode usar Canalizar Divindade para repreender aqueles que usam violência. Imediatamente após um atacante a até 9 metros de você causar dano a uma criatura que não seja você, é possível usar sua reação para forçar o atacante a realizar uma salvaguarda de Sabedoria. Em caso de falha, ele sofre uma quantidade de dano radiante igual ao dano que ele causou à criatura. Em caso de sucesso, ele sofre metade desse dano.</p>",
             "en": "<p>You can use your Channel Divinity to rebuke those who use violence. Immediately after an attacker within 30 feet of you deals damage with an attack against a creature other than you, you can use your reaction to force the attacker to make a Wisdom saving throw. On a failed save, the attacker takes radiant damage equal to the damage it just dealt. On a successful save, it takes half as much damage.</p>"
@@ -1060,7 +1060,7 @@
           "level": 7,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 60 }, "en": { "book": "XGE", "page": 38 } },
-          "name": { "pt": "aura do protetor", "en": "Aura of the Guardian" },
+          "name": { "pt": "aura do guardião", "en": "Aura of the Guardian" },
           "html": {
             "pt": "<p>A partir do 7º nível, você pode proteger outras criaturas de dano ao custo da sua própria integridade física. Quando uma criatura a até 3 metros de você sofre dano, você pode usar sua reação para magicamente sofrer esse dano no lugar da criatura. Esta característica não transfere para você quaisquer efeitos que acompanhem o dano, e o dano transferido não é reduzido de nenhum modo.</p><p>No 18º nível, o alcance desta aura aumenta para 9 metros.</p>",
             "en": "<p>Starting at 7th level, you can shield others from harm at the cost of your own health. When a creature within 10 feet of you takes damage, you can use your reaction to magically take that damage, instead of that creature taking it. This feature doesn’t transfer any other effects that might accompany the damage, and this damage can’t be reduced in any way.</p> <p>At 18th level, the range of this aura increases to 30 feet.</p>"

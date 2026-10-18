@@ -95,7 +95,7 @@
       "4": [
         {
           "key": "ability-score-improvement-4",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "5": [
@@ -111,7 +111,7 @@
       "8": [
         {
           "key": "ability-score-improvement-8",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         },
         {
           "key": "destroy-undead-cr-1",
@@ -129,7 +129,7 @@
       "12": [
         {
           "key": "ability-score-improvement-12",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "14": [
@@ -141,7 +141,7 @@
       "16": [
         {
           "key": "ability-score-improvement-16",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "17": [
@@ -155,13 +155,13 @@
       "19": [
         {
           "key": "ability-score-improvement-19",
-          "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" }
+          "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" }
         }
       ],
       "20": [
         {
           "key": "divine-intervention-improvement",
-          "name": { "pt": "incremento na intervenção divina", "en": "Divine Intervention Improvement" }
+          "name": { "pt": "aprimoramento de intervenção divina", "en": "Divine Intervention Improvement" }
         }
       ]
     }
@@ -271,7 +271,7 @@
       "level": 4,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 65 }, "en": { "book": "PHB", "page": 56 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -315,7 +315,7 @@
       "level": 8,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 65 }, "en": { "book": "PHB", "page": 56 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -359,7 +359,7 @@
       "level": 12,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 65 }, "en": { "book": "PHB", "page": 56 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -381,7 +381,7 @@
       "level": 16,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 65 }, "en": { "book": "PHB", "page": 56 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -414,7 +414,7 @@
       "level": 19,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 65 }, "en": { "book": "PHB", "page": 56 } },
-      "name": { "pt": "aumento no valor de atributo", "en": "Ability Score Improvement" },
+      "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
@@ -425,7 +425,7 @@
       "level": 20,
       "optional": false,
       "source": { "pt": { "book": "LDJ", "page": 66 }, "en": { "book": "PHB", "page": 56 } },
-      "name": { "pt": "incremento na intervenção divina", "en": "Divine Intervention Improvement" },
+      "name": { "pt": "aprimoramento de intervenção divina", "en": "Divine Intervention Improvement" },
       "html": {
         "pt": "<p>No 20º nível, seu clamor por uma intervenção é automaticamente bem-sucedido, dispensando a jogada de dado.</p>",
         "en": "<p>At 20th level, your call for intervention succeeds automatically, no roll required.</p>"
@@ -541,7 +541,7 @@
           "level": 1,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 70 }, "en": { "book": "PHB", "page": 60 } },
-          "name": { "pt": "proficiência bônus", "en": "Bonus Proficiency" },
+          "name": { "pt": "proficiência adicional", "en": "Bonus Proficiency" },
           "html": {
             "pt": "<p>Ao escolher este domínio no 1º nível, você ganha proficiência com armaduras pesadas.</p>",
             "en": "<p>When you choose this domain at 1st level, you gain proficiency with heavy armor.</p>"
@@ -650,7 +650,7 @@
           "level": 1,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 68 }, "en": { "book": "PHB", "page": 60 } },
-          "name": { "pt": "truque bônus", "en": "Bonus Cantrip" },
+          "name": { "pt": "truque adicional", "en": "Bonus Cantrip" },
           "html": {
             "pt": "<p>Ao escolher este domínio no 1º nível, você recebe o truque luz, caso ainda não o possua.</p>",
             "en": "<p>When you choose this domain at 1st level, you gain the light cantrip if you don&#x27;t already know it. This cantrip doesn&#x27;t count against the number of cleric cantrips you know.</p>"
@@ -672,7 +672,10 @@
           "level": 2,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 68 }, "en": { "book": "PHB", "page": 60 } },
-          "name": { "pt": "canalizar divindade: brilho do amanhecer", "en": "Channel Divinity: Radiance of the Dawn" },
+          "name": {
+            "pt": "canalizar divindade: radiação do amanhecer",
+            "en": "Channel Divinity: Radiance of the Dawn"
+          },
           "html": {
             "pt": "<p>A partir do 2º nível, você pode usar sua característica Canalizar Divindade para canalizar a luz solar, banindo a escuridão e causando dano radiante em seus inimigos.</p><p>Como sua ação no turno, você ergue seu símbolo sagrado, dissipando qualquer escuridão mágica a uma distância de até 10 metros. Além disso, cada criatura hostil a até 9 metros de você deve realizar um teste de salvaguarda usando Constituição. Em caso de falha, a criatura sofre 2d10 de dano radiante + seu nível de clérigo, e metade disso no caso de sucesso. Uma criatura sob cobertura total não é afetada.</p>",
             "en": "<p>Starting at 2nd level, you can use your Channel Divinity to harness sunlight, banishing darkness and dealing radiant damage to your foes.</p><p>As an action, you present your holy symbol, and any magical darkness within 30 feet of you is dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes radiant damage equal to 2d10 + your cleric level on a failed saving throw, and half as much damage on a successful one. A creature that has Cover from you is not affected.</p>"
@@ -770,7 +773,7 @@
           "level": 1,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 69 }, "en": { "book": "PHB", "page": 61 } },
-          "name": { "pt": "proficiência bônus", "en": "Bonus Proficiency" },
+          "name": { "pt": "proficiência adicional", "en": "Bonus Proficiency" },
           "html": {
             "pt": "<p>Ainda no 1º nível, você ganha proficiência com armaduras pesadas.</p>",
             "en": "<p>Also at 1st level, you gain proficiency with heavy armor.</p>"
@@ -795,7 +798,7 @@
           "level": 6,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 69 }, "en": { "book": "PHB", "page": 61 } },
-          "name": { "pt": "enfraquecer os elementos", "en": "Dampen Elements" },
+          "name": { "pt": "amortecer elementos", "en": "Dampen Elements" },
           "html": {
             "pt": "<p>A partir do 6º nível, quando você ou uma criatura a até 9 metros de distância sofrerem dano ácido, gélido, ígneo, elétrico ou trovejante, você poderá usar sua reação para conceder resistência contra o dano a si mesmo ou à criatura.</p>",
             "en": "<p>Starting at 6th level, when you or a creature within 30 feet of you takes acid, cold, fire, lightning, or thunder damage, you can use your reaction to grant resistance to the creature against that instance of the damage.</p>"
@@ -828,7 +831,7 @@
           "level": 17,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 69 }, "en": { "book": "PHB", "page": 61 } },
-          "name": { "pt": "mestre da natureza", "en": "Master of Nature" },
+          "name": { "pt": "senhor da natureza", "en": "Master of Nature" },
           "html": {
             "pt": "<p>No 17º nível, você ganha a habilidade de comandar animais e plantas. Enquanto as criaturas estiverem enfeitiçadas pela sua característica Enfeitiçar Animais e Plantas, você pode realizar uma ação bônus no seu turno para comandar verbalmente os atos de cada uma, no próximo turno delas.</p>",
             "en": "<p>At 17th level, you gain the ability to command animals and plant creatures. While creatures are charmed by your Charm Animals and Plants feature, you can take a bonus action on your turn to verbally command what each of those creatures will do on its next turn.</p>"
@@ -871,7 +874,7 @@
           "level": 1,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 69 }, "en": { "book": "PHB", "page": 62 } },
-          "name": { "pt": "proficiência bônus", "en": "Bonus Proficiencies" },
+          "name": { "pt": "proficiência adicional", "en": "Bonus Proficiencies" },
           "html": {
             "pt": "<p>No 1º nível, você ganha proficiência com armas marciais e armaduras pesadas.</p>",
             "en": "<p>At 1st level, you gain proficiency with martial weapons and heavy armor.</p>"
@@ -882,7 +885,7 @@
           "level": 1,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 69 }, "en": { "book": "PHB", "page": 62 } },
-          "name": { "pt": "ira da tempestade", "en": "Wrath of the Storm" },
+          "name": { "pt": "ira da tormenta", "en": "Wrath of the Storm" },
           "html": {
             "pt": "<p>Ainda no 1º nível, você pode responder violentamente a ataques. Quando for atingido por um ataque de uma criatura que esteja a 1,5 metro de distância, caso possa enxergá-la, você pode usar a sua reação para forçá-la a realizar uma salvaguarda de Destreza. Em caso de falha, ela sofre 2d8 pontos de dano elétrico ou trovejante (à sua escolha), e metade disso caso seja bem-sucedida.</p><p>Você pode usar esta característica uma quantidade de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez), recuperando os usos gastos após um descanso longo.</p>",
             "en": "<p>Also at 1st level, you can thunderously rebuke attackers. When a creature within 5 feet of you that you can see hits you with an attack, you can use your reaction to cause the creature to make a Dexterity saving throw. The creature takes 2d8 lightning or thunder damage (your choice) on a failed saving throw, and half as much damage on a successful one.</p> <p>You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.</p>"
@@ -904,7 +907,7 @@
           "level": 6,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 69 }, "en": { "book": "PHB", "page": 62 } },
-          "name": { "pt": "ataque relampejante", "en": "Thunderbolt Strike" },
+          "name": { "pt": "golpe de relâmpago", "en": "Thunderbolt Strike" },
           "html": {
             "pt": "<p>No 6º nível, sempre que causar dano elétrico em uma criatura Grande ou menor, você também pode empurrá-la a até 3 metros de distância.</p>",
             "en": "<p>At 6th level, when you deal lightning damage to a Large or smaller creature, you can also push it up to 10 feet away from you.</p>"
@@ -937,7 +940,7 @@
           "level": 17,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 69 }, "en": { "book": "PHB", "page": 62 } },
-          "name": { "pt": "filho da tempestade", "en": "Stormborn" },
+          "name": { "pt": "filho da tormenta", "en": "Stormborn" },
           "html": {
             "pt": "<p>No 17º nível, sempre que você não estiver no subsolo ou no interior de construções, você passa a ter deslocamento de voo igual ao seu deslocamento de caminhada atual.</p>",
             "en": "<p>At 17th level, you have a flying speed equal to your current walking speed whenever you are not underground or indoors.</p>"
@@ -964,7 +967,7 @@
     {
       "slug": "trickery-domain",
       "short_name_en": "Trickery",
-      "name": { "pt": "Domínio da Enganação", "en": "Trickery Domain" },
+      "name": { "pt": "domínio da enganação", "en": "Trickery Domain" },
       "source": { "pt": { "book": "LDJ", "page": 69 }, "en": { "book": "PHB", "page": 62 } },
       "intro_html": {
         "pt": "<p>Os deuses da trapaça - tais como Tymora, Beshaba, Olidammara, o Viajante, Gari Brilhouro Resplandecente e Loki - são pregadores de peças e incitadores que desafiam constantemente a ordem aceita entre os deuses e os mortais. Eles são os patronos dos ladrões, trapaceiros, apostadores, rebeldes e libertadores. Seus clérigos são uma força de perturbação no mundo, ferindo orgulhos, zombando dos tiranos, roubando dos ricos, libertando cativos e desprezando tradições decadentes. Eles favorecem o subterfúgio, as trapaças, as fraudes e o roubo em lugar do confronto direto.</p><p><strong>Magias do Domínio da Trapaça</strong></p><table><thead><tr><th>Nível de Clérigo</th><th>Magias</th></tr></thead><tbody><tr><td>1º</td><td>disfarçar-se, enfeitiçar pessoa</td></tr><tr><td>3º</td><td>passo sem rastro, reflexos</td></tr><tr><td>5º</td><td>dissipar magia, piscar</td></tr><tr><td>7º</td><td>polimorfia, porta dimensional</td></tr><tr><td>9º</td><td>dominar pessoa, modificar memória</td></tr></tbody></table>",
@@ -998,7 +1001,7 @@
           "level": 6,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 70 }, "en": { "book": "PHB", "page": 62 } },
-          "name": { "pt": "canalizar divindade: manto da sombra", "en": "Channel Divinity: Cloak of Shadows" },
+          "name": { "pt": "canalizar divindade: manto de sombras", "en": "Channel Divinity: Cloak of Shadows" },
           "html": {
             "pt": "<p>A partir do 6º nível, você pode usar Canalizar Divindade para desaparecer.</p><p>Com uma ação, você se torna invisível até o final do seu próximo turno. Você permanece invisível até realizar um ataque ou conjurar uma magia.</p>",
             "en": "<p>Starting at 6th level, you can use your Channel Divinity to vanish.</p> <p>As an action, you become invisible until the end of your next turn. You become visible if you attack or cast a spell.</p>"
@@ -1074,7 +1077,7 @@
           "level": 1,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 67 }, "en": { "book": "PHB", "page": 63 } },
-          "name": { "pt": "proficiência bônus", "en": "Bonus Proficiencies" },
+          "name": { "pt": "proficiência adicional", "en": "Bonus Proficiencies" },
           "html": {
             "pt": "<p>No 1º nível, você ganha proficiência com armas marciais e armaduras pesadas.</p>",
             "en": "<p>At 1st level, you gain proficiency with martial weapons and heavy armor.</p>"
@@ -1096,7 +1099,7 @@
           "level": 2,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 67 }, "en": { "book": "PHB", "page": 63 } },
-          "name": { "pt": "canalizar divindade: ataque direcionado", "en": "Channel Divinity: Guided Strike" },
+          "name": { "pt": "canalizar divindade: ataque dirigido", "en": "Channel Divinity: Guided Strike" },
           "html": {
             "pt": "<p>A partir do 2º nível, você pode usar sua característica Canalizar Divindade para atacar com precisão sobrenatural. Ao realizar uma jogada de ataque, você pode usar Canalizar Divindade para ganhar um bônus de +10 na jogada. É preciso fazer essa escolha após checar o resultado da jogada, mas antes que o DM diga se o ataque foi bem ou malsucedido.</p>",
             "en": "<p>Starting at 2nd level, you can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.</p>"
@@ -1143,7 +1146,7 @@
           "level": 17,
           "optional": false,
           "source": { "pt": { "book": "LDJ", "page": 67 }, "en": { "book": "PHB", "page": 63 } },
-          "name": { "pt": "avatar da guerra", "en": "Avatar of Battle" },
+          "name": { "pt": "avatar da batalha", "en": "Avatar of Battle" },
           "html": {
             "pt": "<p>No 17º nível, você se torna resistente a dano contundente, cortante e perfurante, causado por armas não mágicas.</p>",
             "en": "<p>At 17th level, you gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.</p>"
@@ -1310,7 +1313,7 @@
           "level": 1,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 24 }, "en": { "book": "XGE", "page": 18 } },
-          "name": { "pt": "proficiências bônus", "en": "Bonus Proficiency" },
+          "name": { "pt": "proficiência bônus", "en": "Bonus Proficiency" },
           "html": {
             "pt": "<p>Ao escolher este domínio no 1º nível, você ganha proficiência com armadura pesada e ferramentas de ferreiro.</p>",
             "en": "<p>When you choose this domain at 1st level, you gain proficiency with heavy armor and smith&#x27;s tools.</p>"
@@ -1354,7 +1357,7 @@
           "level": 8,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 24 }, "en": { "book": "XGE", "page": 18 } },
-          "name": { "pt": "golpe divino", "en": "Divine Strike" },
+          "name": { "pt": "impacto divino", "en": "Divine Strike" },
           "html": {
             "pt": "<p>No 8º nível, você ganha a habilidade de infundir seus ataques armados com o abrasador poder da forja. Uma vez em cada um dos seus turnos, ao atingir uma criatura com um ataque armado, você pode fazer com que o ataque cause 1d8 pontos de dano ígneo adicional no alvo. Ao alcançar o nível 14º, o dano adicional aumenta para 2d8.</p>",
             "en": "<p>At 8th level, you gain the ability to infuse your weapon strikes with the fiery power of the forge. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 fire damage to the target. When you reach 14th level, the extra damage increases to 2d8.</p>"
@@ -1365,7 +1368,7 @@
           "level": 17,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 24 }, "en": { "book": "XGE", "page": 18 } },
-          "name": { "pt": "santo da forja e do fogo", "en": "Saint of Forge and Fire" },
+          "name": { "pt": "santo da forja e fogo", "en": "Saint of Forge and Fire" },
           "html": {
             "pt": "<p>No 17º nível, sua afinidade abençoada com o fogo e com os metais torna-se poderosa:</p><ul><li>Você ganha imunidade a dano ígneo.</li><li>Enquanto estiver usando armadura pesada, você tem resistência a dano contundente, perfurante e cortante oriundo de ataques não mágicos.</li></ul>",
             "en": "<p>At 17th level, your blessed affinity with fire and metal becomes more powerful:</p> <ul> <li>You gain immunity to fire damage.</li> <li>While wearing heavy armor, you have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.</li> </ul>"
@@ -1392,7 +1395,7 @@
     {
       "slug": "grave-domain",
       "short_name_en": "Grave",
-      "name": { "pt": "Domínio da Sepultura", "en": "Grave Domain" },
+      "name": { "pt": "domínio da sepultura", "en": "Grave Domain" },
       "source": { "pt": { "book": "GXTC", "page": 24 }, "en": { "book": "XGE", "page": 19 } },
       "intro_html": {
         "pt": "<p>Deuses dos túmulos vigiam a linha entre a vida e a morte. Para essas divindades, a morte e a vida após a morte são parte fundacional do multiverso. Profanar a paz dos mortos é uma abominação. Divindades dos túmulos incluem Kelemvor, Weejas, os espíritos ancestrais da Corte Imortal, Hades, Anúbis, e Osíris. Seguidores dessas divindades procuram colocar os espíritos errantes para descansar, destruir mortos-vivos e aplacar o sofrimento dos moribundos. Sua magia também permite que protelem a morte por um tempo, particularmente para pessoas que ainda têm trabalhos importantes a realizar no mundo. Trata-se de um adiamento da morte, e não de sua anulação, pois eventualmente a morte vem para todos.</p><p><strong>Características do Domínio do Túmulo</strong></p><table><thead><tr><th>Nível de Clérigo</th><th>Característica</th></tr></thead><tbody><tr><td>1º</td><td>Magias de Domínio, Círculo de Mortalidade, Olhos do Túmulo</td></tr><tr><td>2º</td><td>Canalizar Divindade: Caminho da Cova</td></tr><tr><td>6º</td><td>Sentinela do Portão da Morte</td></tr><tr><td>8º</td><td>Conjuração Poderosa</td></tr><tr><td>17º</td><td>Guardião das Almas</td></tr></tbody></table><p>Você ganha magias de domínio nos níveis de clérigo listados na tabela Magias do Domínio da Forja. Consulte a característica de classe Domínio Divino para saber como magias de domínio funcionam.</p><p><strong>Magias de Domínio do Túmulo</strong></p><table><thead><tr><th>Nível de Clérigo</th><th>Magias</th></tr></thead><tbody><tr><td>1º</td><td>perdição, vitalidade vazia</td></tr><tr><td>3º</td><td>raio do enfraquecimento, repouso tranquilo</td></tr><tr><td>5º</td><td>revivificar, toque vampírico</td></tr><tr><td>7º</td><td>malogro, proteção contra morte</td></tr><tr><td>9º</td><td>cúpula antivida, reviver os mortos</td></tr></tbody></table>",
@@ -1415,7 +1418,7 @@
           "level": 1,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 25 }, "en": { "book": "XGE", "page": 19 } },
-          "name": { "pt": "olhos do túmulo", "en": "Eyes of the Grave" },
+          "name": { "pt": "olhos da sepultura", "en": "Eyes of the Grave" },
           "html": {
             "pt": "<p>No 1º nível, você ganha a habilidade de sentir ocasionalmente a presença de mortos-vivos, cuja existência é um insulto ao ciclo natural da vida. Como uma ação, você pode ampliar sua percepção para detectar mortos-vivos magicamente. Até o final do seu próximo turno, você descobre a localização de qualquer morto-vivo a até 18 metros de você, que não esteja atrás de cobertura total e que não esteja protegido contra magia de adivinhação. Esse sentido não diz a você nada sobre as capacidades da criatura ou a identidade dela.</p><p>Você pode usar esta característica um número de vezes igual ao seu modificador de Sabedoria (no mínimo uma vez). Você recupera todos os usos gastos desta característica ao terminar um descanso longo.</p>",
             "en": "<p>At 1st level, you gain the ability to occasionally sense the presence of the undead, whose existence is an insult to the natural cycle of life. As an action, you can open your awareness to magically detect undead. Until the end of your next turn, you know the location of any undead within 60 feet of you that isn’t behind total cover and that isn’t protected from divination magic. This sense doesn’t tell you anything about a creature’s capabilities or identity.</p> <p>You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest.</p>"
@@ -1426,7 +1429,7 @@
           "level": 2,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 25 }, "en": { "book": "XGE", "page": 19 } },
-          "name": { "pt": "canalizar divindade: caminho da cova", "en": "Channel Divinity: Path to the Grave" },
+          "name": { "pt": "canalizar divindade: caminho da sepultura", "en": "Channel Divinity: Path to the Grave" },
           "html": {
             "pt": "<p>A partir do 2º nível, você pode usar Canalizar Divindade para demarcar o fim da força vital de outra criatura.</p><p>Como uma ação, você escolhe uma criatura à sua vista e que esteja a até 9 metros de você, e a amaldiçoa até o final do seu próximo turno. A próxima vez que você ou um aliado seu atingir a criatura com um ataque, ela terá vulnerabilidade a todo o dano desse ataque, em seguida a maldição terminará.</p>",
             "en": "<p>Starting at 2nd level, you can use your Channel Divinity to mark another creature’s life force for termination.</p> <p>As an action, you choose one creature you can see within 30 feet of you, cursing it until the end of your next turn. The next time you or an ally of yours hits the cursed creature with an attack, the creature has vulnerability to all of that attack’s damage, and then the curse ends.</p>"
@@ -1437,7 +1440,7 @@
           "level": 6,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 25 }, "en": { "book": "XGE", "page": 19 } },
-          "name": { "pt": "sentinela do portão da morte", "en": "Sentinel at Death's Door" },
+          "name": { "pt": "sentinela na porta da morte", "en": "Sentinel at Death's Door" },
           "html": {
             "pt": "<p>No 6º nível, você ganha a habilidade de impedir o avanço da morte. Como uma reação, quando você ou uma criatura à sua vista e que esteja a até 9 metros de você sofrer um acerto crítico, esse acerto vira um acerto normal. Todos os efeitos ativados por um acerto crítico são cancelados.</p><p>Você pode usar esta característica um número de vezes igual ao seu modificador de Sabedoria (no mínimo uma vez). Você recupera todos os usos gastos desta característica ao terminar um descanso longo.</p>",
             "en": "<p>At 6th level, you gain the ability to impede death’s progress. As a reaction when you or a creature you can see within 30 feet of you suffers a critical hit, you can turn that hit into a normal hit. Any effects triggered by a critical hit are canceled.</p> <p>You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest.</p>"
@@ -1459,7 +1462,7 @@
           "level": 8,
           "optional": false,
           "source": { "pt": { "book": "GXTC", "page": 25 }, "en": { "book": "XGE", "page": 19 } },
-          "name": { "pt": "conjuração poderosa", "en": "Potent Spellcasting" },
+          "name": { "pt": "conjuração potente", "en": "Potent Spellcasting" },
           "html": {
             "pt": "<p>A partir do 8º nível, você soma seu modificador de Sabedoria ao dano causado por você com qualquer truque de clérigo.</p>",
             "en": "<p>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</p>"

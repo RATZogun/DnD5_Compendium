@@ -41,7 +41,7 @@
     },
     {
       "key": "dwarven-resilience",
-      "name": { "pt": "resistência a toxinas", "en": "Dwarven Resilience" },
+      "name": { "pt": "resiliência anã", "en": "Dwarven Resilience" },
       "html": {
         "pt": "<p>Você tem vantagem em salvaguardas contra venenos e possui resistência a dano venenoso (explicadas no Capítulo 9, \"Combate\").</p>",
         "en": "<p>You have advantage on saving throws against poison, and you have resistance against poison damage (explained in the “Combat” section).</p>"
@@ -65,7 +65,7 @@
     },
     {
       "key": "stonecunning",
-      "name": { "pt": "conhecimento de pedras", "en": "Stonecunning" },
+      "name": { "pt": "especialização em rochas", "en": "Stonecunning" },
       "html": {
         "pt": "<p>Sempre que você fizer um teste de Inteligência (História) relacionado à origem de um trabalho em pedra, você é considerado proficiente na perícia História e, no lugar do bônus de proficiência normal, deve somar o dobro desse bônus ao teste.</p>",
         "en": "<p>Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>"
@@ -81,7 +81,7 @@
     },
     {
       "key": "subrace",
-      "name": { "pt": "sub-raças", "en": "Subrace" },
+      "name": { "pt": "sub-raça", "en": "Subrace" },
       "html": {
         "pt": "<p>Existem duas sub-raças principais de anões nos mundos de D&amp;D: anões da colina e anões da montanha. Você deve escolher uma delas.</p>",
         "en": "<p>Two main subraces of dwarves populate the worlds of D&amp;D: hill dwarves and mountain dwarves. Choose one of these subraces or one from another source.</p>"
