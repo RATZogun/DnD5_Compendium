@@ -2,7 +2,7 @@ import { html, raw, setTitle, titleCase, wrapDoc, titleStrongs, enhanceStatblock
 import { t } from '../i18n.js';
 import { href } from '../router.js';
 import { loadClass } from '../data.js';
-import { pick, sourceLine, featureHtml, bookName, linkSpellTables } from './klassShow.js';
+import { pick, sourceLine, featureHtml, bookName, linkSpellTables, linkProseSpells } from './klassShow.js';
 
 function versionHtml(R, v) {
   const intro = linkSpellTables(R, { html: v.intro_html }, pick(v.intro_html), v.spells);
@@ -54,6 +54,7 @@ export async function render(container, { R, params }) {
     <div class="version-body">${raw(versionHtml(R, versions[0]))}</div>
     ${raw(back)}`;
   wrapDoc(container);
+  linkProseSpells(R, container);
   container.querySelectorAll('[data-version]').forEach((b) =>
     b.addEventListener('click', () => {
       current = Number(b.dataset.version);
@@ -63,6 +64,7 @@ export async function render(container, { R, params }) {
       container.querySelector('.version-body').innerHTML = versionHtml(R, versions[current]);
       titleStrongs(container.querySelector('.version-body'));
       enhanceStatblocks(container.querySelector('.version-body'));
+      linkProseSpells(R, container.querySelector('.version-body'));
     }),
   );
 }

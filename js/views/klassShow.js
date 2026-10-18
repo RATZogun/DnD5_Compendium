@@ -26,6 +26,9 @@ const cleanName = (s) =>
     .trim()
     .toLowerCase();
 
+// marcas que acompanham o nome no livro ("*", "(ritual)", "(somente água; ...)") ficam depois do nome da lista de magias
+const spellSuffix = (text) => (text.trim().match(/(?:\s*(?:\*+|\([^)]*\)))+$/) || [''])[0];
+
 function findSpell(R, enName, name) {
   if (!spellIndex.has(R)) {
     spellIndex.set(R, {
@@ -39,6 +42,20 @@ function findSpell(R, enName, name) {
   const idx = spellIndex.get(R);
   const get = (map, n) => (cleanName(n) ? map.get(cleanName(n)) : undefined);
   return get(idx.en, enName) ?? get(idx.own, name) ?? get(idx.en, name);
+}
+
+// nomes de magia em itálico no texto corrido viram link, com o nome da lista de magias
+export function linkProseSpells(R, root) {
+  root.querySelectorAll('em').forEach((em) => {
+    if (em.closest('a, table, .statblock') || em.children.length) return;
+    const spell = findSpell(R, null, em.textContent);
+    if (!spell) return;
+    const a = document.createElement('a');
+    a.href = href.spell(spell.slug);
+    em.textContent = spell.name;
+    em.replaceWith(a);
+    a.append(em);
+  });
 }
 
 const SPLIT = /,\s*(?![^(]*\))/;
@@ -94,7 +111,7 @@ export function linkSpellTables(R, f, body, extra = []) {
     const items = parts.map((p, i) => {
       if (!spells[i]) return escapeHtml(p.trim());
       found++;
-      return html`<a href="${href.spell(spells[i].slug)}">${p.trim()}</a>`;
+      return html`<a href="${href.spell(spells[i].slug)}">${titleCase(spells[i].name)}</a>${spellSuffix(p)}`;
     });
     if (found) cell.el.innerHTML = items.join(', ');
   }
@@ -279,6 +296,7 @@ export async function render(container, { R, params }) {
     <div class="features">${data.features.map((f) => raw(featureHtml(R, f, data)))}</div>
     ${data.subclasses?.length && !data.features.some((f) => f.subclass_list) ? raw(subclassListHtml(R, data)) : ''} ${raw(back)}`;
   wrapDoc(container);
+  linkProseSpells(R, container);
   container.querySelectorAll('[data-anchor]').forEach((a) =>
     a.addEventListener('click', (e) => {
       e.preventDefault();
