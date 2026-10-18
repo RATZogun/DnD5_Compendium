@@ -21,6 +21,7 @@ const spellIndex = new WeakMap();
 const cleanName = (s) =>
   (s ?? '')
     .replace(/\*|\([^)]*\)/g, '')
+    .replace(/[’`]/g, "'")
     .replace(/\s+/g, ' ')
     .trim()
     .toLowerCase();
@@ -28,7 +29,7 @@ const cleanName = (s) =>
 function findSpell(R, enName, name) {
   if (!spellIndex.has(R)) {
     spellIndex.set(R, {
-      en: new Map(R.spells.map((s) => [cleanName(s.original_name), s])),
+      en: new Map(R.spells.map((s) => [cleanName(s.original_name ?? s.name), s])),
       own: new Map([
         ...R.spells.flatMap((s) => (s.aliases ?? []).map((n) => [cleanName(n), s])),
         ...R.spells.map((s) => [cleanName(s.name), s]),
@@ -36,7 +37,8 @@ function findSpell(R, enName, name) {
     });
   }
   const idx = spellIndex.get(R);
-  return idx.en.get(cleanName(enName)) ?? idx.own.get(cleanName(name)) ?? idx.en.get(cleanName(name));
+  const get = (map, n) => (cleanName(n) ? map.get(cleanName(n)) : undefined);
+  return get(idx.en, enName) ?? get(idx.own, name) ?? get(idx.en, name);
 }
 
 const SPLIT = /,\s*(?![^(]*\))/;
@@ -52,8 +54,11 @@ function spellCells(root) {
   root.querySelectorAll('p').forEach((p) => {
     const prev = p.previousElementSibling;
     const heading = prev?.tagName === 'P' && prev.children.length === 1 && prev.firstElementChild.tagName === 'STRONG';
+    const items = p.textContent.split(SPLIT);
+    const looksLikeList = items.length >= 3 && items.every((x) => x.trim().length <= 50);
     if (
       heading &&
+      looksLikeList &&
       prev.textContent.trim() === prev.firstElementChild.textContent.trim() &&
       LIST_HEADING.test(prev.textContent)
     )
@@ -96,6 +101,45 @@ export function linkSpellTables(R, f, body, extra = []) {
   return tpl.innerHTML;
 }
 
+// características que são listas de opções: cada opção vai numa caixa própria
+const BOXED_OPTIONS = new Set(['eldritch-invocations', 'eldritch-invocations-extra', 'artificer-infusions']);
+
+// uma opção começa num parágrafo só com o nome em negrito (pt) ou num nome solto entre parágrafos (en)
+function boxOptions(body) {
+  const tpl = document.createElement('template');
+  tpl.innerHTML = body;
+  const root = tpl.content;
+  root.querySelectorAll(':scope > p').forEach((p) => !p.textContent.trim() && !p.children.length && p.remove());
+  const nextEl = (n) => {
+    let x = n.nextSibling;
+    while (x && x.nodeType === Node.TEXT_NODE && !x.textContent.trim()) x = x.nextSibling;
+    return x;
+  };
+  // títulos seguidos de tabela (ex.: "Itens Replicáveis") continuam dentro da opção anterior
+  const isHead = (n) =>
+    nextEl(n)?.nodeName === 'P' &&
+    ((n.nodeType === Node.TEXT_NODE && n.textContent.trim()) ||
+      (n.nodeName === 'P' &&
+        n.childNodes.length === 1 &&
+        n.firstChild.nodeName === 'STRONG' &&
+        !/[.:]$/.test(n.textContent.trim())));
+  let box = null;
+  for (const node of [...root.childNodes]) {
+    if (isHead(node)) {
+      box = document.createElement('div');
+      box.className = 'option-box';
+      const head = document.createElement('p');
+      head.className = 'option-name';
+      head.innerHTML = `<strong>${escapeHtml(node.textContent.trim())}</strong>`;
+      box.append(head);
+      node.replaceWith(box);
+    } else if (box && !(node.nodeType === Node.TEXT_NODE && !node.textContent.trim())) {
+      box.append(node);
+    }
+  }
+  return tpl.innerHTML;
+}
+
 export function featureHtml(R, f, data, spells) {
   const badge =
     f.level && !CORE.has(f.key)
@@ -108,7 +152,9 @@ export function featureHtml(R, f, data, spells) {
       ${raw(
         f.subclass_list && data?.subclasses?.length
           ? withSubclassList(R, data, linkSpellTables(R, f, pick(f.html), spells))
-          : linkSpellTables(R, f, pick(f.html), spells),
+          : BOXED_OPTIONS.has(f.key)
+            ? boxOptions(linkSpellTables(R, f, pick(f.html), spells))
+            : linkSpellTables(R, f, pick(f.html), spells),
       )}
     </div>
     ${f.source ? raw(html`<p class="feature-source">${raw(sourceLine(R, f.source))}</p>`) : ''}

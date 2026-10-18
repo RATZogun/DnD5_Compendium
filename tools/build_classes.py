@@ -10,9 +10,89 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from build_spells import untag  # noqa: E402
 from prepare_classes_en import DDB_PAGE, clean_ddb_html, ddb_sections, norm, pick  # noqa: E402
+from statblock import statblocks  # noqa: E402
+from html_clean import (  # noqa: E402
+    BOXED_OPTIONS, TCE_INVOCATIONS, XGE_INVOCATIONS, align_style, drop_options, keep_options, normalize_en, tokens,
+    HEAD_ONLY)
 
 EN_NAME_FIX = {'artificer-spell-list': 'Artificer Spell List', 'artificer-infusions': 'Artificer Infusions',
                'otherworldly-patrons': 'Otherworldly Patrons'}
+
+
+def format_statblocks(data):
+    """Fichas de criatura no formato <div class="statblock"> e o HTML em inglês na mesma estrutura do português."""
+    feats = list(data['features'])
+    for sub in data.get('subclasses', []):
+        for v in [sub] + sub.get('versions', []):
+            feats += v.get('features') or []
+    for f in feats:
+        for lang in ('pt', 'en'):
+            if (f.get('html') or {}).get(lang):
+                f['html'][lang] = statblocks(f['html'][lang], lang)
+        if (f.get('html') or {}).get('en'):
+            en = normalize_en(f['html']['en'], f['key'] in BOXED_OPTIONS)
+            if f['key'] not in BOXED_OPTIONS:
+                en = align_style(f['html'].get('pt'), en)
+            if data['slug'] == 'barbarian':
+                en = drop_options(en, {'elk', 'tiger'})  # totens do Guia da Costa da Espada, fora da base
+            f['html']['en'] = en
+    split_invocations(data)
+    for v in [data] + [x for sub in data.get('subclasses', []) for x in [sub] + sub.get('versions', [])]:
+        if (v.get('intro_html') or {}).get('en'):
+            v['intro_html']['en'] = normalize_en(v['intro_html']['en'])
+
+
+EN_OVERRIDES = json.loads((Path(__file__).parent / 'en_overrides.json').read_text())
+
+
+def apply_en_overrides(data):
+    """Inglês que veio incompleto da extração, completado à mão a partir do D&D Beyond / 5etools."""
+    for sub in [None] + data.get('subclasses', []):
+        for f in (sub or data).get('features') or []:
+            fix = EN_OVERRIDES.get(f"{data['slug']}/{sub['slug'] if sub else '-'}/{f['key']}")
+            if isinstance(fix, str):
+                f['html']['en'] = fix
+            elif fix:
+                f['html']['en'] = (f['html'].get('en') or '') + fix['append']
+
+
+def ordinal_en(n):
+    return f"{n}{'th' if 10 <= n % 100 <= 20 else {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')}"
+
+
+def add_en_spell_tables(data, en_name):
+    """Tabelas de magias de subclasse que faltam no inglês: mesma tabela do português, com os nomes em inglês
+    da lista de magias da subclasse (a tradução é a única diferença entre os dois)."""
+    for sub in data.get('subclasses', []):
+        for v in [sub] + sub.get('versions', []):
+            by_level = {row['level']: row.get('names_en') or [] for row in v.get('spells') or sub.get('spells') or []}
+            for f in v.get('features') or []:
+                pt, en = (f.get('html') or {}).get('pt') or '', (f.get('html') or {}).get('en') or ''
+                table = re.search(r'<table>.*?</table>', pt, re.S)
+                if not en or '<table' in en or not table or not re.search(r'<th>N[íi]vel de', table.group(0)):
+                    continue
+                levels = [int(x) for x in re.findall(r'<tr><td>(\d+)', table.group(0))]
+                if not levels or not all(by_level.get(lv) for lv in levels):
+                    continue
+                rows = ''.join(f"<tr><td>{ordinal_en(lv)}</td><td>{', '.join(en_name.get(n.lower(), n) for n in by_level[lv])}</td></tr>"
+                               for lv in levels)
+                ref = re.search(r"the ([A-Z][\w’' -]*? (?:Spells|Spell List))(?: table)?", en)
+                title = f'<p><strong>{ref.group(1)}</strong></p>' if ref else ''
+                f['html']['en'] = (en + title + f"<table><thead><tr><th>{data['name']['en']} Level</th><th>Spells</th></tr></thead>"
+                                   f'<tbody>{rows}</tbody></table>')
+
+
+def split_invocations(data):
+    """No D&D Beyond as invocações de todos os livros vêm juntas: cada característica fica só com as do seu livro."""
+    feats = {f['key']: f for f in data['features']}
+    phb, xge = feats.get('eldritch-invocations'), feats.get('eldritch-invocations-extra')
+    if not phb or not (phb.get('html') or {}).get('en'):
+        return
+    en = phb['html']['en']
+    names = {m.group(1).strip().lower() for t in tokens(en) if (m := HEAD_ONLY.match(t))}
+    phb['html']['en'] = keep_options(en, names - XGE_INVOCATIONS - TCE_INVOCATIONS)
+    if xge:
+        xge['html']['en'] = keep_options(en, XGE_INVOCATIONS)
 
 
 def fill_missing_en(data, ddb):
@@ -303,6 +383,9 @@ def main():
         data = json.loads(path.read_text())
         skel = json.loads((skel_dir / path.name).read_text())
         fill_missing_en(data, ddb)
+        apply_en_overrides(data)
+        format_statblocks(data)
+        add_en_spell_tables(data, {s['name'].lower(): s['name'] for s in spells['en']})
         apply_names(data)
         apply_fan_names(data)
         for sub in data.get('subclasses', []):

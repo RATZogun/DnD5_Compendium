@@ -4,7 +4,7 @@
   "source": { "pt": { "book": "MPMM", "page": 20 }, "en": { "book": "MPMM", "page": 11 } },
   "intro_html": {
     "pt": "<p>Gnomos das profundezas, ou svirfneblin, são naturais do Subterrâneo e são impregnados com a magia deste reino escondido. Eles conseguem se camuflar de forma sobrenatural, e sua magia svirfneblin os torna difíceis de encontrar. Essas habilidades os permitiram sobreviver por gerações entre os perigos do Subterrâneo.</p><p>Como outros gnomos, os gnomos das profundezas podem viver por séculos, até 500 anos.</p>",
-    "en": "<p>Deep gnomes, or svirfneblin, are natives of the Underdark and are suffused with that subterranean realm’s magic. They can supernaturally camouflage themselves, and their svirfneblin magic renders them difficult to locate. These abilities have enabled them to survive for generations among the perils of the Underdark.</p> <p>Like other gnomes, deep gnomes can live for centuries, up to 500 years.</p>"
+    "en": "<p>Deep gnomes, or svirfneblin, are natives of the Underdark and are suffused with that subterranean realm’s magic. They can supernaturally camouflage themselves, and their svirfneblin magic renders them difficult to locate. These abilities have enabled them to survive for generations among the perils of the Underdark.</p><p>Like other gnomes, deep gnomes can live for centuries, up to 500 years.</p>"
   },
   "traits": [
     {
@@ -41,7 +41,7 @@
       "name": { "pt": "dádiva dos svirfneblin", "en": "Gift of the Svirfneblin" },
       "html": {
         "pt": "<p>A partir do 3º nível, você pode conjurar a magia disfarçar-se usando este traço. A partir do 5º nível, você também pode conjurar a magia indetectável usando este traço, sem exigir componente material. Uma vez que conjurar uma dessas magias com esse traço, você não poderá conjurar essa magia novamente até terminar um descanso longo. Você também pode conjurar essas magias usando quaisquer espaços de magia que tiver do círculo apropriado.</p><p>Inteligência, Sabedoria ou Carisma é seu atributo de conjuração ao conjurar estas magias utilizando este traço (escolha um ao selecionar esta raça).</p>",
-        "en": "<p>Starting at 3rd level, you can cast the disguise self spell with this trait. Starting at 5th level, you can also cast the nondetection spell with it, without requiring a material component. Once you cast either of these spells with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level.</p> <p>Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>"
+        "en": "<p>Starting at 3rd level, you can cast the disguise self spell with this trait. Starting at 5th level, you can also cast the nondetection spell with it, without requiring a material component. Once you cast either of these spells with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level.</p><p>Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>"
       }
     },
     {

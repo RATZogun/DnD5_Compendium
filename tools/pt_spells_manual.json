@@ -680,5 +680,163 @@
     ],
     "replaces": ["i nvocar morto - vivo"],
     "statblock_html": "<div class=\"statblock\"><p><strong>Espírito Morto-vivo</strong><br><em>Morto-vivo Médio</em></p><p><strong>Classe de Armadura</strong> 11 + círculo da magia (armadura natural)<br><strong>Pontos de Vida</strong> 30 (apenas fantasmagórico e pútrido) ou 20 (apenas esqueleto) + 10 para cada círculo da magia acima do 3º<br><strong>Deslocamento</strong> 9 m, voo 12 m (pairar) (apenas fantasmagórico)</p><table><thead><tr><th>FOR</th><th>DES</th><th>CON</th><th>INT</th><th>SAB</th><th>CAR</th></tr></thead><tbody><tr><td>12 (+1)</td><td>16 (+3)</td><td>15 (+2)</td><td>4 (-3)</td><td>10 (+0)</td><td>9 (-1)</td></tr></tbody></table><p><strong>Imunidades a Dano</strong> necrótico, venenoso<br><strong>Imunidades à Condição</strong> amedrontado, envenenado, exausto, paralisado<br><strong>Sentidos</strong> visão no escuro 18 m, Percepção passiva 10<br><strong>Idiomas</strong> entende os idiomas que você fala<br><strong>Desafio</strong> — &nbsp; <strong>Bônus de Proficiência</strong> igual ao seu bônus</p><p><em><strong>Aura Purulenta (apenas pútrido).</strong></em> Qualquer criatura, exceto você, que comece seu próprio turno a até 1,5 metro do espírito deve ter sucesso em uma salvaguarda de Constituição contra sua CD para evitar magia, ou será envenenada até o começo do próximo turno da criatura.</p><p><em><strong>Passagem Incorpórea (apenas fantasmagórico).</strong></em> O espírito pode se mover através de outras criaturas e objetos como se eles fossem terreno difícil. Se ele terminar seu turno dentro de um objeto, será desviado para o espaço desocupado mais próximo e sofrerá 1d10 pontos de dano energético para cada 1,5 metro percorrido.</p><p><strong>Ações</strong></p><p><em><strong>Ataques Múltiplos.</strong></em> O espírito faz um número de ataques igual à metade do círculo da magia (arredondado para baixo).</p><p><em><strong>Toque Mortal (apenas fantasmagórico).</strong></em> <em>Arma de Combate Corpo a Corpo:</em> seu modificador de ataque mágico para acertar, alcance 1,5 m, uma criatura. <em>Dano:</em> 1d8 + 3 + círculo da magia necrótico, e a criatura deve ser bem-sucedida em uma salvaguarda de Sabedoria contra sua CD para evitar magia, ou ficará com medo do morto-vivo até o fim do próximo turno dela.</p><p><em><strong>Raio Sepulcral (apenas esqueleto).</strong></em> <em>Ataque Mágico à Distância:</em> seu modificador de ataque mágico para acertar, alcance 45 m, um alvo. <em>Dano:</em> 2d4 + 3 + círculo da magia necrótico.</p><p><em><strong>Garra Podre (apenas pútrido).</strong></em> <em>Arma de Combate Corpo a Corpo:</em> seu modificador de ataque mágico para acertar, alcance 1,5 m, um alvo. <em>Dano:</em> 1d6 + 3 + círculo da magia cortante. Se o alvo for envenenado, ele deverá ter sucesso em uma salvaguarda de Constituição contra sua CD para evitar magia, ou será paralisado até o começo do próximo turno dele.</p></div>"
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 160,
+    "page": 161,
+    "name": "inundação de energia negativa",
+    "level": 5,
+    "school": "necromancia",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "18 metros",
+    "components": "V, M (um osso quebrado e um quadrado de seda negra)",
+    "duration": "Instantãnea",
+    "paragraphs": [
+      "Você envia fitas de energia negativa a uma criatura que você pode ver dentro do alcance. A menos que o alvo seja um morto-vivo, ele deve fazer um lance de salvação da Constituição, levando 5d12 dano necrótico em um teste falho, ou metade de dano em um bem sucedido. Um alvo morto por este dano levanta como um zumbi no início do seu próximo turno. O zumbi persegue qualquer criatura que possa ver que esteja mais próxima dele. As estatísticas do zumbi estão no Manual dos Monstros.",
+      "Se o alvo dessa magia for um morto vivo, o alvo não faz um teste de resistência. Em vez disso, role 5dl2. O alvo recebe metade do total como pontos de vida temporários."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 170,
+    "page": 171,
+    "name": "tremor de terra",
+    "level": 1,
+    "school": "evocação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "Pessoal",
+    "components": "V, S",
+    "duration": "Instantânea",
+    "paragraphs": [
+      "Você provoca um tremor no solo num raio de 3 metros. Cada criatura diferente de você na área deve realizar um teste de resistência de Destreza. Se falhar na resistência, uma criatura sofre ld6 de dano de concussão e fica caída no chão. Se o solo na área for de terra ou pedra solta, ele se torna terreno difícil até ser limpo.",
+      "Em Níveis Superiores. Quando você conjura essa magia usando um espaço de magia de 2 º nível ou superior, o dano aumenta em ld6 para cada nível do espaço acima do 1 º ."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 168,
+    "page": 169,
+    "name": "soar os mortos",
+    "level": 0,
+    "school": "necromancia",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "18 metros",
+    "components": "V, S",
+    "duration": "Instantãnea",
+    "paragraphs": [
+      "Você aponta para uma criatura que você pode ver dentro do alcance, e o som de um sino doloroso preenche o ar à volta dela por um momento. O alvo deve ter sucesso em um teste de resistência de Sabedoria ou sofrerá ld8 de dano necrótico. Se o alvo tiver perdido qualquer de seus pontos de vida, ele sofre um dano necrótico de 1 d 12.",
+      "O dano da magia aumenta em um dado quando atinge o 5 º nível (2d8 ou 2dl2), 11 º nível (3d8 ou 3dl2) e 17 º nível (4d8 ou 4dl2)."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 153,
+    "page": 154,
+    "name": "destruição elemental",
+    "level": 4,
+    "school": "transmutação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "27 metros",
+    "components": "V, S",
+    "duration": "Concentração, até 1 minuto",
+    "paragraphs": [
+      "Escolha uma criatura que você possa ver, dentro do alcance, e escolha um dos tipos de dano a seguir: ácido, frio, fogo, elétrico ou trovejante. O alvo deve ser bem sucedido em um teste de resistência de Constituição ou será afetado pela magia pela duração dela. Da primeira vez, a cada turno, que o alvo sofrer dano do tipo escolhido, ele sofre 2d6 de dano extra do mesmo tipo. Além disso, o alvo perde qualquer resistência a esse tipo de dano até a magia acabar.",
+      "Em Níveis Superiores. Quando você conjura essa magia usando um espaço de magia de 5° nível ou superior, você pode afetar uma criatura adicional para cada nível do espaço acima do 4°. As criaturas devem estar a até 9 metros entre si quando você as escolher."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 149,
+    "page": 150,
+    "name": "agarrão da terra",
+    "level": 2,
+    "school": "transmutação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "90 metros",
+    "components": "V",
+    "duration": "Concentração, até 1 minuto",
+    "paragraphs": [
+      "Escolha uma criatura que você possa ver, dentro do alcance. Laços amarelados de energia mágica rodeiam a criatura. O alvo deve ser bem sucedido num teste de resistência de Força ou seu deslocamento de voo (se possuir) será reduzido para 0 metros pela duração da magia. Uma criatura voadora afetada por essa magia desce 18 metros por turno até aterrissar no solo ou a magia acabar."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 162,
+    "page": 163,
+    "name": "lufada",
+    "level": 0,
+    "school": "transmutação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "90 metros",
+    "components": "V, S",
+    "duration": "Instantânea",
+    "paragraphs": [
+      "• Uma criatura Média ou menor que você escolher deve ser bem sucedido num teste de resistência de Força ou será afastada 1,5 metros de você.",
+      "• Você cria uma pequena rajada de ar capaz de mover um objeto que não esteja sendo segurado nem carregado e que não pese mais de 2,5 quilos. O objeto é afastado 3 metros de você. Ele não é empurrado com força suficiente para causar dano.",
+      "• Você cria um efeito sensorial inofensivo usando o ar, como fazer folhas farfalharem, ventos fecharem persianas ou suas roupas balançarem com uma brisa."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 163,
+    "page": 164,
+    "name": "manto de vento",
+    "level": 6,
+    "school": "transmutação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "Pessoal",
+    "components": "V, S",
+    "duration": "Concentração, até 1 minuto",
+    "paragraphs": [
+      "Até a magia acabar, ventos correm em volta de você, e você ganha os seguintes benefícios:",
+      "• Ataques à distância com arma feitos contra você tem desvantagem na jogada de ataque.",
+      "• Você ganha deslocamento de voo de 18 metros. Se você ainda estiver voando quando a magia acabar, você cai, a não ser que possa prevenir isso de alguma forma.",
+      "• Você pode usar sua ação para criar um cubo de 4,5 metros de ventos rodopiantes centrados num ponto que você possa ver, a até 18 metros de você. Cada criatura na área deve realizar um teste de resistência de Força. Uma criatura sofre 2d10 de dano de concussão se falhar na resistência, ou metade desse dano se obtiver sucesso. Se uma criatura Grande ou menor falhar na resistência, essa criatura também será empurrada até 3 metros para longe do centro do cubo."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 164,
+    "page": 165,
+    "name": "moldar terra",
+    "level": 0,
+    "school": "transmutação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "9 metros",
+    "components": "S",
+    "duration": "Especial",
+    "paragraphs": [
+      "Você escolhe uma porção de detritos ou pedra que você possa ver, dentro do alcance, e que caiba num cubo de 1,5 metros. Você manipula-a de uma das seguintes maneiras:",
+      "• Se você afetar uma área de terra solta, você pode escavá-la instantaneamente, movendo-a pelo solo e depositando-a a até 1,5 metros de distância. Esse movimento não tem força suficiente para causar dano.",
+      "• Você faz com que formas, cores ou ambos apareçam na terra ou pedra, escrevendo palavras, criando imagens ou moldando padrões. As mudanças duram por 1 hora.",
+      "• Se a terra ou pedra que você afetou estiver no solo, você faz com que ele se torne terreno difícil. Alternativamente, você pode fazer com que solo se torne terreno normal, caso ele já seja terreno difícil. Essa mudança dura por 1 hora.",
+      "Se você conjurar essa magia diversas vezes, você pode ter até dois dos seus efeitos não instantâneos ativos ao mesmo tempo, e você pode dissipar um efeito desses com uma ação."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 165,
+    "page": 166,
+    "name": "palavra do esplendor",
+    "level": 0,
+    "school": "evocação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "1,5 metros",
+    "components": "V, M (um símbolo sagrado)",
+    "duration": "Instantânea",
+    "paragraphs": [
+      "Você pronuncia uma palavra divina e um brilho radiante propaga de você. Cada criatura a sua escolha que você pode ver dentro do alcance deve ter sucesso em um teste de resistência de Constituição ou sofre 1d6 de dano radiante.",
+      "O dano da magia aumenta em 1d6 quando você alcança o 5° nível (2d6), 11° nível (3d6) e 17° nível (4d6)."
+    ]
   }
 ]

@@ -14,6 +14,11 @@ import sys
 import unicodedata
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from html_clean import clean_spell_en  # noqa: E402
+
+EN_OVERRIDES = json.loads((Path(__file__).parent / 'en_overrides.json').read_text())
+
 ROOT = Path(__file__).resolve().parent.parent
 OVERRIDES = json.loads((ROOT / 'tools' / 'spell_overrides.json').read_text())
 NAMES = json.loads((ROOT / 'tools' / 'names.json').read_text())
@@ -162,20 +167,38 @@ SUBHEAD = re.compile(r'^((?:[A-ZÁÉÍÓÚÂÊÔÃÕÇ][\wà-úç\'’-]*)(?:\s+
 
 
 def paragraphs_html(paras, lexicon=None):
-    out = []
-    for p in paras:
-        p = join_split_caps(fix_ocr(p), lexicon or {})
-        m = re.match(r'^Em (C[ií]rculos?|N[ií]veis) Superiores\.\s*', p)
-        if m:
-            label = 'Em Níveis Superiores.' if m.group(1).lower().startswith('n') else 'Em Círculos Superiores.'
-            out.append(f'<p><strong><em>{label}</em></strong> {html.escape(p[m.end():])}</p>')
-            continue
-        m = SUBHEAD.match(p) if out else None  # o primeiro parágrafo nunca é subtítulo
-        if m and len(m.group(1)) <= 40:
-            out.append(f'<p><strong>{html.escape(m.group(1))}.</strong> {html.escape(p[m.end():])}</p>')
-        else:
-            out.append(f'<p>{html.escape(p)}</p>')
+    out, items = [], []
+
+    def flush():
+        if items:
+            out.append('<ul>' + ''.join(f'<li>{html.escape(i)}</li>' for i in items) + '</ul>')
+            items.clear()
+
+    for raw in paras:
+        raw = join_split_caps(fix_ocr(raw), lexicon or {})
+        # itens com marcador ("• ...") viram lista, como no texto em inglês
+        head, *bullets = re.split(r'\s*•\s*', raw)
+        if head.strip():
+            flush()
+            out.append(paragraph_html(head.strip(), bool(out)))
+        for b in (b.strip() for b in bullets if b.strip()):
+            if not items and b.endswith(':'):  # introdução da lista marcada como item no livro
+                out.append(paragraph_html(b, True))
+            else:
+                items.append(b)
+    flush()
     return ''.join(out)
+
+
+def paragraph_html(p, not_first):
+    m = re.match(r'^Em (C[ií]rculos?|N[ií]veis) Superiores\.\s*', p)
+    if m:
+        label = 'Em Níveis Superiores.' if m.group(1).lower().startswith('n') else 'Em Círculos Superiores.'
+        return f'<p><strong><em>{label}</em></strong> {html.escape(p[m.end():])}</p>'
+    m = SUBHEAD.match(p) if not_first else None  # o primeiro parágrafo nunca é subtítulo
+    if m and len(m.group(1)) <= 40:
+        return f'<p><strong>{html.escape(m.group(1))}.</strong> {html.escape(p[m.end():])}</p>'
+    return f'<p>{html.escape(p)}</p>'
 
 
 def parse_casting_pt(t):
@@ -457,7 +480,8 @@ def build():
                 ('special' if e.get('damageInflict') else None),
                 damage='yes' if e.get('damageInflict') else None,
                 heal='yes' if 'HL' in e.get('miscTags', []) else None,
-                description=desc,
+                description=clean_spell_en(desc) + EN_OVERRIDES.get(f'spell:{slug}', {}).get('append', ''),
+                **({'aliases': ALIASES['_en'][e['name']]} if e['name'] in ALIASES.get('_en', {}) else {}),
                 sources_rels=[{'source_abbreviation': en_book, 'page': e.get('page') if en_book != 'SCAG' else None}],
             )
             en_done[slug] = en

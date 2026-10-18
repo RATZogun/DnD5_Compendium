@@ -7,6 +7,9 @@ import json
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from html_clean import normalize_en  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 OVERRIDES_PATH = ROOT / 'tools' / 'species_overrides.json'
 OVERRIDES = json.loads(OVERRIDES_PATH.read_text()) if OVERRIDES_PATH.exists() else {}
@@ -48,6 +51,10 @@ def clean_species(data):
         for t in sub['traits']:
             t['name']['pt'] = fan.get('subrace_traits', {}).get(key, {}).get(t['key'], t['name']['pt'])
     data['additional_sources'] = [x for x in data.get('additional_sources') or [] if x['pt']['book'] not in EXCLUDED_BOOKS]
+    for item in [data, *subs, *data['traits'], *(t for s in subs for t in s['traits'])]:
+        for field in ('html', 'intro_html'):
+            if (item.get(field) or {}).get('en'):
+                item[field]['en'] = normalize_en(item[field]['en'])
     return data
 
 

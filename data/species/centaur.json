@@ -54,7 +54,7 @@
       "name": { "pt": "porte equino", "en": "Equine Build" },
       "html": {
         "pt": "<p>Você é considerado como uma categoria de tamanho acima ao determinar sua capacidade de carga e o peso que pode empurrar, arrastar ou levantar.</p><p>Além disso, qualquer escalada que exija mãos e pés é especialmente difícil para você por causa de suas pernas equinas. Quando você faz uma escalada desse tipo, cada 0,3 m de deslocamento custa a você 1,2 m adicional, ao invés do 0,3 m adicional normalmente aplicado.</p>",
-        "en": "<p>You count as one size larger when determining your carrying capacity and the weight you can push or drag.</p> <p>In addition, any climb that requires hands and feet is especially difficult for you because of your equine legs. When you make such a climb, each foot of movement costs you 4 extra feet instead of the normal 1 extra foot.</p>"
+        "en": "<p>You count as one size larger when determining your carrying capacity and the weight you can push or drag.</p><p>In addition, any climb that requires hands and feet is especially difficult for you because of your equine legs. When you make such a climb, each foot of movement costs you 4 extra feet instead of the normal 1 extra foot.</p>"
       }
     }
   ],

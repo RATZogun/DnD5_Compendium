@@ -445,3 +445,19 @@ details.intro summary {
 .spell-card .spell-description p {
   margin: 0 0 10px;
 }
+
+/* opções de uma lista (invocações místicas, infusões) em caixas separadas */
+.doc .option-box {
+  margin: 0 0 12px;
+  padding: 12px 16px 2px;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  background: var(--box-bg);
+}
+.doc .option-box .option-name {
+  margin: 0 0 4px;
+  font-size: 17px;
+}
+.doc .option-box .statblock {
+  background: transparent;
+}
