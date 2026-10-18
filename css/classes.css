@@ -508,3 +508,32 @@ details.intro summary {
 .doc .option-box .statblock {
   background: transparent;
 }
+
+/* seletor de nível das fichas que evoluem e os valores recalculados */
+.statblock .sb-level {
+  float: right;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 4px 12px;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.statblock .sb-level select {
+  width: auto;
+  padding: 2px 6px;
+  font-size: 13px;
+}
+.statblock .sb-scaled {
+  border-bottom: 1px dotted var(--accent);
+  font-weight: 700;
+  cursor: help;
+}
+@media (max-width: 600px) {
+  .statblock .sb-level {
+    float: none;
+    margin: 6px 0 0;
+  }
+}

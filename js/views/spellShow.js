@@ -34,7 +34,7 @@ export function render(container, { R, params }) {
       <p><strong>${titleCase(t('spell.components'))}</strong>: ${componentsText(spell)}</p>
       <p><strong>${titleCase(t('spell.duration'))}</strong>: ${durationText(spell)}</p>
     </div>
-    <div class="spell-description">${raw(spell.description)}</div>
+    <div class="spell-description" data-spell-level="${spell.level}">${raw(spell.description)}</div>
     <p class="doc-facts">
       <strong>${titleCase(t('spell.casters'))}</strong>: ${raw(castersHtml(R, spell, true))}
     </p>

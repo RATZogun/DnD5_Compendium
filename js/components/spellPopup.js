@@ -63,7 +63,7 @@ function popupHtml(R, s) {
       <span class="sp-badge">${t('popup.badge')}</span>
     </header>
     ${raw(spellMetaGridHtml(R, s))}
-    <div class="sp-body">${raw(s.description)}${raw(materialNoteHtml(s))}</div>`;
+    <div class="sp-body" data-spell-level="${s.level}">${raw(s.description)}${raw(materialNoteHtml(s))}</div>`;
 }
 
 export function initSpellPopup(getR) {

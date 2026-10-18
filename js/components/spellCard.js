@@ -73,7 +73,7 @@ export function spellCardHtml(R, spell, { linkName = true, showName = true, link
       <p><strong>${titleCase(t('spell.range'))}</strong>: ${rangeText(spell)}</p>
       <p><strong>${titleCase(t('spell.components'))}</strong>: ${componentsText(spell)}</p>
       <p><strong>${titleCase(t('spell.duration'))}</strong>: ${durationText(spell)}</p>
-      <div class="spell-description">${raw(spell.description)}</div>
+      <div class="spell-description" data-spell-level="${spell.level}">${raw(spell.description)}</div>
     </div>
     <footer class="panel-footer">${raw(sourcesHtml(R, spell.sources_rels))}</footer>
   </article>`;

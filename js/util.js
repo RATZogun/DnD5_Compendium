@@ -1,4 +1,5 @@
-import { t, getLang } from './i18n.js';
+import { t, getLang, ordinal } from './i18n.js';
+import { scalingOf, applyScale } from './statblockScale.js';
 
 const ACCENTS = {
   á: 'a',
@@ -197,7 +198,32 @@ export function enhanceStatblocks(root) {
         el.classList.add('sb-attrs');
       }
     }
+    addScaleSelector(sb, head);
   });
+}
+
+// seletor de círculo da magia ou de nível da classe, para fichas que evoluem
+function addScaleSelector(sb, head) {
+  const scaling = head && scalingOf(sb);
+  if (!scaling) return;
+  [...sb.children].slice(1).forEach((el) => (el.dataset.orig = el.innerHTML));
+  const label =
+    scaling.kind === 'spell'
+      ? t('statblock.spellLevel')
+      : scaling.klass
+        ? t('statblock.classLevel', { klass: scaling.klass })
+        : t('statblock.level');
+  const box = document.createElement('label');
+  box.className = 'sb-level';
+  const levels = Array.from({ length: scaling.max - scaling.min + 1 }, (_, i) => scaling.min + i);
+  box.innerHTML = html`<span>${titleCase(label)}</span>
+    <select class="form-control">
+      ${levels.map((lv) => raw(html`<option value="${lv}">${ordinal(lv)}</option>`))}
+    </select>`;
+  head.append(box);
+  const select = box.querySelector('select');
+  select.addEventListener('change', () => applyScale(sb, scaling, Number(select.value)));
+  applyScale(sb, scaling, scaling.min);
 }
 
 // subtítulos em negrito no texto dos livros ("truques.", "pacto da corrente.") ganham a mesma capitalização dos títulos

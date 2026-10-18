@@ -76,6 +76,9 @@ const STRINGS = {
     'spellFilter.consumed': 'é consumido?',
 
     'statblock.traits': 'Traços',
+    'statblock.spellLevel': 'Círculo da magia',
+    'statblock.classLevel': 'Nível de {klass}',
+    'statblock.level': 'Nível',
     'popup.badge': 'Magia',
     'popup.level': 'Nível',
     'popup.castingTime': 'Tempo de Conjuração',
@@ -247,6 +250,9 @@ const STRINGS = {
     'spellFilter.consumed': 'consumed?',
 
     'statblock.traits': 'Traits',
+    'statblock.spellLevel': 'Spell level',
+    'statblock.classLevel': '{klass} level',
+    'statblock.level': 'Level',
     'popup.badge': 'Spell',
     'popup.level': 'Level',
     'popup.castingTime': 'Casting Time',
