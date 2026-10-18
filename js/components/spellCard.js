@@ -13,11 +13,11 @@ export function spellLevelLine(spell) {
 const qty = (n, unit) => (n > 0 ? `${n} ${unit}` : unit);
 
 // Os campos *_text guardam o texto como está no livro; os demais servem aos filtros.
-const castingTimeText = (s) =>
+export const castingTimeText = (s) =>
   s.casting_time_text ??
   qty(s.casting_time, s.casting_time_unit) + (s.casting_conditions ? `, ${s.casting_conditions}` : '');
-const rangeText = (s) => s.range_text ?? qty(s.range, s.range_unit);
-const durationText = (s) =>
+export const rangeText = (s) => s.range_text ?? qty(s.range, s.range_unit);
+export const durationText = (s) =>
   s.duration_text ?? (s.does_need_concentration ? t('spell.concentrationUpTo') : '') + qty(s.duration, s.duration_unit);
 
 function componentsText(s) {

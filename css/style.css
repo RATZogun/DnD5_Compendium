@@ -14,6 +14,8 @@
   --warn-bg: #fcf8e3;
   --warn-text: #8a6d3b;
   --warn-border: #faebcc;
+  --popup-head: linear-gradient(100deg, #1c1f2e 0%, #2b3150 100%);
+  --popup-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
   color-scheme: light;
 }
 :root[data-theme='dark'] {
@@ -30,6 +32,8 @@
   --warn-bg: #000;
   --warn-text: #f0d48a;
   --warn-border: #5c4d1f;
+  --popup-head: linear-gradient(100deg, #0b0b10 0%, #1d2240 100%);
+  --popup-shadow: 0 8px 28px rgba(0, 0, 0, 0.8);
   color-scheme: dark;
 }
 
@@ -481,4 +485,83 @@ main {
 }
 .site-footer p {
   margin: 0 0 6px;
+}
+
+.spell-popup {
+  position: fixed;
+  z-index: 1000;
+  width: min(600px, calc(100vw - 32px));
+  max-height: min(70vh, 560px);
+  overflow-y: auto;
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--border);
+  box-shadow: var(--popup-shadow);
+}
+.spell-popup[hidden] {
+  display: none;
+}
+.sp-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 16px;
+  background: var(--popup-head);
+  color: #fff;
+}
+.sp-name {
+  font-size: 22px;
+  line-height: 1.2;
+}
+.sp-source {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.75);
+}
+.sp-badge {
+  flex: none;
+  padding: 2px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  background: var(--primary);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.sp-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px 16px;
+  margin: 0 16px;
+  padding: 14px 0 12px;
+  border-bottom: 3px solid var(--primary);
+}
+.sp-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.sp-value {
+  font-size: 16px;
+  overflow-wrap: anywhere;
+}
+.sp-body {
+  padding: 12px 16px 14px;
+}
+.sp-body p {
+  margin: 0 0 10px;
+}
+.sp-body .statblock {
+  font-size: 13px;
+}
+.sp-material {
+  color: var(--muted);
+  font-size: 13px;
+}
+@media (max-width: 600px) {
+  .sp-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }

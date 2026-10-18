@@ -11,6 +11,7 @@ import * as subclassShow from './views/subclassShow.js';
 import * as races from './views/races.js';
 import * as raceShow from './views/raceShow.js';
 import * as scroll from './views/scroll.js';
+import { initSpellPopup } from './components/spellPopup.js';
 
 route('/magias', 'spells', spells);
 route('/magias/:slug', 'spells', spellShow);
@@ -86,6 +87,7 @@ menuBtn.addEventListener('click', () => {
 });
 
 let lastPath = null;
+let currentR = null;
 
 async function render() {
   const match = resolve();
@@ -112,6 +114,7 @@ async function render() {
     return;
   }
   if (lang !== getLang()) return;
+  currentR = R;
 
   const path = match.re.source + JSON.stringify(match.params);
   match.view.render(app, { R, params: match.params, query: parseQuery(match.search) });
@@ -120,5 +123,6 @@ async function render() {
 }
 
 updateChrome();
+initSpellPopup(() => currentR);
 window.addEventListener('hashchange', render);
 render();
