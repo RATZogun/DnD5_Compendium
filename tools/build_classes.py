@@ -56,6 +56,29 @@ def apply_en_overrides(data):
                 f['html']['en'] = (f['html'].get('en') or '') + fix['append']
 
 
+LIST_HEADERS = {'pt': ('Círculo', 'Magias'), 'en': ('Spell Level', 'Spells')}
+
+
+def spell_list_tables(data):
+    """Listas de magias por círculo ("Truques (0º Círculo)" seguido dos nomes) viram uma tabela círculo/magias."""
+    for f in data['features']:
+        if not f['key'].endswith('-spell-list'):
+            continue
+        for lang, (col1, col2) in LIST_HEADERS.items():
+            html = (f.get('html') or {}).get(lang) or ''
+            pairs = re.findall(r'<p><strong>([^<]+)</strong></p><p>([^<]*(?:<(?!/?p>)[^<]*)*)</p>', html)
+            if len(pairs) < 2:
+                continue
+            rows = ''
+            for head, spells in pairs:
+                label = re.sub(r'\s*\(.*?\)|\s+(?:C[íi]rculo|Level)$', '', head).strip()
+                rows += f'<tr><td>{label}</td><td>{spells}</td></tr>'
+            start = html.index(f'<p><strong>{pairs[0][0]}</strong></p>')
+            end = html.index(pairs[-1][1], start) + len(pairs[-1][1]) + len('</p>')
+            table = f'<table><thead><tr><th>{col1}</th><th>{col2}</th></tr></thead><tbody>{rows}</tbody></table>'
+            f['html'][lang] = html[:start] + table + html[end:]
+
+
 def ordinal_en(n):
     return f"{n}{'th' if 10 <= n % 100 <= 20 else {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')}"
 
@@ -385,6 +408,7 @@ def main():
         fill_missing_en(data, ddb)
         apply_en_overrides(data)
         format_statblocks(data)
+        spell_list_tables(data)
         add_en_spell_tables(data, {s['name'].lower(): s['name'] for s in spells['en']})
         apply_names(data)
         apply_fan_names(data)
