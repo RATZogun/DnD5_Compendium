@@ -213,19 +213,22 @@ function tableHtml(data) {
       html`<tr data-level="${level}">
         <th scope="row">${ordinal(level)}</th>
         <td class="num">+${Math.ceil(level / 4) + 1}</td>
-        <td class="feat-list">${feats.length ? raw(feats.map((x) => x.value).join(', ')) : '–'}</td>
+        <td class="feat-list feat-col">${feats.length ? raw(feats.map((x) => x.value).join(', ')) : '–'}</td>
         ${values}
       </tr>`,
     );
   });
-  return html` <div class="table-wrap kx-table">
+  // com 3 ou mais colunas próprias da classe, o celular esconde a de características
+  const wide = groups.reduce((n, g) => n + g.columns.length, 0) >= 3;
+  return html` <div class="table-wrap kx-table ${wide ? 'kx-wide' : ''}">
     <table class="data-table class-table">
       <thead>
         ${
           anyTitle
             ? raw(
                 html`<tr>
-                  <th colspan="3"></th>
+                  <th colspan="2"></th>
+                  <th class="feat-col"></th>
                   ${head1}
                 </tr>`,
               )
@@ -233,8 +236,8 @@ function tableHtml(data) {
         }
         <tr>
           <th>${titleCase(t('common.level'))}</th>
-          <th class="num">${titleCase(t('classes.profBonus'))}</th>
-          <th>${titleCase(t('classes.featuresCol'))}</th>
+          <th class="num" title="${titleCase(t('classes.profBonus'))}">${titleCase(t('classes.profShort'))}</th>
+          <th class="feat-col">${titleCase(t('classes.featuresCol'))}</th>
           ${head2}
         </tr>
       </thead>
@@ -267,7 +270,7 @@ function proficiencyRows(data) {
 
 function headHtml(R, data, name, spellCount) {
   const subs = data.subclasses?.length ?? 0;
-  return html`${raw(crumbsHtml(href.klasses(), titleCase(t('classes.title')), name))}
+  return html`${raw(crumbsHtml([[href.klasses(), titleCase(t('classes.title'))]], name))}
     <p class="sx-kicker">
       <span class="chip chip-class">${t('home.kind.class')}</span>
       <span class="sx-source">${raw(icon.book(14))} ${raw(sourceText(R, data.source))}</span>
@@ -285,11 +288,10 @@ function headHtml(R, data, name, spellCount) {
     )}`;
 }
 
-// tabela de progressão: mostra os 5 primeiros níveis e destaca o nível escolhido
+// tabela de progressão com os 20 níveis, destacando o nível escolhido
 function progressionHtml(data, mine) {
   return html`${raw(sectionTitle('progression', titleCase(t('classes.progression'))))}
     <div class="kx-table-bar">
-      <span class="kx-showing">${t('classes.showing', { to: ordinal(5) })}</span>
       <label class="kx-mine">
         <span>${t('classes.myLevel')}</span>
         <select class="form-control">
@@ -299,36 +301,51 @@ function progressionHtml(data, mine) {
       </label>
     </div>
     ${raw(tableHtml(data))}
-    <button type="button" class="link-btn kx-more" aria-expanded="false" data-more="${t('classes.showAll')}" data-less="${t('classes.showLess')}"></button>`;
+`;
 }
 
 // características: as de base (vida, proficiências, equipamento) e depois uma linha do tempo por nível
-function featuresHtml(R, data) {
-  const core = data.features.filter((f) => CORE.has(f.key));
+// linha do tempo das características, agrupadas por nível (classe e subclasse)
+export function timelineHtml(R, features, spells = null) {
   const byLevel = new Map();
-  for (const f of data.features.filter((x) => !CORE.has(x.key))) {
+  for (const f of features) {
     if (!byLevel.has(f.level)) byLevel.set(f.level, []);
     byLevel.get(f.level).push(f);
   }
-  return html`${raw(sectionTitle('features', titleCase(t('classes.featuresCol'))))}
-    <div class="features kx-core">${core.map((f) => raw(featureHtml(R, f, null, { badge: false })))}</div>
-    <ol class="kx-timeline">
+  return html`<ol class="kx-timeline">
       ${[...byLevel].map(([level, feats]) =>
         raw(
           html`<li class="kx-level" id="level-${level}" data-level="${level}" data-toc="2" data-toc-label="${t('classes.levelBadge', { level: ordinal(level) })}">
             <span class="kx-dot" aria-hidden="true">${ordinal(level)}</span>
             <p class="kx-level-name">${t('classes.levelBadge', { level: ordinal(level) })}</p>
-            <div class="features">${feats.map((f) => raw(featureHtml(R, f, null, { badge: false })))}</div>
+            <div class="features">${feats.map((f) => raw(featureHtml(R, f, spells, { badge: false })))}</div>
           </li>`,
         ),
       )}
-    </ol>`;
+  </ol>`;
 }
 
-function subclassesHtml(R, data) {
-  if (!data.subclasses?.length) return '';
-  const subs = [...data.subclasses].sort((a, b) => pick(a.name).localeCompare(pick(b.name), getLang()));
-  return html`${raw(sectionTitle('subclasses', titleCase(pick(data.subclass_title))))}
+// características: as de base (vida, proficiências, equipamento) e depois a linha do tempo
+function featuresHtml(R, data) {
+  const core = data.features.filter((f) => CORE.has(f.key));
+  return html`${raw(sectionTitle('features', titleCase(t('classes.featuresCol'))))}
+    <div class="features kx-core">${core.map((f) => raw(featureHtml(R, f, null, { badge: false })))}</div>
+    ${raw(
+      timelineHtml(
+        R,
+        data.features.filter((x) => !CORE.has(x.key)),
+      ),
+    )}`;
+}
+
+export const sortedSubclasses = (data) =>
+  [...(data.subclasses ?? [])].sort((a, b) => pick(a.name).localeCompare(pick(b.name), getLang()));
+
+// cartões das subclasses (na página de uma subclasse, as outras da mesma classe)
+export function subclassesHtml(R, data, { exclude = null, title = titleCase(pick(data.subclass_title)) } = {}) {
+  const subs = sortedSubclasses(data).filter((s) => s.slug !== exclude);
+  if (!subs.length) return '';
+  return html`${raw(sectionTitle('subclasses', title))}
     <div class="kx-subs">
       ${subs.map((s) =>
         raw(
@@ -376,7 +393,7 @@ function asideHtml(R, data, klass, name) {
 
 // nível destacado na tabela e na linha do tempo (guardado por classe)
 const MINE_KEY = (slug) => `classLevel:${slug}`;
-function readMine(slug) {
+export function readMine(slug) {
   try {
     return Number(localStorage.getItem(MINE_KEY(slug))) || null;
   } catch {
@@ -392,18 +409,10 @@ function saveMine(slug, level) {
   }
 }
 
-function applyMine(container, level) {
+export function applyMine(container, level) {
   container
     .querySelectorAll('[data-level]')
     .forEach((el) => el.classList.toggle('is-mine', Number(el.dataset.level) === level));
-}
-
-function setExpanded(container, open) {
-  container.querySelector('.kx-table').classList.toggle('is-open', open);
-  const more = container.querySelector('.kx-more');
-  more.setAttribute('aria-expanded', String(open));
-  more.textContent = open ? more.dataset.less : more.dataset.more;
-  container.querySelector('.kx-showing').hidden = open;
 }
 
 export async function render(container, { R, params }) {
@@ -433,19 +442,11 @@ export async function render(container, { R, params }) {
   enhanceStatblocks(body);
   linkProseSpells(R, body);
   applyMine(container, mine);
-  setExpanded(container, mine > 5);
   refreshToc(container);
-  initDocPage(container, { onTarget: (el) => el.closest('.kx-table') && setExpanded(container, true) });
-
-  container
-    .querySelector('.kx-more')
-    .addEventListener('click', () =>
-      setExpanded(container, !container.querySelector('.kx-table').classList.contains('is-open')),
-    );
+  initDocPage(container);
   container.querySelector('.kx-mine select').addEventListener('change', (e) => {
     const level = Number(e.target.value) || null;
     saveMine(data.slug, level);
     applyMine(container, level);
-    if (level > 5) setExpanded(container, true);
   });
 }

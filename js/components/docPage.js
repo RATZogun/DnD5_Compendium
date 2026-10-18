@@ -47,9 +47,10 @@ export function introHtml(intro) {
   </details>`;
 }
 
-export function crumbsHtml(listHref, listLabel, name) {
+// trilha: Início › [href, rótulo]... › página atual (no mobile o "Início" some)
+export function crumbsHtml(trail, name) {
   return html`<nav class="crumbs" aria-label="breadcrumb">
-    <span class="sx-crumb-home"><a href="#/">${t('nav.home')}</a> › </span><a href="${listHref}">${listLabel}</a> ›
+    <span class="sx-crumb-home"><a href="#/">${t('nav.home')}</a> › </span>${trail.map(([h, label]) => raw(html`<a href="${h}">${label}</a> › `))}
     <span>${name}</span>
   </nav>`;
 }

@@ -96,7 +96,7 @@ function headHtml(R, data, v, name) {
     range !== null ? ['', t('races.darkvision')] : null,
     subs.length ? ['', subCount(subs.length)] : null,
   ].filter(Boolean);
-  return html`${raw(crumbsHtml(href.races(), titleCase(t('races.title')), name))}
+  return html`${raw(crumbsHtml([[href.races(), titleCase(t('races.title'))]], name))}
     <p class="sx-kicker">
       <span class="chip chip-species">${t('home.kind.species')}</span>
       <span class="sx-source">${raw(icon.book(14))} ${raw(sourceText(R, v.source))}</span>

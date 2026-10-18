@@ -381,15 +381,11 @@
   color: var(--cat-class);
 }
 
-/* tabela de progressão: 5 níveis e o resto ao expandir */
+/* tabela de progressão: os 20 níveis, compacta para caber na coluna sem rolagem */
 .kx-table-bar {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px 16px;
+  justify-content: flex-end;
   margin: 0 0 12px;
-  color: var(--muted);
   font-family: var(--font-ui);
   font-size: 14px;
 }
@@ -397,7 +393,6 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  margin: 0 0 0 auto;
   padding: 2px 4px 2px 12px;
   background: var(--row-alt);
   color: var(--link);
@@ -410,26 +405,44 @@
   font-size: 13px;
 }
 .kx-table {
+  overflow: visible;
   border: 1px solid var(--border);
   background: var(--panel);
 }
 .sx-doc .kx-table table {
+  width: 100%;
   margin: 0;
   font-family: var(--font-ui);
+  font-size: 13px;
+  line-height: 1.35;
+}
+.sx-doc .kx-table th,
+.sx-doc .kx-table td {
+  padding: 6px 4px;
+  white-space: normal;
+}
+.sx-doc .kx-table th:first-child,
+.sx-doc .kx-table td:first-child {
+  padding-left: 10px;
 }
 .sx-doc .kx-table thead th {
   background: var(--box-bg);
   border-bottom: 1px solid var(--border);
   color: var(--muted);
-  font-size: 12px;
-  letter-spacing: 0.04em;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0;
   text-transform: uppercase;
+  vertical-align: bottom;
+  hyphens: auto;
+  overflow-wrap: anywhere;
+}
+.sx-doc .kx-table .feat-list {
+  min-width: 0;
+  width: 30%;
 }
 .sx-doc .kx-table tbody tr:nth-child(odd) {
   background: transparent;
-}
-.kx-table:not(.is-open) tbody tr:nth-child(n + 6) {
-  display: none;
 }
 .sx-doc .kx-table tr.is-mine {
   background: var(--row-alt);
@@ -438,17 +451,6 @@
 .sx-doc .kx-table tr.is-mine > * {
   color: var(--link);
   font-weight: 600;
-}
-.kx-more {
-  margin: 10px 0 0;
-  font-family: var(--font-ui);
-  font-weight: 700;
-}
-.kx-more::before {
-  content: '▾ ';
-}
-.kx-more[aria-expanded='true']::before {
-  content: '▴ ';
 }
 
 /* características em linha do tempo por nível */
@@ -914,8 +916,28 @@
   .kx-spells {
     flex-wrap: wrap;
   }
-  .kx-mine {
-    margin-left: 0;
+  .kx-table-bar {
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 600px) {
+  /* nas tabelas largas a coluna de características sai no celular (elas estão na linha do tempo logo abaixo) */
+  .sx-doc .kx-wide .feat-col {
+    display: none;
+  }
+  .sx-doc .kx-table table {
+    font-size: 12px;
+  }
+  .sx-doc .kx-table th,
+  .sx-doc .kx-table td {
+    padding: 5px 2px;
+  }
+  .sx-doc .kx-table th:first-child,
+  .sx-doc .kx-table td:first-child {
+    padding-left: 6px;
+  }
+  .sx-doc .kx-table thead th {
+    font-size: 9px;
   }
 }
 @media (max-width: 480px) {
