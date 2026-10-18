@@ -373,7 +373,7 @@
     "Thorn Whip": "chicote de espinhos",
     "Chaos Bolt": "raio de caos",
     "Spirit Shroud": "Mortalha Espiritual",
-    "Primal Savagery": "Selvageria Primeva",
+    "Primal Savagery": "selvageria primitiva",
     "Intellect Fortress": "Fortaleza de Intelecto",
     "Steel Wind Strike": "ataque do vento de aço",
     "Negative Energy Flood": "inundação de energia negativa",
@@ -440,7 +440,7 @@
     "Summon Greater Demon": "Invocar Demônio Maior",
     "Enervation": "Enervação",
     "Warding Wind": "vento protetor",
-    "Soul Cage": "Gaiola de Alma",
+    "Soul Cage": "gaiola da alma",
     "Far Step": "passo distante",
     "Sickening Radiance": "resplendor enjoativo",
     "Melf's Minute Meteors": "meteoros momentâneos de melf",
@@ -451,8 +451,8 @@
     "Watery Sphere": "esfera aquosa",
     "Summon Lesser Demons": "invocar demônios menores",
     "Shape Water": "moldar água",
-    "Shadow of Moil": "Sombra do Transtorno",
-    "Dust Devil": "Redemoinho da Poeira",
+    "Shadow of Moil": "sombra de transtorno",
+    "Dust Devil": "diabo da poeira",
     "Snare": "laço",
     "Mordenkainen's Faithful Hound": "cão fiel de mordenkainen",
     "Glyph of Warding": "glifo de vigilância",
@@ -465,7 +465,7 @@
     "Drawmij's Instant Summons": "invocação instantânea de drawmij",
     "Control Winds": "controlar os ventos",
     "Aganazzar's Scorcher": "queimadura de aganazzar",
-    "Maelstrom": "Voragem",
+    "Maelstrom": "redemoinho",
     "Dragon's Breath": "bafo de dragão",
     "Telepathy": "telepatia",
     "Control Flames": "controlar chamas",
@@ -619,7 +619,8 @@
     "Investiture of Flame": "manto de chamas",
     "Tiny Servant": "pequeno servo",
     "Frostbite": "picada congelante",
-    "Beast Bond": "vínculo com a besta"
+    "Beast Bond": "vínculo com a besta",
+    "Whirlwind": "vendaval"
   },
   "word_replacements": {
     "tiferino": "tiefling",
@@ -638,9 +639,6 @@
       "monk/way-of-the-kensei": "estilo do kensei",
       "monk/way-of-the-sun-soul": "estilo da alma solar",
       "paladin/oathbreaker": "quebrador de juramento",
-      "ranger/gloom-stalker": "perseguidor obscuro",
-      "ranger/horizon-walker": "andarilho do horizonte",
-      "ranger/monster-slayer": "exterminador de monstros",
       "rogue/mastermind": "mentor",
       "sorcerer/divine-soul": "alma favorecida",
       "sorcerer/shadow-magic": "adepto das sombras",
@@ -655,8 +653,6 @@
       "monk/way-of-shadow": "caminho da sombra",
       "paladin/oath-of-devotion": "juramento de devoção",
       "paladin/oath-of-vengeance": "juramento de vingança",
-      "ranger/beast-master": "conclave da besta",
-      "ranger/hunter": "conclave do caçador",
       "warlock/the-archfey": "a arquifada",
       "warlock/the-fiend": "o corruptor",
       "warlock/the-great-old-one": "o grande antigo",
@@ -755,27 +751,6 @@
         "control-undead": "controlar morto-vivo",
         "dreadful-aspect": "aspecto apavorante",
         "dread-lord": "senhor do pavor"
-      },
-      "ranger/gloom-stalker": {
-        "gloom-stalker-magic": "magia do perseguidor obscuro",
-        "dread-ambusher": "emboscador terrível",
-        "umbral-sight": "visão umbral",
-        "stalkers-flurry": "agitação perseguidora",
-        "shadowy-dodge": "evasiva sombria"
-      },
-      "ranger/horizon-walker": {
-        "horizon-walker-magic": "magia do andarilho do horizonte",
-        "detect-portal": "detectar portais",
-        "planar-warrior": "guerreiro planar",
-        "ethereal-step": "passo etéreo",
-        "distant-strike": "ataque distante"
-      },
-      "ranger/monster-slayer": {
-        "monster-slayer-magic": "magia do exterminador de monstros",
-        "hunters-sense": "sentido do caçador",
-        "slayers-prey": "exterminador de presas",
-        "magic-users-nemesis": "nêmeses do conjurador",
-        "slayers-counter": "contra-ataque do exterminador"
       },
       "rogue/inquisitive": {
         "ear-for-deceit": "ouvir do enganador",
@@ -907,15 +882,6 @@
         "tenets-of-vengeance": "dogmas de vingança",
         "abjure-enemy": "abjurar inimigo",
         "soul-of-vengeance": "alma de vingança"
-      },
-      "ranger/beast-master": {
-        "rangers-companion": "companheiro animal"
-      },
-      "ranger/hunter": {
-        "escape-the-horde": "escapar da horda",
-        "multiattack-defense": "defesa contra múltiplos ataques",
-        "superior-hunters-defense": "defesa de caçador superior",
-        "stand-against-the-tide": "manter-se contra a maré"
       },
       "rogue/thief": {
         "fast-hands": "mãos rápidas",
@@ -1092,7 +1058,6 @@
     },
     "subclass_titles": {
       "barbarian": "caminho primitivo",
-      "ranger": "conclave de patrulheiro",
       "sorcerer": "origem de feitiçaria",
       "warlock": "patrono transcendental"
     },
@@ -1173,16 +1138,6 @@
         "ability-score-improvement-16": "incremento no valor de habilidade",
         "ability-score-improvement-19": "incremento no valor de habilidade"
       },
-      "ranger": {
-        "ranger-archetype": "conclave de patrulheiro",
-        "hide-in-plain-sight": "mimetismo",
-        "foe-slayer": "matador de inimigos",
-        "ability-score-improvement-4": "incremento no valor de habilidade",
-        "ability-score-improvement-8": "incremento no valor de habilidade",
-        "ability-score-improvement-12": "incremento no valor de habilidade",
-        "ability-score-improvement-16": "incremento no valor de habilidade",
-        "ability-score-improvement-19": "incremento no valor de habilidade"
-      },
       "rogue": {
         "expertise-1": "especialização",
         "expertise-6": "especialização",
@@ -1222,6 +1177,14 @@
         "ability-score-improvement-12": "incremento no valor de habilidade",
         "ability-score-improvement-16": "incremento no valor de habilidade",
         "ability-score-improvement-19": "incremento no valor de habilidade"
+      },
+      "ranger": {
+        "ability-score-improvement-4": "incremento no valor de habilidade",
+        "ability-score-improvement-8": "incremento no valor de habilidade",
+        "ability-score-improvement-12": "incremento no valor de habilidade",
+        "ability-score-improvement-16": "incremento no valor de habilidade",
+        "ability-score-improvement-19": "incremento no valor de habilidade",
+        "ranger-archetype": "arquétipo de patrulheiro"
       }
     },
     "classes": {

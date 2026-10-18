@@ -10,6 +10,6 @@
     "lizardfolk": "MPMM",
     "orc": "MPMM"
   },
-  "exclude_books": ["LDM", "GACE"],
+  "exclude_books": ["LDM", "GMF", "GACE"],
   "remove_subraces": ["duergar"]
 }

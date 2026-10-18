@@ -6,7 +6,7 @@
   },
   "source": {
     "pt": {
-      "book": "LDJ",
+      "book": "LJF",
       "page": 56
     },
     "en": {
@@ -15,11 +15,11 @@
     }
   },
   "intro_html": {
-    "pt": "<p>Com um pseudo-dragão enrolado no ombro, um jovem elfo trajando túnicas douradas sorri calorosamente, tecendo um encantamento mágico nas doces palavras que profere e dobrando a sentinela do palácio à sua vontade.</p><p>Enquanto as chamas brotam das suas mãos, uma humana encarquilhada sussurra o nome secreto do seu patrono demoníaco, infundindo seu feitiço com magia ínfera.</p><p>Mudando o olhar entre um tomo maltratado e o estranho alinhamento das estrelas acima, um tiferino de olhos selvagens entoa o ritual místico que abrirá um portal para um mundo distante.</p><p>Bruxos buscam o conhecimento que está escondido no tecido do multiverso. Através de pactos realizados com misteriosos seres detentores de poder sobrenatural, os bruxos acessam efeitos mágicos, tanto sutis quanto espetaculares. Apoiados no conhecimento ancestral de seres como nobres feéricos, demônios, diabos, megeras e entidades alienígenas do Reino Distante, os bruxos colecionam segredos arcanos para reforçar o próprio poder.</p><p><strong>jurados e em dívida</strong></p><p>Um bruxo é definido por um pacto com um ser de outro mundo. Às vezes, a relação entre bruxo e patrono é como a de um clérigo e seu deus, embora os seres que servem como patronos para os bruxos não sejam exatamente deuses. Um bruxo pode liderar um culto dedicado a um príncipe demônio, um arquidiabo ou uma entidade totalmente alienígena - seres que não estão entre os mais comumente adorados pelos clérigos. É mais frequente, porém, que o arranjo seja semelhante ao que existe entre mestre e aprendiz.</p><p>O bruxo aprende e torna-se mais poderoso à custa de serviços ocasionais realizados em nome do patrono.</p><p>A magia concedida a um bruxo varia de pequenas porém duradouras alterações em seu ser (como a capacidade de ver no escuro ou de ler qualquer idioma) até o acesso a magias poderosas. Ao contrário dos magos eruditos, os bruxos complementam sua magia com alguma familiaridade com combate corpo a corpo. Eles se sentem confortáveis usando armadura leve e sabem como usar armas simples.</p><p><strong>exploradores de segredos</strong></p><p>Bruxos são movidos por uma necessidade insaciável de conhecimento e poder, a qual os compele a realizar os pactos que moldam suas carreiras.</p><p>Histórias de bruxos conectando-se a ínferos são amplamente conhecidas. Porém, muitos bruxos servem patronos de outra natureza. Não raro, um viajante dos ermos chega a uma torre estranhamente bela, encontra o senhor ou senhora do local e se vê enredado em um pacto, sem estar plenamente ciente dele. Outras vezes, ao se debruçar sobre tomos recheados de conhecimento proibido, a mente de um estudante brilhante, porém insano, abre-se para uma realidade além do mundo material e para os seres alienígenas que habitam no vazio exterior.</p><p>Uma vez feito um pacto, a sede de conhecimento e poder de um bruxo não pode ser satisfeita com mero estudo e pesquisa. Ninguém assume tamanho compromisso com um patrono tão poderoso se não pretende usar o poder adquirido. De fato, a grande maioria dos bruxos passa seus dias na busca ativa dos seus objetivos, o que normalmente significa algum tipo de aventura. Além disso, as exigências dos patronos conduzem os bruxos na direção da aventura.</p><p><strong>criando um bruxo</strong></p><p>Ao criar um personagem bruxo, dedique algum tempo a pensar no seu patrono e nas obrigações que o pacto lhe impõe. O que o levou a fazer o pacto e como você fez contato com seu patrono? Você foi seduzido a invocar um diabo, ou foi você que procurou o ritual que lhe permitiria contatar um antigo deus alienígena? Você procurou o seu patrono ou ele o encontrou e escolheu? Você se irrita com as obrigações do seu pacto ou serve docilmente, em antecipação às recompensas que lhe foram prometidas?</p><p>Trabalhe com seu DM para determinar o grande papel que o seu pacto desempenhará na carreira de aventuras do seu personagem. As exigências de seu patrono podem levá-lo a buscar aventuras ou se limitar a pequenos favores que podem ser cumpridos no intervalo entre elas.</p><p>Que tipo de relação você tem com o seu patrono? Ele é amigável, hostil, inquieto ou romântico? O quão importante você é para ele? Que papel você desempenha nos planos dele? Você conhece os outros servos dele?</p><p>Como o seu patrono se comunica com você? Se você possui um familiar, ocasionalmente, ele pode falar com a voz do seu patrono. Alguns bruxos descobrem mensagens dos seus patronos gravadas em árvores, misturadas entre as folhas do chá ou mesmo nas nuvens passageiras - mensagens que apenas o bruxo pode ver. Outros bruxos conversam com seus patronos por meio de sonhos ou visões, ou lidam apenas com intermediários.</p><p><strong>criação rápida</strong></p><p>Você pode criar um bruxo rapidamente seguindo essas sugestões. Primeiro, Carisma deve ser seu atributo de maior valor, seguido de Constituição. Em seguida, escolha o antecedente charlatão. Por fim, escolha os truques raio místico e toque necrótico, juntamente com as magias de 1º círculo enfeitiçar pessoa e raio de bruxa.</p>",
+    "pt": "<p>Com um pseudodragão enrolado em seu ombro, um jovem elfo vestindo robes dourados sorri calorosamente, tecendo um charme mágico através de suas doces palavras e dobrando a sentinela do palácio como deseja.</p><p>A medida que chamas ganham vida em suas mãos, um mirrado humano sussurra o nome secreto do seu patrono demoníaco, infundindo sua magia com poder abissal.</p><p>Olhando, ora para um tomo surrado, ora para o alinhamento incomum das estrelas acima, um tiefling de olhos selvagens profere o ritual místico que abrirá uma passagem para um mundo distante.</p><p>Os bruxos são desbravadores do conhecimento que existe escondido no tecido do multiverso. Através de pactos feitos com seres misteriosos detentores de poder sobrenatural, os bruxos desbloqueiam efeitos mágicos tão sutis quanto espetaculares. Extraindo o conhecimento antigo de seres como nobres fadas, demônios, diabos, bruxas e entidades alienígenas do Reino Distante, os bruxos remontam segredos arcanos para aprimorar seus próprios poderes.</p><p><strong>juramento e dívida</strong></p><p>Um bruxo é definido por um pacto com uma entidade transcendental. Às vezes o relacionamento entre um bruxo e seu patrono é como o de um clérigo com sua divindade, apesar de os seres que servem como patronos para os bruxos não serem deuses. Um bruxo poderia liderar um culto dedicado a um príncipe-demônio, um arquidemônio ou uma entidade completamente alienígena – seres que, normalmente, não são servidos por clérigos. Muitas vezes, porém, esse arranjo é mais similar ao realizado entre um mestre e seu aprendiz. O bruxo aprende e aumenta seu poder, ao custo de serviços ocasionais realizados em nome do seu patrono.</p><p>A magia outorgada ao bruxo varia de pequenas, mas duradouras alterações à pessoa do bruxo (tais como a habilidade de ver no escuro ou de ler qualquer idioma) até o acesso a poderosas magias. Diferente dos magos livrescos, os bruxos suplementam sua magia com facilidade em combate. Eles se sentem confortáveis em armaduras leves e sabem usar armas simples.</p><p><strong>escavando segredos</strong></p><p>Os bruxos são guiados por um insaciável desejo por conhecimento e poder, que os compele aos seus pactos e molda suas vidas. Essa sede leva os bruxos a fazerem seus pactos e também molda suas carreiras.</p><p>Histórias de bruxos criando elos com corruptores são vastamente conhecidos. Porém, muitos bruxos servem patronos que não são abissais. Algumas vezes um viajante na floresta chega a uma estranhamente bela torre, conhece seu senhor ou senhora feérico e acaba por fazer um pacto sem ter total ciência disso. E, as vezes, enquanto vasculha em tomos de conhecimento proibido, a mente brilhante, porém enlouquecida de um estudante é levada a realidades além do mundo material em direção a seres alienígenas habitantes do vazio exterior.</p><p>Quando um pacto é selado, a sede de conhecimento e poder do bruxo não pode ser saciada com mero estudo e pesquisa. Ninguém faz um pacto com uma entidade tão poderosa se não deseja usar esse poder atrás de benefícios. Em vez disso, a grande maioria dos bruxos gastam seus dias em uma perseguição desenfreada por seus objetivos, que normalmente os leva a algum tipo de aventura. Além disso, as demandas de seus patronos também leva os bruxos a se aventurar.</p><p><strong>criando um bruxo</strong></p><p>A medida que você cria seu personagem bruxo, gaste algum tempo pensando em seu patrono e as obrigações impostas pelo pacto que você fez. O que levou você a fazer o pacto e, como você fez contato com seu patrono? Você foi seduzido a invocar um diabo ou você estava em busca do ritual que permitia a você fazer contato com um antigo deus alienígena? Foi você que buscou por seu patrono ou foi seu patrono que escolheu você? Você realiza as obrigações do seu pacto a contragosto ou serve alegremente antes mesmo de receber as recompensas prometidas a você?</p><p>Converse com seu Mestre para determinar quão influente seu pacto será na carreira de aventureiro do seu personagem. As exigências do seu patrono devem levá-lo a aventuras ou elas devem consistir inteiramente em pequenos favores que você possa fazer entre aventuras.</p><p>Que tipo de relacionamento você tem com seu patrono? É amistoso, antagônico, apreensivo ou romântico? O quão importante seu patrono considera que você é? Qual a sua parte nos planos do seu patrono? Você conhece outros servos do seu patrono?</p><p>Como seu patrono se comunica com você? Se você tiver um familiar, seu patrono poderia, ocasionalmente, falar através dele. Alguns bruxos encontram mensagens de seus patronos até mesmo em árvores, misturadas a folhas secas ou vagando nas nuvens – mensagens que apenas o bruxo consegue ver. Outros bruxos conversam com seus patronos nos sonhos, ou têm visões acordados, ou lidam apenas com intermediários.</p><p><strong>construção rápida</strong></p><p>Você pode construir um bruxo rapidamente seguindo essas sugestões. Primeiro, coloque seu valor de habilidade mais alto em Carisma, seguido de Constituição. Segundo, escolha o antecedente charlatão. Terceiro, escolha os truques rajada mística e toque arrepiante, além das seguintes magias de 1º nível: enfeitiçar pessoa e raio de bruxa.</p>",
     "en": null
   },
   "subclass_title": {
-    "pt": "patrono sobrenatural",
+    "pt": "patrono transcendental",
     "en": "Otherworldly Patron"
   },
   "table_labels": {
@@ -27,11 +27,11 @@
       "Level": "Nível",
       "Proficiency Bonus": "Bônus de Proficiência",
       "Features": "Características",
-      "Cantrips Known": "Truques",
-      "Spells Known": "Magias",
+      "Cantrips Known": "Truques Conhecidos",
+      "Spells Known": "Magias Conhecidas",
       "Spell Slots": "Espaços de Magia",
-      "Slot Level": "Círculo dos Espaços",
-      "Invocations Known": "Invocações",
+      "Slot Level": "Nível de Magia",
+      "Invocations Known": "Invocações Conhecidas",
       "1st": "1º",
       "2nd": "2º",
       "3rd": "3º",
@@ -46,7 +46,7 @@
       "optional": false,
       "source": {
         "pt": {
-          "book": "LDJ",
+          "book": "LJF",
           "page": 57
         },
         "en": {
@@ -59,7 +59,7 @@
         "en": "Hit Points"
       },
       "html": {
-        "pt": "<p><strong>Dado de Vida:</strong> 1d8 por nível como bruxo</p><p><strong>Pontos de Vida no 1º Nível:</strong> 8 + seu modificador de Constituição</p><p><strong>Pontos de Vida a partir do 2º Nível:</strong> 1d8 (ou 5) + seu modificador de Constituição por nível como bruxo</p>",
+        "pt": "<p><strong>Dado de Vida:</strong> 1d8 por nível de bruxo</p><p><strong>Pontos de Vida no 1º Nível:</strong> 8 + seu modificador de Constituição</p><p><strong>Pontos de Vida nos Níveis Seguintes:</strong> 1d8 (ou 5) + seu modificador de Constituição por nível de bruxo após o 1º</p>",
         "en": "<p><strong>Hit Dice:</strong> 1d8 per warlock level<br><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier<br><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per warlock level after 1st</p>"
       }
     },
@@ -69,8 +69,8 @@
       "optional": false,
       "source": {
         "pt": {
-          "book": "LDJ",
-          "page": 57
+          "book": "LJF",
+          "page": 58
         },
         "en": {
           "book": "PHB",
@@ -82,7 +82,7 @@
         "en": "Proficiencies"
       },
       "html": {
-        "pt": "<p><strong>Armadura:</strong> Armaduras leves</p><p><strong>Armas:</strong> Armas simples</p><p><strong>Ferramentas:</strong> Nenhuma</p><p><strong>Salvaguardas:</strong> Sabedoria, Carisma</p><p><strong>Perícias:</strong> Escolha duas perícias entre Arcanismo, Enganação, História, Intimidação, Investigação, Natureza e Religião</p>",
+        "pt": "<p><strong>Armaduras:</strong> Armaduras leves</p><p><strong>Armas:</strong> Armas simples</p><p><strong>Ferramentas:</strong> Nenhuma</p><p><strong>Testes de Resistência:</strong> Sabedoria, Carisma</p><p><strong>Perícias:</strong> Escolha duas dentre Arcanismo, Enganação, História, Intimidação, Investigação, Natureza e Religião</p>",
         "en": "<p><strong>Armor: </strong>Light armor<br><strong>Weapons: </strong>Simple weapons<br><strong>Tools:</strong> None<br><strong>Saving Throws:</strong> Wisdom, Charisma<br><strong>Skills:</strong> Choose two skills from Arcana, Deception, History, Intimidation, Investigation, Nature, and Religion</p>"
       }
     },
@@ -92,7 +92,7 @@
       "optional": false,
       "source": {
         "pt": {
-          "book": "LDJ",
+          "book": "LJF",
           "page": 58
         },
         "en": {
@@ -105,7 +105,7 @@
         "en": "Equipment"
       },
       "html": {
-        "pt": "<p>Você começa com o seguinte equipamento, além daquele que recebe do seu antecedente:</p><ul><li>(a) uma besta leve e 20 virotes ou (b) qualquer arma simples</li><li>(a) uma bolsa de componentes ou (b) um foco arcano</li><li>(a) kit de erudito ou (b) kit de explorador</li><li>Armadura de couro, qualquer arma simples e duas adagas</li></ul>",
+        "pt": "<p>Você começa com o seguinte equipamento, além do equipamento concedido pelo seu antecedente:</p><ul><li>(a) uma besta leve e 20 virotes ou (b) qualquer arma simples</li><li>(a) uma bolsa de componentes ou (b) um foco arcano</li><li>(a) um pacote de estudioso ou (b) um pacote de explorador</li><li>Armadura de couro, qualquer arma simples e duas adagas</li></ul>",
         "en": "<p>You start with the following equipment, in addition to the equipment granted by your background:</p> <ul> <li>(a) a light crossbow and 20 bolts or (b) any simple weapon</li> <li>(a) a component pouch or (b) an arcane focus</li> <li>(a) a scholar’s pack or (b) a dungeoneer’s pack</li> <li>Leather armor, any simple weapon, and two daggers</li> </ul>"
       }
     },
@@ -115,7 +115,7 @@
       "optional": false,
       "source": {
         "pt": {
-          "book": "LDJ",
+          "book": "LJF",
           "page": 58
         },
         "en": {
@@ -124,11 +124,11 @@
         }
       },
       "name": {
-        "pt": "patrono sobrenatural",
+        "pt": "patrono transcendental",
         "en": "Otherworldly Patron"
       },
       "html": {
-        "pt": "<p>No 1º nível, você fez uma barganha com uma entidade sobrenatural à sua escolha: a Arquifada, o Ínfero ou o Grande Antigo, cada qual detalhado ao final da descrição desta classe. Sua escolha lhe concede características no 1º nível e novamente no 6º, 10º e 14º níveis.</p>",
+        "pt": "<p>No 1º nível, você conclui uma barganha com um ser transcendental, à sua escolha: a Arquifada, o Corruptor ou o Grande Antigo, cada um deles é detalhado no final da descrição da classe. Sua escolha lhe confere traços no 1º nível e novamente no 6º, 10º e 14º nível.</p>",
         "en": "<p>At 1st level, you have struck a bargain with an otherworldly being of your choice: the Fiend, which is detailed at the end of the class description, or one from another source. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level.</p>"
       }
     },
@@ -138,7 +138,7 @@
       "optional": false,
       "source": {
         "pt": {
-          "book": "LDJ",
+          "book": "LJF",
           "page": 59
         },
         "en": {
@@ -147,11 +147,11 @@
         }
       },
       "name": {
-        "pt": "patronos sobrenaturais",
+        "pt": "patronos transcendentais",
         "en": "Otherworldly Patrons"
       },
       "html": {
-        "pt": "<p>Os seres que servem como patronos para bruxos são poderosos habitantes de outros planos de existência - não exatamente deuses, mas criaturas com poderes quase divinos.</p><p>Diferentes patronos garantem aos bruxos o acesso a diferentes poderes e invocações, esperando favores significativos em troca.</p><p>Alguns patronos colecionam bruxos, repartindo conhecimento místico praticamente de graça ou se gabando de suas habilidades para prender mortais à sua vontade. Outros concedem seus poderes apenas relutantemente, e podem fazer um pacto com um único bruxo. Bruxos que servem ao mesmo patrono podem ver uns aos outros como aliados, irmãos ou rivais.</p>",
+        "pt": "<p>Os seres que servem os bruxos como seus patronos são poderoso habitantes de outros planos de existência – não são deuses, mas tem poderes praticamente divinos. Vários patronos concedem aos seus bruxos acesso a diferentes poderes e invocações, e esperam favores significativos em troca.</p><p>Alguns patronos reúnem bruxos, distribuindo conhecimento místico praticamente de graça ou gabam-se de sua habilidade de controlar os mortais a sua vontade. Outros patronos concedem seus poderes apenas a contragosto e farão um pacto apenas com um bruxo. Bruxos que servem o mesmo patrono devem ver um ao outro como aliados, irmãos ou rivais.</p>",
         "en": "<p>The beings that serve as patrons for warlocks are mighty inhabitants of other planes of existence—not gods, but almost godlike in their power. Various patrons give their warlocks access to different powers and invocations, and expect significant favors in return.</p><p>Some patrons collect warlocks, doling out mystic knowledge relatively freely or boasting of their ability to bind mortals to their will. Other patrons bestow their power only grudgingly, and might make a pact with only one warlock. Warlocks who serve the same patron might view each other as allies, siblings, or rivals.</p>"
       }
     },
@@ -161,7 +161,7 @@
       "optional": false,
       "source": {
         "pt": {
-          "book": "LDJ",
+          "book": "LJF",
           "page": 58
         },
         "en": {
@@ -174,7 +174,7 @@
         "en": "Pact Magic"
       },
       "html": {
-        "pt": "<p>Sua pesquisa arcana e o poder concedido a você por seu patrono lhe garantem a habilidade de conjuração. Vá ao capítulo 10 para consultar as regras gerais de conjuração e ao capítulo 11 para verificar a lista de magias de bruxo.</p><p><strong>truques</strong></p><p>Você conhece dois truques da lista de magias do bruxo à sua escolha. Você aprende truques de bruxo adicionais em níveis mais altos, conforme mostrado na coluna Truques da tabela O Bruxo.</p><p><strong>espaços de magia</strong></p><p>A tabela O Bruxo mostra quantos espaços de magia você tem para conjurar suas magias de 1º círculo e superiores. A tabela também mostra qual o círculo desses espaços - todos os seus espaços de magia são do mesmo círculo. Para conjurar uma magia de bruxo de 1º círculo ou maior, você deve gastar um espaço de magia cujo círculo seja igual ou maior que o da magia, recuperando todos os espaços gastos após um período de descanso curto ou longo.</p><p>Por exemplo, no 5º nível você tem dois espaços de magia de 3º círculo. Para conjurar a magia de 1º círculo raio de bruxa, você deve gastar um destes espaços e conjurá-la como uma magia de 3º círculo.</p><p><strong>magias conhecidas de acordo com o nível</strong></p><p>No 1º nível você conhece duas magias de 1º círculo que devem ser escolhidas da tabela de magias do bruxo.</p><p>A coluna Magias da tabela O Bruxo mostra quando você aprende novas magias de bruxo, de 1º círculo e superiores, à sua escolha. Uma magia escolhida por você não pode ser de um círculo maior do que o mostrado na coluna Círculo dos Espaços na tabela para o seu nível. Ao alcançar o 6º nível, por exemplo, você aprende uma nova magia de bruxo de 1º, 2º ou 3º círculos.</p><p>Além disso, ao ganhar níveis nesta classe, você pode trocar uma das magias de bruxo que conhece por outra magia da lista de magias do bruxo, a qual também deve pertencer a um círculo para o qual você tenha espaços de magia.</p><p><strong>atributo de conjuração</strong></p><p>Carisma é o atributo de conjuração para suas magias de bruxo, você deve usá-lo sempre que uma magia fizer referência ao seu atributo de conjuração. Além disso, você usa o seu modificador de Carisma para definir a CD de uma salvaguarda feita para evitar uma magia de bruxo conjurada por você e ao realizar uma jogada de ataque com uma magia de bruxo.</p><p><strong>CD para evitar suas magias</strong> = 8 + seu bônus de proficiência + seu modificador de Carisma</p><p><strong>Modificador de ataque mágico</strong> = seu bônus de proficiência + seu modificador de Carisma</p><p><strong>foco de conjuração</strong></p><p>Você pode usar um foco arcano (veja o capítulo 5, \"Equipamento\") como um foco de conjuração para suas magias de bruxo.</p>",
+        "pt": "<p>Sua pesquisa arcana e a magia outorgada a você por seu patrono, lhe concedem uma gama de magias. Veja o capítulo 10 para as regras gerais de conjuração e o capítulo 11 para a lista de magias de bruxo.</p><p><strong>truques</strong></p><p>Você conhece dois truques, à sua escolha, da lista de magias de bruxo. Você aprende truques de bruxo adicionais, à sua escolha, em níveis mais altos, como mostrado na coluna Truques Conhecidos da tabela O Bruxo.</p><p><strong>espaços de magia</strong></p><p>A tabela O Bruxo mostra quantos espaços de magia você possui. A tabela também mostra qual o nível desses espaços; todos os seus espaços de magia são do mesmo nível. Para conjurar uma magia de bruxo de 1º nível ou superior, você deve gastar um espaço de magia. Você recobra todos os espaços de magia gastos quando você completa um descanso curto ou longo.</p><p>Por exemplo, quando você atingir o 5º nível, você terá dois espaços de magia de 3º nível. Para conjurar a magia de 1º nível raio de bruxa, você deve gastar um desses espaços e você a conjura como uma magia de 3º nível.</p><p><strong>magias conhecidas de 1º nível e superiores</strong></p><p>No 1º nível, você conhece duas magias de 1º nível, à sua escolha da lista de magias de bruxo.</p><p>A coluna Magias Conhecidas na tabela O Bruxo mostra quando você aprende mais magias de bruxo, à sua escolha, de 1º nível ou superior. Cada uma dessas magias deve ser de um nível a que você tenha acesso, como mostrado na tabela na coluna de Nível de Magia para o seu nível. Quando você alcança o 6º nível, por exemplo, você aprende uma nova magia de bruxo, que pode ser de 1º, 2º ou 3º nível.</p><p>Além disso, quando você adquire um nível nessa classe, você pode escolher uma magia de bruxo que você conheça e substituí-la por outra magia da lista de magias de bruxo, que também deve ser de um nível ao qual você tenha espaços de magia.</p><p><strong>habilidade de conjuração</strong></p><p>Sua habilidade de conjuração é Carisma para suas magias de bruxo, portanto, você usa seu Carisma sempre que alguma magia se referir à sua habilidade de conjurar magias. Além disso, você usa o seu modificador de Carisma para definir a CD dos testes de resistência para as magias de bruxo que você conjura e quando você realiza uma jogada de ataque com uma magia.</p><p><strong>CD para suas magias</strong> = 8 + bônus de proficiência + seu modificador de Carisma</p><p><strong>Modificador de ataque de magia</strong> = seu bônus de proficiência + seu modificador de Carisma</p><p><strong>foco de conjuração</strong></p><p>Você pode usar um foco arcano (encontrado no capítulo 5) como foco de conjuração das suas magias de bruxo.</p>",
         "en": "<p>Your arcane research and the magic bestowed on you by your patron have given you facility with spells. See Spells Rules for the general rules of spellcasting and the Spells Listing&nbsp;for the warlock&nbsp;spell list.</p> Cantrips <p>You know two cantrips of your choice from the warlock spell list. You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table.</p> Spell Slots <p>The Warlock table shows how many spell slots you have to cast your warlock spells of 1st through 5th level. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended Pact Magic spell slots when you finish a short or long rest.</p> <p>For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell witch bolt, you must spend one of those slots, and you cast it as a 3rd-level spell.</p> Spells Known of 1st Level and Higher <p>At 1st level, you know two 1st-level spells of your choice from the warlock spell list.</p> <p>The Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what’s shown in the table’s Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.</p> <p>Additionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots.</p> Spellcasting Ability <p>Charisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.</p> <p><strong>Spell save DC </strong>= 8 + your proficiency bonus + your Charisma modifier</p> <p><strong>Spell attack modifier </strong>= your proficiency bonus + your Charisma modifier</p> Spellcasting Focus <p>You can use an arcane focus (see the Adventuring Gear section) as a spellcasting focus for your warlock spells.</p>"
       }
     },
@@ -184,7 +184,7 @@
       "optional": false,
       "source": {
         "pt": {
-          "book": "LDJ",
+          "book": "LJF",
           "page": 58
         },
         "en": {
@@ -197,7 +197,7 @@
         "en": "Eldritch Invocations"
       },
       "html": {
-        "pt": "<p>No seu estudo do conhecimento oculto, você descobriu invocações místicas, fragmentos de conhecimento proibido que imbuem seu corpo com uma capacidade mágica permanente. Os pré-requisitos de nível indicados referem-se ao seu nível nesta classe.</p><p>No 2º nível você ganha duas invocações místicas à sua escolha. As opções disponíveis estão detalhadas ao final da descrição desta classe. Ao alcançar determinados níveis de bruxo, você recebe invocações adicionais à sua escolha, conforme mostrado na coluna Invocações na tabela O Bruxo.</p><p>Além disso, ao avançar um nível nesta classe, você pode trocar uma das invocações que conhece por outra invocação que possa aprender nesse nível.</p><p>Se uma invocação mística possui pré-requisitos, você precisa cumpri-los antes de aprendê-la. Você pode aprender uma invocação mística ao mesmo tempo em que adquire os pré-requisitos necessários para tanto. Um pré-requisito de nível se refere ao seu nível nesta classe.</p><p><strong>Armadura de Sombras</strong></p><p>Você pode conjurar armadura arcana em si mesmo à vontade, sem gastar espaços de magia ou componentes materiais.</p><p><strong>Correntes de Cárceri</strong></p><p><em>Pré-requisito: 15º nível, a característica Pacto da Corrente</em></p><p>Você pode conjurar imobilizar monstro à vontade - mas apenas quando o alvo for um celestial, ínfero ou elemental - sem gastar um espaço de magia ou componentes materiais. Você precisa terminar um descanso longo antes de poder usar esta invocação na mesma criatura novamente.</p><p><strong>Encharcar a Mente</strong></p><p><em>Pré-requisito: 5º nível</em></p><p>Você pode conjurar lentidão uma vez usando um espaço de magia de bruxo. Você só pode tornar a fazê-lo após um descanso longo.</p><p><strong>Escultor de Carne</strong></p><p><em>Pré-requisito: 7º nível</em></p><p>Você pode conjurar polimorfia uma vez usando um espaço de magia de bruxo. Você só pode tornar a fazê-lo após um descanso longo.</p><p><strong>Explosão Repulsiva</strong></p><p><em>Pré-requisito: o truque raio místico</em></p><p>Ao atingir uma criatura com raio místico, você pode empurrá-la até 3 metros para longe em uma linha reta.</p><p><strong>Explosão Agonizante</strong></p><p><em>Pré-requisito: o truque raio místico</em></p><p>Ao conjurar raio místico, adicione o seu modificador de Carisma ao dano causado por ela.</p><p><strong>Idioma Bestial</strong></p><p>Você pode conjurar falar com animais à vontade, sem gastar um espaço de magia.</p><p><strong>Influência Enganadora</strong></p><p>Você ganha proficiência nas perícias Enganação e Persuasão.</p><p><strong>Ladrão dos Cinco Destinos</strong></p><p>Você pode conjurar perdição uma vez usando um espaço de magia de bruxo. Você só pode tornar a fazê-lo após um descanso longo.</p><p><strong>Lamento das Sepulturas</strong></p><p><em>Pré-requisito: 9º nível</em></p><p>Você pode conjurar falar com os mortos à vontade, sem gastar um espaço de magia.</p><p><strong>Lâmina Sedenta</strong></p><p><em>Pré-requisito: 5º nível, a característica Pacto da Lâmina</em></p><p>Você pode atacar com sua arma de pacto duas vezes, ao invés de uma, sempre que executar a ação Atacar no seu turno.</p><p><strong>Lança Mística</strong></p><p><em>Pré-requisito: o truque raio místico</em></p><p>Ao conjurar raio místico, o alcance desta magia passa a ser de 90 metros.</p><p><strong>Livro dos Segredos Antigos</strong></p><p><em>Pré-requisito: a característica Pacto do Tomo</em></p><p>Você pode inscrever rituais mágicos no seu Livro das Sombras. Escolha duas magias de 1º círculo que possuam a tag ritual, da lista de magias de qualquer classe (as duas não precisam ser da mesma lista). As magias aparecem no livro e não contam para o número de magias que você conhece. Com o seu Livro de Sombras em mãos, você pode conjurar as magias escolhidas como rituais. Você não pode conjurá-las de outra forma, a não ser que as tenha aprendido por outros meios. Você também pode conjurar uma magia de bruxo que conheça como ritual se ela possuir a tag ritual.</p><p>Em suas aventuras você pode adicionar outras magias rituais ao seu Livro das Sombras. Ao encontrar uma magia desse tipo, pode adicioná-la ao livro caso o círculo dela seja igual ou menor que o seu nível como bruxo (arredondado para cima) e tenha tempo para transcrevê-la. Graças às tintas raras necessárias para a inscrição, o processo leva 2 horas e custa 50 PO por círculo da magia.</p><p><strong>Máscara das Muitas Faces</strong></p><p>Você pode conjurar disfarçar-se à vontade, sem gastar um espaço de magia.</p><p><strong>Mestre das Infindáveis Formas</strong></p><p><em>Pré-requisito: 15º nível</em></p><p>Você pode conjurar alterar-se à vontade, sem gastar um espaço de magia.</p><p><strong>Lacaios do Caos</strong></p><p><em>Pré-requisito: 9º nível</em></p><p>Você pode conjurar invocar elemental uma vez usando um espaço de magia de bruxo. Você só pode tornar a fazê-lo após um descanso longo.</p><p><strong>Olhar de Duas Mentes</strong></p><p>Você pode usar sua ação para tocar um humanoide voluntário e perceber tudo através dos sentidos dele até o final de seu próximo turno. Enquanto você e a criatura estiverem no mesmo plano de existência, você pode usar suas ações dos próximos turnos para manter esta conexão, aumentando a duração para até o final do seu próximo turno. Enquanto estiver usando os sentidos do alvo, você se beneficia de qualquer sentido especial que ele possua, passando, contudo, a estar cego e surdo para o que está ao seu redor.</p><p><strong>Olhos do Protetor das Runas</strong></p><p>Você pode ler qualquer texto escrito.</p><p><strong>Passo Ascendente</strong></p><p><em>Pré-requisito: 9º nível</em></p><p>Você pode conjurar levitação em si mesmo à vontade, sem gastar um espaço de magia ou componentes materiais.</p><p><strong>Salto Sobrenatural</strong></p><p><em>Pré-requisito: 9º nível</em></p><p>Você pode conjurar salto em si mesmo à vontade, sem gastar um espaço de magia ou componentes materiais.</p><p><strong>Sinal de Mau Agouro</strong></p><p><em>Pré-requisito: 5º nível</em></p><p>Você pode conjurar rogar maldição uma vez usando um espaço de magia de bruxo. Você só pode tornar a fazê-lo após um descanso longo.</p><p><strong>Sorvedouro de Vida</strong></p><p><em>Pré-requisito: 12º nível, a característica Pacto da Lâmina</em></p><p>Ao atingir uma criatura com a sua arma de pacto, ela sofre dano necrótico igual ao seu modificador de Carisma (mínimo de 1).</p><p><strong>Sussurros Sedutores</strong></p><p><em>Pré-requisito: 7º nível</em></p><p>Você pode conjurar compulsão uma vez usando um espaço de magia de bruxo. Você não pode fazer isso novamente até terminar um descanso longo.</p><p><strong>Uno com as Sombras</strong></p><p><em>Pré-requisito: 5º nível</em></p><p>Quando estiver em uma área de meia-luz ou escuridão, você pode usar sua ação para se tornar invisível, até se mover ou realizar uma ação ou reação.</p><p><strong>Vigor Ínfero</strong></p><p>Você pode conjurar vitalidade vazia em si mesmo à vontade como uma magia de 1º círculo sem gastar um espaço de magia ou componentes materiais.</p><p><strong>Visão da Bruxa</strong></p><p><em>Pré-requisito: 15º nível</em></p><p>Você pode enxergar a verdadeira forma de qualquer metamorfo ou outra criatura oculta por magias de ilusão ou transmutação, contanto que ela esteja a até 9 metros de distância de você e dentro de sua linha de visão.</p><p><strong>Visão Diabólica</strong></p><p>Você pode ver normalmente na escuridão, tanto mágica quanto normal, a uma distância de até 36 metros.</p><p><strong>Visão Mística</strong></p><p>Você pode conjurar detectar magia à vontade, sem gastar um espaço de magia.</p><p><strong>Visões Nebulosas</strong></p><p>Você pode conjurar imagem silenciosa à vontade, sem gastar um espaço de magia ou componentes materiais.</p><p><strong>Visões dos Reinos Distantes</strong></p><p><em>Pré-requisito: 15º nível</em></p><p>Você pode conjurar olho arcano à vontade, sem gastar um espaço de magia.</p><p><strong>Voz do Mestre das Correntes</strong></p><p><em>Pré-requisito: a característica Pacto da Corrente</em></p><p>Você pode se comunicar telepaticamente com seu familiar e perceber através dos sentidos dele enquanto estiverem no mesmo plano de existência. Além disso, ao usar os sentidos de seu familiar, você pode falar através dele com a sua própria voz, mesmo que normalmente ele seja incapaz disso.</p><p><strong>Vozes Perturbadoras</strong></p><p><em>Pré-requisito: 7º nível</em></p><p>Você pode conjurar confusão uma vez usando um espaço de magia de bruxo. Você só pode tornar a fazê-lo após um descanso longo.</p>",
+        "pt": "<p>Durante seus estudos sobre conhecimento oculto, você descobriu as invocações místicas, fragmentos de conhecimento proibido que infundiram você com habilidade mágica permanente.</p><p>No 2º nível, você ganha duas invocações místicas, à sua escolha. Suas opções de invocação estão detalhadas no final da descrição dessa classe. Quando você atinge certos nível de bruxo, você adquire novas invocações à sua escolha, como mostrado na coluna Invocações Conhecidas na tabela O Bruxo.</p><p>Além disso, quando você adquire um novo nível nessa classe, você pode escolher uma invocação que você conheça e substituí-la por outra invocação que você possa aprender nesse nível.</p><p>Se uma invocação mística tiver pré-requisitos, você deve possuí-los para que possa aprendê-la. Você pode aprender a invocação ao mesmo tempo que adquire os pré-requisitos dela. O pré-requisito de nível nas invocações se refere ao nível de bruxo, não ao nível de personagem.</p><p><strong>Armadura de Sombras</strong></p><p>Você pode conjurar armadura arcana em si mesmo, à vontade, sem precisar gastar um espaço de magia ou componentes materiais.</p><p><strong>Correntes de Cárceri</strong></p><p><em>Pré-requisito: 15º nível, característica Corrente de Cárceri</em></p><p>Você pode conjurar imobilizar monstro, à vontade – tendo como alvo um celestial, corruptor ou elemental – sem precisar gastar um espaço de magia ou componentes materiais. Você deve terminar um descanso longo antes de poder usar essa invocação na mesma criatura novamente.</p><p><strong>Encharcar a Mente</strong></p><p><em>Pré-requisito: 5º nível</em></p><p>Você pode conjurar lentidão, uma vez, usando um espaço de magia de bruxo. Você não pode fazer isso novamente até terminar um descanso longo.</p><p><strong>Escultor de Carne</strong></p><p><em>Pré-requisito: 7º nível</em></p><p>Você pode conjurar metamorfose, uma vez, usando um espaço de magia de bruxo. Você não pode fazer isso novamente até terminar um descanso longo.</p><p><strong>Explosão Agonizante</strong></p><p><em>Pré-requisito: truque rajada mística</em></p><p>Quando você conjura rajada mística, adicione seu modificador de Carisma ao dano causado quando atingir.</p><p><strong>Explosão Repulsiva</strong></p><p><em>Pré-requisito: truque rajada mística</em></p><p>Quando você atingir uma criatura com uma rajada mística, você pode empurrar a criatura até 3 metros para longe de você em linha reta.</p><p><strong>Idioma Bestial</strong></p><p>Você pode conjurar falar com animais, à vontade, sem precisar gastar um espaço de magia.</p><p><strong>Influência Enganadora</strong></p><p>Você ganha proficiência nas perícias Enganação e Persuasão.</p><p><strong>Lacaios do Caos</strong></p><p><em>Pré-requisito: 9º nível</em></p><p>Você pode lançar conjurar elemental, uma vez, usando um espaço de magia de bruxo. Você não pode fazer isso novamente até terminar um descanso longo.</p><p><strong>Lâmina Sedenta</strong></p><p><em>Pré-requisito: 5º nível, característica Pacto da Lâmina</em></p><p>Você pode atacar com sua arma do pacto duas vezes, ao invés de apenas uma, quando você usa a ação de Ataque no seu turno.</p><p><strong>Lança Mística</strong></p><p><em>Pré-requisito: truque rajada mística</em></p><p>Quando você conjura rajada mística, seu alcance será de 90 metros.</p><p><strong>Larápio dos Cinco Destinos</strong></p><p>Você pode conjurar perdição, uma vez, usando um espaço de magia de bruxo. Você não pode fazer isso novamente até terminar um descanso longo.</p><p><strong>Livro de Segredos Antigos</strong></p><p><em>Pré-requisito: característica Pacto do Tomo</em></p><p>Você pode agora, registrar rituais mágicos no seu Livro das Sombras. Escolha duas magias de 1º nível que possuam o descritor ritual da lista de magias de qualquer classe. A magia aparece no livro e não conta no número de magias que você conhece. Com o seu Livro das Sombras em mãos, você pode conjurar as magias escolhidas como rituais. Você não pode conjurar essas magias, exceto na forma de rituais, a não ser que você tenha aprendido elas através de outros meios. Você também pode conjurar uma magia de bruxo que você conheça como ritual se ela possuir o descritor ritual. Os rituais não precisam ser da mesma lista de magias.</p><p>Durante suas aventuras, você pode adicionar outras magias de ritual ao seu Livro das Sombras. Quando você encontrar tais magias, você pode adicioná-la ao livro se o nível da magia for igual ou inferior à metade do seu nível de bruxo (arredondado para baixo) e se você tiver tempo para gastar transcrevendo a magia. Para cada nível da magia, o processo de transcrição levará 2 horas e custará 50 po, devido às tintas raras necessárias para inscrevê-la.</p><p><strong>Máscara das Muitas Faces</strong></p><p>Você pode conjurar disfarçar-se, à vontade, sem precisar gastar um espaço de magia.</p><p><strong>Mestre das Infindáveis Formas</strong></p><p><em>Pré-requisito: 15º nível</em></p><p>Você pode conjurar alterar-se, à vontade, sem precisar gastar um espaço de magia.</p><p><strong>Olhar de Duas Mentes</strong></p><p>Você pode usar sua ação para tocar um humanoide voluntário e perceber através do seus sentidos até o final do seu próximo turno. Conquanto que a criatura esteja no mesmo plano de existência que você, você pode usar sua ação nas rodadas subsequentes para manter a conexão, estendendo a duração até o início do seu próximo turno. Enquanto estiver percebendo através dos sentidos de outra criatura, você aproveita os benefícios de todos os sentidos especiais possuídos pela criatura e você fica cego e surdo ao que está a sua volta.</p><p><strong>Olhos do Guardião das Runas</strong></p><p>Você pode ler todas as escritas.</p><p><strong>Palavra Terrível</strong></p><p><em>Pré-requisito: 7º nível</em></p><p>Você pode conjurar confusão, uma vez, usando um espaço de magia de bruxo. Você não pode fazer isso novamente até terminar um descanso longo.</p><p><strong>Passo Ascendente</strong></p><p><em>Pré-requisito: 9º nível</em></p><p>Você pode conjurar levitação em si mesmo, à vontade, sem precisar gastar um espaço de magia ou componentes materiais.</p><p><strong>Salto Transcendental</strong></p><p><em>Pré-requisito: 9º nível</em></p><p>Você pode conjurar salto em si mesmo, à vontade, sem precisar gastar um espaço de magia ou componentes materiais.</p><p><strong>Sinal de Mau Agouro</strong></p><p><em>Pré-requisito: 5º nível</em></p><p>Você pode conjurar rogar maldição, uma vez, usando um espaço de magia de bruxo. Você não pode fazer isso novamente até terminar um descanso longo.</p><p><strong>Sorvedor de Vida</strong></p><p><em>Pré-requisito: 12º nível, característica Pacto da Lâmina</em></p><p>Quando você atingir uma criatura com sua arma do pacto, a criatura sofre uma quantidade de dano necrótico adicional igual ao seu modificador de Carisma (mínimo 1).</p><p><strong>Sussurros da Sepultura</strong></p><p><em>Pré-requisito: 9º nível</em></p><p>Você pode conjurar falar com os mortos, à vontade, sem precisar gastar um espaço de magia.</p><p><strong>Sussurros Sedutores</strong></p><p><em>Pré-requisito: 7º nível</em></p><p>Você pode conjurar compulsão, uma vez, usando um espaço de magia de bruxo. Você não pode fazer isso novamente até terminar um descanso longo.</p><p><strong>Uno com as Sombras</strong></p><p><em>Pré-requisito: 5º nível</em></p><p>Quando você estiver em uma área de penumbra ou escuridão, você pode usar sua ação para ficar invisível até se mover ou realizar uma ação ou reação.</p><p><strong>Vigor Abissal</strong></p><p>Você pode conjurar vitalidade falsa em si mesmo, à vontade, como uma magia de 1º nível, sem precisar gastar um espaço de magia ou componentes materiais.</p><p><strong>Visão da Bruxa</strong></p><p><em>Pré-requisito: 15º nível</em></p><p>Você pode ver a verdadeira forma de qualquer metamorfo ou criatura oculta através de magias de ilusão ou transmutação contanto que a criatura esteja a até 9 metros de você e você tenha linha de visão.</p><p><strong>Visão Diabólica</strong></p><p>Você pode ver normalmente na escuridão, tanto mágica quanto normal, com um alcance de 36 metros.</p><p><strong>Visão Mística</strong></p><p>Você pode conjurar detectar magia, à vontade, sem precisar gastar um espaço de magia.</p><p><strong>Visões de Reinos Distantes</strong></p><p><em>Pré-requisito: 15º nível</em></p><p>Você pode conjurar olho arcano, à vontade, sem precisar gastar um espaço de magia.</p><p><strong>Visões nas Brumas</strong></p><p>Você pode conjurar imagem silenciosa, à vontade, sem precisar gastar um espaço de magia ou componentes materiais.</p><p><strong>Voz do Mestre das Correntes</strong></p><p><em>Pré-requisito: característica Pacto da Corrente</em></p><p>Você pode se comunicar telepaticamente com seu familiar e perceber através dos sentidos do seu familiar enquanto ambos estiverem no mesmo plano de existência. Além disso, enquanto estiver percebendo através dos sentidos do seu familiar, você também poderá falar através dele com a sua voz, mesmo que seu familiar, normalmente, seja incapaz de falar.</p>",
         "en": "<p>In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability.</p> <p>At 2nd level, you gain two eldritch invocations of your choice. Your invocation options are detailed at the end of the class description. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock table.</p> <p>Additionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level.</p> <p>If an eldritch invocation has prerequisites, you must meet them to learn it. You can learn the invocation at the same time that you meet its prerequisites. A level prerequisite refers to your level in this class.</p> Agonizing Blast <p></p><p><em>Prerequisite:&nbsp;eldritch blast&nbsp;cantrip</em></p> <p>When you cast eldritch blast, add your Charisma modifier to the damage it deals on a hit.</p><p></p> Armor of Shadows <p></p><p>You can cast mage armor on yourself at will, without expending a spell slot or material components.</p><p></p> Ascendant Step <p></p><p><em>Prerequisite:&nbsp;9th level</em></p> <p>You can cast levitate on yourself at will, without expending a spell slot or material components.</p><p></p> Aspect of the Moon <p></p><p><em>Prerequisite: Pact of the Tome feature</em></p> <p>You no longer need to sleep and can’t be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading your Book of Shadows and keeping watch.</p><p></p> Beast Speech <p></p><p>You can cast speak with animals at will, without expending a spell slot.</p><p></p> Beguiling Influence <p></p><p>You gain proficiency in the Deception and Persuasion skills.</p><p></p> Bewitching Whispers <p></p><p><em>Prerequisite:&nbsp;7th level</em></p> <p>You can cast compulsion once using a warlock spell slot. You can’t do so again until you finish a long rest.</p><p></p> Bond of the Talisman <p></p><p><em>Prerequisite: 12th-level warlock, Pact of the Talisman feature</em></p> <p>While someone else is wearing your talisman, you can use your action to teleport to the unoccupied space closest to them, provided the two of you are on the same plane of existence. The wearer of your talisman can do the same thing, using their action to teleport to you. The teleportation can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest.</p><p></p> Book of Ancient Secrets <p></p><p><em>Prerequisite:&nbsp;Pact of the Tome feature</em></p> <p>You can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class’s spell list (the two needn’t be from the same list). The spells appear in the book and don’t count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can’t cast the spells except as rituals, unless you’ve learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.</p> <p>On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell’s level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.</p><p></p> Chains of Carceri <p></p><p><em>Prerequisite:&nbsp;15th level, Pact of the Chain feature</em></p> <p>You can cast hold monster at will — targeting a celestial, fiend, or elemental — without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again.</p><p></p> Cloak of Flies <p></p><p><em>Prerequisite: 5th level</em></p> <p>As a bonus action, you can surround yourself with a magical aura that looks like buzzing flies. The aura extends 5 feet from you in every direction, but not through total cover. It lasts until you’re incapacitated or you dismiss it as a bonus action.</p> <p>The aura grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. Any other creature that starts its turn in the aura takes poison damage equal to your Charisma modifier (minimum of 0 damage).</p> <p>Once you use this invocation, you can’t use it again until you finish a short or long rest.</p><p></p> Devil’s Sight <p></p><p>You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</p><p></p> Dreadful Word <p></p><p><em>Prerequisite:&nbsp;7th level</em></p> <p>You can cast confusion once using a warlock spell slot. You can’t do so again until you finish a long rest.</p><p></p> Eldritch Mind <p></p><p>You have advantage on Constitution saving throws that you make to maintain your concentration on a spell.</p><p></p> Eldritch Sight <p></p><p>You can cast detect magic at will, without expending a spell slot.</p><p></p> Eldritch Smite <p></p><p><em>Prerequisite: 5th level, Pact of the Blade feature</em></p> <p>Once per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra 1d8 force damage to the target, plus another 1d8 per level of the spell slot, and you can knock the target prone&nbsp;if it is Huge or smaller.</p><p></p> Eldritch Spear <p></p><p><em>Prerequisite:&nbsp;eldritch blast&nbsp;cantrip</em></p> <p>When you cast eldritch blast, its range is 300 feet.</p><p></p> Eyes of the Rune Keeper <p></p><p>You can read all writing.</p><p></p> Far Scribe <p></p><p><em>Prerequisite: 5th-level warlock, Pact of the Tome feature</em></p> <p>A new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your proficiency bonus.</p> <p>You can cast the sending spell, targeting a creature whose name is on the page, without using a spell slot and without using material components. To do so, you must write the message on the page. The target hears the message in their mind, and if the target replies, their message appears on the page, rather than in your mind. The writing disappears after 1 minute.</p> <p>As an action, you can magically erase a name on the page by touching it.</p><p></p> Fiendish Vigor <p></p><p>You can cast false life on yourself at will as a 1st-level spell, without expending a spell slot or material components.</p><p></p> Gaze of Two Minds <p></p><p>You can use your action to touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. While perceiving through the other creature’s senses, you benefit from any special senses possessed by that creature, and you are blinded and deafened to your own surroundings.</p><p></p> Ghostly Gaze <p></p><p><em>Prerequisite: 7th level</em></p> <p>As an action, you gain the ability to see through solid objects to a range of 30 feet. Within that range, you have darkvision&nbsp;if you don’t already have it. This special sight lasts for 1 minute or until your concentration ends (as if you were concentrating on a spell). During that time, you perceive objects as ghostly, transparent images.</p> <p>Once you use this invocation, you can’t use it again until you finish a short or long rest.</p><p></p> Gift of the Depths <p></p><p><em>Prerequisite: 5th level</em></p> <p>You can breathe underwater, and you gain a swimming speed equal to your walking speed.</p> <p>You can also cast water breathing once without expending a spell slot. You regain the ability to do so when you finish a long rest.</p><p></p> Gift of the Ever-Living Ones <p></p><p><em>Prerequisite: Pact of the Chain feature</em></p> <p>Whenever you regain hit points while your familiar is within 100 feet of you, treat any dice rolled to determine the hit points you regain as having rolled their maximum value for you.</p><p></p> Gift of the Protectors <p></p><p><em>Prerequisite: 9th-level warlock, Pact of the Tome feature</em></p> <p>A new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your proficiency bonus.</p> <p>When any creature whose name is on the page is reduced to 0 hit points but not killed outright, the creature magically drops to 1 hit point instead. Once this magic is triggered, no creature can benefit from it until you finish a long rest.</p> <p>As an action, you can magically erase a name on the page by touching it.</p><p></p> Grasp of Hadar <p></p><p><em>Prerequisite:&nbsp;eldritch blast&nbsp;cantrip</em></p> <p>Once on each of your turns when you hit a creature with your eldritch blast, you can move that creature in a straight line 10 feet closer to you.</p><p></p> Improved Pact Weapon <p></p><p><em>Prerequisite: Pact of the Blade feature</em></p> <p>You can use any weapon you summon with your Pact of the Blade feature as a spellcasting focus for your warlock spells.</p> <p>In addition, the weapon gains a +1 bonus to its attack and damage rolls, unless it is a magic weapon that already has a bonus to those rolls.</p> <p>Finally, the weapon you conjure can be a shortbow, longbow, light crossbow, or heavy crossbow.</p><p></p> Investment of the Chain Master <p></p><p><em>Prerequisite: Pact of the Chain feature</em></p> <p>When you cast find familiar, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits:</p> <ul> <li>The familiar gains either a flying speed or a swimming speed (your choice) of 40 feet.</li> <li>As a bonus action, you can command the familiar to take the Attack action.</li> <li>The familiar’s weapon attacks are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks.</li> <li>If the familiar forces a creature to make a saving throw, it uses your spell save DC.</li> <li>When the familiar takes damage, you can use your reaction to grant it resistance against that damage.</li> </ul><p></p> Lance of Lethargy <p></p><p><em>Prerequisite:&nbsp;eldritch blast&nbsp;cantrip</em></p> <p>Once on each of your turns when you hit a creature with your eldritch blast, you can reduce that creature’s speed by 10 feet until the end of your next turn.</p><p></p> Lifedrinker <p></p><p><em>Prerequisite:&nbsp;12th level, Pact of the Blade feature</em></p> <p>When you hit a creature with your pact weapon, the creature takes extra necrotic damage equal to your Charisma modifier (minimum 1).</p><p></p> Maddening Hex <p></p><p><em>Prerequisite: 5th level, hex spell or a warlock feature that curses</em></p> <p>As a bonus action, you cause a psychic disturbance around the target cursed by your hex spell or by a warlock feature of yours, such as Hexblade’s Curse or Sign of Ill Omen. When you do so, you deal psychic damage to the cursed target and each creature of your choice that you can see within 5 feet of it. The psychic damage equals your Charisma modifier (minimum of 1 damage). To use this invocation, you must be able to see the cursed target, and it must be within 30 feet of you.</p><p></p> Mask of Many Faces <p></p><p>You can cast disguise self at will, without expending a spell slot.</p><p></p> Master of Myriad Forms <p></p><p><em>Prerequisite:&nbsp;15th level</em></p> <p>You can cast alter self at will, without expending a spell slot.</p><p></p> Minions of Chaos <p></p><p><em>Prerequisite:&nbsp;9th level</em></p> <p>You can cast conjure elemental once using a warlock spell slot. You can’t do so again until you finish a long rest.</p><p></p> Mire the Mind <p></p><p><em>Prerequisite:&nbsp;5th level</em></p> <p>You can cast slow once using a warlock spell slot. You can’t do so again until you finish a long rest.</p><p></p> Misty Visions <p></p><p>You can cast silent image at will, without expending a spell slot or material components.</p><p></p> One with Shadows <p></p><p><em>Prerequisite:&nbsp;5th level</em></p> <p>When you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction.</p><p></p> Otherworldly Leap <p></p><p><em>Prerequisite:&nbsp;9th level</em></p> <p>You can cast jump on yourself at will, without expending a spell slot or material components.</p><p></p> Protection of the Talisman <p></p><p><em>Prerequisite: 7th-level warlock, Pact of the Talisman feature</em></p> <p>When the wearer of your talisman fails a saving throw, they can add a d4 to the roll, potentially turning the save into a success. This benefit can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest.</p><p></p> Rebuke of the Talisman <p></p><p><em>Prerequisite: Pact of the Talisman feature</em></p> <p>When the wearer of your talisman is hit by an attacker you can see within 30 feet of you, you can use your reaction to deal psychic damage to the attacker equal to your proficiency bonus and push it up to 10 feet away from the talisman’s wearer.</p><p></p> Relentless Hex <p></p><p><em>Prerequisite: 7th level,&nbsp;hex&nbsp;spell or a warlock feature that curses</em></p> <p>Your curse creates a temporary bond between you and your target. As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see within 5 feet of the target cursed by your hex&nbsp;spell or by a warlock feature of yours, such as Hexblade’s Curse or Sign of Ill Omen. To teleport in this way, you must be able to see the cursed target.</p><p></p> Repelling Blast <p></p><p><em>Prerequisite:&nbsp;eldritch blast&nbsp;cantrip</em></p> <p>When you hit a creature with eldritch blast, you can push the creature up to 10 feet away from you in a straight line.</p><p></p> Sculptor of Flesh <p></p><p><em>Prerequisite:&nbsp;7th level</em></p> <p>You can cast polymorph once using a warlock spell slot. You can’t do so again until you finish a long rest.</p><p></p> Shroud of Shadow <p></p><p><em>Prerequisite: 15th level</em></p> <p>You can cast invisibility&nbsp;at will, without expending a spell slot.</p><p></p> Sign of Ill Omen <p></p><p><em>Prerequisite:&nbsp;5th level</em></p> <p>You can cast bestow curse once using a warlock spell slot. You can’t do so again until you finish a long rest.</p><p></p> Thief of Five Fates <p></p><p>You can cast bane once using a warlock spell slot. You can’t do so again until you finish a long rest.</p><p></p> Thirsting Blade <p></p><p><em>Prerequisite:&nbsp;5th level, Pact of the Blade feature</em></p> <p>You can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn.</p><p></p> Tomb of Levistus <p></p><p><em>Prerequisite: 5th level</em></p> <p>As a reaction when you take damage, you can entomb yourself in ice, which melts away at the end of your next turn. You gain 10 temporary hit points per warlock level, which take as much of the triggering damage as possible. Immediately after you take the damage, you gain vulnerability to fire damage, your speed is reduced to 0, and you are incapacitated. These effects, including any remaining temporary hit points, all end when the ice melts.</p> <p>Once you use this invocation, you can’t use it again until you finish a short or long rest.</p><p></p> Trickster's Escape <p></p><p><em>Prerequisite: 7th level</em></p> <p>You can cast freedom of movement once on yourself without expending a spell slot. You regain the ability to do so when you finish a long rest.</p><p></p> Undying Servitude <p></p><p><em>Prerequisite: 5th-level warlock</em></p> <p>You can cast animate dead without using a spell slot. Once you do so, you can’t cast it in this way again until you finish a long rest.</p><p></p> Visions of Distant Realms <p></p><p><em>Prerequisite:&nbsp;15th level</em></p> <p>You can cast arcane eye at will, without expending a spell slot.</p><p></p> Voice of the Chain Master <p></p><p><em>Prerequisite:&nbsp;Pact of the Chain feature</em></p> <p>You can communicate telepathically with your familiar and perceive through your familiar’s senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar’s senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech.</p><p></p> Whispers of the Grave <p></p><p><em>Prerequisite: 9th level</em></p> <p>You can cast speak with dead at will, without expending a spell slot.</p><p></p> Witch Sight <p></p><p><em>Prerequisite:&nbsp;15th level</em></p> <p>You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight.</p><p></p>"
       }
     },
@@ -207,7 +207,7 @@
       "optional": true,
       "source": {
         "pt": {
-          "book": "GXTC",
+          "book": "GXF",
           "page": 20
         },
         "en": {
@@ -220,7 +220,7 @@
         "en": "Eldritch Invocations (additional options)"
       },
       "html": {
-        "pt": "<p>No 2º nível, um bruxo ganha a característica Invocações Místicas. Você encontrará aqui novas opções para essa característica, além daquelas apresentadas no Player's Handbook: Livro do jogador.</p><p>Se uma invocação mística possui um pré-requisito, você deve atendê-lo antes de aprender a invocação. Você pode aprender a invocação ao mesmo tempo que atende o pré-requisito dela. Um pré-requisito de nível refere-se ao seu nível nesta classe.</p><p><strong>Guia de Xanathar para Todas as Coisas</strong></p><p><strong>Agarramento de Hadar</strong></p><p><em>Pré-requisito: o truque raio místico</em></p><p>Uma vez em cada um dos seus turnos, ao atingir uma criatura com seu raio místico, você pode aproximá-la de você 3 metros numa linha reta.</p><p><strong>Arma de Pacto Melhorada</strong></p><p><em>Pré-requisito: a característica Pacto da Lâmina</em></p><p>Você pode usar qualquer arma invocada por você com sua característica Pacto da Lâmina como um foco de conjuração para suas magias de bruxo.</p><p>Além disso, a arma ganha um bônus de +1 para as jogadas de ataque e dano feitas com ela, a menos que se trate de uma arma mágica que já tenha um bônus para essas jogadas.</p><p>Finalmente, a arma que você conjura pode ser um arco curto, arco longo, besta leve ou besta pesada.</p><p><strong>Aspecto da Lua</strong></p><p><em>Pré-requisito: a característica Pacto do Tomo</em></p><p>Você não precisa mais dormir e não pode ser forçado a fazê-lo, não importa o meio. Para ganhar os benefícios de um descanso longo, você pode passar todas as 8 horas realizando atividades leves, tais como ler seu Livro das Sombras e manter vigia.</p><p><strong>Bruxaria Enlouquecedora</strong></p><p><em>Pré-requisito: 5º nível, a magia danação ou uma característica de bruxo que amaldiçoe</em></p><p>Como uma ação bônus, você causa uma perturbação psíquica em torno de um alvo amaldiçoado por sua magia danação ou por uma de suas características de bruxo, tais como Maldição do Lâminabreu ou Sinal de Mau Agouro. Ao fazê-lo, causa dano psíquico ao alvo amaldiçoado e a cada criatura à sua escolha, à sua vista e que esteja a até 1,5 metro dele. A quantidade de dano psíquico é igual ao seu modificador de Carisma (mínimo de 1 ponto de dano). Para usar esta invocação você deve ser capaz de ver o alvo amaldiçoado, e ele deve estar a até 9 metros de você.</p><p><strong>Bruxaria Implacável</strong></p><p><em>Pré-requisito: 7º nível, a magia danação ou uma característica de bruxo que amaldiçoe</em></p><p>Sua maldição cria um vínculo temporário entre você e seu alvo. Como uma ação bônus, você pode se teleportar magicamente a uma distância de até 9 metros para um espaço desocupado à sua vista e a até 1,5 metro do alvo amaldiçoado por sua magia danação ou por uma de suas características de bruxo, tais como Maldição do Lâminabreu ou Sinal de Mau Agouro. Para se teleportar desse modo, você deve ser capaz de ver o alvo amaldiçoado.</p><p><strong>Fuga do Trapaceiro</strong></p><p><em>Pré-requisito: 7º nível</em></p><p>Você pode conjurar movimentação livre uma vez sobre você mesmo sem gastar um espaço de magia. Você recupera a habilidade de fazê-lo ao terminar um descanso longo.</p><p><strong>Lança de Letargia</strong></p><p><em>Pré-requisito: o truque raio místico</em></p><p>Uma vez em cada um dos seus turnos, ao atingir uma criatura com seu raio místico, você pode reduzir o deslocamento da criatura em 3 metros até o final do seu próximo turno.</p><p><strong>Manto de Moscas</strong></p><p><em>Pré-requisito: 5º nível</em></p><p>Como uma ação bônus, você pode cercar-se com uma aura mágica que parece com moscas zumbindo. A aura se estende a até 1,5 metro de você em todas as direções, mas não atravessa cobertura total. Ela dura até que você fique incapacitado ou a dissipe como uma ação bônus.</p><p>A aura lhe concede vantagem em testes de Carisma (Intimidação), mas concede desvantagem em todos os outros testes desse atributo. Qualquer outra criatura que inicie o turno dela dentro da aura sofre uma quantidade de dano venenoso igual ao seu modificador de Carisma (no mínimo 0 ponto de dano).</p><p>Após ter usado esta invocação, você não pode usá-la novamente até terminar um descanso curto ou longo.</p><p><strong>Mortalha de Sombras</strong></p><p><em>Pré-requisito: 15º nível</em></p><p>Você pode conjurar invisibilidade à vontade, sem gastar um espaço de magia.</p><p><strong>Olhar Fantasmagórico</strong></p><p><em>Pré-requisito: 7º nível</em></p><p>Como uma ação, você ganha a habilidade de ver através de objetos sólidos a uma distância de até 9 metros. Dentro desse alcance, você tem visão no escuro, caso já não a possua. Essa visão especial dura 1 minuto ou até que sua concentração termine (como se você estivesse se concentrando em uma magia). Durante esse tempo, você percebe os objetos como imagens transparentes e fantasmais.</p><p>Após usar esta invocação, você não pode usá-la novamente até terminar um descanso curto ou longo.</p><p><strong>Presente das Profundezas</strong></p><p><em>Pré-requisito: 5º nível</em></p><p>Você pode respirar sob a água, e ganha um deslocamento de nado igual ao seu deslocamento de caminhada.</p><p>Você também pode conjurar respirar na água sem gastar um espaço de magia. Você recupera a habilidade de fazê-lo ao terminar um descanso longo.</p><p><strong>Presente dos Sempre-Vivos</strong></p><p><em>Pré-requisito: a característica Pacto da Corrente</em></p><p>Sempre que você recuperar pontos de vida enquanto seu familiar estiver a até 30 metros de você, trate todos os dados jogados para determinar os pontos de vida recuperados como tendo resultado seus valores máximos.</p><p><strong>Punição Mística</strong></p><p><em>Pré-requisito: 5º nível, a característica Pacto da Lâmina</em></p><p>Uma vez por turno, ao atingir uma criatura com sua arma de pacto, você pode gastar um espaço de magia de bruxo para causar 1d8 pontos de dano energético adicional no alvo, mais 1d8 por círculo do espaço de magia, e pode deixar o alvo caído se ele for Enorme ou menor.</p><p><strong>Tumba de Levistus</strong></p><p><em>Pré-requisito: 5º nível</em></p><p>Como uma reação ao sofrer dano, você pode sepultar-se a si mesmo sob gelo, que derrete completamente até o final do seu próximo turno. Você ganha 10 pontos de vida temporários por nível como bruxo, o que absorve tanto do dano que o levou a se sepultar quanto possível. Imediatamente após sofrer o dano, você ganha vulnerabilidade a dano ígneo, seu deslocamento é reduzido a 0 e você fica incapacitado. Esses efeitos, incluindo quaisquer pontos de vida temporário restantes, terminam quando o gelo derrete.</p><p>Após usar esta invocação, você não pode usá-la novamente até terminar um descanso curto ou longo.</p><p><strong>O Caldeirão de Tasha para Tudo</strong></p><p>Ao escolher invocações místicas, você tem acesso às seguintes opções adicionais.</p><p><strong>Escriba Distante</strong></p><p><em>Pré-requisito: 5º nível de bruxo, característica Pacto do Tomo</em></p><p>Uma nova página surge em seu Livro das Sombras. Com sua permissão, uma criatura pode usar a ação dela para escrever seu nome naquela página, que pode conter um número de nomes igual a seu bônus de proficiência.</p><p>Você pode conjurar a magia remeter, tendo como alvo uma criatura cujo nome esteja na página sem usar um espaço de magia e sem usar componentes materiais. Para fazê-lo, você precisa escrever a mensagem na sua página. O alvo ouve a mensagem na mente dele e, se ele responder, a mensagem dele aparece na página ao invés de em sua mente. A escrita desaparece depois de 1 minuto.</p><p>Como uma ação, você pode apagar magicamente um nome da página ao tocá-la.</p><p><strong>Investimento do Mestre da Corrente</strong></p><p><em>Pré-requisito: característica Pacto de Corrente</em></p><p>Ao conjurar convocar familiar, você pode infundir o familiar invocado com uma dose de seu poder místico, concedendo para a criatura os seguintes benefícios:</p><ul><li>O familiar ganha deslocamento de voo ou de natação, à sua escolha, de 12 metros.</li><li>Como uma ação bônus, você pode comandar o familiar para fazer a ação de Atacar.</li><li>Os ataques de arma do familiar são considerados mágicos para o propósito de superar imunidade e resistência a ataques não mágicos.</li><li>Se o familiar força uma criatura a fazer uma salvaguarda, ele usa a CD para resistir às suas magias.</li><li>Quando o familiar sofre dano, você pode usar sua reação para conceder a ele resistência a esse dano.</li></ul><p><strong>Mente Mística</strong></p><p>Você tem vantagem em salvaguardas de Constituição que fizer para manter sua concentração em uma magia.</p><p><strong>Presente dos Protetores</strong></p><p><em>Pré-requisito: 9º nível de bruxo, característica Pacto do Tomo</em></p><p>Uma nova página surge em seu Livro das Sombras. Com sua permissão, uma criatura pode usar a ação dela para escrever seu nome naquela página, que pode conter um número de nomes igual a seu bônus de proficiência.</p><p>Quando qualquer criatura cujo nome esteja na página é reduzida a 0 ponto de vida, mas não é morta por completo, em vez disso a criatura é magicamente reduzida a 1 ponto de vida. Uma vez que esta magia seja desencadeada, nenhuma criatura pode se beneficiar disso até que termine um descanso longo.</p><p>Como uma ação, você pode apagar magicamente um nome da página ao tocá-la.</p><p><strong>Proteção do Talismã</strong></p><p><em>Pré-requisito: 7º nível de bruxo, característica Pacto do Talismã</em></p><p>Quando o usuário de seu talismã falha em uma salvaguarda, ele pode adicionar um d4 à jogada, potencialmente tornando-a um sucesso. Esse benefício pode ser usado um número de vezes igual a seu bônus de proficiência e todos os usos são recuperados ao terminar um descanso longo.</p><p><strong>Repreensão do Talismã</strong></p><p><em>Pré-requisito: característica Pacto do Talismã</em></p><p>Quando o usuário do seu talismã é atingido por um atacante que você possa ver, a até 9 metros de você, você pode usar sua reação para causar dano psíquico no atacante igual ao seu bônus de proficiência e o empurrar a até 3 metros do usuário do talismã.</p><p><strong>Servidão Imortal</strong></p><p><em>Pré-requisito: 5º nível de bruxo</em></p><p>Você pode conjurar animar mortos sem gastar um espaço de magia. Uma vez que o faça, você não poderá conjurá-la dessa forma novamente até que termine um descanso longo.</p><p><strong>Vínculo do Talismã</strong></p><p><em>Pré-requisito: 12º nível de bruxo, característica Pacto do Talismã</em></p><p>Enquanto outra pessoa estiver usando seu talismã, você pode usar sua ação para teleportar-se para um espaço desocupado mais próximo a ela, desde que vocês dois estejam no mesmo plano de existência. O usuário do seu talismã pode fazer a mesma coisa, usando a ação dele para teleportar-se até você. O teletransporte pode ser usado um número de vezes igual a seu bônus de proficiência e todos os usos são recuperados ao terminar um descanso longo.</p>",
+        "pt": "<p>No 2º nível, um bruxo ganha a característica Invocações Místicas. Aqui estão as novas opções para essa característica, além das opções presentes no Livro do Jogador. Se uma invocação mística tiver um pré-requisito, deve cumpri-lo para aprender a invocação. Você pode aprender a invocação ao mesmo tempo em que aprende o seu pré-requisito. Um pré-requisito de nível refere-se ao seu nível nesta classe.</p><p><strong>Aperto de Hadar</strong></p><p><em>Pré-requisito: truque rajada mística</em></p><p>Uma vez em cada um dos seus turnos, quando atingir uma criatura com sua rajada mística, você pode deslocar essa criatura em uma linha reta 3 metros em sua direção.</p><p><strong>Arma de Pacto Aprimorada</strong></p><p><em>Pré-requisito: característica Pacto da Lâmina</em></p><p>Você pode usar qualquer arma que conjure com sua caraterística Pacto da Lâmina como um foco de magia para suas magias de bruxo. Além disso, a arma ganha um bônus de +1 em seus testes de ataque e dano, a menos que seja uma arma mágica que já tenha um bônus para esses testes. Além disso, a arma que conjure pode ser um arco curto, arco longo, besta leve ou besta pesada.</p><p><strong>Aspecto da Lua</strong></p><p><em>Pré-requisito: característica Pacto do Tomo</em></p><p>Você não precisa mais dormir e não pode ser forçado a dormir de qualquer maneira. Para obter os benefícios de um descanso longo, pode passar todas às 8 horas fazendo atividades leves, como ler o seu Livro das Sombras e manter a vigília.</p><p><strong>Dádiva das Profundezas</strong></p><p><em>Pré-requisito: 5º nível</em></p><p>Você pode respirar debaixo d'água e ganha um deslocamento de natação igual ao seu deslocamento de caminhada. Também pode conjurar a magia respirar na água uma vez sem gastar um espaço de magia. Recupera a capacidade de fazê-lo quando terminar um descanso longo.</p><p><strong>Destruição Mística</strong></p><p><em>Pré-requisito: 5º nível, característica Pacto da Lâmina</em></p><p>Uma vez por turno, quando você atinge uma criatura com sua arma de pacto, você pode gastar um espaço de magia de bruxo causar dano de energia adicional de 1d8 ao alvo, além de mais 1d8 por nível de espaço de magia, e você pode derrubar se o oponente for Enorme ou menor.</p><p><strong>Fuga do Escapista</strong></p><p><em>Pré-requisito: 7º nível</em></p><p>Você pode conjurar a magia movimentação livre uma vez em si mesmo sem gastar um espaço de magia. Você recupera a capacidade de fazê-lo quando terminar um longo descanso.</p><p><strong>Lança da Letargia</strong></p><p><em>Pré-requisito: truque rajada mística</em></p><p>Uma vez em cada um de seus turnos quando atingir uma criatura com sua rajada mística, você pode reduzir o deslocamento dessa criatura em 3 metros até o final do seu próximo turno.</p><p><strong>Maldição Enlouquecedora</strong></p><p><em>Pré-requisito: 5º nível, magia bruxaria ou uma característica de bruxo que amaldiçoe</em></p><p>Como uma ação bônus, você causa uma distorção psíquica em torno do alvo amaldiçoado pela magia bruxaria ou característica de bruxo, como Maldições da Lâmina Maldita ou Símbolo de Mal Agouro. Quando fizer isso, você causa dano psíquico ao alvo amaldiçoado e a cada criatura de sua escolha que possa ver a menos de 1,5 metros de alcance. O dano psíquico é igual ao seu modificador de Carisma (mínimo de 1 dano). Para usar essa invocação, deve poder ver o alvo amaldiçoado e ele deve estar até 9 metros de alcance.</p><p><strong>Maldição Incansável</strong></p><p><em>Pré-requisito: 7º nível, magia bruxaria ou uma característica de bruxo que amaldiçoe</em></p><p>Sua maldição cria um vínculo temporário com seu alvo. Como uma ação bônus, pode se teleportar magicamente até 9 metros para um espaço desocupado que possa ver dentro de 1,5 metros do alvo amaldiçoado pela magia bruxaria ou característica de bruxo, como Maldições da Lâmina Maldita ou Símbolo de Mal Agouro. Para se teleportar dessa maneira, precisa poder ver o alvo amaldiçoado.</p><p><strong>Manto de Moscas</strong></p><p><em>Pré-requisito: 5º nível</em></p><p>Como ação bônus, pode cercar-se com uma aura mágica que parece o zumbir de moscas. A aura se estende a 1,5 metros de alcance em todas as direções, mas não através da cobertura total. Isso dura até que esteja incapacitado ou o descarte como uma ação bônus. A aura lhe concede vantagem em testes de Carisma (Intimidação), mas desvantagem em todos os outros testes de Carisma. Qualquer outra criatura que comece o seu turno na aura recebe dano de veneno igual ao seu modificador Carisma (mínimo de 0 de dano).</p><p>Uma vez que utilize essa invocação, não pode usá-la novamente até terminar um descanso curto ou longo.</p><p><strong>Olhar Fantasmagórico</strong></p><p><em>Pré-requisito: 7º nível</em></p><p>Como ação, você ganha a capacidade de ver através de objetos sólidos até um alcance de 9 metros. Dentro desse intervalo, adquire uma visão no escuro caso ainda não a possua. Esta visão especial dura 1 minuto ou até a sua concentração terminar (como se estivesse se concentrando em uma magia). Durante esse tempo, você percebe objetos como imagens fantasmagóricas e translúcidas.</p><p>Uma vez que utilize essa invocação, não pode usá-la novamente até terminar um descanso curto ou longo.</p><p><strong>Presente dos Sempre Vivos</strong></p><p><em>Pré-requisito: característica Pacto das Correntes</em></p><p>Sempre que recuperar pontos de vida enquanto o seu familiar estiver a menos de 30 metros de alcance, trate todos os dados rolados para determinar os pontos de vida que recupera como tendo obtido seu valor máximo para você.</p><p><strong>Sudário das Sombras</strong></p><p><em>Pré-requisito: 15º nível</em></p><p>Você pode conjurar invisibilidade à vontade, sem gastar um espaço de magia.</p><p><strong>Túmulo de Levisto</strong></p><p><em>Pré-requisito: 5º nível</em></p><p>Como uma reação, quando receber dano, pode se cobrir de gelo, que derrete no final do seu próximo turno. Você ganha 10 pontos de vida temporários por nível de bruxo, o que retira a maior parte possível do dano que desencadeia a característica. Imediatamente depois de reduzir o dano, você ganha vulnerabilidade ao dano de fogo, seu deslocamento é reduzido para 0 e você está incapacitado. Esses efeitos, incluindo quaisquer pontos de vida temporários remanescentes, terminam quando o gelo derrete.</p><p>Uma vez que utilize essa invocação, não pode usá-la novamente até terminar um descanso curto ou longo.</p>",
         "en": null
       }
     },
@@ -230,7 +230,7 @@
       "optional": false,
       "source": {
         "pt": {
-          "book": "LDJ",
+          "book": "LJF",
           "page": 58
         },
         "en": {
@@ -243,7 +243,7 @@
         "en": "Pact Boon"
       },
       "html": {
-        "pt": "<p>No 3º nível seu patrono transcendental lhe concede uma dádiva pelos seus serviços leais. Você ganha uma das seguintes características, à sua escolha.</p><p><strong>pacto da corrente</strong></p><p>Você aprende a magia convocar familiar e pode conjurá-la como um ritual. A magia não conta para a sua lista de magias conhecidas.</p><p>Ao realizar uma conjuração, você pode escolher uma das formas normais para o seu familiar ou uma das formas especiais a seguir: diabrete, pseudo-dragão, quasit ou sprite.</p><p>Além disso, ao executar a ação Atacar, você pode renunciar a um de seus ataques para permitir que o seu familiar realize um ataque com a reação dele.</p><p><strong>pacto da lâmina</strong></p><p>Você pode usar sua ação para criar uma arma de pacto em sua mão vazia. Você escolhe a forma que a arma de combate corpo a corpo assume toda vez que a cria (consulte as opções de armas no capítulo 5). Você é proficiente com essa arma enquanto a empunhar. Ela conta como arma mágica para propósitos de vencer resistência e imunidade a ataques e dano não-mágico.</p><p>Sua arma de pacto desaparece se permanecer a mais de 1,5 metro de distância de você por 1 minuto ou mais. Ela também desaparece se você usar esta característica novamente, se dispensá-la (nenhuma ação é necessária) ou se morrer.</p><p>Você pode transformar uma arma mágica na sua arma de pacto ao executar um ritual especial enquanto segura a arma. Você executa o ritual ao longo de 1 hora, o que pode ser feito durante um descanso curto. Você pode, então, dispensar a arma enviando-a para um espaço extradimensional, e a partir de então ela aparece sempre que você criar sua arma de pacto. Você não pode afetar um artefato ou uma arma inteligente dessa maneira. A arma deixa de ser sua arma de pacto se você morrer, se fizer o ritual de 1 hora com uma arma diferente ou se usar um ritual de 1 hora para quebrar o seu vínculo com ela. A arma aparece aos seus pés e ela estiver no espaço extradimensional quando o laço for quebrado.</p><p><strong>pacto do tomo</strong></p><p>Seu patrono lhe presenteia com um grimório chamado Livro das Sombras. Ao receber esta característica, escolha três truques da lista de magias de qualquer classe (cada um pode ser escolhido de uma lista distinta). Enquanto tiver a posse do livro, você pode conjurar esses truques à vontade. Eles não contam para o número de truques que você conhece. Mesmo que eles não apareçam na lista de magias de bruxo, no que diz respeito a você, eles serão considerados magias de bruxo.</p><p>Se perder o seu Livro das Sombras, você pode realizar uma cerimônia de 1 hora para receber de seu patrono um substituto. Essa cerimônia pode ser feita durante um período de descanso e destrói o livro anterior. Quando você morre, o livro se transforma em cinzas.</p>",
+        "pt": "<p>No 3º nível, seu patrono transcendental lhe confere um dom por seus leais serviços. Você adquire uma das características a seguir, à sua escolha.</p><p><strong>pacto da corrente</strong></p><p>Você aprende a magia convocar familiar e pode conjurá-la como um ritual. Essa magia não conta no número de magias que você conhece.</p><p>Quando você conjura essa magia, você pode escolher uma das formas convencionais para o seu familiar ou uma das seguintes formas especiais: diabrete, pseudodragão, quasit ou sprite.</p><p>Além disso, quando você realiza a ação de Ataque, você pode renunciar a um dos seus ataques para permitir que seu familiar realize um ataque, com a reação dele.</p><p><strong>pacto da lâmina</strong></p><p>Você pode usar sua ação para criar uma arma de pacto em sua mão vazia. Você escolhe a forma que essa arma corpo-a-corpo tem a cada vez que você a cria (veja as opções de arma no capítulo 5). Você é proficiente com ela enquanto a empunhar. Essa arma conta como sendo mágica com os propósitos de ultrapassar resistência e imunidade a ataques e danos não-mágicos.</p><p>Sua arma de pacto desaparece se ela estiver a mais de 1,5 metro de você por 1 minuto ou mais. Ela também desaparece se você usar essa característica novamente, se você dissipar a arma (não requer ação) ou se você morrer.</p><p>Você pode transformar uma arma mágica em sua arma de pacto ao realizar um ritual especial enquanto empunha a arma. Você precisa de 1 hora para concluir o ritual, que pode ser realizado durante um descanso curto. Você pode dissipar a arma, guardando-a em um espaço extradimensional, e ela reaparece toda vez que você criar sua arma de pacto. A arma deixa de ser sua arma de pacto se você morrer, se você realizar um ritual de 1 hora com outra arma diferente ou se você realizar um ritual de 1 hora para romper seu elo com ela. A arma aparece aos seus pés se ela estiver no espaço extradimensional quando o elo for quebrado.</p><p><strong>pacto do tomo</strong></p><p>Seu patrono lhe deu um grimório chamado Livro das Sombras. Quando você adquire essa característica, escolha três truques da lista de magias de qualquer classe. Enquanto o livro estiver com você, você poderá conjurar esses truques à vontade. Eles não contam no número de truques que você conhece. Esses truques são considerados magias de bruxo para você e não precisam ser da mesma lista de magia.</p><p>Se você perder seu Livro das Sombras, você pode realizar uma cerimônia de 1 hora para receber um substituto do seu patrono. Essa cerimônia pode ser realizada durante um descanso curto ou longo e destrói o livro anterior. O livro se torna cinzas quando você morre.</p>",
         "en": "<p>At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice.</p> Pact of the Blade <p></p><p>You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it (see the Weapons section&nbsp;for weapon options). You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p> <p>Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.</p> <p>You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can’t affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.</p><p></p> Pact of the Chain <p></p><p>You learn the find familiar spell and can cast it as a ritual. The spell doesn’t count against your number of spells known.</p> <p>When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.</p> <p>Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack with its reaction.</p><p></p> Pact of the Tome <p></p><p>Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class’s spell list (the three needn’t be from the same list). While the book is on your person, you can cast those cantrips at will. They don’t count against your number of cantrips known. If they don’t appear on the warlock spell list, they are nonetheless warlock spells for you.</p> <p>If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.</p><p></p>"
       }
     },
@@ -253,7 +253,7 @@
       "optional": false,
       "source": {
         "pt": {
-          "book": "LDJ",
+          "book": "LJF",
           "page": 59
         },
         "en": {
@@ -266,7 +266,7 @@
         "en": "Your Pact Boon"
       },
       "html": {
-        "pt": "<p>Cada opção de Dádiva do Pacto produz uma criatura ou objeto especial que reflete a natureza do seu patrono.</p><p><strong>Pacto da Corrente.</strong> Seu familiar é mais inteligente que um familiar típico. Sua forma padrão pode ser um reflexo do seu patrono, como sprites e pseudo-dragões para a Arquifada ou diabretes e quasits para o Ínfero. Pelo fato de o Grande Antigo ser de natureza imperscrutável, qualquer familiar lhe é adequado.</p><p><strong>Pacto da Lâmina.</strong> Se o seu patrono for a Arquifada, sua arma pode ser uma lâmina delgada envolta por vinhas frondosas. Se você serve o ínfero, sua arma pode ser um machado de metal negro adornado com chamas decorativas. Se o seu patrono for o Grande Antigo, sua arma pode ser uma lança de aparência antiga, com uma gema encravada na lâmina, esculpida para se parecer com um terrível olho que nunca pisca.</p><p><strong>Pacto do Tomo.</strong> O seu Livro das Sombras pode ser um tomo elegante com bordas douradas repleto de magias de encantamento e ilusão, dado a você pela altiva Arquifada. Ele poderia ser um tomo pesado, costurado com couro de demônio e rebitado com ferro, guardando magias de conjuração e rico em histórias proibidas sobre as sinistras regiões do cosmo, se for um presente do Ínfero. Ou poderia ser o diário esfarrapado de um lunático que enlouqueceu pelo contato com O Grande Antigo, contendo fragmentos de magias que apenas a sua própria insanidade crescente lhe permite entender e conjurar.</p>",
+        "pt": "<p>Cada opção de Dádiva do Pacto produz uma criatura ou objeto especial que reflete a natureza do seu patrono.</p><p><strong>Pacto da Corrente.</strong> Seu familiar é mais esperto que um familiar típico. Sua forma padrão pode ser reflexo do seu patrono, com sprites e pseudodragões vinculados à Arquifada e diabretes e quasits vinculados ao Corruptor. Devido à natureza inescrutável do Grande Antigo, qualquer familiar é aceitável para ele.</p><p><strong>Pacto da Lâmina.</strong> Se o seu patrono for a Arquifada, sua arma deveria ser uma lâmina fina entalhada com frondosas videiras. Se você serve o Corruptor, sua arma poderia ser um machado feito de metal negro e adornado com chamas decorativas. Se o seu patrono for o Grande Antigo, sua arma deveria ser uma lança de aparência antiga, com gemas encrustadas na sua ponta, esculpida para se parecer com um terrível olho aberto.</p><p><strong>Pacto do Tomo.</strong> Seu Livro das Sombras deveria ser um tomo elegante com adornos em suas pontas e repleto de magias de encantamento e ilusão dado a você nobremente pela Arquifada. Ele poderia ser um tomo pesado costurado com couro de demônio e cravado com ferro, contendo magias de conjuração e rico em conhecimento proibido sobre regiões sinistras do cosmos, um presente do Corruptor. Ou poderia ser um diário esfarrapado de um lunático que enlouqueceu ao contatar o Grande Antigo, contendo restos de magias que apenas sua insanidade crescente permite que você as entenda e conjure.</p>",
         "en": "<p>Each Pact Boon option produces a special creature or an object that reflects your patron’s nature.</p><p><em><strong>Pact of the Chain.</strong></em> Your familiar is more cunning than a typical familiar. Its default form can be a reflection of your patron, with sprites and pseudodragons tied to the Archfey and imps and quasits tied to the Fiend. Because the Great Old One’s nature is inscrutable, any familiar form is suitable for it.</p><p><em><strong>Pact of the Blade.</strong></em> If your patron is the Archfey, your weapon might be a slender blade wrapped in leafy vines. If you serve the Fiend, your weapon could be an axe made of black metal and adorned with decorative flames. If your patron is the Great Old One, your weapon might be an ancient-looking spear, with a gemstone embedded in its head, carved to look like a terrible unblinking eye.</p><p><em><strong>Pact of the Tome.</strong></em> Your Book of Shadows might be a fine, gilt-edged tome with spells of enchantment and illusion, gifted to you by the lordly Archfey. It could be a weighty tome bound in demon hide studded with iron, holding spells of conjuration and a wealth of forbidden lore about the sinister regions of the cosmos, a gift of the Fiend. Or it could be the tattered diary of a cultist tormented by contact with the Great Old One, holding scraps of spells that only your own burgeoning instability allows you to understand and cast.</p>"
       }
     },
@@ -299,7 +299,7 @@
       "optional": false,
       "source": {
         "pt": {
-          "book": "LDJ",
+          "book": "LJF",
           "page": 59
         },
         "en": {
@@ -308,11 +308,11 @@
         }
       },
       "name": {
-        "pt": "aumento no valor de atributo",
+        "pt": "incremento no valor de habilidade",
         "en": "Ability Score Improvement"
       },
       "html": {
-        "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
+        "pt": "<p>Quando você atinge o 4º nível e novamente no 8º, 12º, 16º e 19º nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha, em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
       }
     },
@@ -345,7 +345,7 @@
       "optional": false,
       "source": {
         "pt": {
-          "book": "LDJ",
+          "book": "LJF",
           "page": 59
         },
         "en": {
@@ -354,11 +354,11 @@
         }
       },
       "name": {
-        "pt": "aumento no valor de atributo",
+        "pt": "incremento no valor de habilidade",
         "en": "Ability Score Improvement"
       },
       "html": {
-        "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
+        "pt": "<p>Quando você atinge o 4º nível e novamente no 8º, 12º, 16º e 19º nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha, em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
       }
     },
@@ -368,7 +368,7 @@
       "optional": false,
       "source": {
         "pt": {
-          "book": "LDJ",
+          "book": "LJF",
           "page": 59
         },
         "en": {
@@ -381,7 +381,7 @@
         "en": "Mystic Arcanum"
       },
       "html": {
-        "pt": "<p>No 11º nível seu patrono lhe revela um segredo mágico chamado arcana: uma magia de 6º círculo da lista de magias do bruxo à sua escolha.</p><p>Você pode conjurar sua magia arcana uma vez sem gastar um espaço de magia. Você deve terminar um descanso longo antes de poder fazer isso novamente.</p><p>Em níveis mais altos, você ganha mais magias de bruxo que podem ser conjuradas dessa maneira: uma de 7º círculo, à sua escolha, no 13º nível; uma de 8º círculo no 15º nível e uma de 9º círculo no 17º nível. Você recupera todos os usos da sua Arcana Mística ao terminar um descanso longo.</p>",
+        "pt": "<p>No 11º nível, seu patrono confere a você um segredo mágico conhecido como arcana. Escolha uma magia de 6º nível da lista de magias de bruxo como sua arcana.</p><p>Você pode conjurar essa magia arcana uma vez sem gastar um espaço de magia. Você deve terminar um descanso longo antes de poder fazer isso novamente.</p><p>Em níveis altos, você adquire mais magias de bruxo de sua escolha que podem ser conjuradas dessa forma: uma magia de 7º nível no 13º nível, uma magia de 8º nível no 15º nível e uma magia de 9º nível no 17º nível. Você recupera todos os usos de sua Arcana Mística quando você termina um descanso longo.</p>",
         "en": "<p>At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one level=6 as this arcanum.</p><p>You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.</p><p>At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th-level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic Arcanum when you finish a long rest.</p>"
       }
     },
@@ -391,7 +391,7 @@
       "optional": false,
       "source": {
         "pt": {
-          "book": "LDJ",
+          "book": "LJF",
           "page": 59
         },
         "en": {
@@ -400,11 +400,11 @@
         }
       },
       "name": {
-        "pt": "aumento no valor de atributo",
+        "pt": "incremento no valor de habilidade",
         "en": "Ability Score Improvement"
       },
       "html": {
-        "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
+        "pt": "<p>Quando você atinge o 4º nível e novamente no 8º, 12º, 16º e 19º nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha, em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
       }
     },
@@ -414,7 +414,7 @@
       "optional": false,
       "source": {
         "pt": {
-          "book": "LDJ",
+          "book": "LJF",
           "page": 59
         },
         "en": {
@@ -423,11 +423,11 @@
         }
       },
       "name": {
-        "pt": "aumento no valor de atributo",
+        "pt": "incremento no valor de habilidade",
         "en": "Ability Score Improvement"
       },
       "html": {
-        "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
+        "pt": "<p>Quando você atinge o 4º nível e novamente no 8º, 12º, 16º e 19º nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha, em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
       }
     },
@@ -437,7 +437,7 @@
       "optional": false,
       "source": {
         "pt": {
-          "book": "LDJ",
+          "book": "LJF",
           "page": 59
         },
         "en": {
@@ -446,11 +446,11 @@
         }
       },
       "name": {
-        "pt": "aumento no valor de atributo",
+        "pt": "incremento no valor de habilidade",
         "en": "Ability Score Improvement"
       },
       "html": {
-        "pt": "<p>Ao alcançar o 4º nível e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
+        "pt": "<p>Quando você atinge o 4º nível e novamente no 8º, 12º, 16º e 19º nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha, em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica.</p>",
         "en": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p> <p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>"
       }
     },
@@ -460,7 +460,7 @@
       "optional": false,
       "source": {
         "pt": {
-          "book": "LDJ",
+          "book": "LJF",
           "page": 59
         },
         "en": {
@@ -473,7 +473,7 @@
         "en": "Eldritch Master"
       },
       "html": {
-        "pt": "<p>No 20º nível você pode recarregar sua reserva de poder místico ao pedir ao seu patrono a recuperação dos espaços de magia gastos. Você deve gastar 1 minuto suplicando ao seu patrono por ajuda para recuperar todos os seus espaços de magia gastos da sua característica Magia de Pacto.</p><p>Uma vez que tenha recuperado espaços de magia com esta característica, você precisa finalizar um descanso longo antes de poder usá-la novamente.</p>",
+        "pt": "<p>No 20º nível, você pode recarregar sua reserva interior de poder místico quando suplicar ao seu patrono para recuperar espaços de magia gastos. Você pode gastar 1 minuto suplicando pela ajuda do seu patrono para recuperar todos os espaços de magia gastos da sua característica Magia de Pacto. Uma vez que você recuperou espaços de magia com essa característica, você deve terminar um descanso longo antes de fazê-lo novamente.</p>",
         "en": "<p>At 20th level, you can draw on your inner reserve of mystical power while entreating your patron to regain expended spell slots. You can spend 1 minute entreating your patron for aid to regain all your expended spell slots from your Pact Magic feature. Once you regain spell slots with this feature, you must finish a long rest before you can do so again.</p>"
       }
     }
@@ -488,7 +488,7 @@
       },
       "source": {
         "pt": {
-          "book": "LDJ",
+          "book": "LJF",
           "page": 59
         },
         "en": {
@@ -497,7 +497,7 @@
         }
       },
       "intro_html": {
-        "pt": "<p>Seu patrono é um senhor ou senhora dos feéricos, uma criatura das lendas que guarda segredos esquecidos anteriores ao nascimento das raças mortais. As motivações desse ser são, muitas das vezes, inescrutáveis e, outras vezes, caprichosas, podendo envolver uma disputa por um poder mágico maior ou uma fixação em antigos rancores. Seres deste tipo incluem o Príncipe do Gelo; a Rainha do Ar e das Trevas, a governante da Corte Sombria; Titânia, da Corte de Verão; seu consorte, Oberon, o Senhor Verdejante; Hyrsam, o Príncipe dos Tolos; e as megeras ancestrais.</p>",
+        "pt": "<p>Seu patrono é um senhor ou senhora das fadas, uma criatura lendária que detém segredos que foram esquecidos antes das raças mortais nascerem. As motivações desses seres são, muitas vezes, inescrutáveis e, as vezes, excêntricas e podem envolver esforços para adquirir grandes poderes mágicos ou resolução de desavenças antigas. Incluem-se dentre esses seres o Príncipe do Frio; a Rainha do Ar e Trevas, regente da Corte do Crepúsculo; Titania da Corte do Verão; seu cônjuge, Oberon, o Senhor Verdejante; Hyrsam, o Príncipe dos Tolos; e bruxas antigas.</p>",
         "en": "<p>Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being’s motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.</p>"
       },
       "features": [
@@ -507,7 +507,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "LDJ",
+              "book": "LJF",
               "page": 59
             },
             "en": {
@@ -516,11 +516,11 @@
             }
           },
           "name": {
-            "pt": "lista expandida de magias",
+            "pt": "lista de magia expandida",
             "en": "Expanded Spell List"
           },
           "html": {
-            "pt": "<p>Quando você aprende uma magia de bruxo, a Arquifada permite a escolha a partir de uma lista expandida de magias. As magias a seguir são adicionadas à sua lista de magias de bruxo.</p><p><strong>lista expandida de magias da arquifada</strong></p><table><thead><tr><th>Círculo da Magia</th><th>Magias</th></tr></thead><tbody><tr><td>1º</td><td>fogo das fadas, sono</td></tr><tr><td>2º</td><td>acalmar emoções, força espectral</td></tr><tr><td>3º</td><td>crescimento de plantas, piscar</td></tr><tr><td>4º</td><td>dominar fera, invisibilidade maior</td></tr><tr><td>5º</td><td>dominar pessoa, similaridade</td></tr></tbody></table>",
+            "pt": "<p>A Arquifada permite que você escolha magias de uma lista expandida quando você for aprender magias de bruxo. As seguintes magias são adicionadas a sua lista de magias de bruxo.</p><p><strong>magias expandidas da arquifada</strong></p><table><thead><tr><th>Nível de Magia</th><th>Magias</th></tr></thead><tbody><tr><td>1º</td><td>fogo das fadas, sono</td></tr><tr><td>2º</td><td>acalmar emoções, força fantasmagórica</td></tr><tr><td>3º</td><td>piscar, ampliar plantas</td></tr><tr><td>4º</td><td>dominar besta, invisibilidade maior</td></tr><tr><td>5º</td><td>dominar pessoa, similaridade</td></tr></tbody></table>",
             "en": null
           }
         },
@@ -530,7 +530,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "LDJ",
+              "book": "LJF",
               "page": 60
             },
             "en": {
@@ -543,7 +543,7 @@
             "en": "Fey Presence"
           },
           "html": {
-            "pt": "<p>A partir do 1º nível, o seu patrono lhe concede a capacidade de projetar a presença cativante e temível dos feéricos. Com uma ação, você pode fazer com que todas as criaturas dentro de um cubo de 3 metros de lado originado a partir de você realizem salvaguardas de Sabedoria contra a CD para evitar suas magias de bruxo. Aquelas que falharem estarão enfeitiçadas ou amedrontadas por você (à sua escolha) até o fim de seu próximo turno.</p><p>Após usar esta característica, você não pode utilizá-la novamente até finalizar um período de descanso curto ou longo.</p>",
+            "pt": "<p>A partir do 1º nível, seu patrono concede a você a habilidade de projetar a sedução e temeridade da presença da fada. Com uma ação, você pode fazer com que cada criatura num cubo de 3 metros centrado em você, faça um teste de resistência de Sabedoria com uma CD igual a de sua magia de bruxo. As criaturas que falharem no teste ficaram enfeitiçadas ou amedrontadas por você (à sua escolha) até o início do seu próximo turno.</p><p>Quando você usar essa característica, você não poderá utilizá-la novamente antes de realizar um descanso curto ou longo.</p>",
             "en": "<p>Starting at 1st level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws are all charmed or frightened by you (your choice) until the end of your next turn.</p> <p>Once you use this feature, you can’t use it again until you finish a short or long rest.</p>"
           }
         },
@@ -553,7 +553,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "LDJ",
+              "book": "LJF",
               "page": 60
             },
             "en": {
@@ -562,11 +562,11 @@
             }
           },
           "name": {
-            "pt": "fuga em névoa",
+            "pt": "névoa de fuga",
             "en": "Misty Escape"
           },
           "html": {
-            "pt": "<p>A partir do 6º nível, em resposta a perigo, você pode desaparecer em uma névoa. Ao sofrer dano, você pode usar sua reação para se tornar invisível e se teleportar para um espaço desocupado a até 18 metros de distância e que possa ser visto. Você permanece invisível até o início do seu próximo turno ou até realizar um ataque ou uma conjuração.</p><p>Após usar esta característica, você não pode utilizá-la novamente até finalizar um período de descanso curto ou longo.</p>",
+            "pt": "<p>A partir do 6º nível, você pode desaparecer em uma lufada de névoa em resposta a alguma ofensa. Quando você sofrer dano, você pode usar sua reação para ficar invisível e se teletransportar a até 18 metros para um espaço desocupado que você possa ver. Você permanece invisível até o início do seu próximo turno ou até realizar um ataque ou conjurar uma magia.</p><p>Após usar essa característica, você não poderá utilizá-la novamente até terminar um descanso curto ou longo.</p>",
             "en": "<p>Starting at 6th level, you can vanish in a puff of mist in response to harm. When you take damage, you can use your reaction to turn invisible and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you attack or cast a spell.</p> <p>Once you use this feature, you can’t use it again until you finish a short or long rest.</p>"
           }
         },
@@ -576,7 +576,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "LDJ",
+              "book": "LJF",
               "page": 60
             },
             "en": {
@@ -585,11 +585,11 @@
             }
           },
           "name": {
-            "pt": "defesas sedutoras",
+            "pt": "defesa sedutora",
             "en": "Beguiling Defenses"
           },
           "html": {
-            "pt": "<p>A partir do 10º nível, seu patrono o ensina a devolver as magias de manipulação mental dos seus inimigos contra eles próprios. Você passa a ser imune a ser enfeitiçado e, quando outra criatura tentar fazê-lo, pode usar sua reação para voltar o encantamento contra ela. A criatura deve ser bem-sucedida em uma salvaguarda de Sabedoria contra a CD para evitar suas magias de bruxo ou ficará enfeitiçada por 1 minuto ou até sofrer dano.</p>",
+            "pt": "<p>A partir do 10º nível, seu patrono ensina você como voltar as magias de efeito mental dos seus inimigos contra eles. Você não pode ser enfeitiçado e, quando outra criatura tenta enfeitiçá-lo, você pode usar sua reação para tentar reverter o encanto de volta aquela criatura. A criatura deve ser bem sucedida num teste de resistência de Sabedoria contra a CD da sua magia de bruxo ou ficará enfeitiçado por 1 minuto ou até a criatura sofrer dano.</p>",
             "en": "<p>Beginning at 10th level, your patron teaches you how to turn the mind-affecting magic of your enemies against them. You are immune to being charmed, and when another creature attempts to charm you, you can use your reaction to attempt to turn the charm back on that creature. The creature must succeed on a Wisdom saving throw against your warlock spell save DC or be charmed by you for 1 minute or until the creature takes any damage.</p>"
           }
         },
@@ -599,7 +599,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "LDJ",
+              "book": "LJF",
               "page": 60
             },
             "en": {
@@ -612,7 +612,7 @@
             "en": "Dark Delirium"
           },
           "html": {
-            "pt": "<p>A partir do 14º nível, você pode mergulhar uma criatura em um reino ilusório. Com uma ação, escolha uma criatura à sua vista e que esteja a até 18 metros de distância. Ela deve realizar uma salvaguarda de Sabedoria contra a CD para evitar suas magias de bruxo. Em caso de falha, ela fica enfeitiçada ou amedrontada por você (à sua escolha) durante 1 minuto ou até sua concentração ser quebrada (como se você estivesse se concentrando em uma magia). Este efeito acaba mais cedo se a criatura sofrer qualquer tipo de dano.</p><p>Até que esta ilusão termine, a criatura pensa estar perdida em um reino nebuloso, cuja aparência você escolhe. Ela só pode ver e ouvir a si mesma, você e a ilusão.</p><p>Você deve terminar um descanso longo antes de usar esta característica novamente.</p>",
+            "pt": "<p>Começando no 14º nível, você pode imergir uma criatura num reino ilusório. Com um ação, escolha uma criatura que você possa ver a até 18 metros de você. Ela deve ser bem sucedida num teste de resistência de Sabedoria contra a CD da sua magia de bruxo. Se ela falhar, ela ficará enfeitiçada ou amedrontada por você (à sua escolha) por 1 minuto ou até você quebrar sua concentração (como se você estivesse se concentrando em uma magia). Esse efeito termina prematuramente se a criatura sofrer dano.</p><p>Até que essa ilusão termine, a criatura acredita que está perdida num reino enevoado, a aparência desse reino fica a seu critério. A criatura só pode ver e ouvir a si mesma, a você e a sua ilusão.</p><p>Você deve terminar um descanso curto ou longo antes de poder usar essa característica novamente.</p>",
             "en": "<p>Starting at 14th level, you can plunge a creature into an illusory realm. As an action, choose a creature that you can see within 60 feet of you. It must make a Wisdom saving throw against your warlock spell save DC. On a failed save, it is charmed or frightened by you (your choice) for 1 minute or until your concentration is broken (as if you are concentrating on a spell). This effect ends early if the creature takes any damage.</p> <p>Until this illusion ends, the creature thinks it is lost in a misty realm, the appearance of which you choose. The creature can see and hear only itself, you, and the illusion.</p> <p>You must finish a short or long rest before you can use this feature again.</p>"
           }
         }
@@ -625,17 +625,17 @@
         },
         {
           "level": 2,
-          "names_pt": ["acalmar emoções", "força espectral"],
+          "names_pt": ["acalmar emoções", "força fantasmagórica"],
           "names_en": ["calm emotions", "phantasmal force"]
         },
         {
           "level": 3,
-          "names_pt": ["piscar", "crescimento de plantas"],
+          "names_pt": ["piscar", "ampliar plantas"],
           "names_en": ["blink", "plant growth"]
         },
         {
           "level": 4,
-          "names_pt": ["dominar fera", "invisibilidade maior"],
+          "names_pt": ["dominar besta", "invisibilidade maior"],
           "names_en": ["dominate beast", "greater invisibility"]
         },
         {
@@ -649,12 +649,12 @@
       "slug": "the-fiend",
       "short_name_en": "Fiend",
       "name": {
-        "pt": "ínfero",
+        "pt": "corruptor",
         "en": "The Fiend"
       },
       "source": {
         "pt": {
-          "book": "LDJ",
+          "book": "LJF",
           "page": 60
         },
         "en": {
@@ -663,7 +663,7 @@
         }
       },
       "intro_html": {
-        "pt": "<p>Você fez um pacto com um habitante dos planos de existência inferiores, um ser cujos objetivos são maléficos, ainda que você lute contra eles. Tais seres desejam a corrupção ou a destruição de todas as coisas, até mesmo de você. Ínferos poderosos o suficiente para forjar pactos incluem lordes demoníacos como Demogorgon, Orcus, Fraz'Urb-luu e Bafomé; arquidiabos como Asmodeus, Dispater, Mefistófeles e Belial; demônios do fosso e balores especialmente poderosos ou ultroloths e outros senhores dos yugoloths.</p>",
+        "pt": "<p>Você realizou um pacto com um corruptor dos planos de existência inferiores, um ser cujos objetivos são o mal, mesmo se você se opor a esses objetivos. Tais seres desejam corromper ou destruir todas as coisas, em última análise, até mesmo você. Corruptores poderosos o bastante para forjar pactos incluem lordes demônios como Demogorgon, Orcus, Fraz’Urb-luu e Bafomé; arquidiabos como Asmodeus, Dispater, Mefistófeles e Belial; senhores das profundezas e balors que sejam excepcionalmente poderosos; e ultraloths e outros senhores dos yugoloths.</p>",
         "en": "<p>You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz’Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.</p>"
       },
       "features": [
@@ -673,7 +673,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "LDJ",
+              "book": "LJF",
               "page": 60
             },
             "en": {
@@ -682,11 +682,11 @@
             }
           },
           "name": {
-            "pt": "lista expandida de magias",
+            "pt": "lista de magia expandida",
             "en": "Expanded Spell List"
           },
           "html": {
-            "pt": "<p>O Ínfero permite que você escolha suas magias de bruxo a partir de uma lista expandida de magias. As magias a seguir são adicionadas à sua lista de magias de bruxo.</p><p><strong>lista expandida de magias do ínfero</strong></p><table><thead><tr><th>Círculo da Magia</th><th>Magias</th></tr></thead><tbody><tr><td>1º</td><td>comando, mãos flamejantes</td></tr><tr><td>2º</td><td>cegueira/surdez, raio ardente</td></tr><tr><td>3º</td><td>bola de fogo, nuvem fétida</td></tr><tr><td>4º</td><td>escudo ardente, muralha de fogo</td></tr><tr><td>5º</td><td>coluna de chamas, consagrar</td></tr></tbody></table>",
+            "pt": "<p>O Corruptor permite que você escolha magias de uma lista expandida quando você for aprender magias de bruxo. As seguintes magias são adicionadas a sua lista de magias de bruxo.</p><p><strong>magias expandidas do corruptor</strong></p><table><thead><tr><th>Nível de Magia</th><th>Magias</th></tr></thead><tbody><tr><td>1º</td><td>mãos flamejantes, comando</td></tr><tr><td>2º</td><td>cegueira/surdez, raio ardente</td></tr><tr><td>3º</td><td>bola de fogo, névoa fétida</td></tr><tr><td>4º</td><td>escudo de fogo, muralha de fogo</td></tr><tr><td>5º</td><td>coluna de chamas, consagrar</td></tr></tbody></table>",
             "en": null
           }
         },
@@ -696,7 +696,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "LDJ",
+              "book": "LJF",
               "page": 60
             },
             "en": {
@@ -705,11 +705,11 @@
             }
           },
           "name": {
-            "pt": "bênção do tenebroso",
+            "pt": "bênção do obscuro",
             "en": "Dark One's Blessing"
           },
           "html": {
-            "pt": "<p>A partir do 1º nível, ao reduzir os pontos de vida de uma criatura hostil para 0, você ganha pontos de vida temporários iguais ao seu modificador de Carisma + seu nível de bruxo (mínimo de 1).</p>",
+            "pt": "<p>A partir do 1º nível, quando você reduzir uma criatura hostil a 0 pontos de vida, você ganha uma quantidade de pontos de vida temporários igual ao seu modificador de Carisma + seu nível de bruxo (mínimo 1).</p>",
             "en": "<p>Starting at 1st level, when you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to your Charisma modifier + your warlock level (minimum of 1).</p>"
           }
         },
@@ -719,7 +719,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "LDJ",
+              "book": "LJF",
               "page": 60
             },
             "en": {
@@ -728,11 +728,11 @@
             }
           },
           "name": {
-            "pt": "a sorte do próprio tenebroso",
+            "pt": "sorte do próprio obscuro",
             "en": "Dark One's Own Luck"
           },
           "html": {
-            "pt": "<p>A partir do 6º nível, você pode chamar seu patrono para que ele altere o destino a seu favor. Ao realizar um teste de atributo ou salvaguarda, você pode usar esta característica para adicionar 1d10 à sua jogada. Isso pode ser feito após a jogada inicial, porém antes de ela surtir efeito.</p><p>Uma vez usada esta característica, ela não pode ser usada novamente até que você complete um período de descanso curto ou longo.</p>",
+            "pt": "<p>A partir do 6º nível, você pode pedir ao seu patrono para alterar o destino em seu favor. Quando você realizar um teste de habilidade ou um teste de resistência, você pode usar essa característica para adicionar 1d10 a sua jogada. Você pode fazer isso após ver sua jogada inicial, mas antes que qualquer efeito da jogada ocorra.</p><p>Após usar essa característica, você não poderá utilizá-la novamente até terminar um descanso curto ou longo.</p>",
             "en": "<p>Starting at 6th level, you can call on your patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll. You can do so after seeing the initial roll but before any of the roll’s effects occur.</p> <p>Once you use this feature, you can’t use it again until you finish a short or long rest.</p>"
           }
         },
@@ -742,7 +742,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "LDJ",
+              "book": "LJF",
               "page": 60
             },
             "en": {
@@ -751,11 +751,11 @@
             }
           },
           "name": {
-            "pt": "resistência ínfera",
+            "pt": "resistência demoníaca",
             "en": "Fiendish Resilience"
           },
           "html": {
-            "pt": "<p>A partir do 10º nível, ao terminar um período de descanso curto ou longo, você pode escolher um tipo de dano, contra o qual ganha resistência até escolher outro tipo, usando novamente esta característica. Dano causado por armas mágicas ou de prata ignoram esta resistência.</p>",
+            "pt": "<p>A partir do 10º nível, você pode escolher um tipo de dano quando você terminar um descanso curto ou longo. Você adquire resistência contra esse tipo de dano até você escolher um tipo de dano diferente com essa característica. Dano causado por armas mágicas ou armas de prata ignoram essa resistência.</p>",
             "en": "<p>Starting at 10th level, you can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this resistance.</p>"
           }
         },
@@ -765,7 +765,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "LDJ",
+              "book": "LJF",
               "page": 60
             },
             "en": {
@@ -778,7 +778,7 @@
             "en": "Hurl Through Hell"
           },
           "html": {
-            "pt": "<p>A partir do 14º nível, ao atingir uma criatura com um ataque, você pode usar esta característica para transportá-la instantaneamente para os planos inferiores. A criatura desaparece e é lançada numa paisagem de pesadelos.</p><p>No final do seu próximo turno, o alvo retorna para o espaço que ocupava anteriormente ou para o espaço desocupado mais próximo. Se não se tratava de um ínfero, o alvo sofre 10d10 pontos de dano psíquico, por conta da experiência aterrorizante.</p><p>Uma vez usada esta característica, você só pode utilizá-la novamente após completar um descanso longo.</p>",
+            "pt": "<p>A partir do 14º nível, quando você atingir uma criatura com um ataque, você pode usar essa característica para, instantaneamente, transportar o alvo para os planos inferiores. A criatura desaparece e é jogada para um lugar similar a um pesadelo.</p><p>No final do seu turno, o alvo retorna ao lugar que ela ocupava anteriormente, ou para o espaço desocupado mais próximo. Se o alvo não for um corruptor, ele sofre 10d10 de dano psíquico à medida que toma conta da experiência traumática.</p><p>Após usar essa característica, você não poderá utilizá-la novamente até terminar um descanso curto ou longo.</p>",
             "en": "<p>Starting at 14th level, when you hit a creature with an attack, you can use this feature to instantly transport the target through the lower planes. The creature disappears and hurtles through a nightmare landscape.</p> <p>At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target is not a fiend, it takes 10d10 psychic damage as it reels from its horrific experience.</p> <p>Once you use this feature, you can’t use it again until you finish a long rest.</p>"
           }
         }
@@ -796,12 +796,12 @@
         },
         {
           "level": 3,
-          "names_pt": ["bola de fogo", "nuvem fétida"],
+          "names_pt": ["bola de fogo", "névoa fétida"],
           "names_en": ["fireball", "stinking cloud"]
         },
         {
           "level": 4,
-          "names_pt": ["escudo ardente", "muralha de fogo"],
+          "names_pt": ["escudo de fogo", "muralha de fogo"],
           "names_en": ["fire shield", "wall of fire"]
         },
         {
@@ -820,7 +820,7 @@
       },
       "source": {
         "pt": {
-          "book": "LDJ",
+          "book": "LJF",
           "page": 60
         },
         "en": {
@@ -829,7 +829,7 @@
         }
       },
       "intro_html": {
-        "pt": "<p>Seu patrono é uma entidade misteriosa, cuja natureza é totalmente estranha ao tecido da realidade. Ele pode vir do Reino Distante, do espaço além da realidade, ou pode ser um dos deuses mais antigos, conhecidos apenas nas lendas. Suas motivações são incompreensíveis para os mortais, e o seu conhecimento é tão imenso e antigo, que até as maiores bibliotecas empalidecem em comparação com os vastos segredos que ele guarda. O Grande Antigo pode não estar ciente da sua existência, ou ser completamente indiferente a você, mas os segredos que você aprendeu lhe permitem extrair sua magia dele.</p><p>Entidades deste tipo incluem Ghaunadar, chamado de Aquele Que Espreita; Tharizdun, o Deus Acorrentado; Dendar, a Serpente Noturna; Zargon, o Retomador; o Grande Cthulhu; e outros seres insondáveis.</p>",
+        "pt": "<p>Seu patrono é uma entidade misteriosa cuja natureza é profundamente alheia ao tecido da realidade. Ela deve ter vindo do Reino Distante, o espaço além da realidade, ou ela pode ser um dos deuses anciãos conhecido apenas nas lendas. Seus motivos são incompreensíveis para os mortais e seu conhecimento é tão imenso e antigo que, até mesmo, as mais grandiosas bibliotecas desbotam em comparação com os vastos segredos que ele detém. O Grande Antigo pode desconhecer a sua existência ou ser totalmente indiferente a você, mas os segredos que você desvendou permitem que você obtenha suas magias dele. Entidades desse tipo incluem Ghaunadar, conhecido como Aquele que Espreita; Tharizdun, o Deus Acorrentado; Dendar, a Serpente da Noite; Zargon, o Retornado; Grande Cthulhu; entre outros seres insondáveis.</p>",
         "en": "<p>Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality. It might come from the Far Realm, the space beyond reality, or it could be one of the elder gods known only in legends. Its motives are incomprehensible to mortals, and its knowledge so immense and ancient that even the greatest libraries pale in comparison to the vast secrets it holds. The Great Old One might be unaware of your existence or entirely indifferent to you, but the secrets you have learned allow you to draw your magic from it.</p> <p>Entities of this type include Ghaunadar, called That Which Lurks; Tharizdun, the Chained God; Dendar, the Night Serpent; Zargon, the Returner; Great Cthulhu; and other unfathomable beings.</p>"
       },
       "features": [
@@ -839,7 +839,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "LDJ",
+              "book": "LJF",
               "page": 61
             },
             "en": {
@@ -848,11 +848,11 @@
             }
           },
           "name": {
-            "pt": "lista expandida de magias",
+            "pt": "lista de magia expandida",
             "en": "Expanded Spell List"
           },
           "html": {
-            "pt": "<p>O Grande Antigo permite que você escolha suas magias de bruxo a partir de uma lista expandida de magias. As magias a seguir são adicionadas à sua lista de magias de bruxo.</p><p><strong>lista expandida de magias do grande antigo</strong></p><table><thead><tr><th>Círculo da Magia</th><th>Magias</th></tr></thead><tbody><tr><td>1º</td><td>gargalhada nefasta de Tasha, sussurros dissonantes</td></tr><tr><td>2º</td><td>detectar pensamentos, força espectral</td></tr><tr><td>3º</td><td>clarividência, remeter</td></tr><tr><td>4º</td><td>dominar fera, tentáculos negros de Evard</td></tr><tr><td>5º</td><td>dominar pessoa, telecinese</td></tr></tbody></table>",
+            "pt": "<p>O Grande Antigo permite que você escolha magias de uma lista expandida quando você for aprender magias de bruxo. As seguintes magias são adicionadas a sua lista de magias de bruxo.</p><p><strong>magias expandidas do grande antigo</strong></p><table><thead><tr><th>Nível de Magia</th><th>Magias</th></tr></thead><tbody><tr><td>1º</td><td>sussurros dissonantes, riso histérico de Tasha</td></tr><tr><td>2º</td><td>detectar pensamentos, força fantasmagórica</td></tr><tr><td>3º</td><td>clarividência, enviar mensagem</td></tr><tr><td>4º</td><td>dominar besta, tentáculos negros de Evard</td></tr><tr><td>5º</td><td>dominar pessoa, telecinésia</td></tr></tbody></table>",
             "en": null
           }
         },
@@ -862,7 +862,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "LDJ",
+              "book": "LJF",
               "page": 61
             },
             "en": {
@@ -871,11 +871,11 @@
             }
           },
           "name": {
-            "pt": "mente desperta",
+            "pt": "despertar a mente",
             "en": "Awakened Mind"
           },
           "html": {
-            "pt": "<p>A partir do 1º nível, o seu conhecimento alienígena lhe dá a capacidade de tocar as mentes de outras criaturas. Você pode se comunicar telepaticamente com qualquer criatura à sua vista e que esteja a até 9 metros de distância. Você não precisa compartilhar o idioma da criatura para que ela o compreenda, mas ela deve ser capaz de entender pelo menos um idioma qualquer.</p>",
+            "pt": "<p>A partir do 1º nível, seu conhecimento alienígena concede a você a habilidade de tocar a mente de outras criaturas. Você pode se comunicar telepaticamente com qualquer criatura que você possa ver a até 9 metros de você. Você não precisa partilhar um idioma com a criatura para compreender suas expressões telepáticas, mas a criatura deve ser capaz de compreender pelo menos um idioma.</p>",
             "en": "<p>Starting at 1st level, your alien knowledge gives you the ability to touch the minds of other creatures. You can telepathically speak to any creature you can see within 30 feet of you. You don’t need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.</p>"
           }
         },
@@ -885,7 +885,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "LDJ",
+              "book": "LJF",
               "page": 61
             },
             "en": {
@@ -898,7 +898,7 @@
             "en": "Entropic Ward"
           },
           "html": {
-            "pt": "<p>No 6º nível você aprende a se proteger magicamente de ataques e a transformar um ataque malsucedido de um inimigo em boa sorte para si. Ao sofrer uma jogada de ataque, você pode usar sua reação para impor-lhe desvantagem. Se o ataque falhar, a sua próxima jogada de ataque feita contra a criatura tem vantagem até o final do seu turno.</p><p>Uma vez usada esta característica, você só pode utilizá-la novamente após um período de descanso curto ou longo.</p>",
+            "pt": "<p>A partir do 6º nível, você aprende a se proteger magicamente contra ataques e a transformar os ataques mal sucedidos de seus inimigos em boa sorte pra você. Quando uma criatura realizar uma jogada de ataque contra você, você pode usar sua reação para impor desvantagem nesse jogada. Se o ataque errar você, sua próxima jogada de ataque contra essa criatura recebe vantagem se você o fizer antes do final do seu próximo turno.</p><p>Após usar essa característica, você não poderá utilizá-la novamente até terminar um descanso curto ou longo.</p>",
             "en": "<p>At 6th level, you learn to magically ward yourself against attack and to turn an enemy’s failed strike into good luck for yourself. When a creature makes an attack roll against you, you can use your reaction to impose disadvantage on that roll. If the attack misses you, your next attack roll against the creature has advantage if you make it before the end of your next turn.</p> <p>Once you use this feature, you can’t use it again until you finish a short or long rest.</p>"
           }
         },
@@ -908,7 +908,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "LDJ",
+              "book": "LJF",
               "page": 61
             },
             "en": {
@@ -917,11 +917,11 @@
             }
           },
           "name": {
-            "pt": "escudo mental",
+            "pt": "escudo de pensamentos",
             "en": "Thought Shield"
           },
           "html": {
-            "pt": "<p>A partir do 10º nível, seus pensamentos não podem ser lidos por telepatia ou por outros meios, a não ser que você o permita. Você também ganha resistência a dano psíquico, e sempre que uma criatura lhe causar dano psíquico, ela sofre a mesma quantidade de dano.</p>",
+            "pt": "<p>A partir do 10º nível, seus pensamentos não podem ser lidos através de telepatia ou outros meios, a não ser que você permita. Você também adquire resistência a dano psíquico e, toda vez que uma criatura causar dano psíquico a você, essa criatura sofre a mesma quantidade de dano que você sofreu.</p>",
             "en": "<p>Starting at 10th level, your thoughts can’t be read by telepathy or other means unless you allow it. You also have resistance to psychic damage, and whenever a creature deals psychic damage to you, that creature takes the same amount of damage that you do.</p>"
           }
         },
@@ -931,7 +931,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "LDJ",
+              "book": "LJF",
               "page": 61
             },
             "en": {
@@ -940,11 +940,11 @@
             }
           },
           "name": {
-            "pt": "criar servo",
+            "pt": "criar lacaio",
             "en": "Create Thrall"
           },
           "html": {
-            "pt": "<p>No 14º nível você ganha a capacidade de infectar a mente de um humanoide com a magia alienígena do seu patrono. Você pode usar sua ação para tocar um humanoide incapacitado. Ele então estará enfeitiçado por você até que uma magia remover maldição seja conjurada sobre ele, até que a condição enfeitiçado seja removida ou até que você use esta característica novamente.</p><p>Você pode se comunicar telepaticamente com a criatura enfeitiçada, desde que esteja no mesmo plano de existência que ela.</p>",
+            "pt": "<p>No 14º nível, você adquire a habilidade de infectar a mente de um humanoide com a magia alienígena do seu patrono. Você pode usar sua ação para tocar um humanoide incapacitado. Essa criatura então, ficará enfeitiçada por você até que a magia remover maldição seja conjurada sobre ela, a condição enfeitiçado seja removida dela ou você use essa característica novamente.</p><p>Você pode se comunicar telepaticamente com a criatura enfeitiçada contanto que ambos estejam no mesmo plano de existência.</p>",
             "en": "<p>At 14th level, you gain the ability to infect a humanoid’s mind with the alien magic of your patron. You can use your action to touch an incapacitated humanoid. That creature is then charmed by you until a remove curse spell is cast on it, the charmed condition is removed from it, or you use this feature again.</p> <p>You can communicate telepathically with the charmed creature as long as the two of you are on the same plane of existence.</p>"
           }
         }
@@ -952,27 +952,27 @@
       "spells": [
         {
           "level": 1,
-          "names_pt": ["sussurros dissonantes", "gargalhada nefasta de Tasha"],
+          "names_pt": ["sussurros dissonantes", "riso histérico de tasha"],
           "names_en": ["dissonant whispers", "Tasha's hideous laughter"]
         },
         {
           "level": 2,
-          "names_pt": ["detectar pensamentos", "força espectral"],
+          "names_pt": ["detectar pensamentos", "força fantasmagórica"],
           "names_en": ["detect thoughts", "phantasmal force"]
         },
         {
           "level": 3,
-          "names_pt": ["clarividência", "remeter"],
+          "names_pt": ["clarividência", "enviar mensagem"],
           "names_en": ["clairvoyance", "sending"]
         },
         {
           "level": 4,
-          "names_pt": ["dominar fera", "tentáculos negros de Evard"],
+          "names_pt": ["dominar besta", "tentáculos negros de evard"],
           "names_en": ["dominate beast", "Evard's black tentacles"]
         },
         {
           "level": 5,
-          "names_pt": ["dominar pessoa", "telecinese"],
+          "names_pt": ["dominar pessoa", "telecinésia"],
           "names_en": ["dominate person", "telekinesis"]
         }
       ]
@@ -1159,7 +1159,7 @@
       },
       "source": {
         "pt": {
-          "book": "GXTC",
+          "book": "GXF",
           "page": 18
         },
         "en": {
@@ -1168,7 +1168,7 @@
         }
       },
       "intro_html": {
-        "pt": "<p>Seu patrono é um poderoso ser dos Planos Superiores. Você se vinculou a um antigo empiriano, solar, ki-rin, unicórnio ou outra entidade residente dos planos da bem-aventurança eterna. Seu pacto com esse ser permite que você experimente o mais puro toque da luz sagrada que ilumina o multiverso.</p><p>Estar conectado a tal poder pode causar mudanças nas suas crenças e comportamento. Você pode se ver motivado a aniquilar mortos-vivos, derrotar ínferos e proteger inocentes. Às vezes, seu coração pode ficar repleto de saudades do reino celestial do seu patrono, e de um desejo de percorrer aquele paraíso pelo resto dos seus dias. Mas você sabe que, por ora, sua missão está ligada aos mortais, e que seu pacto o obriga a levar a luz aos lugares escuros do mundo.</p>",
+        "pt": "<p>Seu patrono é um poderoso ser dos Planos Superiores. Você se conectou a um ancião empírico, solar, ki-rin, unicórnio ou outra entidade que reside nos planos das bênçãos eternas. Seu pacto com esse ser permite que você experimente o toque mais alto da luz sagrada que ilumina o multiverso.</p><p>Estar conectado a tal poder pode causar mudanças em seu comportamento e crenças. Você pode se encontrar sendo guiado a aniquilar os mortos-vivos, vencer os demônios e proteger os inocentes. Às vezes, seu coração também pode se encher com um desejo profundo pelo reino celestial de seu patrono e uma vontade de vagar por esse paraíso para o resto dos seus dias. Mas você sabe que sua missão, por enquanto, está entre os mortais e que seu pacto obriga você a trazer luz para os lugares escuros do mundo.</p>",
         "en": "<p>Your patron is a powerful being of the Upper Planes. You have bound yourself to an ancient empyrean, solar, ki-rin, unicorn, or other entity that resides in the planes of everlasting bliss. Your pact with that being allows you to experience the barest touch of the holy light that illuminates the multiverse.</p> <p>Being connected to such power can cause changes in your behavior and beliefs. You might find yourself driven to annihilate the undead, to defeat fiends, and to protect the innocent. At times, your heart might also be filled with a longing for the celestial realm of your patron, and a desire to wander that paradise for the rest of your days. But you know that your mission is among mortals for now, and that your pact binds you to bring light to the dark places of the world.</p>"
       },
       "features": [
@@ -1178,7 +1178,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
+              "book": "GXF",
               "page": 18
             },
             "en": {
@@ -1187,11 +1187,11 @@
             }
           },
           "name": {
-            "pt": "lista expandida de magias",
+            "pt": "lista de magias expandida",
             "en": "Expanded Spell List"
           },
           "html": {
-            "pt": "<p>O Celestial permite que você escolha de uma lista de magias expandida ao aprender uma magia de bruxo. As seguintes magias devem ser adicionadas à lista de magias de bruxo para você.</p><p><strong>lista expandida de magias do celestial</strong></p><table><thead><tr><th>Círculo da Magia</th><th>Magias</th></tr></thead><tbody><tr><td>1º</td><td>curar ferimentos, raio guia</td></tr><tr><td>2º</td><td>esfera flamejante, restauração menor</td></tr><tr><td>3º</td><td>luz do dia, revivificar</td></tr><tr><td>4º</td><td>defensor da fé, muralha de fogo</td></tr><tr><td>5º</td><td>coluna de chamas, restauração maior</td></tr></tbody></table>",
+            "pt": "<p>O Celestial permite que você escolha uma lista expandida de magias quando aprende uma magia de bruxo. As seguintes magias são adicionadas à sua lista de magias de bruxo.</p><p><strong>magias expandida do celestial</strong></p><table><thead><tr><th>Nível de Bruxo</th><th>Magia</th></tr></thead><tbody><tr><td>1º</td><td>curar ferimentos, raio guiador</td></tr><tr><td>2º</td><td>esfera flamejante, restauração menor</td></tr><tr><td>3º</td><td>luz do dia, revivificar</td></tr><tr><td>4º</td><td>guardião da fé, muralha de fogo</td></tr><tr><td>5º</td><td>coluna de chamas, restauração maior</td></tr></tbody></table>",
             "en": null
           }
         },
@@ -1201,7 +1201,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
+              "book": "GXF",
               "page": 18
             },
             "en": {
@@ -1210,11 +1210,11 @@
             }
           },
           "name": {
-            "pt": "truques bônus",
+            "pt": "truques adicionais",
             "en": "Bonus Cantrips"
           },
           "html": {
-            "pt": "<p>No 1º nível, você aprende os truques luz e chama sagrada. Eles contam como truques de bruxo para você, mas não contam para a quantidade de truques que você conhece.</p>",
+            "pt": "<p>No 1º nível, você aprende os truques luz e chama sagrada. Eles contam como truques de bruxo para você, mas eles não contam para o seu número de truques conhecidos.</p>",
             "en": "<p>At 1st level, you learn the light and sacred flame cantrips. They count as warlock cantrips for you, but they don’t count against your number of cantrips known.</p>"
           }
         },
@@ -1224,7 +1224,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
+              "book": "GXF",
               "page": 18
             },
             "en": {
@@ -1233,11 +1233,11 @@
             }
           },
           "name": {
-            "pt": "luz medicinal",
+            "pt": "iluminação curativa",
             "en": "Healing Light"
           },
           "html": {
-            "pt": "<p>No 1º nível, você ganha a habilidade de canalizar energia celestial para curar feridas. Você tem uma pilha de d6 que podem ser gastos nessa cura. O número de dados na pilha é igual a 1 + seu nível como bruxo.</p><p>Como uma ação bônus, você pode curar uma criatura à sua vista e a até 18 metros de você, gastando dados da pilha. A quantidade máxima de dados que você pode usar numa única vez é igual ao seu modificador de Carisma (um dado no mínimo). Jogue os dados que você gastou, some os resultados e restaure uma quantidade de pontos de vida igual ao total.</p><p>Sua pilha recupera todos os dados gastos quando você termina um descanso longo.</p>",
+            "pt": "<p>No 1º nível, você ganha a capacidade de canalizar energia celestial para curar ferimentos. Você tem um conjunto de d6s que você gasta para alimentar essa cura. O número de dados reserva é igual a 1 + seu nível de bruxo.</p><p>Como uma ação bônus, você pode curar uma criatura que possa ver a 18 metros de alcance gastando dados dessa reserva. O número máximo de dados que pode gastar ao mesmo tempo é igual ao seu modificador Carisma (mínimo de um dado). Role os dados que gastou, some-os e restaure a quantidade somada em pontos de vida.</p><p>Sua reserva recupera todos os dados gastos quando você terminar um descanso longo.</p>",
             "en": "<p>At 1st level, you gain the ability to channel celestial energy to heal wounds. You have a pool of d6s that you spend to fuel this healing. The number of dice in the pool equals 1 + your warlock level.</p> <p>As a bonus action, you can heal one creature you can see within 60 feet of you, spending dice from the pool. The maximum number of dice you can spend at once equals your Charisma modifier (minimum of one die). Roll the dice you spend, add them together, and restore a number of hit points equal to&nbsp;the total.</p> <p>Your pool regains all expended dice when you finish a&nbsp;long rest.</p>"
           }
         },
@@ -1247,7 +1247,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
+              "book": "GXF",
               "page": 19
             },
             "en": {
@@ -1260,7 +1260,7 @@
             "en": "Radiant Soul"
           },
           "html": {
-            "pt": "<p>A partir do 6º nível, seu vínculo com o Celestial permite que você sirva como condutor para energia radiante. Você tem resistência a dano radiante, e, ao conjurar uma magia que cause dano radiante ou ígneo, você pode adicionar seu modificador de Carisma a uma jogada de dano radiante ou ígneo daquela magia contra um de seus alvos.</p>",
+            "pt": "<p>A partir do 6º nível, sua conexão com o Celestial permite que você sirva como um canal para a energia radiante. Você tem resistência ao dano radiante e quando conjurar uma magia que cause dano radiante ou de fogo, pode adicionar seu modificador de Carisma as jogadas de dano radiante ou de dano de fogo dessa magia contra um dos alvos.</p>",
             "en": "<p>Starting at 6th level, your link to the Celestial allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant or fire damage, you can add your Charisma modifier to one radiant or fire damage roll of that spell against one of its targets.</p>"
           }
         },
@@ -1270,7 +1270,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
+              "book": "GXF",
               "page": 19
             },
             "en": {
@@ -1283,7 +1283,7 @@
             "en": "Celestial Resilience"
           },
           "html": {
-            "pt": "<p>A partir do 10º nível, você ganha pontos de vida temporários sempre que termina um descanso curto ou longo. A quantidade de pontos de vida temporários ganha é igual ao seu nível como bruxo + seu modificador de Carisma. Além disso, escolha até cinco criaturas à sua vista ao final do descanso. Cada uma delas ganha uma quantidade de pontos de vida temporários igual à metade do seu nível como bruxo + seu modificador de Carisma.</p>",
+            "pt": "<p>A partir do 10º nível, você ganha pontos de vida temporários sempre que terminar um descanso curto ou longo. Esses pontos de vida temporários equivalem ao seu nível bruxo + seu modificador Carisma. Além disso, escolha até cinco criaturas que possa ver no final deste descanso. Essas criaturas ganham, cada uma, pontos de vida temporários iguais a metade do seu nível de bruxo + seu modificador Carisma.</p>",
             "en": "<p>Starting at 10th level, you gain temporary hit points whenever you finish a short or long rest. These temporary hit points equal your warlock level + your Charisma modifier. Additionally, choose up to five creatures you can see at the end of the rest. Those creatures each gain temporary hit points equal to half your warlock level + your Charisma&nbsp;modifier.</p>"
           }
         },
@@ -1293,7 +1293,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
+              "book": "GXF",
               "page": 19
             },
             "en": {
@@ -1302,11 +1302,11 @@
             }
           },
           "name": {
-            "pt": "vingança calcinante",
+            "pt": "vingança ardente",
             "en": "Searing Vengeance"
           },
           "html": {
-            "pt": "<p>A partir do 14º nível, a energia radiante canalizada por você permite que resista à morte. Ao precisar realizar uma salvaguarda contra morte no começo do seu turno, você pode, em vez disso, voltar à vida com uma explosão de energia radiante. Você recupera uma quantidade de pontos de vida igual à metade dos seus pontos de vida máximos, então se levanta, caso queira. Cada criatura à sua escolha e a até 9 metros de você sofre uma quantidade de dano radiante igual a 2d8 + seu modificador de Carisma, ficando cega até o final do turno atual.</p><p>Após usar esta característica, você não pode usá-la novamente até terminar um descanso longo.</p>",
+            "pt": "<p>A partir do 14º nível, a energia radiante que você canaliza o permite que resista à morte. Quando tiver que realizar um teste de resistência contra a morte no início do seu turno, pode, em vez disso, se levantar com uma explosão de energia radiante. Você recupera pontos de vida iguais à metade do seu ponto de vida máximo, e então se levanta se assim o desejar. Cada criatura de sua escolha que esteja dentro do alcance de 9 metros recebe dano radiante igual a 2d8 + seu modificador Carisma, e está cego até o final do turno atual.</p><p>Depois de usar esta característica, não pode usá-la novamente até terminar um descanso longo.</p>",
             "en": "<p>Starting at 14th level, the radiant energy you channel allows you to resist death. When you have to make a death saving throw at the start of your turn, you can instead spring back to your feet with a burst of radiant energy. You regain hit points equal to half your hit point maximum, and then you stand up if you so choose. Each creature of your choice that is within 30 feet of you takes radiant damage equal to 2d8 + your Charisma modifier, and it is blinded until the end of the current turn.</p> <p>Once you use this feature, you can’t use it again until you finish a&nbsp;long rest.</p>"
           }
         }
@@ -1314,7 +1314,7 @@
       "spells": [
         {
           "level": 1,
-          "names_pt": ["curar ferimentos", "raio guia"],
+          "names_pt": ["curar ferimentos", "raio guiador"],
           "names_en": ["cure wounds", "guiding bolt"]
         },
         {
@@ -1329,7 +1329,7 @@
         },
         {
           "level": 4,
-          "names_pt": ["defensor da fé", "muralha de fogo"],
+          "names_pt": ["guardião da fé", "muralha de fogo"],
           "names_en": ["guardian of faith", "wall of fire"]
         },
         {
@@ -1350,12 +1350,12 @@
       "slug": "the-hexblade",
       "short_name_en": "Hexblade",
       "name": {
-        "pt": "lâminabreu",
+        "pt": "lâmina maldita",
         "en": "The Hexblade"
       },
       "source": {
         "pt": {
-          "book": "GXTC",
+          "book": "GXF",
           "page": 19
         },
         "en": {
@@ -1364,7 +1364,7 @@
         }
       },
       "intro_html": {
-        "pt": "<p>Você fez seu pacto com uma misteriosa entidade do Sombral - uma força que se manifesta em armas mágicas sencientes esculpidas da matéria das sombras. A poderosa espada Rasganegra é a mais notável dessas armas, espalhadas pelo multiverso com o passar das eras. A força sombria por trás de tais objetos pode oferecer poder a bruxos que compactuem com ela. Muitos bruxos lâminabreu criam armas aos moldes daquelas formadas no Sombral. Outros renunciam a tais armas, satisfeitos em manipular a magia soturna daquele plano em suas conjurações.</p><p>Devido à Rainha Corvo ser conhecida por ter forjado as primeiras armas desse tipo, muitos sábios especulam que ela e a força sombria sejam uma e a mesma entidade, e que as armas, portanto, junto com os bruxos lâminabreu, sejam ferramentas que ela emprega na manipulação de eventos no Plano Material para seus inescrutáveis fins.</p>",
+        "pt": "<p>Você fez o seu pacto com uma entidade misteriosa do Pendor das Sombras — uma força que se manifesta em armas mágicas inteligentes esculpidas da matéria da sombra. A poderosa espada <em>Lâmina Negra</em> é a mais notável dessas armas, que se espalharam pelo multiverso ao longo dos tempos. A força sombria por trás dessas armas pode oferecer poder para guerreiros que formam pactos com ela. Muitos bruxos da lâmina maldita criam armas que imitam aquelas criadas no Pendor das Sombras. Outros renunciam a tais armas, contentando-se em tecer a magia negra daquele plano ao conjurar suas magias.</p><p>Como a Rainha Corvo é conhecida por ter forjado a primeira dessas armas, muitos sábios especulam que ela e a força são uma só e que as armas, juntamente com os bruxos da lâmina maldita, são ferramentas que ela usa para manipular eventos no plano material até seus fins inescrutáveis.</p>",
         "en": "<p>You have made your pact with a mysterious entity from the Shadowfell — a force that manifests in sentient magic weapons carved from the stuff of shadow. The mighty sword&nbsp;Blackrazor&nbsp;is the most notable of these weapons, which have been spread across the multiverse over the ages. The shadowy force behind these weapons can offer power to warlocks who form pacts with it. Many hexblade warlocks create weapons that emulate those formed in the Shadowfell. Others forgo such arms, content to weave the dark magic of that plane into their spellcasting.</p> <p>Because the Raven Queen is known to have forged the first of these weapons, many sages speculate that she and the force are one and that the weapons, along with hexblade warlocks, are tools she uses to manipulate events on the Material Plane to her inscrutable ends.</p>"
       },
       "features": [
@@ -1374,7 +1374,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
+              "book": "GXF",
               "page": 19
             },
             "en": {
@@ -1383,11 +1383,11 @@
             }
           },
           "name": {
-            "pt": "lista expandida de magias",
+            "pt": "lista de magias expandida",
             "en": "Expanded Spell List"
           },
           "html": {
-            "pt": "<p>O Lâminabreu permite que você escolha de uma lista de magias expandida ao aprender uma magia de bruxo. As seguintes magias são adicionadas à lista de magias do bruxo para você.</p><p><strong>lista expandida de magias do lâminabreu</strong></p><table><thead><tr><th>Círculo da Magia</th><th>Magias</th></tr></thead><tbody><tr><td>1º</td><td>destruição colérica, égide</td></tr><tr><td>2º</td><td>marca da punição, turvar</td></tr><tr><td>3º</td><td>arma elemental, piscar</td></tr><tr><td>4º</td><td>assassino fantasmagórico, destruição atordoante</td></tr><tr><td>5º</td><td>cone de frio, destruição banidora</td></tr></tbody></table>",
+            "pt": "<p>A Lâmina Maldita permite que você escolha uma lista expandida de magias quando aprende uma magia de bruxo. As seguintes magias são adicionadas à sua lista de magias de bruxo.</p><p><strong>magias expandida da lâmina maldita</strong></p><table><thead><tr><th>Nível de Bruxo</th><th>Magia</th></tr></thead><tbody><tr><td>1º</td><td>escudo arcano, destruição colérica</td></tr><tr><td>2º</td><td>nublar, marca da punição</td></tr><tr><td>3º</td><td>piscar, arma elemental</td></tr><tr><td>4º</td><td>assassino fantasmagórico, destruição estonteante</td></tr><tr><td>5º</td><td>destruição banidora, cone de frio</td></tr></tbody></table>",
             "en": null
           }
         },
@@ -1397,7 +1397,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
+              "book": "GXF",
               "page": 19
             },
             "en": {
@@ -1406,11 +1406,11 @@
             }
           },
           "name": {
-            "pt": "maldição do lâminabreu",
+            "pt": "maldição da lâmina maldita",
             "en": "Hexblade's Curse"
           },
           "html": {
-            "pt": "<p>A partir do 1º nível, você ganha a habilidade de lançar uma perniciosa maldição sobre alguém. Como uma ação bônus, escolha uma criatura à sua vista e a até 9 metros de você. O alvo fica amaldiçoado por 1 minuto. A maldição termina mais cedo se o alvo morrer, se você morrer ou ficar incapacitado. Até o encerramento da maldição, você ganha os seguintes benefícios:</p><ul><li>Um bônus para as jogadas de dano contra o alvo amaldiçoado igual ao seu bônus de proficiência.</li><li>Toda jogada de ataque que você fizer contra o alvo resulta num acerto crítico com um resultado de 19 ou 20 no d20.</li><li>Se o alvo amaldiçoado morrer, você recupera uma quantidade de pontos de vida igual ao seu nível como bruxo + seu modificador de Carisma (no mínimo 1 ponto de vida).</li></ul><p>Você não pode usar esta característica novamente até terminar um descanso curto ou longo.</p>",
+            "pt": "<p>Começando no 1º nível, você ganha a habilidade de colocar uma maldição perniciosa em alguém. Como uma ação bônus, escolha uma criatura que possa ver a até 9 metros de alcance. O alvo é amaldiçoado por 1 minuto. A maldição termina mais cedo se o alvo morrer, você morrer, ou se você estiver incapacitado. Até a maldição terminar, você ganha os seguintes benefícios:</p><ul><li>Você ganha um bônus para jogadas de dano contra o alvo amaldiçoado. O bônus é igual ao seu bônus de proficiência.</li><li>Qualquer ataque que faça contra o alvo amaldiçoado é um golpe crítico em um resultado de 19 ou 20 no d20.</li><li>Se o alvo amaldiçoado morrer, você recupera pontos de vida iguais ao seu nível bruxo + seu modificador Carisma (mínimo de 1 ponto de vida). Você não pode usar essa característica novamente até terminar um descanso curto ou longo.</li></ul>",
             "en": "<p>Starting at 1st level, you gain the ability to place a baleful curse on someone. As a bonus action, choose one creature you can see within 30 feet of you. The target is cursed for 1 minute. The curse ends early if the target dies, you die, or you are incapacitated. Until the curse ends, you gain the following benefits:</p> <ul> <li>You gain a bonus to damage rolls against the cursed target. The bonus equals your proficiency bonus.</li> <li>Any attack roll you make against the cursed target is a critical hit on a roll of 19 or 20 on the d20.</li> <li>If the cursed target dies, you regain hit points equal to your warlock level + your Charisma modifier (minimum of 1 hit point).</li> </ul> <p>You can’t use this feature again until you finish a short or long rest.</p>"
           }
         },
@@ -1420,7 +1420,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
+              "book": "GXF",
               "page": 19
             },
             "en": {
@@ -1429,11 +1429,11 @@
             }
           },
           "name": {
-            "pt": "combatente sombrio",
+            "pt": "guerreiro maldito",
             "en": "Hex Warrior"
           },
           "html": {
-            "pt": "<p>No 1º nível, você adquire o treinamento necessário para armar-se efetivamente para batalha. Você ganha proficiência com armaduras médias, escudos e armas marciais.</p><p>A influência do seu patrono também permite que você canalize misticamente sua força de vontade através de uma arma em particular. Sempre que terminar um descanso longo, você pode tocar uma arma com a qual tenha proficiência e que não possua a propriedade duas mãos. Ao atacar com essa arma, você pode usar seu modificador de Carisma, no lugar do de Força ou Destreza, para as jogadas de ataque e dano. Os benefícios duram até você terminar um descanso longo. Se você vir a ganhar a característica Pacto da Lâmina, este benefício passará a se estender a cada arma de pacto que você conjurar com aquela característica, não importando o tipo da arma.</p>",
+            "pt": "<p>No 1º nível, você adquire o treinamento necessário para se armar efetivamente para a batalha. Você ganha proficiência em armaduras médias, escudos e armas marciais.</p><p>A influência de seu patrono também permite que canalize sua vontade através de uma arma específica. Sempre que terminar um descanso longo, pode tocar uma arma com a qual seja proficiente e que não possua a propriedade de duas mãos. Quando atacar com essa arma, pode usar seu modificador de Carisma, em vez de Força ou Destreza, para os testes de ataque e danos. Este benefício dura até terminar um descanso longo. Se ganhar mais tarde a característica Pacto da Lâmina, esse benefício se estende a todas as armas de pacto que conjure com essa característica, independente do tipo da arma.</p>",
             "en": "<p>At 1st level, you acquire the training necessary to effectively arm yourself for battle. You gain proficiency with medium armor, shields, and martial weapons.</p> <p>The influence of your patron also allows you to mystically channel your will through a particular weapon. Whenever you finish a long rest, you can touch one weapon that you are proficient with and that lacks the two-handed property. When you attack with that weapon, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls. This benefit lasts until you finish a long rest. If you later gain the Pact of the Blade feature, this benefit extends to every pact weapon you conjure with that feature, no matter the weapon’s type.</p>"
           }
         },
@@ -1443,7 +1443,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
+              "book": "GXF",
               "page": 20
             },
             "en": {
@@ -1456,7 +1456,7 @@
             "en": "Accursed Specter"
           },
           "html": {
-            "pt": "<p>A partir do 6º nível, você pode amaldiçoar a alma de um uma pessoa assassinada por você, vinculando-a temporariamente ao seu serviço. Ao assassinar um humanoide, você pode fazer com que o espírito dele erga-se do cadáver como um espectro, as estatísticas do qual encontram-se no Monster Manual: Manual dos Monstros.</p><p>Quando o espectro aparece, ele ganha uma quantidade de pontos de vida temporários igual à metade do seu nível como bruxo. Jogue iniciativa para o espectro, que possui os próprios turnos. Ele obedece às suas ordens verbais, ganhando um bônus especial para as próprias jogadas de ataque igual ao seu modificador de Carisma (no mínimo +0).</p><p>O espectro fica à sua disposição até o final do seu próximo descanso longo, quando então desaparece no além.</p><p>Após vincular um espectro usando esta característica, você não pode fazê-lo outra vez até terminar um descanso longo.</p>",
+            "pt": "<p>A partir do 6º nível, você pode amaldiçoar a alma de uma pessoa que mata, vinculando-a temporariamente aos seus serviços. Quando você mata um humanoide, pode fazer com que seu espírito se levante de seu cadáver como um espectro, cujas estatísticas estão no <em>Manual dos Monstros</em>. Quando o espectro aparece, ele ganha pontos de vida temporários iguais à metade do seu nível de bruxo. Role iniciativa para o espectro, que tem seus próprios turnos. Ele obedece aos seus comandos verbais, além disso, ganha um bônus especial em seus testes de ataque iguais ao seu modificador Carisma (mínimo de +0).</p><p>O espectro permanece aos seus serviços até o final do próximo descanso longo, momento em que se anula para a vida após a morte.</p><p>Depois de vincular um espectro com essa característica, não pode usar a característica novamente até terminar um descanso longo.</p>",
             "en": "<p>Starting at 6th level, you can curse the soul of a person you slay, temporarily binding it to your service. When you slay a humanoid, you can cause its spirit to rise from its corpse as a specter, the statistics for which are in the <em>Monster Manual</em>. When the specter appears, it gains temporary hit points equal to half your warlock level. Roll initiative for the specter, which has its own turns. It obeys your verbal commands, and it gains a special bonus to its attack rolls equal to your Charisma modifier (minimum of +0).</p> <p>The specter remains in your service until the end of your next long rest, at which point it vanishes to the afterlife.</p> <p>Once you bind a specter with this feature, you can’t use the feature again until you finish a long rest.</p>"
           }
         },
@@ -1466,7 +1466,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
+              "book": "GXF",
               "page": 20
             },
             "en": {
@@ -1475,11 +1475,11 @@
             }
           },
           "name": {
-            "pt": "armadura de sombras",
+            "pt": "armadura de maldições",
             "en": "Armor of Hexes"
           },
           "html": {
-            "pt": "<p>No 10º nível, seu domínio sobre as sombras torna-se maior. Se o alvo amaldiçoado por sua Maldição do Lâminabreu atingi-lo com um ataque, você pode usar sua reação para jogar 1d6. Com um resultado de 4 ou mais, o ataque não o acerta, independentemente do resultado da jogada de ataque.</p>",
+            "pt": "<p>No 10º nível, suas maldições são mais poderosas. Se o alvo amaldiçoado pela Maldição da Lâmina Maldita o atinge com um teste de ataque, pode usar sua reação para rolar um d6. Em um 4 ou superior, o ataque instantaneamente falha sobre você, independentemente do resultado.</p>",
             "en": "<p>At 10th level, your hex grows more powerful. If the target cursed by your Hexblade’s Curse hits you with an attack roll, you can use your reaction to roll a d6. On a 4 or higher, the attack instead misses you, regardless of its roll.</p>"
           }
         },
@@ -1489,7 +1489,7 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
+              "book": "GXF",
               "page": 20
             },
             "en": {
@@ -1498,11 +1498,11 @@
             }
           },
           "name": {
-            "pt": "mestre das sombras",
+            "pt": "mestre das maldições",
             "en": "Master of Hexes"
           },
           "html": {
-            "pt": "<p>A partir do 14º nível, você pode espalhar sua Maldição do Lâminabreu de uma criatura morta para outra criatura. Quando a criatura amaldiçoada por sua Maldição do Lâminabreu morre, você pode aplicar a maldição a outra criatura à sua vista e a até 9 metros de você, contanto que você não esteja incapacitado. Ao aplicar a maldição desse modo, você não recupera pontos de vida com a morte da criatura anteriormente amaldiçoada.</p>",
+            "pt": "<p>A partir do 14º nível, você pode espalhar sua Maldição da Lâmina Maldita de uma criatura morta para outra criatura. Quando a criatura amaldiçoada pela Maldição da Lâmina Maldita morre, você pode aplicar a maldição a uma criatura diferente que possa ver a até 9 metros de alcance, desde que não esteja incapacitado. Quando aplica a maldição dessa maneira, não recupera pontos de vida da morte da criatura anteriormente amaldiçoada.</p>",
             "en": "<p>Starting at 14th level, you can spread your Hexblade’s Curse from a slain creature to another creature. When the creature cursed by your Hexblade’s Curse dies, you can apply the curse to a different creature you can see within 30 feet of you, provided you aren’t incapacitated. When you apply the curse in this way, you don’t regain hit points from the death of the previously cursed creature.</p>"
           }
         }
@@ -1510,12 +1510,12 @@
       "spells": [
         {
           "level": 1,
-          "names_pt": ["égide", "destruição colérica"],
+          "names_pt": ["escudo arcano", "destruição colérica"],
           "names_en": ["shield", "wrathful smite"]
         },
         {
           "level": 2,
-          "names_pt": ["turvar", "marca da punição"],
+          "names_pt": ["nublar", "marca da punição"],
           "names_en": ["blur", "branding smite"]
         },
         {
@@ -1525,7 +1525,7 @@
         },
         {
           "level": 4,
-          "names_pt": ["assassino fantasmagórico", "destruição atordoante"],
+          "names_pt": ["assassino fantasmagórico", "destruição estonteante"],
           "names_en": ["phantasmal killer", "staggering smite"]
         },
         {

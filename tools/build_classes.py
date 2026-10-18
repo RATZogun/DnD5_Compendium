@@ -52,32 +52,44 @@ OVERRIDES = json.loads((ROOT / 'tools' / 'class_overrides.json').read_text())
 NAMES = json.loads((ROOT / 'tools' / 'names.json').read_text())
 
 
+FAN_BOOKS = {'LJF', 'GXF', 'GMF'}
+
+
+def is_fan(x):
+    """Itens já extraídos da tradução de fãs trazem o título do próprio livro."""
+    return ((x.get('source') or {}).get('pt') or {}).get('book') in FAN_BOOKS
+
+
 def apply_fan_names(data):
     """Nomes da tradução de fãs (prioridade sobre os da iccarion), por chave do item."""
     fan = NAMES.get('fan', {})
     slug = data['slug']
-    data['name']['pt'] = fan.get('classes', {}).get(slug, data['name']['pt'])
-    if slug in fan.get('subclass_titles', {}):
-        data.setdefault('subclass_title', {})['pt'] = fan['subclass_titles'][slug]
+    if not is_fan(data):
+        data['name']['pt'] = fan.get('classes', {}).get(slug, data['name']['pt'])
+        if slug in fan.get('subclass_titles', {}):
+            data.setdefault('subclass_title', {})['pt'] = fan['subclass_titles'][slug]
     for f in data['features']:
-        f['name']['pt'] = fan.get('features', {}).get(slug, {}).get(f['key'], f['name']['pt'])
+        if not is_fan(f):
+            f['name']['pt'] = fan.get('features', {}).get(slug, {}).get(f['key'], f['name']['pt'])
     for sub in data.get('subclasses', []):
         key = f"{slug}/{sub['slug']}"
         for v in [sub] + sub.get('versions', []):
-            if key in fan.get('subclasses', {}) and v.get('name'):
+            if key in fan.get('subclasses', {}) and v.get('name') and not is_fan(v):
                 v['name']['pt'] = fan['subclasses'][key]
             for f in v.get('features') or []:
-                f['name']['pt'] = fan.get('subclass_features', {}).get(key, {}).get(f['key'], f['name']['pt'])
+                if not is_fan(f):
+                    f['name']['pt'] = fan.get('subclass_features', {}).get(key, {}).get(f['key'], f['name']['pt'])
 
 
 def apply_names(data):
     en = data['name']['en']
-    data['name']['pt'] = NAMES['classes'].get(en, data['name']['pt'])
-    if NAMES['subclass_titles'].get(en):
-        data.setdefault('subclass_title', {})['pt'] = NAMES['subclass_titles'][en]
+    if not is_fan(data):
+        data['name']['pt'] = NAMES['classes'].get(en, data['name']['pt'])
+        if NAMES['subclass_titles'].get(en):
+            data.setdefault('subclass_title', {})['pt'] = NAMES['subclass_titles'][en]
     for sub in data.get('subclasses', []):
         for v in [sub] + sub.get('versions', []):
-            if v.get('name') and NAMES['subclasses'].get(v['name'].get('en') or sub['name']['en']):
+            if v.get('name') and not is_fan(v) and NAMES['subclasses'].get(v['name'].get('en') or sub['name']['en']):
                 v['name']['pt'] = NAMES['subclasses'][v['name'].get('en') or sub['name']['en']]
 
 

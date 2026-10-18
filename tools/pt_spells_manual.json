@@ -1,0 +1,93 @@
+[
+  {
+    "book": "GXF",
+    "pdf_page": 153,
+    "page": 154,
+    "name": "diabo da poeira",
+    "level": 2,
+    "school": "conjuração",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "18 metros",
+    "components": "V, S, M (um punhado de pó)",
+    "duration": "Concentração, até 1 minuto",
+    "paragraphs": [
+      "Escolha um cubo de ar de 1,5 metro desocupado que você possa ver, dentro do alcance. Uma força elemental que se parece com um diabo da poeira aparece no cubo e permanece pela duração da magia.",
+      "Qualquer criatura que terminar seu turno a até 1,5 metro do diabo da poeira deve realizar um teste de resistência de Força. Se falhar na resistência, a criatura sofre 1d8 de dano de concussão e é empurrada 3 metros de distância. Se obtiver sucesso, a criatura sofre metade do dano e não é empurrada.",
+      "Com uma ação bônus, você pode mover o diabo da poeira até 9 metros em qualquer direção. Se o diabo da poeira se mover sobre areia, poeira, terra solta ou cascalho, ele suga o material e forma uma nuvem de 3 metros de raio de detritos envolta de si que dura até o início do seu próximo turno. A nuvem na área é de escuridão densa.",
+      "Em Níveis Superiores. Quando você conjura essa magia usando um espaço de magia de 3° nível ou superior, o dano aumenta em 1d8 para cada nível do espaço acima do 2°."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 154,
+    "page": 155,
+    "name": "enfeitiçar monstro",
+    "level": 4,
+    "school": "encantamento",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "9 metros",
+    "components": "V, S",
+    "duration": "1 hora",
+    "paragraphs": [
+      "Você tenta encantar uma criatura que você pode ver dentro do alcance. Ela deve fazer um teste de resistência de Sabedoria, e o faz com vantagem se você ou seus companheiros estiverem lutando contra ela. Se ela falhar no teste de resistência, fica encantada por você até a magia terminar ou até que você ou seus companheiros façam qualquer coisa prejudicial a ela. A criatura encantada é amigável a você. Quando a magia terminar, a criatura sabe que foi encantada por você.",
+      "Em Níveis Superiores. Quando você conjura essa magia usando um espaço de magia de 5° nível ou superior, você pode incluir uma criatura adicional como alvo para cada nível do espaço de magia acima do 4°. As criaturas precisam estar dentro de 9 metros uma da outra quando você as incluir como alvos."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 160,
+    "page": 161,
+    "name": "invocar demônio maior",
+    "level": 4,
+    "school": "conjuração",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "18 metros",
+    "components": "V, S, M (um frasco de sangue de um humanoide morto nas últimas 24 horas)",
+    "duration": "Concentração, até 1 hora",
+    "paragraphs": [
+      "Você pronuncia palavras abomináveis, convocando um demônio do caos do Abismo. Você escolhe o tipo do demônio, que deve ser um dos de classificação de desafio 5 ou inferior, como um demônio das sombras ou um balgura. O demônio aparece em um espaço desocupado que você pode ver dentro do alcance, e o demônio desaparece quando ele cai para 0 pontos de vida ou quando a magia termina.",
+      "Role iniciativa para o demônio, que tem seus próprios turnos. Quando você o convoca e em cada um de seus turnos, você pode emitir um comando verbal (não requer nenhuma ação de sua parte), dizendo o que ele deve fazer no seu próximo turno. Se você não emitir nenhum comando, ele passa a seu turno atacando qualquer criatura ao alcance que o tenha atacado.",
+      "Ao final de cada um turno do demônio, ele faz um teste de resistência de Carisma. O demônio tem desvantagem nesse teste de resistência se você disser seu verdadeiro nome. Em um teste falho, o demônio continua a te obedecer. Em um teste bem-sucedido, o controle do demônio termina pelo resto da duração, e o demônio gasta seus turnos perseguindo e atacando os não demônios mais próximos da melhor forma possível. Se você parar de se concentrar na magia antes de atingir sua duração total, um demônio não controlado não desaparecerá por 1d6 rodadas se ainda tiver pontos de vida.",
+      "Como parte da conjuração da magia, você pode formar um círculo no chão com o sangue utilizado como componente material. O círculo é grande o suficiente para abranger o seu espaço. Enquanto a magia dura, o demônio convocado não pode atravessar o círculo ou prejudicá-lo, e não pode atingir ninguém dentro dele. O uso do componente material dessa forma o consome quando a magia termina.",
+      "Em Níveis Superiores. Quando você conjura esta magia usando um espaço de magia de 5° nível ou superior, a classificação de desafio aumenta em 1 para cada nível do espaço de magia acima de 4°."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 168,
+    "page": 169,
+    "name": "sombra de transtorno",
+    "level": 4,
+    "school": "necromancia",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "Pessoal",
+    "components": "V, S, M (um globo ocular de morto-vivo encoberto por uma gema valendo, no mínimo, 150po)",
+    "duration": "Concentração, até 1 minuto",
+    "paragraphs": [
+      "As sombras parecidas com uma chama rodeiam seu corpo até que a magia termine, fazendo com que você fique fortemente obscurecido aos outros. As sombras tornam luz fraca dentro de 3 metros de você em escuridão e luz brilhante na mesma área em luz fraca.",
+      "Até a magia terminar, você tem resistência a dano radiante. Além disso, sempre que uma criatura dentro de 3 metros de você atinge em você com um ataque, as sombras atacam essa criatura, provocando um dano necrótico de 2d8."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 170,
+    "page": 171,
+    "name": "vendaval",
+    "level": 7,
+    "school": "evocação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "90 metros",
+    "components": "V, M (um chumaço de palha)",
+    "duration": "Concentração, até 1 minuto",
+    "paragraphs": [
+      "Um vendaval rodopia até um ponto no solo que você especificar. O vendaval é um cilindro de 3 metros de raio, 9 metros de altura, centrado no ponto. Até a magia acabar, você pode usar sua ação para mover o vendaval até 9 metros em qualquer direção pelo solo. O vendaval suga quaisquer objetos Médios ou menores que não estejam presos a nada e que não estejam sendo vestido ou carregado por ninguém.",
+      "Uma criatura deve realizar um teste de resistência de Destreza na primeira vez num turno que ela entrar no vendaval ou que o vendaval entrar no espaço dela, incluindo quando o vendaval apareceu primeiro. Uma criatura sofre 10d6 de dano de concussão se falhar na resistência, ou metade desse dano se obtiver sucesso. Além disso, uma criatura Grande ou menor que falhar na resistência deve ser bem sucedida num teste de resistência de Força ou ficará impedida pelo vendaval até a magia acabar. Quando uma criatura começa seu turno impedida pelo vendaval, ela é puxada 1,5 metros para o alto dentro dele, a não ser que a criatura esteja no topo. Uma criatura impedida se move com o vendaval e cai quando a magia acaba, a não ser que a criatura tenha algum meio de ficar no ar.",
+      "Uma criatura impedida pode usar uma ação para realizar um teste de Força ou Destreza contra a CD de resistência da magia. Se for bem sucedida, a criatura não estará mais impedida pelo vendaval e é arremessada a 3d6 x 3 metros de distância em uma direção aleatória."
+    ]
+  }
+]

@@ -17,16 +17,17 @@ ROOT = Path(__file__).resolve().parent.parent
 OVERRIDES = json.loads((ROOT / 'tools' / 'spell_overrides.json').read_text())
 NAMES = json.loads((ROOT / 'tools' / 'names.json').read_text())
 
-PT_BOOK_TO_EN = {'LDJ': 'PHB', 'GXTC': 'XGE', 'CTCT': 'TCE', 'TDF': 'FTD'}
+PT_BOOK_TO_EN = {'LJF': 'PHB', 'GXF': 'XGE', 'CTCT': 'TCE', 'TDF': 'FTD'}
 SOURCES_PT = [
-    ('LDJ', 'Livro do Jogador'),
-    ('GXTC', 'Guia de Xanathar para Todas as Coisas'),
+    ('LJF', 'Livro do Jogador (tradução de fãs)'),
+    ('GXF', 'Guia de Xanathar para Todas as Coisas (tradução de fãs)'),
     ('CTCT', 'Caldeirão de Tasha para Todas as Coisas'),
     ('TDF', 'Tesouro dos Dragões de Fizban'),
-    ('LDM', 'Livro do Mestre'),
+    ('GMF', 'Guia do Mestre (tradução de fãs)'),
     ('GVRR', 'Guia de Van Richten para Ravenloft'),
     ('BGG', 'Bigby Apresenta: A Glória dos Gigantes'),
     ('MPMM', 'Mordenkainen Apresenta: Monstros do Multiverso'),
+    ('LDJ', 'Livro do Jogador'),
 ]
 SOURCES_EN = [
     ('PHB', "Player's Handbook"),
@@ -46,8 +47,8 @@ SCHOOL_EN = {'A': 'abjuration', 'D': 'divination', 'C': 'conjuration', 'E': 'enc
              'I': 'illusion', 'N': 'necromancy', 'T': 'transmutation'}
 SCHOOL_FROM_PT = {'abjuração': 'A', 'adivinhação': 'D', 'conjuração': 'C', 'invocação': 'C', 'encantamento': 'E',
                   'evocação': 'V', 'ilusão': 'I', 'necromancia': 'N', 'transmutação': 'T'}
-DAMAGE_PT = {'acid': 'ácido', 'bludgeoning': 'contundente', 'cold': 'gélido', 'fire': 'ígneo', 'force': 'energético',
-             'lightning': 'elétrico', 'necrotic': 'necrótico', 'piercing': 'perfurante', 'poison': 'venenoso',
+DAMAGE_PT = {'acid': 'ácido', 'bludgeoning': 'concussão', 'cold': 'frio', 'fire': 'fogo', 'force': 'energia',
+             'lightning': 'elétrico', 'necrotic': 'necrótico', 'piercing': 'perfurante', 'poison': 'veneno',
              'psychic': 'psíquico', 'radiant': 'radiante', 'slashing': 'cortante', 'thunder': 'trovejante'}
 SAVE_PT = {'strength': 'força', 'dexterity': 'destreza', 'constitution': 'constituição', 'intelligence': 'inteligência',
            'wisdom': 'sabedoria', 'charisma': 'carisma'}
@@ -152,9 +153,10 @@ def paragraphs_html(paras):
     out = []
     for p in paras:
         p = fix_ocr(p)
-        m = re.match(r'^(Em C[ií]rculos? Superiores)\.\s*', p)
+        m = re.match(r'^Em (C[ií]rculos?|N[ií]veis) Superiores\.\s*', p)
         if m:
-            out.append(f'<p><strong><em>Em Círculos Superiores.</em></strong> {html.escape(p[m.end():])}</p>')
+            label = 'Em Níveis Superiores.' if m.group(1).lower().startswith('n') else 'Em Círculos Superiores.'
+            out.append(f'<p><strong><em>{label}</em></strong> {html.escape(p[m.end():])}</p>')
             continue
         m = SUBHEAD.match(p)
         if m and len(m.group(1)) <= 40:
@@ -278,7 +280,7 @@ def pt_signature(s):
     dur = {'instantânea': 'instant', 'até ser dissipada': 'permanent', 'especial': 'special'}.get(dunit) or \
         (dvalue, {'rodadas': 'round', 'minutos': 'minute', 'horas': 'hour', 'dias': 'day'}[dunit])
     text = fix_ocr(' '.join(s['paragraphs']))
-    dmg = {en for en, pt in DAMAGE_PT.items() if re.search(rf'dano\s+{pt}', text, re.I)}
+    dmg = {en for en, pt in DAMAGE_PT.items() if re.search(rf'dano\s+(?:de\s+)?{pt}', text, re.I)}
     return dict(level=s['level'], school=SCHOOL_FROM_PT[s['school']], v='V' in head, s='S' in head, m='M' in head,
                 conc=conc, rit=s['ritual'], unit=unit, rng=rng, dur=dur, name=ascii_fold(s['name']).replace(' ', ''),
                 dice=set(re.findall(r'\b\d+d\d+\b', text + ' ' + fix_ocr(s['components'] or ''))), dmg=dmg)

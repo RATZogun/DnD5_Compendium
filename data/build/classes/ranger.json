@@ -1,7 +1,7 @@
 {
   "slug": "ranger",
   "name": {
-    "pt": "guardião",
+    "pt": "patrulheiro",
     "en": "Ranger"
   },
   "source": {
@@ -1243,13 +1243,13 @@
       "slug": "gloom-stalker",
       "short_name_en": "Gloom Stalker",
       "name": {
-        "pt": "vigilante das sombras",
+        "pt": "perseguidor obscuro",
         "en": "Gloom Stalker"
       },
       "source": {
         "pt": {
-          "book": "GXTC",
-          "page": 38
+          "book": "GXF",
+          "page": 58
         },
         "en": {
           "book": "XGE",
@@ -1257,7 +1257,7 @@
         }
       },
       "intro_html": {
-        "pt": "<p>Vigilantes das Sombras sentem-se em casa nos lugares mais sombrios: nos abismos mais profundos da terra, em becos escuros, em florestas primevas e em todo lugar onde a luz esvaneça. Muita gente adentra tais lugares com receio, mas um Vigilante das Sombras aventura-se ousadamente nas trevas, procurando emboscar ameaças antes que possam alcançar a civilização. Esses guardiões costumam ser encontrados na Umbreterna, mas irão a qualquer lugar onde o mal empreita nas sombras.</p>",
+        "pt": "<p>Perseguidores Obscuros se sentem em casa em ambientes escuros: nas profundezas da terra, becos sombrios, florestas primitivas e qualquer lugar que seja aonde a luz seja ínfima. A maioria das pessoas entra em tais lugares com receio, mas um Perseguidor Obscuro se aventura corajosamente na escuridão, buscando emboscar ameaças antes que essas possam chegar ao mundo externo. Esses patrulheiros são frequentemente encontrados no Subterrâneo, mas eles vão a qualquer lugar onde o mal se esconde nas sombras.</p>",
         "en": "<p>Gloom Stalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims. Most folk enter such places with trepidation, but a Gloom Stalker ventures boldly into the darkness, seeking to ambush threats before they can reach the broader world. Such rangers are often found in the Underdark, but they will go any place where evil lurks in the shadows.</p>"
       },
       "features": [
@@ -1267,8 +1267,8 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
-              "page": 39
+              "book": "GXF",
+              "page": 59
             },
             "en": {
               "book": "XGE",
@@ -1276,11 +1276,11 @@
             }
           },
           "name": {
-            "pt": "magia do vigilante das sombras",
+            "pt": "magia do perseguidor obscuro",
             "en": "Gloom Stalker Magic"
           },
           "html": {
-            "pt": "<p>A partir do 3º nível, você aprende uma magia adicional ao alcançar determinados níveis nesta classe, conforme mostrado na tabela Magias do Vigilante das Sombras. A magia adicional conta como uma magia de guardião para você, mas não conta para o número de magias de guardião que você conhece.</p><p><strong>Magias do Vigilante das Sombras</strong></p><table><thead><tr><th>Nível de Guardião</th><th>Magias</th></tr></thead><tbody><tr><td>3º</td><td>disfarçar-se</td></tr><tr><td>5º</td><td>corda extradimensional</td></tr><tr><td>9º</td><td>medo</td></tr><tr><td>13º</td><td>invisibilidade maior</td></tr><tr><td>17º</td><td>similaridade</td></tr></tbody></table>",
+            "pt": "<p>A partir do 3º nível, você aprende magias adicionais quando alcança certos níveis nesta classe, conforme mostrado na tabela de Magias do Perseguidor Obscuro. A magia conta como uma magia de patrulheiro para você, mas não conta para o número de magias conhecidas de patrulheiro.</p><p><strong>Magias do Perseguidor Obscuro</strong></p><table><thead><tr><th>Nível de Patrulheiro</th><th>Magia</th></tr></thead><tbody><tr><td>3º</td><td>disfarçar</td></tr><tr><td>5º</td><td>truque de corda</td></tr><tr><td>9º</td><td>medo</td></tr><tr><td>13º</td><td>invisibilidade maior</td></tr><tr><td>17º</td><td>similaridade</td></tr></tbody></table>",
             "en": "<p>Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Gloom Stalker Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.</p>"
           }
         },
@@ -1290,8 +1290,8 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
-              "page": 39
+              "book": "GXF",
+              "page": 59
             },
             "en": {
               "book": "XGE",
@@ -1299,11 +1299,11 @@
             }
           },
           "name": {
-            "pt": "emboscador das sombras",
+            "pt": "emboscador terrível",
             "en": "Dread Ambusher"
           },
           "html": {
-            "pt": "<p>No 3º nível, você dominou a arte da emboscada. Suas jogadas de iniciativa passam a ter um bônus igual ao seu modificador de Sabedoria.</p><p>No começo do seu primeiro turno em cada combate, seu deslocamento de caminhada aumenta em 3 metros, o que dura até o final do turno. Se usar a ação Atacar nesse turno, você pode realizar um ataque armado adicional como parte da ação. Caso esse ataque seja bem-sucedido, o alvo sofre 1d8 pontos de dano adicional do tipo causado pela arma.</p>",
+            "pt": "<p>No nível 3, você domina a arte da emboscada. Você recebe um bônus nas suas jogadas de iniciativa igual ao seu modificador de Sabedoria.</p><p>No primeiro turno de cada combate, seu deslocamento de caminhada aumenta em 3 metros, que dura até o fim desse turno. Se você realizar uma ação de ataque nesse turno, pode realizar um ataque com arma adicional como parte dessa ação. Se esse ataque acertar o alvo recebe um dano adicional de 1d8 do mesmo tipo de dano da arma.</p>",
             "en": "<p>At 3rd level, you master the art of the ambush. You can give yourself a bonus to your initiative rolls equal to your Wisdom modifier.</p> <p>At the start of your first turn of each combat, your walking speed increases by 10 feet, which lasts until the end of that turn. If you take the Attack action on that turn, you can make one additional weapon attack as part of that action. If that attack hits, the target takes an extra 1d8 damage of the weapon’s damage type.</p>"
           }
         },
@@ -1313,8 +1313,8 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
-              "page": 39
+              "book": "GXF",
+              "page": 59
             },
             "en": {
               "book": "XGE",
@@ -1322,11 +1322,11 @@
             }
           },
           "name": {
-            "pt": "visão umbrosa",
+            "pt": "visão umbral",
             "en": "Umbral Sight"
           },
           "html": {
-            "pt": "<p>No 3º nível, você ganha visão no escuro até uma distância de 18 metros. Caso sua raça já lhe conceda visão no escuro, o alcance dessa característica aumenta em 9 metros.</p><p>Você também se torna capaz de escapar de criaturas que utilizem visão no escuro. Enquanto estiver envolto em escuridão, você fica invisível a qualquer criatura que use visão no escuro para procurá-lo na escuridão.</p>",
+            "pt": "<p>No 3º nível você ganha visão no escuro com alcance de 18 metros. Caso já possua visão escura proveniente de sua raça, ela aumenta em 9 metros.</p><p>Você também é um adepto de evitar criaturas que dependem da visão no escuro. Enquanto nas trevas, fica invisível a qualquer criatura que dependa de visão no escuro para enxergá-lo nas trevas.</p>",
             "en": "<p>At 3rd level, you gain darkvision&nbsp;out to a range of 60 feet. If you already have&nbsp;darkvision&nbsp;from your race, its range increases by 30 feet.</p> <p>You are also adept at evading creatures that rely on&nbsp;darkvision. While in darkness, you are invisible&nbsp;to any creature that relies on&nbsp;darkvision&nbsp;to see you in that darkness.</p>"
           }
         },
@@ -1336,8 +1336,8 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
-              "page": 39
+              "book": "GXF",
+              "page": 59
             },
             "en": {
               "book": "XGE",
@@ -1349,7 +1349,7 @@
             "en": "Iron Mind"
           },
           "html": {
-            "pt": "<p>No 7º nível, você desenvolveu sua habilidade de resistir a poderes da sua presa capazes de afetar a mente. Você ganha proficiência em salvaguardas de Sabedoria. Caso já possua essa proficiência, você ganha proficiência em salvaguardas de Inteligência ou Carisma, à sua escolha.</p>",
+            "pt": "<p>No 7º nível, você afiou suas habilidades para resistir a poderes de alterações mentais das suas presas. Você ganha proficiência em testes de resistência de Sabedoria. Caso já possua essa proficiência, então ela passa a ser em testes de resistência de Inteligência ou Carisma.</p>",
             "en": "<p>By 7th level, you have honed your ability to resist the mind-altering powers of your prey. You gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice).</p>"
           }
         },
@@ -1359,8 +1359,8 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
-              "page": 39
+              "book": "GXF",
+              "page": 59
             },
             "en": {
               "book": "XGE",
@@ -1368,11 +1368,11 @@
             }
           },
           "name": {
-            "pt": "torrente do vigilante",
+            "pt": "agitação perseguidora",
             "en": "Stalker's Flurry"
           },
           "html": {
-            "pt": "<p>No 11º nível, você aprende a atacar com uma velocidade tão surpreendente que você se torna capaz de transformar um golpe malsucedido em outro golpe. Uma vez em cada um dos seus turnos, quando você erra um ataque armado, você pode realizar outro ataque armado como parte da mesma ação.</p>",
+            "pt": "<p>No 11º nível, você aprende a atacar com uma velocidade tão inesperada que pode transformar uma falha em outro ataque. Uma vez em cada um de seus turnos, quando obtiver uma falha com um ataque com arma, pode fazer outro ataque de arma como parte da mesma ação.</p>",
             "en": "<p>At 11th level, you learn to attack with such unexpected speed that you can turn a miss into another strike. Once on each of your turns when you miss with a weapon attack, you can make another weapon attack as part of the same action.</p>"
           }
         },
@@ -1382,8 +1382,8 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
-              "page": 39
+              "book": "GXF",
+              "page": 59
             },
             "en": {
               "book": "XGE",
@@ -1391,11 +1391,11 @@
             }
           },
           "name": {
-            "pt": "esquiva sombria",
+            "pt": "evasiva sombria",
             "en": "Shadowy Dodge"
           },
           "html": {
-            "pt": "<p>A partir do 15º nível, você pode se esquivar de modos imprevisíveis, com feixes de sombra sobrenatural pairando ao seu redor. Sempre que uma criatura realiza uma jogada de ataque contra você e não possui vantagem nessa jogada, você pode usar sua reação para impor desvantagem a ela. Você deve usar esta característica antes de saber o resultado da jogada de ataque.</p>",
+            "pt": "<p>A partir do 15º nível você pode se esquivar de maneiras imprevisíveis com um punhado de sombras sobrenaturais à sua volta. Sempre que uma criatura faz uma jogada de ataque contra você e não possua vantagem na jogada, você pode usar a sua reação para impor desvantagem sobre ela. Você deve usar essa característica antes de conhecer o resultado da jogada de ataque.</p>",
             "en": "<p>Starting at 15th level, you can dodge in unforeseen ways, with wisps of supernatural shadow around you. Whenever a creature makes an attack roll against you and doesn’t have advantage on the roll, you can use your reaction to impose disadvantage on it. You must use this feature before you know the outcome of the attack roll.</p>"
           }
         }
@@ -1408,7 +1408,7 @@
         },
         {
           "level": 5,
-          "names_pt": ["corda extradimensional"],
+          "names_pt": ["truque de corda"],
           "names_en": ["rope trick"]
         },
         {
@@ -1432,13 +1432,13 @@
       "slug": "horizon-walker",
       "short_name_en": "Horizon Walker",
       "name": {
-        "pt": "espreitador do horizonte",
+        "pt": "andarilho do horizonte",
         "en": "Horizon Walker"
       },
       "source": {
         "pt": {
-          "book": "GXTC",
-          "page": 39
+          "book": "GXF",
+          "page": 59
         },
         "en": {
           "book": "XGE",
@@ -1446,7 +1446,7 @@
         }
       },
       "intro_html": {
-        "pt": "<p>Viandantes do Horizonte protegem o mundo contra ameaças originadas em outros planos e daquelas cujo intuito é devastar o reino mortal com magia de outros mundos. Eles procuram portais planares para vigiá-los, aventurando-se nos Planos Interiores e Exteriores atrás de seus inimigos. Esses guardiões também são amigos de todas as forças no multiverso - especialmente de dragões benevolentes, feéricos e elementais - que trabalhem para preservar a vida e a ordem nos planos.</p>",
+        "pt": "<p>Andarilhos do horizonte guardam o mundo contra ameaças que se originam de outros planos ou que procuram devastar o reino mortal com magia de outro mundo. Eles procuram portais para outros planos e os vigiam, se arriscando aos Planos Internos e Externos conforme necessário para perseguir seus inimigos. Esses patrulheiros também são amigos de qualquer força no multiverso especialmente dragões benevolentes, fadas e elementais, que trabalham para preservar a vida e a ordem dos planos.</p>",
         "en": "<p>Horizon Walkers guard the world against threats that originate from other planes or that seek to ravage the mortal realm with otherworldly magic. They seek out planar portals and keep watch over them, venturing to the Inner Planes and the Outer Planes as needed to pursue their foes. These rangers are also friends to any forces in the multiverse — especially benevolent dragons, fey, and elementals — that work to preserve life and the order of the planes.</p>"
       },
       "features": [
@@ -1456,8 +1456,8 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
-              "page": 39
+              "book": "GXF",
+              "page": 59
             },
             "en": {
               "book": "XGE",
@@ -1465,11 +1465,11 @@
             }
           },
           "name": {
-            "pt": "magia do espreitador do horizonte",
+            "pt": "magia do andarilho do horizonte",
             "en": "Horizon Walker Magic"
           },
           "html": {
-            "pt": "<p>A partir do 3º nível, você aprende uma magia adicional ao alcançar determinados níveis nesta classe, conforme mostrado na tabela Magias do Espreitador do Horizonte. Essa magia conta como uma magia de guardião para você, mas não conta para o número de magias de guardião que você conhece.</p><p><strong>Magias do Espreitador do Horizonte</strong></p><table><thead><tr><th>Nível de Guardião</th><th>Magias</th></tr></thead><tbody><tr><td>3º</td><td>proteção contra o bem e o mal</td></tr><tr><td>5º</td><td>passo nebuloso</td></tr><tr><td>9º</td><td>celeridade</td></tr><tr><td>13º</td><td>banimento</td></tr><tr><td>17º</td><td>círculo de teleporte</td></tr></tbody></table>",
+            "pt": "<p>A partir do 3º nível, você aprende magias adicionais quando alcança certos níveis nesta classe, conforme mostrado na tabela de Magias do Andarilho do Horizonte. A magia conta como uma magia de patrulheiro para você, mas não conta para o número de magias conhecidas de patrulheiro.</p><p><strong>Magias do Andarilho do Horizonte</strong></p><table><thead><tr><th>Nível de Patrulheiro</th><th>Magia</th></tr></thead><tbody><tr><td>3º</td><td>proteção contra o bem e mal</td></tr><tr><td>5º</td><td>passo nebuloso</td></tr><tr><td>9º</td><td>velocidade</td></tr><tr><td>13º</td><td>banimento</td></tr><tr><td>17º</td><td>círculo de teleporte</td></tr></tbody></table>",
             "en": "<p>Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Horizon Walker Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.</p>"
           }
         },
@@ -1479,8 +1479,8 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
-              "page": 39
+              "book": "GXF",
+              "page": 59
             },
             "en": {
               "book": "XGE",
@@ -1488,11 +1488,11 @@
             }
           },
           "name": {
-            "pt": "detectar portal",
+            "pt": "detectar portais",
             "en": "Detect Portal"
           },
           "html": {
-            "pt": "<p>No 3º nível, você ganha a habilidade de sentir magicamente a presença de um portal planar. Como uma ação, você detecta a distância e direção do portal planar mais próximo a até 1,6 quilômetro de você.</p><p>Uma vez usada esta característica, você não pode voltar a usá-la até terminar um descanso curto ou longo.</p><p>Consulte a seção \"Viagem Planar\", no capítulo 2 do <em>Dungeon Master's Guide: Livro do Mestre</em>, para conhecer exemplos de portais planares.</p>",
+            "pt": "<p>No 3º nível, você ganha a habilidade de detectar magicamente a presença de um portal de planos. Como uma ação, você detecta a distância e direção para o portal mais próximo dentro de um quilômetro e meio de distância.</p><p>Depois de usar essa característica, não pode usá-la novamente até terminar um descanso curto ou longo.</p><p>Veja a seção \"Viagem Planar\" no capítulo 2 do Guia do Mestre para exemplos de portais planares.</p>",
             "en": "<p>At 3rd level, you gain the ability to magically sense the presence of a planar portal. As an action, you detect the distance and direction to the closest planar portal within 1 mile of you.</p> <p>Once you use this feature, you can’t use it again until you finish a short or long rest.</p> <p>See the “Planar Travel” section in chapter 2 of the&nbsp;Dungeon Master’s Guide&nbsp;for examples of planar portals.</p>"
           }
         },
@@ -1502,8 +1502,8 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
-              "page": 39
+              "book": "GXF",
+              "page": 59
             },
             "en": {
               "book": "XGE",
@@ -1511,11 +1511,11 @@
             }
           },
           "name": {
-            "pt": "combatente planar",
+            "pt": "guerreiro planar",
             "en": "Planar Warrior"
           },
           "html": {
-            "pt": "<p>No 3º nível, você aprende a extrair energia do multiverso para melhorar seus ataques.</p><p>Como uma ação bônus, escolha uma criatura à sua vista e a até 9 metros de você. Na próxima vez que você atingir essa criatura com um ataque armado, todo o dano causado pelo ataque torna-se dano energético, e a criatura sofre 1d8 pontos de dano energético adicionais do ataque. Ao alcançar o 11º nível nesta classe, o dano adicional aumenta para 2d8.</p>",
+            "pt": "<p>No 3º nível, você aprende a aproveitar a energia do multiverso para aumentar seus ataques.</p><p>Como uma ação bônus, escolha uma criatura que possa ver dentro de 9 metros de alcance. Na próxima vez que atingir essa criatura neste turno com um ataque de arma, todos os danos causados pelo ataque se tornam um dano de energia, e a criatura recebe um dano de energia adicional de 1d8 do ataque. Quando você atinge o 11º nível nesta classe, o dano adicional aumenta para 2d8.</p>",
             "en": "<p>At 3rd level, you learn to draw on the energy of the multiverse to augment your attacks.</p> <p>As a bonus action, choose one creature you can see within 30 feet of you. The next time you hit that creature on this turn with a weapon attack, all damage dealt by the attack becomes force damage, and the creature takes an extra 1d8 force damage from the attack. When you reach 11th level in this class, the extra damage increases to 2d8.</p>"
           }
         },
@@ -1525,8 +1525,8 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
-              "page": 40
+              "book": "GXF",
+              "page": 60
             },
             "en": {
               "book": "XGE",
@@ -1534,11 +1534,11 @@
             }
           },
           "name": {
-            "pt": "travessia etérea",
+            "pt": "passo etéreo",
             "en": "Ethereal Step"
           },
           "html": {
-            "pt": "<p>No 7º nível, você aprende a atravessar para o Plano Etéreo. Como uma ação bônus, você pode conjurar a magia <em>forma etérea</em> com esta característica, sem gastar um espaço de magia, mas a magia dura até o final do turno atual.</p><p>Após usar esta característica, você não pode voltar a usá-la até terminar um descanso curto ou longo.</p>",
+            "pt": "<p>No 7º nível, você aprende a atravessar o Plano Etéreo. Como uma ação bônus, pode conjurar a magia <em>forma etérea</em> com essa característica, sem gastar um espaço de magia, mas a magia termina no final do turno atual.</p><p>Depois de usar essa característica, não pode usá-la novamente até terminar um descanso curto ou longo.</p>",
             "en": "<p>At 7th level, you learn to step through the Ethereal Plane. As a bonus action, you can cast the etherealness spell with this feature, without expending a spell slot, but the spell ends at the end of the current turn.</p> <p>Once you use this feature, you can’t use it again until you finish a short or long rest.</p>"
           }
         },
@@ -1548,8 +1548,8 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
-              "page": 40
+              "book": "GXF",
+              "page": 60
             },
             "en": {
               "book": "XGE",
@@ -1557,11 +1557,11 @@
             }
           },
           "name": {
-            "pt": "golpe distante",
+            "pt": "ataque distante",
             "en": "Distant Strike"
           },
           "html": {
-            "pt": "<p>No 11º nível, você ganha a habilidade de passar entre os planos num piscar de olhos. Ao realizar a ação Atacar, você pode se teleportar a uma distância de até 3 metros antes de cada ataque para um espaço desocupado à sua vista.</p><p>Se você atacar ao menos duas criaturas distintas com a ação, você pode realizar um ataque adicional com ela contra uma terceira criatura.</p>",
+            "pt": "<p>No 11º nível, você ganha a habilidade de passar entre os planos em um piscar de olhos. Quando realiza um ataque, pode se teleportar até 3 metros antes de cada ataque para um espaço desocupado que possa ver.</p><p>Se você atacar pelo menos duas criaturas diferentes com a ação, você pode fazer um ataque adicional contra uma terceira criatura.</p>",
             "en": "<p>At 11th level, you gain the ability to pass between the planes in the blink of an eye. When you take the Attack&nbsp;action, you can teleport up to 10 feet before each attack to an unoccupied space you can see.</p> <p>If you attack at least two different creatures with the action, you can make one additional attack with it against a third creature.</p>"
           }
         },
@@ -1571,8 +1571,8 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
-              "page": 40
+              "book": "GXF",
+              "page": 60
             },
             "en": {
               "book": "XGE",
@@ -1584,7 +1584,7 @@
             "en": "Spectral Defense"
           },
           "html": {
-            "pt": "<p>No 15º nível, sua habilidade de se mover entre os planos permite que você deslize através das fronteiras planares de modo a diminuir dano causado a você em batalha. Ao sofrer dano de um ataque, você pode usar sua reação para obter resistência contra todo o dano daquele ataque neste turno.</p>",
+            "pt": "<p>No 15º nível, sua capacidade de se mover entre os planos o permite que deslize através das bordas dos planos para diminuir os danos causados durante a batalha. Quando receber dano de um ataque, pode usar sua reação para se dar resistência a todos os danos desse ataque neste turno.</p>",
             "en": "<p>At 15th level, your ability to move between planes enables you to slip through the planar boundaries to lessen the harm done to you during battle. When you take damage from an attack, you can use your reaction to give yourself resistance to all of that attack’s damage on this turn.</p>"
           }
         }
@@ -1592,7 +1592,7 @@
       "spells": [
         {
           "level": 3,
-          "names_pt": ["proteção contra o bem e o mal"],
+          "names_pt": ["proteção contra o bem e mal"],
           "names_en": ["protection from evil and good"]
         },
         {
@@ -1602,7 +1602,7 @@
         },
         {
           "level": 9,
-          "names_pt": ["celeridade"],
+          "names_pt": ["velocidade"],
           "names_en": ["haste"]
         },
         {
@@ -1612,7 +1612,7 @@
         },
         {
           "level": 17,
-          "names_pt": ["círculo de teleporte"],
+          "names_pt": ["círculo de teletransporte"],
           "names_en": ["teleportation circle"]
         }
       ]
@@ -1621,13 +1621,13 @@
       "slug": "monster-slayer",
       "short_name_en": "Monster Slayer",
       "name": {
-        "pt": "matador de monstros",
+        "pt": "exterminador de monstros",
         "en": "Monster Slayer"
       },
       "source": {
         "pt": {
-          "book": "GXTC",
-          "page": 40
+          "book": "GXF",
+          "page": 60
         },
         "en": {
           "book": "XGE",
@@ -1635,7 +1635,7 @@
         }
       },
       "intro_html": {
-        "pt": "<p>Você se dedicou a caçar criaturas da noite e usuários de magia soturna. Um Matador de Monstros caça vampiros, dragões, feéricos malignos, ínferos e outras ameaças mágicas. Treinado em técnicas sobrenaturais para sobrepujar tais monstros, matadores são especialistas em encontrar e derrotar poderosos inimigos místicos.</p>",
+        "pt": "<p>Você se dedicou a caçar criaturas da noite e praticantes de magia sombria. Um Exterminador de Monstros procura vampiros, dragões, feéricos malignos, demônios e outras ameaças mágicas. Treinados em técnicas sobrenaturais para superar esses monstros, os exterminadores são especialistas em desenterrar e derrotar inimigos poderosos e místicos.</p>",
         "en": "<p>You have dedicated yourself to hunting down creatures of the night and wielders of grim magic. A Monster Slayer seeks out vampires, dragons, evil fey, fiends, and other magical threats. Trained in supernatural techniques to overcome such monsters, slayers are experts at unearthing and defeating mighty, mystical foes.</p>"
       },
       "features": [
@@ -1645,8 +1645,8 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
-              "page": 40
+              "book": "GXF",
+              "page": 60
             },
             "en": {
               "book": "XGE",
@@ -1654,11 +1654,11 @@
             }
           },
           "name": {
-            "pt": "magia do matador de monstros",
+            "pt": "magia do exterminador de monstros",
             "en": "Monster Slayer Magic"
           },
           "html": {
-            "pt": "<p>A partir do 3º nível, você aprende uma magia adicional ao alcançar determinados níveis nesta classe, conforme mostrado na tabela Magias do Matador de Monstros. A magia conta como uma magia de guardião para você, mas não conta para o número de magias de guardião que você conhece.</p><p><strong>Magias do Matador de Monstros</strong></p><table><thead><tr><th>Nível de Guardião</th><th>Magias</th></tr></thead><tbody><tr><td>3º</td><td>proteção contra o bem e o mal</td></tr><tr><td>5º</td><td>zona da verdade</td></tr><tr><td>9º</td><td>círculo mágico</td></tr><tr><td>13º</td><td>banimento</td></tr><tr><td>17º</td><td>imobilizar monstro</td></tr></tbody></table>",
+            "pt": "<p>A partir do 3º nível, você aprende magias adicionais quando alcança certos níveis nesta classe, conforme mostrado na tabela de Magias do Exterminador de Monstros. A magia conta como uma magia de patrulheiro para você, mas não conta para o número de magias conhecidas de patrulheiro.</p><p><strong>Magias do Exterminador de Monstros</strong></p><table><thead><tr><th>Nível de Patrulheiro</th><th>Magia</th></tr></thead><tbody><tr><td>3º</td><td>proteção contra o bem e mal</td></tr><tr><td>5º</td><td>zona da verdade</td></tr><tr><td>9º</td><td>círculo mágico</td></tr><tr><td>13º</td><td>banimento</td></tr><tr><td>17º</td><td>imobilizar monstro</td></tr></tbody></table>",
             "en": "<p>Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Monster Slayer Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.</p>"
           }
         },
@@ -1668,8 +1668,8 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
-              "page": 40
+              "book": "GXF",
+              "page": 60
             },
             "en": {
               "book": "XGE",
@@ -1677,11 +1677,11 @@
             }
           },
           "name": {
-            "pt": "intuição de caçador",
+            "pt": "sentido do caçador",
             "en": "Hunter's Sense"
           },
           "html": {
-            "pt": "<p>No 3º nível, você ganha a habilidade de observar uma criatura e descobrir magicamente o melhor modo de feri-la. Como uma ação, escolha uma criatura à sua vista e até a 18 metros de você. Você fica sabendo imediatamente se ela tem imunidades, resistências ou vulnerabilidades, e quais elas são. Se a criatura estiver protegida contra magia de adivinhação, você intui que ela não tem imunidades, resistências nem vulnerabilidades.</p><p>Você pode usar esta característica uma quantidade de vezes igual ao seu modificador de Sabedoria (no mínimo uma vez). Você recupera todos os usos gastos desta característica ao terminar um descanso longo.</p>",
+            "pt": "<p>No 3º nível, você ganha a habilidade de se igualar a uma criatura e discernir magicamente a melhor maneira de machucá-la. Como uma ação, escolha uma criatura que possa ver dentro de 18 metros de alcance. Você imediatamente aprende se a criatura tem imunidades, resistências ou vulnerabilidades de dano e quais são. Se a criatura estiver escondida de adivinhação mágica, você sente que não tem imunidades, resistências ou vulnerabilidades de dano.</p><p>Você pode usar essa característica um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez). Você recupera todas as utilizações gastos quando terminar um descanso longo.</p>",
             "en": "<p>At 3rd level, you gain the ability to peer at a creature and magically discern how best to hurt it. As an action, choose one creature you can see within 60 feet of you. You immediately learn whether the creature has any damage immunities, resistances, or vulnerabilities and what they are. If the creature is hidden from divination magic, you sense that it has no damage immunities, resistances, or vulnerabilities.</p> <p>You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses of it when you finish a long rest.</p>"
           }
         },
@@ -1691,8 +1691,8 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
-              "page": 40
+              "book": "GXF",
+              "page": 60
             },
             "en": {
               "book": "XGE",
@@ -1700,11 +1700,11 @@
             }
           },
           "name": {
-            "pt": "presa do matador",
+            "pt": "exterminador de presas",
             "en": "Slayer's Prey"
           },
           "html": {
-            "pt": "<p>A partir do 3º nível, você pode concentrar sua ira em um inimigo, aumentando o dano que pode infligir nele. Como uma ação bônus, você designa uma criatura à sua vista e a até 18 metros de você como alvo desta característica. A primeira vez em cada turno que você atingir o alvo com um ataque armado, ele sofre 1d6 pontos de dano adicional da arma.</p><p>Este benefício dura até você terminar um descanso curto ou longo, encerrando-se antes se você designar uma criatura diferente.</p>",
+            "pt": "<p>A partir do 3º nível, você pode concentrar sua ira em um inimigo, aumentando o dano que inflige. Como uma ação bônus, você escolhe uma criatura que possa ver dentro de 18 metros de alcance como o alvo dessa característica. A primeira vez em cada turno que você atingir esse alvo com um ataque de arma, causa um dano adicional de 1d6 da arma.</p><p>Este benefício dura até que você termine um descanso curto ou longo. O efeito se encerra caso designe uma criatura diferente.</p>",
             "en": "<p>Starting at 3rd level, you can focus your ire on one foe, increasing the harm you inflict on it. As a bonus action, you designate one creature you can see within 60 feet of you as the target of this feature. The first time each turn that you hit that target with a weapon attack, it takes an extra 1d6 damage from the weapon.</p> <p>This benefit lasts until you finish a short or long rest. It ends early if you designate a different creature.</p>"
           }
         },
@@ -1714,8 +1714,8 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
-              "page": 40
+              "book": "GXF",
+              "page": 60
             },
             "en": {
               "book": "XGE",
@@ -1727,7 +1727,7 @@
             "en": "Supernatural Defense"
           },
           "html": {
-            "pt": "<p>No 7º nível, você ganha resiliência adicional contra os ataques da sua presa sobre seu corpo e mente. Sempre que o alvo da sua Presa do Matador forçá-lo a realizar uma salvaguarda, e sempre que você realizar um teste de atributo para fugir do agarramento desse alvo, adicione 1d6 ao seu resultado.</p>",
+            "pt": "<p>No 7º nível, você ganha resiliência adicional contra os ataques de sua presa em sua mente e corpo. Sempre que o alvo do Exterminador de Presas forçá-lo a fazer um teste de resistência e sempre que você fizer um teste de habilidade para escapar dos alvos, adicione 1d6 a sua rolagem.</p>",
             "en": "<p>At 7th level, you gain extra resilience against your prey’s assaults on your mind and body. Whenever the target of your Slayer’s Prey forces you to make a saving throw and whenever you make an ability check to escape that target’s grapple, add 1d6 to your roll.</p>"
           }
         },
@@ -1737,8 +1737,8 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
-              "page": 40
+              "book": "GXF",
+              "page": 60
             },
             "en": {
               "book": "XGE",
@@ -1746,11 +1746,11 @@
             }
           },
           "name": {
-            "pt": "nêmesis do usuário de magia",
+            "pt": "nêmeses do conjurador",
             "en": "Magic-User's Nemesis"
           },
           "html": {
-            "pt": "<p>No 11º nível, você ganha a habilidade de frustrar a magia de terceiros. Ao observar uma criatura conjurando uma magia ou se teleportando a até 18 metros de você, é possível usar sua reação para tentar frustrá-la magicamente. A criatura deve ser bem-sucedida em uma salvaguarda contra a CD para evitar suas magias, ou a magia ou teleporte dela é gasto e falha.</p><p>Após usar esta característica, você não pode voltar a usá-la até terminar um descanso curto ou longo.</p>",
+            "pt": "<p>No 11º nível você ganha a habilidade de frustrar a magia de outra pessoa. Quando ver uma criatura conjurando uma magia ou se teleportando a até 18 metros de alcance, pode usar sua reação para tentar fazê-la fracassar. Esta criatura deve ser bem-sucedida em teste de resistência de Sabedoria contra seu nível de CD de magias, ou sua magia ou teleporte são desperdiçados.</p><p>Após usar essa característica, só pode usá-la novamente após terminar um descanso curto ou longo.</p>",
             "en": "<p>At 11th level, you gain the ability to thwart someone else’s magic. When you see a creature casting a spell or teleporting within 60 feet of you, you can use your reaction to try to magically foil it. The creature must succeed on a Wisdom saving throw against your spell save DC, or its spell or teleport fails and is wasted.</p> <p>Once you use this feature, you can’t use it again until you finish a short or long rest.</p>"
           }
         },
@@ -1760,8 +1760,8 @@
           "optional": false,
           "source": {
             "pt": {
-              "book": "GXTC",
-              "page": 40
+              "book": "GXF",
+              "page": 60
             },
             "en": {
               "book": "XGE",
@@ -1769,11 +1769,11 @@
             }
           },
           "name": {
-            "pt": "contra-ataque do matador",
+            "pt": "contra-ataque do exterminador",
             "en": "Slayer's Counter"
           },
           "html": {
-            "pt": "<p>No 15º nível, você ganha a habilidade de contra-atacar quando sua presa tenta sabotá-lo. Se o alvo da sua Presa do Matador forçá-lo a realizar uma salvaguarda, você pode usar sua reação para realizar um ataque armado contra a presa. Você realiza esse ataque imediatamente antes de fazer a salvaguarda. Se o ataque for bem-sucedido, sua salvaguarda obtém sucesso automaticamente, além dos efeitos normais do ataque.</p>",
+            "pt": "<p>No 15º nível, você ganha a habilidade de contra-atacar quando sua presa tenta sabotá-lo. Se o alvo do Exterminador de Presas forçá-lo a fazer um teste de resistência, pode usar sua reação para fazer um ataque de arma contra a presa. Você faz esse ataque imediatamente antes de fazer o teste de resistência. Se o seu ataque atingir, o seu teste automaticamente tem sucesso, além dos efeitos normais do ataque.</p>",
             "en": "<p>At 15th level, you gain the ability to counterattack when your prey tries to sabotage you. If the target of your Slayer’s Prey forces you to make a saving throw, you can use your reaction to make one weapon attack against the quarry. You make this attack immediately before making the saving throw. If your attack hits, your save automatically succeeds, in addition to the attack’s normal effects.</p>"
           }
         }
@@ -1781,7 +1781,7 @@
       "spells": [
         {
           "level": 3,
-          "names_pt": ["proteção contra o bem e o mal"],
+          "names_pt": ["proteção contra o bem e mal"],
           "names_en": ["protection from evil and good"]
         },
         {

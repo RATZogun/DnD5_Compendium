@@ -1,41 +1,13 @@
 {
   "matches": {
-    "LDJ|BÊNÇÃO": "Bless",
-    "LDJ|PERDIÇÃO": "Bane",
-    "LDJ|PELE-CASCA": "Barkskin",
-    "LDJ|ESCALADA DE ARANHA": "Spider Climb",
-    "LDJ|MURALHA DE ENERGIA": "Wall of Force",
-    "LDJ|MURALHA DE PEDRA": "Wall of Stone"
+    "LJF|bênção": "Bless",
+    "LJF|perdição": "Bane",
+    "LJF|pele de árvore": "Barkskin",
+    "LJF|patas de aranha": "Spider Climb",
+    "LJF|muralha de pedra": "Wall of Stone",
+    "LJF|muralha de energia": "Wall of Force"
   },
-  "pt_names": {
-    "LDJ|Spiritual Weapon": "arma espiritual",
-    "LDJ|Drawmij's Instant Summons": "convocação instantânea de Drawmij",
-    "LDJ|Otto's Irresistible Dance": "dança irresistível de Otto",
-    "LDJ|Mislead": "despistar",
-    "LDJ|Searing Smite": "destruição cauterizante",
-    "LDJ|Blinding Smite": "destruição cegante",
-    "LDJ|Detect Evil and Good": "detectar o bem e o mal",
-    "LDJ|Dispel Evil and Good": "dissipar o bem e o mal",
-    "LDJ|Tenser's Floating Disk": "disco flutuante de Tenser",
-    "LDJ|Ensnaring Strike": "golpe constritor",
-    "LDJ|Hail of Thorns": "saraivada de espinhos",
-    "LDJ|Web": "teia",
-    "LDJ|Arms of Hadar": "braços de Hadar",
-    "LDJ|Hunger of Hadar": "fome de Hadar",
-    "GXTC|Steel Wind Strike": "golpe de aço",
-    "GXTC|Gust": "rajada de ar",
-    "TDF|Ashardalon's Stride": "passo de Ashardalon",
-    "GXTC|Danse Macabre": "danse macabre",
-    "GXTC|Abi-Dalzim's Horrid Wilting": "terrível ressecamento de Abi-Dalzim",
-    "LDJ|Mordenkainen's Magnificent Mansion": "mansão magnífica de Mordenkainen",
-    "LDJ|Arcane Eye": "olho arcano",
-    "LDJ|Move Earth": "mover terra"
-  },
+  "pt_names": {},
   "fields": {},
-  "duplicates": {
-    "booming-blade": "CTCT",
-    "green-flame-blade": "CTCT",
-    "lightning-lure": "CTCT",
-    "sword-burst": "CTCT"
-  }
+  "duplicates": {}
 }

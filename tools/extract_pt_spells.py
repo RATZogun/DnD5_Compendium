@@ -11,28 +11,27 @@ from pathlib import Path
 
 # arquivo (trecho do nome) -> (sigla, nome, deslocamento página impressa - página do PDF)
 BOOKS = {
-    'Livro do Jogador': ('LDJ', 'Livro do Jogador', 0),
-    'Xanathar': ('GXTC', 'Guia de Xanathar para Todas as Coisas', -1),
+    'Livro do Jogador D&D 5e (Traduzido Fã': ('LJF', 'Livro do Jogador (tradução de fãs)', 1),
+    'Xanathar para Todas as coisas (Tradução Fã': ('GXF', 'Guia de Xanathar para Todas as Coisas (tradução de fãs)', 1),
     'Tasha': ('CTCT', 'Caldeirão de Tasha para Todas as Coisas', -1),
     'Fizban': ('TDF', 'Tesouro dos Dragões de Fizban', -1),
-    'Livro do Mestre': ('LDM', 'Livro do Mestre', 0),
 }
 
 SCHOOLS = 'abjuração|adivinhação|conjuração|invocação|encantamento|evocação|ilusão|necromancia|transmutação'
-OCR_DIGIT = {'I': '1', 'l': '1', 'i': '1', 'O': '0', 'o': '0'}
+OCR_DIGIT = {'I': '1', 'l': '1', 'i': '1', 'O': '0', 'o': '0', 'S': '5'}
 TAIL = r'\s*(\(ritual\))?[\s·.•]*$'
-LEVEL_RE = re.compile(rf'^([0-9IlO])\s*[°ºo]?\s*(?:c[ií]rculo|n[ií]vel)\s*(?:,|de)?\s*({SCHOOLS}){TAIL}', re.I)
-CANTRIP_RE = re.compile(rf'^truque\s*(?:,|de)?\s*({SCHOOLS}){TAIL}', re.I)
-CANTRIP_REV_RE = re.compile(rf'^({SCHOOLS})\s*,\s*truque{TAIL}', re.I)
+LEVEL_RE = re.compile(rf'^([0-9IlOS])\s*[°ºo]?\s*(?:c[ií]rculo|n[ií]vel)\s*(?:,|de)?\s*({SCHOOLS}){TAIL}', re.I)
+CANTRIP_RE = re.compile(rf'^tr[un]que\s*(?:,|de)?\s*({SCHOOLS}){TAIL}', re.I)
+CANTRIP_REV_RE = re.compile(rf'^({SCHOOLS})\s*,\s*tr[un]que{TAIL}', re.I)
 # Alguns blocos do livro em português ficaram com os rótulos em inglês.
 FIELD_RE = re.compile(r"^(Tempo de Conjura[çc][ãa]o|Alcance|Componentes|Dura[çc][ãa]o|Casting Time|Range|Components|Du'?r'?ation)\s*:\s*(.*)$", re.I)
 JUNK_RE = re.compile(r'^(PARTE\s*\d.*|CAP[IÍ]TULO\s*\d+.*|[0-9IlO]{1,3}|\.{2,}|[•·|]+)$')
 SUBHEAD_RE = re.compile(r'^((?:[A-ZÁÉÍÓÚÂÊÔÃÕÇ][\wà-úç\'’-]*)(?:\s+(?:[\wà-úç\'’-]+)){0,5})\.\s+(?=\S)')
-HIGHER_RE = re.compile(r'^Em C[ií]rculos? Superiores\.', re.I)
+HIGHER_RE = re.compile(r'^Em (C[ií]rculos?|N[ií]veis) Superiores\.', re.I)
 
 
 # Páginas em que o OCR juntou palavras das duas colunas; nelas o corte é feito pelo layout de texto.
-LAYOUT_PAGES = {'LDJ': {237}}
+LAYOUT_PAGES = {}
 
 
 def layout_page(pdf, n):
@@ -117,6 +116,25 @@ def join_lines(lines):
     return [re.sub(r'\s+', ' ', p.replace('­', '')).strip() for p in paras]
 
 
+def fix_small_caps(name, lexicon):
+    """Títulos em versalete saem com a inicial separada ("A CALMAR E MOÇÕES"); junta usando o vocabulário do livro."""
+    name = re.sub(r'\s+', ' ', name).strip(' ^').lower()
+    name = re.sub(r'\s*/\s*([a-zà-úç])\s+([a-zà-úç]+)', r'/\1\2', name)
+    toks, out, i = name.split(' '), [], 0
+    while i < len(toks):
+        t = toks[i]
+        if len(t) == 1 and t.isalpha() and i + 1 < len(toks) and (len(toks[i + 1]) > 1 or (t + toks[i + 1]) in lexicon):
+            nxt = toks[i + 1]
+            word = re.match(r'[a-zà-úç]*', nxt).group(0)
+            if (t + word) in lexicon or word not in lexicon:
+                out.append(t + nxt)
+                i += 2
+                continue
+        out.append(t)
+        i += 1
+    return ' '.join(out)
+
+
 def extract_book(pdf, abbr, offset):
     pages = pdf_pages(pdf, LAYOUT_PAGES.get(abbr, ()))
     lines = []  # (pdf_page, texto)
@@ -165,6 +183,9 @@ def extract_book(pdf, abbr, offset):
             'duration': fields.get('duration'),
             'paragraphs': join_lines(body),
         })
+    lexicon = {w for s in spells for p in s['paragraphs'] for w in re.findall(r'[a-zà-úç]+', p.lower())}
+    for s in spells:
+        s['name'] = fix_small_caps(s['name'], lexicon)
     return spells
 
 
@@ -179,6 +200,10 @@ def main():
         spells = extract_book(pdf, abbr, offset)
         print(f'{abbr}: {len(spells)} magias', file=sys.stderr)
         result.extend(spells)
+    # magias ilegíveis no OCR, transcritas à mão
+    manual = json.loads((Path(__file__).parent / 'pt_spells_manual.json').read_text())
+    keys = {(s['book'], s['name']) for s in manual}
+    result = [s for s in result if (s['book'], s['name']) not in keys] + manual
     out.write_text(json.dumps(result, ensure_ascii=False, indent=1))
 
 
