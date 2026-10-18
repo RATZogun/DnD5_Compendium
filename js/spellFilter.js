@@ -54,7 +54,14 @@ export function spellFilterFields(R) {
       key: 'klassName',
       label: t('spellFilter.class'),
       type: 'select',
-      options: () => R.klasses.map((k) => ({ value: k.name, label: k.name })),
+      options: () =>
+        R.klasses
+          .filter(
+            (k) =>
+              hasSpells(R, { klassName: k.name }) ||
+              specializationsOf(R, k.name).some((s) => hasSpells(R, { klassName: k.name, specializationName: s.name })),
+          )
+          .map((k) => ({ value: k.name, label: k.name })),
       onChange: (st) => {
         if (
           st.specializationName &&
@@ -69,7 +76,10 @@ export function spellFilterFields(R) {
       label: t('spellFilter.specialization'),
       type: 'select',
       visible: (st) => Boolean(st.klassName),
-      options: (st) => specializationsOf(R, st.klassName).map((s) => ({ value: s.name, label: s.name })),
+      options: (st) =>
+        specializationsOf(R, st.klassName)
+          .filter((s) => hasSpells(R, { klassName: st.klassName, specializationName: s.name }))
+          .map((s) => ({ value: s.name, label: s.name })),
     },
     {
       key: 'type',
@@ -128,6 +138,16 @@ export function spellFilterFields(R) {
 }
 
 const isSet = (v) => v !== null && v !== undefined && v !== '';
+
+// só entram no filtro classes e subclasses que trazem alguma magia (como no filtro de livro)
+const spellCount = new WeakMap();
+function hasSpells(R, f) {
+  if (!spellCount.has(R)) spellCount.set(R, new Map());
+  const cache = spellCount.get(R);
+  const key = `${f.klassName}|${f.specializationName ?? ''}`;
+  if (!cache.has(key)) cache.set(key, R.spells.some(casterPredicate(R, f)));
+  return cache.get(key);
+}
 
 function casterPredicate(R, f) {
   if (!isSet(f.klassName) && !isSet(f.specializationName)) return null;

@@ -37,7 +37,10 @@ function klassFilterFields(R) {
       key: 'spellcastingAbilityAbbreviation',
       label: t('classes.spellcastingAbility'),
       type: 'select',
-      options: () => R.abilities.map((a) => ({ value: a.abbreviation, label: a.name })),
+      options: () =>
+        R.abilities
+          .filter((a) => R.klasses.some((k) => k.spellcasting_ability_abbreviation === a.abbreviation))
+          .map((a) => ({ value: a.abbreviation, label: a.name })),
     },
     ...FLAGS.map(([key, , label]) => ({ key, label: t(label), type: 'boolean' })),
   ].map((f) => {
