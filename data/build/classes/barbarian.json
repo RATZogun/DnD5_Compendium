@@ -213,9 +213,10 @@
         "en": "Primal Path"
       },
       "html": {
-        "pt": "<p>No 3º nível, você escolhe um caminho que molda a natureza da sua fúria. Escolha o Caminho do Furioso ou o Caminho do Guerreiro Totêmico, ambos detalhados no final da descrição de classe. Sua escolha lhe concederá características no 3º nível e novamente no 6º, 10º e 14º níveis.</p>",
+        "pt": "<p>No 3º nível, você escolhe um caminho que molda a natureza da sua fúria. Sua escolha lhe concederá características no 3º nível e novamente no 6º, 10º e 14º níveis.</p>",
         "en": "<p>At 3rd level, you choose a path that shapes the nature of your rage. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels.</p>"
-      }
+      },
+      "subclass_list": true
     },
     {
       "key": "primal-knowledge",

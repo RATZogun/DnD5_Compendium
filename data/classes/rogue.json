@@ -203,9 +203,10 @@
       "source": { "pt": { "book": "LJF", "page": 91 }, "en": { "book": "PHB", "page": 94 } },
       "name": { "pt": "arquétipo de ladino", "en": "Roguish Archetype" },
       "html": {
-        "pt": "<p>No 3º nível, você escolhe um arquétipo que se esforçará para se equiparar através de exercícios de suas habilidades de ladino: Assassino, Ladrão ou Trapaceiro Arcano, todos detalhados no final da descrição da classe. Sua escolha garante a você características no 3º nível e de novo no 9º, 13º e 17º nível.</p>",
-        "en": "<p>At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities: Thief, detailed at the end of the class description, or one from another source. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.</p>"
-      }
+        "pt": "<p>No 3º nível, você escolhe um arquétipo que se esforçará para se equiparar através de exercícios de suas habilidades de ladino. Sua escolha garante a você características no 3º nível e de novo no 9º, 13º e 17º nível.</p>",
+        "en": "<p>At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.</p>"
+      },
+      "subclass_list": true
     },
     {
       "key": "steady-aim",

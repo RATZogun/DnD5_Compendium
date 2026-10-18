@@ -257,9 +257,10 @@
       "source": { "pt": { "book": "LJF", "page": 111 }, "en": { "book": "PHB", "page": 82 } },
       "name": { "pt": "juramento sagrado", "en": "Sacred Oath" },
       "html": {
-        "pt": "<p>Quando você alcança o 3º nível, você faz um juramento que torna-o um paladino para sempre. Até então, você estava em um estágio preparatório, guiado pelo caminho, mas ainda não jurado a ele. Agora você escolhe o Juramento de Devoção, o Juramento dos Anciões ou o Juramento de Vingança, todos detalhados no final da descrição da classe.</p><p>Sua escolha lhe confere características no 3º nível e novamente no 7º, 15º e 20º nível. Tais características incluem as magias de juramento e a característica Canalizar Divindade.</p>",
-        "en": "<p>When you reach 3rd level, you swear the oath that binds you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Now you choose the Oath of Devotion detailed at the end of the class description or one from another source.</p> <p>Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include oath spells and the Channel Divinity feature.</p>"
-      }
+        "pt": "<p>Quando você alcança o 3º nível, você faz um juramento que torna-o um paladino para sempre. Até então, você estava em um estágio preparatório, guiado pelo caminho, mas ainda não jurado a ele. Agora você escolhe o seu juramento.</p><p>Sua escolha lhe confere características no 3º nível e novamente no 7º, 15º e 20º nível. Tais características incluem as magias de juramento e a característica Canalizar Divindade.</p>",
+        "en": "<p>When you reach 3rd level, you swear the oath that binds you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Now you choose your oath.</p><p>Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include oath spells and the Channel Divinity feature.</p>"
+      },
+      "subclass_list": true
     },
     {
       "key": "oath-spells",

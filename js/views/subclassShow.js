@@ -2,13 +2,13 @@ import { html, raw, setTitle, titleCase } from '../util.js';
 import { t } from '../i18n.js';
 import { href } from '../router.js';
 import { loadClass } from '../data.js';
-import { pick, sourceLine, featureHtml, bookName } from './klassShow.js';
+import { pick, sourceLine, featureHtml, bookName, linkSpellTables } from './klassShow.js';
 
 function versionHtml(R, v) {
-  const intro = pick(v.intro_html);
+  const intro = linkSpellTables(R, { html: v.intro_html }, pick(v.intro_html), v.spells);
   return html` <p class="text-muted">${raw(sourceLine(R, v.source, v.additional_sources))}</p>
     ${intro ? raw(html`<div class="subclass-intro">${raw(intro)}</div>`) : ''}
-    <div class="features">${v.features.map((f) => raw(featureHtml(R, f)))}</div>`;
+    <div class="features">${v.features.map((f) => raw(featureHtml(R, f, null, v.spells)))}</div>`;
 }
 
 export async function render(container, { R, params }) {

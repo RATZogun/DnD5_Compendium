@@ -301,9 +301,10 @@
       "source": { "pt": { "book": "LDJ", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
       "name": { "pt": "arquétipo de patrulheiro", "en": "Ranger Archetype" },
       "html": {
-        "pt": "<p>No 3º nível, você escolhe um arquétipo, o qual se esforça para seguir: Caçador ou Senhor das Feras, ambos detalhados ao final da descrição desta classe. Sua escolha lhe garante características no 3º nível e novamente no 7º, 11º e 15º níveis.</p>",
-        "en": "<p>At 3rd level, you choose an archetype that you strive to emulate: the Hunter that is detailed at the end of the class description or one from another source. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level.</p>"
-      }
+        "pt": "<p>No 3º nível, você escolhe um arquétipo, o qual se esforça para seguir. Sua escolha lhe garante características no 3º nível e novamente no 7º, 11º e 15º níveis.</p>",
+        "en": "<p>At 3rd level, you choose an archetype that you strive to emulate. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level.</p>"
+      },
+      "subclass_list": true
     },
     {
       "key": "primal-awareness",

@@ -128,9 +128,10 @@
         "en": "Otherworldly Patron"
       },
       "html": {
-        "pt": "<p>No 1º nível, você conclui uma barganha com um ser transcendental, à sua escolha: a Arquifada, o Corruptor ou o Grande Antigo, cada um deles é detalhado no final da descrição da classe. Sua escolha lhe confere traços no 1º nível e novamente no 6º, 10º e 14º nível.</p>",
-        "en": "<p>At 1st level, you have struck a bargain with an otherworldly being of your choice: the Fiend, which is detailed at the end of the class description, or one from another source. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level.</p>"
-      }
+        "pt": "<p>No 1º nível, você conclui uma barganha com um ser transcendental, à sua escolha. Sua escolha lhe confere traços no 1º nível e novamente no 6º, 10º e 14º nível.</p>",
+        "en": "<p>At 1st level, you have struck a bargain with an otherworldly being of your choice. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level.</p>"
+      },
+      "subclass_list": true
     },
     {
       "key": "otherworldly-patrons",

@@ -185,9 +185,10 @@
       "source": { "pt": { "book": "LJF", "page": 97 }, "en": { "book": "PHB", "page": 112 } },
       "name": { "pt": "tradição arcana", "en": "Arcane Tradition" },
       "html": {
-        "pt": "<p>Quando alcança o 2º nível, você pode escolher uma Tradição Arcana, moldando sua prática de magia em uma das oito escolas: Abjuração, Adivinhação, Conjuração, Encantamento, Evocação, Ilusão, Necromancia e Transmutação, todas detalhadas no fim da descrição da classe.</p><p>Sua escolha confere características no 2º nível e de novo no 6º, 10º e 14º nível.</p>",
-        "en": "<p>When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation. The School of Evocation&nbsp;is detailed at the end of the class description, and more choices are available in other sources.</p> <p>Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</p>"
-      }
+        "pt": "<p>Quando alcança o 2º nível, você pode escolher uma Tradição Arcana, moldando sua prática de magia.</p><p>Sua escolha confere características no 2º nível e de novo no 6º, 10º e 14º nível.</p>",
+        "en": "<p>When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic.</p><p>Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</p>"
+      },
+      "subclass_list": true
     },
     {
       "key": "cantrip-formulas",

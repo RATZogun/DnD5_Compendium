@@ -154,9 +154,10 @@
         "en": "Sorcerous Origin"
       },
       "html": {
-        "pt": "<p>Escolha uma origem de feitiçaria, que descreve a fonte do seu poder mágico inato: Linhagem Dracônica ou Magia Selvagem, ambos detalhados no final da descrição da classe.</p><p>Sua escolha lhe confere características quando você a escolhe, no 1º nível e novamente no 6º, 14º e 18º nível.</p>",
-        "en": "<p>Choose a sorcerous origin, which describes the source of your innate magical power: Draconic Bloodline, detailed at the end of the class description, or one from another source.</p> <p>Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.</p>"
-      }
+        "pt": "<p>Escolha uma origem de feitiçaria, que descreve a fonte do seu poder mágico inato.</p><p>Sua escolha lhe confere características quando você a escolhe, no 1º nível e novamente no 6º, 14º e 18º nível.</p>",
+        "en": "<p>Choose a sorcerous origin, which describes the source of your innate magical power.</p><p>Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.</p>"
+      },
+      "subclass_list": true
     },
     {
       "key": "font-of-magic",

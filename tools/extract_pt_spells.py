@@ -202,8 +202,9 @@ def main():
         result.extend(spells)
     # magias ilegíveis no OCR, transcritas à mão
     manual = json.loads((Path(__file__).parent / 'pt_spells_manual.json').read_text())
-    keys = {(s['book'], s['name']) for s in manual}
-    result = [s for s in result if (s['book'], s['name']) not in keys] + manual
+    keys = {(s['book'], n) for s in manual for n in [s['name'], *s.get('replaces', [])]}
+    result = [s for s in result if (s['book'], s['name']) not in keys] + [
+        {k: v for k, v in s.items() if k != 'replaces'} for s in manual]
     out.write_text(json.dumps(result, ensure_ascii=False, indent=1))
 
 

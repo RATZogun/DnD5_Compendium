@@ -89,5 +89,596 @@
       "Uma criatura deve realizar um teste de resistência de Destreza na primeira vez num turno que ela entrar no vendaval ou que o vendaval entrar no espaço dela, incluindo quando o vendaval apareceu primeiro. Uma criatura sofre 10d6 de dano de concussão se falhar na resistência, ou metade desse dano se obtiver sucesso. Além disso, uma criatura Grande ou menor que falhar na resistência deve ser bem sucedida num teste de resistência de Força ou ficará impedida pelo vendaval até a magia acabar. Quando uma criatura começa seu turno impedida pelo vendaval, ela é puxada 1,5 metros para o alto dentro dele, a não ser que a criatura esteja no topo. Uma criatura impedida se move com o vendaval e cai quando a magia acaba, a não ser que a criatura tenha algum meio de ficar no ar.",
       "Uma criatura impedida pode usar uma ação para realizar um teste de Força ou Destreza contra a CD de resistência da magia. Se for bem sucedida, a criatura não estará mais impedida pelo vendaval e é arremessada a 3d6 x 3 metros de distância em uma direção aleatória."
     ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 152,
+    "page": 153,
+    "name": "controlar os ventos",
+    "level": 5,
+    "school": "transmutação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "90 metros",
+    "components": "V, S",
+    "duration": "Concentração, até 1 hora",
+    "paragraphs": [
+      "Você toma controle do ar num cubo de 30 metros que você possa ver, dentro do alcance. Escolha um dos efeitos a seguir quando você conjurar essa magia. O efeito permanece pela duração da magia, a não ser que você use sua ação num turno subsequente para mudar para um efeito diferente. Você também pode usar sua ação para temporariamente parar o efeito ou para reiniciar um que você tenha parado.",
+      "Lufadas. Um vento sopra dentro do cubo, continuamente soprando em uma direção horizontal que você escolher. Você escolhe a intensidade do vento: calmo, moderado ou forte. Se o vento for moderado ou forte, ataques à distância com arma que passarem através ou que forem feitos contra um alvo dentro do cubo tem desvantagem nas jogadas de ataque. Se o vento for forte, qualquer criatura se movendo contra o vento deve gastar 1,5 metros extras para cada 1,5 metros movidos.",
+      "Ventos Ascendentes. Você cria uma ventania ascendente constante dentro do cubo, erguendo-se da borda inferior do cubo. Criaturas que terminarem uma queda dentro do cubo sofrem apenas metade do dano de queda. Quando uma criatura no cubo realizar um salto vertical, ela pode saltar até 3 metros mais alto que o normal.",
+      "Ventos Descendentes. Você faz com que constantes rajadas de ventos fortes soprem do topo do cubo. Ataques à distância com arma que passarem pelo cubo ou que forem feitos contra alvos dentro dele tem desvantagem em suas jogadas de ataque. Uma criatura deve realizar um teste de resistência de Força se voar no cubo pela primeira vez em um turno ou se começar seu turno voando nele. Se falhar na resistência, a criatura ficará caída no chão."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 154,
+    "page": 155,
+    "name": "enervação",
+    "level": 5,
+    "school": "necromancia",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "18 metros",
+    "components": "V, S",
+    "duration": "Concentração, até 1 minuto",
+    "paragraphs": [
+      "Uma gavinha de escuridão se projeta de você, tocando uma criatura que você pode ver dentro do alcance para drenar sua vida. O alvo deve fazer um teste de resistência de Destreza. Em um sucesso, o alvo recebe 2d8 de dano necrótico e a magia termina. Em uma falha, o alvo sofre 4d8 de dano necrótico e, até a magia terminar, você pode usar sua ação em cada uma dos seus turnos para causar automaticamente 4d8 de dano necrótico ao alvo. A magia termina se você usa sua ação para fazer qualquer outra coisa, se o alvo estiver fora do alcance da magia ou se o alvo tiver cobertura total contra você.",
+      "Sempre que a magia causar dano a um alvo, você recupera pontos de vida iguais à metade da quantidade de dano necrótico que o alvo sofre.",
+      "Em Níveis Superiores. Quando você conjura essa magia usando um espaço de magia de 6° nível ou superior, o dano aumenta em 1d8 para cada nível do espaço de magia acima do 5°."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 155,
+    "page": 156,
+    "name": "erupção de terra",
+    "level": 3,
+    "school": "transmutação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "36 metros",
+    "components": "V, S, M (um pedaço de obsidiana)",
+    "duration": "Instantânea",
+    "paragraphs": [
+      "Escolha um ponto que você possa ver no solo, dentro do alcance. Uma fonte de terra e pedras se agita e emerge num cubo de 6 metros centrado no ponto. Cada criatura na área deve realizar um teste de resistência de Destreza. Uma criatura sofre 3d12 de dano de concussão se falhar na resistência, ou metade desse dano se obtiver sucesso. Adicionalmente, o solo na área se torna terreno difícil até ser limpo. Cada porção de 1,5 metros quadrados da área requer pelo menos 1 minuto para ser limpa manualmente.",
+      "Em Níveis Superiores. Quando você conjura essa magia usando um espaço de magia de 4° nível ou superior, o dano aumenta em 1d12 para cada nível do espaço acima do 3°."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 155,
+    "page": 156,
+    "name": "escuridão enlouquecedora",
+    "level": 8,
+    "school": "evocação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "45 metros",
+    "components": "V, M (uma gota de piche misturada com uma gota de mercúrio)",
+    "duration": "Concentração, até 10 minutos",
+    "paragraphs": [
+      "A escuridão mágica se espalha a partir de um ponto que você escolher dentro do alcance para preencher uma esfera de 18 metros de raio até que a magia termina. A escuridão se espalha em torno dos cantos. Uma criatura com visão no escuro não pode ver através dessa escuridão. Luz não mágica, bem como luz criada por magias de 8º nível ou inferior, não pode iluminar a área.",
+      "Grunhidos, balbuciações e risadas loucas podem ser ouvidos dentro da esfera. Sempre que uma criatura começa a sua vez na esfera, deve fazer um teste de resistência de Sabedoria, sofrendo 8d8 de dano psíquico em um teste falho, ou metade do dano em um sucesso."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 156,
+    "page": 157,
+    "name": "esfera cáustica",
+    "level": 4,
+    "school": "evocação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "45 metros",
+    "components": "V, S, M (uma gota de bile de lesma gigante)",
+    "duration": "Instantânea",
+    "paragraphs": [
+      "Você aponta um lugar dentro do alcance, e uma bola brilhante de 30 centímetros de ácido esmeralda atinge o ponto e explode num raio de 6 metros. Cada criatura na área deve realizar um teste de resistência de Destreza. Se falhar na resistência, uma criatura sofre 10d4 de dano de ácido e 5d4 de dano de ácido no final do próximo turno dela. Se obtiver sucesso, a criatura sofre metade do dano inicial e não sofre dano no final do próximo turno dela.",
+      "Em Níveis Superiores. Quando você conjura essa magia usando um espaço de magia de 5° nível ou superior, o dano inicial aumenta em 2d4 para cada nível do espaço acima do 4°."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 157,
+    "page": 158,
+    "name": "fortaleza poderosa",
+    "level": 8,
+    "school": "conjuração",
+    "ritual": false,
+    "casting_time": "1 minuto",
+    "range": "1,5 quilômetros",
+    "components": "V, S, M (um diamante valendo, no mínimo, 500po que a magia consome)",
+    "duration": "Instantânea",
+    "paragraphs": [
+      "Uma fortaleza de pedra irrompe de uma área quadrada do chão da sua escolha que você pode ver dentro do alcance. A área tem 36 metros em cada lado, e não deve ter nenhum edifício ou outras estruturas sobre ele. Qualquer criatura na área é inofensivamente levantada à medida que a fortaleza se ergue.",
+      "A fortaleza possui quatro torres com bases quadradas, cada uma com 6 metros de comprimento e 9 metros de altura, com uma torre em cada canto. As torres estão conectadas entre si por paredes de pedra que tem 24 metros de comprimento cada, criando uma área fechada. Cada parede tem 30 centímetros de espessura e é composta por painéis de 3 metros de largura e 6 metros de altura. Cada painel é contíguo com outros dois painéis ou outro painel e uma torre. Você pode colocar até quatro portas de pedra na parede exterior da fortaleza.",
+      "Um pequeno forte fica dentro da área fechada. O forte tem uma base quadrada de 15 metros de cada lado, e tem três pisos com tetos de 3 metros de altura. Cada um dos pisos podem ser divididos em tantos quartos quanto quiser, desde que cada quarto seja pelo menos 1,5 metros de cada lado. Os pisos da torre estão conectados por escadas de pedra, suas paredes tem 6 centímetros de espessura, e os quartos interiores podem ter portas de pedra ou arcos abertos conforme você escolher. O forte é mobiliado e decorado conforme você quiser, e contém comida suficiente para servir um banquete de nove cursos para até 100 pessoas por dia. Mobília, comida e outros objetos criados por esta magia desmorona em pó se removidos da fortaleza.",
+      "Uma equipe de cem servos invisíveis obedece a qualquer comando atribuído a eles pelas criaturas que você designa quando você conjura a magia. Cada servo funciona como se criado pela magia servo invisível.",
+      "As paredes, torres e forte são todos feitos de pedra que podem ser danificados. Cada seção de 3 metros por 3 metros de pedra tem CA 15 e 30 pontos de vida para cada 1,54 centímetros de espessura. Ele é imune a veneno e a dano psíquico. Reduzir uma seção de pedra para 0 pontos de vida destrói-a e pode fazer com que as seções conectadas colapsem, a critério do mestre.",
+      "Após 7 dias, ou quando você conjurar esta magia em algum outro lugar, a fortaleza se desintegra e afunda inofensivamente no chão, deixando as criaturas que estavam dentro dela seguramente no chão.",
+      "Conjurar essa magia no mesmo local uma vez a cada 7 dias por um ano torna a fortaleza permanente."
+    ]
+  },
+  {
+    "book": "LJF",
+    "pdf_page": 289,
+    "page": 290,
+    "name": "zona da verdade",
+    "level": 2,
+    "school": "encantamento",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "18 metros",
+    "components": "V, S",
+    "duration": "10 minutos",
+    "paragraphs": [
+      "Você cria uma zona mágica protegida contra enganação, numa esfera com 4,5 metros de raio, centrada num ponto, à sua escolha, dentro do alcance. Até a magia acabar, uma criatura que entrar na área da magia pela primeira vez num turno ou começar seu turno nela, deve realizar um teste de resistência de Carisma. Se falhar na resistência, a criatura não poderá mentir deliberadamente enquanto estiver no raio. Você saberá cada criatura que passou ou falhou nesse teste de resistência.",
+      "Uma criatura afetada está ciente da magia e pode, portanto, evitar responder perguntas as quais ela normalmente responderia com uma mentira. Tais criaturas podem ser evasivas em suas respostas, contanto que permaneçam dentro dos limites da verdade."
+    ]
+  },
+  {
+    "book": "CTCT",
+    "pdf_page": 108,
+    "page": 107,
+    "name": "infusão cáustica da Tasha",
+    "level": 1,
+    "school": "evocação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "Pessoal (linha de 9 metros)",
+    "components": "V, S, M (um pouco de comida podre)",
+    "duration": "Concentração, até 1 minuto",
+    "paragraphs": [
+      "Um vapor ácido emana de você em uma linha de 9 metros de comprimento por 1,5 metro de largura na direção escolhida. Cada criatura nesta linha deve ser bem-sucedida em uma salvaguarda de Destreza, caso contrário será coberta por ácido enquanto a magia durar, ou até que uma criatura use uma ação para raspar ou lavar o ácido de si mesma ou de outra criatura. Uma criatura coberta de ácido sofre 2d4 pontos de dano ácido no início de cada um dos turnos dela.",
+      "Em Círculos Superiores. Ao conjurar esta magia usando um espaço de magia de 2º círculo ou superior, o dano aumenta em 2d4 para cada círculo do espaço acima do 1º."
+    ],
+    "replaces": ["infusão cáustica da tasha"]
+  },
+  {
+    "book": "CTCT",
+    "pdf_page": 115,
+    "page": 114,
+    "name": "lâmina volátil",
+    "level": 0,
+    "school": "evocação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "Pessoal (4,5 metros de raio)",
+    "components": "S, M (uma arma de combate corpo a corpo com valor mínimo de 1 PP)",
+    "duration": "1 rodada",
+    "paragraphs": [
+      "Você empunha a arma usada na conjuração da magia e realiza um ataque corpo a corpo contra uma criatura que esteja a até 1,5 m de você. Se acertar, o alvo sofre os efeitos normais do ataque da arma e então fica envolto em energia explosiva até o início de seu próximo turno. Se o alvo se mover voluntariamente 1,5 m ou mais antes disso, sofre 1d8 pontos de dano trovejante e a magia se encerra.",
+      "O dano desta magia aumenta quando você atinge certos níveis. No 5º nível, o ataque corpo a corpo causa 1d8 pontos de dano trovejante adicionais e o dano que o alvo sofre ao se mover aumenta para 2d8. Ambas as jogadas de dano aumentam em 1d8 no 11º nível (2d8 e 3d8) e novamente no 17º nível (3d8 e 4d8)."
+    ]
+  },
+  {
+    "book": "CTCT",
+    "pdf_page": 116,
+    "page": 115,
+    "name": "talho mental",
+    "level": 0,
+    "school": "encantamento",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "18 metros",
+    "components": "V",
+    "duration": "1 rodada",
+    "paragraphs": [
+      "Você desfere um pico desorientador de energia psíquica na mente de uma criatura à sua vista e dentro do alcance. O alvo deve ser bem-sucedido em uma salvaguarda de Inteligência ou sofrerá 1d6 pontos de dano psíquico e deverá subtrair 1d4 da próxima salvaguarda realizada antes do final de seu próximo turno.",
+      "O dano desta magia aumenta em 1d6 quando você atinge certos níveis: 5º nível (2d6), 11º nível (3d6) e 17º nível (4d6)."
+    ]
+  },
+  {
+    "book": "TDF",
+    "pdf_page": 20,
+    "page": 19,
+    "name": "escudo de platina de Fizban",
+    "level": 6,
+    "school": "abjuração",
+    "ritual": false,
+    "casting_time": "1 ação bônus",
+    "range": "18 metros",
+    "components": "V, S, M (uma escama de dragão banhada em platina, valendo pelo menos 500 PO)",
+    "duration": "Concentração, até 1 minuto",
+    "paragraphs": [
+      "Você cria um campo de luz prateada que envolve uma criatura de sua escolha dentro do alcance (você pode escolher a si mesmo). O campo emite meia-luz até 1,5 metro. Enquanto estiver cercada pelo campo, uma criatura ganha os seguintes benefícios:",
+      "Cobertura. A criatura tem cobertura parcial.",
+      "Resistência a Dano. A criatura tem resistência a dano ácido, elétrico, gélido, ígneo e venenoso.",
+      "Evasão. Se a criatura for submetida a um efeito que lhe permita realizar uma salvaguarda de Destreza para reduzir o dano à metade, ela não sofrerá dano se for bem-sucedida na salvaguarda e apenas a metade do dano se falhar.",
+      "Como uma ação bônus nos turnos subsequentes, você pode mover o campo para outra criatura a até 18 metros do campo."
+    ],
+    "replaces": ["escudo de platina de fizban"]
+  },
+  {
+    "book": "TDF",
+    "pdf_page": 21,
+    "page": 20,
+    "name": "invocar espírito dracônico",
+    "level": 5,
+    "school": "invocação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "18 metros",
+    "components": "V, S, M (um objeto com a imagem de um dragão gravada nele, valendo pelo menos 500 PO)",
+    "duration": "Concentração, até 1 hora",
+    "paragraphs": [
+      "Você invoca um espírito dracônico. Ele se manifesta em um espaço desocupado à sua vista e dentro do alcance. Esta forma corpórea usa o bloco de estatísticas do Espírito Dracônico. Ao conjurar esta magia, escolha uma família de dragão: cromática, gema ou metálica. A criatura se assemelha a um dragão da família escolhida, o que determina certas características em seu bloco de estatísticas. A criatura desaparece quando chega a 0 ponto de vida ou quando a magia termina.",
+      "A criatura é uma aliada para você e seus companheiros. Em combate, a criatura compartilha sua contagem de iniciativa, mas faz o próprio turno imediatamente após o seu. Ela obedece aos seus comandos verbais (nenhuma ação necessária por você). Se você não der nenhum comando, ela faz a ação de Esquivar e usa seu movimento para evitar o perigo.",
+      "Em Círculos Superiores. Quando você conjurar esta magia usando um espaço de magia de 6º círculo ou superior, use o círculo mais alto onde quer que o círculo da magia apareça no bloco de estatísticas."
+    ],
+    "statblock_html": "<div class=\"statblock\"><p><strong>Espírito Dracônico</strong><br><em>Dragão Grande, neutro</em></p><p><strong>Classe de Armadura</strong> 14 + o círculo da magia (armadura natural)<br><strong>Pontos de Vida</strong> 50 + 10 para cada círculo de magia acima do 5º (o dragão tem um número de Dados de Vida [d10s] igual ao círculo da magia)<br><strong>Deslocamento</strong> 9 m, voo 18 m, natação 9 m</p><table><thead><tr><th>FOR</th><th>DES</th><th>CON</th><th>INT</th><th>SAB</th><th>CAR</th></tr></thead><tbody><tr><td>19 (+4)</td><td>14 (+2)</td><td>17 (+3)</td><td>10 (+0)</td><td>14 (+2)</td><td>14 (+2)</td></tr></tbody></table><p><strong>Resistências a Dano</strong> (apenas cromáticos e metálicos) ácido, elétrico, gélido, ígneo, venenoso<br><strong>Resistências a Dano</strong> (apenas gemas) energético, necrótico, psíquico, radiante, trovejante<br><strong>Imunidades à Condição</strong> amedrontado, enfeitiçado, envenenado<br><strong>Sentidos</strong> visão às cegas 9 m, visão no escuro 18 m, Percepção passiva 12<br><strong>Idiomas</strong> Dracônico, entende os idiomas que você fala<br><strong>Desafio</strong> — &nbsp; <strong>Bônus de Proficiência</strong> igual ao seu bônus</p><p><em><strong>Resistências Compartilhadas.</strong></em> Ao invocar o dragão, escolha uma de suas resistências a dano. Você ganha resistência ao tipo de dano escolhido até o fim da magia.</p><p><strong>Ações</strong></p><p><em><strong>Ataques Múltiplos.</strong></em> O dragão faz um número de ataques de Rasgar igual à metade do círculo da magia (arredondado para baixo) e usa Sopro.</p><p><em><strong>Rasgar.</strong></em> <em>Arma de Combate Corpo a Corpo:</em> seu modificador de ataque mágico para acertar, alcance 3 m, um alvo. <em>Dano:</em> 1d6 + 4 + círculo da magia perfurante.</p><p><em><strong>Sopro.</strong></em> O dragão exala energia destrutiva em um cone de 9 metros. Cada criatura nessa área deve fazer uma salvaguarda de Destreza contra sua CD para evitar magia. Uma criatura sofre 2d6 pontos de dano de um tipo ao qual este dragão tenha resistência (à sua escolha) se falhar, ou metade desse dano em caso de sucesso.</p></div>"
+  },
+  {
+    "book": "TDF",
+    "pdf_page": 23,
+    "page": 22,
+    "name": "travessura de Nathair",
+    "level": 2,
+    "school": "ilusão",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "18 metros",
+    "components": "S, M (um pedaço de crosta de uma torta de maçã)",
+    "duration": "Concentração, até 1 minuto",
+    "paragraphs": [
+      "Você preenche um cubo de 6 metros à sua vista e dentro do alcance com magia feérica e dracônica. Jogue na tabela Surto Travesso para determinar o efeito mágico produzido e jogue novamente no início de cada um de seus turnos até que a magia termine. Você pode mover o cubo 3 metros antes de jogar.",
+      "Surto Travesso",
+      "d4 Efeito",
+      "1. O cheiro de torta de maçã enche o ar, e cada criatura no cubo deve ser bem-sucedida em uma salvaguarda de Sabedoria ou ficará enfeitiçada por você até o começo do seu próximo turno.",
+      "2. Buquês de flores aparecem por todo lugar, e cada criatura no cubo deve ser bem-sucedida em uma salvaguarda de Destreza ou ficará cega até o começo do seu próximo turno enquanto as flores espirram água em seus rostos.",
+      "3. Cada criatura no cubo deve ser bem-sucedida em uma salvaguarda de Sabedoria ou começará a rir até o começo do seu próximo turno. Uma criatura que esteja rindo fica incapacitada e usa todo seu deslocamento para se mover em uma direção aleatória.",
+      "4. Gotas de melaço pairam no cubo, tornando-o terreno difícil até o começo do seu próximo turno."
+    ],
+    "replaces": ["travessura de nathair"]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 158,
+    "page": 159,
+    "name": "gaiola da alma",
+    "replaces": ["� -- s \\ \\ ll .... 0"],
+    "level": 6,
+    "school": "necromancia",
+    "ritual": false,
+    "casting_time": "1 reação, que você faz quando um humanoide que você pode ver dentro de 18 metros de você morre",
+    "range": "18 metros",
+    "components": "V, S, M (uma pequena jaula de prata valendo, no mínimo, 100po)",
+    "duration": "8 horas",
+    "paragraphs": [
+      "Esta magia arrebata a alma de um humanoide à medida que ele morre e o aprisiona dentro da pequena gaiola que você usa para o componente material. Uma alma roubada permanece dentro da gaiola até a magia terminar ou até que você destrua a gaiola, o que termina a magia. Enquanto você tem uma alma dentro da gaiola, você pode explorá-la de qualquer maneira descrita abaixo. Você pode usar uma alma presa até seis vezes. Depois de explorar uma alma pela sexta vez, ela é liberada e a magia termina. Enquanto uma alma está presa, o humanoide morto de que ela veio não pode ser revivido.",
+      "Roubar a Vida. Você pode usar uma ação bônus para drenar o vigor da alma e recuperar 2d8 pontos de vida.",
+      "Consultar Alma. Você faz uma pergunta à alma (não é necessária uma ação) e recebe uma breve resposta telepática, que você pode entender, independentemente do idioma usado. A alma só conhece o que sabia na vida, mas deve responder com sinceridade e ao melhor de suas habilidades. A resposta não é mais do que uma frase ou duas e pode ser enigmática.",
+      "Emprestar Perícia. Você pode usar uma ação bônus para reforçar-se com a experiência de vida da alma, fazendo sua próxima rolagem de ataque, verificação de habilidade ou teste de resistência. Se você não usar esse benefício antes do início do próximo turno, ele se perde.",
+      "Olhos dos Mortos. Você pode usar uma ação para nomear um lugar que o humanoide viu na vida, o que cria um sensor invisível em algum lugar nesse local se estiver no plano da existência em que você está atualmente. O sensor permanece durante todo o tempo que você se concentra, até 10 minutos (como se estivesse se concentrando em uma magia). Você recebe informações visuais e auditivas do sensor como se estivesse no seu espaço usando seus sentidos.",
+      "Uma criatura que pode ver o sensor (como um usando ver o invisível ou visão da verdade) vê uma imagem translúcida do humanoide atormentado cuja alma você enjaulou."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 159,
+    "page": 160,
+    "name": "grito psíquico",
+    "level": 9,
+    "school": "encantamento",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "27 metros",
+    "components": "S",
+    "duration": "Instantânea",
+    "paragraphs": [
+      "Você libera o poder de sua mente para explodir o intelecto de até dez criaturas a sua escolha que você possa ver dentro do alcance. Criaturas que tenham uma pontuação de Inteligência de 2 ou inferior não são afetadas.",
+      "Cada alvo deve fazer um teste de resistência de Inteligência. Em um teste falho, um alvo recebe 14d6 dano psíquico e fica atordoado. Em um teste bem sucedido, um alvo leva metade do dano e não fica atordoado. Se um alvo for morto por esse dano, sua cabeça explode, assumindo que tenha uma.",
+      "Um alvo atordoado pode fazer um teste de resistência de Inteligência no final de cada uma de seus turnos. Em um sucesso, o efeito atordoante termina."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 162,
+    "page": 163,
+    "name": "manto de pedra",
+    "level": 6,
+    "school": "transmutação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "Pessoal",
+    "components": "V, S",
+    "duration": "Concentração, até 1 minuto",
+    "paragraphs": [
+      "Até a magia acabar, pedaços de pedra espalham-se pelo seu corpo, e você ganha os seguintes benefícios:",
+      "• Você tem resistência a dano de concussão, cortante e perfurante de armas não mágicas.",
+      "• Você pode usar sua ação para criar um pequeno terremoto no solo num raio de 4,5 metros, centrado em você. Outras criaturas no solo devem ser bem sucedidas num teste de resistência de Destreza ou cairão no chão.",
+      "• Você pode se mover através de terreno difícil feito de terra ou rocha sem gastar movimento extra. Você pode se mover através de terra sólida ou rocha como se fosse ar e sem se desestabilizar, mas você não pode terminar seu movimento nela. Se você o fizer, você será ejetado para o espaço desocupado mais próximo, a magia acaba e você fica atordoado até o final do seu próximo turno."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 167,
+    "page": 168,
+    "name": "prisão mental",
+    "level": 6,
+    "school": "ilusão",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "18 metros",
+    "components": "S",
+    "duration": "Concentração, até 1 minuto",
+    "paragraphs": [
+      "Você tenta prender uma criatura dentro de uma célula ilusória que só ele percebe. Uma criatura que você pode ver dentro do alcance deve fazer um teste de resistência de inteligência. O alvo é bem sucedido automaticamente se ele for imune a ser encantado. Em um teste bem bem-sucedido, o alvo sofre 5d10 de dano psíquico e a magia termina. Em um teste com falha, o alvo leva 5d10 dano psíquico, e você faz com que a área imediatamente ao redor do espaço do alvo pareça perigosa para ele de alguma maneira. Você pode fazer com que o alvo perceber-se como cercado por fogo, lâminas flutuantes ou mandíbulas horríveis preenchidas de dentes gotejantes. Seja qual for a forma que leva a ilusão, o alvo não pode ver ou ouvir qualquer coisa para além dela e fica impedido pela duração da magia. Se o alvo for removido da ilusão, fizer um ataque corpo a corpo através dela, ou estender qualquer parte do seu corpo através dela, o alvo recebe 10d10 de dano psíquico e a magia termina."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 168,
+    "page": 169,
+    "name": "resplendor enjoativo",
+    "level": 4,
+    "school": "evocação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "36 metros",
+    "components": "V, S",
+    "duration": "Concentração, até 10 minutos",
+    "paragraphs": [
+      "A luz fraca esverdeada se espalha dentro de uma esfera de 9 metros de raio centrada em um ponto que você escolher dentro do alcance. A luz se espalha em torno dos cantos e dura até a magia terminar.",
+      "Quando uma criatura se move para a área da magia pela primeira vez em um turno ou começa a sua vez nela, essa criatura deve ter sucesso em um teste de resistência de Constituição ou sofre 4d10 de dano radiante, e sofre um nível de exaustão e emite uma luz fraca e esverdeada em um raio de 1,5 metros. Esta luz torna impossível que a criatura se beneficie de ser invisível. A luz e os níveis de exaustão causados por esta magia desaparecem quando a magia termina."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 169,
+    "page": 170,
+    "name": "templo dos deuses",
+    "level": 7,
+    "school": "conjuração",
+    "ritual": false,
+    "casting_time": "1 hora",
+    "range": "36 metros",
+    "components": "V, S, M (um símbolo sagrado valendo, no mínimo, 5po)",
+    "duration": "24 horas",
+    "paragraphs": [
+      "Você faz com que um templo brilhe para existência em solo que você pode ver dentro do alcance. O templo deve caber dentro de um cubo de espaço desocupado, de até 36 metros de cada lado. O templo permanece até a magia terminar. É dedicado a qualquer deus, panteão ou filosofia representado pelo símbolo sagrado usado na conjuração.",
+      "Você toma as decisões sobre a aparência do templo. O interior é fechado por um piso, paredes e um telhado, com uma porta que concede acesso ao interior e tantas janelas quanto desejar. Somente você e todas as criaturas que você designar quando conjurar a magia podem abrir ou fechar a porta.",
+      "O interior do templo é um espaço aberto com ídolo ou altar em uma extremidade. Você decide se o templo está iluminado e se essa iluminação é luz brilhante ou luz fraca. O cheiro de incenso incisivo preenche o ar e a temperatura é suave.",
+      "O templo opõe-se aos tipos de criaturas que você escolhe quando conjurou esta magia. Escolha um ou mais dos seguintes: celestiais, elementais, fadas, demônios ou mortos-vivos. Se uma criatura do tipo escolhido tenta entrar no templo, essa criatura deve fazer um teste de resistência de Carisma. Em um teste com falha, ela não pode entrar no templo por 24 horas. Mesmo que a criatura possa entrar no templo, a magia o entrava; sempre que ela fizer uma rolagem de ataque, uma verificação de habilidade ou um teste de resistência dentro do templo, ele deve rolar um d4 e subtrair o número rolado da rolagem de um d20.",
+      "Além disso, os sensores criados por magias de adivinhação não podem aparecer dentro do templo, e as criaturas dentro não podem ser alvo de magias de adivinhação.",
+      "Finalmente, sempre que qualquer criatura no templo recuperar pontos de vida a partir de uma magia de 1° nível ou superior, a criatura recupera pontos de vida adicionais iguais ao seu modificador de Sabedoria (mínimo 1 ponto de vida).",
+      "O templo é feito de força mágica opaca que se estende no plano etéreo, bloqueando assim a viagem etérea para o interior do templo. Nada pode passar fisicamente pelo exterior do templo. Ele não pode ser dissipado por dissipar magia e campo antimagia não tem efeito sobre ele. Uma magia desintegrar destrói o templo instantaneamente.",
+      "Ao conjurar esta magia no mesmo local todos os dias durante um ano, torna este efeito permanente."
+    ]
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 170,
+    "page": 171,
+    "name": "vínculo com a besta",
+    "level": 1,
+    "school": "adivinhação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "Toque",
+    "components": "V, S, M (um tufo de pelos envolto por um pano)",
+    "duration": "Concentração, até 10 minutos",
+    "paragraphs": [
+      "Você estabelece um elo telepático com uma besta que você tocar que seja amigável a você ou que esteja enfeitiçada por você. A magia falha se o valor de Inteligência da besta for 4 ou maior. Até a magia acabar, o elo permanece ativo contato que você e a besta tenham linha de visão um do outro. Através do elo, a besta pode compreender suas mensagens telepáticas para ela e pode comunicar telepaticamente emoções e conceitos simples de volta para você. Enquanto o elo estiver ativo, a besta ganha vantagem nas jogadas de ataque contra qualquer criatura a até 1,5 metros de você que você possa ver."
+    ]
+  },
+  {
+    "book": "CTCT",
+    "pdf_page": 110,
+    "page": 109,
+    "name": "invocar celestial",
+    "level": 5,
+    "school": "invocação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "27 metros",
+    "components": "V, S, M (um relicário de ouro com valor mínimo de 500 PO)",
+    "duration": "Concentração, até 1 hora",
+    "paragraphs": [
+      "Você invoca um espírito celestial. Ele se manifesta em uma forma angelical, em um espaço desocupado à sua vista e dentro do alcance da magia. Esta forma corpórea usa o bloco de estatísticas espírito celestial. Ao conjurar a magia, escolha entre vingador ou defensor. Sua escolha determina o ataque da criatura no bloco de estatísticas. A criatura desaparece quando seus pontos de vida chegam a 0 ou quando a magia termina.",
+      "A criatura é uma aliada para você e seus companheiros. Em combate, a criatura compartilha sua contagem de iniciativa, mas o turno dela é imediatamente depois do seu. Ela obedece aos seus comandos verbais (nenhuma ação necessária de sua parte). Se você não emitir nenhum, ela executa a ação Esquivar e usa seu movimento para evitar o perigo.",
+      "Em Círculos Superiores. Ao conjurar esta magia usando um espaço de magia de 6o círculo ou superior, use o círculo mais alto sempre que o círculo da magia é mencionado no bloco de estatísticas."
+    ],
+    "replaces": ["i nvocar celestial"],
+    "statblock_html": "<div class=\"statblock\"><p><strong>Espírito Celestial</strong><br><em>Celestial Grande</em></p><p><strong>Classe de Armadura</strong> 11 + círculo da magia (armadura natural) + 2 (apenas defensor)<br><strong>Pontos de Vida</strong> 40 + 10 para cada círculo da magia acima do 5º<br><strong>Deslocamento</strong> 9 m, voo 12 m</p><table><thead><tr><th>FOR</th><th>DES</th><th>CON</th><th>INT</th><th>SAB</th><th>CAR</th></tr></thead><tbody><tr><td>16 (+3)</td><td>14 (+2)</td><td>16 (+3)</td><td>10 (+0)</td><td>14 (+2)</td><td>16 (+3)</td></tr></tbody></table><p><strong>Resistências a Dano</strong> radiante<br><strong>Imunidades à Condição</strong> amedrontado, enfeitiçado<br><strong>Sentidos</strong> visão no escuro 18 m, Percepção passiva 12<br><strong>Idiomas</strong> Celestial, entende os idiomas que você fala<br><strong>Desafio</strong> — &nbsp; <strong>Bônus de Proficiência</strong> igual ao seu bônus</p><p><strong>Ações</strong></p><p><em><strong>Ataques Múltiplos.</strong></em> O celestial faz um número de ataques igual à metade do círculo da magia (arredondado para baixo).</p><p><em><strong>Arco Radiante (somente vingador).</strong></em> <em>Arma de Combate à Distância:</em> seu modificador de ataque mágico para acertar, alcance 45/180 m, um alvo. <em>Dano:</em> 2d6 + 2 + círculo da magia radiante.</p><p><em><strong>Maça Radiante (apenas defensor).</strong></em> <em>Arma de Combate Corpo a Corpo:</em> seu modificador de ataque mágico para acertar, alcance 1,5 m, um alvo. <em>Dano:</em> 1d10 + 3 + círculo da magia radiante, e o celestial pode escolher a si mesmo ou a outra criatura que ele possa ver e que esteja a até 3 metros do alvo. A criatura escolhida ganha 1d10 pontos de vida temporários.</p><p><em><strong>Toque Cicatrizante (1/dia).</strong></em> O celestial toca outra criatura. O alvo recupera magicamente uma quantidade de pontos de vida igual a 2d8 + o círculo da magia.</p></div>"
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 166,
+    "page": 167,
+    "name": "pequeno servo",
+    "level": 3,
+    "school": "transmutação",
+    "ritual": false,
+    "casting_time": "1 minutos",
+    "range": "Toque",
+    "components": "V, S",
+    "duration": "8 horas",
+    "paragraphs": [
+      "Você toca um objeto minúsculo não mágico que não está ligado a outro objeto ou a uma superfície e não está sendo carregado por outra criatura. O alvo anima e brota pequenos braços e pernas, tornando-se uma criatura sob seu controle até a magia terminar ou a criatura cai para 0 pontos de vida. Veja o bloco de estatísticas para o pequeno servo (na página 169). Como uma ação bônus, você pode comandar mentalmente a criatura se estiver a menos de 36 metros de você. (Se você controla múltiplas criaturas com esta magia, você pode comandar qualquer uma ou todas elas ao mesmo tempo, emitindo o mesmo comando a cada uma.) Você decide quais ações a criatura irá tomar e para onde ela se moverá durante seu próximo turno, ou você pode emitir um comando geral simples, de modo a buscar uma chave, ficar de guarda, ou empilhar alguns livros. Se você não emitir nenhum comando, o servo não faz nada além de se defender contra criaturas hostis. Uma vez que uma ordem é dada, o servo continua a seguir essa ordem até que sua tarefa esteja completa.",
+      "Quando a criatura cai para 0 pontos de vida, ela retorna à sua forma original, e qualquer dano restante vaza para a essa forma.",
+      "Em Níveis Superiores. Quando você conjura essa magia usando um espaço de magia de 4 º nível ou superior, você pode animar dois objetos adicionais para cada nível do espaço de magia acima do 3 º ."
+    ],
+    "statblock_html": "<div class=\"statblock\"><p><strong>Pequeno Servo</strong><br><em>Construto minúsculo, sem alinhamento</em></p><p><strong>Classe de Armadura</strong> 15 (armadura natural)<br><strong>Pontos de Vida</strong> 10 (4d4)<br><strong>Deslocamento</strong> 9m, escalar 9m</p><table><thead><tr><th>FOR</th><th>DES</th><th>CON</th><th>INT</th><th>SAB</th><th>CAR</th></tr></thead><tbody><tr><td>4 (-3)</td><td>16 (+3)</td><td>10 (+0)</td><td>2 (-4)</td><td>10 (+0)</td><td>1 (-5)</td></tr></tbody></table><p><strong>Imunidades a Danos</strong> veneno, psíquico<br><strong>Imunidades a Condições</strong> cego, encantado, surdo, exausto, amedrontado, paralisado, petrificado, envenenado<br><strong>Sentidos</strong> visão às cegas 18m (cego para além desse raio), Percepção passiva 10<br><strong>Idiomas</strong> –</p><p><strong>Ações</strong></p><p><em><strong>Pancada.</strong></em> <em>Ataque Corpo-a-Corpo com Arma:</em> +5 para atingir, alcance 1,5m, um alvo. <em>Acerto:</em> 5 (1d4 + 3) de dano de concussão.</p></div>"
+  },
+  {
+    "book": "GXF",
+    "pdf_page": 167,
+    "page": 168,
+    "name": "raio de caos",
+    "level": 1,
+    "school": "evocação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "36 metros",
+    "components": "V, S",
+    "duration": "Instantânea",
+    "paragraphs": [
+      "Você conjura uma massa ondulante de energia caótica em uma criatura no alcance. Faça um ataque a distância com magia contra o alvo. Se atingir, o alvo leva 2d8 + ld6 de dano. Escolha um dos d8s. O número rolado nesse dado determina o tipo de dano do ataque, como mostrado abaixo.",
+      "d8 / Tipo de Dano: 1 Ácido, 2 Frio, 3 Fogo, 4 Energia, 5 Elétrico, 6 Veneno, 7 Psíquico, 8 Trovejante.",
+      "Se você rolar o mesmo número em ambos os d8s, a energia caótica salta do alvo para uma criatura diferente a sua escolha dentro de 9 metros de distância. Faça uma nova rolagem de ataque contra o novo alvo, e faça uma nova rolagem de danos, o que pode fazer com que a energia caótica salte novamente.",
+      "Em Níveis Superiores. Quando você conjura essa magia usando um espaço de magia de 2 º nível ou superior, o dano aumenta em ld6 para cada nível do espaço acima do 1 º ."
+    ]
+  },
+  {
+    "book": "CTCT",
+    "pdf_page": 110,
+    "page": 109,
+    "name": "invocar aberração",
+    "level": 4,
+    "school": "invocação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "27 metros",
+    "components": "V, S, M (um tentáculo em conserva e um globo ocular dentro de um frasco banhado a platina no valor mínimo de 400 PO)",
+    "duration": "Concentração, até 1 hora",
+    "replaces": ["i nvocar aberração"],
+    "paragraphs": [
+      "Você invoca um espírito aberrante. Ele se manifesta em um espaço desocupado à sua vista e dentro do alcance da magia. Esta forma corpórea usa o bloco de estatísticas espírito aberrante. Ao conjurar a magia, escolha entre pseudo-observador, slaad ou prole estelar. A criatura se assemelha a uma aberração do tipo escolhido, o que também determina alguns traços de seu bloco de estatísticas. A criatura desaparece quando seus pontos de vida chegam a 0 ou quando a magia termina.",
+      "A criatura é uma aliada para você e seus companheiros. Em combate, a criatura compartilha sua contagem de iniciativa, mas o turno dela é imediatamente depois do seu. Ela obedece aos seus comandos verbais (nenhuma ação necessária de sua parte). Se você não emitir nenhum, ela executa a ação Esquivar e usa seu movimento para evitar o perigo.",
+      "Em Círculos Superiores. Ao conjurar esta magia usando um espaço de magia de 5º círculo ou superior, use o círculo mais alto sempre que o círculo da magia é mencionado no bloco de estatísticas."
+    ],
+    "statblock_html": "<div class=\"statblock\"><p><strong>Espírito Aberrante</strong><br><em>Aberração Média</em></p><p><strong>Classe de Armadura</strong> 11 + círculo da magia (armadura natural)<br><strong>Pontos de Vida</strong> 40 + 10 para cada círculo da magia acima do 4º<br><strong>Deslocamento</strong> 15 m, voo 15 m (pairar) (apenas pseudo-observador)</p><table><thead><tr><th>FOR</th><th>DES</th><th>CON</th><th>INT</th><th>SAB</th><th>CAR</th></tr></thead><tbody><tr><td>16 (+3)</td><td>10 (+0)</td><td>15 (+2)</td><td>16 (+3)</td><td>10 (+0)</td><td>6 (-2)</td></tr></tbody></table><p><strong>Imunidades a Dano</strong> psíquico<br><strong>Sentidos</strong> visão no escuro 18 m, Percepção passiva 10<br><strong>Idiomas</strong> Dialeto Obscuro, entende os idiomas que você fala<br><strong>Desafio</strong> — &nbsp; <strong>Bônus de Proficiência</strong> igual ao seu bônus</p><p><em><strong>Regeneração (apenas slaad).</strong></em> A aberração recupera 5 pontos de vida no início de seu próprio turno se tiver pelo menos 1 ponto de vida.</p><p><em><strong>Aura Sussurrante (apenas prole estelar).</strong></em> No início de cada turno da aberração, cada criatura a até 1,5 metro da aberração deve ser bem-sucedida em uma salvaguarda de Destreza contra a CD da sua salvaguarda de magia ou sofrerá 2d6 pontos de dano psíquico, desde que a aberração não esteja incapacitada.</p><p><strong>Ações</strong></p><p><em><strong>Ataques Múltiplos.</strong></em> A aberração faz um número de ataques igual à metade do círculo da magia (arredondado para baixo).</p><p><em><strong>Garras (apenas slaad).</strong></em> <em>Arma de Combate Corpo a Corpo:</em> seu modificador de ataque mágico para acertar, alcance 1,5 m, um alvo. <em>Dano:</em> 1d10 + 3 + círculo da magia cortante. Se o alvo for uma criatura, ela não poderá recuperar pontos de vida até o começo do próximo turno da aberração.</p><p><em><strong>Raio Ocular (apenas pseudo-observador).</strong></em> <em>Ataque Mágico à Distância:</em> seu modificador de ataque mágico para acertar, alcance 45 m, uma criatura. <em>Dano:</em> 1d8 + 3 + círculo da magia psíquico.</p><p><em><strong>Pancada Psíquica (apenas prole estelar).</strong></em> <em>Ataque Mágico Corpo a Corpo:</em> seu modificador de ataque mágico para acertar, alcance 1,5 m, uma criatura. <em>Dano:</em> 1d8 + 3 + círculo da magia psíquico.</p></div>"
+  },
+  {
+    "book": "CTCT",
+    "pdf_page": 110,
+    "page": 109,
+    "name": "invocar constructo",
+    "level": 4,
+    "school": "invocação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "27 metros",
+    "components": "V, S, M (uma pedra ornamentada e um porta-joias de metal, no valor mínimo de 400 PO)",
+    "duration": "Concentração, até 1 hora",
+    "replaces": ["i nvocar constructo"],
+    "paragraphs": [
+      "Você invoca o espírito de um constructo. Ele se manifesta em um espaço desocupado à sua vista e dentro do alcance da magia. Esta forma corpórea usa o bloco de estatísticas espírito constructo. Ao conjurar a magia, escolha um material: argila, metal ou pedra. A criatura se assemelha a um golem ou modron (você escolhe) feito do material escolhido, o que determina alguns traços de seu bloco de estatísticas. A criatura desaparece quando seus pontos de vida chegam a 0 ou quando a magia termina.",
+      "A criatura é uma aliada para você e seus companheiros. Em combate, a criatura compartilha sua contagem de iniciativa, mas o turno dela é imediatamente depois do seu. Ela obedece aos seus comandos verbais (nenhuma ação necessária de sua parte). Se você não emitir nenhum, ela executa a ação Esquivar e usa seu movimento para evitar o perigo.",
+      "Em Círculos Superiores. Ao conjurar esta magia usando um espaço de magia de 4º círculo ou superior, use o círculo mais alto sempre que o círculo da magia é mencionado no bloco de estatísticas."
+    ],
+    "statblock_html": "<div class=\"statblock\"><p><strong>Espírito Constructo</strong><br><em>Constructo Médio</em></p><p><strong>Classe de Armadura</strong> 13 + círculo da magia (armadura natural)<br><strong>Pontos de Vida</strong> 40 + 15 para cada círculo da magia acima do 3º<br><strong>Deslocamento</strong> 9 m</p><table><thead><tr><th>FOR</th><th>DES</th><th>CON</th><th>INT</th><th>SAB</th><th>CAR</th></tr></thead><tbody><tr><td>18 (+4)</td><td>10 (+0)</td><td>18 (+4)</td><td>14 (+2)</td><td>11 (+0)</td><td>5 (-3)</td></tr></tbody></table><p><strong>Resistências a Dano</strong> venenoso<br><strong>Imunidades à Condição</strong> amedrontado, enfeitiçado, envenenado, exausto, incapacitado, paralisado, petrificado<br><strong>Sentidos</strong> visão no escuro 18 m, Percepção passiva 10<br><strong>Idiomas</strong> entende os idiomas que você fala<br><strong>Desafio</strong> — &nbsp; <strong>Bônus de Proficiência</strong> igual ao seu bônus</p><p><em><strong>Corpo Aquecido (somente metal).</strong></em> Uma criatura que tocar o constructo ou acertá-lo com um ataque corpo a corpo enquanto estiver a 1,5 m dele sofre 1d10 pontos de dano ígneo.</p><p><em><strong>Letargia Empedernida (apenas pedra).</strong></em> Quando uma criatura que o constructo possa ver começa seu turno dentro de 3 metros dele, o constructo pode forçá-la a fazer uma salvaguarda de Sabedoria contra sua CD para evitar magia. Se falhar, o alvo não pode executar reações e seu deslocamento é reduzido pela metade até o fim do próximo turno dele.</p><p><strong>Ações</strong></p><p><em><strong>Ataques Múltiplos.</strong></em> O constructo faz um número de ataques igual à metade do círculo da magia (arredondado para baixo).</p><p><em><strong>Pancada.</strong></em> <em>Arma de Combate Corpo a Corpo:</em> seu modificador de ataque mágico para acertar, alcance 1,5 m, um alvo. <em>Dano:</em> 1d8 + 4 + círculo da magia contundente.</p><p><strong>Reações</strong></p><p><em><strong>Reação Violenta (apenas argila).</strong></em> Quando o constructo sofre dano, ele desfere uma pancada contra uma criatura aleatória a até 1,5 m dele. Se nenhuma criatura estiver ao alcance, o constructo se move até a metade de seu deslocamento em direção a um inimigo que ele possa ver, sem provocar ataques de oportunidade.</p></div>"
+  },
+  {
+    "book": "CTCT",
+    "pdf_page": 111,
+    "page": 110,
+    "name": "invocar cria das sombras",
+    "level": 3,
+    "school": "invocação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "27 metros",
+    "components": "V, S, M (lágrimas dentro de uma gema com valor mínimo de 300 PO)",
+    "duration": "Concentração, até 1 hora",
+    "replaces": ["i nvocar cria das sombras"],
+    "paragraphs": [
+      "Você invoca um espírito sombrio. Ele se manifesta em um espaço desocupado à sua vista e dentro do alcance da magia. Esta forma corpórea usa o bloco de estatísticas espírito sombrio. Ao conjurar a magia, escolha uma emoção: fúria, desespero ou medo. A criatura se assemelha a um bípede deformado afetado pela emoção escolhida, o que determina certos traços em seu bloco de estatísticas. A criatura desaparece quando seus pontos de vida chegam a 0 ou quando a magia termina.",
+      "A criatura é uma aliada para você e seus companheiros. Em combate, a criatura compartilha sua contagem de iniciativa, mas o turno dela é imediatamente depois do seu. Ela obedece aos seus comandos verbais (nenhuma ação necessária de sua parte). Se você não emitir nenhum, ela executa a ação Esquivar e usa seu movimento para evitar o perigo.",
+      "Em Círculos Superiores. Ao conjurar esta magia usando um espaço de magia de 4º círculo ou superior, use o círculo mais alto sempre que o círculo da magia é mencionado no bloco de estatísticas."
+    ],
+    "statblock_html": "<div class=\"statblock\"><p><strong>Espírito da Sombra</strong><br><em>Monstruosidade Média</em></p><p><strong>Classe de Armadura</strong> 11 + círculo da magia (armadura natural)<br><strong>Pontos de Vida</strong> 35 + 15 para cada círculo da magia acima do 3º<br><strong>Deslocamento</strong> 12 m</p><table><thead><tr><th>FOR</th><th>DES</th><th>CON</th><th>INT</th><th>SAB</th><th>CAR</th></tr></thead><tbody><tr><td>13 (+1)</td><td>16 (+3)</td><td>15 (+2)</td><td>4 (-3)</td><td>10 (+0)</td><td>16 (+3)</td></tr></tbody></table><p><strong>Resistências a Dano</strong> necrótico<br><strong>Imunidades à Condição</strong> amedrontado<br><strong>Sentidos</strong> visão no escuro 36 m, Percepção passiva 10<br><strong>Idiomas</strong> entende os idiomas que você fala<br><strong>Desafio</strong> — &nbsp; <strong>Bônus de Proficiência</strong> igual ao seu bônus</p><p><em><strong>Frenesi Aterrorizante (apenas fúria).</strong></em> O espírito tem vantagem em jogadas de ataque contra criaturas amedrontadas.</p><p><em><strong>Peso da Tristeza (apenas desespero).</strong></em> Qualquer criatura, exceto você, que comece seu próprio turno a até 3 metros do espírito tem seu deslocamento reduzido em 6 metros, até o começo do próximo turno da criatura.</p><p><strong>Ações</strong></p><p><em><strong>Ataques Múltiplos.</strong></em> O espírito faz um número de ataques igual à metade do círculo da magia (arredondado para baixo).</p><p><em><strong>Talho Gélido.</strong></em> <em>Arma de Combate Corpo a Corpo:</em> seu modificador de ataque mágico para acertar, alcance 1,5 m, um alvo. <em>Dano:</em> 1d12 + 3 + círculo da magia gélido.</p><p><em><strong>Grito Terrível (1/dia).</strong></em> O espírito grita. Cada criatura em um raio de 9 metros deve ser bem-sucedida em uma salvaguarda de Sabedoria contra a sua CD para evitar magia ou ficará com medo do espírito por 1 minuto. A criatura amedrontada pode repetir a salvaguarda no final de cada um dos turnos dela, encerrando o efeito sobre si em caso de sucesso.</p><p><strong>Ações Bônus</strong></p><p><em><strong>Furtividade Sombria (apenas medo).</strong></em> Enquanto em meia-luz ou escuridão, o espírito realiza a ação Esconder-se.</p></div>"
+  },
+  {
+    "book": "CTCT",
+    "pdf_page": 112,
+    "page": 111,
+    "name": "invocar elemental",
+    "level": 4,
+    "school": "invocação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "27 metros",
+    "components": "V, S, M (ar, cinzas, água e um seixo dentro de um frasco banhado em ouro com valor mínimo de 400 PO)",
+    "duration": "Concentração, até 1 hora",
+    "replaces": ["i nvocar elemental"],
+    "paragraphs": [
+      "Você invoca um espírito elemental. Ele se manifesta em um espaço desocupado à sua vista e dentro do alcance da magia. Esta forma corpórea usa o bloco de estatísticas espírito elemental. Ao conjurar a magia, escolha um elemento: ar, terra, fogo ou água. A criatura se assemelha a um bípede envolto pelo elemento escolhido, o que determina alguns traços de seu bloco de estatísticas. A criatura desaparece quando seus pontos de vida chegam a 0 ou quando a magia termina.",
+      "A criatura é uma aliada para você e seus companheiros. Em combate, a criatura compartilha sua contagem de iniciativa, mas o turno dela é imediatamente depois do seu. Ela obedece aos seus comandos verbais (nenhuma ação necessária de sua parte). Se você não emitir nenhum, ela executa a ação Esquivar e usa seu movimento para evitar o perigo.",
+      "Em Círculos Superiores. Ao conjurar esta magia usando um espaço de magia de 5º círculo ou superior, use o círculo mais alto sempre que o círculo da magia é mencionado no bloco de estatísticas."
+    ],
+    "statblock_html": "<div class=\"statblock\"><p><strong>Espírito Elemental</strong><br><em>Elemental Médio</em></p><p><strong>Classe de Armadura</strong> 11 + círculo da magia (armadura natural)<br><strong>Pontos de Vida</strong> 50 + 10 para cada círculo da magia acima do 4º<br><strong>Deslocamento</strong> 12 m, escavar 12 m (apenas terra); voo 12 m (pairar) (apenas ar); natação 12 m (apenas água)</p><table><thead><tr><th>FOR</th><th>DES</th><th>CON</th><th>INT</th><th>SAB</th><th>CAR</th></tr></thead><tbody><tr><td>18 (+4)</td><td>15 (+2)</td><td>17 (+3)</td><td>4 (-3)</td><td>10 (+0)</td><td>16 (+3)</td></tr></tbody></table><p><strong>Resistências a Danos</strong> ácido (apenas água); elétrico e trovejante (apenas ar); perfurante e cortante (apenas terra)<br><strong>Imunidades a Dano</strong> venenoso; ígneo (apenas fogo)<br><strong>Imunidades à Condição</strong> exausto, envenenado, inconsciente, paralisado, petrificado<br><strong>Sentidos</strong> visão no escuro 18 m, Percepção passiva 10<br><strong>Idiomas</strong> Primordial, entende os idiomas que você fala<br><strong>Desafio</strong> — &nbsp; <strong>Bônus de Proficiência</strong> igual ao seu bônus</p><p><em><strong>Estado Amorfo (apenas água, ar e fogo).</strong></em> O elemental pode mover-se através de espaços tão estreitos quanto 2,5 centímetros de largura sem se espremer.</p><p><strong>Ações</strong></p><p><em><strong>Ataques Múltiplos.</strong></em> O elemental faz um número de ataques igual à metade do círculo da magia (arredondado para baixo).</p><p><em><strong>Pancada.</strong></em> <em>Arma de Combate Corpo a Corpo:</em> seu modificador de ataque mágico para acertar, alcance 1,5 m, um alvo. <em>Dano:</em> 1d10 + 4 + círculo da magia contundente (apenas ar, terra e água) ou ígneo (apenas fogo).</p></div>"
+  },
+  {
+    "book": "CTCT",
+    "pdf_page": 112,
+    "page": 111,
+    "name": "invocar feérico",
+    "level": 3,
+    "school": "invocação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "27 metros",
+    "components": "V, S, M (uma flor dourada com valor mínimo de 300 PO)",
+    "duration": "Concentração, até 1 hora",
+    "paragraphs": [
+      "Você invoca um espírito feérico. Ele se manifesta em um espaço desocupado à sua vista e dentro do alcance da magia. Esta forma corpórea usa o bloco de estatísticas espírito feérico. Ao conjurar a magia, escolha um humor: enfurecido, alegre ou malandro. A criatura se assemelha a uma criatura feérica de sua escolha afetada pelo humor escolhido, o que determina alguns traços de seu bloco de estatísticas. A criatura desaparece quando seus pontos de vida chegam a 0 ou quando a magia termina.",
+      "A criatura é uma aliada para você e seus companheiros. Em combate, a criatura compartilha sua contagem de iniciativa, mas o turno dela é imediatamente depois do seu. Ela obedece aos seus comandos verbais (nenhuma ação necessária de sua parte). Se você não emitir nenhum, ela executa a ação Esquivar e usa seu movimento para evitar o perigo.",
+      "Em Círculos Superiores. Ao conjurar esta magia usando um espaço de magia de 4º círculo ou superior, use o círculo mais alto sempre que o círculo da magia é mencionado no bloco de estatísticas."
+    ],
+    "replaces": ["i nvocar feérico"],
+    "statblock_html": "<div class=\"statblock\"><p><strong>Espírito Feérico</strong><br><em>Feérico Pequeno</em></p><p><strong>Classe de Armadura</strong> 12 + círculo da magia (armadura natural)<br><strong>Pontos de Vida</strong> 30 + 10 para cada círculo da magia acima do 3º<br><strong>Deslocamento</strong> 12 m</p><table><thead><tr><th>FOR</th><th>DES</th><th>CON</th><th>INT</th><th>SAB</th><th>CAR</th></tr></thead><tbody><tr><td>13 (+1)</td><td>16 (+3)</td><td>14 (+2)</td><td>14 (+2)</td><td>11 (+0)</td><td>16 (+3)</td></tr></tbody></table><p><strong>Imunidades à Condição</strong> enfeitiçado<br><strong>Sentidos</strong> visão no escuro 18 m, Percepção passiva 10<br><strong>Idiomas</strong> Silvestre, entende os idiomas que você fala<br><strong>Desafio</strong> — &nbsp; <strong>Bônus de Proficiência</strong> igual ao seu bônus</p><p><strong>Ações</strong></p><p><em><strong>Ataques Múltiplos.</strong></em> O feérico faz um número de ataques igual à metade do círculo da magia (arredondado para baixo).</p><p><em><strong>Espada Curta.</strong></em> <em>Arma de Combate Corpo a Corpo:</em> seu modificador de ataque mágico para acertar, alcance 1,5 m, um alvo. <em>Dano:</em> 1d6 + 3 + círculo da magia perfurante + 1d6 energético.</p><p><strong>Ações Bônus</strong></p><p><em><strong>Passo Feérico.</strong></em> O feérico se teleporta magicamente até 9 metros para um espaço desocupado que possa ver. Então um dos seguintes efeitos acontece, com base no humor escolhido:</p><p><em><strong>Enfurecido.</strong></em> O feérico tem vantagem na próxima jogada de ataque que fizer antes do final deste turno.</p><p><em><strong>Alegre.</strong></em> O feérico pode forçar uma criatura que possa ver e esteja a até 3 metros dele a fazer uma salvaguarda de Sabedoria contra sua CD para evitar magia. A menos que a salvaguarda seja bem-sucedida, a criatura é encantada por você e pelo feérico por 1 minuto, ou até o alvo sofrer qualquer dano.</p><p><em><strong>Malandro.</strong></em> O feérico pode preencher um cubo de 1,5 metro a 1,5 metro dele com escuridão mágica, que permanece até o fim do próximo turno dele.</p></div>"
+  },
+  {
+    "book": "CTCT",
+    "pdf_page": 113,
+    "page": 112,
+    "name": "invocar fera",
+    "level": 2,
+    "school": "invocação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "27 metros",
+    "components": "V, S, M (uma pena, um tufo de pelo e um rabo de peixe dentro de uma bolota folheada a ouro, com valor mínimo de 200 PO)",
+    "duration": "Concentração, até 1 hora",
+    "paragraphs": [
+      "Você invoca um espírito bestial. Ele se manifesta em um espaço desocupado à sua vista e dentro do alcance da magia. Esta forma corpórea usa o bloco de estatísticas espírito bestial. Ao conjurar a magia, escolha um ambiente: ar, terra ou água. A criatura se assemelha a um animal à sua escolha, nativo do ambiente escolhido, o que determina alguns traços de seu bloco de estatísticas. A criatura desaparece quando seus pontos de vida chegam a 0 ou quando a magia termina.",
+      "A criatura é uma aliada para você e seus companheiros. Em combate, a criatura compartilha sua contagem de iniciativa, mas o turno dela é imediatamente depois do seu. Ela obedece aos seus comandos verbais (nenhuma ação necessária de sua parte). Se você não emitir nenhum, ela executa a ação Esquivar e usa seu movimento para evitar o perigo.",
+      "Em Círculos Superiores. Ao conjurar esta magia usando um espaço de magia de 3º círculo ou superior, use o círculo mais alto sempre que o círculo da magia é mencionado no bloco de estatísticas."
+    ],
+    "replaces": ["i nvocar fera"],
+    "statblock_html": "<div class=\"statblock\"><p><strong>Espírito Bestial</strong><br><em>Fera Pequena</em></p><p><strong>Classe de Armadura</strong> 11 + círculo da magia (armadura natural)<br><strong>Pontos de Vida</strong> 20 (apenas ar) ou 30 (apenas terra e água) + 5 para cada círculo da magia acima do 2º<br><strong>Deslocamento</strong> 9 m, escalada 9 m (apenas terra); voo 18 m (apenas ar); natação 9 m (apenas água)</p><table><thead><tr><th>FOR</th><th>DES</th><th>CON</th><th>INT</th><th>SAB</th><th>CAR</th></tr></thead><tbody><tr><td>18 (+4)</td><td>11 (+0)</td><td>16 (+3)</td><td>4 (-3)</td><td>14 (+2)</td><td>5 (-3)</td></tr></tbody></table><p><strong>Sentidos</strong> visão no escuro 18 m, Percepção passiva 12<br><strong>Idiomas</strong> entende os idiomas que você fala<br><strong>Desafio</strong> — &nbsp; <strong>Bônus de Proficiência</strong> igual ao seu bônus</p><p><em><strong>Sobrevoo (apenas ar).</strong></em> A fera não provoca ataques de oportunidade quando voa para fora do alcance de um inimigo.</p><p><em><strong>Táticas de Bando (apenas terra e ar).</strong></em> A fera tem vantagem em uma jogada de ataque contra uma criatura se ao menos um de seus aliados, não incapacitado, estiver a até 1,5 metro da mesma criatura.</p><p><em><strong>Respirar na Água (apenas água).</strong></em> A fera só respira sob a água.</p><p><strong>Ações</strong></p><p><em><strong>Ataques Múltiplos.</strong></em> A fera faz um número de ataques igual à metade do círculo da magia (arredondado para baixo).</p><p><em><strong>Malho.</strong></em> <em>Arma de Combate Corpo a Corpo:</em> seu modificador de ataque mágico para acertar, alcance 1,5 m, um alvo. <em>Dano:</em> 1d8 + 4 + círculo da magia perfurante.</p></div>"
+  },
+  {
+    "book": "CTCT",
+    "pdf_page": 113,
+    "page": 112,
+    "name": "invocar ínfero",
+    "level": 6,
+    "school": "invocação",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "27 metros",
+    "components": "V, S, M (sangue de humanoide dentro de um frasco de rubi com valor mínimo de 600 PO)",
+    "duration": "Concentração, até 1 hora",
+    "paragraphs": [
+      "Você invoca um espírito ínfero. Ele se manifesta em um espaço desocupado à sua vista e dentro do alcance da magia. Esta forma corpórea usa o bloco de estatísticas espírito ínfero. Ao conjurar a magia, escolha demônio, diabo ou yugoloth. A criatura se assemelha a um ínfero do tipo escolhido, o que determina alguns traços de seu bloco de estatísticas. A criatura desaparece quando seus pontos de vida chegam a 0 ou quando a magia termina.",
+      "A criatura é uma aliada para você e seus companheiros. Em combate, a criatura compartilha sua contagem de iniciativa, mas o turno dela é imediatamente depois do seu. Ela obedece aos seus comandos verbais (nenhuma ação necessária de sua parte). Se você não emitir nenhum, ela executa a ação Esquivar e usa seu movimento para evitar o perigo.",
+      "Em Círculos Superiores. Ao conjurar esta magia usando um espaço de magia de 7º círculo ou superior, use o círculo mais alto sempre que o círculo da magia é mencionado no bloco de estatísticas."
+    ],
+    "replaces": ["i nvocar ínfero"],
+    "statblock_html": "<div class=\"statblock\"><p><strong>Espírito Ínfero</strong><br><em>Ínfero Grande</em></p><p><strong>Classe de Armadura</strong> 12 + círculo da magia (armadura natural)<br><strong>Pontos de Vida</strong> 50 (apenas demônio), 40 (apenas diabo) ou 60 (apenas yugoloth) + 15 para cada círculo da magia acima do 6º<br><strong>Deslocamento</strong> 12 m, escalada 12 m (apenas demônio); voo 18 m (apenas diabo)</p><table><thead><tr><th>FOR</th><th>DES</th><th>CON</th><th>INT</th><th>SAB</th><th>CAR</th></tr></thead><tbody><tr><td>13 (+1)</td><td>16 (+3)</td><td>15 (+2)</td><td>10 (+0)</td><td>10 (+0)</td><td>16 (+3)</td></tr></tbody></table><p><strong>Resistências a Dano</strong> ígneo<br><strong>Imunidades a Dano</strong> venenoso<br><strong>Imunidades à Condição</strong> envenenado<br><strong>Sentidos</strong> visão no escuro 18 m, Percepção passiva 10<br><strong>Idiomas</strong> Abissal, Infernal, telepatia a até 18 m<br><strong>Desafio</strong> — &nbsp; <strong>Bônus de Proficiência</strong> igual ao seu bônus</p><p><em><strong>Espasmo da Morte (apenas demônio).</strong></em> Quando os pontos de vida do ínfero caem para 0 ou a magia termina, o ínfero explode, e cada criatura a até 3 metros dele deve fazer uma salvaguarda de Destreza contra sua CD para evitar magia. Se falhar, a criatura sofre dano ígneo igual a 2d10 + círculo da magia, ou metade do dano em caso de sucesso.</p><p><em><strong>Visão do Diabo (apenas diabo).</strong></em> Escuridão mágica não impede a visão no escuro do ínfero.</p><p><em><strong>Resistência a Magia.</strong></em> O ínfero tem vantagem nas salvaguardas contra magias e outros efeitos mágicos.</p><p><strong>Ações</strong></p><p><em><strong>Ataques Múltiplos.</strong></em> O ínfero faz um número de ataques igual à metade do círculo da magia (arredondado para baixo).</p><p><em><strong>Mordida (apenas demônio).</strong></em> <em>Arma de Combate Corpo a Corpo:</em> seu modificador de ataque mágico para acertar, alcance 1,5 m, um alvo. <em>Dano:</em> 1d12 + 3 + círculo da magia necrótico.</p><p><em><strong>Garras (apenas yugoloth).</strong></em> <em>Arma de Combate Corpo a Corpo:</em> seu modificador de ataque mágico para acertar, alcance 1,5 m, um alvo. <em>Dano:</em> 1d8 + 3 + círculo da magia cortante. Imediatamente após o ataque, acertando ou não, o ínfero pode se teleportar a até 9 metros para um espaço desocupado que possa ver.</p><p><em><strong>Arremesso de Chamas (apenas diabo).</strong></em> <em>Ataque Mágico à Distância:</em> seu modificador de ataque mágico para acertar, alcance 45 m, um alvo. <em>Dano:</em> 2d6 + 3 + círculo da magia ígneo. Se o alvo for um objeto inflamável que não está sendo usado ou carregado, ele também pega fogo.</p></div>"
+  },
+  {
+    "book": "CTCT",
+    "pdf_page": 113,
+    "page": 112,
+    "name": "invocar morto-vivo",
+    "level": 3,
+    "school": "necromancia",
+    "ritual": false,
+    "casting_time": "1 ação",
+    "range": "27 metros",
+    "components": "V, S, M (um crânio dourado com valor mínimo de 300 PO)",
+    "duration": "Concentração, até 1 hora",
+    "paragraphs": [
+      "Você invoca um espírito morto-vivo. Ele se manifesta em um espaço desocupado à sua vista e dentro do alcance da magia. Esta forma corpórea usa o bloco de estatísticas espírito morto-vivo. Ao conjurar a magia, escolha a forma da criatura: fantasmagórico, pútrido ou esquelético. O espírito se assemelha a um morto-vivo com a forma escolhida, o que determina certos traços em seu bloco de estatísticas. A criatura desaparece quando seus pontos de vida chegam a 0 ou quando a magia termina.",
+      "A criatura é uma aliada para você e seus companheiros. Em combate, a criatura compartilha sua contagem de iniciativa, mas o turno dela é imediatamente depois do seu. Ela obedece aos seus comandos verbais (nenhuma ação necessária de sua parte). Se você não emitir nenhum, ela executa a ação Esquivar e usa seu movimento para evitar o perigo.",
+      "Em Círculos Superiores. Ao conjurar esta magia usando um espaço de magia de 4º círculo ou superior, use o círculo mais alto sempre que o círculo da magia é mencionado no bloco de estatísticas."
+    ],
+    "replaces": ["i nvocar morto - vivo"],
+    "statblock_html": "<div class=\"statblock\"><p><strong>Espírito Morto-vivo</strong><br><em>Morto-vivo Médio</em></p><p><strong>Classe de Armadura</strong> 11 + círculo da magia (armadura natural)<br><strong>Pontos de Vida</strong> 30 (apenas fantasmagórico e pútrido) ou 20 (apenas esqueleto) + 10 para cada círculo da magia acima do 3º<br><strong>Deslocamento</strong> 9 m, voo 12 m (pairar) (apenas fantasmagórico)</p><table><thead><tr><th>FOR</th><th>DES</th><th>CON</th><th>INT</th><th>SAB</th><th>CAR</th></tr></thead><tbody><tr><td>12 (+1)</td><td>16 (+3)</td><td>15 (+2)</td><td>4 (-3)</td><td>10 (+0)</td><td>9 (-1)</td></tr></tbody></table><p><strong>Imunidades a Dano</strong> necrótico, venenoso<br><strong>Imunidades à Condição</strong> amedrontado, envenenado, exausto, paralisado<br><strong>Sentidos</strong> visão no escuro 18 m, Percepção passiva 10<br><strong>Idiomas</strong> entende os idiomas que você fala<br><strong>Desafio</strong> — &nbsp; <strong>Bônus de Proficiência</strong> igual ao seu bônus</p><p><em><strong>Aura Purulenta (apenas pútrido).</strong></em> Qualquer criatura, exceto você, que comece seu próprio turno a até 1,5 metro do espírito deve ter sucesso em uma salvaguarda de Constituição contra sua CD para evitar magia, ou será envenenada até o começo do próximo turno da criatura.</p><p><em><strong>Passagem Incorpórea (apenas fantasmagórico).</strong></em> O espírito pode se mover através de outras criaturas e objetos como se eles fossem terreno difícil. Se ele terminar seu turno dentro de um objeto, será desviado para o espaço desocupado mais próximo e sofrerá 1d10 pontos de dano energético para cada 1,5 metro percorrido.</p><p><strong>Ações</strong></p><p><em><strong>Ataques Múltiplos.</strong></em> O espírito faz um número de ataques igual à metade do círculo da magia (arredondado para baixo).</p><p><em><strong>Toque Mortal (apenas fantasmagórico).</strong></em> <em>Arma de Combate Corpo a Corpo:</em> seu modificador de ataque mágico para acertar, alcance 1,5 m, uma criatura. <em>Dano:</em> 1d8 + 3 + círculo da magia necrótico, e a criatura deve ser bem-sucedida em uma salvaguarda de Sabedoria contra sua CD para evitar magia, ou ficará com medo do morto-vivo até o fim do próximo turno dela.</p><p><em><strong>Raio Sepulcral (apenas esqueleto).</strong></em> <em>Ataque Mágico à Distância:</em> seu modificador de ataque mágico para acertar, alcance 45 m, um alvo. <em>Dano:</em> 2d4 + 3 + círculo da magia necrótico.</p><p><em><strong>Garra Podre (apenas pútrido).</strong></em> <em>Arma de Combate Corpo a Corpo:</em> seu modificador de ataque mágico para acertar, alcance 1,5 m, um alvo. <em>Dano:</em> 1d6 + 3 + círculo da magia cortante. Se o alvo for envenenado, ele deverá ter sucesso em uma salvaguarda de Constituição contra sua CD para evitar magia, ou será paralisado até o começo do próximo turno dele.</p></div>"
   }
 ]

@@ -164,9 +164,10 @@
       "source": { "pt": { "book": "LJF", "page": 85 }, "en": { "book": "PHB", "page": 72 } },
       "name": { "pt": "arquétipo marcial", "en": "Martial Archetype" },
       "html": {
-        "pt": "<p>No 3º nível, você escolhe um arquétipo o qual se esforçará para seguir as técnicas e estilos de combate dele. Escolha Campeão, Cavaleiro Arcano ou Mestre de Batalha, todos detalhados no final da descrição da classe. O arquétipo confere a você características especiais no 3º nível e de novo no 7º, 10º, 15º e 18º nível.</p>",
-        "en": "<p>At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. Choose Champion, Battle Master, or Eldritch Knight, all detailed at the end of the class description. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.</p>"
-      }
+        "pt": "<p>No 3º nível, você escolhe um arquétipo o qual se esforçará para seguir as técnicas e estilos de combate dele. O arquétipo confere a você características especiais no 3º nível e de novo no 7º, 10º, 15º e 18º nível.</p>",
+        "en": "<p>At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.</p>"
+      },
+      "subclass_list": true
     },
     {
       "key": "ability-score-improvement-4",

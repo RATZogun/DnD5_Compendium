@@ -305,9 +305,10 @@
         "en": "Monastic Tradition"
       },
       "html": {
-        "pt": "<p>Quando você alcança o 3° nível, você ingressa numa tradição monástica: o Caminho da Mão Aberta, o Caminho Sombrio e o Caminho dos Quatro Elementos, todas detalhadas no final da descrição dessa classe. Sua tradição concede a você características no 3° nível e novamente no 6°, 11° e 17° nível.</p>",
-        "en": "<p>When you reach 3rd level, you commit yourself to a monastic tradition: the Way of the Open Hand, detailed at the end of the class description or one from another source. Your tradition grants you features at 3rd level and again at 6th, 11th, and 17th level.</p>"
-      }
+        "pt": "<p>Quando você alcança o 3° nível, você ingressa numa tradição monástica. Sua tradição concede a você características no 3° nível e novamente no 6°, 11° e 17° nível.</p>",
+        "en": "<p>When you reach 3rd level, you commit yourself to a monastic tradition. Your tradition grants you features at 3rd level and again at 6th, 11th, and 17th level.</p>"
+      },
+      "subclass_list": true
     },
     {
       "key": "deflect-missiles",

@@ -7,6 +7,7 @@ Uso: python3 tools/build_spells.py <pt_spells.json> <ddb.json> <5etools.json>
 """
 import difflib
 import html
+from collections import Counter
 import json
 import re
 import sys
@@ -16,6 +17,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OVERRIDES = json.loads((ROOT / 'tools' / 'spell_overrides.json').read_text())
 NAMES = json.loads((ROOT / 'tools' / 'names.json').read_text())
+# nomes antigos (Galápagos) ainda usados em tabelas de outros livros, para ligar a magia certa
+ALIASES = json.loads((ROOT / 'tools' / 'spell_aliases.json').read_text())
 
 PT_BOOK_TO_EN = {'LJF': 'PHB', 'GXF': 'XGE', 'CTCT': 'TCE', 'TDF': 'FTD'}
 SOURCES_PT = [
@@ -143,22 +146,31 @@ def fix_ocr(t):
     t = re.sub(r'\s+([,.;:])', r'\1', t)
     t = re.sub(r',{2,}', ',', t)
     t = re.sub(r'(\d) °', r'\1°', t)
+    t = re.sub(r'\b(\d+) d(\d+)\b', r'\1d\2', t)  # "1 d8"
     return t
+
+
+def join_split_caps(t, lexicon):
+    """Junta a inicial que o OCR separou ("E spírito" -> "Espírito") quando a palavra inteira é mais comum no livro."""
+    def fix(m):
+        whole = (m.group(1) + m.group(2)).lower()
+        return m.group(1) + m.group(2) if lexicon.get(whole, 0) > lexicon.get(m.group(2), 0) else m.group(0)
+    return re.sub(r'(?<![\w&])([A-ZÀ-Ú]) ([a-zà-úç]+)', fix, t)
 
 
 SUBHEAD = re.compile(r'^((?:[A-ZÁÉÍÓÚÂÊÔÃÕÇ][\wà-úç\'’-]*)(?:\s+[\wà-úç\'’-]+){0,5})\.\s')
 
 
-def paragraphs_html(paras):
+def paragraphs_html(paras, lexicon=None):
     out = []
     for p in paras:
-        p = fix_ocr(p)
+        p = join_split_caps(fix_ocr(p), lexicon or {})
         m = re.match(r'^Em (C[ií]rculos?|N[ií]veis) Superiores\.\s*', p)
         if m:
             label = 'Em Níveis Superiores.' if m.group(1).lower().startswith('n') else 'Em Círculos Superiores.'
             out.append(f'<p><strong><em>{label}</em></strong> {html.escape(p[m.end():])}</p>')
             continue
-        m = SUBHEAD.match(p)
+        m = SUBHEAD.match(p) if out else None  # o primeiro parágrafo nunca é subtítulo
         if m and len(m.group(1)) <= 40:
             out.append(f'<p><strong>{html.escape(m.group(1))}.</strong> {html.escape(p[m.end():])}</p>')
         else:
@@ -229,6 +241,7 @@ def pt_name(raw, en_name, book, lexicon):
     else:
         name = fix_ocr(re.sub(r'\s+', ' ', raw)).strip(' ^')
         name = re.sub(r'\b([A-ZÀ-Ú]) (?=[a-zà-ú])', r'\1', name)  # "I nvocar A berração"
+        name = re.sub(r'\bi (?=[a-zà-ú])', 'i', name)  # "i nvocar" ("i" sozinho não é palavra)
         name = re.sub(r'\s*-\s*', '-', name).lower()
         words = name.split(' ')
         joined = []
@@ -357,6 +370,7 @@ def build():
         return en_files[book]['spell']
 
     lexicon = {w for s in pt_spells for p in s['paragraphs'] for w in re.findall(r'\b[a-zà-úç]+', fix_ocr(p))}
+    words = Counter(w.lower() for s in pt_spells for p in s['paragraphs'] for w in re.findall(r'\b[^\W\d_]+', fix_ocr(p)))
     spells_pt, spells_en, en_done = [], [], {}
     report = []
     for pt_book, en_book in PT_BOOK_TO_EN.items():
@@ -387,6 +401,7 @@ def build():
             )
             spells_pt.append(dict(
                 slug=slug, name=NAMES['spells'].get(e['name']) or pt_name(s['name'], e['name'], pt_book, lexicon), original_name=e['name'], **meta,
+                **({'aliases': ALIASES[e['name']]} if e['name'] in ALIASES else {}),
                 spell_school_name=SCHOOL_PT[e['school']],
                 casting_time=ct, casting_time_unit=ct_unit, casting_conditions=ct_cond, casting_time_text=ct_text,
                 range=rng, range_unit=rng_unit, range_text=rng_text,
@@ -399,7 +414,7 @@ def build():
                 ('especial' if e.get('damageInflict') else None),
                 damage='sim' if e.get('damageInflict') else None,
                 heal='sim' if 'HL' in e.get('miscTags', []) else None,
-                description=paragraphs_html(s['paragraphs']),
+                description=paragraphs_html(s['paragraphs'], words) + s.get('statblock_html', ''),
                 sources_rels=[{'source_abbreviation': pt_book, 'page': s['page']}],
             ))
             if en_done.get(slug):
