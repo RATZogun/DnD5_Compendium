@@ -125,7 +125,7 @@ function highlight(text, q) {
 }
 
 const GROUP_ICON = {
-  species: () => icon.d20(18),
+  species: () => icon.people(18),
   class: () => icon.book(18),
   spell: () => icon.flame(18),
   section: () => icon.hash(18),

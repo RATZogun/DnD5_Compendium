@@ -40,7 +40,7 @@ export function render(container, { R }) {
   setTitle();
   const speciesBooks = new Set(R.races.flatMap((r) => (r.sources_rels ?? []).map((s) => s.source_abbreviation))).size;
   container.innerHTML = html` <section class="home-hero">
-      <span class="home-hero-icon">${raw(icon.d20(44))}</span>
+      <span class="home-hero-icon">${raw(icon.d20(64))}</span>
       <h1>${t('home.title')}</h1>
       <p class="home-lead">${t('home.lead')}</p>
       <label class="home-search">
@@ -57,7 +57,7 @@ export function render(container, { R }) {
         ${raw(
           categoryCard({
             kind: 'species',
-            iconHtml: icon.d20(48),
+            iconHtml: icon.people(48),
             count: t('home.speciesCount', { n: R.races.length, books: speciesBooks }),
             title: titleCase(t('nav.races')),
             text: t('home.speciesText'),
