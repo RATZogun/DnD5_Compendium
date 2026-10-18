@@ -52,7 +52,7 @@ export function spellMetaGridHtml(R, s, { full = false } = {}) {
 }
 
 export const materialNoteHtml = (s) =>
-  s.material_component ? html`<p class="sp-material">* – (${s.material_component})</p>` : '';
+  s.material_component ? html`<p class="sp-material">* (${s.material_component})</p>` : '';
 
 function popupHtml(R, s) {
   return html`<header class="sp-head">

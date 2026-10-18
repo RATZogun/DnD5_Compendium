@@ -12,7 +12,12 @@ import * as races from './views/races.js';
 import * as raceShow from './views/raceShow.js';
 import * as scroll from './views/scroll.js';
 import { initSpellPopup } from './components/spellPopup.js';
+import { initGlobalSearch } from './components/globalSearch.js';
+import * as home from './views/home.js';
+import { trackVisit } from './recent.js';
+import { icon } from './icons.js';
 
+route('/', 'home', home);
 route('/magias', 'spells', spells);
 route('/magias/:slug', 'spells', spellShow);
 route('/classes', 'klasses', klasses);
@@ -92,7 +97,7 @@ let currentR = null;
 async function render() {
   const match = resolve();
   if (!match) {
-    location.replace('#/magias');
+    location.replace('#/');
     return;
   }
 
@@ -117,12 +122,29 @@ async function render() {
   currentR = R;
 
   const path = match.re.source + JSON.stringify(match.params);
-  match.view.render(app, { R, params: match.params, query: parseQuery(match.search) });
+  const query = parseQuery(match.search);
+  const rendered = match.view.render(app, { R, params: match.params, query });
   if (path !== lastPath) window.scrollTo(0, 0);
   lastPath = path;
+  await rendered;
+  if (lang !== getLang()) return;
+  const visit = VISITS.get(match.view)?.(match.params);
+  if (visit && app.querySelector('h1')) trackVisit(...visit);
+  // link da busca para uma seção da página (?s=chave): rola até ela
+  if (query.s) app.querySelector(`[id="${CSS.escape(query.s)}"]`)?.scrollIntoView({ block: 'start' });
 }
 
+const VISITS = new Map([
+  [spellShow, (p) => ['spell', p.slug]],
+  [klassShow, (p) => ['class', p.slug]],
+  [subclassShow, (p) => ['subclass', p.slug, p.sub]],
+  [raceShow, (p) => ['species', p.slug]],
+]);
+
+document.querySelectorAll('.brand-icon').forEach((el) => (el.innerHTML = icon.d20(24)));
+navbar.querySelector('.nav-search-icon').innerHTML = icon.search(16);
 updateChrome();
 initSpellPopup(() => currentR);
+initGlobalSearch(() => currentR);
 window.addEventListener('hashchange', render);
 render();

@@ -27,18 +27,23 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/classes.css" />
     <link rel="stylesheet" href="css/scroll.css" />
+    <link rel="stylesheet" href="css/home.css" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
   </head>
   <body>
     <header class="navbar">
       <div class="container">
-        <a class="brand" href="#/magias">D&amp;D5</a>
+        <a class="brand" href="#/"><span class="brand-icon"></span>D&amp;D5</a>
         <ul class="nav-links">
           <li><a href="#/especies" data-nav="races" data-i18n="nav.races">Espécies</a></li>
           <li><a href="#/classes" data-nav="klasses" data-i18n="nav.classes">Classes</a></li>
           <li><a href="#/magias" data-nav="spells" data-i18n="nav.spells">Magias</a></li>
           <li><a href="#/pergaminho" data-nav="scroll" data-i18n="nav.scroll">Gerar Pergaminho</a></li>
         </ul>
+        <button type="button" class="nav-search" data-search-open>
+          <span class="nav-search-icon"></span><span class="nav-search-label" data-i18n="nav.search"></span
+          ><kbd>Ctrl K</kbd>
+        </button>
         <div class="nav-actions">
           <button type="button" class="icon-btn lang-toggle"></button>
           <button type="button" class="icon-btn theme-toggle"></button>
@@ -55,12 +60,33 @@
 
     <footer class="site-footer">
       <div class="container">
-        <p data-i18n="footer.srd"></p>
-        <p data-i18n="footer.fan"></p>
-        <p>
-          <span data-i18n="footer.translation"></span>
-          <a href="https://bibliotecaelfica.org/" target="_blank" rel="noopener">bibliotecaelfica.org</a>.
-        </p>
+        <div class="footer-ornament" aria-hidden="true"><span></span><i></i><span></span></div>
+        <div class="footer-cols">
+          <div class="footer-about">
+            <p class="footer-brand"><span class="brand-icon"></span>D&amp;D5</p>
+            <p data-i18n="footer.about"></p>
+          </div>
+          <nav class="footer-links">
+            <p class="footer-title" data-i18n="footer.explore"></p>
+            <a href="#/especies" data-i18n="nav.races"></a>
+            <a href="#/classes" data-i18n="nav.classes"></a>
+            <a href="#/magias" data-i18n="nav.spells"></a>
+            <a href="#/pergaminho" data-i18n="nav.scroll"></a>
+          </nav>
+          <div class="footer-links">
+            <p class="footer-title" data-i18n="footer.credits"></p>
+            <p>
+              <span data-i18n="footer.translationCredit"></span>
+              <a href="https://bibliotecaelfica.org/" target="_blank" rel="noopener">bibliotecaelfica.org</a>
+            </p>
+            <p>
+              <span data-i18n="footer.inspired"></span>
+              <a href="https://web.archive.org/web/2022/https://dnd5spells.rpgist.net/" target="_blank" rel="noopener"
+                >dnd5spells.rpgist.net</a
+              >
+            </p>
+          </div>
+        </div>
       </div>
     </footer>
 
