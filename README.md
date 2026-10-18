@@ -48,7 +48,6 @@ npm install
 - `js/views/`: uma view por página.
 - `data/rules.pt.json` e `data/rules.en.json`: magias e resumo de classes e espécies, um arquivo por idioma.
 - `data/classes/` e `data/species/`: detalhes completos de cada classe e espécie, carregados sob demanda.
-- `tools/`: scripts em Python que geram os arquivos de `data/` a partir das fontes.
 
 ## Aviso
 

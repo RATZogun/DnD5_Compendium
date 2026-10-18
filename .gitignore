@@ -2,4 +2,4 @@
 *.swp
 node_modules/
 docs/
-tools/*.md
+tools/
