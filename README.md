@@ -32,6 +32,7 @@ npm install
 
 - `npm run lint`: ESLint.
 - `npm run format:check`: Prettier.
+- `npm run format:check:json`: confere se todos os JSON (inclusive os de `data/`) estão formatados.
 - Um hook de `pre-commit` (Husky + lint-staged) formata e corrige os arquivos alterados antes de cada commit.
 - O GitHub Actions roda as mesmas checagens em cada push e pull request para a `main`.
 
