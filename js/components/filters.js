@@ -171,10 +171,19 @@ export function createFilterPanel(
     syncInputs();
     onChange({ ...st });
   });
-  panel.querySelector('.filters-toggle').addEventListener('click', (e) => {
+  const toggle = panel.querySelector('.filters-toggle');
+  toggle.addEventListener('click', () => {
     const isOpen = panel.classList.toggle('open');
-    e.currentTarget.setAttribute('aria-expanded', String(isOpen));
+    toggle.setAttribute('aria-expanded', String(isOpen));
   });
+  // em telas largas o painel fica sempre aberto; o acordeão só existe no celular
+  const wide = window.matchMedia('(min-width: 768px)');
+  const syncWide = () => {
+    toggle.disabled = wide.matches;
+    toggle.setAttribute('aria-expanded', String(wide.matches || panel.classList.contains('open')));
+  };
+  syncWide();
+  wide.addEventListener('change', syncWide);
   form.querySelector('.show-more')?.addEventListener('click', () => {
     showMore = !showMore;
     if (!showMore) {

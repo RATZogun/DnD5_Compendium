@@ -255,6 +255,22 @@ main {
 .filters-panel:not(.open) .filters-body {
   display: none;
 }
+@media (min-width: 768px) {
+  .filters-panel .filters-toggle {
+    cursor: default;
+    border-bottom: 1px solid var(--border);
+  }
+  .filters-panel .filters-toggle:disabled {
+    color: inherit;
+    opacity: 1;
+  }
+  .filters-panel .chevron {
+    display: none;
+  }
+  .filters-panel:not(.open) .filters-body {
+    display: block;
+  }
+}
 .filters-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
