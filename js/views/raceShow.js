@@ -123,10 +123,6 @@ function headHtml(R, data, v, name) {
     <div class="ornament" aria-hidden="true"><span></span><i></i><span></span></div>
     <p class="sx-chips">
       ${chips.map(([k, v]) => raw(html`<span class="chip">${k ? raw(html`<span class="sx-chip-k">${k}: </span>`) : ''}${v}</span>`))}
-    </p>
-    <p class="sx-actions">
-      <button type="button" class="btn" data-copy-link>${t('races.copyLink')}</button>
-      <button type="button" class="btn" data-print>${t('races.print')}</button>
     </p>`;
 }
 
@@ -463,11 +459,6 @@ export async function render(container, { R, params, query }) {
       e.preventDefault();
       replaceQuery({});
       window.scrollTo({ top: 0, behavior: 'smooth' });
-    } else if (e.target.closest('[data-copy-link]')) {
-      navigator.clipboard?.writeText(location.href).catch(() => {});
-      flash(e.target.closest('[data-copy-link]'), t('races.linkCopied'));
-    } else if (e.target.closest('[data-print]')) {
-      window.print();
     }
   });
 }

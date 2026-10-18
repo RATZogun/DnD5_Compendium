@@ -96,7 +96,6 @@
   margin: 18px 0 20px;
 }
 .sx-chips,
-.sx-actions,
 .sx-jump {
   display: flex;
   flex-wrap: wrap;
@@ -107,13 +106,8 @@
 .sx-chips .chip {
   font-size: 13px;
 }
-.sx-actions {
+.sx-chips {
   margin: 0 0 28px !important;
-}
-.sx-actions .btn {
-  font-family: var(--font-ui);
-  font-size: 14px;
-  font-weight: 600;
 }
 .sx-copied {
   display: inline-block;
@@ -425,7 +419,6 @@
   .sx-crumb-home,
   .sx-chip-k,
   .sx-kicker,
-  .sx-actions,
   .sx-jump,
   .sx-anchor {
     display: none;
@@ -711,7 +704,6 @@
   .sx-toc,
   .sx-mbar,
   .sx-fab,
-  .sx-actions,
   .sx-pager,
   .sx-anchor,
   .sx-jump {
