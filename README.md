@@ -3,6 +3,8 @@
 Compêndio pessoal de D&D 5e com magias, classes e espécies em português e inglês, inspirado no extinto
 **dnd5spells.rpgist.net**. É um site estático, sem backend nem etapa de build, que roda direto no navegador.
 
+Acesse em **[ratzogun.github.io/DnD5_Compendium](https://ratzogun.github.io/DnD5_Compendium/)**.
+
 ## Funcionalidades
 
 - **Magias** (`#/magias`): 484 magias com filtros, ordenação, paginação e página própria para cada magia.
