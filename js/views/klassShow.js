@@ -432,7 +432,10 @@ export async function render(container, { R, params }) {
   const spellCount = klass?.spell_list_name ? filterSpells(R, { klassName: klass.name }).length : 0;
   const mine = readMine(data.slug);
 
-  container.innerHTML = layoutHtml({ bottom: pagerHtml(R.klasses, data.slug, href.klass, t('classes.title')) });
+  container.innerHTML = layoutHtml({
+    cat: 'class',
+    bottom: pagerHtml(R.klasses, data.slug, href.klass, t('classes.title')),
+  });
   const body = container.querySelector('.version-body');
   container.querySelector('.sx-head').innerHTML = headHtml(R, data, name, spellCount);
   body.innerHTML = html`${raw(introHtml(pick(data.intro_html)))} ${raw(progressionHtml(data, mine))}

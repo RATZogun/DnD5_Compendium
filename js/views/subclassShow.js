@@ -108,6 +108,7 @@ export async function render(container, { R, params }) {
   const siblings = sortedSubclasses(data).map((s) => ({ slug: s.slug, name: pick(s.name) }));
 
   container.innerHTML = layoutHtml({
+    cat: 'class',
     top:
       versions.length > 1
         ? html`<div class="alert" role="note">

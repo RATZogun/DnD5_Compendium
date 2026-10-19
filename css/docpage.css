@@ -299,8 +299,16 @@
   background: var(--panel);
   color: var(--text);
 }
-.sx-pager-link:hover {
-  border-color: var(--cat-species);
+/* cor da categoria da página (espécie por padrão; classe e magia trocam) */
+.sx-layout.cat-class {
+  --page-cat: var(--cat-class);
+}
+.mg-layout {
+  --page-cat: var(--cat-spell);
+}
+.sx-pager-link:hover,
+.sx-pager-link:focus-visible {
+  border-color: var(--page-cat, var(--cat-species));
   text-decoration: none;
 }
 .sx-pager-link.next {

@@ -99,8 +99,8 @@ const svg = (paths, size) =>
   `<svg viewBox="0 0 24 24" width="${size}" height="${size}" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths}</svg>`;
 
 // esqueleto da página; o conteúdo entra depois em .sx-head, .version-body e .sx-aside
-export function layoutHtml({ top = '', bottom = '' }) {
-  return html`<div class="sx-layout">
+export function layoutHtml({ top = '', bottom = '', cat = '' }) {
+  return html`<div class="sx-layout ${cat ? `cat-${cat}` : ''}">
       <nav class="sx-toc" aria-label="${t('page.onThisPage')}">
         <p class="sx-toc-title">${t('page.onThisPage')}</p>
         <div class="sx-toc-list"></div>
