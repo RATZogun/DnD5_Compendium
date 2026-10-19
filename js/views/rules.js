@@ -3,13 +3,14 @@ import { t } from '../i18n.js';
 import { href } from '../router.js';
 import { icon } from '../icons.js';
 import { categoryCard } from './home.js';
+import { renderOptions } from './options.js';
 
 // regras: um cartão por seção (resumo de regras, talentos, opções e recursos, antecedentes), cada uma com a sua
 // página; o conteúdo entra depois
 const SECTIONS = {
   resumo: { key: 'summary', icon: () => icon.scroll(48), kind: 'rules' },
   talentos: { key: 'feats', icon: () => icon.medal(48), kind: 'feats' },
-  opcoes: { key: 'options', icon: () => icon.sliders(48), kind: 'options' },
+  opcoes: { key: 'options', icon: () => icon.sliders(48), kind: 'options', render: renderOptions },
   antecedentes: { key: 'backgrounds', icon: () => icon.backpack(48), kind: 'backgrounds' },
 };
 
@@ -33,14 +34,15 @@ function soonHtml(iconHtml) {
   </section>`;
 }
 
-export function render(container, { params }) {
+export function render(container, { R, params, query }) {
   const title = titleCase(t('rules.title'));
   const section = SECTIONS[params.section];
   if (section) {
     const name = t(`rules.${section.key}.title`);
     setTitle(name, t('rules.title'));
-    container.innerHTML = html`${raw(header([[href.rules(), title]], name, title))}
-      ${raw(soonHtml(section.icon()))}`;
+    const top = header([[href.rules(), title]], name, title);
+    if (section.render) return section.render(container, { R, query, header: top });
+    container.innerHTML = html`${raw(top)} ${raw(soonHtml(section.icon()))}`;
     return;
   }
   setTitle(t('rules.title'));

@@ -35,6 +35,17 @@ export function loadClass(slug) {
 
 const speciesCache = new Map();
 
+// opções e recursos da página de regras (invocações, infusões, disciplinas, manobras...)
+let optionsCache = null;
+export function loadOptions() {
+  if (!optionsCache)
+    optionsCache = fetchJson('data/options.json').catch((err) => {
+      optionsCache = null;
+      throw err;
+    });
+  return optionsCache;
+}
+
 export function loadSpecies(slug) {
   if (!speciesCache.has(slug)) {
     speciesCache.set(

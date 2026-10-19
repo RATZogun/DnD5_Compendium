@@ -60,7 +60,7 @@ function headHtml(R, data, v, name, klassName) {
 function bodyHtml(R, data, v, sub) {
   const intro = linkSpellTables(R, { html: v.intro_html }, pick(v.intro_html), v.spells);
   return html`${intro ? raw(html`<div class="subclass-intro">${raw(intro)}</div>`) : ''}
-    ${raw(sectionTitle('features', titleCase(t('classes.featuresCol'))))} ${raw(timelineHtml(R, v.features, v.spells))}
+    ${raw(sectionTitle('features', titleCase(t('classes.featuresCol'))))} ${raw(timelineHtml(R, v.features, v.spells, { klass: data.slug, sub: sub.slug }))}
     ${raw(subclassesHtml(R, data, { exclude: sub.slug, title: t('classes.otherSubclasses') }))}`;
 }
 

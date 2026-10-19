@@ -418,3 +418,29 @@ details.facet:not([open]) > summary {
     grid-template-columns: 1fr;
   }
 }
+
+/* opções e recursos: fichas no formato da ficha de magia, com o emblema da classe */
+.opt-sheet .sp-school {
+  color: var(--cat-class-on-dark);
+}
+/* a ficha é de regras, não de magia: borda e nome no dourado de destaque da página */
+.opt-sheet:hover,
+.opt-sheet:focus-within {
+  border-color: var(--accent);
+}
+.opt-sheet:hover .sp-name,
+.opt-sheet:focus-within .sp-name {
+  color: var(--accent);
+}
+.opt-sheet .opt-grid {
+  grid-template-columns: minmax(0, 2fr) minmax(0, 2fr) minmax(0, 1fr);
+}
+.opt-sheet .sp-body {
+  font-size: 15px;
+  line-height: 1.6;
+}
+@media (max-width: 600px) {
+  .opt-sheet .opt-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+}

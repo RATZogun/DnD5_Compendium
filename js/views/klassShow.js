@@ -133,46 +133,58 @@ export function linkSpellTables(R, f, body, extra = []) {
   return tpl.innerHTML;
 }
 
-// características que são listas de opções: cada opção vai numa caixa própria
-const BOXED_OPTIONS = new Set(['eldritch-invocations', 'eldritch-invocations-extra', 'artificer-infusions']);
+// características que são listas de opções reunidas em Opções e Recursos: o texto de abertura fica e as opções
+// viram um link para aquela página já filtrada (tipo e classe); keep força quantos elementos de abertura ficam
+const OPTION_LINKS = {
+  'artificer/artificer-infusions': { type: 'AI' },
+  'warlock/eldritch-invocations': { type: 'EI' },
+  'warlock/eldritch-invocations-extra': { type: 'EI' },
+  'warlock/pact-boon': { type: 'PB' },
+  'warlock/pact-of-the-talisman': { type: 'PB', keep: 2 },
+  'sorcerer/metamagic-3': { type: 'MM' },
+  'sorcerer/metamagic-10': { type: 'MM' },
+  'sorcerer/metamagic-17': { type: 'MM' },
+  'sorcerer/metamagic-options': { type: 'MM' },
+  'fighter/fighting-style': { type: 'FS' },
+  'fighter/fighting-style-options': { type: 'FS' },
+  'fighter/champion/additional-fighting-style': { type: 'FS' },
+  'paladin/fighting-style': { type: 'FS' },
+  'paladin/fighting-style-options': { type: 'FS' },
+  'ranger/fighting-style': { type: 'FS' },
+  'ranger/fighting-style-options': { type: 'FS' },
+  'monk/way-of-the-four-elements/elemental-disciplines': { type: 'ED' },
+  'fighter/battle-master/maneuvers': { type: 'MV:B' },
+  'fighter/battle-master/maneuver-options': { type: 'MV:B' },
+  'fighter/rune-knight/rune-carver': { type: 'RN' },
+  'fighter/arcane-archer/arcane-shot-options': { type: 'AS' },
+};
 
-// uma opção começa num parágrafo só com o nome em negrito (pt) ou num nome solto entre parágrafos (en)
-function boxOptions(body) {
+// texto de abertura: tudo antes do primeiro parágrafo aberto por um nome em negrito (título de tabela não conta)
+function introOnly(body, keep) {
   const tpl = document.createElement('template');
   tpl.innerHTML = body;
-  const root = tpl.content;
-  root.querySelectorAll(':scope > p').forEach((p) => !p.textContent.trim() && !p.children.length && p.remove());
-  const nextEl = (n) => {
-    let x = n.nextSibling;
-    while (x && x.nodeType === Node.TEXT_NODE && !x.textContent.trim()) x = x.nextSibling;
-    return x;
-  };
-  // títulos seguidos de tabela (ex.: "Itens Replicáveis") continuam dentro da opção anterior
-  const isHead = (n) =>
-    nextEl(n)?.nodeName === 'P' &&
-    ((n.nodeType === Node.TEXT_NODE && n.textContent.trim()) ||
-      (n.nodeName === 'P' &&
-        n.childNodes.length === 1 &&
-        n.firstChild.nodeName === 'STRONG' &&
-        !/[.:]$/.test(n.textContent.trim())));
-  let box = null;
-  for (const node of [...root.childNodes]) {
-    if (isHead(node)) {
-      box = document.createElement('div');
-      box.className = 'option-box';
-      const head = document.createElement('p');
-      head.className = 'option-name';
-      head.innerHTML = `<strong>${escapeHtml(node.textContent.trim())}</strong>`;
-      box.append(head);
-      node.replaceWith(box);
-    } else if (box && !(node.nodeType === Node.TEXT_NODE && !node.textContent.trim())) {
-      box.append(node);
-    }
-  }
-  return tpl.innerHTML;
+  const els = [...tpl.content.children];
+  const isHead = (el) =>
+    el.nodeName === 'P' &&
+    el.firstElementChild?.nodeName === 'STRONG' &&
+    el.textContent.trim().startsWith(el.firstElementChild.textContent.trim()) &&
+    el.nextElementSibling?.nodeName !== 'TABLE';
+  const cut = keep ?? els.findIndex(isHead);
+  return els
+    .slice(0, cut < 0 ? els.length : cut)
+    .map((el) => el.outerHTML)
+    .join('');
 }
 
-export function featureHtml(R, f, spells, { badge: withBadge = true } = {}) {
+function optionsLinkHtml(klass, type) {
+  const link = `${href.rules('opcoes')}?type=${encodeURIComponent(type)}&klass=${encodeURIComponent(klass)}`;
+  return html`<p class="opt-link">
+    <a class="btn btn-primary" href="${link}">${t('options.seeIn', { what: t(`options.plural.${type}`) })} →</a>
+  </p>`;
+}
+
+export function featureHtml(R, f, spells, { badge: withBadge = true, klass = null, sub = null } = {}) {
+  const linked = klass && OPTION_LINKS[[klass, sub, f.key].filter(Boolean).join('/')];
   const badge =
     withBadge && f.level && !CORE.has(f.key)
       ? html`<span class="level-badge">${t('classes.levelBadge', { level: ordinal(f.level) })}</span>`
@@ -182,8 +194,8 @@ export function featureHtml(R, f, spells, { badge: withBadge = true } = {}) {
     <h3>${titleCase(pick(f.name))} ${raw(badge)} ${raw(opt)}</h3>
     <div class="feature-body">
       ${raw(
-        BOXED_OPTIONS.has(f.key)
-          ? boxOptions(linkSpellTables(R, f, pick(f.html), spells))
+        linked
+          ? introOnly(linkSpellTables(R, f, pick(f.html), spells), linked.keep) + optionsLinkHtml(klass, linked.type)
           : linkSpellTables(R, f, pick(f.html), spells),
       )}
     </div>
@@ -306,7 +318,7 @@ function progressionHtml(data, mine) {
 
 // características: as de base (vida, proficiências, equipamento) e depois uma linha do tempo por nível
 // linha do tempo das características, agrupadas por nível (classe e subclasse)
-export function timelineHtml(R, features, spells = null) {
+export function timelineHtml(R, features, spells = null, ctx = {}) {
   const byLevel = new Map();
   for (const f of features) {
     if (!byLevel.has(f.level)) byLevel.set(f.level, []);
@@ -318,7 +330,7 @@ export function timelineHtml(R, features, spells = null) {
           html`<li class="kx-level" id="level-${level}" data-level="${level}" data-toc="2" data-toc-label="${t('classes.levelBadge', { level: ordinal(level) })}">
             <span class="kx-dot" aria-hidden="true">${ordinal(level)}</span>
             <p class="kx-level-name">${t('classes.levelBadge', { level: ordinal(level) })}</p>
-            <div class="features">${feats.map((f) => raw(featureHtml(R, f, spells, { badge: false })))}</div>
+            <div class="features">${feats.map((f) => raw(featureHtml(R, f, spells, { badge: false, ...ctx })))}</div>
           </li>`,
         ),
       )}
@@ -334,6 +346,8 @@ function featuresHtml(R, data) {
       timelineHtml(
         R,
         data.features.filter((x) => !CORE.has(x.key)),
+        null,
+        { klass: data.slug },
       ),
     )}`;
 }
