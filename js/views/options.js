@@ -1,4 +1,4 @@
-import { html, raw, titleCase, nameMatcher, compareText } from '../util.js';
+import { html, raw, titleCase, nameMatcher, compareText, keepFocus, refreshList } from '../util.js';
 import { t, ordinal } from '../i18n.js';
 import { replaceQuery } from '../router.js';
 import { loadOptions } from '../data.js';
@@ -108,8 +108,9 @@ export async function renderOptions(container, { R, query, header }) {
         <div class="facets-body"></div>
       </aside>
       <section class="list-main">
-        <div class="list-bar"></div>
-        <div class="opt-list" aria-live="polite"></div>
+        <p class="sr-only" role="status" data-live></p>
+      <div class="list-bar"></div>
+        <div class="opt-list"></div>
       </section>
     </div>`;
   const facets = container.querySelector('.facets-body');
@@ -220,8 +221,10 @@ export async function renderOptions(container, { R, query, header }) {
   function update({ facetsToo = true } = {}) {
     page = 1;
     save();
-    if (facetsToo) drawFacets();
-    drawResults();
+    refreshList(container, () => {
+      if (facetsToo) drawFacets();
+      drawResults();
+    });
   }
 
   facets.addEventListener('change', (e) => {
@@ -266,13 +269,13 @@ export async function renderOptions(container, { R, query, header }) {
   bindPagination(rows, {
     onPage: (p) => {
       page = p;
-      drawResults();
+      keepFocus(rows, drawResults);
       container.querySelector('.list-main').scrollIntoView({ block: 'start' });
     },
     onPerPage: (n) => {
       perPage = n;
       page = 1;
-      drawResults();
+      keepFocus(rows, drawResults);
     },
   });
 

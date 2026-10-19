@@ -7,9 +7,9 @@ import { href } from './router.js';
 const L = '\\p{L}';
 // estados que pedem a condição ("fica caído", "está invisível"), para não confundir com o uso comum da palavra
 const STATE_PT =
-  '(?:fica|ficam|ficar|ficará|ficarão|fique|fiquem|estiver|estiverem|está|estão|estar|esteja|estará|torna-se|tornar-se|se torna|permanece|considerad[oa]s?|condição|ou)';
+  '(?:fica|ficam|ficar|ficará|ficarão|fique|fiquem|estiver|estiverem|está|estão|estar|esteja|estará|torna-se|tornar-se|se torna|permanece|será|serão|ser|seja|considerad[oa]s?|condição)';
 const STATE_EN =
-  '(?:is|are|be|been|being|becomes|become|turns|turn|remain|remains|knocked|knock it|fall|falls|landing|lands|the target|the creature|condition|or)';
+  '(?:is|are|be|been|being|becomes|become|turns|turn|remain|remains|knocked|knock it|fall|falls|landing|lands|the target|the creature|condition)';
 
 const SKILLS_PT = {
   Atletismo: 'athletics',
@@ -22,6 +22,7 @@ const SKILLS_PT = {
   Natureza: 'nature',
   Religião: 'religion',
   'Adestrar Animais': 'animal-handling',
+  'Lidar com Animais': 'animal-handling',
   Intuição: 'insight',
   Medicina: 'medicine',
   Percepção: 'perception',
@@ -56,7 +57,7 @@ const SKILLS_EN = {
 // contêm o nome de uma perícia ficam de fora
 const SKILL_EXCEPT = {
   'sleight-of-hand': '(?! Arcana)',
-  performance: '(?! (?:da|of) )(?<!Enthralling Performance)',
+  performance: '(?! (?:da|of) )(?<!(?:Enthralling|Animating) Performance)',
 };
 const skillTerms = (skills) =>
   Object.entries(skills).map(([name, id]) => [`${name}${SKILL_EXCEPT[id] ?? ''}`, id, true]);
@@ -75,15 +76,15 @@ const TERMS = {
     ['ataques? de oportunidade', 'opportunity-attack'],
     ['terreno difícil', 'difficult-terrain'],
     ['(?:combate|combater|lutar|luta) com duas armas', 'offhand-attack'],
-    ['(?<=ação (?:de )?)(?:ataque|atacar)', 'attack'],
-    ['(?<=ação (?:de )?)disparada', 'dash'],
-    ['(?<=ação (?:de )?)desengajar', 'disengage'],
-    ['(?<=ação (?:de )?)esquivar', 'dodge'],
-    ['(?<=ação (?:de )?)esconder', 'hide'],
-    ['(?<=ação (?:de )?)ajudar', 'help'],
-    ['(?<=ação (?:de )?)preparar', 'ready'],
-    ['(?<=ação (?:de )?)procurar', 'search'],
-    ['(?<=ação (?:de )?)usar um objeto', 'use-object'],
+    ['(?<=(?<![\\p{L}])ação (?:de )?)(?:ataque|atacar)', 'attack'],
+    ['(?<=(?<![\\p{L}])ação (?:de )?)disparada', 'dash'],
+    ['(?<=(?<![\\p{L}])ação (?:de )?)desengajar', 'disengage'],
+    ['(?<=(?<![\\p{L}])ação (?:de )?)esquivar', 'dodge'],
+    ['(?<=(?<![\\p{L}])ação (?:de )?)esconder', 'hide'],
+    ['(?<=(?<![\\p{L}])ação (?:de )?)ajudar', 'help'],
+    ['(?<=(?<![\\p{L}])ação (?:de )?)preparar', 'ready'],
+    ['(?<=(?<![\\p{L}])ação (?:de )?)procurar', 'search'],
+    ['(?<=(?<![\\p{L}])ação (?:de )?)usar um objeto', 'use-object'],
     ['agarrão', 'grapple'],
     ['encontrão', 'shove'],
     ['amedrontad[oa]s?', 'frightened'],
@@ -99,7 +100,7 @@ const TERMS = {
     ['impedid[oa]s?(?! (?:de|a|que) )', 'restrained'],
     ['exaustão', 'exhaustion'],
     ['(?<!às )(?<!sentido )ceg[oa]s?', 'blinded'],
-    [`(?<=${STATE_PT} )caíd[oa]s?`, 'prone'],
+    [`(?<=${STATE_PT} )(?:caíd|derrubad)[oa]s?`, 'prone'],
     [`(?<=${STATE_PT} )invisíve(?:l|is)`, 'invisible'],
     ['meia cobertura', 'half-cover'],
     ['(?:três[ -]quartos de cobertura|cobertura de três[ -]quartos)', 'three-quarters-cover'],
@@ -196,7 +197,10 @@ function skillHere(text, m) {
   if (m[0][0] !== m[0][0].toUpperCase()) return false;
   const before = text.slice(Math.max(0, m.index - 30), m.index);
   const after = text.slice(m.index + m[0].length);
-  return !/\p{Lu}\p{L}* (?:d[aoe]s?|of) $/u.test(before) && !/^ \p{Lu}/u.test(after);
+  // "Teste de Percepção" e "CD de Furtividade" são a perícia; "Domínio da Natureza", não
+  const properName =
+    /\p{Lu}\p{L}* (?:d[aoe]s?|of) $/u.test(before) && !/(?:Testes?|CD|Check|DC) (?:d[aoe]|of) $/u.test(before);
+  return !properName && !/^(?: \p{Lu}|['’]s)/u.test(after);
 }
 
 export function linkRules(root) {

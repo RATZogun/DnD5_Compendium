@@ -65,6 +65,9 @@ function applyTheme(theme) {
 // O botão mostra o destino: a bandeira do outro idioma e o ícone do outro tema.
 function updateChrome() {
   document.documentElement.lang = htmlLang();
+  // barra do navegador no celular com a cor da barra do site (índigo no claro, preto no escuro)
+  const navColor = getComputedStyle(document.documentElement).getPropertyValue('--navbar-bg').trim();
+  if (navColor) document.querySelector('meta[name="theme-color"]')?.setAttribute('content', navColor);
   navbar.querySelectorAll('[data-i18n]').forEach((el) => {
     el.textContent = t(el.dataset.i18n);
   });

@@ -1,4 +1,4 @@
-import { html, raw, compareText, setTitle, titleCase, enhanceStatblocks } from '../util.js';
+import { html, raw, compareText, setTitle, titleCase, enhanceStatblocks, keepFocus } from '../util.js';
 import { t } from '../i18n.js';
 import { replaceQuery } from '../router.js';
 import { paginationHtml, bindPagination } from '../components/pagination.js';
@@ -35,8 +35,10 @@ export function render(container, { R, query }) {
   setTitle(t('spells.title'));
   const st = normalizeSpellState(R, pickFilters(query));
   let sort = Object.hasOwn(SORTS, query.sort) ? query.sort : 'az';
-  let page = 1;
-  let perPage = 10;
+  // página e itens por página ficam no endereço, para o "voltar aos resultados" cair no mesmo lugar
+  let page = query.page > 0 ? query.page : 1;
+  let perPage = query.perPage > 0 ? query.perPage : 10;
+  let restoring = true;
   let list = [];
 
   container.innerHTML = html`<nav class="crumbs" aria-label="breadcrumb">
@@ -47,13 +49,15 @@ export function render(container, { R, query }) {
       <h1>${titleCase(t('spells.title'))}</h1>
     </header>
     <div class="ornament" aria-hidden="true"><span></span><i></i><span></span></div>
-    ${raw(facetsLayoutHtml('<div class="spell-results" aria-live="polite"></div>'))}`;
+    ${raw(facetsLayoutHtml('<div class="spell-results"></div>'))}`;
   const results = container.querySelector('.spell-results');
 
   function save() {
     const q = {};
     for (const [k, v] of Object.entries(st)) q[k] = Array.isArray(v) ? v.join(',') || null : v;
     q.sort = sort === 'az' ? null : sort;
+    q.page = page > 1 ? page : null;
+    q.perPage = perPage !== 10 ? perPage : null;
     replaceQuery(q);
     rememberList();
   }
@@ -85,7 +89,9 @@ export function render(container, { R, query }) {
     </label>`,
     onChange: (filtered) => {
       list = filtered.sort(SORTS[sort]);
-      page = 1;
+      // na primeira vez vale a página do endereço; depois, mudar um filtro volta à primeira
+      if (!restoring) page = 1;
+      restoring = false;
       save();
       drawResults();
     },
@@ -99,13 +105,15 @@ export function render(container, { R, query }) {
   bindPagination(results, {
     onPage: (p) => {
       page = p;
-      drawResults();
+      save();
+      keepFocus(results, drawResults);
       container.querySelector('.list-main').scrollIntoView({ block: 'start' });
     },
     onPerPage: (n) => {
       perPage = n;
       page = 1;
-      drawResults();
+      save();
+      keepFocus(results, drawResults);
     },
   });
 

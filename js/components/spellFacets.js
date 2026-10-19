@@ -1,6 +1,6 @@
 // Filtros laterais de magias (lista de magias e gerador de pergaminho): busca por nome, grupos recolhíveis com
 // contagens, "possui" e a barra com o total e os filtros ativos. Em cada grupo vale qualquer opção marcada.
-import { html, raw, titleCase } from '../util.js';
+import { html, raw, titleCase, refreshList } from '../util.js';
 import { t } from '../i18n.js';
 import {
   filterSpells,
@@ -31,6 +31,7 @@ export function facetsLayoutHtml(main) {
       <div class="facets-body"></div>
     </aside>
     <section class="list-main">
+      <p class="sr-only" role="status" data-live></p>
       <div class="list-bar"></div>
       ${raw(main)}
     </section>
@@ -68,6 +69,8 @@ export function initSpellFacets(container, { R, st, barStart, barEnd = () => '',
       R.specializations.some((x) => x.name === sp && st.klassName.includes(x.klass_name)),
     );
   };
+  // subclasse vinda do endereço sem a classe dela marcada não filtraria às escondidas
+  dropOrphanSubclasses();
   // contagem de uma opção: todos os filtros menos o do próprio grupo
   const without = (key) => filterSpells(R, { ...st, [key]: Array.isArray(st[key]) ? [] : null });
 
@@ -148,10 +151,12 @@ export function initSpellFacets(container, { R, st, barStart, barEnd = () => '',
 
   // redesenha a barra lateral e a de resultados e avisa a página
   function update({ facetsToo = true } = {}) {
-    const list = filterSpells(R, st);
-    if (facetsToo) drawFacets();
-    drawBar(list);
-    onChange(list);
+    refreshList(container, () => {
+      const list = filterSpells(R, st);
+      if (facetsToo) drawFacets();
+      drawBar(list);
+      onChange(list);
+    });
   }
 
   facets.addEventListener(

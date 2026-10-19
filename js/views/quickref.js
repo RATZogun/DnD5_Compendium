@@ -101,6 +101,8 @@ export async function renderQuickref(container, { R, query, header }) {
     replaceQuery({ item: id });
   };
   dialog.addEventListener('close', () => replaceQuery({}));
+  let downOnBackdrop = false;
+  dialog.addEventListener('mousedown', (e) => (downOnBackdrop = e.target === dialog));
 
   container.addEventListener('click', (e) => {
     // a rota usa o hash: os atalhos rolam até a seção em vez de mudar o endereço
@@ -115,10 +117,13 @@ export async function renderQuickref(container, { R, query, header }) {
       open(tile.dataset.item);
       return;
     }
-    // fecha no botão ou num clique fora da ficha
-    if (e.target.closest('[data-close]') || e.target === dialog) dialog.close();
+    // fecha no botão ou num clique fora da ficha (começado fora dela: arrastar uma seleção de texto até a borda
+    // não fecha)
+    if (e.target.closest('[data-close]') || (e.target === dialog && downOnBackdrop)) dialog.close();
   });
 
+  // item desconhecido no endereço: some do link em vez de ficar sendo copiado adiante
+  if (query.item && !byId.has(String(query.item))) replaceQuery({});
   if (query.item && byId.has(String(query.item))) {
     container.querySelector(`[data-item="${CSS.escape(String(query.item))}"]`)?.scrollIntoView({ block: 'center' });
     open(String(query.item));

@@ -187,16 +187,32 @@ function watchToc(container) {
       parent && parent !== li ? `${parent.textContent.trim()} › ${li.textContent.trim()}` : li.textContent.trim();
   };
   if (ids.length) setCurrent(ids[0]);
-  const visible = new Set();
-  spy = new IntersectionObserver(
-    (entries) => {
-      for (const e of entries) (e.isIntersecting ? visible.add : visible.delete).call(visible, e.target.id);
-      const first = ids.find((id) => visible.has(id));
-      if (first) setCurrent(first);
-    },
-    { rootMargin: '0px 0px -70% 0px' },
-  );
-  container.querySelectorAll('.sx-doc [data-toc]').forEach((el) => spy.observe(el));
+  // seção atual: a última cujo título já passou da linha a 30% da tela (vale também rolando para cima, quando
+  // nenhum título está dentro da faixa)
+  const targets = [...container.querySelectorAll('.sx-doc [data-toc]')];
+  let current = null;
+  let queued = false;
+  const pick = () => {
+    queued = false;
+    if (!cur.isConnected) return spy?.disconnect();
+    const line = window.innerHeight * 0.3;
+    let id = targets[0]?.id;
+    for (const el of targets) {
+      // seções ocultas (sub-raças fechadas) não contam
+      if (!el.getClientRects().length) continue;
+      if (el.getBoundingClientRect().top <= line) id = el.id;
+    }
+    if (id && id !== current && ids.includes(id)) setCurrent((current = id));
+  };
+  const onScrollSpy = () => {
+    if (!queued) {
+      queued = true;
+      requestAnimationFrame(pick);
+    }
+  };
+  window.addEventListener('scroll', onScrollSpy, { passive: true });
+  spy = { disconnect: () => window.removeEventListener('scroll', onScrollSpy) };
+  pick();
 }
 
 // remonta o sumário depois que o conteúdo muda (troca de versão)

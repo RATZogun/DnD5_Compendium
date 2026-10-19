@@ -1,4 +1,4 @@
-import { html, raw, titleCase, nameMatcher, setTitle, compareText } from '../util.js';
+import { html, raw, titleCase, nameMatcher, setTitle, compareText, refreshList } from '../util.js';
 import { t } from '../i18n.js';
 import { href, replaceQuery } from '../router.js';
 import { filterSpells } from '../spellFilter.js';
@@ -124,8 +124,9 @@ export function render(container, { R, query }) {
         <div class="facets-body"></div>
       </aside>
       <section class="list-main">
-        <div class="list-bar"></div>
-        <div class="race-grid klass-grid" aria-live="polite"></div>
+        <p class="sr-only" role="status" data-live></p>
+      <div class="list-bar"></div>
+        <div class="race-grid klass-grid"></div>
       </section>
     </div>`;
 
@@ -246,8 +247,10 @@ export function render(container, { R, query }) {
 
   function update({ facetsToo = true } = {}) {
     save();
-    if (facetsToo) drawFacets();
-    drawResults();
+    refreshList(container, () => {
+      if (facetsToo) drawFacets();
+      drawResults();
+    });
   }
 
   facets.addEventListener('change', (e) => {

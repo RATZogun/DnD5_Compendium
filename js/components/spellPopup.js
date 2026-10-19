@@ -124,16 +124,19 @@ export function initSpellPopup(getR) {
     const R = getR();
     const id = new URLSearchParams(link.getAttribute('href').split('?')[1]).get('item');
     clearTimeout(hideTimer);
-    if (current === link) {
+    if (current === link && box.dataset.rule === id) {
       box.hidden = false;
       return place(link);
     }
     current = link;
+    box.hidden = true;
     loadQuickref()
       .then((Q) => {
         const sheet = R && ruleSheetHtml(R, Q, id);
-        if (current !== link || !sheet) return;
+        if (current !== link) return;
+        if (!sheet) return hide();
         box.innerHTML = sheet;
+        box.dataset.rule = id;
         box.scrollTop = 0;
         box.hidden = false;
         place(link);
@@ -150,6 +153,7 @@ export function initSpellPopup(getR) {
     clearTimeout(hideTimer);
     if (current !== link) {
       box.innerHTML = popupHtml(R, spell);
+      box.dataset.rule = '';
       enhanceStatblocks(box);
       linkRules(box);
       box.scrollTop = 0;

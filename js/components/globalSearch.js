@@ -136,9 +136,9 @@ export function initGlobalSearch(getR) {
   overlay.className = 'gs-overlay';
   overlay.hidden = true;
   overlay.innerHTML = `<div class="gs-dialog" role="dialog" aria-modal="true">
-      <div class="gs-input-row">${icon.search(20)}<input class="gs-input" type="search" autocomplete="off" spellcheck="false"><kbd class="gs-esc">Esc</kbd></div>
+      <div class="gs-input-row">${icon.search(20)}<input class="gs-input" type="search" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="gs-results"><kbd class="gs-esc">Esc</kbd></div>
       <div class="gs-chips" role="tablist"></div>
-      <div class="gs-results" role="listbox"></div>
+      <div class="gs-results" id="gs-results" role="listbox"></div>
       <div class="gs-hints"></div>
     </div>`;
   document.body.append(overlay);
@@ -151,6 +151,7 @@ export function initGlobalSearch(getR) {
   let index = null;
   let indexR = null;
   let sectionsLoading = null;
+  let sectionsDone = false;
   let filter = 'all';
   let active = 0;
   let shown = [];
@@ -162,12 +163,17 @@ export function initGlobalSearch(getR) {
     if (indexR !== R) {
       indexR = R;
       index = baseIndex(R);
-      sectionsLoading = sectionIndex(R).then((items) => {
-        if (indexR === R) {
-          index = index.concat(items);
+      sectionsDone = false;
+      // o aviso "carregando seções" some quando a carga termina, mesmo que algum arquivo falhe
+      sectionsLoading = sectionIndex(R)
+        .then((items) => {
+          if (indexR === R) index = index.concat(items);
+        })
+        .finally(() => {
+          if (indexR !== R) return;
+          sectionsDone = true;
           if (!overlay.hidden) update();
-        }
-      });
+        });
     }
     return true;
   }
@@ -207,7 +213,7 @@ export function initGlobalSearch(getR) {
         body += html`<p class="gs-group">${t(`search.groupTitle.${g}`)}</p>`;
         for (const item of list) {
           const i = shown.push(item) - 1;
-          body += html`<a class="gs-item gs-item-${item.group}" href="${item.href}" role="option" data-i="${i}" aria-selected="${String(i === active)}">
+          body += html`<a class="gs-item gs-item-${item.group}" id="gs-opt-${i}" href="${item.href}" role="option" data-i="${i}" aria-selected="${String(i === active)}">
             <span class="gs-icon">${raw(GROUP_ICON[item.group]())}</span>
             <span class="gs-name">${raw(highlight(item.name, q))}${item.alt ? raw(html` <small>${raw(highlight(item.alt, q))}</small>`) : ''}</span>
             <span class="gs-meta">${item.meta}</span>
@@ -215,7 +221,7 @@ export function initGlobalSearch(getR) {
           </a>`;
         }
       }
-      if (filter !== 'section' && sectionsLoading && !index.some((x) => x.group === 'section')) {
+      if (filter !== 'section' && sectionsLoading && !sectionsDone) {
         body += html`<p class="gs-empty gs-loading">${t('search.loadingSections')}</p>`;
       }
     }
@@ -224,12 +230,16 @@ export function initGlobalSearch(getR) {
     markActive(false);
   }
 
+  // o foco fica no campo; o leitor de tela acompanha a opção ativa por aria-activedescendant
   function markActive(scroll = true) {
     results.querySelectorAll('.gs-item').forEach((el) => {
       const on = Number(el.dataset.i) === active;
       el.setAttribute('aria-selected', String(on));
       if (on && scroll) el.scrollIntoView({ block: 'nearest' });
     });
+    input.setAttribute('aria-expanded', String(shown.length > 0));
+    if (shown.length) input.setAttribute('aria-activedescendant', `gs-opt-${active}`);
+    else input.removeAttribute('aria-activedescendant');
   }
 
   function open(text = '') {
@@ -284,7 +294,7 @@ export function initGlobalSearch(getR) {
       if (!shown.length) return;
       active = (active + (e.key === 'ArrowDown' ? 1 : shown.length - 1)) % shown.length;
       markActive();
-    } else if (e.key === 'Enter' && shown[active]) {
+    } else if (e.key === 'Enter' && e.target === input && shown[active]) {
       e.preventDefault();
       location.hash = shown[active].href.slice(1);
       close();
@@ -292,14 +302,18 @@ export function initGlobalSearch(getR) {
       e.preventDefault();
       close();
     } else if (e.key === 'Tab') {
+      // o foco circula dentro da janela (campo, filtros e resultados)
+      const items = [...dialog.querySelectorAll('input, button, a[href]')].filter((el) => !el.disabled);
+      const i = items.indexOf(document.activeElement);
+      const next = e.shiftKey ? (i <= 0 ? items.length - 1 : i - 1) : i === items.length - 1 ? 0 : i + 1;
       e.preventDefault();
-      input.focus();
+      items[next]?.focus();
     }
   });
   document.addEventListener('keydown', (e) => {
     const typing =
       /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName) || document.activeElement?.isContentEditable;
-    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+    if ((e.ctrlKey || e.metaKey) && e.key?.toLowerCase() === 'k') {
       e.preventDefault();
       if (overlay.hidden) open();
       else close();

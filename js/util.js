@@ -241,3 +241,49 @@ export function titleStrongs(root) {
     }
   });
 }
+
+// seletor que reencontra o controle depois que a lista é redesenhada (filtros, ordenação, paginação)
+function focusSelector(el) {
+  const attr = (name) => `[${name}="${CSS.escape(el.getAttribute(name) ?? '')}"]`;
+  if (el.matches('input[type="checkbox"][data-group]')) return `input${attr('data-group')}${attr('value')}`;
+  if (el.matches('[data-sort], select')) return el.matches('[data-sort]') ? '[data-sort]' : 'select';
+  if (el.matches('[data-per-page]')) return '[data-per-page]';
+  if (el.matches('[data-page]')) return '.pagination [aria-current="page"]';
+  if (el.matches('input[type="search"]')) return 'input[type="search"]';
+  if (el.matches('.active-chip, .facet-clear')) return '.list-count';
+  return null;
+}
+
+// redesenha (fn) sem perder o foco do teclado: o controle equivalente recebe o foco de volta, com o cursor no lugar
+export function keepFocus(root, fn) {
+  const el = document.activeElement;
+  if (!el || el === document.body || !root.contains(el)) return fn();
+  let sel = focusSelector(el);
+  if (el.matches('details[data-key] > summary'))
+    sel = `details[data-key="${CSS.escape(el.parentElement.dataset.key)}"] > summary`;
+  const caret = typeof el.selectionStart === 'number' ? [el.selectionStart, el.selectionEnd] : null;
+  const result = fn();
+  const next = sel && root.querySelector(sel);
+  if (next && next !== document.activeElement) {
+    if (next.matches('.list-count')) next.setAttribute('tabindex', '-1');
+    next.focus({ preventScroll: true });
+    if (caret) {
+      try {
+        next.setSelectionRange(...caret);
+      } catch {
+        // campo numérico não aceita cursor
+      }
+    }
+  }
+  return result;
+}
+
+// redesenha uma lista filtrada mantendo o foco e avisa leitores de tela só do novo total (a região viva é um
+// parágrafo oculto, não a lista inteira)
+export function refreshList(root, fn) {
+  const result = keepFocus(root, fn);
+  const live = root.querySelector('[data-live]');
+  const count = root.querySelector('.list-count')?.textContent.trim();
+  if (live && count && live.textContent !== count) live.textContent = count;
+  return result;
+}
