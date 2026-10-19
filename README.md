@@ -148,7 +148,8 @@ npm install
   - Willdabeast: _Round shield_
 
 - **Fontes**: Cinzel, Fraunces, Inter e Literata, sob a licença [SIL OFL 1.1](https://openfontlicense.org/),
-  servidas pelo próprio site.
+  servidas pelo próprio site
+  (licença e avisos de copyright em [fonts/OFL.txt](fonts/OFL.txt)).
 
 ## Aviso
 

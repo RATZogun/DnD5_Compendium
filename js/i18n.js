@@ -57,7 +57,8 @@ const STRINGS = {
     'footer.translationCredit': 'Tradução:',
     'footer.inspired': 'Inspirado em',
     'footer.iconsCredit': 'Ícones de classe:',
-    'footer.gameIconsCredit': 'Ícones de escolas e espécies:',
+    'footer.gameIconsCredit': 'Ícones de escolas, espécies e regras:',
+    'footer.quickrefCredit': 'Resumo de regras:',
     'footer.about':
       'Compêndio de fã de D&D 5e com espécies, classes e magias reunidas de vários livros, em português e inglês. Sem afiliação com a Wizards of the Coast.',
     'theme.toDark': 'Ativar modo escuro',
@@ -374,7 +375,8 @@ const STRINGS = {
     'footer.translationCredit': 'Translation:',
     'footer.inspired': 'Inspired by',
     'footer.iconsCredit': 'Class icons:',
-    'footer.gameIconsCredit': 'School and species icons:',
+    'footer.gameIconsCredit': 'School, species and rules icons:',
+    'footer.quickrefCredit': 'Rules summary:',
     'footer.about':
       'A fan-made D&D 5e compendium with species, classes and spells gathered from several books, in Portuguese and English. Not affiliated with Wizards of the Coast.',
     'theme.toDark': 'Switch to dark mode',
