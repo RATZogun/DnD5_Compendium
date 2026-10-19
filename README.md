@@ -12,6 +12,10 @@ Acesse em **[ratzogun.github.io/DnD5_Compendium](https://ratzogun.github.io/DnD5
   subclasses, cada uma com página própria.
 - **Espécies** (`#/especies`): 44 espécies com traços, sub-espécies e magias inatas.
 - **Gerar Pergaminho** (`#/pergaminho`): sorteia uma magia de acordo com os filtros.
+- **Regras** (`#/regras`): Resumo de Regras (ações, condições, testes, cobertura, visão e luz, com ícones e a
+  página do livro) e Opções e Recursos (151 invocações, manobras, infusões, disciplinas e outras opções de
+  classe). Os termos de regra citados nas magias, classes e espécies levam ao resumo e mostram a ficha ao passar o
+  mouse.
 - Interface em português e inglês, modo claro e escuro.
 
 Todo o conteúdo cita o livro e a página de origem.
@@ -49,6 +53,9 @@ npm install
 - `js/views/`: uma view por página.
 - `data/rules.pt.json` e `data/rules.en.json`: magias e resumo de classes e espécies, um arquivo por idioma.
 - `data/classes/` e `data/species/`: detalhes completos de cada classe e espécie, carregados sob demanda.
+- `data/quickref.json`: resumo de regras nos dois idiomas, com os ícones.
+- `data/options.json`: opções e recursos de classe.
+- `fonts/`: fontes servidas pelo próprio site e a licença delas.
 
 ## Créditos
 
