@@ -368,3 +368,53 @@ details.facet:not([open]) > summary {
     grid-template-columns: 1fr;
   }
 }
+
+/* regras: chip na cor de destaque e aviso de conteúdo em preparação */
+.chip-rules {
+  border-color: transparent;
+  background: var(--box-bg);
+  color: var(--accent-text);
+}
+.rules-empty {
+  max-width: 560px;
+  margin: 24px auto 0;
+  padding: 40px 24px;
+  border: 1px dashed var(--border);
+  background: var(--panel);
+  text-align: center;
+}
+.rules-empty-icon {
+  display: inline-flex;
+  color: var(--accent-text);
+}
+.rules-empty h2 {
+  margin: 12px 0 8px;
+  font-size: 24px;
+}
+.rules-empty p {
+  margin: 0;
+  color: var(--muted);
+}
+
+/* cartões da página de regras (dois por linha), na cor de destaque */
+.rules-cards {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.home-card-rules .home-card-art,
+.home-card-feats .home-card-art,
+.home-card-options .home-card-art,
+.home-card-backgrounds .home-card-art {
+  background: var(--box-bg);
+  color: var(--accent-text);
+}
+.home-card-rules .home-card-count,
+.home-card-feats .home-card-count,
+.home-card-options .home-card-count,
+.home-card-backgrounds .home-card-count {
+  color: var(--accent-text);
+}
+@media (max-width: 767px) {
+  .rules-cards {
+    grid-template-columns: 1fr;
+  }
+}

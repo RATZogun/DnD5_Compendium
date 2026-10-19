@@ -27,5 +27,20 @@ export const icon = {
     ),
   hash: (size = 18) => line('<path d="M4 9h16M4 15h16M10 3 8 21M16 3l-2 18"/>', size),
   arrowRight: (size = 16) => line('<path d="M5 12h14M13 6l6 6-6 6"/>', size),
+  // controles (opções e recursos) e mochila (antecedentes)
+  sliders: (size = 24) =>
+    line('<path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6"/>', size),
+  backpack: (size = 24) =>
+    line(
+      '<path d="M4 10a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><path d="M8 10h8M8 22v-6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v6M9 6V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/>',
+      size,
+    ),
+  // pergaminho com texto (resumo de regras) e medalha (talentos)
+  scroll: (size = 24) =>
+    line(
+      '<path d="M15 12h-5M15 8h-5M19 17V5a2 2 0 0 0-2-2H4"/><path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3"/>',
+      size,
+    ),
+  medal: (size = 24) => line('<circle cx="12" cy="8" r="6"/><path d="M15.5 12.9 17 22l-5-3-5 3 1.5-9.1"/>', size),
   clock: (size = 18) => line('<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>', size),
 };

@@ -55,5 +55,6 @@ export const href = {
   subclass: (klass, sub) => `#/classes/${encodeURIComponent(klass)}/${encodeURIComponent(sub)}`,
   races: (query) => withQuery('#/especies', query),
   race: (slug) => `#/especies/${encodeURIComponent(slug)}`,
+  rules: (section) => (section ? `#/regras/${encodeURIComponent(section)}` : '#/regras'),
   scroll: () => '#/pergaminho',
 };

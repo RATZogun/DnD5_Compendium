@@ -4,7 +4,7 @@ import { href } from '../router.js';
 import { icon } from '../icons.js';
 import { recentItems } from '../recent.js';
 
-function categoryCard({ kind, iconHtml, count, title, text, link, cta }) {
+export function categoryCard({ kind, iconHtml, count, title, text, link, cta }) {
   return html`<a class="home-card home-card-${kind}" href="${link}">
     <span class="home-card-art">${raw(iconHtml)}</span>
     <span class="home-card-body">
