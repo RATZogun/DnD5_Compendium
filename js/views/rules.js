@@ -4,11 +4,12 @@ import { href } from '../router.js';
 import { icon } from '../icons.js';
 import { categoryCard } from './home.js';
 import { renderOptions } from './options.js';
+import { renderQuickref } from './quickref.js';
 
 // regras: um cartão por seção (resumo de regras, talentos, opções e recursos, antecedentes), cada uma com a sua
-// página; o conteúdo entra depois
+// página; as que ainda não têm conteúdo mostram um aviso
 const SECTIONS = {
-  resumo: { key: 'summary', icon: () => icon.scroll(48), kind: 'rules' },
+  resumo: { key: 'summary', icon: () => icon.scroll(48), kind: 'rules', render: renderQuickref },
   talentos: { key: 'feats', icon: () => icon.medal(48), kind: 'feats' },
   opcoes: { key: 'options', icon: () => icon.sliders(48), kind: 'options', render: renderOptions },
   antecedentes: { key: 'backgrounds', icon: () => icon.backpack(48), kind: 'backgrounds' },
@@ -53,7 +54,7 @@ export function render(container, { R, params, query }) {
           categoryCard({
             kind: s.kind,
             iconHtml: s.icon(),
-            count: t('rules.soonTitle'),
+            count: s.render ? t('rules.ready') : t('rules.soonTitle'),
             title: t(`rules.${s.key}.title`),
             text: t(`rules.${s.key}.text`),
             link: href.rules(slug),

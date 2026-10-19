@@ -116,6 +116,37 @@ npm install
   | Tritão                | _Trident_               | Lorc        |
   | Yuan-ti               | _Snake_                 | Lorc        |
 
+- **Resumo de regras**: conteúdo do [dnd5e-quickref](https://github.com/crobi/dnd5e-quickref), criado por Robert Autenrieth
+  ([crobi](https://github.com/crobi), versão em inglês), traduzido para o português e adaptado por
+  [diogoan](https://github.com/diogoan/dnd5e-quickref), com adições de [crdornelles](https://github.com/crdornelles);
+  os dois projetos estão sob a licença [MIT](https://opensource.org/license/mit). As seções que só existem na versão
+  em português (habilidades, jogadas e outros efeitos do ambiente) foram vertidas para o inglês neste projeto.
+
+  > Copyright (c) 2016 Robert Autenrieth
+  >
+  > Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+  > documentation files (the "Software"), to deal in the Software without restriction, including without limitation
+  > the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+  > permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  >
+  > The above copyright notice and this permission notice shall be included in all copies or substantial portions of
+  > the Software.
+  >
+  > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+  > THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  > AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+  > TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  > SOFTWARE.
+
+- **Ícones do resumo de regras**: os mesmos do dnd5e-quickref, do [game-icons.net](https://game-icons.net/), sob a
+  licença [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), recoloridos para o site (o de rastejar é o
+  desenho próprio do dnd5e-quickref, vetorizado):
+  - Lorc: _Aerial signal_, _At sea_, _Aura_, _Bleeding eye_, _Broken shield_, _Charm_, _Coma_, _Cracked shield_, _Crags_, _Crossed swords_, _Deathcab_, _Drowning_, _Duality_, _Embrassed energy_, _Eye shield_, _Fruiting_, _Grab_, _Hand_, _High five_, _Hood_, _Imprisoned_, _Internal injury_, _Journey_, _Juggler_, _Lightning tear_, _Magic swirl_, _Magnifying glass_, _Manacles_, _Master of arms_, _Ninja mask_, _One eyed_, _Paw_, _Run_, _Semi closed eye_, _Sharp smile_, _Shield reflect_, _Smitten_, _Snatch_, _Sprint_, _Star pupil_, _Stopwatch_, _Strong_, _Sword tie_, _Telepathy_, _Uncertainty_, _Vile fluid_, _Wingfoot_, _Worried eyes_
+  - Delapouite: _Achilles heel_, _Arrest_, _Book pile_, _Church_, _Discobolus_, _Elf ear_, _Gargoyle_, _Idea_, _Invisible_, _Robber_, _Sherlock holmes_, _Smart_, _Stairs goal_, _Stone pile_, _Sword brandish_, _Weight lifting up_, _Wisdom_
+  - Sbed: _Falling_, _Health normal_, _Medical pack_, _Shield_
+  - DarkZaitzev: _Acrobatic_
+  - Willdabeast: _Round shield_
+
 - **Fontes**: Cinzel, Fraunces, Inter e Literata, sob a licença [SIL OFL 1.1](https://openfontlicense.org/),
   servidas pelo próprio site.
 

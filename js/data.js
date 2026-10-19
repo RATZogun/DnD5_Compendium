@@ -46,6 +46,17 @@ export function loadOptions() {
   return optionsCache;
 }
 
+// resumo de regras (dnd5e-quickref), com os textos nos dois idiomas
+let quickrefCache = null;
+export function loadQuickref() {
+  if (!quickrefCache)
+    quickrefCache = fetchJson('data/quickref.json').catch((err) => {
+      quickrefCache = null;
+      throw err;
+    });
+  return quickrefCache;
+}
+
 export function loadSpecies(slug) {
   if (!speciesCache.has(slug)) {
     speciesCache.set(
