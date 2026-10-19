@@ -151,6 +151,6 @@ export function spellCasters(R, spell) {
   });
   return [
     ...klasses.map((k) => ({ name: k.name, slug: k.slug })),
-    ...specs.map((s) => ({ name: s.name, slug: R.klassByName.get(s.klass_name)?.slug })),
+    ...specs.map((s) => ({ name: s.name, slug: s.klass_slug ?? R.klassByName.get(s.klass_name)?.slug, sub: s.slug })),
   ];
 }

@@ -13,6 +13,7 @@ import { t, ordinal } from '../i18n.js';
 import { href } from '../router.js';
 import { spellCasters } from '../data.js';
 import { spellMetaGridHtml, spellNotesHtml } from '../components/spellPopup.js';
+import { casterHref } from '../components/spellCard.js';
 import { pickFilters, spellFilterChips } from '../spellFilter.js';
 import { icon } from '../icons.js';
 import { crumbsHtml, pagerHtml } from '../components/docPage.js';
@@ -159,7 +160,7 @@ export function render(container, { R, params }) {
           ? raw(
               html`<p class="mg-casters">
                 <span>${t('spell.casters')}:</span>
-                ${casters.map((c) => raw(c.slug ? html`<a class="chip chip-class" href="${href.klass(c.slug)}">${titleCase(c.name)}</a>` : html`<span class="chip chip-class">${titleCase(c.name)}</span>`))}
+                ${casters.map((c) => raw(c.slug ? html`<a class="chip chip-class" href="${casterHref(c)}">${titleCase(c.name)}</a>` : html`<span class="chip chip-class">${titleCase(c.name)}</span>`))}
               </p>`,
             )
           : ''

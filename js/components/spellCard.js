@@ -37,12 +37,15 @@ export function sourcesHtml(R, rels) {
   return html`<strong>${titleCase(t('common.sources'))}</strong>: ${raw(items.join(', '))}`;
 }
 
+// link de quem conjura a magia: página da classe ou, para subclasse, a da própria subclasse
+export const casterHref = (c) => (c.sub ? href.subclass(c.slug, c.sub) : href.klass(c.slug));
+
 export function castersHtml(R, spell, link) {
   const casters = spellCasters(R, spell);
   if (!casters.length) return '—';
   return casters
     .map((c) =>
-      link && c.slug ? html`<a href="${href.klass(c.slug)}">${titleCase(c.name)}</a>` : html`${titleCase(c.name)}`,
+      link && c.slug ? html`<a href="${casterHref(c)}">${titleCase(c.name)}</a>` : html`${titleCase(c.name)}`,
     )
     .join(', ');
 }
