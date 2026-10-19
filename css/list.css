@@ -595,7 +595,6 @@ details.facet:not([open]) > summary {
 }
 .qr-sheet .qr-lead {
   font-style: italic;
-  color: var(--muted);
 }
 .qr-sheet .qr-note {
   color: var(--muted);

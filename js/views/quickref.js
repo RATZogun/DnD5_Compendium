@@ -13,7 +13,7 @@ function tileHtml(Q, item, id) {
     <span class="qr-icon">${raw(iconSvg(Q.icons[item.icon], 36))}</span>
     <span class="qr-text">
       <span class="qr-name">${titleCase(x.title)}</span>
-      <span class="qr-sub">${x.subtitle}</span>
+      <span class="qr-sub">${x.subtitle || x.description}</span>
     </span>
   </button>`;
 }
@@ -31,7 +31,8 @@ function sectionHtml(Q, sec, si) {
   </section>`;
 }
 
-// ficha do item no formato da ficha de magia (os textos do quickref já trazem <i>, <b> e tabelas)
+// ficha do item no formato da ficha de magia, com o que a janela do quickref mostra: a descrição em itálico e os
+// detalhes (o subtítulo fica só no ícone da grade; os textos já trazem <i>, <b> e tabelas)
 function sheetHtml(R, Q, sec, item) {
   const x = item[getLang()] ?? item.pt;
   // livro e página no mesmo formato das outras fichas ("Livro do Jogador · pg 192")
@@ -49,8 +50,7 @@ function sheetHtml(R, Q, sec, item) {
       <button type="button" class="qr-close" data-close aria-label="${t('quickref.close')}">✕</button>
     </header>
     <div class="sp-body feature-body">
-      ${x.subtitle ? raw(html`<p class="qr-lead">${x.subtitle}</p>`) : ''}
-      ${x.description ? raw(html`<p>${raw(x.description)}</p>`) : ''}
+      ${x.description ? raw(html`<p class="qr-lead">${raw(x.description)}</p>`) : ''}
       ${x.bullets.length ? raw(html`<ul>${x.bullets.map((b) => raw(html`<li>${raw(b)}</li>`))}</ul>`) : ''}
       ${x.note ? raw(html`<p class="qr-note">${x.note}</p>`) : ''}
     </div>
