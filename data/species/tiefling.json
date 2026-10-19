@@ -76,13 +76,16 @@
       "level": 3,
       "names_pt": ["repreensão infernal"],
       "names_en": ["hellish rebuke"],
-      "regularity": { "pt": "1 vez por descanso longo, como magia de 2º círculo (Legado Infernal)", "en": null }
+      "regularity": {
+        "pt": "1 vez por descanso longo, como magia de 2º círculo (Legado Infernal)",
+        "en": "once per long rest, as a 2nd-level spell (Infernal Legacy)"
+      }
     },
     {
       "level": 5,
       "names_pt": ["escuridão"],
       "names_en": ["darkness"],
-      "regularity": { "pt": "1 vez por descanso longo (Legado Infernal)", "en": null }
+      "regularity": { "pt": "1 vez por descanso longo (Legado Infernal)", "en": "once per long rest (Infernal Legacy)" }
     },
     {
       "level": 1,
@@ -99,14 +102,17 @@
       "names_en": ["charm person"],
       "regularity": {
         "pt": "1 vez por descanso longo, como magia de 2º círculo (variante Língua do Diabo)",
-        "en": null
+        "en": "once per long rest, as a 2nd-level spell (variant Devil's Tongue)"
       }
     },
     {
       "level": 5,
       "names_pt": ["cativar"],
       "names_en": ["enthrall"],
-      "regularity": { "pt": "1 vez por descanso longo (variante Língua do Diabo)", "en": null }
+      "regularity": {
+        "pt": "1 vez por descanso longo (variante Língua do Diabo)",
+        "en": "once per long rest (variant Devil's Tongue)"
+      }
     },
     {
       "level": 3,
@@ -114,7 +120,7 @@
       "names_en": ["burning hands"],
       "regularity": {
         "pt": "1 vez por dia, como magia de 2º círculo (variante Fogo Infernal; substitui repreensão diabólica)",
-        "en": null
+        "en": "once per day, as a 2nd-level spell (variant Hellfire; replaces hellish rebuke)"
       }
     }
   ],

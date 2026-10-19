@@ -227,7 +227,7 @@
       "key": "additional-cleric-spells",
       "level": 1,
       "optional": true,
-      "source": { "pt": { "book": "CTCT", "page": 36 }, "en": null },
+      "source": { "pt": { "book": "CTCT", "page": 36 }, "en": { "book": "TCE", "page": 30 } },
       "name": { "pt": "magias de clérigo adicionais", "en": "Additional Cleric Spells" },
       "html": {
         "pt": "<p><em>Característica de clérigo de 1º nível</em></p><p>As magias da seguinte lista expandem a lista de magias de clérigo no Player's Handbook. A lista é organizada por círculo de magia, não por nível de personagem. Se uma magia pode ser conjurada como um ritual, a propriedade \"ritual\" aparece depois do nome da magia. Cada magia está no Player's Handbook, a menos que tenha um asterisco (uma magia no capítulo 3). O Guia de Xanathar para Todas as Coisas também oferece mais magias.</p><table><thead><tr><th>Círculo</th><th>Magias</th></tr></thead><tbody><tr><td>3º</td><td>aura de vitalidade, manto espiritual*</td></tr><tr><td>4º</td><td>aura de devoção, aura de pureza</td></tr><tr><td>5º</td><td>invocar celestial*</td></tr><tr><td>6º</td><td>raio solar</td></tr><tr><td>8º</td><td>explosão solar</td></tr><tr><td>9º</td><td>palavra de poder: salvar</td></tr></tbody></table>",

@@ -135,14 +135,17 @@
       "names_en": ["enlarge/reduce"],
       "regularity": {
         "pt": "1 vez por descanso longo (duergar; apenas a opção aumentar, somente em si mesmo)",
-        "en": null
+        "en": "once per long rest (duergar; enlarge option only, self only)"
       }
     },
     {
       "level": 5,
       "names_pt": ["invisibilidade"],
       "names_en": ["invisibility"],
-      "regularity": { "pt": "1 vez por descanso longo (duergar; somente em si mesmo)", "en": null }
+      "regularity": {
+        "pt": "1 vez por descanso longo (duergar; somente em si mesmo)",
+        "en": "once per long rest (duergar; self only)"
+      }
     }
   ],
   "additional_sources": [],

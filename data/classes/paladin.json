@@ -266,7 +266,7 @@
       "key": "oath-spells",
       "level": 3,
       "optional": false,
-      "source": { "pt": { "book": "LJF", "page": 111 }, "en": null },
+      "source": { "pt": { "book": "LJF", "page": 111 }, "en": { "book": "PHB", "page": 82 } },
       "name": { "pt": "magias de juramento", "en": "Oath Spells" },
       "html": {
         "pt": "<p>Cada juramento possui uma lista de magias associada a ele. Você ganha acesso a essas magias nos níveis especificados na descrição do juramento. Uma vez que você tenha ganhado acesso a uma magia de juramento, você sempre a terá preparada. Magias de juramento não contam no número de magias que você pode preparar a cada dia.</p><p>Se você ganhar uma magia de juramento que não apareça na lista de magias de paladino, a magia será, no entanto, uma magia de paladino para você.</p>",

@@ -206,25 +206,28 @@
       "level": 3,
       "names_pt": ["fogo das fadas"],
       "names_en": ["faerie fire"],
-      "regularity": { "pt": "1 vez por descanso longo (drow)", "en": null }
+      "regularity": { "pt": "1 vez por descanso longo (drow)", "en": "once per long rest (drow)" }
     },
     {
       "level": 5,
       "names_pt": ["escuridão"],
       "names_en": ["darkness"],
-      "regularity": { "pt": "1 vez por dia (drow)", "en": null }
+      "regularity": { "pt": "1 vez por dia (drow)", "en": "once per day (drow)" }
     },
     {
       "level": 1,
       "names_pt": ["um truque da lista de magias de mago, à sua escolha"],
-      "names_en": [],
+      "names_en": ["one cantrip of your choice from the wizard spell list"],
       "regularity": { "pt": "truque (alto elfo; Inteligência)", "en": "cantrip (high elf; Intelligence)" }
     },
     {
       "level": 1,
       "names_pt": ["passo nebuloso"],
       "names_en": ["misty step"],
-      "regularity": { "pt": "1 vez por descanso curto ou longo (eladrin)", "en": null }
+      "regularity": {
+        "pt": "1 vez por descanso curto ou longo (eladrin)",
+        "en": "once per short or long rest (eladrin)"
+      }
     }
   ],
   "additional_sources": [],

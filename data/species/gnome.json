@@ -131,13 +131,19 @@
       "level": 1,
       "names_pt": ["dificultar detecção"],
       "names_en": ["nondetection"],
-      "regularity": { "pt": "à vontade, somente em si mesmo (talento Magia Svirfneblin)", "en": null }
+      "regularity": {
+        "pt": "à vontade, somente em si mesmo (talento Magia Svirfneblin)",
+        "en": "at will, self only (Svirfneblin Magic feat)"
+      }
     },
     {
       "level": 1,
       "names_pt": ["cegueira/surdez", "disfarçar-se", "nublar"],
       "names_en": ["blindness/deafness", "disguise self", "blur"],
-      "regularity": { "pt": "1 vez cada por descanso longo (talento Magia Svirfneblin)", "en": null }
+      "regularity": {
+        "pt": "1 vez cada por descanso longo (talento Magia Svirfneblin)",
+        "en": "once each per long rest (Svirfneblin Magic feat)"
+      }
     }
   ],
   "additional_sources": [],

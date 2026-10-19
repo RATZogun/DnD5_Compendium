@@ -79,18 +79,24 @@
       "level": 3,
       "names_pt": ["fogo das fadas"],
       "names_en": ["faerie fire"],
-      "regularity": { "pt": "1 vez por descanso longo (variante: descendente de drow)", "en": null }
+      "regularity": {
+        "pt": "1 vez por descanso longo (variante: descendente de drow)",
+        "en": "once per long rest (variant: drow descent)"
+      }
     },
     {
       "level": 5,
       "names_pt": ["escuridão"],
       "names_en": ["darkness"],
-      "regularity": { "pt": "1 vez por dia (variante: descendente de drow)", "en": null }
+      "regularity": {
+        "pt": "1 vez por dia (variante: descendente de drow)",
+        "en": "once per day (variant: drow descent)"
+      }
     },
     {
       "level": 1,
       "names_pt": ["um truque da lista de magias de mago, à sua escolha"],
-      "names_en": [],
+      "names_en": ["one cantrip of your choice from the wizard spell list"],
       "regularity": {
         "pt": "truque (variante: descendente de elfo lunar ou solar; Inteligência)",
         "en": "cantrip (variant: moon elf or sun elf descent; Intelligence)"

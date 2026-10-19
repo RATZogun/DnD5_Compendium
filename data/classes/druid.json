@@ -244,7 +244,7 @@
       "source": { "pt": { "book": "LJF", "page": 73 }, "en": { "book": "PHB", "page": 64 } },
       "name": { "pt": "aprimoramento de forma selvagem", "en": "Wild Shape Improvement" },
       "html": {
-        "pt": null,
+        "pt": "<p>No 4º nível, você pode usar sua ação para assumir magicamente a forma de uma besta que você já tenha visto antes, com nível de desafio 1/2 ou inferior e que não possua deslocamento de voo. Você pode usar essa característica duas vezes. Você recupera os usos quando termina um descanso curto ou longo.</p>",
         "en": "<p>At 4th level, you can use your action to magically assume the shape of a beast that you have seen before of challenge rating 1/2 or lower that doesn't have a flying speed. You can use this feature twice. You regain expended uses when you finish a short or long rest.</p>"
       }
     },
@@ -277,7 +277,7 @@
       "source": { "pt": { "book": "LJF", "page": 73 }, "en": { "book": "PHB", "page": 64 } },
       "name": { "pt": "aprimoramento de forma selvagem", "en": "Wild Shape Improvement" },
       "html": {
-        "pt": null,
+        "pt": "<p>No 8º nível, você pode usar sua ação para assumir magicamente a forma de uma besta que você já tenha visto antes, com nível de desafio 1 ou inferior. Você pode usar essa característica duas vezes. Você recupera os usos quando termina um descanso curto ou longo.</p>",
         "en": "<p>At 8th level, you can use your action to magically assume the shape of a beast that you have seen before of challenge rating 1 or lower. You can use this feature twice. You regain expended uses when you finish a short or long rest.</p>"
       }
     },
