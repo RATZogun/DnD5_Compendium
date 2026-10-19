@@ -34,7 +34,7 @@ function rememberList() {
 export function render(container, { R, query }) {
   setTitle(t('spells.title'));
   const st = normalizeSpellState(R, pickFilters(query));
-  let sort = query.sort in SORTS ? query.sort : 'az';
+  let sort = Object.hasOwn(SORTS, query.sort) ? query.sort : 'az';
   let page = 1;
   let perPage = 10;
   let list = [];

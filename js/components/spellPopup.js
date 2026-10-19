@@ -12,7 +12,8 @@ const PAGES = /^#\/(classes|especies|racas)\b/;
 const GAP = 8;
 const MARGIN = 16;
 
-const short = (s) => (s ?? '').split(/,|\(/)[0].trim();
+// corta no primeiro ", " ou "(", mas não na vírgula decimal ("1,5 metro")
+const short = (s) => (s ?? '').split(/,(?!\d)|\(/)[0].trim();
 
 // valores longos seguem o D&D Beyond: a tabela mostra o valor curto com "*" e o resto vai para uma nota no fim
 // (a condição da reação usa "*" e o material, "**" quando as duas existem)

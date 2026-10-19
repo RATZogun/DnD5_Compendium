@@ -40,8 +40,8 @@ function readState(query) {
     name: query.name ? String(query.name) : '',
     size: list(query.size),
     source: list(query.source),
-    has: list(query.has).filter((h) => h in HAS),
-    sort: query.sort in SORTS ? query.sort : 'az',
+    has: list(query.has).filter((h) => Object.hasOwn(HAS, h)),
+    sort: Object.hasOwn(SORTS, query.sort) ? query.sort : 'az',
   };
 }
 

@@ -88,10 +88,13 @@ export async function render(container, { R, params }) {
   try {
     data = await loadClass(params.slug);
   } catch {
+    if (!container.isConnected) return;
+    setTitle(t('classes.notFound'), t('classes.title'));
     container.innerHTML = html`${raw(backToList)}
       <div class="alert" role="alert">${t('classes.notFound')}</div>`;
     return;
   }
+  if (!container.isConnected) return;
   const sub = data.subclasses?.find((s) => s.slug === params.sub);
   const klassName = titleCase(pick(data.name));
   const back = html`<a class="back-link" href="${href.klass(data.slug)}"

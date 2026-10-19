@@ -252,7 +252,7 @@ export function initDocPage(container, { onTarget } = {}) {
     replaceQuery({ s: id });
   };
   container.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && !container.querySelector('.sx-sheet').hidden) setSheet(container, false);
+    if (e.key === 'Escape' && container.querySelector('.sx-sheet')?.hidden === false) setSheet(container, false);
   });
   container.addEventListener('click', (e) => {
     if (e.target.closest('[data-sheet-open]')) return setSheet(container, true);

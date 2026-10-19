@@ -37,7 +37,7 @@ function soonHtml(iconHtml) {
 
 export function render(container, { R, params, query }) {
   const title = titleCase(t('rules.title'));
-  const section = SECTIONS[params.section];
+  const section = Object.hasOwn(SECTIONS, params.section) ? SECTIONS[params.section] : null;
   if (section) {
     const name = t(`rules.${section.key}.title`);
     setTitle(name, t('rules.title'));

@@ -22,12 +22,21 @@ export function currentLocation() {
   return { path, search };
 }
 
+// "%" solto ou sequência inválida no endereço não derruba a rota: fica o texto cru (a view mostra "não encontrado")
+function safeDecode(v) {
+  try {
+    return decodeURIComponent(v);
+  } catch {
+    return v;
+  }
+}
+
 export function resolve() {
   const { path, search } = currentLocation();
   for (const r of routes) {
     const m = path.match(r.re);
     if (m) {
-      const params = Object.fromEntries(r.keys.map((k, i) => [k, decodeURIComponent(m[i + 1])]));
+      const params = Object.fromEntries(r.keys.map((k, i) => [k, safeDecode(m[i + 1])]));
       return { ...r, params, search };
     }
   }

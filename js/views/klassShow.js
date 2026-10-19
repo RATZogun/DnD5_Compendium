@@ -436,11 +436,13 @@ export async function render(container, { R, params }) {
   try {
     data = await loadClass(params.slug);
   } catch {
+    if (!container.isConnected) return;
     setTitle(t('classes.notFound'), t('classes.title'));
     container.innerHTML = html`${raw(back)}
       <div class="alert" role="alert">${t('classes.notFound')}</div>`;
     return;
   }
+  if (!container.isConnected) return;
   const name = titleCase(pick(data.name));
   setTitle(name, t('classes.title'));
   const klass = R.klassBySlug.get(data.slug);

@@ -36,7 +36,7 @@ function readState(query) {
     hitDie: list(query.hitDie),
     source: list(query.source),
     has: list(query.has).filter((h) => HAS.some(([key]) => key === h)),
-    sort: query.sort in SORTS ? query.sort : 'az',
+    sort: Object.hasOwn(SORTS, query.sort) ? query.sort : 'az',
   };
 }
 

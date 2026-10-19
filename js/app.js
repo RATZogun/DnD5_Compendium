@@ -17,6 +17,7 @@ import { initGlobalSearch } from './components/globalSearch.js';
 import * as home from './views/home.js';
 import { trackVisit } from './recent.js';
 import { icon } from './icons.js';
+import { translateHash } from './queryTranslate.js';
 
 route('/', 'home', home);
 route('/magias', 'spells', spells);
@@ -35,6 +36,7 @@ route('/pergaminho', 'scroll', scroll);
 const app = document.getElementById('app');
 const navbar = document.querySelector('.navbar');
 const themeBtn = navbar.querySelector('.theme-toggle');
+const { SPELLS_BACK_KEY } = spellShow;
 const langBtn = navbar.querySelector('.lang-toggle');
 const menuBtn = navbar.querySelector('.nav-toggle');
 
@@ -84,8 +86,22 @@ function updateChrome() {
 }
 
 themeBtn.addEventListener('click', () => applyTheme(getTheme() === 'dark' ? 'light' : 'dark'));
-langBtn.addEventListener('click', () => {
-  setLang(getLang() === 'pt' ? 'en' : 'pt');
+langBtn.addEventListener('click', async () => {
+  const next = getLang() === 'pt' ? 'en' : 'pt';
+  // os filtros no endereço (e o "voltar aos resultados") passam para os nomes do outro idioma
+  const from = currentR;
+  const to = await loadRules(next).catch(() => null);
+  if (from && to) {
+    const hash = translateHash(location.hash, from, to);
+    if (hash !== location.hash) history.replaceState(null, '', hash);
+    try {
+      const back = sessionStorage.getItem(SPELLS_BACK_KEY);
+      if (back) sessionStorage.setItem(SPELLS_BACK_KEY, translateHash(back, from, to));
+    } catch {
+      // sem armazenamento: nada a traduzir
+    }
+  }
+  setLang(next);
   updateChrome();
   render();
 });
@@ -97,7 +113,10 @@ menuBtn.addEventListener('click', () => {
 let lastPath = null;
 let currentR = null;
 
+let renderSeq = 0;
+
 async function render() {
+  const token = ++renderSeq;
   const match = resolve();
   if (!match) {
     location.replace('#/');
@@ -114,6 +133,7 @@ async function render() {
   try {
     R = await loadRules(lang);
   } catch (err) {
+    if (token !== renderSeq) return;
     console.error(err);
     setTitle();
     app.innerHTML = `<div class="alert" role="alert">${escapeHtml(t('common.loadError'))}
@@ -121,16 +141,22 @@ async function render() {
     app.querySelector('#retry').addEventListener('click', render);
     return;
   }
-  if (lang !== getLang()) return;
+  // outra navegação começou enquanto as regras carregavam: ela desenha a página
+  if (lang !== getLang() || token !== renderSeq) return;
   currentR = R;
 
   const path = match.re.source + JSON.stringify(match.params);
   const query = parseQuery(match.search);
-  const rendered = match.view.render(app, { R, params: match.params, query });
+  // cada página ganha um elemento novo: os ouvintes da página anterior saem junto com ela, e uma página lenta
+  // que termina depois da navegação escreve num elemento já fora do documento (as views checam isConnected)
+  const view = document.createElement('div');
+  view.className = 'view';
+  app.replaceChildren(view);
+  const rendered = match.view.render(view, { R, params: match.params, query });
   if (path !== lastPath) window.scrollTo(0, 0);
   lastPath = path;
   await rendered;
-  if (lang !== getLang()) return;
+  if (lang !== getLang() || !view.isConnected) return;
   const visit = VISITS.get(match.view)?.(match.params);
   if (visit && app.querySelector('h1')) trackVisit(...visit);
   // link da busca para uma seção da página (?s=chave): rola até ela

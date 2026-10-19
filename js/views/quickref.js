@@ -73,10 +73,12 @@ export async function renderQuickref(container, { R, query, header }) {
   try {
     Q = await loadQuickref();
   } catch {
+    if (!container.isConnected) return;
     container.innerHTML = html`${raw(header)}
       <div class="alert" role="alert">${t('common.loadError')}</div>`;
     return;
   }
+  if (!container.isConnected) return;
   const pick = (o) => o[getLang()] ?? o.pt;
   container.innerHTML = html`${raw(header)}
     <p class="qr-about">${t('quickref.about')}</p>

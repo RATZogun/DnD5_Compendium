@@ -65,16 +65,18 @@ export async function renderOptions(container, { R, query, header }) {
   try {
     options = await loadOptions();
   } catch {
+    if (!container.isConnected) return;
     container.innerHTML = html`${raw(header)}
       <div class="alert" role="alert">${t('common.loadError')}</div>`;
     return;
   }
+  if (!container.isConnected) return;
   const st = {
     name: query.name ? String(query.name) : '',
     type: list(query.type).filter((k) => TYPES.includes(k)),
     klass: list(query.klass),
     book: list(query.book),
-    sort: query.sort in SORTS ? query.sort : 'az',
+    sort: Object.hasOwn(SORTS, query.sort) ? query.sort : 'az',
   };
   const books = [...new Set(options.map((o) => bookOf(R, o)))].sort(compareText);
   const klassName = (c) => titleCase(R.klassBySlug.get(c)?.name ?? c);

@@ -51,10 +51,11 @@ function spellsHtml(R, spells) {
   const link = (namePt, nameEn) => {
     const spell = R.spells.find(
       (s) =>
-        s.original_name?.toLowerCase() === nameEn?.toLowerCase() ||
+        (nameEn && s.original_name?.toLowerCase() === nameEn.toLowerCase()) ||
         s.name.toLowerCase() === (lang === 'pt' ? namePt : nameEn)?.toLowerCase(),
     );
-    const label = titleCase(spell ? spell.name : lang === 'pt' ? (namePt ?? nameEn) : (nameEn ?? namePt));
+    // sem magia correspondente é uma descrição ("um truque da lista de magias de mago, à sua escolha"): fica como está
+    const label = spell ? titleCase(spell.name) : lang === 'pt' ? (namePt ?? nameEn) : (nameEn ?? namePt);
     return spell ? html`<a href="${href.spell(spell.slug)}">${label}</a>` : html`${label}`;
   };
   return html`<div class="table-wrap sx-table">
@@ -72,7 +73,12 @@ function spellsHtml(R, spells) {
             html`<tr>
               <th scope="row">${s.level ? ordinal(s.level) : '–'}</th>
               <td>
-                ${raw((s.names_en ?? s.names_pt ?? []).map((n, i) => link(s.names_pt?.[i], s.names_en?.[i])).join(', ') || '–')}
+                ${raw(
+                  // lista vazia em inglês ("um truque da lista de mago, à sua escolha") usa a do português
+                  (s.names_en?.length ? s.names_en : (s.names_pt ?? []))
+                    .map((n, i) => link(s.names_pt?.[i], s.names_en?.[i]))
+                    .join(', ') || '–',
+                )}
               </td>
               <td>${pick(s.regularity) || '–'}</td>
             </tr>`,
@@ -190,11 +196,13 @@ export async function render(container, { R, params, query }) {
   try {
     data = await loadSpecies(params.slug);
   } catch {
+    if (!container.isConnected) return;
     setTitle(t('races.notFound'), t('races.title'));
     container.innerHTML = html`${raw(back)}
       <div class="alert" role="alert">${t('races.notFound')}</div>`;
     return;
   }
+  if (!container.isConnected) return;
   const name = titleCase(pick(data.name));
   setTitle(name, t('races.title'));
   const versions = data.versions?.length ? data.versions : [data];
