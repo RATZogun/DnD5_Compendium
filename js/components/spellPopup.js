@@ -2,6 +2,7 @@ import { html, raw, titleCase, enhanceStatblocks } from '../util.js';
 import { t, ordinal } from '../i18n.js';
 import { sourcesHtml, castingTimeText, rangeText, durationText } from './spellCard.js';
 import { href } from '../router.js';
+import { schoolIcon } from '../schoolIcons.js';
 
 // Ficha resumida da magia ao passar o mouse nos links de magia das páginas de classes e espécies.
 const PAGES = /^#\/(classes|especies|racas)\b/;
@@ -70,7 +71,8 @@ export function spellNotesHtml(s) {
 export function spellSheetHtml(R, s, { link = false, footer = '' } = {}) {
   const name = titleCase(s.name);
   return html`<header class="sp-head">
-      <div>
+      <span class="sp-school" title="${titleCase(s.spell_school_name)}">${raw(schoolIcon(s.spell_school_name, 30))}</span>
+      <div class="sp-title">
         <div class="sp-name">${link ? raw(html`<a href="${href.spell(s.slug)}">${name}</a>`) : name}</div>
         <div class="sp-source">${raw(sourcesHtml(R, s.sources_rels.slice(0, 1)).replace(/^<strong>.*?<\/strong>: /, ''))}</div>
       </div>

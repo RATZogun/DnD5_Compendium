@@ -16,6 +16,7 @@ import { spellMetaGridHtml, spellNotesHtml } from '../components/spellPopup.js';
 import { casterHref } from '../components/spellCard.js';
 import { pickFilters, spellFilterChips } from '../spellFilter.js';
 import { icon } from '../icons.js';
+import { schoolIcon } from '../schoolIcons.js';
 import { crumbsHtml, pagerHtml } from '../components/docPage.js';
 
 // última busca da lista de magias (gravada pela lista), para o "Voltar aos resultados"
@@ -139,7 +140,7 @@ export function render(container, { R, params }) {
       )}
       <p class="sx-kicker">
         <span class="chip chip-spell">${t('home.kind.spellTag')}</span>
-        <span class="mg-level">${levelText(spell)} · ${titleCase(spell.spell_school_name)}</span>
+        <span class="mg-level">${raw(schoolIcon(spell.spell_school_name, 18))} ${levelText(spell)} · ${titleCase(spell.spell_school_name)}</span>
       </p>
       <h1 class="sx-title mg-title">${name}${original ? raw(html` <small lang="en">${original}</small>`) : ''}</h1>
       <div class="ornament" aria-hidden="true"><span></span><i></i><span></span></div>

@@ -452,6 +452,17 @@ main {
   background: var(--popup-head);
   color: #fff;
 }
+/* ícone da escola à esquerda do nome, na cor da categoria */
+.sp-school {
+  display: inline-flex;
+  flex: none;
+  align-self: center;
+  color: var(--cat-spell-on-dark);
+}
+.sp-title {
+  flex: 1;
+  min-width: 0;
+}
 .sp-name {
   font-size: 22px;
   line-height: 1.2;
