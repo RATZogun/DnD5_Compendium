@@ -77,9 +77,6 @@ const STRINGS = {
     'common.max': 'máximo',
 
     'filters.title': 'filtros',
-    'filters.clean': 'limpar filtros',
-    'filters.showMore': 'mostrar mais',
-    'filters.showLess': 'mostrar menos',
 
     'pagination.label': 'Paginação',
     'pagination.first': 'primeira página',
@@ -119,7 +116,6 @@ const STRINGS = {
 
     'spellFilter.level': 'nível de magia',
     'spellFilter.school': 'escola de magia',
-    'spellFilter.ritual': 'é ritual?',
     'spellFilter.class': 'classe',
     'spellFilter.specialization': 'subclasse',
     'spellFilter.type': 'tipo',
@@ -133,11 +129,6 @@ const STRINGS = {
     'spellFilter.range': 'alcance',
     'spellFilter.concentration': 'concentração',
     'spellFilter.canEvolve': 'evolui por nível',
-    'spellFilter.components': 'componentes',
-    'spellFilter.verbal': 'verbal',
-    'spellFilter.somatic': 'somático',
-    'spellFilter.material': 'material',
-    'spellFilter.consumed': 'é consumido?',
 
     'statblock.traits': 'Traços',
     'statblock.spellLevel': 'Nível da magia',
@@ -273,7 +264,9 @@ const STRINGS = {
 
     'scroll.pageTitle': 'Gerador de Pergaminho',
     'scroll.title': 'Gerador de Pergaminho de Magia',
-    'scroll.generate': 'gerar pergaminho',
+    'scroll.generate': 'Gerar pergaminho',
+    'scroll.tool': 'Ferramenta',
+    'scroll.pool': '{n} magias possíveis',
   },
   en: {
     'site.title': 'D&D 5e Spellcaster Assistant',
@@ -354,9 +347,6 @@ const STRINGS = {
     'common.max': 'maximum',
 
     'filters.title': 'filters',
-    'filters.clean': 'clear filters',
-    'filters.showMore': 'show more',
-    'filters.showLess': 'show less',
 
     'pagination.label': 'Pagination',
     'pagination.first': 'first page',
@@ -396,7 +386,6 @@ const STRINGS = {
 
     'spellFilter.level': 'spell level',
     'spellFilter.school': 'school of magic',
-    'spellFilter.ritual': 'ritual?',
     'spellFilter.class': 'class',
     'spellFilter.specialization': 'subclass',
     'spellFilter.type': 'type',
@@ -410,11 +399,6 @@ const STRINGS = {
     'spellFilter.range': 'range',
     'spellFilter.concentration': 'concentration',
     'spellFilter.canEvolve': 'scales with level',
-    'spellFilter.components': 'components',
-    'spellFilter.verbal': 'verbal',
-    'spellFilter.somatic': 'somatic',
-    'spellFilter.material': 'material',
-    'spellFilter.consumed': 'consumed?',
 
     'statblock.traits': 'Traits',
     'statblock.spellLevel': 'Spell level',
@@ -549,7 +533,9 @@ const STRINGS = {
 
     'scroll.pageTitle': 'Scroll Generator',
     'scroll.title': 'Spell Scroll Generator',
-    'scroll.generate': 'generate scroll',
+    'scroll.generate': 'Generate scroll',
+    'scroll.tool': 'Tool',
+    'scroll.pool': '{n} possible spells',
   },
 };
 

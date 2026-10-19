@@ -198,6 +198,15 @@ details.facet:not([open]) > summary {
 .active-chip:hover {
   opacity: 0.85;
 }
+/* gerador de pergaminho: o botão de sortear fica no fim da barra */
+.scroll-generate {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 0 auto;
+  font-family: var(--font-ui);
+  font-weight: 700;
+}
 .list-sort {
   display: inline-flex;
   align-items: center;
@@ -345,9 +354,13 @@ details.facet:not([open]) > summary {
   .facets.open .facets-body {
     display: flex;
   }
-  .list-sort {
+  .list-sort,
+  .scroll-generate {
     margin-left: 0;
     width: 100%;
+  }
+  .scroll-generate {
+    justify-content: center;
   }
 }
 @media (max-width: 560px) {

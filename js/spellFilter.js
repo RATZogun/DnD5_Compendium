@@ -1,6 +1,5 @@
-import { nameMatcher, titleCase } from './util.js';
+import { nameMatcher, titleCase, compareText } from './util.js';
 import { t, ordinal } from './i18n.js';
-import { uniqueOptions } from './components/filters.js';
 import { listHasSpell, klassMaxSpellLevel, specMaxSpellLevel, specializationsOf } from './data.js';
 
 export const SPELL_DEFAULTS = Object.freeze({
@@ -30,112 +29,13 @@ export const SPELL_DEFAULTS = Object.freeze({
 
 const NONE = ['nenhum', 'none'];
 
-export function spellFilterFields(R) {
-  const S = R.spells;
-  const levels = S.map((s) => s.level);
-  const books = new Set(S.flatMap((s) => (s.sources_rels ?? []).map((r) => r.source_abbreviation)));
-  const components = t('spellFilter.components');
-  return [
-    { key: 'name', label: t('common.name'), type: 'text' },
-    {
-      keys: ['levelMin', 'levelMax'],
-      label: t('spellFilter.level'),
-      type: 'range',
-      min: Math.min(...levels),
-      max: Math.max(...levels),
-    },
-    {
-      key: 'spellSchoolName',
-      label: t('spellFilter.school'),
-      type: 'select',
-      options: () => R.spellSchools.map((s) => ({ value: s.name, label: s.name })),
-    },
-    { key: 'isRitual', label: t('spellFilter.ritual'), type: 'boolean' },
-    {
-      key: 'klassName',
-      label: t('spellFilter.class'),
-      type: 'select',
-      options: () =>
-        R.klasses
-          .filter(
-            (k) =>
-              hasSpells(R, { klassName: k.name }) ||
-              specializationsOf(R, k.name).some((s) => hasSpells(R, { klassName: k.name, specializationName: s.name })),
-          )
-          .map((k) => ({ value: k.name, label: k.name })),
-      onChange: (st) => {
-        if (
-          st.specializationName &&
-          !specializationsOf(R, st.klassName).some((s) => s.name === st.specializationName)
-        ) {
-          st.specializationName = null;
-        }
-      },
-    },
-    {
-      key: 'specializationName',
-      label: t('spellFilter.specialization'),
-      type: 'select',
-      visible: (st) => Boolean(st.klassName),
-      options: (st) =>
-        specializationsOf(R, st.klassName)
-          .filter((s) => hasSpells(R, { klassName: st.klassName, specializationName: s.name }))
-          .map((s) => ({ value: s.name, label: s.name })),
-    },
-    {
-      key: 'type',
-      label: t('spellFilter.type'),
-      type: 'select',
-      options: () => ['damage', 'heal', 'other'].map((v) => ({ value: v, label: t(`spellFilter.type.${v}`) })),
-    },
-    {
-      key: 'damageType',
-      label: t('spellFilter.damageType'),
-      type: 'select',
-      visible: (st) => st.type === 'damage',
-      options: () => uniqueOptions(S, 'damage_type'),
-    },
-    {
-      key: 'attack',
-      label: t('spellFilter.attack'),
-      type: 'select',
-      options: () => uniqueOptions(S, 'attack', { first: NONE }),
-    },
-    {
-      key: 'savingThrow',
-      label: t('spellFilter.save'),
-      type: 'select',
-      options: () => uniqueOptions(S, 'saving_throw', { first: NONE }),
-    },
-    {
-      key: 'castingTimeUnit',
-      label: t('spellFilter.castingTime'),
-      type: 'select',
-      options: () => uniqueOptions(S, 'casting_time_unit'),
-    },
-    { key: 'rangeUnit', label: t('spellFilter.range'), type: 'select', options: () => uniqueOptions(S, 'range_unit') },
-    { key: 'doesNeedConcentration', label: t('spellFilter.concentration'), type: 'boolean' },
-    { key: 'canEvolve', label: t('spellFilter.canEvolve'), type: 'boolean' },
-    {
-      key: 'sourceAbbreviation',
-      label: t('common.source'),
-      type: 'select',
-      options: () =>
-        R.sources
-          .filter((s) => books.has(s.abbreviation))
-          .map((s) => ({ value: s.abbreviation, label: titleCase(s.name) })),
-    },
-    { key: 'hasVerbalComponent', label: t('spellFilter.verbal'), type: 'boolean', fieldset: components },
-    { key: 'hasSomaticComponent', label: t('spellFilter.somatic'), type: 'boolean', fieldset: components },
-    { key: 'hasMaterialComponent', label: t('spellFilter.material'), type: 'boolean', fieldset: components },
-    {
-      key: 'isMaterialConsumed',
-      label: t('spellFilter.consumed'),
-      type: 'boolean',
-      fieldset: components,
-      visible: (st) => st.hasMaterialComponent === true,
-    },
-  ];
+// opções únicas de um campo, com as indicadas em first na frente
+function uniqueOptions(items, field, { first = [] } = {}) {
+  const firsts = [].concat(first);
+  const vals = [...new Set(items.map((x) => x[field]).filter((v) => v !== null && v !== undefined && v !== ''))];
+  const head = firsts.filter((v) => vals.includes(v));
+  const tail = vals.filter((v) => !firsts.includes(v)).sort(compareText);
+  return [...head, ...tail].map((v) => ({ value: v, label: v }));
 }
 
 const isSet = (v) => v !== null && v !== undefined && v !== '' && !(Array.isArray(v) && !v.length);

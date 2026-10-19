@@ -1,57 +1,62 @@
-import { html, setTitle, enhanceStatblocks } from '../util.js';
+import { html, raw, setTitle, enhanceStatblocks } from '../util.js';
 import { t } from '../i18n.js';
-import { createFilterPanel } from '../components/filters.js';
+import { replaceQuery } from '../router.js';
 import { spellCardHtml } from '../components/spellCard.js';
-import { SPELL_DEFAULTS, spellFilterFields, filterSpells } from '../spellFilter.js';
+import { pickFilters, hasActiveFilters } from '../spellFilter.js';
+import { normalizeSpellState, facetsLayoutHtml, initSpellFacets } from '../components/spellFacets.js';
 
-const COLLAPSED = new Set(['levelMin', 'spellSchoolName', 'klassName', 'specializationName', 'sourceAbbreviation']);
+// gerador de pergaminho no mesmo modelo da lista de magias: os filtros escolhem as magias possíveis e o botão
+// sorteia uma. Sem filtro na URL, começa sem truques (do 1º ao 9º nível).
 const INITIAL = { levelMin: 1, levelMax: 9 };
 
-export function render(container, { R }) {
+export function render(container, { R, query }) {
   setTitle(t('scroll.pageTitle'));
-  let filtered = [];
+  const fromUrl = pickFilters(query);
+  const st = normalizeSpellState(R, hasActiveFilters(fromUrl) ? fromUrl : { ...fromUrl, ...INITIAL });
+  let pool = [];
   let spell = null;
 
-  container.innerHTML = html` <h1>${t('scroll.title')}</h1>
-    <div id="scroll-filters"></div>
-    <div id="scroll-result" aria-live="polite">
-      <div class="alert" role="status" hidden>${t('spells.empty')}</div>
-      <button type="button" class="btn btn-primary randomize-btn" hidden>${t('scroll.generate')}</button>
-      <div class="scroll-spell"></div>
-    </div>`;
-  const result = container.querySelector('#scroll-result');
-  const alert = result.querySelector('.alert');
-  const btn = result.querySelector('.randomize-btn');
-  const card = result.querySelector('.scroll-spell');
+  container.innerHTML = html`<nav class="crumbs" aria-label="breadcrumb">
+      <a href="#/">${t('nav.home')}</a> › <span>${t('scroll.pageTitle')}</span>
+    </nav>
+    <header class="list-head">
+      <span class="chip chip-spell">${t('scroll.tool')}</span>
+      <h1>${t('scroll.title')}</h1>
+    </header>
+    <div class="ornament" aria-hidden="true"><span></span><i></i><span></span></div>
+    ${raw(facetsLayoutHtml('<div class="scroll-spell" aria-live="polite"></div>'))}`;
+  const card = container.querySelector('.scroll-spell');
 
-  const fields = spellFilterFields(R)
-    .filter((f) => f.key !== 'name')
-    .map((f) => (COLLAPSED.has(f.key ?? f.keys[0]) ? f : { ...f, extra: true }));
-
-  createFilterPanel(container.querySelector('#scroll-filters'), {
-    fields,
-    defaults: SPELL_DEFAULTS,
-    state: INITIAL,
-    open: true,
-    showMoreToggle: true,
-    onChange: (st) => {
-      filtered = filterSpells(R, st);
-      generate();
-    },
-  });
-
-  btn.addEventListener('click', generate);
-
-  // Evita sortear a mesma magia duas vezes seguidas quando há mais de uma opção.
+  // evita sortear a mesma magia duas vezes seguidas quando há mais de uma opção
   function generate() {
-    const pool = filtered.length > 1 && spell ? filtered.filter((s) => s !== spell) : filtered;
-    spell = pool.length ? pool[Math.floor(Math.random() * pool.length)] : null;
-    alert.hidden = Boolean(spell);
-    btn.hidden = !spell;
-    card.innerHTML = spell ? spellCardHtml(R, spell) : '';
+    const options = pool.length > 1 && spell ? pool.filter((s) => s !== spell) : pool;
+    spell = options.length ? options[Math.floor(Math.random() * options.length)] : null;
+    card.innerHTML = spell
+      ? spellCardHtml(R, spell)
+      : html`<div class="alert" role="status">${t('spells.empty')}</div>`;
     enhanceStatblocks(card);
   }
 
-  filtered = filterSpells(R, { ...SPELL_DEFAULTS, ...INITIAL });
-  generate();
+  initSpellFacets(container, {
+    R,
+    st,
+    // os mesmos filtros que o gerador sempre teve
+    only: ['levels', 'spellSchoolName', 'klassName', 'sourceAbbreviation'],
+    barStart: (l) => t('scroll.pool', { n: l.length }),
+    barEnd: (l) =>
+      html`<button type="button" class="btn btn-primary scroll-generate" data-generate ${l.length ? '' : 'disabled'}>
+        ${raw(html`<span aria-hidden="true">⟳</span>`)} ${t('scroll.generate')}
+      </button>`,
+    onChange: (filtered) => {
+      pool = filtered;
+      const q = {};
+      for (const [k, v] of Object.entries(st)) q[k] = Array.isArray(v) ? v.join(',') || null : v;
+      replaceQuery(q);
+      if (!spell || !pool.includes(spell)) generate();
+    },
+  }).update();
+
+  container.querySelector('.list-bar').addEventListener('click', (e) => {
+    if (e.target.closest('[data-generate]')) generate();
+  });
 }

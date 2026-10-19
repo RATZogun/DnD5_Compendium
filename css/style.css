@@ -247,91 +247,6 @@ main {
   font-size: 75%;
 }
 
-.filters-panel .filters-toggle {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  width: 100%;
-  background: none;
-  border: 0;
-  color: inherit;
-  font: inherit;
-  font-size: 16px;
-  text-align: left;
-  cursor: pointer;
-  text-transform: capitalize;
-}
-.filters-panel:not(.open) .filters-toggle {
-  border-bottom: 0;
-}
-.filters-panel .chevron {
-  margin-left: auto;
-  transition: transform 0.2s;
-}
-.filters-panel .chevron::after {
-  content: '▾';
-}
-.filters-panel.open .chevron {
-  transform: rotate(180deg);
-}
-.icon-filter::before {
-  content: '⚲';
-  font-size: 15px;
-}
-.filters-panel:not(.open) .filters-body {
-  display: none;
-}
-@media (min-width: 768px) {
-  .filters-panel .filters-toggle {
-    cursor: default;
-    border-bottom: 1px solid var(--border);
-  }
-  .filters-panel .filters-toggle:disabled {
-    color: inherit;
-    opacity: 1;
-  }
-  .filters-panel .chevron {
-    display: none;
-  }
-  .filters-panel:not(.open) .filters-body {
-    display: block;
-  }
-}
-.filters-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 0 20px;
-}
-.filters-grid fieldset {
-  grid-column: 1 / -1;
-  border: 0;
-  padding: 0;
-  margin: 4px 0 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 0 20px;
-}
-.filters-grid legend {
-  font-size: 16px;
-  padding: 0;
-  margin-bottom: 8px;
-  border-bottom: 1px solid var(--border);
-  width: 100%;
-}
-.filters-grid legend::first-letter {
-  text-transform: uppercase;
-}
-.form-group {
-  margin-bottom: 12px;
-}
-.form-group label {
-  display: block;
-  font-weight: 700;
-  margin-bottom: 4px;
-}
-.form-group label::first-letter {
-  text-transform: uppercase;
-}
 .form-control {
   display: block;
   width: 100%;
@@ -346,14 +261,6 @@ main {
   outline: 2px solid var(--primary);
   outline-offset: -1px;
   border-color: var(--primary);
-}
-.range {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-.filters-actions {
-  margin-top: 4px;
 }
 .btn {
   display: inline-block;
@@ -682,8 +589,6 @@ h3,
 .doc .sb-level,
 .doc .back-link,
 .statblock table,
-.sp-grid,
-.filters-panel,
-.filters-panel .panel-body {
+.sp-grid {
   font-family: var(--font-ui);
 }
