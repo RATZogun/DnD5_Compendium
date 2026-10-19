@@ -4,6 +4,7 @@ import { replaceQuery } from '../router.js';
 import { spellCardHtml } from '../components/spellCard.js';
 import { pickFilters, hasActiveFilters } from '../spellFilter.js';
 import { normalizeSpellState, facetsLayoutHtml, initSpellFacets } from '../components/spellFacets.js';
+import { linkRules } from '../ruleLinks.js';
 
 // gerador de pergaminho no mesmo modelo da lista de magias: os filtros escolhem as magias possíveis e o botão
 // sorteia uma. Sem filtro na URL, começa sem truques (do 1º ao 9º nível).
@@ -35,6 +36,7 @@ export function render(container, { R, query }) {
       ? spellCardHtml(R, spell)
       : html`<div class="alert" role="status">${t('spells.empty')}</div>`;
     enhanceStatblocks(card);
+    linkRules(card);
   }
 
   initSpellFacets(container, {

@@ -6,6 +6,7 @@ import { spellCardHtml } from '../components/spellCard.js';
 import { pickFilters } from '../spellFilter.js';
 import { normalizeSpellState, facetsLayoutHtml, initSpellFacets } from '../components/spellFacets.js';
 import { SPELLS_BACK_KEY } from './spellShow.js';
+import { linkRules } from '../ruleLinks.js';
 
 // lista de magias no mesmo modelo da de espécies: filtros à esquerda (com contagens), resultados à direita
 const SORTS = {
@@ -69,6 +70,7 @@ export function render(container, { R, query }) {
       <div class="cards">${list.slice((page - 1) * size, page * size).map((s) => raw(spellCardHtml(R, s)))}</div>
       ${raw(pager)}`;
     enhanceStatblocks(results);
+    linkRules(results);
   }
 
   const facets = initSpellFacets(container, {

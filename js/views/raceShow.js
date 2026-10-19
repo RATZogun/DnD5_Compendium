@@ -19,6 +19,7 @@ import {
   refreshToc,
   initDocPage,
 } from '../components/docPage.js';
+import { linkRules } from '../ruleLinks.js';
 
 const subCount = (n) => (n === 1 ? t('races.subraceOne') : t('search.subraces', { n }));
 
@@ -217,9 +218,11 @@ export async function render(container, { R, params, query }) {
     container.querySelector('.sx-head').innerHTML = headHtml(R, data, v, name);
     body.innerHTML = bodyHtml(R, data, v, name);
     container.querySelector('.sx-aside').innerHTML = asideHtml(R, data, v, name);
+    linkRules(container.querySelector('.sx-aside'));
     titleStrongs(body);
     enhanceStatblocks(body);
     linkProseSpells(R, body);
+    linkRules(body);
     if (query?.s && container.querySelector(`.sx-subrace[id="${CSS.escape(query.s)}"]`)) showSub(container, query.s);
     refreshToc(container);
   }

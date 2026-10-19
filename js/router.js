@@ -56,5 +56,6 @@ export const href = {
   races: (query) => withQuery('#/especies', query),
   race: (slug) => `#/especies/${encodeURIComponent(slug)}`,
   rules: (section) => (section ? `#/regras/${encodeURIComponent(section)}` : '#/regras'),
+  rule: (id) => `#/regras/resumo?item=${encodeURIComponent(id)}`,
   scroll: () => '#/pergaminho',
 };

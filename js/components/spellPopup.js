@@ -3,6 +3,9 @@ import { t, ordinal } from '../i18n.js';
 import { sourcesHtml, castingTimeText, rangeText, durationText } from './spellCard.js';
 import { href } from '../router.js';
 import { schoolIcon } from '../schoolIcons.js';
+import { linkRules } from '../ruleLinks.js';
+import { loadQuickref } from '../data.js';
+import { ruleSheetHtml } from '../views/quickref.js';
 
 // Ficha resumida da magia ao passar o mouse nos links de magia das páginas de classes e espécies.
 const PAGES = /^#\/(classes|especies|racas)\b/;
@@ -115,7 +118,30 @@ export function initSpellPopup(getR) {
     box.style.top = `${Math.max(MARGIN, top)}px`;
   }
 
+  // termo de regra: a ficha do resumo de regras (o arquivo do resumo carrega na primeira vez)
+  function showRule(link) {
+    const R = getR();
+    const id = new URLSearchParams(link.getAttribute('href').split('?')[1]).get('item');
+    clearTimeout(hideTimer);
+    if (current === link) {
+      box.hidden = false;
+      return place(link);
+    }
+    current = link;
+    loadQuickref()
+      .then((Q) => {
+        const sheet = R && ruleSheetHtml(R, Q, id);
+        if (current !== link || !sheet) return;
+        box.innerHTML = sheet;
+        box.scrollTop = 0;
+        box.hidden = false;
+        place(link);
+      })
+      .catch(() => {});
+  }
+
   function show(link) {
+    if (link.classList.contains('rule-link')) return showRule(link);
     const R = getR();
     const slug = decodeURIComponent(link.getAttribute('href').split('/').pop());
     const spell = R?.spellBySlug.get(slug);
@@ -124,6 +150,7 @@ export function initSpellPopup(getR) {
     if (current !== link) {
       box.innerHTML = popupHtml(R, spell);
       enhanceStatblocks(box);
+      linkRules(box);
       box.scrollTop = 0;
       current = link;
     }
@@ -131,8 +158,10 @@ export function initSpellPopup(getR) {
     place(link);
   }
 
+  // magias só nas páginas de classe e espécie; termos de regra em qualquer página
   const spellLink = (el) =>
-    PAGES.test(location.hash) ? el.closest?.('main a[href^="#/magias/"]:not(.back-link)') : null;
+    el.closest?.('main a.rule-link') ??
+    (PAGES.test(location.hash) ? el.closest?.('main a[href^="#/magias/"]:not(.back-link)') : null);
 
   document.addEventListener('mouseover', (e) => {
     if (box.contains(e.target)) return clearTimeout(hideTimer);

@@ -603,3 +603,14 @@ h3,
 .sp-grid {
   font-family: var(--font-ui);
 }
+
+/* termos de regra que levam ao resumo de regras: discretos, com sublinhado pontilhado no dourado de destaque */
+a.rule-link {
+  color: inherit;
+  text-decoration: underline dotted var(--accent);
+  text-underline-offset: 3px;
+}
+a.rule-link:hover {
+  color: var(--accent-text);
+  text-decoration-style: solid;
+}

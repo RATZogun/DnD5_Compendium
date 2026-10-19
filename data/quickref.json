@@ -14,6 +14,7 @@
           },
           "items": [
             {
+              "id": "strength",
               "icon": "weight-lifting-up",
               "pt": {
                 "title": "Força",
@@ -51,6 +52,7 @@
               }
             },
             {
+              "id": "dexterity",
               "icon": "high-five",
               "pt": {
                 "title": "Destreza",
@@ -92,6 +94,7 @@
               }
             },
             {
+              "id": "constitution",
               "icon": "health-normal",
               "pt": {
                 "title": "Constituição",
@@ -127,6 +130,7 @@
               }
             },
             {
+              "id": "intelligence",
               "icon": "idea",
               "pt": {
                 "title": "Inteligência",
@@ -164,6 +168,7 @@
               }
             },
             {
+              "id": "wisdom",
               "icon": "wisdom",
               "pt": {
                 "title": "Sabedoria",
@@ -193,6 +198,7 @@
               }
             },
             {
+              "id": "charisma",
               "icon": "charm",
               "pt": {
                 "title": "Carisma",
@@ -230,6 +236,7 @@
           },
           "items": [
             {
+              "id": "athletics",
               "icon": "discobolus",
               "pt": {
                 "title": "Atletismo",
@@ -261,6 +268,7 @@
               }
             },
             {
+              "id": "acrobatics",
               "icon": "acrobatic",
               "pt": {
                 "title": "Acrobacia",
@@ -284,6 +292,7 @@
               }
             },
             {
+              "id": "stealth",
               "icon": "ninja-mask",
               "pt": {
                 "title": "Furtividade",
@@ -307,6 +316,7 @@
               }
             },
             {
+              "id": "sleight-of-hand",
               "icon": "magic-swirl",
               "pt": {
                 "title": "Prestidigitação",
@@ -338,6 +348,7 @@
               }
             },
             {
+              "id": "arcana",
               "icon": "gargoyle",
               "pt": {
                 "title": "Arcanismo",
@@ -361,6 +372,7 @@
               }
             },
             {
+              "id": "history",
               "icon": "book-pile",
               "pt": {
                 "title": "História",
@@ -384,6 +396,7 @@
               }
             },
             {
+              "id": "investigation",
               "icon": "sherlock-holmes",
               "pt": {
                 "title": "Investigação",
@@ -407,6 +420,7 @@
               }
             },
             {
+              "id": "nature",
               "icon": "fruiting",
               "pt": {
                 "title": "Natureza",
@@ -430,6 +444,7 @@
               }
             },
             {
+              "id": "religion",
               "icon": "church",
               "pt": {
                 "title": "Religião",
@@ -453,6 +468,7 @@
               }
             },
             {
+              "id": "animal-handling",
               "icon": "paw",
               "pt": {
                 "title": "Adestrar Animais",
@@ -476,6 +492,7 @@
               }
             },
             {
+              "id": "insight",
               "icon": "smart",
               "pt": {
                 "title": "Intuição",
@@ -499,6 +516,7 @@
               }
             },
             {
+              "id": "medicine",
               "icon": "medical-pack",
               "pt": {
                 "title": "Medicina",
@@ -522,6 +540,7 @@
               }
             },
             {
+              "id": "perception",
               "icon": "aerial-signal",
               "pt": {
                 "title": "Percepção",
@@ -545,6 +564,7 @@
               }
             },
             {
+              "id": "survival",
               "icon": "uncertainty",
               "pt": {
                 "title": "Sobrevivência",
@@ -568,6 +588,7 @@
               }
             },
             {
+              "id": "performance",
               "icon": "duality",
               "pt": {
                 "title": "Atuação",
@@ -591,6 +612,7 @@
               }
             },
             {
+              "id": "deception",
               "icon": "robber",
               "pt": {
                 "title": "Enganação",
@@ -614,6 +636,7 @@
               }
             },
             {
+              "id": "intimidation",
               "icon": "vile-fluid",
               "pt": {
                 "title": "Intimidação",
@@ -637,6 +660,7 @@
               }
             },
             {
+              "id": "persuasion",
               "icon": "arrest",
               "pt": {
                 "title": "Persuasão",
@@ -677,6 +701,7 @@
           },
           "items": [
             {
+              "id": "ability-check",
               "icon": "stairs-goal",
               "pt": {
                 "title": "Teste de habilidade",
@@ -710,6 +735,7 @@
               }
             },
             {
+              "id": "saving-throw",
               "icon": "shield-reflect",
               "pt": {
                 "title": "Teste de resistência",
@@ -747,6 +773,7 @@
               }
             },
             {
+              "id": "attack-roll",
               "icon": "sword-brandish",
               "pt": {
                 "title": "Jogada de ataque",
@@ -794,6 +821,7 @@
           },
           "items": [
             {
+              "id": "advantage-and-disadvantage",
               "icon": "sword-tie",
               "pt": {
                 "title": "Vantagem e desvantagem",
@@ -831,6 +859,7 @@
               }
             },
             {
+              "id": "proficiency-bonus",
               "icon": "master-of-arms",
               "pt": {
                 "title": "Bônus de proficiência",
@@ -872,6 +901,7 @@
               }
             },
             {
+              "id": "resistance-and-vulnerability",
               "icon": "achilles-heel",
               "pt": {
                 "title": "Resistência e vulnerabilidade",
@@ -926,6 +956,7 @@
           },
           "items": [
             {
+              "id": "move",
               "icon": "run",
               "pt": {
                 "title": "Mover-se",
@@ -961,6 +992,7 @@
               }
             },
             {
+              "id": "climb",
               "icon": "crags",
               "pt": {
                 "title": "Escalar",
@@ -984,6 +1016,7 @@
               }
             },
             {
+              "id": "swim",
               "icon": "at-sea",
               "pt": {
                 "title": "Nadar",
@@ -1007,6 +1040,7 @@
               }
             },
             {
+              "id": "drop-prone",
               "icon": "falling",
               "pt": {
                 "title": "Estar caído",
@@ -1038,6 +1072,7 @@
               }
             },
             {
+              "id": "crawl",
               "icon": "crawl",
               "pt": {
                 "title": "Rastejar",
@@ -1061,6 +1096,7 @@
               }
             },
             {
+              "id": "stand-up",
               "icon": "strong",
               "pt": {
                 "title": "Levantar-se",
@@ -1086,6 +1122,7 @@
               }
             },
             {
+              "id": "high-jump",
               "icon": "wingfoot",
               "pt": {
                 "title": "Salto em altura",
@@ -1119,6 +1156,7 @@
               }
             },
             {
+              "id": "long-jump",
               "icon": "wingfoot",
               "pt": {
                 "title": "Salto em distância",
@@ -1152,6 +1190,7 @@
               }
             },
             {
+              "id": "improvise",
               "icon": "juggler",
               "pt": {
                 "title": "Improvisar",
@@ -1171,6 +1210,7 @@
               }
             },
             {
+              "id": "difficult-terrain",
               "icon": "stone-pile",
               "pt": {
                 "title": "Terreno difícil",
@@ -1198,6 +1238,7 @@
               }
             },
             {
+              "id": "grapple-move",
               "icon": "grab",
               "pt": {
                 "title": "Mover criatura agarrada",
@@ -1248,6 +1289,7 @@
           },
           "items": [
             {
+              "id": "help",
               "icon": "telepathy",
               "pt": {
                 "title": "Ajudar",
@@ -1279,6 +1321,7 @@
               }
             },
             {
+              "id": "attack",
               "icon": "crossed-swords",
               "pt": {
                 "title": "Ataque",
@@ -1314,6 +1357,7 @@
               }
             },
             {
+              "id": "grapple",
               "icon": "grab",
               "pt": {
                 "title": "Agarrão",
@@ -1347,6 +1391,7 @@
               }
             },
             {
+              "id": "cast-a-spell",
               "icon": "magic-swirl",
               "pt": {
                 "title": "Conjurar uma magia",
@@ -1380,6 +1425,7 @@
               }
             },
             {
+              "id": "disengage",
               "icon": "journey",
               "pt": {
                 "title": "Desengajar",
@@ -1403,6 +1449,7 @@
               }
             },
             {
+              "id": "dash",
               "icon": "sprint",
               "pt": {
                 "title": "Disparada",
@@ -1426,6 +1473,7 @@
               }
             },
             {
+              "id": "shove",
               "icon": "hand",
               "pt": {
                 "title": "Encontrão",
@@ -1459,6 +1507,7 @@
               }
             },
             {
+              "id": "escape",
               "icon": "manacles",
               "pt": {
                 "title": "Escapar",
@@ -1488,6 +1537,7 @@
               }
             },
             {
+              "id": "hide",
               "icon": "hood",
               "pt": {
                 "title": "Esconder",
@@ -1523,6 +1573,7 @@
               }
             },
             {
+              "id": "dodge",
               "icon": "aura",
               "pt": {
                 "title": "Esquivar",
@@ -1552,6 +1603,7 @@
               }
             },
             {
+              "id": "use-class-feature",
               "icon": "embrassed-energy",
               "pt": {
                 "title": "Usar característica",
@@ -1569,6 +1621,7 @@
               }
             },
             {
+              "id": "use-shield",
               "icon": "round-shield",
               "pt": {
                 "title": "Usar escudo",
@@ -1601,6 +1654,7 @@
               }
             },
             {
+              "id": "use-object",
               "icon": "snatch",
               "pt": {
                 "title": "Usar objeto",
@@ -1630,6 +1684,7 @@
               }
             },
             {
+              "id": "ready",
               "icon": "stopwatch",
               "pt": {
                 "title": "Preparar",
@@ -1665,6 +1720,7 @@
               }
             },
             {
+              "id": "search",
               "icon": "magnifying-glass",
               "pt": {
                 "title": "Procurar",
@@ -1692,6 +1748,7 @@
               }
             },
             {
+              "id": "improvise-acao",
               "icon": "juggler",
               "pt": {
                 "title": "Improvisar",
@@ -1740,6 +1797,7 @@
           },
           "items": [
             {
+              "id": "offhand-attack",
               "icon": "crossed-swords",
               "pt": {
                 "title": "Combater com duas armas",
@@ -1773,6 +1831,7 @@
               }
             },
             {
+              "id": "cast-a-spell-acao-bonus",
               "icon": "magic-swirl",
               "pt": {
                 "title": "Conjurar uma magia",
@@ -1802,6 +1861,7 @@
               }
             },
             {
+              "id": "use-class-feature-acao-bonus",
               "icon": "embrassed-energy",
               "pt": {
                 "title": "Usar característica",
@@ -1840,6 +1900,7 @@
           },
           "items": [
             {
+              "id": "opportunity-attack",
               "icon": "crossed-swords",
               "pt": {
                 "title": "Ataque de oportunidade",
@@ -1874,6 +1935,7 @@
               }
             },
             {
+              "id": "readied-action",
               "icon": "stopwatch",
               "pt": {
                 "title": "Ação preparada",
@@ -1897,6 +1959,7 @@
               }
             },
             {
+              "id": "cast-a-spell-reacao",
               "icon": "magic-swirl",
               "pt": {
                 "title": "Conjurar uma magia",
@@ -1943,6 +2006,7 @@
           },
           "items": [
             {
+              "id": "grappled",
               "icon": "grab",
               "pt": {
                 "title": "Agarrado",
@@ -1974,6 +2038,7 @@
               }
             },
             {
+              "id": "frightened",
               "icon": "sharp-smile",
               "pt": {
                 "title": "Amedrontado",
@@ -2003,6 +2068,7 @@
               }
             },
             {
+              "id": "stunned",
               "icon": "internal-injury",
               "pt": {
                 "title": "Atordoado",
@@ -2034,6 +2100,7 @@
               }
             },
             {
+              "id": "prone",
               "icon": "crawl",
               "pt": {
                 "title": "Caído",
@@ -2065,6 +2132,7 @@
               }
             },
             {
+              "id": "blinded",
               "icon": "one-eyed",
               "pt": {
                 "title": "Cego",
@@ -2096,6 +2164,7 @@
               }
             },
             {
+              "id": "charmed",
               "icon": "smitten",
               "pt": {
                 "title": "Enfeitiçado",
@@ -2125,6 +2194,7 @@
               }
             },
             {
+              "id": "poisoned",
               "icon": "deathcab",
               "pt": {
                 "title": "Envenenado",
@@ -2148,6 +2218,7 @@
               }
             },
             {
+              "id": "exhaustion",
               "icon": "crawl",
               "pt": {
                 "title": "Exaustão",
@@ -2179,6 +2250,7 @@
               }
             },
             {
+              "id": "restrained",
               "icon": "imprisoned",
               "pt": {
                 "title": "Impedido",
@@ -2212,6 +2284,7 @@
               }
             },
             {
+              "id": "incapacitated",
               "icon": "internal-injury",
               "pt": {
                 "title": "Incapacitado",
@@ -2235,6 +2308,7 @@
               }
             },
             {
+              "id": "unconscious",
               "icon": "coma",
               "pt": {
                 "title": "Inconsciente",
@@ -2270,6 +2344,7 @@
               }
             },
             {
+              "id": "invisible",
               "icon": "invisible",
               "pt": {
                 "title": "Invisível",
@@ -2303,6 +2378,7 @@
               }
             },
             {
+              "id": "paralyzed",
               "icon": "internal-injury",
               "pt": {
                 "title": "Paralisado",
@@ -2332,6 +2408,7 @@
               }
             },
             {
+              "id": "petrified",
               "icon": "stone-pile",
               "pt": {
                 "title": "Petrificado",
@@ -2369,6 +2446,7 @@
               }
             },
             {
+              "id": "deafened",
               "icon": "elf-ear",
               "pt": {
                 "title": "Surdo",
@@ -2411,6 +2489,7 @@
           },
           "items": [
             {
+              "id": "lightly-obscured",
               "icon": "bleeding-eye",
               "pt": {
                 "title": "Escuridão leve",
@@ -2436,6 +2515,7 @@
               }
             },
             {
+              "id": "heavily-obscured",
               "icon": "lightning-tear",
               "pt": {
                 "title": "Escuridão densa",
@@ -2471,6 +2551,7 @@
           },
           "items": [
             {
+              "id": "bright-light",
               "icon": "star-pupil",
               "pt": {
                 "title": "Luz plena",
@@ -2498,6 +2579,7 @@
               }
             },
             {
+              "id": "dim-light",
               "icon": "semi-closed-eye",
               "pt": {
                 "title": "Penumbra",
@@ -2529,6 +2611,7 @@
               }
             },
             {
+              "id": "darkness",
               "icon": "worried-eyes",
               "pt": {
                 "title": "Escuridão total",
@@ -2566,6 +2649,7 @@
           },
           "items": [
             {
+              "id": "blindsight",
               "icon": "one-eyed",
               "pt": {
                 "title": "Percepção às cegas",
@@ -2593,6 +2677,7 @@
               }
             },
             {
+              "id": "darkvision",
               "icon": "semi-closed-eye",
               "pt": {
                 "title": "Visão no escuro",
@@ -2624,6 +2709,7 @@
               }
             },
             {
+              "id": "truesight",
               "icon": "eye-shield",
               "pt": {
                 "title": "Visão verdadeira",
@@ -2661,6 +2747,7 @@
           },
           "items": [
             {
+              "id": "half-cover",
               "icon": "broken-shield",
               "pt": {
                 "title": "Meia cobertura",
@@ -2692,6 +2779,7 @@
               }
             },
             {
+              "id": "three-quarters-cover",
               "icon": "cracked-shield",
               "pt": {
                 "title": "Três-quartos de cobertura",
@@ -2723,6 +2811,7 @@
               }
             },
             {
+              "id": "full-cover",
               "icon": "shield",
               "pt": {
                 "title": "Cobertura total",
@@ -2760,6 +2849,7 @@
           },
           "items": [
             {
+              "id": "falling",
               "icon": "falling",
               "pt": {
                 "title": "Queda",
@@ -2793,6 +2883,7 @@
               }
             },
             {
+              "id": "suffocating",
               "icon": "drowning",
               "pt": {
                 "title": "Asfixia",

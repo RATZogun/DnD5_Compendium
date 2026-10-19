@@ -18,6 +18,7 @@ import { pickFilters, spellFilterChips } from '../spellFilter.js';
 import { icon } from '../icons.js';
 import { schoolIcon } from '../schoolIcons.js';
 import { crumbsHtml, pagerHtml } from '../components/docPage.js';
+import { linkRules } from '../ruleLinks.js';
 
 // última busca da lista de magias (gravada pela lista), para o "Voltar aos resultados"
 export const SPELLS_BACK_KEY = 'spellsBack';
@@ -196,4 +197,5 @@ export function render(container, { R, params }) {
   const doc = container.querySelector('.mg-doc');
   titleStrongs(doc);
   enhanceStatblocks(doc);
+  linkRules(doc);
 }

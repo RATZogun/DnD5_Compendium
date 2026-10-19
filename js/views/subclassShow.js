@@ -26,6 +26,7 @@ import {
   refreshToc,
   initDocPage,
 } from '../components/docPage.js';
+import { linkRules } from '../ruleLinks.js';
 
 const levelsOf = (v) => [...new Set(v.features.map((f) => f.level))].sort((a, b) => a - b);
 
@@ -132,9 +133,11 @@ export async function render(container, { R, params }) {
     container.querySelector('.sx-head').innerHTML = headHtml(R, data, v, name, klassName);
     body.innerHTML = bodyHtml(R, data, v, sub);
     container.querySelector('.sx-aside').innerHTML = asideHtml(R, data, v, name, klassName);
+    linkRules(container.querySelector('.sx-aside'));
     titleStrongs(body);
     enhanceStatblocks(body);
     linkProseSpells(R, body);
+    linkRules(body);
     // o nível destacado na página da classe vale aqui também
     applyMine(container, readMine(data.slug));
     refreshToc(container);

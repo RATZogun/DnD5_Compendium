@@ -6,6 +6,7 @@ import { pick, linkProseSpells } from './klassShow.js';
 import { icon } from '../icons.js';
 import { classIcon } from '../classIcons.js';
 import { paginationHtml, bindPagination } from '../components/pagination.js';
+import { linkRules } from '../ruleLinks.js';
 
 // Opções e Recursos: invocações, infusões, disciplinas, manobras, runas, dádivas, metamagia, disparos arcanos e
 // estilos de luta numa lista só, com filtros à esquerda e uma ficha por opção (no formato da ficha de magia)
@@ -211,6 +212,7 @@ export async function renderOptions(container, { R, query, header }) {
       <div class="cards">${found.slice((page - 1) * size, page * size).map((o) => raw(cardHtml(R, o)))}</div>
       ${raw(pager)}`;
     linkProseSpells(R, rows);
+    linkRules(rows);
   }
 
   function update({ facetsToo = true } = {}) {

@@ -18,6 +18,7 @@ import {
   refreshToc,
   initDocPage,
 } from '../components/docPage.js';
+import { linkRules } from '../ruleLinks.js';
 
 export const pick = (obj) => (obj ? (obj[getLang()] ?? obj.pt ?? obj.en ?? '') : '');
 
@@ -455,9 +456,11 @@ export async function render(container, { R, params }) {
   body.innerHTML = html`${raw(introHtml(pick(data.intro_html)))} ${raw(progressionHtml(data, mine))}
   ${raw(featuresHtml(R, data))} ${raw(subclassesHtml(R, data))} ${raw(spellsCallout(klass, name, spellCount))}`;
   container.querySelector('.sx-aside').innerHTML = asideHtml(R, data, klass, name);
+  linkRules(container.querySelector('.sx-aside'));
   titleStrongs(body);
   enhanceStatblocks(body);
   linkProseSpells(R, body);
+  linkRules(body);
   applyMine(container, mine);
   refreshToc(container);
   initDocPage(container);
