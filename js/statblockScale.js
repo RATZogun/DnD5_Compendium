@@ -1,9 +1,9 @@
-// Fichas que evoluem com o círculo da magia (invocações) ou com o nível da classe (companheiros):
+// Fichas que evoluem com o nível da magia (invocações) ou com o nível da classe (companheiros):
 // as fórmulas do texto viram números para o nível escolhido, como no seletor de nível do 5etools.
 
 const NUM = String.raw`(?<![\dd\uE000\uE001])(\d+)`;
 const END = String.raw`(?![\dd\uE000\uE001])`;
-const SPELL = String.raw`(?:o |this |the )?(?:círculo d[ae] magia|spell[’']s level|level of the spell)`;
+const SPELL = String.raw`(?:o |this |the )?(?:(?:círculo|nível) d[ae] magia|spell[’']s level|level of the spell)`;
 const CLASS = String.raw`(?:seu nível de ([a-zà-ú]+)|your ([a-z]+) level)`;
 const MULT = { duas: 2, dois: 2, três: 3, quatro: 4, cinco: 5, two: 2, three: 3, four: 4, five: 5 };
 // valor já calculado, guardado fora do texto até o fim para que as regras seguintes não o alterem
@@ -14,19 +14,19 @@ const signed = (n) => (n >= 0 ? `+${n}` : String(n));
 // regras na ordem em que devem ser aplicadas; `mk(valor, fórmula)` devolve o marcador do valor calculado
 function spellRules(level, mk, base) {
   return [
-    // "40 + 10 para cada círculo da magia acima do 5º": o acréscimo vai para todos os valores antes da fórmula
+    // "40 + 10 para cada nível da magia acima do 5º": o acréscimo vai para todos os valores antes da fórmula
     [
-      String.raw`^(.*?)\s*\+ (\d+) (?:para cada círculo d[ae] magia acima do|for each spell level above) (\d+)(?:º|°|st|nd|rd|th)`,
+      String.raw`^(.*?)\s*\+ (\d+) (?:para cada (?:círculo|nível) d[ae] magia acima do|for each spell level above) (\d+)(?:º|°|st|nd|rd|th)`,
       (m, before, per, printed) =>
         before.replace(new RegExp(NUM + END, 'g'), (n) => mk(Number(n) + per * (level - (base ?? printed)), m)),
     ],
     [
-      String.raw`(?:à|a) metade do círculo da magia \(arredondado para baixo\)`,
+      String.raw`(?:à|a) metade do (?:círculo|nível) da magia \(arredondado para baixo\)`,
       (m) => `a ${mk(Math.floor(level / 2), m)}`,
     ],
     [String.raw`half (?:this|the) spell[’']s level \(rounded down\)`, (m) => mk(Math.floor(level / 2), m)],
     [NUM + String.raw` \+ ` + SPELL, (m, n) => mk(Number(n) + level, m)],
-    [String.raw`igual ao círculo d[ae] magia`, (m) => `igual a ${mk(level, m)}`],
+    [String.raw`igual ao (?:círculo|nível) d[ae] magia`, (m) => `igual a ${mk(level, m)}`],
     [String.raw`equal to the (?:level of the spell|spell[’']s level)`, (m) => `equal to ${mk(level, m)}`],
     [SPELL, (m) => mk(level, m)],
   ];
@@ -85,12 +85,12 @@ function scaleHtml(html, scaling, level) {
     .join('');
 }
 
-// tipo de escala da ficha: círculo da magia (o círculo base vem de "acima do 5º") ou nível da classe
+// tipo de escala da ficha: nível da magia (o nível base vem de "acima do 5º") ou nível da classe
 export function scalingOf(sb) {
   const text = sb.textContent;
-  const printed = text.match(/(?:círculo d[ae] magia acima do|spell level above) (\d+)/);
+  const printed = text.match(/(?:(?:círculo|nível) d[ae] magia acima do|spell level above) (\d+)/);
   if (printed) {
-    // o círculo real da magia vale mais que o do texto (o livro em português às vezes traz o círculo errado)
+    // o nível real da magia vale mais que o do texto (o livro em português às vezes traz o nível errado)
     const base = Number(sb.closest('[data-spell-level]')?.dataset.spellLevel) || Number(printed[1]);
     return { kind: 'spell', base, min: base, max: 9 };
   }

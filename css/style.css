@@ -463,9 +463,6 @@ main {
     grid-template-columns: 1fr;
   }
 }
-.spell-card .spell-level {
-  color: var(--muted);
-}
 .spell-description p {
   margin: 0 0 10px;
 }
@@ -594,6 +591,25 @@ main {
   color: var(--muted);
   font-size: 13px;
 }
+/* card da lista de magias: a mesma ficha do popup, fora da caixa flutuante */
+.spell-sheet {
+  margin: 0 0 20px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--text);
+}
+.sp-name a,
+.sp-name a:hover {
+  color: inherit;
+}
+.sp-foot {
+  margin: 0 16px;
+  padding: 10px 0 12px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-family: var(--font-ui);
+  font-size: 13px;
+}
 @media (max-width: 600px) {
   .sp-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -607,7 +623,6 @@ h3,
 .home-card-title,
 .statblock .sb-head strong,
 .statblock .sb-section,
-.spell-card .spell-name,
 .sp-name {
   font-family: var(--font-heading);
 }
@@ -618,7 +633,6 @@ h3,
 }
 .doc,
 .spell-description,
-.spell-card .panel-body,
 .sp-body,
 .home-lead,
 .home-card-text,

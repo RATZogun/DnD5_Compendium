@@ -79,9 +79,11 @@ export function cardHtml({ label, art, name, sub, rows, cls = '' }) {
   </details>`;
 }
 
-export function pagerHtml(list, slug, hrefOf, label) {
+// suffix entra no rótulo ("Anterior · 3º nível")
+export function pagerHtml(list, slug, hrefOf, label, suffix = '') {
   const i = list.findIndex((r) => r.slug === slug);
   if (i < 0) return '';
+  const more = suffix ? ` · ${suffix}` : '';
   const link = (r, cls, text) =>
     r
       ? html`<a class="sx-pager-link ${cls}" href="${hrefOf(r.slug)}">
@@ -89,7 +91,7 @@ export function pagerHtml(list, slug, hrefOf, label) {
         </a>`
       : '<span></span>';
   return html`<nav class="sx-pager" aria-label="${label}">
-    ${raw(link(list[i - 1], 'prev', `← ${t('page.prev')}`))}${raw(link(list[i + 1], 'next', `${t('page.next')} →`))}
+    ${raw(link(list[i - 1], 'prev', `← ${t('page.prev')}${more}`))}${raw(link(list[i + 1], 'next', `${t('page.next')}${more} →`))}
   </nav>`;
 }
 

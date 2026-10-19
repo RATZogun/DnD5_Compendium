@@ -5,6 +5,16 @@ import { createFilterPanel } from '../components/filters.js';
 import { paginationHtml, bindPagination } from '../components/pagination.js';
 import { spellCardHtml } from '../components/spellCard.js';
 import { SPELL_DEFAULTS, spellFilterFields, filterSpells, pickFilters, hasActiveFilters } from '../spellFilter.js';
+import { SPELLS_BACK_KEY } from './spellShow.js';
+
+// guarda a busca atual para o "Voltar aos resultados" da página da magia
+function rememberList() {
+  try {
+    sessionStorage.setItem(SPELLS_BACK_KEY, location.hash);
+  } catch {
+    // sem armazenamento: o voltar leva à lista sem filtros
+  }
+}
 
 const SORTERS = {
   name_asc: (a, b) => compareText(a.name, b.name),
@@ -34,6 +44,7 @@ export function render(container, { R, query }) {
       filters = st;
       page = 1;
       replaceQuery(st);
+      rememberList();
       draw();
     },
   });
@@ -82,5 +93,6 @@ export function render(container, { R, query }) {
     enhanceStatblocks(list);
   }
 
+  rememberList();
   draw();
 }

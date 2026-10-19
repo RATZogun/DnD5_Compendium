@@ -202,7 +202,7 @@ export function enhanceStatblocks(root) {
   });
 }
 
-// seletor de círculo da magia ou de nível da classe, para fichas que evoluem
+// seletor de nível da magia ou de nível da classe, para fichas que evoluem
 function addScaleSelector(sb, head) {
   const scaling = head && scalingOf(sb);
   if (!scaling) return;

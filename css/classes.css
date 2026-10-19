@@ -476,23 +476,6 @@ details.intro summary {
   margin: 0 0 12px;
 }
 
-/* cards da lista de magias com a mesma tipografia */
-.spell-card .panel-heading {
-  border-bottom: 2px solid var(--accent);
-}
-.spell-card .spell-name {
-  font-size: 20px;
-  font-weight: 400;
-  margin: 0 0 2px;
-}
-.spell-card .panel-body {
-  font-size: 15px;
-  line-height: 1.7;
-}
-.spell-card .spell-description p {
-  margin: 0 0 10px;
-}
-
 /* opções de uma lista (invocações místicas, infusões) em caixas separadas */
 .doc .option-box {
   margin: 0 0 12px;

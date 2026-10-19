@@ -1,14 +1,8 @@
 import { html, raw, titleCase } from '../util.js';
-import { t, ordinal } from '../i18n.js';
+import { t } from '../i18n.js';
 import { spellCasters } from '../data.js';
 import { href } from '../router.js';
-
-export function spellLevelLine(spell) {
-  const school = spell.spell_school_name;
-  const base =
-    spell.level === 0 ? t('spell.cantripOf', { school }) : t('spell.levelOf', { level: ordinal(spell.level), school });
-  return base + (spell.is_ritual ? t('spell.ritual') : '');
-}
+import { spellSheetHtml } from './spellPopup.js';
 
 const qty = (n, unit) => (n > 0 ? `${n} ${unit}` : unit);
 
@@ -53,28 +47,16 @@ export function castersHtml(R, spell, link) {
     .join(', ');
 }
 
-export function spellCardHtml(R, spell, { linkName = true, showName = true, linkKlasses = true } = {}) {
-  const title = titleCase(spell.name);
-  const original =
-    spell.original_name && spell.original_name !== spell.name
-      ? html` <small>(${titleCase(spell.original_name, 'en')})</small>`
-      : '';
-  const nameHtml = linkName ? html`<a href="${href.spell(spell.slug)}">${title}</a>` : html`${title}`;
-  return html` <article class="panel spell-card">
-    <header class="panel-heading">
-      ${showName ? raw(html`<h3 class="spell-name">${raw(nameHtml)}${raw(original)}</h3>`) : ''}
-      <p class="spell-level"><em>${spellLevelLine(spell)}</em></p>
-      <p class="spell-casters">
-        <strong>${titleCase(t('spell.casters'))}</strong>: ${raw(castersHtml(R, spell, linkKlasses))}
-      </p>
-    </header>
-    <div class="panel-body">
-      <p><strong>${titleCase(t('spell.castingTime'))}</strong>: ${castingTimeText(spell)}</p>
-      <p><strong>${titleCase(t('spell.range'))}</strong>: ${rangeText(spell)}</p>
-      <p><strong>${titleCase(t('spell.components'))}</strong>: ${componentsText(spell)}</p>
-      <p><strong>${titleCase(t('spell.duration'))}</strong>: ${durationText(spell)}</p>
-      <div class="spell-description" data-spell-level="${spell.level}">${raw(spell.description)}</div>
-    </div>
-    <footer class="panel-footer">${raw(sourcesHtml(R, spell.sources_rels))}</footer>
+// card da lista de magias: a mesma ficha do popup, com os conjuradores no rodapé
+export function spellCardHtml(R, spell) {
+  return html`<article class="spell-sheet">
+    ${raw(
+      spellSheetHtml(R, spell, {
+        link: true,
+        footer: html`<footer class="sp-foot">
+          <strong>${titleCase(t('spell.casters'))}</strong>: ${raw(castersHtml(R, spell, true))}
+        </footer>`,
+      }),
+    )}
   </article>`;
 }
