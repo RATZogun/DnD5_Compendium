@@ -1,88 +1,5 @@
-.klass-card .panel-heading h3 {
-  margin: 0;
-}
-
-.klass-cols {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0 20px;
-}
-
-.klass-dl {
-  margin: 0 0 12px;
-}
-
-.klass-dl dt {
-  font-weight: 700;
-}
-
-.klass-dl dd {
-  margin: 0 0 8px;
-}
-
 .text-muted {
   color: var(--muted);
-}
-
-.btn-xs {
-  padding: 1px 6px;
-  font-size: 12px;
-  margin-left: 6px;
-}
-
-.progression-table th,
-.progression-table td {
-  white-space: nowrap;
-}
-
-.progression-narrow {
-  display: none;
-}
-
-.progression-narrow th {
-  font-weight: 400;
-  background: none;
-}
-
-.progression-narrow tbody.even {
-  background: var(--panel-alt);
-}
-
-.spec-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.spec-card .panel-heading h3 {
-  margin: 0;
-}
-
-.spec-spells-table td:first-child {
-  width: 4em;
-}
-
-.list-inline {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2px 12px;
-}
-
-@media (max-width: 767px) {
-  .klass-cols {
-    grid-template-columns: 1fr;
-  }
-
-  .progression-wide {
-    display: none;
-  }
-
-  .progression-narrow {
-    display: table;
-  }
 }
 
 .feature h3 {
@@ -161,10 +78,6 @@ details.intro summary {
   background: var(--primary);
   color: #fff;
   border-color: var(--primary);
-}
-
-.klass-summary {
-  margin: 4px 0 0;
 }
 
 .subrace .panel-heading h3 {

@@ -226,6 +226,8 @@ details.facet:not([open]) > summary {
 .race-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
+  /* todas as linhas com a altura da mais alta: os cards ficam todos do mesmo tamanho */
+  grid-auto-rows: 1fr;
   gap: 16px;
 }
 .race-grid > .alert {
@@ -257,7 +259,6 @@ details.facet:not([open]) > summary {
   justify-content: center;
   width: 44px;
   height: 44px;
-  background: rgba(255, 255, 255, 0.1);
   color: var(--cat-species-on-dark);
 }
 .race-tile-name {
@@ -285,6 +286,18 @@ details.facet:not([open]) > summary {
   gap: 6px;
   margin: 0 14px;
   font-size: 12px;
+}
+
+.klass-tile:hover,
+.klass-tile:focus-visible {
+  border-color: var(--cat-class);
+}
+.klass-tile .race-tile-icon {
+  color: var(--cat-class-on-dark);
+}
+.klass-tile:hover .race-tile-name,
+.klass-tile:focus-visible .race-tile-name {
+  color: var(--cat-class-on-dark);
 }
 
 @media (max-width: 1100px) {

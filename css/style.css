@@ -27,6 +27,7 @@
   /* cores da categoria sobre o cabeçalho escuro das fichas (iguais nos dois temas) */
   --cat-spell-on-dark: #c8a3e8;
   --cat-species-on-dark: #9cc27f;
+  --cat-class-on-dark: #93b3dc;
   --cat-gold: #85641c;
   --cat-gold-bg: #f6ebd3;
   --overlay: rgba(23, 18, 13, 0.55);

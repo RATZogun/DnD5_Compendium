@@ -1,301 +1,297 @@
-import { html, raw, nameMatcher, setTitle, titleCase } from '../util.js';
-import { t, ordinal } from '../i18n.js';
+import { html, raw, titleCase, nameMatcher, setTitle, compareText } from '../util.js';
+import { t } from '../i18n.js';
 import { href, replaceQuery } from '../router.js';
-import { createFilterPanel } from '../components/filters.js';
-import { sourcesHtml } from '../components/spellCard.js';
-import { listSpells, listLevelSpells, klassMaxSpellLevel } from '../data.js';
-import { pickFilters, hasActiveFilters } from '../spellFilter.js';
+import { filterSpells } from '../spellFilter.js';
+import { icon } from '../icons.js';
+import { classIcon } from '../classIcons.js';
 
-const KLASS_DEFAULTS = Object.freeze({
-  name: '',
-  spellcastingAbilityAbbreviation: null,
-  mustLearnSpells: null,
-  canLearnExtraSpells: null,
-  mustPrepareSpells: null,
-  canCastCantrips: null,
-  canCastRituals: null,
-  canUseMagicFocus: null,
+// lista de classes no mesmo modelo de espécies e magias: filtros à esquerda (com contagens), cartões à direita.
+// Em cada grupo vale qualquer opção marcada; em "possui" valem todas; entre grupos valem todos.
+const HAS = [
+  ['prepares', 'must_prepare_spells', 'classes.has.prepares'],
+  ['learns', 'must_learn_spells', 'classes.has.learns'],
+  ['cantrips', 'can_cast_cantrips', 'classes.has.cantrips'],
+  ['rituals', 'can_cast_rituals', 'classes.has.rituals'],
+  ['focus', 'can_use_magic_focus', 'classes.has.focus'],
+];
+const NO_CASTING = 'none';
+const SORTS = {
+  az: (a, b) => compareText(a.name, b.name),
+  za: (a, b) => compareText(b.name, a.name),
+  hitDie: (a, b) => (b.hit_die ?? 0) - (a.hit_die ?? 0) || compareText(a.name, b.name),
+};
+const SORT_LABEL = { az: 'list.sort.az', za: 'list.sort.za', hitDie: 'classes.sort.hitDie' };
+const list = (v) => (v ? String(v).split(',').filter(Boolean) : []);
+
+// livros pelo nome (a mesma obra pode vir com siglas diferentes nos dados)
+const bookNames = (R, k) =>
+  (k.sources_rels ?? []).map((s) => R.sourceByAbbr.get(s.source_abbreviation)?.name ?? s.source_abbreviation);
+const abilityOf = (k) => k.spellcasting_ability_abbreviation ?? NO_CASTING;
+const subclassesOf = (R, k) => R.specializations.filter((s) => s.klass_slug === k.slug);
+
+function readState(query) {
+  return {
+    name: query.name ? String(query.name) : '',
+    ability: list(query.ability),
+    hitDie: list(query.hitDie),
+    source: list(query.source),
+    has: list(query.has).filter((h) => HAS.some(([key]) => key === h)),
+    sort: query.sort in SORTS ? query.sort : 'az',
+  };
+}
+
+const matchers = (R, st) => ({
+  name: st.name
+    ? (
+        (m) => (k) =>
+          m(k.name)
+      )(nameMatcher(st.name))
+    : null,
+  ability: st.ability.length ? (k) => st.ability.includes(abilityOf(k)) : null,
+  hitDie: st.hitDie.length ? (k) => st.hitDie.includes(String(k.hit_die)) : null,
+  source: st.source.length ? (k) => bookNames(R, k).some((n) => st.source.includes(n)) : null,
+  has: st.has.length ? (k) => st.has.every((h) => k[HAS.find(([key]) => key === h)[1]]) : null,
 });
 
-const FLAGS = [
-  ['mustLearnSpells', 'must_learn_spells', 'classes.mustLearn'],
-  ['canLearnExtraSpells', 'can_learn_extra_spells', 'classes.canLearnExtra'],
-  ['mustPrepareSpells', 'must_prepare_spells', 'classes.mustPrepare'],
-  ['canCastCantrips', 'can_cast_cantrips', 'classes.canCastCantrips'],
-  ['canCastRituals', 'can_cast_rituals', 'classes.canCastRituals'],
-  ['canUseMagicFocus', 'can_use_magic_focus', 'classes.canUseFocus'],
-];
-const DASH = '–';
-
-// Só o Segredo Mágico do bardo soma às magias conhecidas; o Arcano Místico do bruxo não ocupa espaço.
-const KNOWN_SPELL_REGULARITIES = new Set(['consome espaço de magia', 'consumes spell slot']);
-
-function klassFilterFields(R) {
-  return [
-    { key: 'name', label: t('common.name'), type: 'text' },
-    {
-      key: 'spellcastingAbilityAbbreviation',
-      label: t('classes.spellcastingAbility'),
-      type: 'select',
-      options: () =>
-        R.abilities
-          .filter((a) => R.klasses.some((k) => k.spellcasting_ability_abbreviation === a.abbreviation))
-          .map((a) => ({ value: a.abbreviation, label: a.name })),
-    },
-    ...FLAGS.map(([key, , label]) => ({ key, label: t(label), type: 'boolean' })),
-  ].map((f) => {
-    if (f.key === 'mustLearnSpells')
-      return {
-        ...f,
-        onChange: (st) => {
-          if (st.mustLearnSpells !== true) st.canLearnExtraSpells = null;
-        },
-      };
-    if (f.key === 'canLearnExtraSpells') return { ...f, visible: (st) => st.mustLearnSpells === true };
-    return f;
-  });
+// aplica todos os filtros, menos o grupo indicado (para as contagens de cada opção)
+function filterKlasses(R, st, except = null) {
+  const m = matchers(R, st);
+  return R.klasses.filter((k) => Object.entries(m).every(([key, fn]) => key === except || !fn || fn(k)));
 }
 
-function filterKlasses(R, f) {
-  const byName = nameMatcher(f.name);
-  return R.klasses.filter((k) => {
-    if (f.spellcastingAbilityAbbreviation && k.spellcasting_ability_abbreviation !== f.spellcastingAbilityAbbreviation)
-      return false;
-    for (const [key, field] of FLAGS) if (f[key] != null && k[field] !== f[key]) return false;
-    return byName(k.name);
-  });
+function optionHtml(group, value, label, count, checked) {
+  return html`<label class="facet-option">
+    <input type="checkbox" data-group="${group}" value="${value}" ${checked ? 'checked' : ''} />
+    <span class="facet-label">${label}</span>
+    <span class="facet-count">${count}</span>
+  </label>`;
 }
 
-const casterType = (R, klass) => R.casterTypes.get(klass.spellcaster_type_name) ?? null;
-const maxOf = (list, key) => list.reduce((m, x) => Math.max(m, x[key] ?? 0), 0);
-
-export function klassSpecializations(R, klass) {
-  return R.raw.specializations.filter((s) => s.klass_name === klass.name);
-}
-
-// Classe + subclasses, com o mesmo teto de nível do filtro de Magias.
-function availableSpellsCount(R, klass) {
-  if (!casterType(R, klass) || !klass.spell_list_name) return null;
-  const maxLevel = klassMaxSpellLevel(R, klass);
-  const names = new Set();
-  for (const listName of [klass.spell_list_name, ...klassSpecializations(R, klass).map((s) => s.spell_list_name)]) {
-    for (const s of listSpells(R, listName)) if (s.level <= maxLevel) names.add(s.name);
-  }
-  return names.size;
-}
-
-function progressionRows(R, klass) {
-  const type = casterType(R, klass);
-  if (!type) return { maxSpellLevel: 0, rows: [] };
-  const maxSpellLevel = maxOf(type.levels, 'spell_level');
-  const maxLevel = maxOf(type.levels, 'level');
-  const extras = listLevelSpells(R, klass.spell_list_name).filter((ls) => KNOWN_SPELL_REGULARITIES.has(ls.regularity));
-  const rows = [];
-  for (let L = 1; L <= maxLevel; L++) {
-    const row = klass.class_levels.find((l) => l.level === L);
-    const cantrips = row && klass.can_cast_cantrips && row.cantrips_known > 0 ? row.cantrips_known : DASH;
-    const known =
-      !row || !klass.must_learn_spells || !row.spells_known
-        ? DASH
-        : row.spells_known + extras.filter((ls) => ls.level <= L).length;
-    const slots = [];
-    for (let s = 1; s <= maxSpellLevel; s++) {
-      const x = type.levels.find((l) => l.level === L && l.spell_level === s);
-      slots.push(x && x.slots > 0 ? x.slots : DASH);
-    }
-    rows.push({ level: L, cantrips, known, slots });
-  }
-  return { maxSpellLevel, rows };
-}
-
-function preparableSpellsText(R, klass) {
-  const formula = casterType(R, klass)?.preparable_spells;
-  if (!formula) return null;
-  const ability = R.abilityByAbbr.get(klass.spellcasting_ability_abbreviation);
-  return formula
-    .replace('class_lv', t('classes.formula.classLevel', { klass: klass.name }))
-    .replace('.floor', t('classes.formula.floor'))
-    .replace('.ceil', t('classes.formula.ceil'))
-    .replace(
-      'ability_mod',
-      ability
-        ? t('classes.formula.abilityMod', { ability: titleCase(ability.name) })
-        : t('classes.formula.abilityModGeneric'),
-    );
-}
-
-function progressionHtml(R, klass) {
-  const { maxSpellLevel, rows } = progressionRows(R, klass);
-  if (!rows.length) return '';
-  const showCantrips = klass.can_cast_cantrips;
-  const showKnown = klass.must_learn_spells;
-  const levels = Array.from({ length: maxSpellLevel }, (_, i) => i + 1);
-  const wide = html` <div class="table-wrap progression-wide">
-    <table class="data-table progression-table">
-      <thead>
-        <tr>
-          <th rowspan="2">${titleCase(t('common.level'))}</th>
-          ${showCantrips ? raw(html`<th rowspan="2" class="num">${titleCase(t('classes.cantripsKnown'))}</th>`) : ''}
-          ${showKnown ? raw(html`<th rowspan="2" class="num">${titleCase(t('classes.spellsKnown'))}</th>`) : ''}
-          <th colspan="${maxSpellLevel}" class="num">${titleCase(t('classes.slotsByLevel'))}</th>
-        </tr>
-        <tr>
-          ${levels.map((s) => raw(html`<th class="num">${ordinal(s)}</th>`))}
-        </tr>
-      </thead>
-      <tbody>
-        ${rows.map((r) =>
-          raw(
-            html`<tr>
-              <td>${ordinal(r.level)}</td>
-              ${showCantrips ? raw(html`<td class="num">${r.cantrips}</td>`) : ''}
-              ${showKnown ? raw(html`<td class="num">${r.known}</td>`) : ''}
-              ${r.slots.map((n) => raw(html`<td class="num">${n}</td>`))}
-            </tr>`,
-          ),
-        )}
-      </tbody>
-    </table>
-  </div>`;
-  const narrow = html` <table class="data-table progression-narrow">
-    ${rows.map((r, i) =>
-      raw(
-        html`<tbody class="${i % 2 ? 'odd' : 'even'}">
-          <tr>
-            <th>${titleCase(t('common.level'))}</th>
-            <td class="num">${ordinal(r.level)}</td>
-          </tr>
-          ${
-            showCantrips
-              ? raw(
-                  html`<tr>
-                    <th>${titleCase(t('classes.cantripsKnown'))}</th>
-                    <td class="num">${r.cantrips}</td>
-                  </tr>`,
-                )
-              : ''
-          }
-          ${
-            showKnown
-              ? raw(
-                  html`<tr>
-                    <th>${titleCase(t('classes.spellsKnown'))}</th>
-                    <td class="num">${r.known}</td>
-                  </tr>`,
-                )
-              : ''
-          }
-          ${r.slots.map((n, s) =>
-            n === DASH
-              ? ''
-              : raw(
-                  html`<tr>
-                    <th>${t('classes.slotsOfLevel', { level: ordinal(s + 1) })}</th>
-                    <td class="num">${n}</td>
-                  </tr>`,
-                ),
-          )}
-        </tbody>`,
-      ),
-    )}
-  </table>`;
-  return wide + narrow;
-}
-
-function availableHtml(R, klass) {
-  const count = availableSpellsCount(R, klass);
-  if (count === null) return html`<span class="text-muted">${t('classes.noList')}</span>`;
-  return html`${count} <a class="btn btn-xs" href="${href.spells({ klassName: klass.name })}">${t('classes.view')}</a>`;
-}
-
-function bodyHtml(R, klass) {
-  if (!casterType(R, klass)) return '';
-  const ability = R.abilityByAbbr.get(klass.spellcasting_ability_abbreviation);
-  const preparable = klass.must_prepare_spells ? preparableSpellsText(R, klass) : null;
-  const flags = FLAGS.filter(([key]) => key !== 'canLearnExtraSpells' || klass.must_learn_spells);
-  const yesNo = (v) => t(v ? 'common.yes' : 'common.no');
-  return html` <div class="panel-body">
-    <div class="klass-cols">
-      <dl class="klass-dl">
-        <dt>${titleCase(t('classes.spellcastingAbility'))}</dt>
-        <dd>${ability ? titleCase(ability.name) : '—'}</dd>
-        ${
-          preparable
-            ? raw(
-                html`<dt>${titleCase(t('classes.preparable'))}</dt>
-                  <dd>${preparable}</dd>`,
-              )
-            : ''
-        }
-        <dt>${titleCase(t('classes.available'))}</dt>
-        <dd>${raw(availableHtml(R, klass))}</dd>
-      </dl>
-      <dl class="klass-dl">
-        ${flags.map(([, field, label]) =>
-          raw(
-            html`<dt>${titleCase(t(label))}</dt>
-              <dd>${yesNo(klass[field])}</dd>`,
-          ),
-        )}
-      </dl>
-    </div>
-    ${raw(progressionHtml(R, klass))}
-  </div>`;
-}
-
-function summaryHtml(R, klass) {
-  const subs = R.specializations.filter((s) => s.klass_slug === klass.slug).length;
-  const parts = [];
-  if (klass.hit_die) parts.push(`${titleCase(t('classes.hitDie'))}: d${klass.hit_die}`);
-  if (subs) parts.push(t('classes.subclassCount', { title: titleCase(klass.subclass_title ?? ''), n: subs }));
-  return parts.length ? html`<p class="klass-summary text-muted">${parts.join(' · ')}</p>` : '';
-}
-
-export function klassCardHtml(R, klass, { showName = true } = {}) {
-  return html` <article class="panel klass-card">
-    ${
-      showName
-        ? raw(
-            html`<header class="panel-heading">
-              <h3><a href="${href.klass(klass.slug)}">${titleCase(klass.name)} ›</a></h3>
-              ${raw(summaryHtml(R, klass))}
-            </header>`,
-          )
-        : ''
-    }
-    ${raw(bodyHtml(R, klass))}
-    ${klass.sources_rels?.length ? raw(html`<footer class="panel-footer">${raw(sourcesHtml(R, klass.sources_rels))}</footer>`) : ''}
-  </article>`;
+// cartão no visual da ficha de magia: emblema, nome e dado de vida; conjuração; livro
+function klassCardHtml(R, k) {
+  const src = k.sources_rels?.[0];
+  const book = src && R.sourceByAbbr.get(src.source_abbreviation);
+  const subs = subclassesOf(R, k).length;
+  const ability = k.spellcasting_ability_abbreviation && R.abilityByAbbr.get(k.spellcasting_ability_abbreviation);
+  const spells = k.spell_list_name ? filterSpells(R, { klassName: k.name }).length : 0;
+  const traits = HAS.filter(([, field]) => k[field]).map(([, , label]) => t(label));
+  const meta = [
+    k.hit_die ? `${titleCase(t('classes.hitDie'))} d${k.hit_die}` : '',
+    subs ? t('classes.subclassesN', { n: subs }) : '',
+  ]
+    .filter(Boolean)
+    .join(' · ');
+  return html`<a class="race-tile klass-tile" href="${href.klass(k.slug)}">
+    <span class="sp-head race-tile-head">
+      <span class="race-tile-icon">${raw(classIcon(k.slug, 28))}</span>
+      <span>
+        <span class="sp-name race-tile-name">${titleCase(k.name)}</span>
+        <span class="sp-source race-tile-meta">${meta}</span>
+      </span>
+    </span>
+    <span class="sp-body race-tile-subs ${ability ? '' : 'text-muted'}">
+      ${
+        ability
+          ? raw(
+              html`${t('classes.castsWith', { ability: titleCase(ability.name) })} ·
+                ${t('classes.spellsCount', { n: spells })}${traits.length ? raw(html`<br />${traits.join(' · ')}`) : ''}`,
+            )
+          : t('classes.noCasting')
+      }
+    </span>
+    <span class="sp-foot race-tile-source"
+      >${raw(icon.book(14))} ${book ? titleCase(book.name) : (src?.source_abbreviation ?? '')}${
+        src?.page ? ` · ${t('common.page')} ${src.page}` : ''
+      }</span
+    >
+  </a>`;
 }
 
 export function render(container, { R, query }) {
   setTitle(t('classes.title'));
-  let filters = pickFilters(query, KLASS_DEFAULTS);
-  if (filters.mustLearnSpells !== true) filters.canLearnExtraSpells = null;
+  const st = readState(query);
+  container.innerHTML = html`<nav class="crumbs" aria-label="breadcrumb">
+      <a href="#/">${t('nav.home')}</a> › <span>${titleCase(t('classes.title'))}</span>
+    </nav>
+    <header class="list-head">
+      <span class="chip chip-class">${t('list.category')}</span>
+      <h1>${titleCase(t('classes.title'))}</h1>
+    </header>
+    <div class="ornament" aria-hidden="true"><span></span><i></i><span></span></div>
+    <div class="list-layout">
+      <aside class="facets">
+        <button type="button" class="facets-toggle" aria-expanded="false">${titleCase(t('filters.title'))}</button>
+        <div class="facets-body"></div>
+      </aside>
+      <section class="list-main">
+        <div class="list-bar"></div>
+        <div class="race-grid klass-grid" aria-live="polite"></div>
+      </section>
+    </div>`;
 
-  container.innerHTML = html` <h1>${t('classes.title')}</h1>
-    <div id="klasses-filters"></div>
-    <div id="klasses-list" aria-live="polite"></div>`;
-  const list = container.querySelector('#klasses-list');
-
-  createFilterPanel(container.querySelector('#klasses-filters'), {
-    fields: klassFilterFields(R),
-    defaults: KLASS_DEFAULTS,
-    state: filters,
-    open: hasActiveFilters(filters, KLASS_DEFAULTS),
-    onChange: (st) => {
-      filters = st;
-      replaceQuery(st);
-      draw();
-    },
+  const facets = container.querySelector('.facets-body');
+  const bar = container.querySelector('.list-bar');
+  const grid = container.querySelector('.klass-grid');
+  const toggle = container.querySelector('.facets-toggle');
+  toggle.addEventListener('click', () => {
+    const open = container.querySelector('.facets').classList.toggle('open');
+    toggle.setAttribute('aria-expanded', String(open));
   });
 
-  function draw() {
-    const filtered = filterKlasses(R, filters);
-    list.innerHTML = filtered.length
-      ? filtered.map((k) => klassCardHtml(R, k)).join('')
+  const abilities = [...new Set(R.klasses.map(abilityOf))]
+    .sort((a, b) => (a === NO_CASTING) - (b === NO_CASTING) || a.localeCompare(b))
+    .map((v) => ({
+      value: v,
+      label: v === NO_CASTING ? t('classes.noCasting') : titleCase(R.abilityByAbbr.get(v)?.name ?? v),
+    }));
+  const dice = [...new Set(R.klasses.map((k) => k.hit_die).filter(Boolean))].sort((a, b) => a - b);
+  const sources = [...new Set(R.klasses.flatMap((k) => bookNames(R, k)))].sort(compareText);
+  const labelOf = (group, v) =>
+    group === 'ability'
+      ? abilities.find((a) => a.value === v)?.label
+      : group === 'hitDie'
+        ? `d${v}`
+        : group === 'source'
+          ? titleCase(v)
+          : t(HAS.find(([key]) => key === v)?.[2] ?? v);
+
+  function save() {
+    replaceQuery({
+      name: st.name || null,
+      ability: st.ability.join(',') || null,
+      hitDie: st.hitDie.join(',') || null,
+      source: st.source.join(',') || null,
+      has: st.has.join(',') || null,
+      sort: st.sort === 'az' ? null : st.sort,
+    });
+  }
+
+  function drawFacets() {
+    const count = (group, test) => filterKlasses(R, st, group).filter(test).length;
+    facets.innerHTML = html`<label class="facet-search">
+        ${raw(icon.search(16))}
+        <input type="search" value="${st.name}" placeholder="${t('list.filterName')}" aria-label="${t('common.name')}" />
+      </label>
+      <fieldset class="facet">
+        <legend>${t('classes.spellcastingAbility')}</legend>
+        ${abilities.map((a) =>
+          raw(
+            optionHtml(
+              'ability',
+              a.value,
+              a.label,
+              count('ability', (k) => abilityOf(k) === a.value),
+              st.ability.includes(a.value),
+            ),
+          ),
+        )}
+      </fieldset>
+      <fieldset class="facet">
+        <legend>${t('classes.hitDie')}</legend>
+        ${dice.map((d) =>
+          raw(
+            optionHtml(
+              'hitDie',
+              d,
+              `d${d}`,
+              count('hitDie', (k) => k.hit_die === d),
+              st.hitDie.includes(String(d)),
+            ),
+          ),
+        )}
+      </fieldset>
+      <fieldset class="facet">
+        <legend>${t('list.has')}</legend>
+        ${HAS.map(([key, field, label]) => raw(optionHtml('has', key, t(label), filterKlasses(R, st).filter((k) => k[field]).length, st.has.includes(key))))}
+      </fieldset>
+      <fieldset class="facet">
+        <legend>${t('common.source')}</legend>
+        ${sources.map((n) =>
+          raw(
+            optionHtml(
+              'source',
+              n,
+              titleCase(n),
+              count('source', (k) => bookNames(R, k).includes(n)),
+              st.source.includes(n),
+            ),
+          ),
+        )}
+      </fieldset>
+      <button type="button" class="link-btn facet-clear">${t('list.clear')}</button>`;
+  }
+
+  function drawResults() {
+    const klasses = filterKlasses(R, st).sort(SORTS[st.sort]);
+    const chips = [
+      ...(st.name ? [['name', '', `“${st.name}”`]] : []),
+      ...['ability', 'hitDie', 'has', 'source'].flatMap((g) => st[g].map((v) => [g, v, labelOf(g, v)])),
+    ];
+    bar.innerHTML = html`<strong class="list-count">${klasses.length === 1 ? t('list.result') : t('list.results', { n: klasses.length })}</strong>
+      ${chips.map(([g, v, label]) =>
+        raw(
+          html`<button type="button" class="active-chip" data-group="${g}" value="${v}" aria-label="${t('list.removeFilter', { name: label })}">${label} <span aria-hidden="true">✕</span></button>`,
+        ),
+      )}
+      <label class="list-sort">
+        <span>${t('list.sort')}</span>
+        <select class="form-control">
+          ${Object.keys(SORTS).map((k) => raw(html`<option value="${k}" ${k === st.sort ? 'selected' : ''}>${t(SORT_LABEL[k])}</option>`))}
+        </select>
+      </label>`;
+    grid.innerHTML = klasses.length
+      ? klasses.map((k) => klassCardHtml(R, k)).join('')
       : html`<div class="alert" role="status">${t('classes.empty')}</div>`;
   }
 
-  draw();
+  function update({ facetsToo = true } = {}) {
+    save();
+    if (facetsToo) drawFacets();
+    drawResults();
+  }
+
+  facets.addEventListener('change', (e) => {
+    const box = e.target.closest('input[type="checkbox"]');
+    if (!box) return;
+    const group = st[box.dataset.group];
+    if (box.checked) group.push(box.value);
+    else group.splice(group.indexOf(box.value), 1);
+    update();
+  });
+  let typing;
+  facets.addEventListener('input', (e) => {
+    if (e.target.type !== 'search') return;
+    clearTimeout(typing);
+    typing = setTimeout(() => {
+      st.name = e.target.value;
+      save();
+      drawResults();
+      // atualiza as contagens sem perder o campo que está sendo digitado
+      const pos = e.target.selectionStart;
+      drawFacets();
+      const again = facets.querySelector('.facet-search input');
+      again.focus();
+      again.setSelectionRange(pos, pos);
+    }, 150);
+  });
+  facets.addEventListener('click', (e) => {
+    if (!e.target.closest('.facet-clear')) return;
+    Object.assign(st, { name: '', ability: [], hitDie: [], source: [], has: [] });
+    update();
+  });
+  bar.addEventListener('click', (e) => {
+    const chip = e.target.closest('.active-chip');
+    if (!chip) return;
+    if (chip.dataset.group === 'name') st.name = '';
+    else st[chip.dataset.group].splice(st[chip.dataset.group].indexOf(chip.value), 1);
+    update();
+  });
+  bar.addEventListener('change', (e) => {
+    if (e.target.tagName !== 'SELECT') return;
+    st.sort = e.target.value;
+    update({ facetsToo: false });
+  });
+
+  drawFacets();
+  drawResults();
 }
