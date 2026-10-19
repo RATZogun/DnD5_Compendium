@@ -66,6 +66,56 @@ npm install
   - Ilusão: _Magick trick_, por Delapouite
   - Necromancia: _Raise zombie_, por Skoll
   - Transmutação: _Frog prince_, por Delapouite
+- **Ícones das espécies**: também do [game-icons.net](https://game-icons.net/), sob a licença
+  [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), recoloridos para o site:
+
+  | Espécie               | Ícone                   | Autor       |
+  | --------------------- | ----------------------- | ----------- |
+  | Aarakocra             | _Eagle head_            | Delapouite  |
+  | Aasimar               | _Angel wings_           | Lorc        |
+  | Anão                  | _Dwarf face_            | Delapouite  |
+  | Bugurso               | _Bear face_             | Sparker     |
+  | Centauro              | _Centaur_               | Delapouite  |
+  | Dampir                | _Fangs circle_          | Lorc        |
+  | Draconato Cromático   | _Spiked dragon head_    | Delapouite  |
+  | Draconato Gema        | _Dragon orb_            | Delapouite  |
+  | Draconato Metálico    | _Dragon shield_         | Delapouite  |
+  | Duergar               | _Dwarf helmet_          | Kier Heyl   |
+  | Duplicante            | _Duality mask_          | Lorc        |
+  | Eladrin               | _Leaf swirl_            | Lorc        |
+  | Elfo                  | _Elf ear_               | Delapouite  |
+  | Elfo Marinho          | _Mermaid_               | Delapouite  |
+  | Fada                  | _Fairy_                 | Delapouite  |
+  | Firbolg               | _Tree face_             | Cathelineau |
+  | Genasi                | _Triple yin_            | Lorc        |
+  | Githyanki             | _Alien skull_           | Lorc        |
+  | Githzerai             | _Meditation_            | Lorc        |
+  | Gnomo                 | _Bad gnome_             | Cathelineau |
+  | Gnomo das Profundezas | _Crystal bars_          | Lorc        |
+  | Goblin                | _Goblin head_           | Delapouite  |
+  | Golias                | _Giant_                 | Delapouite  |
+  | Halfling              | _Hobbit door_           | Delapouite  |
+  | Hobgoblin             | _Samurai helmet_        | Delapouite  |
+  | Humano                | _Meeple_                | Delapouite  |
+  | Kenku                 | _Kenku head_            | Delapouite  |
+  | Kobold                | _Gecko_                 | Lorc        |
+  | Laparlonj             | _Rabbit head_           | Delapouite  |
+  | Meio-elfo             | _Woman elf face_        | Delapouite  |
+  | Meio-orc              | _Boar tusks_            | Lorc        |
+  | Minotauro             | _Minotaur_              | Lorc        |
+  | Morfo                 | _Werewolf_              | Lorc        |
+  | Orc                   | _Orc head_              | Delapouite  |
+  | Renascido             | _Frankenstein creature_ | Lorc        |
+  | Reptante              | _Lizardman_             | Lorc        |
+  | Sangue de Bruxa       | _Witch face_            | Cathelineau |
+  | Shadar-kai            | _Two shadows_           | Lorc        |
+  | Sátiro                | _Pan flute_             | Delapouite  |
+  | Tabaxi                | _Cat_                   | Lorc        |
+  | Tiefling              | _Devil mask_            | Delapouite  |
+  | Tortuga               | _Turtle_                | Lorc        |
+  | Tritão                | _Trident_               | Lorc        |
+  | Yuan-ti               | _Snake_                 | Lorc        |
+
 - **Fontes**: Cinzel, Fraunces, Inter e Literata, sob a licença [SIL OFL 1.1](https://openfontlicense.org/),
   servidas pelo próprio site.
 

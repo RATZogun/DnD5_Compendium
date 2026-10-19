@@ -2,6 +2,7 @@ import { html, raw, titleCase, nameMatcher, setTitle, compareText } from '../uti
 import { t, getLang } from '../i18n.js';
 import { href, replaceQuery } from '../router.js';
 import { icon } from '../icons.js';
+import { speciesIcon } from '../speciesIcons.js';
 
 // filtros da lista (estado na URL): nome, tamanho, livro, "possui" e ordenação; em tamanho e livro vale qualquer
 // opção marcada, em "possui" valem todas, e entre grupos valem todos
@@ -70,7 +71,7 @@ function optionHtml(group, value, label, count, checked) {
   </label>`;
 }
 
-// cartão com a mesma disposição de antes (ícone, nome, tamanho e deslocamento; sub-espécies; livro), no visual
+// cartão com ícone da espécie, nome, tamanho e deslocamento; sub-espécies; livro, no visual
 // da ficha de magia
 function raceCardHtml(R, race) {
   const src = race.sources_rels?.[0];
@@ -78,7 +79,7 @@ function raceCardHtml(R, race) {
   const sizes = (race.size ?? []).map((s) => titleCase(s)).join(` ${t('races.or')} `);
   return html`<a class="race-tile" href="${href.race(race.slug)}">
     <span class="sp-head race-tile-head">
-      <span class="race-tile-icon">${raw(icon.people(22))}</span>
+      <span class="race-tile-icon">${raw(speciesIcon(race.slug, 30))}</span>
       <span>
         <span class="sp-name race-tile-name">${titleCase(race.name)}</span>
         <span class="sp-source race-tile-meta">${sizes} · ${speedText(race.speed)}</span>
