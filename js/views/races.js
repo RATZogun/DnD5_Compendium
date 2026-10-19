@@ -70,26 +70,28 @@ function optionHtml(group, value, label, count, checked) {
   </label>`;
 }
 
+// cartão com a mesma disposição de antes (ícone, nome, tamanho e deslocamento; sub-espécies; livro), no visual
+// da ficha de magia
 function raceCardHtml(R, race) {
   const src = race.sources_rels?.[0];
   const book = src && R.sourceByAbbr.get(src.source_abbreviation);
   const sizes = (race.size ?? []).map((s) => titleCase(s)).join(` ${t('races.or')} `);
   return html`<a class="race-tile" href="${href.race(race.slug)}">
-    <span class="race-tile-head">
+    <span class="sp-head race-tile-head">
       <span class="race-tile-icon">${raw(icon.people(22))}</span>
       <span>
-        <span class="race-tile-name">${titleCase(race.name)}</span>
-        <span class="race-tile-meta">${sizes} · ${speedText(race.speed)}</span>
+        <span class="sp-name race-tile-name">${titleCase(race.name)}</span>
+        <span class="sp-source race-tile-meta">${sizes} · ${speedText(race.speed)}</span>
       </span>
     </span>
-    <span class="race-tile-subs ${race.subraces?.length ? '' : 'text-muted'}">
+    <span class="sp-body race-tile-subs ${race.subraces?.length ? '' : 'text-muted'}">
       ${
         race.subraces?.length
           ? `${t('races.subraces')}: ${race.subraces.map((s) => titleCase(s)).join(', ')}`
           : t('races.noSubraces')
       }
     </span>
-    <span class="race-tile-source"
+    <span class="sp-foot race-tile-source"
       >${raw(icon.book(14))} ${book ? titleCase(book.name) : (src?.source_abbreviation ?? '')}${
         src?.page ? ` · ${t('common.page')} ${src.page}` : ''
       }</span

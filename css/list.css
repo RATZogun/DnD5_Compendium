@@ -234,21 +234,21 @@ details.facet:not([open]) > summary {
 .race-tile {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  padding: 18px;
   border: 1px solid var(--border);
   background: var(--panel);
   color: var(--text);
 }
-.race-tile:hover {
+.race-tile:hover,
+.race-tile:focus-visible {
   border-color: var(--cat-species);
   box-shadow: var(--box-shadow);
   text-decoration: none;
 }
-.race-tile-head {
-  display: flex;
+.race-tile .race-tile-head {
+  justify-content: flex-start;
   align-items: center;
   gap: 12px;
+  padding: 14px;
 }
 .race-tile-icon {
   display: inline-flex;
@@ -257,36 +257,33 @@ details.facet:not([open]) > summary {
   justify-content: center;
   width: 44px;
   height: 44px;
-  background: var(--cat-species-bg);
-  color: var(--cat-species);
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--cat-species-on-dark);
 }
 .race-tile-name {
   display: block;
-  font-family: var(--font-heading);
   font-size: 22px;
   font-weight: 600;
-  line-height: 1.2;
 }
-.race-tile:hover .race-tile-name {
-  color: var(--cat-species);
+.race-tile:hover .race-tile-name,
+.race-tile:focus-visible .race-tile-name {
+  color: var(--cat-species-on-dark);
 }
 .race-tile-meta {
   display: block;
-  color: var(--muted);
-  font-size: 13px;
 }
 .race-tile-subs {
   flex: 1;
+  padding: 12px 14px;
+  font-family: var(--font-body);
   font-size: 14px;
   line-height: 1.5;
 }
-.race-tile-source {
+.race-tile .race-tile-source {
   display: flex;
   align-items: center;
   gap: 6px;
-  padding-top: 10px;
-  border-top: 1px solid var(--border);
-  color: var(--muted);
+  margin: 0 14px;
   font-size: 12px;
 }
 
