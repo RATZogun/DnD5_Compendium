@@ -492,7 +492,7 @@
       "name": "patrulheiro",
       "slug": "ranger",
       "hit_die": 10,
-      "sources_rels": [{ "source_abbreviation": "LDJ", "page": 83 }],
+      "sources_rels": [{ "source_abbreviation": "LJF", "page": 83 }],
       "spell_list_name": "patrulheiro",
       "spellcaster_type_name": "ranger",
       "spellcasting_ability_abbreviation": "sab",
@@ -1068,8 +1068,7 @@
     { "abbreviation": "GMF", "name": "Guia do Mestre" },
     { "abbreviation": "GVRR", "name": "Guia de Van Richten para Ravenloft" },
     { "abbreviation": "BGG", "name": "Bigby Apresenta: A Glória dos Gigantes" },
-    { "abbreviation": "MPMM", "name": "Mordenkainen Apresenta: Monstros do Multiverso" },
-    { "abbreviation": "LDJ", "name": "Livro do Jogador" }
+    { "abbreviation": "MPMM", "name": "Mordenkainen Apresenta: Monstros do Multiverso" }
   ],
   "specializations": [
     {
@@ -1597,7 +1596,7 @@
       "slug": "beast-master",
       "klass_name": "patrulheiro",
       "klass_slug": "ranger",
-      "sources_rels": [{ "source_abbreviation": "LDJ", "page": 87 }],
+      "sources_rels": [{ "source_abbreviation": "LJF", "page": 87 }],
       "spell_list_name": null
     },
     {
@@ -1605,7 +1604,7 @@
       "slug": "hunter",
       "klass_name": "patrulheiro",
       "klass_slug": "ranger",
-      "sources_rels": [{ "source_abbreviation": "LDJ", "page": 87 }],
+      "sources_rels": [{ "source_abbreviation": "LJF", "page": 87 }],
       "spell_list_name": null
     },
     {
@@ -14534,7 +14533,7 @@
       "does_have_verbal_component": true,
       "does_have_somatic_component": true,
       "can_evolve": false,
-      "classes": ["Cleric", "Monk", "Warlock", "Wizard"],
+      "classes": ["Cleric", "Warlock", "Wizard"],
       "optional_classes": [],
       "spell_school_name": "necromancia",
       "casting_time": 1,

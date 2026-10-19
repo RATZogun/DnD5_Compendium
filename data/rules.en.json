@@ -14468,7 +14468,7 @@
       "does_have_verbal_component": true,
       "does_have_somatic_component": true,
       "can_evolve": false,
-      "classes": ["Cleric", "Monk", "Warlock", "Wizard"],
+      "classes": ["Cleric", "Warlock", "Wizard"],
       "optional_classes": [],
       "spell_school_name": "necromancy",
       "casting_time": null,

@@ -1,7 +1,7 @@
 {
   "slug": "ranger",
   "name": { "pt": "patrulheiro", "en": "Ranger" },
-  "source": { "pt": { "book": "LDJ", "page": 83 }, "en": { "book": "PHB", "page": 89 } },
+  "source": { "pt": { "book": "LJF", "page": 83 }, "en": { "book": "PHB", "page": 89 } },
   "hit_die": 10,
   "intro_html": {
     "pt": "<p>De aparência rude e selvagem, um humano solitário, oculto pelas sombras das árvores, avança no encalço dos orcs que planejam atacar uma fazenda próxima. Empunhando uma espada curta em cada mão, ele ataca como um turbilhão de aço, cortando um inimigo após o outro.</p><p>Tendo se desviado de um cone de ar congelante, uma elfa recupera o equilíbrio e retesa a corda do seu arco, preparando-se para lançar uma flecha contra o dragão branco. Ignorando a onda de medo que emana do monstro, bem como o frio do seu sopro, ela dispara uma flecha atrás da outra, tentando encontrar brechas entre as grossas escamas do monstro.</p><p>Mantendo uma mão levantada, um meio-elfo chama o falcão que circula acima, pedindo que retorne. Sussurrando instruções no idioma Élfico, ele aponta para o urso-coruja que vinha rastreando, e dá um comando para que o falcão distraia a criatura, enquanto prepara seu arco.</p><p>Longe do alvoroço de cidades e vilas, para além das cercas que protegem as fazendas mais distantes dos terrores da natureza selvagem, em meio à densidade das florestas inexploradas e ao longo de planícies desertas, os guardiões mantêm sua vigília incansável.</p><p><strong>caçadores mortais</strong></p><p>Protetores da natureza selvagem, os guardiões se especializam em caçar os monstros que ameaçam os confins da civilização - invasores humanoides, bestas e monstruosidades enfurecidas, gigantes terríveis e dragões mortais. Eles aprendem a rastrear suas presas como o fazem os predadores, movendo-se furtivamente através das florestas e escondendo-se em moitas e escombros. Os membros desta classe focam seu treinamento de combate em técnicas que são particularmente úteis contra seus inimigos favoritos.</p><p>Graças à sua familiaridade com os ermos, ao modo de um druida, os guardiões aprendem a conjurar magias que utilizam o poder da natureza. Tais magias, assim como as habilidades de combate dos guardiões, enfatizam a velocidade, a furtividade e a caça. Os talentos e habilidades de um guardião são aprimorados com um foco mortal na árdua tarefa de guardar as fronteiras.</p><p><strong>aventureiros independentes</strong></p><p>Embora um guardião possa viver como caçador, guia, patrulheiro ou rastreador, sua verdadeira vocação consiste em defender as zonas fronteiriças da civilização contra as devastações de monstros e hordas humanoides oriundas dos ermos. Em alguns locais, os guardiões se reúnem em ordens secretas, ou juntam forças com círculos druídicos. Muitos, porém, são independentes, reconhecendo que, quando um dragão ou bando de orcs ataca, sua classe pode ser a primeira - e possivelmente a última - linha de defesa.</p><p>Essa feroz independência faz com que os guardiões sejam bastante adaptados à vida de aventureiro, uma vez estarem acostumados a viver longe dos confortos de uma cama seca e de um banho quente. Ao serem confrontados com aventureiros da cidade, que reclamam e choramingam sobre as dificuldades da vida na natureza selvagem, respondem com uma mistura de divertimento, frustração e compaixão. Mas aprendem rapidamente que companheiros capazes de lutar contra os inimigos da civilização compensam o fardo extra. O povo da cidade e os aldeões podem não saber como se alimentar ou encontrar água fresca nos ermos, mas sabem se virar de outras maneiras.</p><p><strong>criando um guardião</strong></p><p>Ao criar seu personagem guardião, considere a natureza do treinamento que ele recebeu. Ele treinou com um único mentor, vagando pelos bosques ao lado dele até dominar os caminhos do guardião? Ou abandonou o seu aprendizado quando seu mentor foi morto - talvez pelo mesmo tipo de monstro que se tornou seu inimigo favorito? Talvez ele tenha aprendido suas habilidades ao entrar para um grupo de guardiões afiliados a um círculo druídico, recebendo treinamento nas veredas místicas e tradições dos ermos. Ele também pode ser um autodidata, um solitário que desenvolveu suas habilidades de combate, rastreamento e até mesmo sua conexão mística com a natureza em resposta à necessidade de sobrevivência.</p><p>Qual a fonte do seu ódio por um tipo particular de inimigo? Um monstro assassinou alguém que você amava ou destruiu sua aldeia natal? Ou você viu quanta destruição tais criaturas podem causar, comprometendo-se a controlar suas depredações? A sua carreira como aventureiro é uma continuação do seu trabalho como protetor das fronteiras, ou representa uma mudança significativa? O que fez com que você se juntasse a um grupo de aventureiros? Você acha difícil treinar novos aliados nos caminhos da natureza, ou recebe de bom grado o alívio da solidão que eles oferecem?</p><p><strong>criação rápida</strong></p><p>Você pode criar um guardião rapidamente seguindo estas sugestões. Primeiro, torne seu maior valor de atributo a Destreza, depois a Sabedoria (alguns guardiões focados em combate com duas armas preferem que Força seja maior que Destreza). Em seguida, escolha o antecedente forasteiro.</p>",
@@ -155,7 +155,7 @@
       "key": "hit-points",
       "level": 1,
       "optional": false,
-      "source": { "pt": { "book": "LDJ", "page": 84 }, "en": { "book": "PHB", "page": 89 } },
+      "source": { "pt": { "book": "LJF", "page": 84 }, "en": { "book": "PHB", "page": 89 } },
       "name": { "pt": "pontos de vida", "en": "Hit Points" },
       "html": {
         "pt": "<p><strong>Dado de Vida:</strong> 1d10 por nível de guardião</p><p><strong>Pontos de Vida no 1º Nível:</strong> 10 + seu modificador de Constituição</p><p><strong>Pontos de Vida a partir do 2º Nível:</strong> 1d10 (ou 6) + seu modificador de Constituição por nível de guardião</p>",
@@ -166,7 +166,7 @@
       "key": "proficiencies",
       "level": 1,
       "optional": false,
-      "source": { "pt": { "book": "LDJ", "page": 84 }, "en": { "book": "PHB", "page": 89 } },
+      "source": { "pt": { "book": "LJF", "page": 84 }, "en": { "book": "PHB", "page": 89 } },
       "name": { "pt": "proficiências", "en": "Proficiencies" },
       "html": {
         "pt": "<p><strong>Armadura:</strong> Armaduras leves, armaduras médias e escudos</p><p><strong>Armas:</strong> Armas simples e armas marciais</p><p><strong>Ferramentas:</strong> Nenhuma</p><p><strong>Salvaguardas:</strong> Força e Destreza</p><p><strong>Perícias:</strong> Escolha três dentre Atletismo, Furtividade, Intuição, Investigação, Lidar com Animais, Natureza, Percepção e Sobrevivência</p>",
@@ -177,7 +177,7 @@
       "key": "equipment",
       "level": 1,
       "optional": false,
-      "source": { "pt": { "book": "LDJ", "page": 84 }, "en": { "book": "PHB", "page": 89 } },
+      "source": { "pt": { "book": "LJF", "page": 84 }, "en": { "book": "PHB", "page": 89 } },
       "name": { "pt": "equipamento", "en": "Equipment" },
       "html": {
         "pt": "<p>Você começa com o seguinte equipamento, além daquele que recebe do seu antecedente:</p><ul><li>(a) lórica de escamas ou (b) armadura de couro</li><li>(a) duas espadas curtas ou (b) duas armas simples corpo a corpo</li><li>(a) kit de aventureiro ou (b) kit de explorador</li><li>Um arco longo e uma aljava com 20 flechas</li></ul>",
@@ -188,7 +188,7 @@
       "key": "favored-enemy",
       "level": 1,
       "optional": false,
-      "source": { "pt": { "book": "LDJ", "page": 85 }, "en": { "book": "PHB", "page": 89 } },
+      "source": { "pt": { "book": "LJF", "page": 85 }, "en": { "book": "PHB", "page": 89 } },
       "name": { "pt": "inimigo favorito", "en": "Favored Enemy" },
       "html": {
         "pt": "<p>Desde o 1º nível, você acumulou uma experiência razoável estudando, rastreando, caçando e até mesmo comunicando-se com um certo tipo de inimigo.</p><p>Escolha um tipo de inimigo favorito: aberrações, feras, celestiais, constructos, dragões, elementais, feéricos, gigantes, gosmas, ínferos, monstruosidades, mortos-vivos ou plantas. Se preferir, pode selecionar duas raças humanoides (gnolls, orcs, etc.) como inimigos favoritos.</p><p>Você tem vantagem em testes de Sabedoria (Sobrevivência) para rastrear seus inimigos favoritos, bem como em testes de Inteligência para se lembrar de informações sobre eles.</p><p>Ao ganhar esta característica, você também aprende um idioma falado por seus inimigos favoritos, se forem capazes de falar.</p><p>Você pode escolher um outro inimigo favorito, assim como um idioma adicional, no 6º e 14º níveis. Conforme ganha níveis, suas escolhas devem refletir os tipos de monstros que você encontrou durante as suas aventuras.</p>",
@@ -199,7 +199,7 @@
       "key": "natural-explorer",
       "level": 1,
       "optional": false,
-      "source": { "pt": { "book": "LDJ", "page": 85 }, "en": { "book": "PHB", "page": 89 } },
+      "source": { "pt": { "book": "LJF", "page": 85 }, "en": { "book": "PHB", "page": 89 } },
       "name": { "pt": "explorador natural", "en": "Natural Explorer" },
       "html": {
         "pt": "<p>Você está particularmente familiarizado com um tipo de terreno natural, sendo capaz de viajar e sobreviver quando se encontrar nele. Escolha um tipo de terreno favorito: ártico, campo, litoral, deserto, floresta, montanha, pântano ou a Umbreterna. Ao realizar um teste de Inteligência ou Sabedoria relacionado ao seu terreno favorito, e estiver usando uma perícia na qual você é proficiente, seu bônus de proficiência é dobrado.</p><p>Ao viajar por uma hora ou mais no seu terreno favorito, você ganha os benefícios a seguir:</p><ul><li>Terreno difícil não atrasa a viagem do seu grupo.</li><li>Seu grupo não se perde, exceto por meios mágicos.</li><li>Mesmo quando estiver engajado em outra atividade enquanto viaja (forrageando, guiando ou rastreando), você se mantém alerta ao perigo.</li><li>Se estiver viajando sozinho, você pode mover-se furtivamente em ritmo normal.</li><li>Ao forragear, você encontra duas vezes mais comida do que normalmente encontraria.</li><li>Ao rastrear outras criaturas, você também descobre seus tamanhos, há quanto tempo passaram pela área, e seu número exato.</li></ul><p>Você escolhe terrenos favoritos adicionais no 6º e 10º níveis.</p>",
@@ -232,7 +232,7 @@
       "key": "fighting-style",
       "level": 2,
       "optional": false,
-      "source": { "pt": { "book": "LDJ", "page": 85 }, "en": { "book": "PHB", "page": 89 } },
+      "source": { "pt": { "book": "LJF", "page": 85 }, "en": { "book": "PHB", "page": 89 } },
       "name": { "pt": "estilo de luta", "en": "Fighting Style" },
       "html": {
         "pt": "<p>Você adota um estilo particular de luta como sua especialidade. Escolha uma das seguintes opções. Caso você tenha a opção de escolher um novo Estilo de Luta, não pode escolher um que já possua.</p><p><strong>Arqueria.</strong> Você ganha um bônus de +2 nas jogadas de ataque feitas com armas de combate à distância.</p><p><strong>Combate com Duas Armas.</strong> Ao engajar em combate portando duas armas, você pode adicionar o seu modificador de atributo ao dano do segundo ataque.</p><p><strong>Defensivo.</strong> Enquanto estiver vestindo armadura, você ganha um bônus de +1 na sua CA.</p><p><strong>Duelismo.</strong> Enquanto estiver empunhando uma única arma de combate corpo a corpo em apenas uma das mãos, você ganha um bônus de +2 nas jogadas de dano feitas com essa arma.</p>",
@@ -243,7 +243,7 @@
       "key": "spellcasting",
       "level": 2,
       "optional": false,
-      "source": { "pt": { "book": "LDJ", "page": 85 }, "en": { "book": "PHB", "page": 89 } },
+      "source": { "pt": { "book": "LJF", "page": 85 }, "en": { "book": "PHB", "page": 89 } },
       "name": { "pt": "conjuração", "en": "Spellcasting" },
       "html": {
         "pt": "<p>Ao alcançar o 2º nível, você aprendeu como usar a essência da natureza para conjurar magias, assim como um druida. Veja o capítulo 10, \"Conjuração\", para consultar as regras gerais de conjuração, e o capítulo 11, \"Magias\", para verificar a lista de magias de guardião.</p><p><strong>Espaços de Magia.</strong> A tabela O Guardião mostra quantos espaços de magia você possui para conjurar suas magias de guardião, pertencentes ao 1º círculo e superiores. Para conjurar uma magia, é preciso usar um espaço de magia igual ou superior ao círculo da magia. Todos os espaços de magia usados são recuperados ao final de um descanso longo.</p><p>Por exemplo, se você conhece a magia de 1º círculo <em>amizade animal</em>, e possui um espaço de magia de 1º círculo e um de 2º círculo, pode conjurar <em>amizade animal</em> usando qualquer um desses espaços.</p><p><strong>Magias Conhecidas de Acordo com o Nível.</strong> Você conhece 2 magias de 1º círculo da tabela de magias de guardião, à sua escolha.</p><p>A coluna Magias, da tabela O Guardião, mostra quando você aprende mais magias de guardião à sua escolha. Cada magia deve pertencer a um círculo para o qual você tenha espaços de magia. Por exemplo, ao alcançar o 5º nível nesta classe, você pode aprender uma nova magia de 1º ou 2º círculo.</p><p>Além disso, ao ganhar um nível nesta classe, você pode substituir uma das magias de guardião que conhece por outra da lista de magias do guardião, que também deve pertencer a um círculo para o qual você tenha espaços de magia.</p><p><strong>Atributo de Conjuração.</strong> Devido a sua magia vir da sua sintonia com a natureza, Sabedoria é seu atributo de conjuração. Você usa esse atributo sempre que uma magia fizer referência ao atributo de conjuração. Além disso, você usa o seu modificador de Sabedoria tanto para definir a CD de uma salvaguarda feita para evitar uma magia de guardião conjurada por você, quanto para realizar uma jogada de ataque com uma magia de guardião.</p><p><strong>CD para evitar suas magias</strong> = 8 + seu bônus de proficiência + seu modificador de Sabedoria</p><p><strong>Modificador de ataque mágico</strong> = seu bônus de proficiência + seu modificador de Sabedoria</p>",
@@ -287,7 +287,7 @@
       "key": "primeval-awareness",
       "level": 3,
       "optional": false,
-      "source": { "pt": { "book": "LDJ", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
+      "source": { "pt": { "book": "LJF", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
       "name": { "pt": "consciência primitiva", "en": "Primeval Awareness" },
       "html": {
         "pt": "<p>Começando no 3º nível, você pode usar sua ação e gastar um espaço de magia de guardião para focar sua consciência na região ao seu redor. Durante um minuto por círculo do espaço de magia gasto, você pode sentir se as criaturas a seguir estão presentes num raio de 1,5 quilômetros (ou a até 9 quilômetros, caso se trate do seu terreno favorito): aberrações, celestiais, dragões, feéricos, ínferos e mortos-vivos. Esta característica não revela a localização das criaturas ou o seu número.</p>",
@@ -298,7 +298,7 @@
       "key": "ranger-archetype",
       "level": 3,
       "optional": false,
-      "source": { "pt": { "book": "LDJ", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
+      "source": { "pt": { "book": "LJF", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
       "name": { "pt": "arquétipo de patrulheiro", "en": "Ranger Archetype" },
       "html": {
         "pt": "<p>No 3º nível, você escolhe um arquétipo, o qual se esforça para seguir. Sua escolha lhe garante características no 3º nível e novamente no 7º, 11º e 15º níveis.</p>",
@@ -321,7 +321,7 @@
       "key": "ability-score-improvement-4",
       "level": 4,
       "optional": false,
-      "source": { "pt": { "book": "LDJ", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
+      "source": { "pt": { "book": "LJF", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
       "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível, e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
@@ -343,7 +343,7 @@
       "key": "extra-attack",
       "level": 5,
       "optional": false,
-      "source": { "pt": { "book": "LDJ", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
+      "source": { "pt": { "book": "LJF", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
       "name": { "pt": "ataque extra", "en": "Extra Attack" },
       "html": {
         "pt": "<p>A partir do 5º nível, durante o seu turno, sempre que executar a ação Atacar, você pode realizar dois ataques em vez de um.</p>",
@@ -365,7 +365,7 @@
       "key": "ability-score-improvement-8",
       "level": 8,
       "optional": false,
-      "source": { "pt": { "book": "LDJ", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
+      "source": { "pt": { "book": "LJF", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
       "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível, e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
@@ -376,7 +376,7 @@
       "key": "lands-stride",
       "level": 8,
       "optional": false,
-      "source": { "pt": { "book": "LDJ", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
+      "source": { "pt": { "book": "LJF", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
       "name": { "pt": "passo da terra", "en": "Land's Stride" },
       "html": {
         "pt": "<p>A partir do 8º nível, mover-se através de terreno difícil, não-mágico, não lhe custa movimento adicional. Você também pode passar por vegetação não mágica sem ser atrasado e sem sofrer dano.</p><p>Além disso, você tem vantagem em salvaguardas contra plantas criadas ou manipuladas magicamente para impedir movimento, como aquelas criadas pela magia <em>constrição</em>.</p>",
@@ -387,7 +387,7 @@
       "key": "hide-in-plain-sight",
       "level": 10,
       "optional": false,
-      "source": { "pt": { "book": "LDJ", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
+      "source": { "pt": { "book": "LJF", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
       "name": { "pt": "sumir de vista", "en": "Hide in Plain Sight" },
       "html": {
         "pt": "<p>A partir do 10º nível, você pode dedicar 1 minuto a criar uma camuflagem para si mesmo, contanto que tenha acesso a lama fresca, terra, plantas, fuligem e materiais naturais semelhantes.</p><p>Uma vez camuflado, você pode tentar se esconder, posicionando-se contra uma superfície sólida que seja, no mínimo, tão alta e larga quanto você, como uma árvore ou uma parede. Você ganha um bônus de +10 em testes de Destreza (Furtividade) enquanto permanecer imóvel e sem executar ações. Caso se mova ou execute alguma ação ou reação, você deve se camuflar novamente para recuperar este benefício.</p>",
@@ -420,7 +420,7 @@
       "key": "ability-score-improvement-12",
       "level": 12,
       "optional": false,
-      "source": { "pt": { "book": "LDJ", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
+      "source": { "pt": { "book": "LJF", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
       "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível, e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
@@ -431,7 +431,7 @@
       "key": "vanish",
       "level": 14,
       "optional": false,
-      "source": { "pt": { "book": "LDJ", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
+      "source": { "pt": { "book": "LJF", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
       "name": { "pt": "desaparecer", "en": "Vanish" },
       "html": {
         "pt": "<p>A partir do 14º nível, você pode usar a ação Esconder-se como sua ação bônus. Além disso, não pode ser rastreado por meios não-mágicos, a não ser que escolha deixar rastros.</p>",
@@ -442,7 +442,7 @@
       "key": "ability-score-improvement-16",
       "level": 16,
       "optional": false,
-      "source": { "pt": { "book": "LDJ", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
+      "source": { "pt": { "book": "LJF", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
       "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível, e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
@@ -453,7 +453,7 @@
       "key": "feral-senses",
       "level": 18,
       "optional": false,
-      "source": { "pt": { "book": "LDJ", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
+      "source": { "pt": { "book": "LJF", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
       "name": { "pt": "sentidos selvagens", "en": "Feral Senses" },
       "html": {
         "pt": "<p>No 18º nível, você ganha sentidos sobrenaturais que o ajudam a lutar contra criaturas invisíveis. Ao atacar uma criatura que não possa ver, não sofrerá desvantagem nas suas jogadas de ataque contra ela.</p><p>Você também está ciente da localização de qualquer criatura invisível a até 9 metros de distância, desde que ela não esteja escondida e você não esteja cego ou surdo.</p>",
@@ -464,7 +464,7 @@
       "key": "ability-score-improvement-19",
       "level": 19,
       "optional": false,
-      "source": { "pt": { "book": "LDJ", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
+      "source": { "pt": { "book": "LJF", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
       "name": { "pt": "incremento no valor de habilidade", "en": "Ability Score Improvement" },
       "html": {
         "pt": "<p>Ao alcançar o 4º nível, e novamente no 8º, 12º, 16º e 19º níveis, você pode aumentar em 2 o valor de um atributo à sua escolha, ou pode aumentar em 1 o valor de dois atributos. Como sempre, não é possível aumentar o valor de um atributo acima de 20 usando esta característica.</p>",
@@ -475,7 +475,7 @@
       "key": "foe-slayer",
       "level": 20,
       "optional": false,
-      "source": { "pt": { "book": "LDJ", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
+      "source": { "pt": { "book": "LJF", "page": 86 }, "en": { "book": "PHB", "page": 89 } },
       "name": { "pt": "matador de inimigos favoritos", "en": "Foe Slayer" },
       "html": {
         "pt": "<p>No 20º nível, você se transforma em um caçador de inimigos sem igual. Uma vez por turno, pode adicionar seu modificador de Sabedoria a uma jogada de ataque ou de dano realizada contra seus inimigos favoritos. Você pode usar esta característica antes ou depois da jogada, mas isso deve ser feito antes de os efeitos da jogada serem aplicados.</p>",
@@ -488,7 +488,7 @@
       "slug": "beast-master",
       "short_name_en": "Beast Master",
       "name": { "pt": "Mestre das Feras", "en": "Beast Master" },
-      "source": { "pt": { "book": "LDJ", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
+      "source": { "pt": { "book": "LJF", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
       "intro_html": {
         "pt": "<p>O arquétipo Senhor das Feras incorpora a amizade entre as raças civilizadas e as feras da natureza. Compartilhando um objetivo, fera e guardião lutam contra monstros que ameaçam tanto a civilização quanto os ermos.</p>",
         "en": "<p>The Beast Master archetype embodies a friendship between the civilized races and the beasts of the wild. United in focus, beast and ranger fight the monsters that threaten civilization and the wilderness alike.</p>"
@@ -498,7 +498,7 @@
           "key": "rangers-companion",
           "level": 3,
           "optional": false,
-          "source": { "pt": { "book": "LDJ", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
+          "source": { "pt": { "book": "LJF", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
           "name": { "pt": "fera companheira", "en": "Ranger's Companion" },
           "html": {
             "pt": "<p>No 3º nível, você ganha uma fera que o acompanha em suas aventuras e é treinada para lutar ao seu lado. Escolha uma fera que não seja de tamanho maior do que Médio, e que tenha um nível de desafio igual a 1/4 ou menor (o apêndice D apresenta o falcão, o mastim e a pantera como exemplos). Adicione o seu bônus de proficiência à CA, às jogadas de ataque e ao dano da fera, assim como a quaisquer salvaguardas e testes de perícia nos quais ela seja proficiente. Os pontos de vida máximos da fera são iguais ao número de pontos de vida indicados no bloco de estatísticas dela ou quatro vezes seu nível como guardião, o que for maior. Assim como qualquer criatura, ela pode gastar Dados de Vida durante um descanso curto para recuperar pontos de vida.</p><p>A fera se esforça ao máximo para obedecer aos seus comandos. Ela age durante a sua iniciativa, embora não realize ações a menos que você ordene. No seu turno, você pode indicar verbalmente para onde ela deve se mover (isso não requer nenhuma ação). Você poderá usar sua ação para comandá-la verbalmente a Atacar, Correr, Desengajar ou Ajudar. Se você não emitir um comando, ela executará a ação Esquivar. Quando adquirir a característica Ataque Extra, você pode realizar um ataque armado e simultaneamente comandar a fera a Atacar.</p><p>Quando você está incapacitado ou ausente, a fera age por conta própria, concentrando-se em protegê-lo e a si mesma. Ela não precisa do seu comando para usar sua própria reação, como ao realizar ataques de oportunidade.</p><p>Enquanto estiver viajando em seu terreno favorito acompanhado somente da fera, você pode mover-se furtivamente em ritmo normal.</p><p>Se a fera morrer, você pode obter um novo companheiro após passar 8 horas vinculando-se magicamente a outra fera que não seja hostil a você e que se encaixe nestes requisitos.</p>",
@@ -520,7 +520,7 @@
           "key": "exceptional-training",
           "level": 7,
           "optional": false,
-          "source": { "pt": { "book": "LDJ", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
+          "source": { "pt": { "book": "LJF", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
           "name": { "pt": "treinamento excepcional", "en": "Exceptional Training" },
           "html": {
             "pt": "<p>A partir do 7º nível, sempre que sua fera companheira não atacar, você pode usar sua ação bônus para comandá-la a Correr, Desengajar ou Ajudar.</p><p>Além disso, agora os ataques dela contam como mágicos, para propósitos de vencer resistência e imunidade a ataques e dano não mágicos.</p>",
@@ -531,7 +531,7 @@
           "key": "bestial-fury",
           "level": 11,
           "optional": false,
-          "source": { "pt": { "book": "LDJ", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
+          "source": { "pt": { "book": "LJF", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
           "name": { "pt": "fúria bestial", "en": "Bestial Fury" },
           "html": {
             "pt": "<p>A partir do 11º nível, sempre que você mandar a sua fera companheira realizar a ação Atacar, ela pode realizar dois ataques ou, se estiver disponível, a ação Ataques Múltiplos.</p>",
@@ -542,7 +542,7 @@
           "key": "share-spells",
           "level": 15,
           "optional": false,
-          "source": { "pt": { "book": "LDJ", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
+          "source": { "pt": { "book": "LJF", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
           "name": { "pt": "compartilhar magias", "en": "Share Spells" },
           "html": {
             "pt": "<p>A partir do 15º nível, sempre que você conjurar uma magia que tenha a si mesmo como alvo, poderá afetar a sua fera companheira com a mesma magia, desde que ela esteja a até 9 metros distância de você.</p>",
@@ -557,7 +557,7 @@
       "slug": "hunter",
       "short_name_en": "Hunter",
       "name": { "pt": "Caçador", "en": "Hunter" },
-      "source": { "pt": { "book": "LDJ", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
+      "source": { "pt": { "book": "LJF", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
       "intro_html": {
         "pt": "<p>Assumir o arquétipo do Caçador significa aceitar seu papel como uma barreira entre a civilização e os horrores dos ermos. Ao seguir este caminho, você aprende técnicas especializadas no combate às ameaças que enfrenta, desde ataques de ogros e hordas de orques, até imponentes gigantes e terríveis dragões.</p>",
         "en": "<p>Warriors of the wilderness, rangers specialize in hunting the monsters that threaten the edges of civilization—humanoid raiders, rampaging beasts and monstrosities, terrible giants, and deadly dragons. They learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble. Rangers focus their combat training on techniques that are particularly useful against their specific favored foes.</p><p>Thanks to their familiarity with the wilds, rangers acquire the ability to cast spells that harness nature’s power, much as a druid does. Their spells, like their combat abilities, emphasize speed, stealth, and the hunt. A ranger’s talents and abilities are honed with deadly focus on the grim task of protecting the borderlands.</p>"
@@ -567,7 +567,7 @@
           "key": "hunters-prey",
           "level": 3,
           "optional": false,
-          "source": { "pt": { "book": "LDJ", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
+          "source": { "pt": { "book": "LJF", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
           "name": { "pt": "presa do caçador", "en": "Hunter's Prey" },
           "html": {
             "pt": "<p>No 3º nível, você ganha uma das características a seguir, à sua escolha.</p>",
@@ -578,7 +578,7 @@
           "key": "colossus-slayer",
           "level": 3,
           "optional": false,
-          "source": { "pt": { "book": "LDJ", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
+          "source": { "pt": { "book": "LJF", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
           "name": { "pt": "assassino de colossos", "en": "Colossus Slayer" },
           "html": {
             "pt": "<p>Sua tenacidade pode derrubar até mesmo os inimigos mais poderosos. Ao atingir uma criatura com um ataque armado, se os pontos de vida dela estiverem abaixo dos pontos de vida máximos, ela sofre 1d8 pontos de dano adicional. Você pode causar esse dano adicional apenas uma vez por turno.</p>",
@@ -589,7 +589,7 @@
           "key": "giant-killer",
           "level": 3,
           "optional": false,
-          "source": { "pt": { "book": "LDJ", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
+          "source": { "pt": { "book": "LJF", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
           "name": { "pt": "matador de gigantes", "en": "Giant Killer" },
           "html": {
             "pt": "<p>Quando uma criatura Grande ou maior, que esteja a até 1,5 metro de distância, atacá-lo, você pode usar sua reação para contra-atacar.</p>",
@@ -600,7 +600,7 @@
           "key": "horde-breaker",
           "level": 3,
           "optional": false,
-          "source": { "pt": { "book": "LDJ", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
+          "source": { "pt": { "book": "LJF", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
           "name": { "pt": "destruidor de hordas", "en": "Horde Breaker" },
           "html": {
             "pt": "<p>Uma vez por turno, ao realizar um ataque armado, você pode realizar outro ataque, com a mesma arma contra outra criatura que esteja a até 1,5 metros do alvo do primeiro ataque e dentro do alcance da sua arma.</p>",
@@ -611,7 +611,7 @@
           "key": "defensive-tactics",
           "level": 7,
           "optional": false,
-          "source": { "pt": { "book": "LDJ", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
+          "source": { "pt": { "book": "LJF", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
           "name": { "pt": "táticas defensivas", "en": "Defensive Tactics" },
           "html": {
             "pt": "<p>No 7º nível, você ganha uma das características a seguir, à sua escolha.</p>",
@@ -622,7 +622,7 @@
           "key": "escape-the-horde",
           "level": 7,
           "optional": false,
-          "source": { "pt": { "book": "LDJ", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
+          "source": { "pt": { "book": "LJF", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
           "name": { "pt": "escapar de hordas", "en": "Escape the Horde" },
           "html": {
             "pt": "<p>Ataques de oportunidade contra você são feitos com desvantagem.</p>",
@@ -633,7 +633,7 @@
           "key": "multiattack-defense",
           "level": 7,
           "optional": false,
-          "source": { "pt": { "book": "LDJ", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
+          "source": { "pt": { "book": "LJF", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
           "name": { "pt": "defesa contra ataques múltiplos", "en": "Multiattack Defense" },
           "html": {
             "pt": "<p>Quando uma criatura atacá-lo, você ganha um bônus de +4 na sua CA contra todos os ataques subsequentes feitos por essa criatura no restante do turno.</p>",
@@ -644,7 +644,7 @@
           "key": "steel-will",
           "level": 7,
           "optional": false,
-          "source": { "pt": { "book": "LDJ", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
+          "source": { "pt": { "book": "LJF", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
           "name": { "pt": "vontade de aço", "en": "Steel Will" },
           "html": {
             "pt": "<p>Você tem vantagem nas salvaguardas contra ser amedrontado.</p>",
@@ -655,7 +655,7 @@
           "key": "multiattack",
           "level": 11,
           "optional": false,
-          "source": { "pt": { "book": "LDJ", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
+          "source": { "pt": { "book": "LJF", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
           "name": { "pt": "ataque múltiplo", "en": "Multiattack" },
           "html": {
             "pt": "<p>No 11º nível, você ganha uma das características a seguir, à sua escolha.</p>",
@@ -666,7 +666,7 @@
           "key": "volley",
           "level": 11,
           "optional": false,
-          "source": { "pt": { "book": "LDJ", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
+          "source": { "pt": { "book": "LJF", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
           "name": { "pt": "saraivada", "en": "Volley" },
           "html": {
             "pt": "<p>Você pode usar uma ação para realizar um ataque à distância contra qualquer número de criaturas que estejam a até 3 metros de um ponto que você possa ver, e, por sua vez, esteja ele mesmo ao alcance da sua arma. Você precisa ter munição suficiente para atacar todos os alvos, e deve realizar uma jogada de ataque separada para cada um deles.</p>",
@@ -677,7 +677,7 @@
           "key": "whirlwind-attack",
           "level": 11,
           "optional": false,
-          "source": { "pt": { "book": "LDJ", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
+          "source": { "pt": { "book": "LJF", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
           "name": { "pt": "ataque giratório", "en": "Whirlwind Attack" },
           "html": {
             "pt": "<p>Você pode usar sua ação para fazer um ataque corpo a corpo contra qualquer número de criaturas que estejam a até 1,5 metro de distância, realizando uma jogada de ataque separada para cada uma.</p>",
@@ -688,7 +688,7 @@
           "key": "superior-hunters-defense",
           "level": 15,
           "optional": false,
-          "source": { "pt": { "book": "LDJ", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
+          "source": { "pt": { "book": "LJF", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
           "name": { "pt": "defesa do caçador", "en": "Superior Hunter's Defense" },
           "html": {
             "pt": "<p>No 15º nível, você ganha uma das características a seguir, à sua escolha.</p>",
@@ -699,7 +699,7 @@
           "key": "evasion",
           "level": 15,
           "optional": false,
-          "source": { "pt": { "book": "LDJ", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
+          "source": { "pt": { "book": "LJF", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
           "name": { "pt": "evasão", "en": "Evasion" },
           "html": {
             "pt": "<p>Quando submetido a qualquer efeito - como o sopro de fogo de um dragão vermelho ou a magia <em>relâmpago</em> - que lhe permita realizar uma salvaguarda de Destreza para reduzir o dano pela metade, caso obtenha sucesso na salvaguarda, não sofre qualquer dano e, caso obtenha falha, sofre apenas metade do dano.</p>",
@@ -710,7 +710,7 @@
           "key": "stand-against-the-tide",
           "level": 15,
           "optional": false,
-          "source": { "pt": { "book": "LDJ", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
+          "source": { "pt": { "book": "LJF", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
           "name": { "pt": "lutar contra a maré", "en": "Stand Against the Tide" },
           "html": {
             "pt": "<p>Quando uma criatura hostil falha ao atacá-lo, você pode usar sua reação para forçá-la a repetir o ataque contra outra criatura (que não seja ela mesma), à sua escolha.</p>",
@@ -721,7 +721,7 @@
           "key": "uncanny-dodge",
           "level": 15,
           "optional": false,
-          "source": { "pt": { "book": "LDJ", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
+          "source": { "pt": { "book": "LJF", "page": 87 }, "en": { "book": "PHB", "page": 93 } },
           "name": { "pt": "esquiva sobrenatural", "en": "Uncanny Dodge" },
           "html": {
             "pt": "<p>Quando um atacante à sua vista atingi-lo, você pode usar sua reação para reduzir o dano pela metade.</p>",
