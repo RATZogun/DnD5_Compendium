@@ -47,6 +47,9 @@
 .facets {
   position: sticky;
   top: 16px;
+  max-height: calc(100vh - 32px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
   border: 1px solid var(--border);
   background: var(--panel);
 }
@@ -95,6 +98,42 @@
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+/* grupos recolhíveis (lista de magias, com muitos filtros) */
+details.facet > summary {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  list-style: none;
+}
+details.facet > summary::-webkit-details-marker {
+  display: none;
+}
+details.facet > summary::after {
+  content: '+';
+  margin-left: auto;
+  font-size: 15px;
+  font-weight: 400;
+}
+details.facet[open] > summary::after {
+  content: '−';
+}
+details.facet:not([open]) > summary {
+  margin-bottom: 0;
+}
+.facet-on {
+  padding: 0 6px;
+  background: var(--text);
+  color: var(--panel);
+  font-size: 11px;
+  letter-spacing: 0;
 }
 .facet-option {
   display: flex;
@@ -173,6 +212,14 @@
   height: 34px;
   padding: 0 8px;
   font-size: 14px;
+}
+
+/* fichas de magia na lista: uma por linha, no tamanho do popup */
+.list-main .cards {
+  grid-template-columns: minmax(0, 1fr);
+}
+.list-main .pagination-bar {
+  margin: 0 0 16px;
 }
 
 /* cartões de espécie */
@@ -258,6 +305,8 @@
   }
   .facets {
     position: static;
+    max-height: none;
+    overflow: visible;
   }
   .facets-toggle {
     display: flex;

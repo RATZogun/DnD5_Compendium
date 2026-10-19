@@ -105,7 +105,7 @@ export function render(container, { R, query }) {
       <a href="#/">${t('nav.home')}</a> › <span>${titleCase(t('races.title'))}</span>
     </nav>
     <header class="list-head">
-      <span class="chip chip-species">${t('races.category')}</span>
+      <span class="chip chip-species">${t('list.category')}</span>
       <h1>${titleCase(t('races.title'))}</h1>
     </header>
     <div class="ornament" aria-hidden="true"><span></span><i></i><span></span></div>
@@ -147,7 +147,7 @@ export function render(container, { R, query }) {
     const sources = R.sources.filter((s) => books.has(s.abbreviation));
     facets.innerHTML = html`<label class="facet-search">
         ${raw(icon.search(16))}
-        <input type="search" value="${st.name}" placeholder="${t('races.filterName')}" aria-label="${t('common.name')}" />
+        <input type="search" value="${st.name}" placeholder="${t('list.filterName')}" aria-label="${t('common.name')}" />
       </label>
       <fieldset class="facet">
         <legend>${t('races.size')}</legend>
@@ -178,10 +178,10 @@ export function render(container, { R, query }) {
         )}
       </fieldset>
       <fieldset class="facet">
-        <legend>${t('races.has')}</legend>
+        <legend>${t('list.has')}</legend>
         ${Object.keys(HAS).map((h) => raw(optionHtml('has', h, t(`races.has.${h}`), filterRaces(R, st).filter(HAS[h]).length, st.has.includes(h))))}
       </fieldset>
-      <button type="button" class="link-btn facet-clear">${t('races.clear')}</button>`;
+      <button type="button" class="link-btn facet-clear">${t('list.clear')}</button>`;
   }
 
   function drawResults() {
@@ -191,16 +191,16 @@ export function render(container, { R, query }) {
       ...st.source.map((v) => ['source', v, titleCase(R.sourceByAbbr.get(v)?.name ?? v)]),
       ...st.has.map((v) => ['has', v, t(`races.has.${v}`)]),
     ];
-    bar.innerHTML = html`<strong class="list-count">${races.length === 1 ? t('races.result') : t('races.results', { n: races.length })}</strong>
+    bar.innerHTML = html`<strong class="list-count">${races.length === 1 ? t('list.result') : t('list.results', { n: races.length })}</strong>
       ${chips.map(([g, v, label]) =>
         raw(
-          html`<button type="button" class="active-chip" data-group="${g}" value="${v}" aria-label="${t('races.removeFilter', { name: label })}">${label} <span aria-hidden="true">✕</span></button>`,
+          html`<button type="button" class="active-chip" data-group="${g}" value="${v}" aria-label="${t('list.removeFilter', { name: label })}">${label} <span aria-hidden="true">✕</span></button>`,
         ),
       )}
       <label class="list-sort">
-        <span>${t('races.sort')}</span>
+        <span>${t('list.sort')}</span>
         <select class="form-control">
-          ${Object.keys(SORTS).map((k) => raw(html`<option value="${k}" ${k === st.sort ? 'selected' : ''}>${t(`races.sort.${k}`)}</option>`))}
+          ${Object.keys(SORTS).map((k) => raw(html`<option value="${k}" ${k === st.sort ? 'selected' : ''}>${t(`list.sort.${k}`)}</option>`))}
         </select>
       </label>`;
     grid.innerHTML = races.length

@@ -13,7 +13,7 @@ import { t, ordinal } from '../i18n.js';
 import { href } from '../router.js';
 import { spellCasters } from '../data.js';
 import { spellMetaGridHtml, spellNotesHtml } from '../components/spellPopup.js';
-import { spellFilterFields, pickFilters, SPELL_DEFAULTS } from '../spellFilter.js';
+import { pickFilters, spellFilterChips } from '../spellFilter.js';
 import { icon } from '../icons.js';
 import { crumbsHtml, pagerHtml } from '../components/docPage.js';
 
@@ -32,29 +32,7 @@ const levelText = (spell) =>
   spell.level === 0 ? capitalize(t('spells.cantrip')) : t('spells.levelN', { level: ordinal(spell.level) });
 
 // filtros ativos da busca salva, em rótulos curtos
-function activeFilters(R, search) {
-  const f = pickFilters(parseQuery(search));
-  const chips = [];
-  for (const field of spellFilterFields(R)) {
-    if (field.type === 'range') {
-      const [a, b] = field.keys.map((k) => f[k]);
-      if (a == null && b == null) continue;
-      if (a === b) chips.push(a === 0 ? capitalize(t('spells.cantrip')) : t('spells.levelN', { level: ordinal(a) }));
-      else chips.push(t('spells.levelRange', { from: ordinal(a ?? 0), to: ordinal(b ?? 9) }));
-      continue;
-    }
-    const v = f[field.key];
-    if (v === SPELL_DEFAULTS[field.key] || v === '' || v == null) continue;
-    if (field.type === 'boolean')
-      chips.push(`${capitalize(field.label.replace(/\?$/, ''))}: ${t(v ? 'common.yes' : 'common.no')}`);
-    else if (field.type === 'text') chips.push(`“${v}”`);
-    else {
-      const opt = field.options?.().find((o) => String(o.value) === String(v));
-      chips.push(titleCase(String(opt?.label ?? v)));
-    }
-  }
-  return chips;
-}
+const activeFilters = (R, search) => spellFilterChips(R, pickFilters(parseQuery(search))).map((c) => c.label);
 
 // o parágrafo "Em Níveis Superiores." sai do texto e vai para uma caixa própria
 const HIGHER = /^(em (níveis|círculos) superiores|at higher levels)\.?$/i;
@@ -153,7 +131,7 @@ export function render(container, { R, params }) {
         crumbsHtml(
           [
             [href.spells(), titleCase(t('spells.title'))],
-            [href.spells({ levelMin: spell.level, levelMax: spell.level }), levelText(spell)],
+            [href.spells({ levels: spell.level }), levelText(spell)],
           ],
           name,
         ),
