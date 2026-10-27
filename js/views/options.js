@@ -7,6 +7,7 @@ import { icon } from '../icons.js';
 import { classIcon } from '../classIcons.js';
 import { paginationHtml, bindPagination } from '../components/pagination.js';
 import { linkRules } from '../ruleLinks.js';
+import { trackVisit } from '../recent.js';
 
 // Opções e Recursos: invocações, infusões, disciplinas, manobras, runas, dádivas, metamagia, disparos arcanos e
 // estilos de luta numa lista só, com filtros à esquerda e uma ficha por opção (no formato da ficha de magia)
@@ -77,6 +78,7 @@ export async function renderOptions(container, { R, query, header }) {
     klass: list(query.klass),
     book: list(query.book),
     sort: Object.hasOwn(SORTS, query.sort) ? query.sort : 'az',
+    item: options.some((o) => o.slug === query.item) ? String(query.item) : '',
   };
   const books = [...new Set(options.map((o) => bookOf(R, o)))].sort(compareText);
   const klassName = (c) => titleCase(R.klassBySlug.get(c)?.name ?? c);
@@ -95,6 +97,7 @@ export async function renderOptions(container, { R, query, header }) {
     type: st.type.length ? (o) => st.type.includes(o.type) : null,
     klass: st.klass.length ? (o) => o.classes.some((c) => st.klass.includes(c)) : null,
     book: st.book.length ? (o) => st.book.includes(bookOf(R, o)) : null,
+    item: st.item ? (o) => o.slug === st.item : null,
   });
   const filter = (except = null) => {
     const m = matchers();
@@ -129,6 +132,7 @@ export async function renderOptions(container, { R, query, header }) {
       klass: st.klass.join(',') || null,
       book: st.book.join(',') || null,
       sort: st.sort === 'az' ? null : st.sort,
+      item: st.item || null,
     });
   }
 
@@ -187,6 +191,7 @@ export async function renderOptions(container, { R, query, header }) {
   function drawResults() {
     const found = filter().sort(SORTS[st.sort]);
     const chips = [
+      ...(st.item ? [['item', '', titleCase(pick(options.find((o) => o.slug === st.item).name))]] : []),
       ...(st.name ? [['name', '', `“${st.name}”`]] : []),
       ...st.type.map((v) => ['type', v, typeLabel(v)]),
       ...st.klass.map((v) => ['klass', v, klassName(v)]),
@@ -250,13 +255,13 @@ export async function renderOptions(container, { R, query, header }) {
   });
   facets.addEventListener('click', (e) => {
     if (!e.target.closest('.facet-clear')) return;
-    Object.assign(st, { name: '', type: [], klass: [], book: [] });
+    Object.assign(st, { name: '', type: [], klass: [], book: [], item: '' });
     update();
   });
   bar.addEventListener('click', (e) => {
     const chip = e.target.closest('.active-chip');
     if (!chip) return;
-    if (chip.dataset.group === 'name') st.name = '';
+    if (chip.dataset.group === 'name' || chip.dataset.group === 'item') st[chip.dataset.group] = '';
     else st[chip.dataset.group].splice(st[chip.dataset.group].indexOf(chip.value), 1);
     update();
   });
@@ -281,4 +286,5 @@ export async function renderOptions(container, { R, query, header }) {
 
   drawFacets();
   drawResults();
+  if (st.item) trackVisit('option', st.item);
 }

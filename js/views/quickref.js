@@ -2,6 +2,7 @@ import { html, raw, titleCase } from '../util.js';
 import { t, getLang } from '../i18n.js';
 import { loadQuickref } from '../data.js';
 import { replaceQuery } from '../router.js';
+import { trackVisit } from '../recent.js';
 
 // Resumo de Regras (do dnd5e-quickref): uma seção por tipo de regra, com um ícone por item; o item abre uma ficha
 // com a descrição, os detalhes e a página do Livro do Jogador
@@ -99,6 +100,7 @@ export async function renderQuickref(container, { R, query, header }) {
     dialog.innerHTML = sheetHtml(R, Q, found.sec, found.item);
     if (!dialog.open) dialog.showModal();
     replaceQuery({ item: id });
+    trackVisit('rule', id);
   };
   dialog.addEventListener('close', () => replaceQuery({}));
   let downOnBackdrop = false;

@@ -16,28 +16,35 @@ export function categoryCard({ kind, iconHtml, count, title, text, link, cta }) 
   </a>`;
 }
 
-const KIND_LABEL = { species: 'home.kind.species', class: 'home.kind.class', subclass: 'home.kind.subclass' };
+const KIND_LABEL = {
+  species: 'home.kind.species',
+  class: 'home.kind.class',
+  subclass: 'home.kind.subclass',
+};
+const CHIP_KIND = { subclass: 'class', rule: 'rules', option: 'rules' };
 
 // linha "Vistos recentemente" abaixo da busca: só aparece depois que o usuário abre algum item
-function recentRow(R) {
-  const recent = recentItems(R);
+function recentRow(recent) {
   if (!recent.length) return '';
-  const label = (r) =>
-    r.kind === 'spell'
-      ? t('home.kind.spell', { level: r.level === 0 ? t('search.cantrip') : ordinal(r.level) })
-      : t(KIND_LABEL[r.kind]);
+  const label = (r) => {
+    if (r.kind === 'spell')
+      return t('home.kind.spell', { level: r.level === 0 ? t('search.cantrip') : ordinal(r.level) });
+    if (r.kind === 'rule') return `${t('rules.summary.title')} · ${titleCase(r.section)}`;
+    if (r.kind === 'option') return `${t('rules.options.title')} · ${t(`options.type.${r.type}`)}`;
+    return t(KIND_LABEL[r.kind]);
+  };
   return html`<p class="home-recent">
     <span>${t('home.recent')}</span>
     ${recent.map((r) =>
-      raw(
-        html`<a class="chip chip-${r.kind === 'subclass' ? 'class' : r.kind}" href="${r.href}" title="${label(r)}">${r.name}</a>`,
-      ),
+      raw(html`<a class="chip chip-${CHIP_KIND[r.kind] ?? r.kind}" href="${r.href}" title="${label(r)}">${r.name}</a>`),
     )}
   </p>`;
 }
 
-export function render(container, { R }) {
+export async function render(container, { R }) {
   setTitle();
+  const recent = await recentItems(R);
+  if (!container.isConnected) return;
   const speciesBooks = new Set(R.races.flatMap((r) => (r.sources_rels ?? []).map((s) => s.source_abbreviation))).size;
   container.innerHTML = html` <section class="home-hero">
       <span class="home-hero-icon">${raw(icon.d20(64))}</span>
@@ -48,7 +55,7 @@ export function render(container, { R }) {
         <input type="search" autocomplete="off" placeholder="${t('home.searchPlaceholder')}" aria-label="${t('search.title')}" />
         <kbd>Ctrl K</kbd>
       </label>
-      ${raw(recentRow(R))}
+      ${raw(recentRow(recent))}
     </section>
 
     <section class="home-section">

@@ -1,18 +1,21 @@
-// Busca global (Ctrl K): espécies, classes, subclasses, magias e seções de página (características, traços,
-// sub-espécies), com filtro por tipo e navegação por teclado.
+// Busca global (Ctrl K): espécies, classes, subclasses, magias, regras (resumo, opções e recursos) e seções de
+// página (características, traços, sub-espécies), com filtro por tipo e navegação por teclado.
 import { html, raw, escapeHtml, titleCase, toASCII } from '../util.js';
 import { t, ordinal, getLang } from '../i18n.js';
 import { href } from '../router.js';
-import { loadClass, loadSpecies } from '../data.js';
+import { loadClass, loadSpecies, loadQuickref, loadOptions } from '../data.js';
 import { icon } from '../icons.js';
 
-const GROUPS = ['species', 'class', 'spell', 'section'];
+const GROUPS = ['species', 'class', 'spell', 'rule', 'section'];
+const CHIPS = ['species', 'class', 'spell', 'rule'];
 const PER_GROUP = 5;
 const MAX_RESULTS = 60;
 const SKIP_FEATURES = new Set(['hit-points', 'proficiencies', 'equipment']);
 const SKIP_TRAITS = new Set(['age', 'size', 'speed', 'languages', 'creature-type', 'subrace', 'subraces']);
 
 const pick = (obj) => (obj ? (obj[getLang()] ?? obj.pt ?? obj.en ?? '') : '');
+const otherLang = () => (getLang() === 'pt' ? 'en' : 'pt');
+const other = (obj) => (obj ? (obj[otherLang()] ?? '') : '');
 const bookName = (R, rels) => {
   const abbr = rels?.[0]?.source_abbreviation;
   const src = abbr && R.sourceByAbbr.get(abbr);
@@ -89,6 +92,41 @@ async function sectionIndex(R) {
   return items;
 }
 
+async function ruleIndex() {
+  const items = [];
+  const [Q, options] = await Promise.all([loadQuickref().catch(() => null), loadOptions().catch(() => null)]);
+  for (const sec of Q?.sections ?? []) {
+    const meta = `${t('rules.summary.title')} · ${titleCase(pick(sec.title))}`;
+    for (const g of sec.groups) {
+      for (const item of g.items) {
+        const name = titleCase(pick(item)?.title ?? '');
+        const alt = titleCase(other(item)?.title ?? '', otherLang());
+        items.push({
+          group: 'rule',
+          kind: 'summary',
+          name,
+          alt: alt !== name ? alt : '',
+          meta,
+          href: href.rule(item.id),
+        });
+      }
+    }
+  }
+  for (const o of options ?? []) {
+    const name = titleCase(pick(o.name));
+    const alt = titleCase(other(o.name), otherLang());
+    items.push({
+      group: 'rule',
+      kind: 'option',
+      name,
+      alt: alt !== name ? alt : '',
+      meta: `${t('rules.options.title')} · ${t(`options.type.${o.type}`)}`,
+      href: href.option(o.slug),
+    });
+  }
+  return items;
+}
+
 // só casa no começo de uma palavra ("elf" acha "Elfo" e "Meio-Elfo", não "Melf")
 function wordStart(s, q) {
   for (let i = s.indexOf(q); i >= 0; i = s.indexOf(q, i + 1)) {
@@ -128,6 +166,7 @@ const GROUP_ICON = {
   species: () => icon.people(18),
   class: () => icon.book(18),
   spell: () => icon.flame(18),
+  rule: (item) => (item.kind === 'option' ? icon.sliders(18) : icon.scroll(18)),
   section: () => icon.hash(18),
 };
 
@@ -165,9 +204,9 @@ export function initGlobalSearch(getR) {
       index = baseIndex(R);
       sectionsDone = false;
       // o aviso "carregando seções" some quando a carga termina, mesmo que algum arquivo falhe
-      sectionsLoading = sectionIndex(R)
-        .then((items) => {
-          if (indexR === R) index = index.concat(items);
+      sectionsLoading = Promise.all([ruleIndex(), sectionIndex(R)])
+        .then((lists) => {
+          if (indexR === R) index = index.concat(...lists);
         })
         .finally(() => {
           if (indexR !== R) return;
@@ -189,7 +228,7 @@ export function initGlobalSearch(getR) {
       : [];
     const counts = Object.fromEntries(GROUPS.map((g) => [g, matches.filter((m) => m.group === g).length]));
     const total = matches.length;
-    chips.innerHTML = [['all', total], ...['species', 'class', 'spell'].map((g) => [g, counts[g]])]
+    chips.innerHTML = [['all', total], ...CHIPS.map((g) => [g, counts[g]])]
       .map(
         ([g, n]) =>
           html`<button type="button" class="gs-chip gs-chip-${g}" role="tab" aria-selected="${String(filter === g)}" data-filter="${g}">
@@ -214,7 +253,7 @@ export function initGlobalSearch(getR) {
         for (const item of list) {
           const i = shown.push(item) - 1;
           body += html`<a class="gs-item gs-item-${item.group}" id="gs-opt-${i}" href="${item.href}" role="option" data-i="${i}" aria-selected="${String(i === active)}">
-            <span class="gs-icon">${raw(GROUP_ICON[item.group]())}</span>
+            <span class="gs-icon">${raw(GROUP_ICON[item.group](item))}</span>
             <span class="gs-name">${raw(highlight(item.name, q))}${item.alt ? raw(html` <small>${raw(highlight(item.alt, q))}</small>`) : ''}</span>
             <span class="gs-meta">${item.meta}</span>
             <span class="gs-enter" aria-hidden="true">↵</span>

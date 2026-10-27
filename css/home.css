@@ -342,6 +342,10 @@ body.gs-open {
   background: var(--cat-spell-bg);
   color: var(--cat-spell);
 }
+.gs-chip-rule {
+  background: var(--box-bg);
+  color: var(--accent-text);
+}
 .gs-chip[aria-selected='true'] {
   background: var(--text);
   color: var(--panel);
@@ -386,6 +390,9 @@ body.gs-open {
 }
 .gs-item-spell .gs-icon {
   color: var(--cat-spell);
+}
+.gs-item-rule .gs-icon {
+  color: var(--accent-text);
 }
 .gs-name {
   flex: 1;
