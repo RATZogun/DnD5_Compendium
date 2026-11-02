@@ -56,6 +56,8 @@ npm install
 - `data/quickref.json`: resumo de regras nos dois idiomas, com os ícones.
 - `data/options.json`: opções e recursos de classe.
 - `fonts/`: fontes servidas pelo próprio site e a licença delas.
+- `img/species/`: retratos das espécies (WebP, fundo transparente): o da ficha em 512 × 512 e, em `large/`, o
+  ampliado com o corpo todo, até 1024 px no lado maior.
 
 ## Créditos
 
@@ -145,6 +147,19 @@ npm install
   > TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   > SOFTWARE.
 
+- **Retratos das espécies**: com o fundo removido e em tamanho padronizado; as espécies sem retrato mostram o ícone.
+  - [HIIDRA Studios](https://www.patreon.com/morvoldpress), dos _Illustration Support Packs_ da Morvold Press: as
+    demais espécies com retrato
+  - [wangdaye](https://wangdaye.artstation.com/): Centauro e Minotauro
+  - [yanavaseva](https://yanavaseva.tumblr.com/): Shadar-kai
+  - [avocadraw9](https://avocadraw9.artstation.com/): Eladrin (um retrato para cada estação)
+  - [ryuutsu](https://ryuutsu.artstation.com/): Elfo Marinho
+  - [Deoxy Diamond](https://deoxy_diamond.artstation.com/): Fada
+  - [alew](https://www.artstation.com/alew): Githyanki
+  - [boissb](https://www.artstation.com/boissb): Tritão
+  - Autor não identificado: Draconato Gema, Duplicante, Firbolg, Genasi, Githzerai, Kobold, Laparlonj e Tortle
+  - Arte original menor que 1024 px, então a versão ampliada fica no tamanho original: Shadar-kai (618 px),
+    Duplicante (742 px), Tritão (814 px), Githyanki (867 px), Genasi (886 px), Kobold (947 px) e Githzerai (998 px)
 - **Ícones do resumo de regras**: os mesmos do dnd5e-quickref, do [game-icons.net](https://game-icons.net/), sob a
   licença [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), recoloridos para o site (o de rastejar é o
   desenho próprio do dnd5e-quickref, vetorizado):

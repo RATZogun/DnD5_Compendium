@@ -6,6 +6,7 @@ import { pick, bookName, linkProseSpells } from './klassShow.js';
 import { speedText, sizeText } from './races.js';
 import { icon } from '../icons.js';
 import { speciesIcon } from '../speciesIcons.js';
+import { speciesArt, speciesArtLarge } from '../speciesArt.js';
 import {
   srcOf,
   sourceText,
@@ -173,13 +174,35 @@ function asideHtml(R, data, v, name) {
     subs.length ? [t('races.subraces'), subs.map((s) => titleCase(pick(s.name))).join(' · ')] : null,
     allSpells(v).length ? [t('races.innateSpells'), t('races.yes')] : null,
   ].filter(Boolean);
+  const art = speciesArt(data.slug);
   return cardHtml({
     label: t('races.sheet'),
-    art: html`<div class="sx-art" role="img" aria-label="${t('page.illustration', { name })}">${raw(speciesIcon(data.slug, 72))}</div>`,
+    art: art
+      ? html`<button type="button" class="sx-art sx-art-img" data-art aria-haspopup="dialog" aria-label="${t('page.expandArt', { name })}">
+          <img src="${art}" alt="" width="512" height="512" />
+          <span class="sx-art-zoom" aria-hidden="true">${raw(icon.expand(16))}</span>
+        </button>`
+      : html`<div class="sx-art" role="img" aria-label="${t('page.illustration', { name })}">${raw(speciesIcon(data.slug, 72))}</div>`,
     name,
     sub: sourceText(R, v.source),
     rows: rows.map(([k, val]) => [k, html`${val}`]),
   });
+}
+
+// retrato ampliado, no formato da ficha do resumo de regras
+function artSheetHtml(R, data, v, name) {
+  const art = speciesArtLarge(data.slug);
+  return html`<article class="spell-sheet art-sheet">
+    <header class="sp-head">
+      <span class="sp-school">${raw(speciesIcon(data.slug, 30))}</span>
+      <div class="sp-title">
+        <div class="sp-name" id="art-dialog-title">${name}</div>
+        <div class="sp-source">${raw(sourceText(R, v.source))}</div>
+      </div>
+      <button type="button" class="qr-close" data-close aria-label="${t('common.close')}">✕</button>
+    </header>
+    <div class="art-full"><img src="${art.src}" alt="${t('page.illustration', { name })}" width="${art.width}" height="${art.height}" /></div>
+  </article>`;
 }
 
 // no mobile só a sub-espécie da aba ativa aparece
@@ -219,10 +242,19 @@ export async function render(container, { R, params, query }) {
         : '',
     bottom: pagerHtml(R.races, data.slug, href.race, t('races.title')),
   });
+  container.insertAdjacentHTML(
+    'beforeend',
+    '<dialog class="qr-dialog art-dialog" aria-labelledby="art-dialog-title"></dialog>',
+  );
+  const dialog = container.querySelector('.art-dialog');
+  let downOnBackdrop = false;
+  dialog.addEventListener('mousedown', (e) => (downOnBackdrop = e.target === dialog));
+  let current = versions[0];
 
   const body = container.querySelector('.version-body');
   function show(i) {
     const v = versions[i];
+    current = v;
     container.querySelector('.sx-head').innerHTML = headHtml(R, data, v, name);
     body.innerHTML = bodyHtml(R, data, v, name);
     container.querySelector('.sx-aside').innerHTML = asideHtml(R, data, v, name);
@@ -238,6 +270,15 @@ export async function render(container, { R, params, query }) {
   initDocPage(container, { onTarget: (el) => el.matches('.sx-subrace') && showSub(container, el.id) });
 
   container.addEventListener('click', (e) => {
+    if (e.target.closest('[data-art]')) {
+      dialog.innerHTML = artSheetHtml(R, data, current, name);
+      dialog.showModal();
+      return;
+    }
+    if (e.target.closest('[data-close]') || (e.target === dialog && downOnBackdrop)) {
+      dialog.close();
+      return;
+    }
     const version = e.target.closest('[data-version]');
     if (version) {
       const i = Number(version.dataset.version);
