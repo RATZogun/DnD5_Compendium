@@ -66,6 +66,7 @@ export const href = {
   race: (slug) => `#/especies/${encodeURIComponent(slug)}`,
   rules: (section) => (section ? `#/regras/${encodeURIComponent(section)}` : '#/regras'),
   rule: (id) => `#/regras/resumo?item=${encodeURIComponent(id)}`,
-  option: (slug) => `#/regras/opcoes?item=${encodeURIComponent(slug)}`,
+  options: (query) => withQuery('#/regras/opcoes', query),
+  option: (slug) => `#/regras/opcoes/${encodeURIComponent(slug)}`,
   scroll: () => '#/pergaminho',
 };

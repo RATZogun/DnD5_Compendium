@@ -12,6 +12,7 @@ import * as races from './views/races.js';
 import * as raceShow from './views/raceShow.js';
 import * as scroll from './views/scroll.js';
 import * as rules from './views/rules.js';
+import * as optionShow from './views/optionShow.js';
 import { initSpellPopup } from './components/spellPopup.js';
 import { initGlobalSearch } from './components/globalSearch.js';
 import * as home from './views/home.js';
@@ -31,6 +32,7 @@ route('/racas', 'races', races); // links antigos
 route('/racas/:slug', 'races', raceShow);
 route('/regras', 'rules', rules);
 route('/regras/:section', 'rules', rules);
+route('/regras/opcoes/:slug', 'rules', optionShow);
 route('/pergaminho', 'scroll', scroll);
 
 const app = document.getElementById('app');

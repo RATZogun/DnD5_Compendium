@@ -1,6 +1,6 @@
 import { html, raw, titleCase, nameMatcher, compareText, keepFocus, refreshList } from '../util.js';
 import { t, ordinal } from '../i18n.js';
-import { replaceQuery } from '../router.js';
+import { href, replaceQuery } from '../router.js';
 import { loadOptions } from '../data.js';
 import { pick, linkProseSpells } from './klassShow.js';
 import { icon } from '../icons.js';
@@ -18,9 +18,11 @@ const SORTS = {
   level: (a, b) => (a.level ?? 0) - (b.level ?? 0) || compareText(pick(a.name), pick(b.name)),
 };
 const SORT_LABEL = { az: 'list.sort.az', type: 'options.sort.type', level: 'options.sort.level' };
-const typeLabel = (k) => t(`options.type.${k}`);
+export const typeLabel = (k) => t(`options.type.${k}`);
+// última busca da lista (gravada a cada mudança), para o "Voltar aos resultados" da página da opção
+export const OPTIONS_BACK_KEY = 'optionsBack';
 const list = (v) => (v ? String(v).split(',').filter(Boolean) : []);
-const bookOf = (R, o) => {
+export const bookOf = (R, o) => {
   const s = pick(o.source);
   return s ? (R.sourceByAbbr.get(s.book)?.name ?? s.book) : '';
 };
@@ -34,12 +36,13 @@ function optionHtml(group, value, label, count, checked) {
 }
 
 // classe da opção, com a subclasse quando for de uma ("Guerreiro (Mestre de Batalha)", "Guerreiro, Paladino")
-function klassText(R, o) {
+export function klassText(R, o) {
   const names = o.classes.map((c) => titleCase(R.klassBySlug.get(c)?.name ?? c)).join(', ');
   const sub = o.subclass && R.specializations.find((x) => x.slug === o.subclass && x.klass_slug === o.classes[0]);
   return sub ? `${names} (${titleCase(sub.name)})` : names;
 }
 
+// ficha da opção; o card inteiro leva à página dela (como nas magias)
 function cardHtml(R, o) {
   const s = pick(o.source);
   const cell = (label, value) =>
@@ -48,7 +51,7 @@ function cardHtml(R, o) {
     <header class="sp-head">
       <span class="sp-school">${raw(classIcon(o.classes[0], 30))}</span>
       <div class="sp-title">
-        <div class="sp-name">${titleCase(pick(o.name))}</div>
+        <div class="sp-name"><a href="${href.option(o.slug)}">${titleCase(pick(o.name))}</a></div>
         <div class="sp-source">${titleCase(bookOf(R, o))}${s?.page ? ` · ${t('common.page')} ${s.page}` : ''}</div>
       </div>
       <span class="sp-badge">${typeLabel(o.type)}</span>
@@ -85,8 +88,9 @@ export async function renderOptions(container, { R, query, header }) {
   const klasses = [...new Set(options.flatMap((o) => o.classes))].sort((a, b) =>
     compareText(klassName(a), klassName(b)),
   );
-  let page = 1;
-  let perPage = 10;
+  // página e itens por página ficam no endereço, para o "voltar aos resultados" cair no mesmo lugar
+  let page = query.page > 0 ? query.page : 1;
+  let perPage = query.perPage > 0 ? query.perPage : 10;
   const matchers = () => ({
     name: st.name
       ? (
@@ -133,7 +137,14 @@ export async function renderOptions(container, { R, query, header }) {
       book: st.book.join(',') || null,
       sort: st.sort === 'az' ? null : st.sort,
       item: st.item || null,
+      page: page > 1 ? page : null,
+      perPage: perPage !== 10 ? perPage : null,
     });
+    try {
+      sessionStorage.setItem(OPTIONS_BACK_KEY, location.hash);
+    } catch {
+      // sem armazenamento: o voltar leva à lista sem filtros
+    }
   }
 
   function drawFacets() {
@@ -275,16 +286,19 @@ export async function renderOptions(container, { R, query, header }) {
     onPage: (p) => {
       page = p;
       keepFocus(rows, drawResults);
+      save();
       container.querySelector('.list-main').scrollIntoView({ block: 'start' });
     },
     onPerPage: (n) => {
       perPage = n;
       page = 1;
       keepFocus(rows, drawResults);
+      save();
     },
   });
 
   drawFacets();
   drawResults();
+  save();
   if (st.item) trackVisit('option', st.item);
 }
