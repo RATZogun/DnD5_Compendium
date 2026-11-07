@@ -42,22 +42,24 @@ npm install
 - Um hook de `pre-commit` (Husky + lint-staged) formata e corrige os arquivos alterados antes de cada commit.
 - O GitHub Actions roda as mesmas checagens em cada push e pull request para a `main`.
 
-## Estrutura
+## Estrutura do projeto
 
-- `index.html`, `css/`: página e estilos.
-- `js/app.js`: ponto de entrada e rotas por hash (funcionam no GitHub Pages sem configuração).
-- `js/i18n.js`: textos da interface nos dois idiomas.
-- `js/data.js`: carregamento dos dados e regras (conjuradores, nível máximo de magia).
-- `js/components/`: esqueleto das páginas de leitura, filtros laterais de magia, ficha de magia, busca global e
-  paginação.
-- `js/views/`: uma view por página.
-- `data/rules.pt.json` e `data/rules.en.json`: magias e resumo de classes e espécies, um arquivo por idioma.
-- `data/classes/` e `data/species/`: detalhes completos de cada classe e espécie, carregados sob demanda.
-- `data/quickref.json`: resumo de regras nos dois idiomas, com os ícones.
-- `data/options.json`: opções e recursos de classe.
-- `fonts/`: fontes servidas pelo próprio site e a licença delas.
-- `img/species/`: retratos das espécies (WebP, fundo transparente): o da ficha em 512 × 512 e, em `large/`, o
-  ampliado com o corpo todo, até 1024 px no lado maior.
+```
+DnD5_Compendium/
+├── index.html           # página única: navegação, conteúdo e rodapé
+├── css/                 # estilos por área (base e temas, listas, páginas de leitura, início)
+├── js/
+│   ├── app.js           # ponto de entrada e rotas por hash (funcionam no GitHub Pages sem configuração)
+│   ├── data.js          # carregamento dos dados e regras de conjuração
+│   ├── i18n.js          # textos da interface em português e inglês
+│   ├── components/      # esqueleto das páginas de leitura, filtros, fichas, busca global e paginação
+│   ├── views/           # uma view por página (listas, páginas de detalhe, regras, créditos)
+│   └── *.js             # filtros, links de regras, ícones, retratos e utilitários
+├── data/                # magias, classes, espécies, resumo de regras e opções (JSON, pt e en)
+├── img/species/         # retratos das espécies (ficha em 512 × 512 e ampliado em large/)
+├── fonts/               # fontes servidas pelo próprio site, com a licença OFL
+└── package.json         # ESLint, Prettier e scripts de checagem (rodam no CI e no pre-commit)
+```
 
 ## Créditos
 
