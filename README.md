@@ -1,6 +1,6 @@
 # DnD5 Compendium
 
-Compêndio pessoal de D&D 5e com magias, classes e espécies em português e inglês, inspirado no extinto
+Compêndio pessoal de D&D 5e com magias, classes, espécies e regras em português e inglês, inspirado no extinto
 **dnd5spells.rpgist.net**. É um site estático, sem backend nem etapa de build, que roda direto no navegador.
 
 Acesse em **[ratzogun.github.io/DnD5_Compendium](https://ratzogun.github.io/DnD5_Compendium/)**.
@@ -10,12 +10,18 @@ Acesse em **[ratzogun.github.io/DnD5_Compendium](https://ratzogun.github.io/DnD5
 - **Magias** (`#/magias`): 484 magias com filtros, ordenação, paginação e página própria para cada magia.
 - **Classes** (`#/classes`): 13 classes completas, com tabela de progressão e todas as características, e 108
   subclasses, cada uma com página própria.
-- **Espécies** (`#/especies`): 44 espécies com traços, sub-espécies e magias inatas.
+- **Espécies** (`#/especies`): 44 espécies com traços, sub-espécies, magias inatas e um retrato de cada uma, que
+  pode ser ampliado.
 - **Gerar Pergaminho** (`#/pergaminho`): sorteia uma magia de acordo com os filtros.
-- **Regras** (`#/regras`): Resumo de Regras (ações, condições, testes, cobertura, visão e luz, com ícones e a
-  página do livro) e Opções e Recursos (151 invocações, manobras, infusões, disciplinas e outras opções de
-  classe). Os termos de regra citados nas magias, classes e espécies levam ao resumo e mostram a ficha ao passar o
-  mouse.
+- **Regras** (`#/regras`):
+  - Resumo de Regras: 91 itens (ações, condições, testes, cobertura, visão e luz), com ícones e a página do livro.
+  - Opções e Recursos: 151 invocações, manobras, infusões, disciplinas e outras opções de classe, cada uma com
+    página própria.
+  - Os termos de regra citados nas magias, classes e espécies levam ao resumo e mostram a ficha ao passar o mouse.
+- **Busca global** (Ctrl+K ou `/`): encontra espécies, classes, subclasses, magias, regras e opções em qualquer
+  página.
+- **Vistos recentemente**: a tela inicial guarda as últimas páginas abertas.
+- **Créditos** (`#/creditos`): autores e licenças de tudo que vem de terceiros.
 - Interface em português e inglês, modo claro e escuro.
 
 Todo o conteúdo cita o livro e a página de origem.
@@ -41,6 +47,8 @@ npm install
 - `npm run format:check:json`: confere se todos os JSON (inclusive os de `data/`) estão formatados.
 - Um hook de `pre-commit` (Husky + lint-staged) formata e corrige os arquivos alterados antes de cada commit.
 - O GitHub Actions roda as mesmas checagens em cada push e pull request para a `main`.
+- Os JSON de `data/` são gerados por scripts mantidos fora do repositório, a partir das traduções e dos livros de
+  origem. Não edite os dados à mão: a próxima geração desfaz a mudança.
 
 ## Estrutura do projeto
 
