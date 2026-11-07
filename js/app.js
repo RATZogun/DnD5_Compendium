@@ -13,6 +13,7 @@ import * as raceShow from './views/raceShow.js';
 import * as scroll from './views/scroll.js';
 import * as rules from './views/rules.js';
 import * as optionShow from './views/optionShow.js';
+import * as credits from './views/credits.js';
 import { initSpellPopup } from './components/spellPopup.js';
 import { initGlobalSearch } from './components/globalSearch.js';
 import * as home from './views/home.js';
@@ -34,6 +35,7 @@ route('/regras', 'rules', rules);
 route('/regras/:section', 'rules', rules);
 route('/regras/opcoes/:slug', 'rules', optionShow);
 route('/pergaminho', 'scroll', scroll);
+route('/creditos', 'credits', credits);
 
 const app = document.getElementById('app');
 const navbar = document.querySelector('.navbar');
